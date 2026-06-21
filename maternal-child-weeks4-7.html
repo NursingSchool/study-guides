@@ -1,0 +1,768 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NCLEX Quiz — Maternal-Child (Weeks 4-7)</title>
+<style>
+  :root{
+    --bg:#0f172a; --card:#1e293b; --card2:#273449; --ink:#e2e8f0; --muted:#94a3b8;
+    --line:#334155; --accent:#2dd4bf; --accent2:#14b8a6; --good:#22c55e; --bad:#f87171;
+    --goodbg:#0c2a1a; --badbg:#2a1414; --chip:#0b3b3b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.55 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:780px;margin:0 auto;padding:20px 16px 80px}
+  header{display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
+  h1{font-size:20px;margin:0;letter-spacing:.2px}
+  .sub{color:var(--muted);font-size:13px}
+  .bar{height:8px;background:var(--card);border-radius:999px;overflow:hidden;margin-top:6px}
+  .fill{height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .3s}
+  .meta{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);margin-top:6px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-top:14px}
+  .topic{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.6px;
+    color:var(--accent);background:var(--chip);padding:3px 9px;border-radius:999px;margin-bottom:10px}
+  .stem{font-size:17px;margin:2px 0 14px;white-space:pre-wrap}
+  .opts{display:flex;flex-direction:column;gap:9px}
+  .opt{display:flex;gap:10px;align-items:flex-start;background:var(--card2);border:1px solid var(--line);
+    border-radius:10px;padding:11px 12px;cursor:pointer;transition:border-color .15s,background .15s}
+  .opt:hover{border-color:var(--accent2)}
+  .opt input{margin-top:3px;accent-color:var(--accent);width:17px;height:17px;flex:0 0 auto}
+  .opt.sel{border-color:var(--accent);background:#22323f}
+  .opt.right{border-color:var(--good);background:var(--goodbg)}
+  .opt.wrong{border-color:var(--bad);background:var(--badbg)}
+  .opt .tag{margin-left:auto;font-size:12px;font-weight:600;white-space:nowrap}
+  .opt .tag.r{color:var(--good)} .opt .tag.w{color:var(--bad)}
+  .row{display:flex;gap:10px;align-items:center;background:var(--card2);border:1px solid var(--line);
+    border-radius:10px;padding:10px 12px;margin-bottom:8px;flex-wrap:wrap}
+  .row .lab{flex:1 1 230px}
+  select,input[type=text]{background:#0b1220;color:var(--ink);border:1px solid var(--line);
+    border-radius:8px;padding:8px 10px;font-size:15px;max-width:100%}
+  select:focus,input:focus{outline:2px solid var(--accent2)}
+  select.right,input.right{border-color:var(--good)} select.wrong,input.wrong{border-color:var(--bad)}
+  .grp{margin:10px 0;padding:10px;border:1px dashed var(--line);border-radius:10px}
+  .grp h4{margin:0 0 8px;font-size:13px;color:var(--accent);text-transform:uppercase;letter-spacing:.5px}
+  .btn{appearance:none;border:0;border-radius:10px;padding:12px 18px;font-size:15px;font-weight:600;
+    cursor:pointer;background:var(--accent2);color:#04201d}
+  .btn:disabled{opacity:.4;cursor:not-allowed}
+  .btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent2)}
+  .actions{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+  .fb{margin-top:14px;border-radius:12px;padding:14px;border:1px solid var(--line);display:none}
+  .fb.show{display:block}
+  .fb.ok{background:var(--goodbg);border-color:#1f5135}
+  .fb.no{background:var(--badbg);border-color:#5b2626}
+  .fb .verdict{font-weight:700;font-size:15px;margin-bottom:6px}
+  .fb .verdict.ok{color:var(--good)} .fb .verdict.no{color:var(--bad)}
+  .fb p{margin:6px 0}
+  .fb .lblrow{font-size:12px;color:var(--muted);margin-top:8px}
+  .fb .strat{font-style:italic;color:#cbd5e1}
+  .hint{font-size:12px;color:var(--muted);margin:-4px 0 10px}
+  .end{text-align:center;padding:24px 8px}
+  .score{font-size:46px;font-weight:800;color:var(--accent)}
+  .endsub{color:var(--muted);margin-top:6px}
+  table.brk{width:100%;border-collapse:collapse;margin-top:18px;font-size:13px}
+  table.brk td{border-top:1px solid var(--line);padding:7px 6px;text-align:left}
+  table.brk td:last-child{text-align:right;color:var(--muted)}
+  .miss{text-align:left;margin-top:18px;font-size:13px;color:var(--muted)}
+  .footnote{font-size:11px;color:var(--muted);margin-top:24px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>NCLEX Practice — Maternal-Child Nursing</h1>
+    <div class="sub">Weeks 4-7 · Intrapartum · Postpartum · Newborn · High-Risk Newborn · 100 items · NGN-style</div>
+    <div class="bar"><div class="fill" id="fill"></div></div>
+    <div class="meta"><span id="pos">Question 1 of 50</span><span id="sc">Score 0 / 0</span></div>
+  </header>
+  <div id="app"></div>
+</div>
+<script>
+const Q = [
+{n:1,topic:"Stages of Labor",type:"radio",cat:"Health Promotion & Maintenance",lvl:"Application",
+ stem:"A nurse is admitting a client at 39 weeks gestation who reports contractions. Which finding most reliably indicates the client is in true labor?",
+ opts:["Contractions felt in the lower abdomen that ease with a warm bath","Progressive cervical dilation and effacement on serial exams","Irregular contractions occurring every 10 to 20 minutes","Increased fetal movement reported over the past hour"],ans:1,
+ rat:"Progressive cervical dilation and effacement is the only definitive sign of true labor. Relief with comfort measures and irregular timing describe false labor; fetal movement is a sign of well-being, not labor.",
+ strat:"True labor = cervical change. Anything relieved by rest or water is false labor."},
+{n:2,topic:"Stages of Labor",type:"radio",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"A client is 8 cm dilated, 100% effaced, contractions every 2-3 min lasting 60-90 sec. She is irritable, nauseated, and does not want to talk. Which phase and stage?",
+ opts:["Stage 1, latent phase","Stage 1, active phase","Stage 1, transitional phase","Stage 2"],ans:2,
+ rat:"8-10 cm with 60-90 sec contractions and an irritable, nauseated, withdrawn client is the transitional phase of stage 1. Active is 4-7 cm; latent 0-3 cm; stage 2 begins at full (10 cm) dilation with pushing.",
+ strat:"Match the cervical number to the phase first, then confirm with behavior."},
+{n:3,topic:"Stages of Labor",type:"radio",cat:"Management of Care",lvl:"Application",
+ stem:"Immediately after the fetal head is delivered, what is the nurse's highest priority action?",
+ opts:["Administer the antibiotic eye ointment","Auscultate the apical pulse for the 1-minute Apgar","Establish the newborn's airway by suctioning the mouth, then nose","Clamp and cut the umbilical cord"],ans:2,
+ rat:"Airway is always the newborn priority (ABCs). Eye ointment and cord care can wait; the 1-minute Apgar is scored at 1 minute, not within the first seconds of stabilization.",
+ strat:"ABCs outrank everything; airway before assessment scores."},
+{n:4,topic:"Stages of Labor",type:"radio",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"The placenta has not delivered 35 minutes after the birth of the newborn. The nurse recognizes this as which finding?",
+ opts:["An expected third stage of labor","A retained placenta requiring intervention","Uterine inversion","Normal for a multiparous client"],ans:1,
+ rat:"A placenta not delivered within 30 minutes is retained and needs manual or surgical removal. Third stage normally takes 5-10 min. Inversion is the uterus turning inside out.",
+ strat:"Memorize the 30-minute retained-placenta threshold."},
+{n:5,topic:"Stages of Labor",type:"multi",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"Select all signs that indicate the placenta is separating and ready to deliver.",
+ opts:["A sudden gush of blood from the vagina","Lengthening of the umbilical cord","The uterus becoming soft and boggy","A change in the shape of the uterus","The fundus rising upward in the abdomen"],ans:[0,1,3,4],
+ rat:"Separation signs: gush of blood, cord lengthening, change in uterine shape, fundus rising. A soft, boggy uterus is atony (a hemorrhage sign), not normal separation.",
+ strat:"Judge each option independently; 'boggy' is never a good word postpartum."},
+{n:6,topic:"Fetal Monitoring",type:"radio",cat:"Reduction of Risk Potential",lvl:"Analysis",
+ stem:"The monitor shows a gradual decrease in FHR beginning after the peak of the contraction and returning to baseline after the contraction ends. Priority action?",
+ opts:["Document the early decelerations as normal","Reposition to left lateral and notify the provider","Prepare for immediate vaginal delivery","Increase the oxytocin infusion rate"],ans:1,
+ rat:"A gradual decel starting after the peak and recovering after the contraction is a LATE deceleration (uteroplacental insufficiency): reposition left lateral, IV fluids, oxygen, notify provider. It is not early (head compression).",
+ strat:"Timing names the deceleration; 'late' = placenta = act."},
+{n:7,topic:"Fetal Monitoring",type:"radio",cat:"Reduction of Risk Potential",lvl:"Application",
+ stem:"Using VEAL CHOP, which deceleration pattern is caused by umbilical cord compression?",
+ opts:["Early deceleration","Late deceleration","Variable deceleration","Prolonged acceleration"],ans:2,
+ rat:"VEAL CHOP: Variable = Cord compression; Early = Head compression; Acceleration = OK; Late = Placenta.",
+ strat:"Variable and Cord both squeeze the cord — link them."},
+{n:8,topic:"Fetal Monitoring",type:"radio",cat:"Reduction of Risk Potential",lvl:"Application",
+ stem:"Which single EFM finding is the best indicator that the fetus is adequately oxygenated?",
+ opts:["A baseline rate of 140 bpm","Moderate baseline variability (6 to 25 bpm)","The absence of accelerations","Early decelerations with contractions"],ans:1,
+ rat:"Moderate variability is the single best indicator of adequate oxygenation and an intact CNS. Baseline rate, absent accelerations, and early decels do not confirm oxygenation as reliably.",
+ strat:"Variability is king; absent variability is the red flag."},
+{n:9,topic:"Fetal Monitoring",type:"multi",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"A tracing shows baseline 100 bpm, absent variability, and recurrent late decelerations. Select all appropriate actions.",
+ opts:["Reposition the client to a lateral position","Discontinue an infusing oxytocin","Administer supplemental oxygen","Increase the rate of the maintenance IV fluid","Document as Category I and continue routine monitoring"],ans:[0,1,2,3],
+ rat:"This is Category III (abnormal): intrauterine resuscitation = reposition, stop oxytocin, oxygen, increase maintenance IV fluids. It is not Category I.",
+ strat:"Category III triggers the full resuscitation bundle, not routine monitoring."},
+{n:10,topic:"Fetal Monitoring",type:"cloze",cat:"Reduction of Risk Potential",lvl:"Application",
+ stem:"Complete the statement.\nThe normal FHR baseline is [1]. Minimal variability may be caused by [2], while marked variability may be caused by [3].",
+ blanks:[
+   {label:"[1] Normal baseline",opts:["90 to 110 bpm","110 to 160 bpm","120 to 180 bpm"],a:1},
+   {label:"[2] Minimal variability",opts:["maternal fever","a fetal sleep cycle or opioid analgesics","maternal cocaine use"],a:1},
+   {label:"[3] Marked variability",opts:["fetal sleep","maternal stimulant or cocaine use","absent neuro function"],a:1}],
+ rat:"Normal baseline 110-160 bpm. Minimal variability: fetal sleep or CNS depressants (opioids). Marked variability: maternal stimulant/cocaine use.",
+ strat:"Sleep/opioids dampen variability; stimulants exaggerate it."},
+{n:11,topic:"Pain & Labor",type:"radio",cat:"Pharmacological & Parenteral Therapies",lvl:"Application",
+ stem:"Ten minutes after an epidural, maternal BP is 88/52 and the tracing shows a prolonged deceleration. Priority intervention?",
+ opts:["Position the client supine and elevate the head of the bed","Reposition to left lateral, increase the IV fluid bolus, and apply oxygen","Remove the epidural catheter immediately","Prepare for an emergency cesarean birth"],ans:1,
+ rat:"Epidural causes vasodilation and maternal hypotension, reducing placental perfusion. Treat with left lateral position, IV fluid bolus, and oxygen. Supine worsens vena cava compression; the catheter is not removed; cesarean is premature.",
+ strat:"Epidural + hypotension = fluids, side-lying, oxygen first."},
+{n:12,topic:"Pain & Labor",type:"multi",cat:"Pharmacological & Parenteral Therapies",lvl:"Application",
+ stem:"A nurse administers an opioid analgesic (nalbuphine) to a laboring client. Select all priority assessments related to this medication.",
+ opts:["Maternal respiratory rate and sedation level","Fetal heart rate variability","Maternal deep tendon reflexes","Newborn respiratory effort at delivery","Maternal cervical dilation rate"],ans:[0,1,3],
+ rat:"Opioids cross the placenta: watch maternal sedation/respirations, decreased FHR variability, and newborn respiratory depression. DTRs relate to magnesium; dilation rate is not a drug effect.",
+ strat:"Opioid worries = breathing (mom and baby) plus FHR variability."},
+{n:13,topic:"Intrapartum Complications",type:"radio",cat:"Safety & Infection Prevention and Control",lvl:"Application",
+ stem:"Membranes rupture with the fetus at -1 station. The FHR immediately drops to 80 bpm. Priority action?",
+ opts:["Increase the oxytocin to speed delivery","Place a sterile gloved hand in the vagina to lift the presenting part off the cord and position the client knee-chest","Document and reassess in 15 minutes","Administer an opioid analgesic"],ans:1,
+ rat:"Rupture with an unengaged presenting part plus sudden bradycardia signals cord prolapse. Lift the presenting part off the cord and place knee-chest to relieve compression.",
+ strat:"Ruptured membranes + sudden bradycardia = prolapse; relieve pressure now."},
+{n:14,topic:"Intrapartum Complications",type:"radio",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"During delivery the fetal head retracts tightly against the perineum (turtle sign) and the shoulders do not deliver. First maneuver?",
+ opts:["Apply fundal pressure","Flex the client's knees sharply toward her shoulders (McRobert's maneuver)","Place the client flat and prepare for cesarean","Pull firmly on the fetal head"],ans:1,
+ rat:"Turtle sign indicates shoulder dystocia. McRobert's (knees to shoulders) plus suprapubic pressure is first-line. Fundal pressure and pulling the head worsen impaction and risk injury.",
+ strat:"Shoulder dystocia = McRobert's + suprapubic, never fundal pressure."},
+{n:15,topic:"Intrapartum Complications",type:"radio",cat:"Pharmacological & Parenteral Therapies",lvl:"Application",
+ stem:"A client on oxytocin has contractions every 90 seconds lasting 2 minutes with a rising resting tone and late decelerations. First action?",
+ opts:["Increase the oxytocin rate","Stop the oxytocin infusion","Encourage the client to push","Document as expected active labor"],ans:1,
+ rat:"Frequent prolonged contractions, rising resting tone, and late decels = tachysystole with fetal compromise. Stop the oxytocin first.",
+ strat:"Oxytocin + tachysystole or late decels = turn it off first."},
+{n:16,topic:"Intrapartum Complications",type:"radio",cat:"Pharmacological & Parenteral Therapies",lvl:"Application",
+ stem:"A client at 30 weeks in preterm labor is prescribed betamethasone. The nurse explains this is given primarily to:",
+ opts:["Stop the uterine contractions","Accelerate fetal lung maturity","Treat a maternal infection","Lower the maternal blood pressure"],ans:1,
+ rat:"Betamethasone (or dexamethasone) accelerates fetal lung maturity to reduce respiratory distress syndrome. Tocolytics stop contractions; it is not an antibiotic or antihypertensive.",
+ strat:"Antenatal steroids = fetal lungs."},
+{n:17,topic:"Intrapartum Complications",type:"radio",cat:"Pharmacological & Parenteral Therapies",lvl:"Analysis",
+ stem:"A client receiving magnesium sulfate becomes lethargic with diminished deep tendon reflexes and a respiratory rate of 10. The nurse recognizes:",
+ opts:["An expected therapeutic response","Signs of magnesium toxicity","Onset of eclampsia","A normal sedative effect of labor"],ans:1,
+ rat:"Lethargy, diminished DTRs, and RR of 10 are magnesium toxicity (CNS and respiratory depression). Not therapeutic or normal; eclampsia presents with seizures.",
+ strat:"Mag toxicity = lose reflexes, then respirations; watch DTRs and RR."},
+{n:18,topic:"Intrapartum Complications",type:"matrix",cat:"Safety & Infection Prevention and Control",lvl:"Analysis",
+ stem:"Membranes ruptured 26 hours ago at 39 weeks. Classify each finding.",
+ cols:["Expected","Reportable"],
+ rows:[{t:"Clear, odorless amniotic fluid",a:0},{t:"Maternal temperature 38.4°C (101.1°F)",a:1},
+   {t:"Foul-smelling vaginal drainage",a:1},{t:"Maternal heart rate 88 bpm",a:0},
+   {t:"Fetal heart rate baseline 175 bpm",a:1}],
+ rat:"After prolonged rupture, infection is the concern. Clear odorless fluid and HR 88 are expected. Fever 38.4°C, foul drainage, and fetal tachycardia 175 suggest intrauterine infection (chorioamnionitis/triple I).",
+ strat:"After ROM: fever + foul fluid + fetal tachycardia = infection; report."},
+{n:19,topic:"Induction & Operative",type:"radio",cat:"Pharmacological & Parenteral Therapies",lvl:"Analysis",
+ stem:"A client at 40 weeks is admitted for induction: 0 cm, 50% effaced, -2 station, Bishop score 2, allergic to misoprostol. Which agent does the nurse anticipate?",
+ opts:["Oxytocin infusion","Amniotomy","Dinoprostone (prostaglandin E2)","Misoprostol"],ans:2,
+ rat:"An unfavorable cervix (Bishop 2) needs ripening before oxytocin; dinoprostone (PGE2) is appropriate, especially with a misoprostol allergy. Amniotomy commits to delivery and is contraindicated here.",
+ strat:"Low Bishop = ripen first; oxytocin only when the cervix is favorable."},
+{n:20,topic:"Induction & Operative",type:"multi",cat:"Pharmacological & Parenteral Therapies",lvl:"Application",
+ stem:"Select all potential adverse effects the nurse monitors for during an oxytocin infusion.",
+ opts:["Uterine tachysystole","Maternal hypertension","Decreased urine output (water intoxication)","Maternal bradycardia","Fetal distress"],ans:[0,1,2,4],
+ rat:"Oxytocin risks: tachysystole, hypertension, water intoxication (decreased urine output), fetal distress. Maternal bradycardia is not associated.",
+ strat:"Oxytocin pushes the uterus and BP up and urine output down; bradycardia does not fit."},
+{n:21,topic:"Induction & Operative",type:"radio",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"A client had a previous classical (vertical) uterine incision and asks about a vaginal birth this time. The nurse's response is based on which understanding?",
+ opts:["VBAC is encouraged because it has fewer complications","A classical incision carries the highest risk of uterine rupture, so VBAC is generally not attempted","The type of prior incision does not affect delivery method","A repeat cesarean is never required"],ans:1,
+ rat:"A classical incision carries the highest rupture risk and generally eliminates VBAC as an option. Incision type strongly affects delivery planning.",
+ strat:"Classical incision = no VBAC; low transverse keeps VBAC possible."},
+{n:22,topic:"Induction & Operative",type:"radio",cat:"Reduction of Risk Potential",lvl:"Application",
+ stem:"A nurse is assisting with an amniotomy. Immediately after the membranes are ruptured, the priority assessment is:",
+ opts:["Maternal temperature","The fetal heart rate pattern","Maternal blood pressure","The color of the client's urine"],ans:1,
+ rat:"After amniotomy the priority is the FHR, because the fluid gush can carry the cord ahead of the presenting part (prolapse). Temperature and fluid color are assessed but not the immediate priority.",
+ strat:"Any rupture event = check the FHR for prolapse first."},
+{n:23,topic:"Postpartum Assessment",type:"radio",cat:"Reduction of Risk Potential",lvl:"Application",
+ stem:"Two hours after a vaginal birth, the fundus is boggy, above the umbilicus, and deviated to the right. What does the nurse do first?",
+ opts:["Notify the provider for an oxytocic order","Assist the client to empty her bladder, then reassess","Begin a rapid IV fluid bolus","Document as a normal finding"],ans:1,
+ rat:"A boggy, elevated, laterally displaced fundus points to a full bladder impeding contraction. Have her void (or catheterize), then reassess; massage if still boggy.",
+ strat:"Boggy + displaced + high = bladder; empty it first."},
+{n:24,topic:"Postpartum Assessment",type:"radio",cat:"Pharmacological & Parenteral Therapies",lvl:"Application",
+ stem:"An Rh-negative client delivered an Rh-positive newborn. The nurse plans to administer RhoGAM:",
+ opts:["Subcutaneously before discharge regardless of newborn blood type","Intramuscularly within 72 hours of delivery","Only if the mother is rubella non-immune","Orally on postpartum day 1"],ans:1,
+ rat:"RhoGAM is given IM within 72 hours of delivery to an Rh-negative mother who delivered an Rh-positive newborn. Rubella vaccine (subcutaneous) is the one tied to immune status.",
+ strat:"RhoGAM = Rh-negative mom, Rh-positive baby, IM, within 72 hours."},
+{n:25,topic:"Postpartum Assessment",type:"radio",cat:"Health Promotion & Maintenance",lvl:"Application",
+ stem:"A client is 36 hours postpartum. The nurse documents the expected lochia as:",
+ opts:["Bright red with small clots (rubra)","Pink to brownish, decreasing (serosa)","White to cream colored (alba)","Absent"],ans:0,
+ rat:"At 36 hours (day 1-3), lochia rubra is expected. Serosa begins ~day 4-10; alba day 10-14+; absent lochia is abnormal this early.",
+ strat:"Rubra days 1-3, serosa 4-10, alba 10-14+."},
+{n:26,topic:"Postpartum Assessment",type:"multi",cat:"Reduction of Risk Potential",lvl:"Analysis",
+ stem:"Review the postpartum note and select ALL findings the nurse should report.",
+ opts:["Fundus firm, midline, 1 cm below umbilicus","Lochia saturating one pad every 30 minutes","Perineum with mild edema, sutures approximated","Temperature 37.1°C","Calf nontender bilaterally","Gush of lochia when standing","Voided 350 mL"],ans:[1],
+ rat:"One pad saturated every 30 minutes is excessive and the only reportable finding. A firm fundus, approximated sutures, normal temp, nontender calves, a standing gush, and a 350 mL void are all expected.",
+ strat:"A pad soaked in 30 minutes or less is the red flag; a standing gush is normal."},
+{n:27,topic:"Postpartum Complications",type:"radio",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"A client who delivered 45 minutes ago saturates a peri-pad within 15 minutes, with a boggy fundus and heavy bright-red lochia. First action?",
+ opts:["Notify the provider","Massage the fundus until firm","Start a second large-bore IV","Insert an indwelling catheter"],ans:1,
+ rat:"For uterine atony, the first action is fundal massage to firm the uterus and stop the source. Notify, second IV, and catheter follow if massage and bladder emptying do not resolve it.",
+ strat:"Atony bleeding = massage first; it is the fastest source control."},
+{n:28,topic:"Postpartum Complications",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"A postpartum fundus is firm and midline, but the nurse observes a steady trickle of bright-red blood. This most likely indicates:",
+ opts:["Uterine atony","Normal lochia","A genital tract laceration","A full bladder"],ans:2,
+ rat:"A firm, midline fundus with continued bright-red bleeding points to a genital tract laceration; notify the provider for repair. Atony produces a boggy uterus.",
+ strat:"Firm fundus + still bleeding = think laceration."},
+{n:29,topic:"Postpartum Complications",type:"multi",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"Select all findings that suggest endometritis in a postpartum client.",
+ opts:["Temperature 38.6°C on postpartum day 3","Foul-smelling, purulent lochia","Uterine tenderness","Lochia that lightens and decreases each day","Chills and tachycardia"],ans:[0,1,2,4],
+ rat:"Endometritis: fever after 24 hours (often day 3), foul purulent lochia, uterine tenderness, chills, tachycardia. Lochia that lightens and decreases is normal healing.",
+ strat:"Infection = fever + foul lochia + tender uterus; normal lochia trends lighter."},
+{n:30,topic:"Postpartum Complications",type:"radio",cat:"Reduction of Risk Potential",lvl:"Application",
+ stem:"A postpartum client reports unilateral calf swelling, warmth, and tenderness. Priority action?",
+ opts:["Vigorously massage the calf to improve circulation","Notify the provider and maintain the client on bed rest pending evaluation","Apply cold packs and encourage ambulation","Document as an expected postpartum finding"],ans:1,
+ rat:"Unilateral calf swelling, warmth, and tenderness suggest DVT. Notify the provider and keep the client on bed rest to avoid dislodging an embolus. Never massage a suspected DVT.",
+ strat:"Suspected DVT = do not massage, do not ambulate; report and rest."},
+{n:31,topic:"Postpartum Complications",type:"radio",cat:"Psychosocial Integrity",lvl:"Analysis",
+ stem:"Which postpartum client statement requires the nurse to act most urgently?",
+ opts:["\"I feel weepy and emotional but still enjoy my baby.\"","\"I have some cramping when I breastfeed.\"","\"I keep thinking about hurting myself and the baby.\"","\"I am exhausted and want to sleep when the baby sleeps.\""],ans:2,
+ rat:"Thoughts of harming self or the baby are an emergency (postpartum depression/psychosis) requiring immediate action. Weepiness with retained enjoyment is baby blues; cramping and fatigue are normal.",
+ strat:"Any self-harm or harm-to-baby statement jumps to the top of the priority list."},
+{n:32,topic:"Postpartum Teaching",type:"cloze",cat:"Health Promotion & Maintenance",lvl:"Application",
+ stem:"Complete using the POST-BIRTH warning signs.\nA postpartum client should call 911 for [1], and call her provider for [2].",
+ blanks:[
+   {label:"[1] Call 911",opts:["mild afterpains","chest pain or trouble breathing","decreasing lochia"],a:1},
+   {label:"[2] Call provider",opts:["a temperature of 100.4°F or higher","normal baby blues","a firm fundus"],a:0}],
+ rat:"Chest pain or trouble breathing warrants 911 (possible PE/cardiac). A temperature of 100.4°F or higher is a provider call (infection).",
+ strat:"Breathing/chest/seizure = 911; fever/incision/leg = call provider."},
+{n:33,topic:"Breastfeeding",type:"radio",cat:"Health Promotion & Maintenance",lvl:"Application",
+ stem:"A breastfeeding mother on day 4 worries her baby is not getting enough milk. Which finding best reassures the nurse that intake is adequate?",
+ opts:["The infant sleeps 5 hours between feedings","Six or more wet diapers per day and audible swallowing during feeds","The mother's breasts feel full before feeding","The infant feeds for 5 minutes per session"],ans:1,
+ rat:"Six or more wet diapers per day plus audible swallowing confirm adequate intake. Long sleep stretches, pre-feed fullness, and brief feeds do not confirm intake.",
+ strat:"Output (wet diapers) and swallowing are the objective proof of intake."},
+{n:34,topic:"Breastfeeding",type:"radio",cat:"Health Promotion & Maintenance",lvl:"Application",
+ stem:"At 72 hours postpartum a client's breasts are hard, warm, taut, and painful bilaterally. What does the nurse teach?",
+ opts:["Stop breastfeeding until the swelling resolves","Apply warm compresses before feeding, nurse frequently, and use cold packs after feeding","Pump and discard all milk for 24 hours","Restrict fluids to reduce milk production"],ans:1,
+ rat:"Bilateral hard, taut, painful breasts at 72-96 hours is engorgement: warm before feeding to soften and trigger let-down, nurse frequently to empty, cold packs after to slow refilling.",
+ strat:"Engorgement = warm before, cold after, keep emptying."},
+{n:35,topic:"Breastfeeding",type:"radio",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"A breastfeeding client develops fever, chills, body aches, and a red, warm, painful wedge-shaped area on one breast at week 3. The nurse teaches the client to:",
+ opts:["Stop breastfeeding on both breasts permanently","Continue emptying the breast by feeding or pumping and take prescribed antibiotics","Bind the breasts tightly and apply ice only","Wait to seek care until the abscess forms"],ans:1,
+ rat:"Mastitis (unilateral, wedge-shaped, flu-like): continue emptying the breast and take antibiotics. Stopping promotes stasis and abscess. The infant may still feed unless an abscess develops.",
+ strat:"Mastitis = keep the milk moving plus antibiotics; do not wean."},
+{n:36,topic:"Breastfeeding",type:"multi",cat:"Health Promotion & Maintenance",lvl:"Application",
+ stem:"Select all CORRECT instructions for breast milk storage.",
+ opts:["Use milk left at room temperature within about 4 hours","Refrigerate at under 4°C for up to about 72 hours (optimal)","Freeze at under -18°C for up to 6 months","Thaw and warm milk in the microwave","Refreeze any thawed milk that was not used"],ans:[0,1,2],
+ rat:"Room temp ~4 hours, refrigerate ~72 hours (optimal), freeze up to 6 months. Never microwave (uneven heating) and never refreeze thawed milk.",
+ strat:"Microwave and refreeze are always wrong for breast milk."},
+{n:37,topic:"Family Planning",type:"multi",cat:"Pharmacological & Parenteral Therapies",lvl:"Application",
+ stem:"Select all client histories that are contraindications to combined (estrogen-containing) oral contraceptives.",
+ opts:["History of blood clots","Uncontrolled hypertension","Migraine headaches","History of a prior cesarean birth","Breast cancer"],ans:[0,1,2,4],
+ rat:"Estrogen-containing contraceptives are contraindicated with blood clots, uncontrolled hypertension, migraines, and breast cancer (also stroke, vascular diabetes, smokers over 35). A prior cesarean is not a contraindication.",
+ strat:"Estrogen + clot/stroke history = no; the cesarean distractor is the trap."},
+{n:38,topic:"Family Planning",type:"radio",cat:"Pharmacological & Parenteral Therapies",lvl:"Application",
+ stem:"A client wants long-acting reversible contraception but cannot use estrogen, with no history of pelvic infection or ectopic pregnancy. Which fits, and what teaching applies?",
+ opts:["Combined oral contraceptive pills; take at the same time daily","Levonorgestrel or copper IUD; continuous, highly effective, no estrogen","Transdermal patch; less effective over 198 lbs","Contraceptive vaginal ring; remove for one week each month"],ans:1,
+ rat:"Copper or levonorgestrel IUDs provide continuous, highly effective contraception without estrogen. The patch, ring, and combined pills all contain estrogen.",
+ strat:"'No estrogen' plus 'long-acting' points to IUD or implant."},
+{n:39,topic:"Newborn Care",type:"radio",cat:"Reduction of Risk Potential",lvl:"Analysis",
+ stem:"A newborn at 1 minute: heart rate 110, slow irregular respirations with a weak cry, some flexion, grimace to stimulation, pink body with blue extremities. Apgar score?",
+ opts:["4","5","6","8"],ans:2,
+ rat:"HR >100 = 2; slow/irregular weak cry = 1; some flexion = 1; grimace = 1; acrocyanosis = 1. Total = 6 (moderate difficulty, needs intervention/repeat).",
+ strat:"Score each of the 5 categories 0-2; acrocyanosis is always 1, never 2."},
+{n:40,topic:"Newborn Care",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"Trend — a newborn's axillary temperatures: 36.6°C at birth, 36.2°C at 30 min, 35.9°C at 60 min, with new jitteriness and poor feeding. Interpretation and priority?",
+ opts:["Stable thermoregulation; continue routine care","Progressive hypothermia with likely hypoglycemia; warm the newborn and check blood glucose","Expected cooling; delay intervention","Fever trend; obtain a sepsis workup"],ans:1,
+ rat:"Falling temperatures with jitteriness and poor feeding show progressive hypothermia driving hypoglycemia. Warm the newborn and check blood glucose.",
+ strat:"In newborns, cold leads to low sugar; treat both together."},
+{n:41,topic:"Newborn Care",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"A newborn develops visible jaundice of the face and chest at 18 hours of life. How does the nurse interpret this?",
+ opts:["Physiologic and expected, requiring no follow-up","Non-physiologic (pathologic) because it appeared within the first 24 hours and must be reported","Normal because jaundice always begins at the feet","A sign of adequate hydration"],ans:1,
+ rat:"Jaundice within the first 24 hours is non-physiologic (pathologic) and must be reported. Physiologic jaundice appears after 24 hours and progresses head-to-toe.",
+ strat:"Timing is the differentiator; under 24 hours = pathologic = report."},
+{n:42,topic:"Newborn Care",type:"match",cat:"Health Promotion & Maintenance",lvl:"Application",
+ stem:"Match each newborn reflex to how it is elicited.",
+ shared:["Stroke the cheek or side of the mouth","A sudden noise or movement","Stroke the heel upward to the outer toes","Turn the head to one side"],
+ rows:[{t:"Rooting",a:0},{t:"Moro / startle",a:1},{t:"Babinski",a:2},{t:"Tonic neck",a:3}],
+ rat:"Rooting = stroke cheek/mouth; Moro = sudden noise or movement; Babinski = stroke heel upward to outer toes (toes fan); Tonic neck = turn head to one side (fencing posture).",
+ strat:"Babinski involves the sole; tonic neck involves the head turn."},
+{n:43,topic:"Newborn Care",type:"radio",cat:"Pharmacological & Parenteral Therapies",lvl:"Application",
+ stem:"The nurse prepares to administer vitamin K to a newborn. Which statement reflects correct knowledge?",
+ opts:["It is given to vaccinate against bacterial infection","It prevents vitamin K deficiency bleeding because the newborn gut is sterile; given IM in the vastus lateralis","It is given subcutaneously into the deltoid","It aids digestion of formula"],ans:1,
+ rat:"Vitamin K prevents vitamin K deficiency bleeding (VKDB) because the newborn gut is sterile and cannot yet synthesize it; given IM in the vastus lateralis. It is not a vaccine.",
+ strat:"Vitamin K = bleeding prevention, IM, vastus lateralis."},
+{n:44,topic:"Newborn Nutrition",type:"calc",cat:"Basic Care & Comfort",lvl:"Application",
+ stem:"A term newborn's birth weight is 3,400 g. On day 3 the weight is 3,100 g. Enter the percentage of weight loss (nearest whole percent).",
+ acceptLo:8.5,acceptHi:9.4,answer:"9% (8.8%)",
+ rat:"3,400 − 3,100 = 300 g lost. 300 ÷ 3,400 × 100 = 8.8% ≈ 9%. A loss over 7% in the first days requires evaluation.",
+ strat:"Weight lost ÷ birth weight × 100; flag if it crosses the 7% threshold early."},
+{n:45,topic:"Case: PP Hemorrhage",type:"multi",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"CASE (1/6) Recognize cues. A 29-y/o G3P3 delivered a 4,200 g newborn vaginally after a 16-hr oxytocin induction; placenta intact at 8 min; now 40 min postpartum.\nSelect ALL concerning findings.",
+ opts:["Fundus boggy, 2 cm above umbilicus, deviated right","Lochia rubra, one pad saturated in 15 min with clots","BP 108/64","HR 96","Perineum intact, sutures approximated","Reports feeling lightheaded","Has not voided since delivery"],ans:[0,1,5,6],
+ rat:"A boggy, elevated, displaced fundus, a pad saturated in 15 minutes, lightheadedness, and no voiding are abnormal. BP 108/64, HR 96, and an intact perineum are within normal limits.",
+ strat:"Gather the deviations from normal before deciding what they mean."},
+{n:46,topic:"Case: PP Hemorrhage",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"CASE (2/6) Analyze cues. Which factor most likely explains the boggy, displaced uterus and bleeding?",
+ opts:["A genital tract laceration","Uterine atony, with a contributing full bladder, after an overdistended uterus and prolonged oxytocin","Retained placenta","Normal involution"],ans:1,
+ rat:"Macrosomia (4,200 g) overdistention + prolonged oxytocin + a full bladder (no void, displaced uterus) point to uterine atony. Perineum is intact (not laceration); placenta was intact (not retained).",
+ strat:"Connect the history (big baby, long oxytocin) to the mechanism (atony)."},
+{n:47,topic:"Case: PP Hemorrhage",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"CASE (3/6) Prioritize hypotheses. Which complication is the highest immediate risk if bleeding continues unaddressed?",
+ opts:["Endometritis","Deep vein thrombosis","Hypovolemic shock","Mastitis"],ans:2,
+ rat:"Ongoing atony bleeding leads most immediately to hypovolemic shock. Infection, DVT, and mastitis are later or unrelated risks.",
+ strat:"With active hemorrhage, the imminent threat is hypovolemia/shock."},
+{n:48,topic:"Case: PP Hemorrhage",type:"bowtie",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"CASE (4/6) Generate solutions (bowtie). Choose the central problem, two immediate actions, and two parameters to monitor.",
+ problem:{opts:["Uterine atony with hemorrhage","Puerperal infection","Postpartum depression"],a:0},
+ actions:{opts:["Massage the fundus until firm","Assist the client to empty her bladder","Apply ice to the perineum","Restrict oral fluids"],ans:[0,1]},
+ params:{opts:["Fundal tone and position","Lochia amount and clots","Deep tendon reflexes","Bowel sounds"],ans:[0,1]},
+ rat:"Central problem is atony with hemorrhage. Actions: massage the fundus and empty the bladder. Monitor fundal tone/position and lochia. Ice, fluid restriction, DTRs, and bowel sounds are not relevant here.",
+ strat:"Pair the action to the problem, then choose the parameter that proves the action worked."},
+{n:49,topic:"Case: PP Hemorrhage",type:"multi",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"CASE (5/6) Take action. The provider is notified. Select ALL appropriate nursing actions now.",
+ opts:["Massage the fundus and have the client void or catheterize","Ensure IV access is patent and anticipate an oxytocic","Place in high-Fowler's and restrict fluids","Monitor vital signs frequently for HR and BP trends","Draw labs including hemoglobin, hematocrit, and platelets"],ans:[0,1,3,4],
+ rat:"Firm the uterus, empty the bladder, ensure IV access and anticipate an oxytocic, monitor vital-sign trends, and draw H/H and platelets. High-Fowler's and fluid restriction are wrong; she needs volume and bed rest.",
+ strat:"Hemorrhage actions = firm the uterus, replace volume, watch trends, get labs."},
+{n:50,topic:"Case: PP Hemorrhage",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"CASE (6/6) Evaluate outcomes. After fundal massage, bladder emptying (450 mL), and an oxytocin bolus, which finding best shows the interventions worked?",
+ opts:["Fundus firm, midline, at the umbilicus with lochia now moderate","Continued saturation of a pad every 20 minutes","Fundus remains boggy but the client feels better","Heart rate rising from 96 to 122 bpm"],ans:0,
+ rat:"A firm, midline fundus with lochia reduced to moderate shows success. Continued saturation, a persistently boggy fundus, or a rising heart rate all indicate failure and worsening hypovolemia.",
+ strat:"Success = firm fundus + lessening lochia + stable vitals; rising HR is early shock."},
+{n:51,topic:"Hyperbilirubinemia",type:"radio",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"A term newborn develops visible jaundice of the face on day 3 of life. The total serum bilirubin is 6 mg/dL and is trending down by day 5. How does the nurse interpret this?",
+ opts:["Pathologic jaundice requiring phototherapy","Physiologic jaundice, an expected finding","Early kernicterus","A sign of dehydration requiring IV fluids"],ans:1,
+ rat:"Physiologic jaundice appears after the first 24 hours, peaks at days 2-4 around 5-6 mg/dL, and declines within a week. Onset within 24 hours or a rapidly rising/high level would be pathologic.",
+ strat:"Physiologic jaundice = after 24h, peaks day 2-4, then falls."},
+{n:52,topic:"Hyperbilirubinemia",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"Which statement about bilirubin in the newborn is correct?",
+ opts:["Conjugated (direct) bilirubin is fat-soluble and causes jaundice","Unconjugated (indirect) bilirubin is fat-soluble and is the form that deposits in skin and brain","The liver makes bilirubin water-soluble so it can be stored","Phototherapy converts bilirubin into an unconjugated form"],ans:1,
+ rat:"Unconjugated (indirect) bilirubin is fat-soluble, cannot be excreted, and deposits in subcutaneous fat (jaundice) and brain (kernicterus). The liver conjugates it into water-soluble (direct) bilirubin for excretion.",
+ strat:"Unconjugated = indirect = fat-soluble = the dangerous, jaundice-causing form."},
+{n:53,topic:"Hyperbilirubinemia",type:"multi",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"Select all factors that increase a newborn's risk for pathologic hyperbilirubinemia.",
+ opts:["Rh or ABO incompatibility","Cephalhematoma or significant birth bruising","Prematurity","Adequate breastfeeding with 8-10 feeds per day","Cold stress"],ans:[0,1,2,4],
+ rat:"Hemolysis (Rh/ABO incompatibility), bruising/cephalhematoma, prematurity (immature liver), and cold stress all raise bilirubin. Adequate feeding lowers it by promoting stooling.",
+ strat:"Anything that breaks down more RBCs or slows excretion raises bilirubin; good feeding lowers it."},
+{n:54,topic:"Hyperbilirubinemia",type:"radio",cat:"Reduction of Risk Potential",lvl:"Application",
+ stem:"A newborn is placed under phototherapy. Which intervention is the priority?",
+ opts:["Apply lotion to protect the skin from the lights","Cover the eyes with shields and monitor temperature and hydration","Dress the newborn fully to prevent cold stress","Limit feedings to reduce stooling"],ans:1,
+ rat:"Eye protection is essential under phototherapy, along with monitoring temperature (the infant is undressed) and hydration (loose stools and fluid loss). Lotions can burn; the newborn is undressed except for a diaper; feedings are increased, not limited.",
+ strat:"Phototherapy = cover the eyes, undress to a diaper, watch temp and hydration."},
+{n:55,topic:"Hyperbilirubinemia",type:"multi",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"Select all appropriate nursing actions for a newborn receiving phototherapy.",
+ opts:["Cover the eyes with protective shields","Feed frequently to maintain hydration","Turn the newborn frequently to expose all skin","Apply lotion to the skin","Supplement with water or dextrose between feeds"],ans:[0,1,2],
+ rat:"Cover the eyes, feed frequently, and turn often. Lotions can cause burns, and water/dextrose supplementation is not recommended; breast milk or formula is used if supplementation is needed.",
+ strat:"Eyes, feeds, turning yes; lotion and water/dextrose no."},
+{n:56,topic:"Hyperbilirubinemia",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"A jaundiced newborn becomes lethargic with a high-pitched cry and arching of the back. What does the nurse suspect?",
+ opts:["Normal newborn behavior","Bilirubin encephalopathy (risk of kernicterus)","Hypoglycemia","Mild dehydration"],ans:1,
+ rat:"Lethargy, a high-pitched cry, and seizures/arching signal bilirubin encephalopathy, the acute toxicity that can progress to kernicterus (permanent neurologic damage). This requires urgent intervention.",
+ strat:"High-pitched cry + lethargy + jaundice = bilirubin on the brain; act now."},
+{n:57,topic:"Hyperbilirubinemia",type:"radio",cat:"Health Promotion & Maintenance",lvl:"Application",
+ stem:"Which discharge instruction for a newborn treated for jaundice is correct?",
+ opts:["Place the newborn in direct sunlight daily to lower bilirubin","Position the newborn near a window rather than in direct sun, and keep follow-up lab appointments","Apply lotion before any light exposure","Stop breastfeeding for one week"],ans:1,
+ rat:"Direct sunlight risks sunburn and temperature instability; placing the newborn near a window is recommended. Follow-up labs are essential. Lotions can burn, and breastfeeding should continue.",
+ strat:"Near a window, not in the sun; keep the follow-up labs."},
+{n:58,topic:"Hyperbilirubinemia",type:"matrix",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"Classify each finding as consistent with physiologic or pathologic jaundice.",
+ cols:["Physiologic","Pathologic"],
+ rows:[{t:"Jaundice appearing at 36-48 hours of life",a:0},{t:"Jaundice appearing within the first 24 hours",a:1},
+   {t:"TSB peaking at 5-6 mg/dL on day 3, then declining",a:0},{t:"TSB rising rapidly to a high level",a:1},
+   {t:"Jaundice associated with Rh incompatibility",a:1}],
+ rat:"Physiologic: appears after 24h, peaks day 2-4 at 5-6 mg/dL, then falls. Pathologic: appears within 24h, rises rapidly or high, or stems from hemolysis (Rh/ABO).",
+ strat:"Timing and speed sort it: under 24h or fast-rising is pathologic."},
+{n:59,topic:"Neonatal Abstinence Syndrome",type:"radio",cat:"Pharmacological & Parenteral Therapies",lvl:"Application",
+ stem:"An opioid-dependent pregnant client is placed on methadone. Which teaching is accurate?",
+ opts:["Methadone should be stopped abruptly once she is pregnant","Methadone is the standard of care and safer than abrupt withdrawal, though neonatal withdrawal may still occur","Methadone guarantees the newborn will not have withdrawal","Methadone is given only after delivery"],ans:1,
+ rat:"Methadone is the gold-standard treatment for opioid-dependent pregnant clients; abrupt cessation is not recommended. It improves prenatal care and birth weight, though the newborn may still experience NAS (methadone withdrawal can be more prolonged).",
+ strat:"Do not stop opioids cold in pregnancy; methadone is the supported path."},
+{n:60,topic:"Neonatal Abstinence Syndrome",type:"multi",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"Select all signs consistent with neonatal abstinence syndrome (NAS).",
+ opts:["High-pitched cry and irritability","Tremors and increased muscle tone","Poor feeding, vomiting, or diarrhea","Sweating, sneezing, and yawning","Sustained deep sleep with easy consolability"],ans:[0,1,2,3],
+ rat:"NAS presents with CNS irritability (high-pitched cry, tremors, hypertonia), GI upset (poor feeding, vomiting, diarrhea), and autonomic signs (sweating, sneezing, yawning, fever). Easy consolability and deep calm sleep are not typical.",
+ strat:"NAS = a jittery, irritable, hard-to-console, GI-upset baby."},
+{n:61,topic:"Neonatal Abstinence Syndrome",type:"radio",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"Which is the priority first-line intervention for a newborn with NAS?",
+ opts:["Bright lighting and frequent eye contact to promote bonding","A quiet, dimly lit environment with swaddling and minimal handling","Scheduled feedings every 4 hours only","Frequent loud stimulation to keep the infant awake"],ans:1,
+ rat:"Non-pharmacologic care is first-line: decrease environmental stimuli (quiet, dim, swaddle, gentle handling). Bright light, loud stimulation, and early frequent eye contact overstimulate the withdrawing infant.",
+ strat:"NAS first-line = turn the world down: quiet, dim, swaddled, low handling."},
+{n:62,topic:"Neonatal Abstinence Syndrome",type:"multi",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"Select all appropriate non-pharmacologic interventions for an infant with NAS.",
+ opts:["Swaddling and gentle containment","Nonnutritive sucking","Small, frequent, on-demand feedings","Vertical rocking and skin-to-skin (kangaroo) care","Firm patting during burping"],ans:[0,1,2,3],
+ rat:"Swaddling, containment, nonnutritive sucking, small frequent feeds, vertical rocking, and kangaroo care all support regulation. Rubbing rather than patting is preferred during burping to avoid triggering the Moro reflex.",
+ strat:"Soothe and contain; rub, do not pat, to avoid setting off the startle."},
+{n:63,topic:"Neonatal Abstinence Syndrome",type:"radio",cat:"Health Promotion & Maintenance",lvl:"Application",
+ stem:"For which mother of an infant with NAS is breastfeeding contraindicated?",
+ opts:["A mother stable on prescribed methadone","A mother who continues to use street drugs or has HIV","A mother taking a prescribed SSRI","A mother who smokes cigarettes"],ans:1,
+ rat:"Breastfeeding is not contraindicated in NAS unless the mother is using street drugs, is polydrug-involved, or has HIV. Stable methadone treatment is compatible with breastfeeding.",
+ strat:"Methadone, breastfeed; active street-drug use or HIV, do not."},
+{n:64,topic:"Neonatal Abstinence Syndrome",type:"radio",cat:"Reduction of Risk Potential",lvl:"Application",
+ stem:"The Finnegan Neonatal Abstinence Score is used to:",
+ opts:["Diagnose a substance use disorder in the newborn","Assess the severity of withdrawal and guide treatment, where a lower score means fewer symptoms","Measure the newborn's gestational age","Determine the mother's drug of choice"],ans:1,
+ rat:"The Finnegan score assesses neurologic, behavioral, and autonomic withdrawal signs to gauge severity and guide care; lower scores mean fewer symptoms. Newborns are considered drug-exposed, not as having a use disorder.",
+ strat:"Finnegan scores the withdrawal, not a diagnosis; lower = milder."},
+{n:65,topic:"Neonatal Abstinence Syndrome",type:"radio",cat:"Basic Care & Comfort",lvl:"Application",
+ stem:"When feeding and burping an infant with NAS, the nurse should:",
+ opts:["Pat the back firmly and feed on a strict 4-hour schedule","Offer small, frequent demand feedings and rub the back gently when burping","Withhold feedings to reduce vomiting","Feed in a brightly lit room to keep the infant alert"],ans:1,
+ rat:"Small, frequent, on-demand feedings help the dysregulated infant, and gentle rubbing rather than patting during burping avoids triggering the Moro reflex. A calm, low-stimulation setting is preferred.",
+ strat:"Small and frequent, rub not pat, keep it calm."},
+{n:66,topic:"High-Risk Development",type:"radio",cat:"Health Promotion & Maintenance",lvl:"Application",
+ stem:"An infant is born at 35 2/7 weeks gestation. The nurse classifies this newborn as:",
+ opts:["Full term","Late preterm","Extremely preterm","Postterm"],ans:1,
+ rat:"Late preterm is 34 0/7 to 36 6/7 weeks. Extremely preterm is before 28 weeks; term is 37-41 6/7; postterm is after 42 weeks.",
+ strat:"Late preterm = 34 to 36 and 6/7 weeks."},
+{n:67,topic:"High-Risk Development",type:"cloze",cat:"Health Promotion & Maintenance",lvl:"Application",
+ stem:"Complete the gestational age categories.\nPreterm is birth before [1]. Term is [2]. Postterm is birth after [3].",
+ blanks:[{label:"[1] Preterm is before",opts:["34 weeks","37 weeks","42 weeks"],a:1},
+   {label:"[2] Term is",opts:["34 to 36 6/7 weeks","37 to 41 6/7 weeks","38 to 40 weeks"],a:1},
+   {label:"[3] Postterm is after",opts:["40 weeks","41 weeks","42 weeks"],a:2}],
+ rat:"Preterm: before 37 weeks. Term: 37 0/7 to 41 6/7 weeks. Postterm: after 42 weeks.",
+ strat:"Under 37 preterm, 37 to 41 6/7 term, over 42 postterm."},
+{n:68,topic:"High-Risk Development",type:"multi",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"Select all complications the nurse anticipates in a preterm infant.",
+ opts:["Difficulty with thermoregulation","Increased risk of infection","Jaundice from an immature liver","Respiratory distress and apnea","A strong, well-coordinated suck-swallow"],ans:[0,1,2,3],
+ rat:"Preterm infants struggle with temperature regulation, infection resistance, jaundice (immature liver), and respiratory distress/apnea, and they often have feeding difficulty rather than a strong coordinated suck.",
+ strat:"Preterm = cold, infection-prone, jaundiced, and breathing trouble."},
+{n:69,topic:"High-Risk Development",type:"radio",cat:"Reduction of Risk Potential",lvl:"Application",
+ stem:"A term newborn is small for gestational age (SGA). Which assessment is the priority?",
+ opts:["Head circumference","Blood glucose","Hair distribution","Palmar creases"],ans:1,
+ rat:"SGA infants are at high risk for hypoglycemia (limited glycogen stores), along with polycythemia, perinatal asphyxia, and impaired thermoregulation. Blood glucose is the priority assessment.",
+ strat:"SGA (and LGA) = check the sugar; hypoglycemia is the threat."},
+{n:70,topic:"High-Risk Development",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"A large-for-gestational-age newborn of a diabetic mother has decreased movement of the right arm and an absent Moro reflex on that side. The nurse suspects:",
+ opts:["Erb's palsy or a fractured clavicle from birth","Normal newborn asymmetry","Spina bifida","Choanal atresia"],ans:0,
+ rat:"LGA/macrosomic infants are prone to birth injuries from shoulder dystocia, including clavicle fracture and brachial plexus (Erb's) palsy: limited arm movement, crepitus, and an absent Moro on the affected side.",
+ strat:"Big baby + limp arm + absent Moro on that side = clavicle/Erb's injury."},
+{n:71,topic:"High-Risk Development",type:"radio",cat:"Basic Care & Comfort",lvl:"Application",
+ stem:"A newborn has a fractured clavicle. Which nursing action is appropriate?",
+ opts:["Apply a cast to the shoulder","Handle gently and pin the sleeve of the affected arm to the shirt to limit motion","Perform passive range of motion to the arm every hour","Keep the arm fully extended at all times"],ans:1,
+ rat:"A fractured clavicle needs gentle handling and limited motion (pinning the sleeve to the shirt). No casting is used, the prognosis is good, and the bone heals rapidly.",
+ strat:"Clavicle fracture = gentle handling, limit motion, it heals on its own."},
+{n:72,topic:"High-Risk Development",type:"radio",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"A postterm newborn (43 weeks) is most likely to show which assessment findings?",
+ opts:["Abundant vernix and lanugo","Dry, peeling (desquamating) skin, long nails, and minimal vernix","Thin, gelatinous skin with fused eyelids","Smooth soles without creases"],ans:1,
+ rat:"Postterm infants show desquamation (dry peeling skin), long hair and nails, minimal vernix and lanugo, soles fully creased, and possible meconium staining. Abundant vernix/lanugo and fused eyelids indicate prematurity.",
+ strat:"Postterm looks dried-out and overgrown: peeling skin, long nails, little vernix."},
+{n:73,topic:"High-Risk Development",type:"multi",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"Select all priority concerns for a postterm newborn with meconium-stained fluid.",
+ opts:["Meconium aspiration","Hypoglycemia","Impaired thermoregulation and skin integrity","Excess surfactant production","Perinatal asphyxia from placental insufficiency"],ans:[0,1,2,4],
+ rat:"The aging placenta in postterm pregnancy causes hypoxia, meconium passage and aspiration risk, hypoglycemia, asphyxia, and skin integrity issues. Surfactant excess is not a concern.",
+ strat:"Postterm risks come from a failing placenta: hypoxia, meconium, low sugar."},
+{n:74,topic:"Acquired Conditions",type:"radio",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"Which bone is most commonly fractured during a difficult birth?",
+ opts:["Femur","Humerus","Clavicle","Skull"],ans:2,
+ rat:"The clavicle is the most commonly fractured bone during birth, usually with shoulder dystocia. Signs include crepitus, limited arm motion, and an absent Moro on the affected side.",
+ strat:"Birth fracture? Think clavicle first."},
+{n:75,topic:"Acquired Conditions",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"A newborn's right arm hangs limp, adducted, and internally rotated with the forearm pronated; the grasp reflex is intact but the Moro is absent on that side. This describes:",
+ opts:["Erb's palsy (upper brachial plexus injury)","Spina bifida","Facial nerve palsy","Normal flexion"],ans:0,
+ rat:"Erb's palsy (upper brachial plexus, waiter's-tip position) causes an adducted, internally rotated arm with a pronated forearm; grasp is intact because finger and wrist movement are spared, but Moro is absent on the affected side.",
+ strat:"Waiter's-tip arm + intact grasp + absent Moro = Erb's palsy."},
+{n:76,topic:"Acquired Conditions",type:"radio",cat:"Safety & Infection Prevention and Control",lvl:"Analysis",
+ stem:"A 2-day-old newborn has temperature instability, poor feeding, and lethargy, and the parent says the baby 'just is not acting right.' What is the nurse's best action?",
+ opts:["Reassure the parent that this is normal newborn behavior","Recognize possible early-onset sepsis and notify the provider","Encourage the parent to let the baby sleep","Delay assessment until the next feeding"],ans:1,
+ rat:"Neonatal sepsis signs are subtle and nonspecific: temperature instability, feeding changes, lethargy, and parental concern. Early-onset sepsis appears within about 3 days. Prompt recognition and provider notification are essential.",
+ strat:"Subtle off-ness in a newborn (temp, feeding, tone) = rule out sepsis."},
+{n:77,topic:"Acquired Conditions",type:"multi",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"Select all findings that may indicate neonatal sepsis.",
+ opts:["Tachypnea, grunting, or apnea","Temperature instability","Poor feeding and abdominal distention","Lethargy, irritability, or a high-pitched cry","A vigorous cry with strong feeding"],ans:[0,1,2,3],
+ rat:"Sepsis affects multiple systems: respiratory (tachypnea, grunting, apnea), thermoregulation (instability), GI (poor feeding, distention, glucose instability), and neuro (lethargy, irritability, bulging fontanel, high-pitched cry).",
+ strat:"Sepsis is multisystem and subtle; a vigorous feeder is reassuring, not a sign."},
+{n:78,topic:"Acquired Conditions",type:"radio",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"A newborn born by cesarean has a respiratory rate of 70 with mild grunting that resolves by 36 hours. This is most consistent with:",
+ opts:["Respiratory distress syndrome","Transient tachypnea of the newborn (TTN)","Meconium aspiration syndrome","Choanal atresia"],ans:1,
+ rat:"TTN is mild respiratory distress from retained fetal lung fluid, more common after cesarean (no chest compression to expel fluid), resolving in 24-48 hours. RDS is from surfactant deficiency in prematurity and does not resolve so quickly.",
+ strat:"C-section baby, wet lungs, better in a day or two = TTN."},
+{n:79,topic:"Acquired Conditions",type:"radio",cat:"Pharmacological & Parenteral Therapies",lvl:"Application",
+ stem:"Which factor is the greatest risk for respiratory distress syndrome (RDS) in a newborn?",
+ opts:["Postterm birth","Prematurity (surfactant deficiency)","Large for gestational age","Vaginal birth"],ans:1,
+ rat:"RDS results from lung immaturity and surfactant deficiency; prematurity is the greatest risk. Treatment includes antenatal steroids to accelerate lung maturity and exogenous surfactant after birth.",
+ strat:"RDS = not enough surfactant; prematurity is the driver."},
+{n:80,topic:"Acquired Conditions",type:"multi",cat:"Reduction of Risk Potential",lvl:"Application",
+ stem:"Using WET FROG, select all signs of respiratory distress in a newborn.",
+ opts:["Tachypnea over 60 breaths per minute","Grunting","Nasal flaring","Retractions","A respiratory rate of 40 with pink color"],ans:[0,1,2,3],
+ rat:"WET FROG: wheezing, effort, tachypnea (over 60), flaring, retractions, oxygenation/color (cyanosis), grunting. A rate of 40 with pink color is normal (normal newborn RR is 30-60).",
+ strat:"Distress = fast (over 60), flaring, retracting, grunting; 30-60 and pink is fine."},
+{n:81,topic:"Acquired Conditions",type:"radio",cat:"Safety & Infection Prevention and Control",lvl:"Application",
+ stem:"During labor the nurse notes thick, green meconium-stained amniotic fluid. What is the priority action?",
+ opts:["Speed up the oxytocin to deliver faster","Notify the provider and prepare extra personnel and suction/oxygen equipment for delivery","Document and take no further action","Apply fundal pressure"],ans:1,
+ rat:"Meconium-stained fluid raises the risk of meconium aspiration syndrome. Notify the provider, arrange additional help (such as respiratory therapy), and ensure suction and oxygen are ready at delivery.",
+ strat:"Meconium fluid = call for help and have suction/oxygen ready at the birth."},
+{n:82,topic:"Acquired Conditions",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"A preterm infant on day 6 develops abdominal distention, increased gastric residuals, and bloody stools. The nurse suspects:",
+ opts:["A normal feeding pattern","Necrotizing enterocolitis (NEC)","Physiologic jaundice","Transient tachypnea"],ans:1,
+ rat:"NEC, most common in preterm infants around days 3-12, presents with abdominal distention, decreased or absent bowel sounds, feeding intolerance, and bloody stools. Treatment includes stopping feeds, IV fluids/parenteral nutrition, and antibiotics; breastfeeding is protective.",
+ strat:"Preterm + distended belly + bloody stool = NEC; stop the feeds."},
+{n:83,topic:"Acquired Conditions",type:"radio",cat:"Health Promotion & Maintenance",lvl:"Application",
+ stem:"Which teaching helps a pregnant client prevent toxoplasmosis?",
+ opts:["Avoid all dairy products","Avoid changing the cat litter box and cook meat thoroughly","Take a daily antibiotic","Avoid all contact with other children"],ans:1,
+ rat:"Toxoplasmosis is acquired from undercooked meat and cat feces. Teach clients to avoid handling cat litter, cook meat thoroughly, wash hands and produce, and cover outdoor sandboxes.",
+ strat:"Toxo prevention: skip the litter box, cook the meat, wash everything."},
+{n:84,topic:"Congenital Conditions",type:"radio",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"What is the priority feeding intervention for a newborn with a cleft lip and palate?",
+ opts:["Feed lying flat to slow the flow","Feed upright with a special wide or compressible nipple and burp frequently","Withhold oral feeds and use IV nutrition only","Thicken feeds with cereal"],ans:1,
+ rat:"Feed the infant upright (milk can enter the nasal passages and cause aspiration) using special nipples (enlarged hole, compressible bottle, longer nipple) and burp frequently because these infants swallow excess air.",
+ strat:"Cleft feeding = upright, special nipple, frequent burps."},
+{n:85,topic:"Congenital Conditions",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"During the first feeding, a newborn coughs, gags, and becomes cyanotic. The nurse suspects tracheoesophageal fistula/esophageal atresia and should:",
+ opts:["Continue feeding to assess tolerance","Stop the feeding immediately, suction as needed, and notify the provider","Lay the infant flat and offer more formula","Increase the feeding rate"],ans:1,
+ rat:"Choking, gagging, and cyanosis with the first feeding suggest TEF/esophageal atresia. Stop the feeding at once, suction, position to protect the airway, and notify the provider.",
+ strat:"Choke and cyanosis on the first feed = stop, suction, call; think TEF."},
+{n:86,topic:"Congenital Conditions",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"A newborn is cyanotic at rest but turns pink when crying. The nurse suspects:",
+ opts:["Choanal atresia","Cleft palate","Spina bifida","Erb's palsy"],ans:0,
+ rat:"Newborns are obligate nose breathers for the first month. With choanal atresia (a blocked nasal passage), the infant is cyanotic at rest but pinks up when crying because the mouth opens and allows airflow.",
+ strat:"Cyanotic at rest, pink when crying = nasal obstruction (choanal atresia)."},
+{n:87,topic:"Congenital Conditions",type:"radio",cat:"Health Promotion & Maintenance",lvl:"Application",
+ stem:"Which teaching best helps prevent neural tube defects such as spina bifida?",
+ opts:["Increase vitamin A intake during pregnancy","Take 400-800 mcg of folic acid daily, ideally before conception","Avoid all leafy green vegetables","Begin folic acid only in the third trimester"],ans:1,
+ rat:"Folic acid (400-800 mcg daily, started before conception and in early pregnancy) prevents neural tube defects; those with a prior NTD need 4,000 mcg. It must begin before or around conception to be effective.",
+ strat:"Folic acid before conception is the neural tube defect preventer."},
+{n:88,topic:"Congenital Conditions",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"Which neural tube defect carries the highest risk of paralysis and hydrocephalus?",
+ opts:["Spina bifida occulta","Meningocele","Myelomeningocele","A sacral dimple with a hair tuft"],ans:2,
+ rat:"Myelomeningocele involves a sac containing meninges, spinal fluid, nerve roots, and the spinal cord, so paralysis (depending on level) and hydrocephalus are common. Occulta is a closure defect with a dimple/tuft; meningocele has no cord involvement, so paralysis usually does not occur.",
+ strat:"Cord in the sac = myelomeningocele = paralysis and hydrocephalus risk."},
+{n:89,topic:"Congenital Conditions",type:"radio",cat:"Health Promotion & Maintenance",lvl:"Application",
+ stem:"Parents of a newborn with a small umbilical hernia ask about treatment. The nurse explains:",
+ opts:["Emergency surgery is required immediately","It is often left to resolve as the child grows, and the abdomen should feel soft on palpation","It will cause permanent bowel damage","It must be taped shut at home"],ans:1,
+ rat:"An umbilical hernia (intestinal muscles fail to close around the umbilicus) is common in low-birth-weight, male, and African American infants. It usually resolves as the child grows; immediate surgery is not typical. The abdomen should feel soft when relaxed.",
+ strat:"Umbilical hernia usually waits and resolves; no taping, no rush to surgery."},
+{n:90,topic:"Postpartum Review",type:"radio",cat:"Reduction of Risk Potential",lvl:"Application",
+ stem:"On postpartum day 3 following a vaginal birth, where does the nurse expect to palpate the fundus?",
+ opts:["At the level of the umbilicus","About 3 cm (3 fingerbreadths) below the umbilicus","At the xiphoid process","Not palpable"],ans:1,
+ rat:"After birth the fundus is at the umbilicus, then descends about 1 cm (one fingerbreadth) per day. By day 3 it is roughly 3 cm below the umbilicus.",
+ strat:"Fundus drops about one fingerbreadth per day after birth."},
+{n:91,topic:"Intrapartum Review",type:"radio",cat:"Pharmacological & Parenteral Therapies",lvl:"Application",
+ stem:"A client receiving magnesium sulfate shows signs of toxicity. Which medication does the nurse anticipate as the antidote?",
+ opts:["Naloxone","Calcium gluconate","Protamine sulfate","Vitamin K"],ans:1,
+ rat:"Calcium gluconate is the antidote for magnesium sulfate toxicity. Naloxone reverses opioids, protamine reverses heparin, and vitamin K reverses warfarin.",
+ strat:"Mag toxicity antidote = calcium gluconate."},
+{n:92,topic:"Intrapartum Review",type:"radio",cat:"Safety & Infection Prevention and Control",lvl:"Application",
+ stem:"A laboring client is positive for group B streptococcus (GBS). The nurse anticipates which intervention to protect the newborn?",
+ opts:["Cesarean birth is required","Intravenous penicillin (or ampicillin) during labor","No intervention is needed","Delaying delivery until oral antibiotics are completed"],ans:1,
+ rat:"GBS-positive clients receive IV penicillin or ampicillin during labor to prevent early-onset neonatal GBS sepsis. Vaginal birth is still appropriate.",
+ strat:"GBS positive in labor = IV penicillin to protect the baby."},
+{n:93,topic:"Newborn Review",type:"radio",cat:"Reduction of Risk Potential",lvl:"Analysis",
+ stem:"Which newborn vital sign requires further assessment?",
+ opts:["Heart rate 140 beats per minute","Respiratory rate 48 breaths per minute","Axillary temperature 35.8°C (96.4°F)","Axillary temperature 37°C (98.6°F)"],ans:2,
+ rat:"Normal newborn ranges: HR 110-160, RR 30-60, axillary temp 36.5-37.5°C. A temperature of 35.8°C is hypothermia and needs intervention (warming, check glucose).",
+ strat:"Know newborn normals; 36.5-37.5°C is the temp window."},
+{n:94,topic:"Newborn Review",type:"radio",cat:"Health Promotion & Maintenance",lvl:"Application",
+ stem:"Which instruction reflects safe newborn sleep practice to reduce SIDS risk?",
+ opts:["Place the newborn prone (on the stomach) to sleep","Place the newborn on the back on a firm surface with no soft bedding","Use bumper pads and soft blankets in the crib","Have the newborn sleep on a couch with a parent"],ans:1,
+ rat:"Back to sleep on a firm surface, free of soft bedding, pillows, and bumpers, on a separate sleep surface in the parents' room, reduces SIDS risk.",
+ strat:"Back, firm, bare crib; that is safe newborn sleep."},
+{n:95,topic:"Case: Hyperbilirubinemia",type:"multi",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"CASE 2 (1/6) Recognize cues. A 30-hour-old term newborn, exclusively breastfed (mother type O, infant type A), has yellowing of the face and chest.\nAssessment: jaundice of the face and chest; sleepy and difficult to wake for feeds; only 2 wet diapers in 24 hours; weak suck; HR 142; axillary temp 37.0°C.\nSelect ALL concerning findings.",
+ opts:["Jaundice extending to the chest","Difficult to wake for feeds with a weak suck","Only 2 wet diapers in 24 hours","Heart rate 142","Axillary temperature 37.0°C"],ans:[0,1,2],
+ rat:"Jaundice spreading down the body, lethargy with poor feeding, and low output (dehydration) are concerning for rising bilirubin and inadequate intake. HR 142 and temp 37.0°C are normal.",
+ strat:"Pull the abnormals: spreading jaundice, poor feeding, low diaper count."},
+{n:96,topic:"Case: Hyperbilirubinemia",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"CASE 2 (2/6) Analyze cues. Which best explains this newborn's findings?",
+ opts:["Physiologic jaundice with no contributing factors","Hyperbilirubinemia worsened by ABO incompatibility and inadequate breastfeeding/hydration","Polycythemia from delayed cord clamping","Transient tachypnea of the newborn"],ans:1,
+ rat:"An O mother with an A infant creates ABO incompatibility (hemolysis), and poor feeding with low output reduces bilirubin excretion through stool; together these raise bilirubin.",
+ strat:"Connect the blood types (hemolysis) and the poor feeding (less excretion)."},
+{n:97,topic:"Case: Hyperbilirubinemia",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"CASE 2 (3/6) Prioritize hypotheses. If the bilirubin continues to rise untreated, the newborn is at greatest risk for:",
+ opts:["Hypoglycemia","Kernicterus (permanent bilirubin encephalopathy)","Necrotizing enterocolitis","Choanal atresia"],ans:1,
+ rat:"Unchecked unconjugated bilirubin crosses the blood-brain barrier and causes bilirubin encephalopathy, which can become kernicterus, with permanent neurologic damage (hearing loss, cerebral palsy).",
+ strat:"The feared endpoint of high bilirubin is kernicterus."},
+{n:98,topic:"Case: Hyperbilirubinemia",type:"bowtie",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"CASE 2 (4/6) Generate solutions (bowtie). Select the central problem, two immediate actions, and two parameters to monitor.",
+ problem:{opts:["Hyperbilirubinemia","Neonatal sepsis","Respiratory distress syndrome"],a:0},
+ actions:{opts:["Initiate phototherapy with eye protection","Increase feeding frequency to improve hydration and stooling","Apply lotion and place in direct sunlight","Supplement with water between feeds"],ans:[0,1]},
+ params:{opts:["Total serum bilirubin (TSB) levels","Temperature and hydration (intake and output)","Deep tendon reflexes","Bowel sounds"],ans:[0,1]},
+ rat:"The central problem is hyperbilirubinemia. Actions: start phototherapy (eyes covered) and increase feeding/hydration to promote bilirubin excretion. Monitor TSB and temperature/hydration. Lotion, sunlight, water supplementation, DTRs, and bowel sounds are not appropriate here.",
+ strat:"Phototherapy plus feeding fixes bilirubin; track the TSB and hydration."},
+{n:99,topic:"Case: Hyperbilirubinemia",type:"multi",cat:"Physiological Adaptation",lvl:"Application",
+ stem:"CASE 2 (5/6) Take action. Phototherapy is started. Select ALL appropriate nursing actions.",
+ opts:["Apply eye shields and undress the newborn to a diaper","Turn the newborn frequently to expose all skin","Feed frequently and monitor intake and output","Apply lotion to soothe the skin","Give water or dextrose between feeds"],ans:[0,1,2],
+ rat:"Cover the eyes, undress to a diaper, turn frequently, feed often, and monitor temperature and I/O. Avoid lotions (burn risk) and water/dextrose supplementation.",
+ strat:"Eyes covered, skin exposed, feed and monitor; no lotion, no water."},
+{n:100,topic:"Case: Hyperbilirubinemia",type:"radio",cat:"Physiological Adaptation",lvl:"Analysis",
+ stem:"CASE 2 (6/6) Evaluate outcomes. Which finding best indicates the interventions are working?",
+ opts:["TSB declining, newborn more alert and feeding well, with increased wet diapers","Jaundice now extending to the palms and soles","A new high-pitched cry and arching of the back","TSB rising with continued lethargy"],ans:0,
+ rat:"Success is shown by a falling TSB, improved alertness and feeding, and increased output. Jaundice reaching the extremities, a high-pitched cry with arching, or a rising TSB signal worsening toxicity.",
+ strat:"Better = bilirubin down, baby alert and feeding, diapers up."}
+];
+
+// ---------- app logic ----------
+const app=document.getElementById('app');
+const fill=document.getElementById('fill');
+const posEl=document.getElementById('pos');
+const scEl=document.getElementById('sc');
+let i=0, score=0, answeredCount=0;
+const result=new Array(Q.length).fill(null); // true/false once answered
+
+function setMeta(){
+  posEl.textContent='Question '+(i+1)+' of '+Q.length;
+  scEl.textContent='Score '+score+' / '+answeredCount;
+  fill.style.width=((answeredCount)/Q.length*100)+'%';
+}
+function eqSet(a,b){ if(a.length!==b.length)return false; const s=new Set(a); return b.every(x=>s.has(x)); }
+
+function render(){
+  const q=Q[i]; setMeta();
+  let body='';
+  if(q.type==='radio'||q.type==='multi'){
+    const inputType=q.type==='radio'?'radio':'checkbox';
+    body='<div class="opts">'+q.opts.map((o,idx)=>
+      '<label class="opt" data-idx="'+idx+'"><input type="'+inputType+'" name="o" value="'+idx+'">'
+      +'<span>'+o+'</span></label>').join('')+'</div>';
+    if(q.type==='multi') body='<div class="hint">Select all that apply. Judge each option independently.</div>'+body;
+  } else if(q.type==='matrix'){
+    body=q.rows.map((r,ri)=>'<div class="row"><span class="lab">'+r.t+'</span>'
+      +'<select data-row="'+ri+'"><option value="">— choose —</option>'
+      +q.cols.map((c,ci)=>'<option value="'+ci+'">'+c+'</option>').join('')+'</select></div>').join('');
+  } else if(q.type==='match'){
+    body=q.rows.map((r,ri)=>'<div class="row"><span class="lab">'+r.t+'</span>'
+      +'<select data-row="'+ri+'"><option value="">— choose —</option>'
+      +q.shared.map((c,ci)=>'<option value="'+ci+'">'+c+'</option>').join('')+'</select></div>').join('');
+  } else if(q.type==='cloze'){
+    body=q.blanks.map((b,bi)=>'<div class="row"><span class="lab">'+b.label+'</span>'
+      +'<select data-row="'+bi+'"><option value="">— choose —</option>'
+      +b.opts.map((c,ci)=>'<option value="'+ci+'">'+c+'</option>').join('')+'</select></div>').join('');
+  } else if(q.type==='bowtie'){
+    const grp=(title,key,opts,multi)=>'<div class="grp"><h4>'+title+'</h4>'
+      +opts.map((o,idx)=>'<label class="opt" data-key="'+key+'" data-idx="'+idx+'">'
+        +'<input type="'+(multi?'checkbox':'radio')+'" name="'+key+'" value="'+idx+'"><span>'+o+'</span></label>').join('')+'</div>';
+    body=grp('Central problem (pick 1)','problem',q.problem.opts,false)
+        +grp('Two actions to take (pick 2)','actions',q.actions.opts,true)
+        +grp('Two parameters to monitor (pick 2)','params',q.params.opts,true);
+  } else if(q.type==='calc'){
+    body='<div class="row"><input type="text" id="calc" placeholder="e.g., 9 or 8.8" inputmode="decimal"> %</div>';
+  }
+  const last=i===Q.length-1;
+  app.innerHTML='<div class="card"><span class="topic">'+q.topic+'</span>'
+    +'<div class="stem">'+q.n+'. '+q.stem+'</div>'+body
+    +'<div class="actions">'
+    +'<button class="btn" id="submit">Submit answer</button>'
+    +'<button class="btn ghost" id="next" disabled>'+(last?'See results':'Next ▸')+'</button>'
+    +'</div><div class="fb" id="fb"></div></div>';
+
+  // selection highlighting for label-based inputs
+  app.querySelectorAll('.opt input').forEach(inp=>inp.addEventListener('change',()=>{
+    const grpName=inp.name;
+    app.querySelectorAll('.opt input[name="'+grpName+'"]').forEach(x=>x.closest('.opt').classList.toggle('sel',x.checked));
+  }));
+  document.getElementById('submit').onclick=grade;
+  document.getElementById('next').onclick=()=>{ if(i<Q.length-1){i++;render();} else {results();} };
+}
+
+function grade(){
+  const q=Q[i]; let correct=false; let answerText='';
+  const submitBtn=document.getElementById('submit'); const nextBtn=document.getElementById('next');
+  if(q.type==='radio'){
+    const sel=app.querySelector('input[name="o"]:checked');
+    const chosen=sel?+sel.value:-1; correct=chosen===q.ans;
+    app.querySelectorAll('.opt').forEach((el,idx)=>{
+      if(idx===q.ans){el.classList.add('right'); el.insertAdjacentHTML('beforeend','<span class="tag r">correct</span>');}
+      if(idx===chosen&&chosen!==q.ans){el.classList.add('wrong'); el.insertAdjacentHTML('beforeend','<span class="tag w">your pick</span>');}
+    });
+    answerText='Correct answer: '+q.opts[q.ans];
+  } else if(q.type==='multi'){
+    const chosen=[...app.querySelectorAll('input[name="o"]:checked')].map(x=>+x.value);
+    correct=eqSet(chosen,q.ans);
+    app.querySelectorAll('.opt').forEach((el,idx)=>{
+      const isAns=q.ans.includes(idx), picked=chosen.includes(idx);
+      if(isAns){el.classList.add('right'); el.insertAdjacentHTML('beforeend','<span class="tag r">answer</span>');}
+      if(picked&&!isAns){el.classList.add('wrong'); el.insertAdjacentHTML('beforeend','<span class="tag w">your pick</span>');}
+    });
+    answerText='Correct selections: '+q.ans.map(x=>q.opts[x]).join(' · ');
+  } else if(q.type==='matrix'||q.type==='match'||q.type==='cloze'){
+    const rows=q.type==='cloze'?q.blanks:q.rows;
+    let allRight=true;
+    app.querySelectorAll('select[data-row]').forEach(sel=>{
+      const ri=+sel.dataset.row; const a=rows[ri].a; const v=sel.value===''?-1:+sel.value;
+      if(v===a){sel.classList.add('right');} else {sel.classList.add('wrong'); allRight=false;}
+      sel.disabled=true;
+    });
+    correct=allRight;
+    if(q.type==='cloze'){answerText='Answers: '+q.blanks.map(b=>b.opts[b.a]).join(' · ');}
+    else if(q.type==='match'){answerText='Answers: '+q.rows.map(r=>r.t+' → '+q.shared[r.a]).join(' · ');}
+    else {answerText='Answers: '+q.rows.map(r=>r.t+' → '+q.cols[r.a]).join(' · ');}
+  } else if(q.type==='bowtie'){
+    const pSel=app.querySelector('input[name="problem"]:checked');
+    const pOk=pSel&&+pSel.value===q.problem.a;
+    const aChosen=[...app.querySelectorAll('input[name="actions"]:checked')].map(x=>+x.value);
+    const mChosen=[...app.querySelectorAll('input[name="params"]:checked')].map(x=>+x.value);
+    const aOk=eqSet(aChosen,q.actions.ans), mOk=eqSet(mChosen,q.params.ans);
+    correct=pOk&&aOk&&mOk;
+    const mark=(key,ansArr,single)=>{
+      app.querySelectorAll('.opt[data-key="'+key+'"]').forEach(el=>{
+        const idx=+el.dataset.idx; const picked=el.querySelector('input').checked;
+        const isAns=single?(idx===ansArr):ansArr.includes(idx);
+        if(isAns){el.classList.add('right');}
+        if(picked&&!isAns){el.classList.add('wrong');}
+      });
+    };
+    mark('problem',q.problem.a,true); mark('actions',q.actions.ans,false); mark('params',q.params.ans,false);
+    answerText='Problem: '+q.problem.opts[q.problem.a]
+      +' | Actions: '+q.actions.ans.map(x=>q.actions.opts[x]).join(', ')
+      +' | Monitor: '+q.params.ans.map(x=>q.params.opts[x]).join(', ');
+  } else if(q.type==='calc'){
+    const inp=document.getElementById('calc'); const v=parseFloat((inp.value||'').replace('%','').trim());
+    correct=!isNaN(v)&&v>=q.acceptLo&&v<=q.acceptHi;
+    inp.classList.add(correct?'right':'wrong'); inp.disabled=true;
+    answerText='Correct answer: '+q.answer;
+  }
+
+  // lock inputs
+  app.querySelectorAll('input').forEach(x=>x.disabled=true);
+  submitBtn.disabled=true; nextBtn.disabled=false;
+
+  if(result[i]===null){ result[i]=correct; answeredCount++; if(correct)score++; }
+  setMeta();
+
+  const fb=document.getElementById('fb');
+  fb.className='fb show '+(correct?'ok':'no');
+  fb.innerHTML='<div class="verdict '+(correct?'ok':'no')+'">'+(correct?'✓ Correct':'✗ Not quite')+'</div>'
+    +'<p>'+answerText+'</p>'
+    +'<p>'+q.rat+'</p>'
+    +'<p class="strat">Strategy: '+q.strat+'</p>'
+    +'<div class="lblrow">Client Needs: '+q.cat+' · Cognitive level: '+q.lvl+'</div>';
+  fb.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+function results(){
+  const pct=Math.round(score/Q.length*100);
+  // category breakdown
+  const cats={};
+  Q.forEach((q,idx)=>{ if(!cats[q.cat])cats[q.cat]={c:0,t:0}; cats[q.cat].t++; if(result[idx])cats[q.cat].c++; });
+  const rows=Object.entries(cats).sort((a,b)=>b[1].t-a[1].t)
+    .map(([k,v])=>'<tr><td>'+k+'</td><td>'+v.c+' / '+v.t+'</td></tr>').join('');
+  const missed=Q.filter((q,idx)=>!result[idx]).map(q=>q.n);
+  const msg = pct>=85?'Strong — that is solid NCLEX readiness territory.'
+            : pct>=70?'Passing range. Review the misses and the rationales.'
+            : 'Keep grinding — focus on the missed items and re-run.';
+  app.innerHTML='<div class="card end">'
+    +'<div class="score">'+pct+'%</div>'
+    +'<div class="endsub">'+score+' of '+Q.length+' correct</div>'
+    +'<p>'+msg+'</p>'
+    +'<table class="brk"><tr><td><strong>Client Needs category</strong></td><td><strong>Correct</strong></td></tr>'+rows+'</table>'
+    +(missed.length?'<div class="miss"><h3>Missed items: '+missed.join(', ')+'</h3></div>':'<div class="miss"><h3>Perfect run — no misses.</h3></div>')
+    +'<div class="actions" style="justify-content:center"><button class="btn" id="restart">Restart quiz</button></div>'
+    +'<div class="footnote">NR327 Weeks 4-6 · generated from your course modules · NGN-style practice</div>'
+    +'</div>';
+  document.getElementById('restart').onclick=()=>{i=0;score=0;answeredCount=0;result.fill(null);render();};
+  fill.style.width='100%';
+}
+
+render();
+</script>
+</body>
+</html>
