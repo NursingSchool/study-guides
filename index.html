@@ -3,12 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>NR327 Study Hub — Maternal-Child Nursing</title>
+<title>NCLEX Study Hub</title>
 <style>
-  :root{
-    --bg:#0f172a; --card:#1e293b; --card2:#273449; --ink:#e2e8f0; --muted:#94a3b8;
-    --line:#334155; --accent:#2dd4bf; --accent2:#14b8a6; --chip:#0b3b3b;
-  }
+  :root{--bg:#0f172a;--card:#1e293b;--card2:#273449;--ink:#e2e8f0;--muted:#94a3b8;
+    --line:#334155;--accent:#2dd4bf;--accent2:#14b8a6;--chip:#0b3b3b;}
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--ink);
     font:16px/1.55 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
@@ -19,80 +17,40 @@
   h2{font-size:14px;text-transform:uppercase;letter-spacing:.7px;color:var(--accent);
     margin:28px 0 12px;border-bottom:1px solid var(--line);padding-bottom:8px}
   .grid{display:grid;gap:14px}
-  .card{display:flex;flex-direction:column;gap:8px;background:var(--card);border:1px solid var(--line);
-    border-radius:14px;padding:18px;transition:border-color .15s,transform .1s}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;transition:border-color .15s}
   .card:hover{border-color:var(--accent2)}
   .card h3{margin:0;font-size:18px}
-  .card .meta{color:var(--muted);font-size:13px}
-  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
-  .chip{font-size:11px;letter-spacing:.4px;color:var(--accent);background:var(--chip);
-    padding:3px 9px;border-radius:999px}
+  .card .meta{color:var(--muted);font-size:13px;margin-top:4px}
   .row{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .chip{font-size:11px;letter-spacing:.4px;color:var(--accent);background:var(--chip);padding:3px 9px;border-radius:999px}
   .btn{appearance:none;text-decoration:none;border:0;border-radius:10px;padding:11px 18px;
     font-size:15px;font-weight:600;cursor:pointer;background:var(--accent2);color:#04201d;white-space:nowrap}
-  .files{display:grid;gap:10px}
-  .file{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--card2);
-    border:1px solid var(--line);border-radius:10px;padding:12px 14px;flex-wrap:wrap}
-  .file a{color:var(--accent);text-decoration:none;font-weight:600}
-  .file .d{color:var(--muted);font-size:13px}
-  .note{background:#22323f;border:1px dashed var(--line);border-radius:12px;padding:14px;
-    color:var(--muted);font-size:13px;margin-top:14px}
   footer{margin-top:34px;color:var(--muted);font-size:12px;text-align:center;border-top:1px solid var(--line);padding-top:16px}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>NR327 Study Hub</h1>
-    <div class="sub">Maternal-Child Nursing · practice quizzes and study resources for our group</div>
+    <h1>NCLEX Study Hub</h1>
+    <div class="sub">Practice quizzes and exam reviews for our study group</div>
   </header>
+  <h2>Classes</h2>
+  <div class="grid" id="classes">
 
-  <!-- ============ QUIZZES ============ -->
-  <h2>Practice Quizzes</h2>
-  <div class="grid" id="quizzes">
-
-    <!-- COPY THIS BLOCK to add a new quiz. Change the title, meta, chips, and href. -->
-    <div class="card">
+    <!-- class-card:nr327-maternal-child -->
+    <div class="card" data-class="nr327-maternal-child">
       <div class="row">
-        <div>
-          <h3>Weeks 4-7 — Intrapartum through High-Risk Newborn</h3>
-          <div class="meta">145 questions · NGN-style · 3 unfolding case studies · rationale after each answer</div>
-        </div>
-        <a class="btn" href="maternal-child-weeks4-7.html">Start ▸</a>
+        <div><h3>NR327 · Maternal-Child Nursing</h3>
+        <div class="meta">1 review</div></div>
+        <a class="btn" href="nr327-maternal-child.html">View ▸</a>
       </div>
-      <div class="chips">
-        <span class="chip">Labor &amp; Stages</span>
-        <span class="chip">Fetal Monitoring</span>
-        <span class="chip">Intrapartum Complications</span>
-        <span class="chip">Postpartum</span>
-        <span class="chip">Breastfeeding</span>
-        <span class="chip">Newborn Care</span>
-        <span class="chip">Hyperbilirubinemia</span>
-        <span class="chip">NAS</span>
-        <span class="chip">High-Risk &amp; Preterm</span>
-        <span class="chip">Congenital Conditions</span>
-      </div>
+      <div class="chips"><span class="chip">Exam 2</span></div>
     </div>
-    <!-- END quiz block -->
+    <!-- /class-card:nr327-maternal-child -->
 
   </div>
-
-  <!-- ============ DOWNLOADS ============ -->
-  <h2>Downloads &amp; Printables</h2>
-  <div class="files">
-    <div class="file">
-      <span><a href="files/maternal-child-weeks4-7.zip">Weeks 4-7 — Quiz file (ZIP)</a></span>
-      <span class="d">download &amp; open offline</span>
-    </div>
-  </div>
-  <div class="note">
-    To wire up the download: create a folder named <strong>files</strong> in the repo and drop the ZIP into it.
-    Until that file exists, the link above will 404 — that is expected.
-  </div>
-
-  <footer>
-    Built for our study group · add a new card each week · runs in any browser, no login needed
-  </footer>
+  <footer>Built for our study group · add a class each term · runs in any browser, no login needed</footer>
 </div>
 </body>
 </html>
