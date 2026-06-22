@@ -5,6 +5,10 @@
 # (per-module question drafts, analysis/merge scripts, eval runs, index copies)
 .claude/skills/nclex-quiz-builder-workspace/
 
+# Python cruft
+__pycache__/
+*.pyc
+
 # OS / editor cruft
 Thumbs.db
 .DS_Store

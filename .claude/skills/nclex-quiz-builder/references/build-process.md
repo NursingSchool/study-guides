@@ -60,7 +60,9 @@ Return: a JSON array of items using the exact field names from the schema.
 - **Merge** all modules' arrays into one `questions` list in a sensible teaching order.
 - **Dedupe** near-identical items (same fact/lookup table twice) — keep the stronger one.
 - **Verify case studies**: each is exactly 6 linked items, one evolving patient, steps 1–6.
-- **Build + lint**: write `<name>.quiz.json`, run `assemble_quiz.py … --index index.html`.
+- **Build + lint**: write `<name>.quiz.json` (include the `classCode`/`className`/`exam`/
+  `examOrder`/`kind` hub metadata — see SKILL.md), run `assemble_quiz.py … -o <name>.html
+  --hub index.html` to build, lint, and register it on its class page + the hub.
   Read every WARNING.
 - **Rebalance until clean**: rewrite items the linter flags for length-tell / throwaway /
   absolute / SATA-variation; if Management of Care or Psychosocial are under band, swap in

@@ -84,11 +84,20 @@ build/lint, hub) that the comprehensive build reuses in its Reduce phase.
    { "meta": {
        "title":"<browser tab>", "header":"<H1 in the quiz>",
        "subtitle":"<line under the H1>", "footnote":"<results-screen note>",
-       "cardTitle":"<optional: hub card title; defaults to header>",
-       "chips":["optional","hub","card","tags"]
+       "cardTitle":"<class-page card title, e.g. 'Exam 2 Review — Weeks 4-7'>",
+       "chips":["optional","topic","tags"],
+
+       "classCode":"NR327", "className":"Maternal-Child Nursing",
+       "classSlug":"nr327-maternal-child",
+       "exam":"Exam 2", "examOrder":2, "kind":"exam-review"
      },
      "questions": [ ... ] }
    ```
+   The bottom block is the **study-hub** metadata (see "The study hub" below):
+   `classCode`/`className` (required for hub registration; `classSlug` auto-derives if
+   omitted), the `exam` bucket + `examOrder` (sorts exam sections), and `kind`
+   (`exam-review` | `topic-practice` — sets the badge; topic/week quizzes use
+   `topic-practice` and the exam they prep for).
    Keep ≥80% at Application+. On blueprint coverage: a **comprehensive exam review**
    (the default) should spread `cat` values to roughly match the 2026 blueprint bands
    — with the whole exam block as source you have the breadth to do this, so aim for
@@ -99,11 +108,14 @@ build/lint, hub) that the comprehensive build reuses in its Reduce phase.
 
 4. **Build + lint (and register in the hub):**
    ```
-   python .claude/skills/nclex-quiz-builder/scripts/assemble_quiz.py <name>.quiz.json --index index.html
+   python .claude/skills/nclex-quiz-builder/scripts/assemble_quiz.py <name>.quiz.json -o <name>.html --hub index.html
    ```
    Read the coverage report. **Fix every ERROR** and re-run. Address WARNINGS unless
    there's a good reason not to (e.g., a deliberately small option set). Output is the
-   standalone `<name>.html`, and `--index` adds/updates a card linking to it in the hub.
+   standalone `<name>.html`; `--hub index.html` then registers it on its **class page**
+   (`<classSlug>.html`, created if new) under its exam section, and adds/updates the
+   class's card on the hub — both idempotent, so re-running never duplicates. (`--index`
+   is a deprecated alias for `--hub`.)
 
 5. **Report** the coverage table to Chris and link the generated `.html`.
 
@@ -129,14 +141,25 @@ The questions are grounded in material Chris has already captured — you are
 - A folder may already hold a markdown quiz (`NCLEX_Quiz_*.md`) and/or a built `.html`.
   Reuse good items, but avoid producing a near-duplicate of an existing quiz unless asked.
 
-## The study hub (`index.html`)
+## The study hub (`index.html` → class pages)
 
-`index.html` is a **lean landing page** — a grid of cards, each linking to a standalone
-quiz file. It never contains quiz content, so it stays small no matter how many quizzes
-exist. The assembler's `--index` flag inserts a card (title, meta line, topic chips,
-`Start ▸` link) for the new quiz, newest-first, and is **idempotent** — re-running
-updates that quiz's card by its `href` instead of duplicating it. Always pass `--index`
-for study-hub quizzes so the hub stays current automatically.
+The hub is a **growing, program-wide NCLEX archive**, organized in two static levels so it
+scales to dozens of reviews without manual upkeep:
+
+- **`index.html`** — a grid of **class** cards (`NR327 · Maternal-Child Nursing`, "N
+  reviews", exam chips). It never contains quiz content, so it stays tiny. Each card links
+  to that class's page.
+- **`<classSlug>.html`** — one page per class, listing that class's reviews **grouped by
+  exam** (sections ordered by `examOrder`). Within a section, `exam-review` cards come
+  first, then `topic-practice` cards (badged). Each card has the meta line, a `Start ▸`
+  link to the quiz, and an optional Download link (set `meta.download`).
+
+Passing `--hub index.html` does both levels automatically and idempotently: it creates the
+class page from `assets/class-page-template.html` if new, inserts/updates this quiz's card
+under its exam section (by `href`), and inserts/updates the class card on the hub (by
+`classSlug`, with a live review count). Re-running updates in place — never duplicates.
+**Always pass `--hub` for study-hub quizzes.** If a quiz's meta lacks `classCode`/`className`,
+the build still succeeds but prints a "skipped" notice and registers nothing.
 
 ## Hard constraints (the engine + NCLEX both depend on these)
 

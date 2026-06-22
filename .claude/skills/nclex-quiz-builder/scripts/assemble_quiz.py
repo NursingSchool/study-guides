@@ -301,6 +301,161 @@ def register_in_index(index_path, out_path, meta, questions):
     return f"{action} {index_path} (href={href})"
 
 
+# --- per-class study hub (hub -> class pages -> exam-grouped review cards) ------
+ASSETS = Path(__file__).resolve().parent.parent / "assets"
+
+
+def slugify(text):
+    return re.sub(r"[^a-z0-9]+", "-", (text or "").lower()).strip("-")
+
+
+def build_review_card(href, title, kind, meta_line, chips, download=None):
+    badge = "Exam Review" if kind == "exam-review" else "Topic Practice"
+    bcls = "badge-exam" if kind == "exam-review" else "badge-topic"
+    chip_html = "".join(f'<span class="chip">{htmllib.escape(c)}</span>' for c in chips)
+    dl = f'\n        <a class="dl" href="{download}">↓ Offline ZIP</a>' if download else ""
+    return (
+        f'      <!-- quiz-card:{href} -->\n'
+        f'      <div class="card" data-quiz="{href}" data-kind="{kind}">\n'
+        f'        <div class="row">\n'
+        f'          <div><h3>{htmllib.escape(title)} <span class="badge {bcls}">{badge}</span></h3>\n'
+        f'          <div class="meta">{htmllib.escape(meta_line)}</div></div>\n'
+        f'          <a class="btn" href="{href}">Start ▸</a>\n'
+        f'        </div>\n'
+        f'        <div class="chips">{chip_html}</div>{dl}\n'
+        f'      </div>\n'
+        f'      <!-- /quiz-card:{href} -->'
+    )
+
+
+def ensure_class_page(class_path, class_code, class_name):
+    """Create the class page from the template if it doesn't exist yet."""
+    class_path = Path(class_path)
+    if class_path.exists():
+        return
+    tmpl = (ASSETS / "class-page-template.html").read_text(encoding="utf-8")
+    tmpl = (tmpl.replace("__CLASS_CODE__", htmllib.escape(class_code))
+                .replace("__CLASS_NAME__", htmllib.escape(class_name)))
+    class_path.write_text(tmpl, encoding="utf-8")
+
+
+def register_on_class_page(class_path, *, href, exam, exam_order, kind,
+                           title, meta_line, chips, download=None):
+    """Insert/update a review card under its exam section. Idempotent by href.
+    exam-review cards sit at the top of a section; topic-practice at the end."""
+    class_path = Path(class_path)
+    txt = class_path.read_text(encoding="utf-8")
+    card = build_review_card(href, title, kind, meta_line, chips, download)
+    qopen, qclose = f"<!-- quiz-card:{href} -->", f"<!-- /quiz-card:{href} -->"
+    if qopen in txt and qclose in txt:                       # update in place
+        pre = txt[:txt.index(qopen)]
+        post = txt[txt.index(qclose) + len(qclose):]
+        class_path.write_text(pre + card.lstrip() + post, encoding="utf-8")
+        return
+
+    sopen, sclose = f"<!-- exam:{exam_order} -->", f"<!-- /exam:{exam_order} -->"
+    if sopen not in txt:                                     # create the exam section, in order
+        section = (
+            f'    <section data-exam-order="{exam_order}">\n'
+            f'      {sopen}\n'
+            f'      <h2>{htmllib.escape(exam)}</h2>\n'
+            f'      <div class="grid">\n'
+            f'      </div>\n'
+            f'      {sclose}\n'
+            f'    </section>\n'
+        )
+        higher = sorted(o for o in (int(m) for m in re.findall(r"<!-- exam:(\d+) -->", txt))
+                        if o > exam_order)
+        if higher:
+            sec_tag = txt.rfind("<section", 0, txt.index(f"<!-- exam:{higher[0]} -->"))
+            ins = txt.rfind("\n", 0, sec_tag) + 1
+        else:
+            ins = txt.rfind("\n", 0, txt.index("<!-- reviews-end -->")) + 1
+        txt = txt[:ins] + section + txt[ins:]
+
+    sstart, send = txt.index(sopen), txt.index(sclose)       # insert card into the section grid
+    inner = txt[sstart:send]
+    gpos = inner.index('<div class="grid">') + len('<div class="grid">')
+    if kind == "exam-review":
+        nl = inner.index("\n", gpos) + 1
+        inner = inner[:nl] + card + "\n" + inner[nl:]
+    else:
+        gclose = inner.rfind("</div>")
+        line_start = inner.rfind("\n", 0, gclose) + 1
+        inner = inner[:line_start] + card + "\n" + inner[line_start:]
+    class_path.write_text(txt[:sstart] + inner + txt[send:], encoding="utf-8")
+
+
+def build_class_card(slug, code, name, href, review_count, exam_chips=None):
+    chips = "".join(f'<span class="chip">{htmllib.escape(c)}</span>' for c in (exam_chips or []))
+    rc = f"{review_count} review" + ("" if review_count == 1 else "s")
+    return (
+        f'    <!-- class-card:{slug} -->\n'
+        f'    <div class="card" data-class="{slug}">\n'
+        f'      <div class="row">\n'
+        f'        <div><h3>{htmllib.escape(code)} · {htmllib.escape(name)}</h3>\n'
+        f'        <div class="meta">{rc}</div></div>\n'
+        f'        <a class="btn" href="{href}">View ▸</a>\n'
+        f'      </div>\n'
+        f'      <div class="chips">{chips}</div>\n'
+        f'    </div>\n'
+        f'    <!-- /class-card:{slug} -->'
+    )
+
+
+def register_class_on_hub(hub_path, *, class_slug, class_code, class_name,
+                          class_page_href, review_count, exam_chips=None):
+    """Insert/update a class card on the hub. Idempotent by class_slug."""
+    hub_path = Path(hub_path)
+    if not hub_path.exists():
+        hub_path.write_text((ASSETS / "hub-template.html").read_text(encoding="utf-8"), encoding="utf-8")
+    txt = hub_path.read_text(encoding="utf-8")
+    card = build_class_card(class_slug, class_code, class_name, class_page_href, review_count, exam_chips)
+    copen, cclose = f"<!-- class-card:{class_slug} -->", f"<!-- /class-card:{class_slug} -->"
+    if copen in txt and cclose in txt:
+        pre = txt[:txt.index(copen)]
+        post = txt[txt.index(cclose) + len(cclose):]
+        txt = pre + card.lstrip() + post
+        action = "updated class card in"
+    else:
+        anchor = '<div class="grid" id="classes">'
+        if anchor not in txt:
+            return f"could not find '{anchor}' in {hub_path}; class card NOT added"
+        idx = txt.index(anchor) + len(anchor)
+        txt = txt[:idx] + "\n\n" + card + "\n" + txt[idx:]
+        action = "added class card to"
+    hub_path.write_text(txt, encoding="utf-8")
+    return f"{action} {hub_path.name} (class={class_slug})"
+
+
+def register_in_hub(hub_path, out_path, meta, questions):
+    """Two-level registration: this quiz onto its class page, and the class onto the hub."""
+    code, name = meta.get("classCode"), meta.get("className")
+    if not code or not name:
+        return "  [hub] skipped: meta lacks classCode/className (quiz built, not registered)"
+    slug = meta.get("classSlug") or slugify(f"{code} {name}")
+    hub_path = Path(hub_path)
+    class_path = hub_path.parent / f"{slug}.html"
+    href = os.path.relpath(out_path, hub_path.parent).replace(os.sep, "/")
+    n, cases = len(questions), count_case_studies(questions)
+    case_str = f" · {cases} case stud{'y' if cases == 1 else 'ies'}" if cases else ""
+    meta_line = meta.get("cardMeta", f"{n} questions · NGN-style{case_str} · rationale after each answer")
+    title = meta.get("cardTitle") or meta.get("header", "Review")
+    chips = meta.get("chips") or derive_chips(questions)
+    ensure_class_page(class_path, code, name)
+    register_on_class_page(
+        class_path, href=href, exam=meta.get("exam", "General practice"),
+        exam_order=int(meta.get("examOrder", 0)), kind=meta.get("kind", "exam-review"),
+        title=title, meta_line=meta_line, chips=chips, download=meta.get("download"))
+    ctxt = class_path.read_text(encoding="utf-8")
+    review_count = ctxt.count("<!-- quiz-card:")
+    exam_labels = re.findall(r"<h2>(.*?)</h2>", ctxt)
+    msg = register_class_on_hub(
+        hub_path, class_slug=slug, class_code=code, class_name=name,
+        class_page_href=f"{slug}.html", review_count=review_count, exam_chips=exam_labels)
+    return f"  [hub] {class_path.name} now lists {review_count} review(s); {msg}"
+
+
 def quality_audit(questions, total):
     """Heuristic difficulty/distractor guardrails. Advisory WARNINGS, not errors -
     they flag the tells that made the test-run quiz guessable so the builder can revise."""
@@ -342,7 +497,8 @@ def main():
     ap.add_argument("data", help="path to the .quiz.json data file")
     ap.add_argument("-o", "--out", help="output HTML path (default: alongside data)")
     ap.add_argument("--template", help="path to quiz-template.html")
-    ap.add_argument("--index", help="study-hub index.html to register this quiz in (adds/updates a card)")
+    ap.add_argument("--hub", help="study-hub index.html: register this quiz on its class page + the hub (needs class/exam/kind meta)")
+    ap.add_argument("--index", help="DEPRECATED alias for --hub")
     ap.add_argument("--strict", action="store_true", help="treat warnings as errors")
     args = ap.parse_args()
 
@@ -401,8 +557,9 @@ def main():
     out_path.write_text(out, encoding="utf-8")
     print(f"\nBuilt {out_path}  ({len(questions)} items, {out_path.stat().st_size} bytes)")
 
-    if args.index:
-        print(register_in_index(args.index, out_path, meta, questions))
+    hub = args.hub or args.index
+    if hub:
+        print(register_in_hub(hub, out_path, meta, questions))
     return 0
 
 
