@@ -1,0 +1,74 @@
+# Comprehensive Exam Build — Plan → Map → Reduce
+
+A comprehensive exam review (the default) is too large and too coverage-sensitive for one
+agent to write in a single pass — that produces formulaic distractors, uneven coverage, and
+difficulty drift. It is exactly what made the first test-run quiz guessable (73% length tells,
+emergencies omitted, Management of Care / Psychosocial near zero). Build it in three phases.
+
+## 1. PLAN (you, the main agent)
+
+- **Inventory** every module (`WeekN_*.md`) in the exam block; skim each to gauge its weight.
+- **Allocate items per module, scaled to material volume, with a floor.** Denser guides earn
+  more items; every module gets at least ~3–4 so nothing is a token mention. Size by material,
+  not a round number — a ~20-module block (e.g. Weeks 4–7) supports ~120–150 quality items.
+  Empirically that block wants roughly: Week 4 ~28, Week 5 ~32, Week 6 ~20, Week 7 ~50. Never
+  cap coverage to hit a round number; if forced to, `log()`/note what you dropped.
+- **Set difficulty + blueprint targets.** Mostly Application/Analysis with some Evaluation;
+  ≥80% at Application+. Deliberately fund **Management of Care** (prioritization, delegation,
+  referral) and **Psychosocial Integrity** — they're starved by default, but the guides hold the
+  content (newborn security/abduction, family grief, postpartum mental health).
+- **Assign and spread the NGN formats.** Decide which module owns each 6-item unfolding case
+  study, bowtie, trend, and matrix — and spread them across the block. The richest emergency
+  material (e.g. intrapartum: cord prolapse, tachysystole, dystocia) deserves a case study; don't
+  cluster all case studies in one topic.
+- **List the must-test high-yield per module before writing:** emergencies, priority actions,
+  "must report," meds + antidotes + contraindications first; nice-to-knows fill the rest. The
+  per-module gap analyses in this folder's history are a model for what "high-yield" means.
+
+## 2. MAP (one subagent per module, in parallel)
+
+Dispatch one subagent per module with the briefing below. Each returns its module's items as a
+JSON array (no file writes). Run them concurrently, then collect.
+
+### Subagent briefing template (fill the <slots>)
+```
+Write NCLEX-RN exam items for ONE module. Return ONLY a JSON array of item objects —
+no prose, no file writes.
+
+Source (read in full): <abs path to WeekN_Topic.md>
+Write exactly <N> items, distributed as <e.g. "7 radio, 3 SATA, 1 matrix; mostly Analysis">.
+<If this module owns a case study:> Include a 6-item unfolding case study on <scenario>,
+one item per NCJMM step, each stem labeled "CASE (n/6) <step>."
+
+MUST-TEST high-yield (cover these first, they cannot be omitted):
+<bulleted list from the PLAN — emergencies / priority / meds / contraindications>
+
+Follow these exactly (read them first):
+- Item schema + the 7 supported types: <skill>/references/ngn-item-writing.md
+- Distractor discipline & difficulty (SAME file): every distractor must be a plausible error a
+  real student makes; match option lengths; no throwaway/absolute filler; tag difficulty
+  honestly; write to Application/Analysis, not recall. Apply the "layperson test" to each item.
+- Client Needs `cat` strings (verbatim) + NCJMM steps: <skill>/references/blueprint-2026.md
+
+Ground every value in the source; if it conflicts with current evidence-based practice, note
+the conflict in the item's rationale rather than propagating the error.
+Return: a JSON array of items using the exact field names from the schema.
+```
+
+## 3. REDUCE (you, the main agent)
+
+- **Merge** all modules' arrays into one `questions` list in a sensible teaching order.
+- **Dedupe** near-identical items (same fact/lookup table twice) — keep the stronger one.
+- **Verify case studies**: each is exactly 6 linked items, one evolving patient, steps 1–6.
+- **Build + lint**: write `<name>.quiz.json`, run `assemble_quiz.py … --index index.html`.
+  Read every WARNING.
+- **Rebalance until clean**: rewrite items the linter flags for length-tell / throwaway /
+  absolute / SATA-variation; if Management of Care or Psychosocial are under band, swap in
+  prioritization/psychosocial items; re-run until the linter is quiet (or each remaining warning
+  has a logged reason). This central pass is where even coverage and difficulty are enforced.
+- **Report** the final coverage table + per-module allocation to Chris, and link the `.html`.
+
+This is *why* fan-out works: every module is independently and deeply authored (a dedicated
+agent finds the high-yield and writes tougher distractors), the floor guarantees even coverage,
+parallelism makes 120–150 items feasible without one agent fatiguing, and the reduce step is a
+single place to dedupe, rebalance, and hold the difficulty bar.

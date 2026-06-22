@@ -1,6 +1,10 @@
 # Playwright MCP scratch — browser snapshots, console logs, screenshots
 .playwright-mcp/
 
+# Throwaway build artifacts from the nclex-quiz-builder skill
+# (per-module question drafts, analysis/merge scripts, eval runs, index copies)
+.claude/skills/nclex-quiz-builder-workspace/
+
 # OS / editor cruft
 Thumbs.db
 .DS_Store

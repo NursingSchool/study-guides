@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>__TITLE__</title>
+<style>
+  :root{
+    --bg:#0f172a; --card:#1e293b; --card2:#273449; --ink:#e2e8f0; --muted:#94a3b8;
+    --line:#334155; --accent:#2dd4bf; --accent2:#14b8a6; --good:#22c55e; --bad:#f87171;
+    --goodbg:#0c2a1a; --badbg:#2a1414; --chip:#0b3b3b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.55 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:780px;margin:0 auto;padding:20px 16px 80px}
+  header{display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
+  h1{font-size:20px;margin:0;letter-spacing:.2px}
+  .sub{color:var(--muted);font-size:13px}
+  .bar{height:8px;background:var(--card);border-radius:999px;overflow:hidden;margin-top:6px}
+  .fill{height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .3s}
+  .meta{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);margin-top:6px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-top:14px}
+  .topic{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.6px;
+    color:var(--accent);background:var(--chip);padding:3px 9px;border-radius:999px;margin-bottom:10px}
+  .stem{font-size:17px;margin:2px 0 14px;white-space:pre-wrap}
+  .opts{display:flex;flex-direction:column;gap:9px}
+  .opt{display:flex;gap:10px;align-items:flex-start;background:var(--card2);border:1px solid var(--line);
+    border-radius:10px;padding:11px 12px;cursor:pointer;transition:border-color .15s,background .15s}
+  .opt:hover{border-color:var(--accent2)}
+  .opt input{margin-top:3px;accent-color:var(--accent);width:17px;height:17px;flex:0 0 auto}
+  .opt.sel{border-color:var(--accent);background:#22323f}
+  .opt.right{border-color:var(--good);background:var(--goodbg)}
+  .opt.wrong{border-color:var(--bad);background:var(--badbg)}
+  .opt .tag{margin-left:auto;font-size:12px;font-weight:600;white-space:nowrap}
+  .opt .tag.r{color:var(--good)} .opt .tag.w{color:var(--bad)}
+  .row{display:flex;gap:10px;align-items:center;background:var(--card2);border:1px solid var(--line);
+    border-radius:10px;padding:10px 12px;margin-bottom:8px;flex-wrap:wrap}
+  .row .lab{flex:1 1 230px}
+  select,input[type=text]{background:#0b1220;color:var(--ink);border:1px solid var(--line);
+    border-radius:8px;padding:8px 10px;font-size:15px;max-width:100%}
+  select:focus,input:focus{outline:2px solid var(--accent2)}
+  select.right,input.right{border-color:var(--good)} select.wrong,input.wrong{border-color:var(--bad)}
+  .grp{margin:10px 0;padding:10px;border:1px dashed var(--line);border-radius:10px}
+  .grp h4{margin:0 0 8px;font-size:13px;color:var(--accent);text-transform:uppercase;letter-spacing:.5px}
+  .btn{appearance:none;border:0;border-radius:10px;padding:12px 18px;font-size:15px;font-weight:600;
+    cursor:pointer;background:var(--accent2);color:#04201d}
+  .btn:disabled{opacity:.4;cursor:not-allowed}
+  .btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent2)}
+  .actions{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+  .fb{margin-top:14px;border-radius:12px;padding:14px;border:1px solid var(--line);display:none}
+  .fb.show{display:block}
+  .fb.ok{background:var(--goodbg);border-color:#1f5135}
+  .fb.no{background:var(--badbg);border-color:#5b2626}
+  .fb .verdict{font-weight:700;font-size:15px;margin-bottom:6px}
+  .fb .verdict.ok{color:var(--good)} .fb .verdict.no{color:var(--bad)}
+  .fb p{margin:6px 0}
+  .fb .lblrow{font-size:12px;color:var(--muted);margin-top:8px}
+  .fb .strat{font-style:italic;color:#cbd5e1}
+  .hint{font-size:12px;color:var(--muted);margin:-4px 0 10px}
+  .end{text-align:center;padding:24px 8px}
+  .score{font-size:46px;font-weight:800;color:var(--accent)}
+  .endsub{color:var(--muted);margin-top:6px}
+  table.brk{width:100%;border-collapse:collapse;margin-top:18px;font-size:13px}
+  table.brk td{border-top:1px solid var(--line);padding:7px 6px;text-align:left}
+  table.brk td:last-child{text-align:right;color:var(--muted)}
+  .miss{text-align:left;margin-top:18px;font-size:13px;color:var(--muted)}
+  .footnote{font-size:11px;color:var(--muted);margin-top:24px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>__HEADER__</h1>
+    <div class="sub">__SUBTITLE__</div>
+    <div class="bar"><div class="fill" id="fill"></div></div>
+    <div class="meta"><span id="pos">Question 1 of 50</span><span id="sc">Score 0 / 0</span></div>
+  </header>
+  <div id="app"></div>
+</div>
+<script>
+const Q = __QUESTIONS__;
+
+// ---------- app logic ----------
+const app=document.getElementById('app');
+const fill=document.getElementById('fill');
+const posEl=document.getElementById('pos');
+const scEl=document.getElementById('sc');
+let i=0, score=0, answeredCount=0;
+const result=new Array(Q.length).fill(null); // true/false once answered
+
+function setMeta(){
+  posEl.textContent='Question '+(i+1)+' of '+Q.length;
+  scEl.textContent='Score '+score+' / '+answeredCount;
+  fill.style.width=((answeredCount)/Q.length*100)+'%';
+}
+function eqSet(a,b){ if(a.length!==b.length)return false; const s=new Set(a); return b.every(x=>s.has(x)); }
+
+function render(){
+  const q=Q[i]; setMeta();
+  let body='';
+  if(q.type==='radio'||q.type==='multi'){
+    const inputType=q.type==='radio'?'radio':'checkbox';
+    body='<div class="opts">'+q.opts.map((o,idx)=>
+      '<label class="opt" data-idx="'+idx+'"><input type="'+inputType+'" name="o" value="'+idx+'">'
+      +'<span>'+o+'</span></label>').join('')+'</div>';
+    if(q.type==='multi') body='<div class="hint">Select all that apply. Judge each option independently.</div>'+body;
+  } else if(q.type==='matrix'){
+    body=q.rows.map((r,ri)=>'<div class="row"><span class="lab">'+r.t+'</span>'
+      +'<select data-row="'+ri+'"><option value="">— choose —</option>'
+      +q.cols.map((c,ci)=>'<option value="'+ci+'">'+c+'</option>').join('')+'</select></div>').join('');
+  } else if(q.type==='match'){
+    body=q.rows.map((r,ri)=>'<div class="row"><span class="lab">'+r.t+'</span>'
+      +'<select data-row="'+ri+'"><option value="">— choose —</option>'
+      +q.shared.map((c,ci)=>'<option value="'+ci+'">'+c+'</option>').join('')+'</select></div>').join('');
+  } else if(q.type==='cloze'){
+    body=q.blanks.map((b,bi)=>'<div class="row"><span class="lab">'+b.label+'</span>'
+      +'<select data-row="'+bi+'"><option value="">— choose —</option>'
+      +b.opts.map((c,ci)=>'<option value="'+ci+'">'+c+'</option>').join('')+'</select></div>').join('');
+  } else if(q.type==='bowtie'){
+    const grp=(title,key,opts,multi)=>'<div class="grp"><h4>'+title+'</h4>'
+      +opts.map((o,idx)=>'<label class="opt" data-key="'+key+'" data-idx="'+idx+'">'
+        +'<input type="'+(multi?'checkbox':'radio')+'" name="'+key+'" value="'+idx+'"><span>'+o+'</span></label>').join('')+'</div>';
+    body=grp('Central problem (pick 1)','problem',q.problem.opts,false)
+        +grp('Two actions to take (pick 2)','actions',q.actions.opts,true)
+        +grp('Two parameters to monitor (pick 2)','params',q.params.opts,true);
+  } else if(q.type==='calc'){
+    body='<div class="row"><input type="text" id="calc" placeholder="e.g., 9 or 8.8" inputmode="decimal"> %</div>';
+  }
+  const last=i===Q.length-1;
+  app.innerHTML='<div class="card"><span class="topic">'+q.topic+'</span>'
+    +'<div class="stem">'+q.n+'. '+q.stem+'</div>'+body
+    +'<div class="actions">'
+    +'<button class="btn" id="submit">Submit answer</button>'
+    +'<button class="btn ghost" id="next" disabled>'+(last?'See results':'Next ▸')+'</button>'
+    +'</div><div class="fb" id="fb"></div></div>';
+
+  // selection highlighting for label-based inputs
+  app.querySelectorAll('.opt input').forEach(inp=>inp.addEventListener('change',()=>{
+    const grpName=inp.name;
+    app.querySelectorAll('.opt input[name="'+grpName+'"]').forEach(x=>x.closest('.opt').classList.toggle('sel',x.checked));
+  }));
+  document.getElementById('submit').onclick=grade;
+  document.getElementById('next').onclick=()=>{ if(i<Q.length-1){i++;render();} else {results();} };
+}
+
+function grade(){
+  const q=Q[i]; let correct=false; let answerText='';
+  const submitBtn=document.getElementById('submit'); const nextBtn=document.getElementById('next');
+  if(q.type==='radio'){
+    const sel=app.querySelector('input[name="o"]:checked');
+    const chosen=sel?+sel.value:-1; correct=chosen===q.ans;
+    app.querySelectorAll('.opt').forEach((el,idx)=>{
+      if(idx===q.ans){el.classList.add('right'); el.insertAdjacentHTML('beforeend','<span class="tag r">correct</span>');}
+      if(idx===chosen&&chosen!==q.ans){el.classList.add('wrong'); el.insertAdjacentHTML('beforeend','<span class="tag w">your pick</span>');}
+    });
+    answerText='Correct answer: '+q.opts[q.ans];
+  } else if(q.type==='multi'){
+    const chosen=[...app.querySelectorAll('input[name="o"]:checked')].map(x=>+x.value);
+    correct=eqSet(chosen,q.ans);
+    app.querySelectorAll('.opt').forEach((el,idx)=>{
+      const isAns=q.ans.includes(idx), picked=chosen.includes(idx);
+      if(isAns){el.classList.add('right'); el.insertAdjacentHTML('beforeend','<span class="tag r">answer</span>');}
+      if(picked&&!isAns){el.classList.add('wrong'); el.insertAdjacentHTML('beforeend','<span class="tag w">your pick</span>');}
+    });
+    answerText='Correct selections: '+q.ans.map(x=>q.opts[x]).join(' · ');
+  } else if(q.type==='matrix'||q.type==='match'||q.type==='cloze'){
+    const rows=q.type==='cloze'?q.blanks:q.rows;
+    let allRight=true;
+    app.querySelectorAll('select[data-row]').forEach(sel=>{
+      const ri=+sel.dataset.row; const a=rows[ri].a; const v=sel.value===''?-1:+sel.value;
+      if(v===a){sel.classList.add('right');} else {sel.classList.add('wrong'); allRight=false;}
+      sel.disabled=true;
+    });
+    correct=allRight;
+    if(q.type==='cloze'){answerText='Answers: '+q.blanks.map(b=>b.opts[b.a]).join(' · ');}
+    else if(q.type==='match'){answerText='Answers: '+q.rows.map(r=>r.t+' → '+q.shared[r.a]).join(' · ');}
+    else {answerText='Answers: '+q.rows.map(r=>r.t+' → '+q.cols[r.a]).join(' · ');}
+  } else if(q.type==='bowtie'){
+    const pSel=app.querySelector('input[name="problem"]:checked');
+    const pOk=pSel&&+pSel.value===q.problem.a;
+    const aChosen=[...app.querySelectorAll('input[name="actions"]:checked')].map(x=>+x.value);
+    const mChosen=[...app.querySelectorAll('input[name="params"]:checked')].map(x=>+x.value);
+    const aOk=eqSet(aChosen,q.actions.ans), mOk=eqSet(mChosen,q.params.ans);
+    correct=pOk&&aOk&&mOk;
+    const mark=(key,ansArr,single)=>{
+      app.querySelectorAll('.opt[data-key="'+key+'"]').forEach(el=>{
+        const idx=+el.dataset.idx; const picked=el.querySelector('input').checked;
+        const isAns=single?(idx===ansArr):ansArr.includes(idx);
+        if(isAns){el.classList.add('right');}
+        if(picked&&!isAns){el.classList.add('wrong');}
+      });
+    };
+    mark('problem',q.problem.a,true); mark('actions',q.actions.ans,false); mark('params',q.params.ans,false);
+    answerText='Problem: '+q.problem.opts[q.problem.a]
+      +' | Actions: '+q.actions.ans.map(x=>q.actions.opts[x]).join(', ')
+      +' | Monitor: '+q.params.ans.map(x=>q.params.opts[x]).join(', ');
+  } else if(q.type==='calc'){
+    const inp=document.getElementById('calc'); const v=parseFloat((inp.value||'').replace('%','').trim());
+    correct=!isNaN(v)&&v>=q.acceptLo&&v<=q.acceptHi;
+    inp.classList.add(correct?'right':'wrong'); inp.disabled=true;
+    answerText='Correct answer: '+q.answer;
+  }
+
+  // lock inputs
+  app.querySelectorAll('input').forEach(x=>x.disabled=true);
+  submitBtn.disabled=true; nextBtn.disabled=false;
+
+  if(result[i]===null){ result[i]=correct; answeredCount++; if(correct)score++; }
+  setMeta();
+
+  const fb=document.getElementById('fb');
+  fb.className='fb show '+(correct?'ok':'no');
+  fb.innerHTML='<div class="verdict '+(correct?'ok':'no')+'">'+(correct?'✓ Correct':'✗ Not quite')+'</div>'
+    +'<p>'+answerText+'</p>'
+    +'<p>'+q.rat+'</p>'
+    +'<p class="strat">Strategy: '+q.strat+'</p>'
+    +'<div class="lblrow">Client Needs: '+q.cat+' · Cognitive level: '+q.lvl+'</div>';
+  fb.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+function results(){
+  const pct=Math.round(score/Q.length*100);
+  // category breakdown
+  const cats={};
+  Q.forEach((q,idx)=>{ if(!cats[q.cat])cats[q.cat]={c:0,t:0}; cats[q.cat].t++; if(result[idx])cats[q.cat].c++; });
+  const rows=Object.entries(cats).sort((a,b)=>b[1].t-a[1].t)
+    .map(([k,v])=>'<tr><td>'+k+'</td><td>'+v.c+' / '+v.t+'</td></tr>').join('');
+  const missed=Q.filter((q,idx)=>!result[idx]).map(q=>q.n);
+  const msg = pct>=85?'Strong — that is solid NCLEX readiness territory.'
+            : pct>=70?'Passing range. Review the misses and the rationales.'
+            : 'Keep grinding — focus on the missed items and re-run.';
+  app.innerHTML='<div class="card end">'
+    +'<div class="score">'+pct+'%</div>'
+    +'<div class="endsub">'+score+' of '+Q.length+' correct</div>'
+    +'<p>'+msg+'</p>'
+    +'<table class="brk"><tr><td><strong>Client Needs category</strong></td><td><strong>Correct</strong></td></tr>'+rows+'</table>'
+    +(missed.length?'<div class="miss"><h3>Missed items: '+missed.join(', ')+'</h3></div>':'<div class="miss"><h3>Perfect run — no misses.</h3></div>')
+    +'<div class="actions" style="justify-content:center"><button class="btn" id="restart">Restart quiz</button></div>'
+    +'<div class="footnote">__FOOTNOTE__</div>'
+    +'</div>';
+  document.getElementById('restart').onclick=()=>{i=0;score=0;answeredCount=0;result.fill(null);render();};
+  fill.style.width='100%';
+}
+
+render();
+</script>
+</body>
+</html>
