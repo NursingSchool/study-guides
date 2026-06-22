@@ -8,6 +8,13 @@ emergencies omitted, Management of Care / Psychosocial near zero). Build it in t
 ## 1. PLAN (you, the main agent)
 
 - **Inventory** every module (`WeekN_*.md`) in the exam block; skim each to gauge its weight.
+- **One module = one guide file.** Treat every `WeekN_*.md` as its own module and give it its
+  own MAP agent — *including* the "overview" and "Nursing Application" companion guides. Never
+  fold several files into one agent: it silently under-covers a module, and the student counts
+  files as modules. Tell each overview/application agent to focus on its distinct angle
+  (overview = integrative/classification/comparison; application = assessment/teaching/
+  prioritization) so it complements rather than duplicates the content modules — the Reduce
+  dedup pass catches any remaining overlap.
 - **Allocate items per module, scaled to material volume, with a floor.** Denser guides earn
   more items; every module gets at least ~3–4 so nothing is a token mention. Size by material,
   not a round number — a ~20-module block (e.g. Weeks 4–7) supports ~120–150 quality items.
