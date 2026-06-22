@@ -262,3 +262,51 @@ Mayo Clinic. (2022, January 6). Belching, gas and bloating: Tips for reducing th
 
 ---
 
+## Section 16: Dysphagia
+
+Dysphagia is a common gastrointestinal (GI) disorder that affects a client's ability to swallow and can lead to malnutrition. Just like breathing or the beating of the heart, swallowing is an involuntary action that occurs without thought. Therefore, systematic screening of the client's ability to swallow and a thorough assessment of their nutritional status is essential. If a client cannot swallow, there is a significant risk of malnutrition.
+
+Any condition that weakens or damages the muscles and nerves used for swallowing or leads to a narrowing of the back of the throat or esophagus can cause dysphagia. It should be noted that dysphagia, though more common in older adults, is not a normal part of aging.
+
+### Tab: Risk Factors for Dysphagia
+
+- older age (normal wear and tear on the esophagus)
+- neurologic conditions
+  - stroke
+  - Parkinson's disease
+
+### Tab: Complications of Dysphagia
+
+- malnutrition
+- aspiration pneumonia (stomach contents enter the lung)
+- choking
+
+The goal in managing clients with dysphagia is to frequently assess their nutritional status, swallowing ability, and adjust their diets, as needed. It is important to follow directions provided by the speech-language pathologist and healthcare provider regarding the consistency of foods that the client can safely swallow, monitor their eating (in case they choke or aspirate), and have the client eat in a fully upright position (aids swallowing).
+
+In the image shown here, a speech therapist leads a client with dysphagia in exercises to strengthen swallowing muscles.
+
+---
+
+## Section 18: Nutritional Goals
+
+An individual's dietary and nutritional goals are determined by their overall health, the foods they eat, and the specific gastrointestinal (GI) symptoms and disease. When dietary changes are included in the client's treatment plan, the goals are:
+
+- maintaining adequate intake using a well-balanced diet, supplementing as needed
+- protecting the airway of the client living with dysphagia
+- avoiding foods that have little nutritional value (e.g., processed foods, fast foods, items with high sugar content)
+
+Steps to support these goals will vary by the client, but should generally include:
+
+- increasing the number and variety of fresh foods consumed
+- eliminating foods that worsen the client's condition
+- encouraging the client to eat at least three meals per day, as tolerated
+
+For clients who cannot shop for or prepare their own foods, alternate assistance, like having a family member shop and prepare their food or a program that delivers healthy meals to the home, should be explored.
+
+---
+
+## Module 1 Completion
+
+**Sections captured:** Introduction (1), Explore: Nutrition for Gastrointestinal Health (3), Explore: Factors Impacting Gastrointestinal Health (4), Explore: Screening for Gastrointestinal Disorders (5), Explore: Nutritional Deficiencies (6), Explore: Diagnostics of Gastrointestinal Disorders (8), Explore: Nutritional Therapy (9), Explore: The Mediterranean Diet (10), Explore: Why the DASH Diet Works (11), Explore: Common Symptoms of Gastrointestinal Alterations (13), Explore: Intestinal Gas and Flatulence (14), Explore: Dysphagia (16), Explore: Nutritional Goals (18)
+
+**Sections skipped (Prepare/Self-Check/Reflect):** Prepare: Nutrition for Gastrointestinal Health (2), Self-Check: Risks for Malnutrition (7), Self-Check: Diets to Decrease Inflammation (12), Self-Check: Flatus (15), Self-Check: Gastrointestinal Tract Disorders (17), Self-Check: Preventing Malnutrition (19), Reflect: Nutrition for Gastrointestinal Health (20)
