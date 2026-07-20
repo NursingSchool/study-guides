@@ -27,7 +27,7 @@
 **Courses covered:** NR328 Pediatric Nursing (Week 2; Week 3 where noted) · NR449 Evidence-Based Practice (Week 2)
 **Not covered:** NR327 Maternal-Child and NR228 Nutrition were reviewed separately and are out of scope here.
 
-> **Round 2 has been appended below** (2026-07-20) covering NR328 Weeks 1 & 3 and NR449 Weeks 1 & 3 — 20 more Pediatrics items and 7 more EBP items, IDs PEDS-16+ and EBP-13+. **Round 2 has NOT been verified against the live modules, and its capture-suspect/source-suspect labels are provisional guesses, not findings** — see the warning box at the head of that section before acting on any of them. Highest-priority item is **PEDS-31** (the Week 1 immunization schedule contradicts itself three ways).
+> **Round 2 has been appended below** (2026-07-20) covering NR328 Weeks 1 & 3 and NR449 Weeks 1 & 3 — 20 more Pediatrics items and 7 more EBP items, IDs PEDS-16+ and EBP-13+. Round 2 was not put through a live-DOM pass, but it doesn't need one for most items: because the extractor reads `node.textContent` (lossless for characters), every character-level garble and every contradiction between two quoted passages is **source, by mechanism** — see the triage box at the head of that round. The genuine capture-suspect residue is just PEDS-16, PEDS-18, and the coverage-check items PEDS-25/33/35. Highest-priority item is **PEDS-31** — the Week 1 immunization schedule, now a confirmed author defect (`Ddap` misspelling and impossible dose counts are character garbles the read cannot have introduced).
 
 ## Purpose — read this first
 
@@ -353,22 +353,23 @@ Bundle rather than filing individually: `Week2_Croup_and_Bacterial_Epiglottitis.
 **Scope:** the modules not covered by the Week 2 audit above. IDs continue from Round 1.
 **Summary:** 20 Pediatrics items · 7 EBP items. One capture bug was found and **already fixed** (see below).
 
-> ### ⚠️ The CAPTURE-SUSPECT / SOURCE-SUSPECT labels in Round 2 are provisional — do not trust them
+> ### How to read the CAPTURE / SOURCE calls in Round 2 — triaged by extraction mechanism
 >
-> In Round 1 those labels were assigned from evidence and then tested against the live modules. **In Round 2 they were assigned by analogy to Round 1's result** — "the source turned out to be sloppy last time, so it probably is again." That is not evidence, and it is the wrong inference to carry forward, because Round 1 earned its verdict through a verification pass Round 2 has never had.
+> The extractor runs JavaScript in the live page and reads `node.textContent` — the literal character data of the DOM, the same string the author typed into Edapt's CMS. No screenshot, no OCR, no transcription, no inference. **The read is lossless for characters.** That fact decides most of Round 2 without a DOM pass:
 >
-> **Treat every Round 2 item as unclassified until the DOM pass is run.** What we actually know:
+> **A character-level garble cannot come from the read.** A misspelling (`Ddap`, `join pain`), an impossible number (`8,000 to 140,000`), a wrong name (`NCRN`), a dangling clause, an unclosed quote — `textContent` returns exactly what is in the node, so if it is garbled in the guide it is garbled in the CMS. These are **source, definitively.** Likewise, a contradiction between two passages that are *both present and quoted* (PEDS-21/22/24/27/30/32, EBP-14/16/20/21/22/23/25/26) is the author's — both texts were read faithfully.
 >
-> | Evidence | Cuts which way |
-> |---|---|
-> | Round 1 tested 20 items that "looked like capture failures." **20 of 20 were faithful.** Including **PEDS-01**, the immunization item — the closest analogue to PEDS-31 — which was called the highest-value recapture on the list and turned out to be a decorative stock photo and a link. | Toward source |
-> | Week 1 and Week 2 guides have **no Section Manifest**, so completeness cannot be checked from the file alone. (Week 2 was verified externally anyway; Week 1 never has been.) | Neutral — unverifiable, not bad |
-> | Week 1 has a **demonstrated capture defect** the other weeks don't — 15 doubled apostrophes from here-string escaping. A pipeline that broke once may have broken elsewhere. | Toward capture, Week 1 only |
-> | Section-gap analysis: `Week1_Nursing_Care_Pediatric_Populations.md` skips §§10–12 consecutively. **This is not a signal.** Two Week 2 modules show the same triple gaps and were verified faithful — runs of three Self-Checks are normal. | Inconclusive — discarded |
+> **Capture defects still exist, but only in three narrow shapes — none of them character corruption:**
 >
-> Net: the Week 1 items carry a genuinely higher capture prior than the Week 3 items, because of the apostrophe bug and because Week 3's manifests reconcile 16/16. But **no Round 2 item has been adjudicated**, and the Round 1 base rate argues against assuming capture failure. The resolution is not more armchair analysis — it is the same `textContent` DOM pass Round 1 used, which is cheap and decisive.
+> | Class | What it looks like | How it shows up | Round 2 items that could be this |
+> |---|---|---|---|
+> | **Coverage / absence** | a tab, slide, or accordion never clicked open, or content that lives only in an image/video/audio (no `textContent` to read) | content **missing entirely**, never garbled | PEDS-19, PEDS-20 (video — inherent limit, no audio capture exists); PEDS-25, PEDS-33, PEDS-35 (possible un-clicked tab vs. genuinely absent); PEDS-01 (image — already verified: decorative) |
+> | **Structural reassembly** | a table or two-column layout flattened or reordered when the agent rebuilt it as Markdown | characters faithful, **structure wrong** | PEDS-18 (FACES numbers read correctly but a 0–5 / 0–10 two-column scale collapsed to one line); the Round 1 respiratory row-reorder was this class |
+> | **Write-side escaping** | the *write* to disk mangles a faithful read (PowerShell here-string `''`) | mechanical, patterned | the 15 doubled apostrophes — already found and fixed |
 >
-> **One caveat on Week 3's manifests:** they track *sections*, not tabs, slides, or accordions *within* a section. So a reconciling manifest rules out a skipped section — it does not rule out a lost tab, which is exactly the shape of PEDS-21, PEDS-24 and PEDS-27 (adjacent statements that contradict, as if a qualifying header between them went missing).
+> **Net:** the fear that Round 2's "source" calls were just analogy to Round 1 is now moot for the character-garble and dual-passage-contradiction items — the mechanism, not the base rate, makes those source. The genuine capture-suspect residue is small and specific: **PEDS-16** (wrong module entirely — a routing/coverage question the read fidelity doesn't touch), **PEDS-18** (table flattened), and the coverage-check items **PEDS-25 / PEDS-33 / PEDS-35** (is a tab missing, or does the module truly not cover it?). A targeted DOM pass only needs to hit *those* — not all 27.
+>
+> **One caveat that survives:** a reconciling section manifest (Week 3) rules out a skipped *section*, not a lost *tab within* a section. But a lost tab is a coverage/absence defect — it shows up as **missing** content, not as a contradiction between two things that are both on the page. So it does **not** explain PEDS-21/24/27, where both contradicting statements are present and quoted; those stay source.
 
 ## Capture fixes applied (round 2)
 

@@ -84,8 +84,18 @@ produces a quiz that trains the wrong answer.
 
 Two narrow exceptions:
 - **Blatantly wrong or unsafe** content — don't key it. Flag it to Chris instead.
-- **A bad capture** — garbled, truncated, or self-contradictory extraction. Key the guide's
-  clearest/dominant version if you safely can, and flag the ambiguity.
+- **A bad capture** — but know how rare this is. The extractor reads `node.textContent` from the
+  live DOM (the literal string the author typed into the CMS) — no OCR, no transcription, no
+  inference — so **the read is lossless for characters.** A misspelling, an impossible number, a
+  wrong name, an unclosed quote, or a contradiction between two passages that are *both present*
+  is therefore the **source's** error, not the capture's: key the guide's clearest/dominant
+  version and flag it as a source defect. Capture defects only take three shapes, none of them
+  character corruption: **(1) coverage/absence** — a tab/slide/accordion never opened, or content
+  that lives only in an image/video/audio (shows up as *missing*, never garbled); **(2) structural
+  reassembly** — a table or two-column layout flattened/reordered when rebuilt as Markdown
+  (characters right, structure wrong); **(3) write-side escaping** — the write to disk mangles a
+  faithful read (PowerShell here-string `''` → doubled apostrophes). When you flag a possible
+  capture issue, say which of these three it is; if it's a character garble, it's the source.
 
 When the guide is merely *less current* than today's practice, key the guide's version and may
 add one short "current practice now favors X" clause to the rationale — the keyed answer still
