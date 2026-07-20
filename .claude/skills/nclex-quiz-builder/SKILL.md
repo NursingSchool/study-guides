@@ -146,6 +146,11 @@ The questions are grounded in material Chris has already captured — you are
   Never silently swap in current practice; see the Accuracy rule in `references/blueprint-2026.md`.
 - A folder may already hold a markdown quiz (`NCLEX_Quiz_*.md`) and/or a built `.html`.
   Reuse good items, but avoid producing a near-duplicate of an existing quiz unless asked.
+- **The other ~10%.** Some tested content comes from the textbook or instructor handouts rather
+  than Edapt (a handed-out immunization schedule chart is the known example). If a clearly
+  testable topic is missing from the guides, don't invent it from general knowledge and don't
+  assume it isn't tested — tell Chris what's missing and ask for the handout so items can be
+  grounded in his actual source.
 
 ## The study hub (`index.html` → class pages)
 

@@ -67,9 +67,14 @@ by an explicit framework — state it in the rationale (`rat`):
 ## Accuracy rule — the guide is the tested content
 
 **Key items to what the guide teaches.** Roughly 90% of Chris's quiz and exam questions come
-straight from the Edapt modules (his professors don't write them; a smaller share comes from
-the textbook). So the guide's content *is* the exam content. Write items that prepare him for
-that exam.
+straight from the Edapt modules — his professors don't write them. The remaining ~10% comes
+from the course textbook and instructor handouts (e.g., a handed-out immunization schedule
+chart). So the guide's content *is* the exam content. Write items that prepare him for that exam.
+
+**Missing ≠ untested.** If a clearly testable topic is thin or absent in the guides, it may
+simply live in that other 10% — an immunization schedule is the known example. Do NOT fabricate
+it from general knowledge (his handout may differ), and do NOT assume it's untested. Flag it and
+ask Chris for the handout/textbook section so items can be grounded in the real source.
 
 This means: **do not substitute current evidence-based practice for the guide's version, and
 do not skip a topic because the guide lags current standards.** If the guide teaches cool mist
