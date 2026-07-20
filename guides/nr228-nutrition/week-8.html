@@ -56,14 +56,17 @@
   </header>
 
   <div class="note">
-    <strong>Build your own practice.</strong> Use <em>Copy all modules</em> (or the copy button on any single
-    module) and paste it into an AI assistant with a prompt like <em>"write 15 NCLEX-style questions from this,
-    with rationales."</em> The raw files also live
-    <a href="https://github.com/NursingSchool/study-guides/tree/main/nutrition_nr228" target="_blank" rel="noopener">on GitHub</a>.
+    <strong>Build your own practice.</strong> Give this to an AI assistant with a prompt like
+    <em>"write 15 NCLEX-style questions from this, with rationales."</em><br>
+    <strong>One module?</strong> Hit its <em>Copy markdown</em> button and paste.
+    <strong>The whole week?</strong> Download the <code>.md</code> and upload the file instead — a full week is
+    large enough that pasting it often gets truncated or mangled.
+    The raw files also live <a href="https://github.com/NursingSchool/study-guides/tree/main/nutrition_nr228" target="_blank" rel="noopener">on GitHub</a>.
   </div>
 
   <div class="actions">
-    <button class="btn solid" onclick="copyAll(this)">Copy all modules</button>
+    <button class="btn solid" onclick="downloadAll(this)">Download week (.md)</button>
+    <button class="btn" onclick="copyAll(this)">Copy all modules</button>
   </div>
 
   <h2>Modules</h2>
@@ -822,8 +825,18 @@ function fallback(text, btn){
   catch(e){ flash(btn,'Press Ctrl+C'); }
   document.body.removeChild(ta);
 }
+function allText(){ return Object.keys(MD).map(k=>MD[k]).join('\n\n---\n\n'); }
 function copyOne(id, btn){ put(MD[id], btn); }
-function copyAll(btn){ put(Object.keys(MD).map(k=>MD[k]).join('\n\n---\n\n'), btn); }
+function copyAll(btn){ put(allText(), btn); }
+function downloadAll(btn){
+  const blob = new Blob([allText()], {type:'text/markdown;charset=utf-8'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'nr228-nutrition-week-8.md';
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  setTimeout(()=>URL.revokeObjectURL(url), 1000);
+  flash(btn, 'Downloaded ✓');
+}
 </script>
 </body>
 </html>

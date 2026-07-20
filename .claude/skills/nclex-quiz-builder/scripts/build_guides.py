@@ -158,6 +158,7 @@ def build_week_page(*, code, name, slug, week, files, out_dir, github_url):
             .replace("__WEEK_LABEL__", f"Week {week}")
             .replace("__MODULE_COUNT__", str(len(files)))
             .replace("__CLASS_HREF__", f"../../{slug}.html")
+            .replace("__FILE_BASE__", f"{slug}-week-{week}")
             .replace("__GITHUB_URL__", github_url)
             .replace("__TOC__", "\n".join(toc))
             .replace("__CONTENT__", "\n".join(content))
