@@ -486,7 +486,7 @@
    "type": "match",
    "cat": "Management of Care",
    "lvl": "Analysis",
-   "stem": "A unit council is appraising five sources found during a search on preventing hospital-acquired infection. Using the five-level rating scale presented in this module, assign each described source to its level.",
+   "stem": "A unit council is appraising six sources retrieved during a search on preventing hospital-acquired infection. Using the five-level rating system presented in this module, assign each source to the level it belongs on.",
    "shared": [
     "Level 1",
     "Level 2",
@@ -496,150 +496,138 @@
    ],
    "rows": [
     {
-     "t": "A meta-analysis that statistically pools the results of 14 randomized trials of chlorhexidine bathing",
+     "t": "A practice guideline recommendation built from the pooled results of eleven randomized trials of chlorhexidine bathing",
      "a": 0
     },
     {
-     "t": "A controlled trial of two mobility protocols in which clients were assigned by admission day rather than at random",
+     "t": "A well designed controlled study of two hand-hygiene reminder systems in which units were assigned by wing rather than at random",
      "a": 1
     },
     {
-     "t": "A retrospective chart review comparing infection rates in clients who did and did not receive a care bundle",
+     "t": "A retroactive chart review of 400 records comparing infection rates before and after a care bundle was adopted",
      "a": 2
     },
     {
-     "t": "A survey with a 14% response rate, reported alongside interview quotes from the nurses who responded",
+     "t": "An observational study comparing infection rates on two units that already used different dressing products",
+     "a": 2
+    },
+    {
+     "t": "A mixed-methodology descriptive study whose survey was returned by 12% of the nurses invited",
      "a": 3
     },
     {
-     "t": "A recommendation a panel of infection prevention specialists agreed on by consensus",
+     "t": "A specialty organization's consensus statement drawn from the panel members' clinical experience",
      "a": 4
     }
    ],
-   "rat": "The module's scale places multiple randomized trials pooled in a meta-analysis, systematic review, or guideline at Level 1; well designed controlled studies that may or may not be randomized at Level 2; case-controlled, cohort, and observational work including retroactive chart reviews at Level 3; descriptive/qualitative or mixed-method work and low-response surveys at Level 4; and expert consensus, anecdote, or previous experience at Level 5. Assignment by admission day is still a controlled design, so it lands at Level 2 rather than being demoted to the observational tier.",
-   "strat": "Ask two questions in order: was there a controlled comparison, and was it pooled across trials? Pooled across trials = 1, controlled = 2, observed = 3, described = 4, opinion = 5."
+   "rat": "This module's table puts multiple randomized trials that are part of a systematic review, meta-analysis, or practice guideline on Level 1; well designed controlled studies that may or may not be randomized on Level 2; case-controlled, cohort, and observational work including retroactive chart reviews on Level 3; descriptive studies with qualitative or mixed-methodology components and surveys with a low sampling rate on Level 4; and expert consensus, anecdote, or previous experience on Level 5. Assignment by wing is not randomization, but it is still a controlled study, so it stays at Level 2 instead of dropping to the observational tier.",
+   "strat": "Work down the table in order: pooled across trials = 1, controlled comparison = 2, observed = 3, described or poorly sampled = 4, opinion = 5."
   },
   {
-   "topic": "Strength of Evidence",
+   "topic": "Grading Evidence",
    "type": "radio",
    "cat": "Management of Care",
    "lvl": "Evaluation",
-   "stem": "A wound care committee wants to replace the dressing product used on the medical-surgical unit. Four sources on the newer product are available. Which source provides the strongest support for making this practice change?",
+   "stem": "A practice council must choose one source to justify replacing the unit's oral care protocol. All four sources address the same clinical question and were published within the past two years. Which source does this module rank as the strongest evidence?",
    "opts": [
-    "A clinical practice guideline that graded each product's trials, costs, and barriers",
-    "A randomized clinical trial of 240 clients that has not yet been independently replicated",
-    "A cohort study that followed 900 clients at one health system across two years",
-    "A consensus statement written by a panel of certified wound care specialists"
+    "A clinical practice guideline that graded the supporting studies for quality, cost, and barriers",
+    "A meta-analysis that statistically pooled the outcomes of twelve randomized trials of the protocol",
+    "A systematic review that summarized every qualifying trial but ran no statistical pooling",
+    "A randomized clinical trial of 280 clients that has not been independently replicated"
    ],
    "ans": 0,
-   "rat": "This module identifies clinical practice guidelines as the most comprehensive and highest strength evidence, because they pull many sources together and grade each one for quality, risk, study weakness, cost, and barriers to implementation. A single randomized trial is a strong design but needs replication; a cohort study has less control over variables; and specialist consensus is expert opinion, the weakest form.",
-   "strat": "Aggregated beats individual. The source that grades other sources sits above the sources it grades."
+   "rat": "This module's grading list runs clinical practice guidelines, meta-analyses, systematic reviews, then randomized clinical trials, and it calls the guideline the most comprehensive quality and highest strength evidence because it draws on many sources and grades each one for quality, risk, study weakness, cost, and barriers to implementation. The meta-analysis is described as very strong but sits second; the systematic review does the same work without statistics and sits third; the unreplicated trial is individual research and sits below all three. Be aware that some widely used outside hierarchies rank a systematic review or meta-analysis at the top and place guidelines below them, and that the module's own level table lumps guidelines, meta-analyses, and systematic reviews together on Level 1 — for a strongest-to-weakest ranking question, follow the module's list.",
+   "strat": "In this module the guideline sits on top: the source that grades other sources outranks the sources it graded."
+  },
+  {
+   "topic": "Levels of Evidence",
+   "type": "radio",
+   "cat": "Management of Care",
+   "lvl": "Application",
+   "stem": "A nurse appraises a well designed randomized controlled trial of 260 postoperative clients. The trial stands alone: it has not been included in any systematic review, meta-analysis, or practice guideline. Using the rating system presented in this module, which level of evidence fits this study?",
+   "opts": [
+    "Level 1",
+    "Level 2",
+    "Level 3",
+    "Level 4"
+   ],
+   "ans": 1,
+   "rat": "The module reserves Level 1 for multiple randomized controlled trials that are part of a systematic review, meta-analysis, or practice guideline, so a single trial standing on its own does not meet that wording. It fits Level 2, well designed controlled studies that may or may not be randomized. Level 3 is case-controlled, cohort, and observational work, and Level 4 is descriptive or low-response survey work, so neither fits a randomized trial. The module's narrative grading list ranks randomized clinical trials fourth overall, behind guidelines, meta-analyses, and systematic reviews — that ordinal rank and this level number are two different scales, so do not read 'fourth on the list' as Level 4.",
+   "strat": "Level 1 requires both words: multiple trials, inside an aggregate. One trial alone falls to Level 2."
+  },
+  {
+   "topic": "Grading Evidence",
+   "type": "multi",
+   "cat": "Management of Care",
+   "lvl": "Analysis",
+   "stem": "A student is building a table that ranks source types from strongest to weakest the way this module presents them. Which statements match the module's ranking? Select all that apply.",
+   "opts": [
+    "A meta-analysis is stronger evidence than a systematic review",
+    "A systematic review is stronger evidence than a randomized clinical trial",
+    "A clinical practice guideline is stronger evidence than a meta-analysis",
+    "Outcome research is stronger evidence than a randomized clinical trial",
+    "Expert opinion is the weakest of the source types the module lists",
+    "Aggregated evidence is weaker than individual research because it collects no new data"
+   ],
+   "ans": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "rat": "The module's grading list, strongest to weakest, is clinical practice guidelines, meta-analyses, systematic reviews, randomized clinical trials, cohort studies, outcome research, case-controlled studies, and expert opinion. Meta-analysis above systematic review, systematic review above randomized trials, guideline above meta-analysis, and expert opinion at the bottom all follow that order; outcome research sits sixth and therefore ranks below randomized trials, not above them. The last option reverses the module's central point: aggregated evidence is among the strongest precisely because it pulls many studies together by set criteria and grades them, while individual research that has not been replicated is weaker when used alone.",
+   "strat": "Memorize the eight-item list in order once; most ranking questions are answered by which of two names comes first on it."
+  },
+  {
+   "topic": "Cohort vs. Case-Control",
+   "type": "cloze",
+   "cat": "Management of Care",
+   "lvl": "Analysis",
+   "stem": "Two studies on inpatient falls are retrieved.\nStudy A follows a group of clients forward across a period of time, tracking risk factors against who later falls.\nStudy B looks backward at one group who fell and one group who did not, comparing what differed between them.\n\nOn the module's ranking of source types from strongest to weakest, [1]. On the module's numbered rating table, the two studies are assigned [2].",
+   "blanks": [
+    {
+     "label": "[1] Relative strength",
+     "opts": [
+      "Study A ranks above Study B",
+      "Study B ranks above Study A",
+      "neither ranks above the other, because both are observational"
+     ],
+     "a": 0
+    },
+    {
+     "label": "[2] Level assignment",
+     "opts": [
+      "Study A to Level 2 and Study B to Level 3",
+      "the same level, Level 3, to both",
+      "the same level, Level 2, to both"
+     ],
+     "a": 1
+    }
+   ],
+   "rat": "Study A is a cohort study and Study B is a case-controlled study. On the module's grading list, cohort studies are fifth and case-controlled studies are seventh, so the cohort study is the stronger of the two — the module notes the case-controlled design has no control over environment or variables and is often done retrospectively. The module's level table, however, names case-controlled and cohort studies together on Level 3, so both receive the same number. These two parts of the module do not fully agree, and that is not a mistake to correct: answer 'which is stronger' from the grading list and 'which level' from the level table.",
+   "strat": "Cohort beats case-control on the strength list, yet both land on Level 3 — 'stronger' and 'what level' are two different questions."
   },
   {
    "topic": "Source Credibility",
    "type": "multi",
    "cat": "Management of Care",
-   "lvl": "Analysis",
-   "stem": "A nurse is appraising an article on a new enteral feeding pump before citing it in a unit proposal. Which features of the article support its credibility as a source? Select all that apply.",
+   "lvl": "Evaluation",
+   "stem": "A nurse is deciding whether to cite an article about a new insulin pump in a unit practice proposal. Which findings support the article as a credible source? Select all that apply.",
    "opts": [
-    "Both authors hold doctoral degrees and clinical certification in the field studied",
-    "The manuscript went through peer review before the journal accepted it",
-    "The article was published 14 months after data collection ended",
+    "Both authors hold advanced clinical credentials in the specialty the study addresses",
+    "The journal put the manuscript through peer review before accepting it",
+    "The article appeared about a year after data collection ended",
     "One author is a paid consultant for the company that manufactures the pump",
-    "The journal's publisher receives royalties tied to sales of the pump",
-    "The findings first circulated as a thread from a verified nurse's social media account"
+    "The publisher earns royalties that rise with sales of the pump",
+    "A nurse with a verified social media account posted the same findings firsthand"
    ],
    "ans": [
     0,
     1,
     2
    ],
-   "rat": "The module lists strong clinical or educational credentials, peer review, and a reasonable interval between study and publication as marks of a credible source. A paid consulting relationship with the manufacturer and a publisher with a financial stake in the outcome are both conflicts of interest that weaken credibility, and the module states outright that social media carry a high risk of disinformation and are not a credible source even when the poster is verified.",
-   "strat": "Credentials, peer review, and timeliness build a source up; anyone with money riding on the result tears it down."
-  },
-  {
-   "topic": "Aggregated vs. Non-Aggregated",
-   "type": "matrix",
-   "cat": "Management of Care",
-   "lvl": "Analysis",
-   "stem": "A student is sorting the sources retrieved for an evidence-based practice paper. Classify each described source as aggregated or non-aggregated evidence.",
-   "cols": [
-    "Aggregated evidence",
-    "Non-aggregated evidence"
-   ],
-   "rows": [
-    {
-     "t": "Statistically combines the results of 22 trials of early ambulation into one summary estimate",
-     "a": 0
-    },
-    {
-     "t": "Collects and summarizes every study meeting set criteria, but reaches its conclusion without statistical methods",
-     "a": 0
-    },
-    {
-     "t": "Follows one group of clients forward in time to link a risk factor to a later outcome",
-     "a": 1
-    },
-    {
-     "t": "Compares one group with the condition and one group without it, looking backward at what differed",
-     "a": 1
-    },
-    {
-     "t": "Summarizes many sources into a graded guide for the practicing clinician, weighing cost and barriers",
-     "a": 0
-    },
-    {
-     "t": "Measures results in one population after care was already delivered, with little control of treatment groups",
-     "a": 1
-    }
-   ],
-   "rat": "Aggregated evidence pulls multiple studies together by a stated selection process and usually grades what it includes: clinical practice guidelines, meta-analyses, and systematic reviews. Meta-analysis and systematic review differ only in whether statistical methods are used, so a narrative synthesis is still aggregated. Cohort studies, case-controlled studies, and outcome research each examine a single question in one sample and are non-aggregated, which is why the module ranks them lower.",
-   "strat": "Ask whether the source studied clients or studied studies. Studying studies is aggregated."
-  },
-  {
-   "topic": "Evidence for Practice Change",
-   "type": "radio",
-   "cat": "Management of Care",
-   "lvl": "Evaluation",
-   "stem": "A staff nurse asks the unit council to change the oral care protocol based on one randomized clinical trial published last year. Which response by the nurse educator is most accurate?",
-   "opts": [
-    "One trial should be replicated before its results are translated into unit practice",
-    "One trial's findings are invalid until a clinical practice guideline has adopted them",
-    "Cohort studies outrank randomized trials because they follow clients across a longer period",
-    "The unit's experienced wound team could settle the question faster than any published study"
-   ],
-   "ans": 0,
-   "rat": "The module names randomized clinical trials a strong design that is nonetheless limited by sample size, study design, and statistical methods, and states that such a study needs replication to become stronger evidence. Weak or unreplicated evidence is not the same as invalid evidence, which is the misconception in the second option. Cohort studies rank below randomized trials because there is less control over variables, and clinician experience is expert opinion, the weakest form of evidence.",
-   "strat": "Unreplicated is not the same as untrue. One good trial is a reason to look further, not yet a reason to rewrite the protocol."
-  },
-  {
-   "topic": "Aggregated Evidence",
-   "type": "cloze",
-   "cat": "Management of Care",
-   "lvl": "Analysis",
-   "stem": "A nurse manager is comparing two sources on delirium screening.\nSource A statistically pools the results of 19 randomized trials into a single estimate.\nSource B collects every study that met stated criteria and summarizes them narratively, without statistical methods.\n\nSource A is best described as a [1]. Compared with Source A, Source B is [2].",
-   "blanks": [
-    {
-     "label": "[1] Source A",
-     "opts": [
-      "systematic review",
-      "meta-analysis",
-      "cohort study"
-     ],
-     "a": 1
-    },
-    {
-     "label": "[2] Source B",
-     "opts": [
-      "stronger, because it includes every study that met the criteria",
-      "ranked just below Source A and still a form of aggregated evidence",
-      "non-aggregated evidence, because it reports no statistical analysis"
-     ],
-     "a": 1
-    }
-   ],
-   "rat": "Both sources gather and summarize existing studies, so both are aggregated evidence; the statistical pooling is what makes Source A a meta-analysis rather than a systematic review. In this module's ranking from strongest to weakest, meta-analyses sit just above systematic reviews, so Source B is slightly lower but is not demoted out of the aggregated tier and does not gain strength simply by including more studies.",
-   "strat": "Same job, one tool apart: systematic review plus statistics equals meta-analysis."
+   "rat": "The module lists strong clinical or educational credentials, peer review, and a reasonable interval between the study and its publication as marks of a credible source. A paid consulting relationship with the manufacturer is an author conflict of interest, and a publisher whose income depends on the product has a financial connection to the outcome; the module names both as things that undermine credibility. The verified nurse is the module's own example of a poster who might be a primary source yet still needs significant verification, and the module states that social media carry a high risk of disinformation and are therefore not a credible source.",
+   "strat": "Credentials, peer review, and timeliness build a source up; anyone with money riding on the result, or only a post to show for it, tears it down."
   },
   {
    "topic": "PICOT to Search Terms",
