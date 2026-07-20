@@ -71,6 +71,16 @@ That happens when the distractors do the work for the test-taker. Avoid these fa
   transfusion, newborn security, skull-fracture ↑ICP). For each module, test its emergencies,
   priority actions, "must report," and meds/antidotes/contraindications **before** nice-to-knows.
 - **No redundancy.** Don't spend two items on the same lookup table or single fact.
+- **Test the procedure, not the worked example.** When a module builds an exercise around a
+  specific named study, patient, or scenario ("Review this study by Gallegos & Sortedahl…",
+  a PICOT walkthrough of one clinical question, a phenomenology example), the exam does **not**
+  test that scenario — it presents a *different* one and asks the same question-types. Treat the
+  named example as a demonstration of a *move* (appraise a framework, build a PICOT, classify a
+  design) and write the item to run that move on a **fresh** stem. Never key an item to facts
+  that live only in an assigned-but-unreachable source, and never flag a missing article as a
+  content gap — the article is disposable; the skill it teaches is the testable content. (This
+  is why EBP-24's unreachable Gallegos study is a non-issue: the Week 3 theory items exercise the
+  six appraisal questions on new studies instead.)
 
 ## Supported item types
 

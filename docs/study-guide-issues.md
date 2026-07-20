@@ -667,21 +667,13 @@ Same file — three of the four tabs name a single design (Experimental, Quasi-e
 
 A student building a taxonomy from the tab structure gets the wrong hierarchy.
 
-### EBP-24 · Required article is assigned but not reachable from the module
+### EBP-24 · Article assigned in §6 is not reachable — but this is a non-issue, not a defect ~~struck~~
 
-`Week3_Theory_and_Frameworks.md` §6:
+`Week3_Theory_and_Frameworks.md` §6 says *"Review this research study by Gallegos & Sortedahl (2015)"* and poses six appraisal questions — *"What is the research problem?"*, *"What are the variables of interest?"*, *"What is the theory chosen to frame the research?"*, *"Is the theory relevant to the problem?"*, *"How will the data be collected?"*, *"Does the collection tool chosen seem related to the theory?"* The article itself is not embedded; the citation carries only the journal homepage (which is correct APA 7 for a no-DOI print article).
 
-> *"Review this research study by Gallegos & Sortedahl (2015)."*
+**Do not report this and do not chase it.** Per Chris: the exam does not test the Gallegos study — it presents a *different* study and asks these same six question-types. The specific article is disposable scaffolding; the testable content is the appraisal move applied to any stem. So the capture is faithful, the missing article costs us nothing, and no quiz item should (or does) depend on Gallegos content.
 
-Six questions follow — *"What is the research problem?"*, *"What are the variables of interest?"*, *"What is the theory chosen to frame the research?"*, *"Is the theory relevant to the problem?"*, *"How will the data be collected?"*, *"Does the collection tool chosen seem related to the theory?"* — none of which can be answered from anything in the module.
-
-**This is not a capture defect.** The reference is a complete APA citation for a print article with no DOI:
-
-> *Gallegos, C., & Sortedahl, C. (2015). An exploration of professional values held by nurses at a large freestanding pediatric hospital. Pediatric Nursing, 41(4), 187-195. http://www.pediatricnursing.net/index.html*
-
-APA 7 prescribes the journal homepage URL precisely when no DOI exists, so the capture is correct and so is the citation. The defect is pedagogical: the module builds an exercise on a source it does not provide access to.
-
-**Report to authors:** ask for a library-proxy link or a PDF. If an exam item keys anything to that study's framework, our materials cannot answer it.
+**General principle this establishes** (applies wherever a module builds an exercise around one named study — see also EBP-04's PICOT worked example, the FINER "Interesting" note, and the §14 phenomenology walkthrough): treat the specific scenario as a worked example of a *procedure*, not as testable facts. Build the quiz item to run that procedure on a fresh scenario. The Week 3 theory items already do this — every one uses a novel study (central-line dressing bundle, pre-shift huddle, Roy's Adaptation Model, Pender's Health Promotion Model) rather than Gallegos.
 
 ### EBP-25 · §6 and §10 disagree on whether quantitative research uses frameworks
 
