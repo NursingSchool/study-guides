@@ -1,6 +1,29 @@
 # Study Guide Issues — NR328 Pediatrics & NR449 Evidence-Based Practice
 
-**Date:** 2026-06-22
+> ## ✅ VERIFIED AGAINST LIVE MODULES — 2026-07-20
+>
+> All 12 **[CAPTURE-SUSPECT]** items plus 8 **[SOURCE-SUSPECT]** items were re-opened in Edapt review mode and checked against the live DOM.
+>
+> **Result: not one item was a capture failure.** 20 of 20 checks came back faithful to the source.
+>
+> Method: rather than re-reading the accessibility tree (which is what missed things the first time), each section was dumped via `textContent` — which includes collapsed tab panels and hidden nodes — plus a full inventory of `<img>` alt text, `<table>` rows, `.ednx-transcript-div` blocks, and `<iframe>`/`<track>` media. This surfaces anything a snapshot-based capture could have skipped.
+>
+> **The list below is therefore an author report, not a capture worklist.** Individual verdicts and evidence are inline under each item. Two genuine capture nits were found and already fixed (see "Capture fixes applied"). Three new author-side defects were discovered that were not on the original list (see "New findings").
+>
+> Remaining unverified (low priority, pure source-suspect): EBP-10, EBP-11, EBP-12 and the three "Minor, low priority" EBP notes.
+
+## Capture fixes applied (2026-07-20)
+
+1. `Week2_Pediatric_Respiratory_Alterations.md` §8 — table rows 3–5 were ordered *Viral Pneumonia, Influenza, Bacterial Pneumonia*; source order is *Influenza, Bacterial Pneumonia, Viral Pneumonia*. All 13 rows were present and content-correct; only the order was wrong. **Fixed.**
+2. `Week2_Communicable_Diseases_and_Immunizations.md` §15 — added a study note recording that the linked CDC page carries birth–6 on-page and links onward to "Ages 7 to 18 years", since PEDS-01 assumed that schedule was missing entirely. **Added.**
+
+## New findings (not on the original list)
+
+- **Pertussis §9 has two contradictory summary cards in the source.** The reachable transcript says *"Isolation precautions: droplet and standard"*; a second `.ednx-transcript-div` immediately after the Kaltura audio says *"Isolation Precautions: droplet"*. The second has **no trigger element at all** (`prevSibling: null`, `display:none`) — no student can ever open it. This is both an author contradiction and an accessibility defect (orphaned content). Explains the PEDS-13 "and standard" asymmetry.
+- **EBP-03's lost synonym happens inside §9 itself, not at §13.** §9 renders the same template table three times in a progressive build; version 2 has Terms `["older women", "HRT", "cancer"]` and version 3 has `["", "HRT", "cancer"]`. The source drops its own cell mid-section.
+- **The asthma peak-flow error is a misquotation of a named source.** §15 attributes the zones to "the American Lung Association (2020)"; ALA publishes Yellow as 50–79%, the module says 50–80%. Worth citing in the report — it is not merely an internal inconsistency.
+
+**Date:** 2026-06-22 (verified 2026-07-20)
 **Courses covered:** NR328 Pediatric Nursing (Week 2; Week 3 where noted) · NR449 Evidence-Based Practice (Week 2)
 **Not covered:** NR327 Maternal-Child and NR228 Nutrition were reviewed separately and are out of scope here.
 
@@ -39,6 +62,8 @@ No ages, doses, or intervals appear anywhere, and the one link covers only birth
 
 **Re-check:** "Below are the recommended vaccines" strongly implies embedded content followed — most likely one or two schedule **images or tables** that weren't captured. Re-open §15 and look for embedded charts/graphics, a second link for 7-and-older, or an expandable panel. This is the highest-value recapture on the list: the schedule is testable material and currently exists nowhere in our notes.
 
+> **✅ VERDICT: capture faithful — premise of this item was wrong.** §15 contains exactly **one** image: a 2700×1800 JPEG with `alt=""` that is a **decorative stock photo of a child receiving a vaccine**, not a schedule. Its transcript div is empty (`&nbsp;`). Full link inventory for the section is exactly three content links (ACIP, AAP, and the birth–6 download) — there is no dropped second link and no expandable panel. Critically, the linked CDC page **does** satisfy the promise: it carries "Recommended Immunizations for Birth Through 6 Years Old, United States, 2025" on the page and links "Ages 7 to 18 years" under "For Other Groups". So "below" means "behind this link." No schedule was ever embedded to capture. Study note added to the guide pointing at the 7–18 schedule.
+
 ### PEDS-02 · Five-stage disease model established, then never applied — no incubation periods
 `Week2_Communicable_Diseases_and_Immunizations.md`
 - §3 defines five stages: *"**Incubation period:** the initial stage after exposure before symptoms are apparent"* … *"**Decline stage:** symptoms gradually improve"* … *"**Convalescence:** symptoms resolve"*
@@ -48,6 +73,8 @@ No incubation period is given for any disease, though that's the number needed f
 
 **Re-check:** each disease almost certainly had an incubation/communicability row or tab that wasn't captured. Re-open each disease section and check for additional tabs, a summary card row, or a table column we dropped.
 
+> **✅ VERDICT: source defect — nothing was dropped.** Full `textContent` dumps (including hidden/collapsed nodes) of all five disease sections were searched for the string "incubat": **zero matches in any of them.** Every summary card has exactly four fields — Type, Transmission Source, Isolation Precautions, Complications — with no incubation or communicability row in the markup. The five-stage model in §3 is genuinely never applied. Report to authors: incubation periods are the numbers needed for exposure/isolation decisions and are absent module-wide.
+
 ### PEDS-03 · "Airborne Precautions" tab whose only signage says "Airborne Contact"
 `Week2_Communicable_Diseases_and_Immunizations.md` §4 "Explore: Infection Control"
 - *"### Tab: Airborne Precautions"* / *"- For illnesses transmitted by airborne particles."*
@@ -56,6 +83,8 @@ No incubation period is given for any disease, though that's the number needed f
 The module never actually presents standalone airborne precautions, yet later sections cite "airborne contact" as if it were a defined category.
 
 **Re-check:** likely a signage image attached to the wrong tab, or a separate airborne-only sign that wasn't captured. Confirm which signage images exist in §4 and which tab each belongs to.
+
+> **✅ VERDICT: source defect — image is on the correct tab.** §4 holds five signage images, all `alt=""`. The one on the Airborne tab is `NR224_C108_Airborne_Precautions_Image.png` — correctly an airborne sign on the Airborne tab, **not** misattached. Its transcript genuinely reads "Airborne **Contact** Precautions (in addition to standard precautions)" and lists both gown+gloves *and* N95 + negative-pressure room, i.e. a genuine combined sign under a tab labelled airborne-only. Our §4 matches the live DOM word-for-word across all five tabs and all four transcripts (Respiratory Hygiene genuinely has none).
 
 ### PEDS-04 · RSV summary card bullet nesting garbled
 `Week2_Pediatric_Respiratory_Alterations.md` §13 "Explore: Respiratory Syncytial Virus"
@@ -67,6 +96,15 @@ The module never actually presents standalone airborne precautions, yet later se
 
 **Re-check:** indentation/nesting lost on capture. Re-open the summary card and confirm the real hierarchy. Also note the card's statistics (*"2.1 million outpatient visits," "57,527 hospitalizations"*) carry no year or source — check whether a citation line was dropped.
 
+> **✅ VERDICT: source defect — nesting is authored that way.** Raw transcript HTML:
+> ```html
+> <li>Contagious 3-8 days:
+>   <ul><li>up to 4 weeks in infants and immunocompromised</li>
+>       <li>resolves on own 1-2 weeks</li></ul>
+> </li>
+> ```
+> "resolves on own 1-2 weeks" is genuinely a child `<li>` of "Contagious 3-8 days". Our indentation reproduced the source exactly. The statistics sit nested under "In children under five:" and there is **no citation element anywhere in the transcript** — none was dropped.
+
 ### PEDS-05 · Peak flow zone thresholds overlap
 `Week2_Pediatric_Respiratory_Alterations.md` §15 "Explore: Asthma" → Tab Therapeutic Management, peak-flow transcript
 > *"- Green Zone: 80-100% of normal peak flow indicates good control"*
@@ -75,6 +113,8 @@ The module never actually presents standalone airborne precautions, yet later se
 80% sits in both Green and Yellow (and 50% in both Yellow and Red), so a boundary reading has two contradictory actions.
 
 **Re-check:** the American Lung Association source this is drawn from states Yellow as **50–79%**. A one-character capture slip (79 → 80) would explain it exactly. Verify the transcript against the on-screen figure before assuming the source is wrong.
+
+> **✅ VERDICT: source defect — no transcription slip occurred.** The live DOM reads `Yellow Zone: 50-80% of normal peak flow`. Every percentage in the whole section is exactly `80-100%`, `50-80%`, `50%` — **the digits "79" appear nowhere in §15.** Escalate this one: the module explicitly credits "the American Lung Association (2020)", and ALA publishes Yellow as 50–79%, so the module **misquotes its own named source**, producing overlapping boundaries at 80% and 50%.
 
 ### PEDS-06 · CDC citation garbled, in-text suffix unmatched
 `Week2_Communicable_Diseases_and_Immunizations.md` §15
@@ -85,6 +125,8 @@ The agency name is garbled ("Centers for Disease **and** Control"), and `2025b` 
 
 **Re-check:** confirm the reference block was captured completely; a lettered entry (2025a/2025b) may have been dropped or merged.
 
+> **✅ VERDICT: source defect — reference block captured completely.** The live §15 reference block contains exactly three entries, in this order and wording: CDC (n.d.) *Vaccines by age*; "Centers for Disease **and** Control (2025)" *Recommended vaccines for young children*; CDC (2025) *2025 recommended immunizations…*. The garbled agency name and the orphaned in-text `2025b` (no lettered entry exists) are both verbatim. Nothing dropped or merged.
+
 ### PEDS-07 · Media referenced with no transcript
 | File · § | Missing asset | Why it matters |
 |---|---|---|
@@ -94,6 +136,10 @@ The agency name is garbled ("Centers for Disease **and** Control"), and `2025b` 
 | `Week2_Pediatric_Respiratory_Alterations.md` §3 | video *"respiratory assessment of pediatric clients"* | — |
 
 **Re-check:** audio transcription isn't currently available, so these may stay gaps. But confirm whether any of them ship with **captions, a transcript panel, or alt text** that we could capture as text instead. If not, note them as known gaps and move on — this is also worth raising with the authors as an accessibility issue, since findings taught only as sound are unavailable to deaf and hard-of-hearing students.
+
+> **✅ VERDICT: genuine gaps confirmed — no text alternative exists for any of them.** Every one is a Kaltura `<iframe>` embed; each was checked for `<track>` elements and **all returned `tracks: 0`** (CF §4, pertussis §9, croup/epiglottitis §4 — two embeds, respiratory assessment §3). No captions, no alt text, no transcript panel. These stay gaps.
+>
+> **Escalate the accessibility angle.** Pertussis §9 is the sharpest case: the module says "Listen to a child with whooping cough" and the pathognomonic whoop exists only as sound, with no captions — *and* the section contains an orphaned, permanently hidden transcript div (see "New findings"). Content taught only as audio, with the text alternative present but unreachable, is a concrete WCAG problem.
 
 ## Source-suspect — verify our capture is faithful, then report upstream
 
@@ -154,6 +200,8 @@ No communication row exists — while §4 of the same file lists "Communicate Fi
 
 **Re-check:** a table row was almost certainly dropped on capture. Re-open §6 and confirm the table's full row set. (Separate author-side note: communication is not the final step of the ANA five-step nursing process, where evaluation is — but fix the capture first.)
 
+> **✅ VERDICT: source defect — no row was dropped.** The §6 transcript is a **single-row, two-cell** table: cell 1 = "Nursing Process / Assessment Diagnosis Planning Implementation Evaluation", cell 2 = "Research Process / Ask questions Identify problem Determine design Collect data Analyze data". Five steps per column, ending at Evaluation ↔ Analyze data. **No communication row exists in the markup.** The prose immediately above it calls communication "the final step in both" — so the section contradicts its own adjacent image. Both author-side notes now stand: the missing step *and* the ANA-process error.
+
 ### EBP-02 · "Complete" search template uses AND where the guide teaches OR
 `Week2_Literature_Review.md`
 - §13 "Ready to Search" → Complete Literature Search Strategy Template: *"Parentheses: (post-menopausal women) AND (\"hormone replacement therapy\" **AND** HRT) AND (breast cancer)"*
@@ -164,6 +212,8 @@ No communication row exists — while §4 of the same file lists "Communicate Fi
 
 **Re-check:** the template is likely an image or formatted block — a single OR→AND transcription slip would explain it entirely. Verify against the on-screen template before reporting.
 
+> **✅ VERDICT: source defect — transcription slip was impossible here.** §13's template is a real HTML `<table>`, **not** an image (`imgs: []` for the whole section), so there was nothing to transcribe by eye. The Parentheses row reads verbatim: `Parentheses: ( post-menopausal women) AND (“hormone replacement therapy” AND HRT) AND (breast cancer)`. The inner `AND` is the author's. Report stands: run as written the search returns almost nothing, and it contradicts §11's own worked example and §9's definition of AND.
+
 ### EBP-03 · Search-terms row silently loses a synonym
 `Week2_Literature_Review.md`
 - §9: *"Terms: post-menopausal women / **older women** | hormone replacement therapy / HRT | breast cancer / cancer"*
@@ -172,6 +222,8 @@ No communication row exists — while §4 of the same file lists "Communicate Fi
 "older women" is replaced by an em dash with no explanation while the other two pairs carry through unchanged. Quoting is also inconsistent between the two templates (§13 quotes only "hormone replacement therapy" and leaves post-menopausal women unquoted).
 
 **Re-check:** an em dash in one cell of an otherwise-complete table is a classic empty-cell capture artifact. Confirm what that cell actually contains.
+
+> **✅ VERDICT: source defect — and the loss happens earlier than this item assumed.** The cell is **genuinely empty in the source** (`["", "HRT", "cancer"]`), so our em dash was a rendering choice for a blank cell, not a lost synonym. More telling: **§9 itself renders the template three times in a progressive build**, and the drop happens *within §9* — version 2 has Terms `["older women", "HRT", "cancer"]`, version 3 has `["", "HRT", "cancer"]`. So the source loses its own cell mid-section, before §13 exists. Minor guide improvement: render the blank as "(blank in source)" rather than an em dash, which reads like redaction.
 
 ### EBP-04 · PICOT worked answer supplies a comparison absent from the source quote
 `Week2_The_PICOT_Question.md` §8 "Explore: PICOT and Purpose Statements"
@@ -182,6 +234,8 @@ Students are told to build the PICOT from the quoted statement, but "placebo gel
 
 **Re-check:** the quoted purpose statement may have been truncated mid-capture (the ellipsis is suspicious). Verify whether the full on-screen quote includes the comparison arm.
 
+> **✅ VERDICT: source defect (pedagogical) — the quote is NOT truncated.** The live statement ends properly with its citation: *"…lengths of the patients' ICU and hospital stays" (de Avila Meinberg et al., 2012, para. 4).* The word "placebo" appears **nowhere** in §8's document text. It lives inside the drag-drop widget, as **"Grabbable 3 of 4: placebo gel with toothbrushing"** / "Dropzone 3 of 4". So the comparison arm *is* module content and our capture recorded it correctly — but it genuinely cannot be derived from the quoted statement students are told to build the PICOT from. Report stands.
+
 ### EBP-05 · Truncated DOI and wrong journal name
 `Week2_The_PICOT_Question.md` §8, reference block
 > *"de Avila Meinberg, M. C., … & Lobo, S. M. (2012). The use of 2% chlorhexidine gel and toothbrushing for oral hygiene of patients receiving mechanical ventilation: Effects on ventilator-associated pneumonia. *Clinical Research, 24*(4). https://doi.org/10.1590/S"*
@@ -189,6 +243,8 @@ Students are told to build the PICOT from the quoted statement, but "placebo gel
 The DOI terminates at `10.1590/S` — a bare prefix plus one character, not resolvable. The italicized journal title reads "Clinical Research," which is a section label rather than a periodical; that 2012;24(4) citation belongs to *Revista Brasileira de Terapia Intensiva*. No page or article number is given.
 
 **Re-check:** the truncated DOI is almost certainly ours — verify and recapture the full reference string.
+
+> **✅ VERDICT: source defect — the DOI is truncated in the module itself.** The live reference block ends at `https://doi.org/10.1590/S`, and it is **plain text, not a hyperlink** (`doiLinks: []`), so there was no href for us to truncate. "Clinical Research, 24(4)" is likewise verbatim. Nothing to recapture. Report all three to authors: unresolvable DOI, wrong journal title (should be *Revista Brasileira de Terapia Intensiva*), and missing page/article number.
 
 ## Source-suspect — verify our capture is faithful, then report upstream
 
@@ -253,6 +309,24 @@ The journal is *Workplace Health & Safety*; "Journal" is appended in error. Both
 - `Week2_The_PICOT_Question.md` §12 FINER: *"**Interesting:** Is the question interesting?"* is circular and carries no criterion, unlike the other four entries — **possible truncation at capture, worth a look.**
 
 ---
+
+## Source-suspect items verified faithful (2026-07-20)
+
+Each was re-read in the live module and matched our capture. All are cleared to report upstream as author issues.
+
+| Item | Live-DOM evidence |
+|---|---|
+| PEDS-08 croup peak age | Croup module §4 verbatim: *"primarily affects infants and children less than 5 years old."* Respiratory §8 table verbatim: `Acute Laryngotracheobronchitis \| upper \| children 6 months to 3 years`. Both faithful; the two modules genuinely disagree. |
+| PEDS-09 LTB classified "Upper" | Table classification column captured correctly; all 13 data rows present. Definition verbatim, including "bronchi" assigned to lower airway. Pertussis and bacterial tracheitis are likewise genuinely tabled "upper". |
+| PEDS-10 CFTR expansion | §3 reads *"cystic fibrosis transmembrane regulator (CFTR)"* with **no** "conductance" — verbatim match to our capture. |
+| PEDS-11 *Haemophilus* | Verbatim: *"often caused by haemophilus influenzae. The haemophilus influenza type B vaccine…"* Decisive detail: `italicElements: []` — **the source never italicizes the binomial**, so the lost italics were not ours. Lowercase, mis-spelling, and "type B" are all the author's. |
+| PEDS-12 adult respiratory rate | 3D-model transcript captured complete; no pediatric qualifier exists anywhere in it. Worth escalating — an adult asset reused in a pediatric course. |
+| PEDS-13 transmission vs precautions | Chickenpox narrative ("air, direct contact, contaminated objects") vs card ("respiratory secretions"), German measles narrative ("direct contact with nasopharyngeal secretions") vs card ("droplet"), mumps card ("droplet and contact") — all verbatim, all cards exactly 4 fields. No dropped lines. Pertussis "and standard" now explained by the two-card bug in "New findings". |
+| PEDS-14 stridor omits croup | Full 5-item list captured; stridor bullet verbatim *"associated with epiglottitis, foreign body, and tracheitis"*, barking-cough bullet verbatim *"trachea and bronchi"*. Nothing truncated. |
+| PEDS-15 CF lead-in vs tab count | Lead-in is a complete, untruncated sentence naming 4 categories; the section genuinely has 5 tabs (Respiratory, Gastrointestinal, Reproductive, Integumentary, Endocrine). Author mismatch. |
+| EBP-06 evidence hierarchy | **Headline report confirmed.** §8's transcript is complete *including* its framing sentence — *"Listed in order of evidence strength, from strongest to weakest:"* — which our capture preserved as the transcript heading. No scoping sentence was lost, so the ranking is unqualified and genuinely conflicts with §15's Levels table. |
+| EBP-09 mislabeled Boolean mistake | Heading and example are genuinely paired in the source (and followed by a second mistake, "Using Lower Case"). Not spliced from adjacent items. |
+| EBP FINER "Interesting" (minor) | Verbatim and complete: *"Interesting: Is the question interesting?"* sits between fully-specified Feasibility and Novel entries. **Not** a capture truncation — the circularity is the author's. Note: source says "Feasibility", not "Feasible". |
 
 ## Examined and NOT confirmed — do not chase these
 

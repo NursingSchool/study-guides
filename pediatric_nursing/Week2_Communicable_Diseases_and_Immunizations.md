@@ -385,6 +385,8 @@ The recommended schedule for childhood immunizations begins at birth and continu
 
 Download and review the [2025 Recommended Immunizations for Children From Birth Through 6 Years Old](https://www.cdc.gov/vaccines/imz-schedules/child-easyread.html) (CDC, 2025b).
 
+> **Study note (not in the module):** the linked CDC page carries the birth–6 schedule on the page itself, and links onward to the 7-and-older schedule under "For Other Groups" → [Ages 7 to 18 years](https://www.cdc.gov/vaccines/imz-schedules/adolescent-easyread.html). The module embeds no schedule table or image — the only graphic in this section is a decorative stock photo. Verified against the live module 2026-07-20.
+
 Contraindications to receiving a vaccination include:
 - Severe febrile illness (note that minor illness is not a contraindication)
 - Immunocompromised children cannot receive live virus vaccines

@@ -87,9 +87,9 @@ Respiratory illnesses can be classified as upper airway (affecting the oronasoph
 | --- | --- | --- |
 | Acute Viral Nasopharyngitis (Common Cold) | Upper | All age groups; symptoms more severe in infants |
 | Bronchitis | Lower | All age groups; frequently associated with an upper respiratory infection |
-| Viral Pneumonia | Lower | All age groups; often associated with viral upper respiratory infections; most can be prevented with immunization |
 | Influenza | Upper | All age groups; symptoms more severe in infants or clients with chronic medical conditions |
 | Bacterial Pneumonia | Lower | All age groups |
+| Viral Pneumonia | Lower | All age groups; often associated with viral upper respiratory infections; most can be prevented with immunization |
 | Acute Laryngotracheobronchitis | Upper | Children 6 months to 3 years |
 | Respiratory Syncytial Virus and Bronchiolitis | Lower | Children under 2 years |
 | Whooping Cough (Pertussis) | Upper | Children younger than 4 years who have not been immunized |
