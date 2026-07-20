@@ -1,0 +1,961 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NCLEX Practice — Evidence-Based Practice (NR449) Week 1</title>
+<style>
+  :root{
+    --bg:#0f172a; --card:#1e293b; --card2:#273449; --ink:#e2e8f0; --muted:#94a3b8;
+    --line:#334155; --accent:#2dd4bf; --accent2:#14b8a6; --good:#22c55e; --bad:#f87171;
+    --goodbg:#0c2a1a; --badbg:#2a1414; --chip:#0b3b3b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.55 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:780px;margin:0 auto;padding:20px 16px 80px}
+  header{display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
+  h1{font-size:20px;margin:0;letter-spacing:.2px}
+  .sub{color:var(--muted);font-size:13px}
+  .bar{height:8px;background:var(--card);border-radius:999px;overflow:hidden;margin-top:6px}
+  .fill{height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .3s}
+  .meta{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);margin-top:6px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-top:14px}
+  .topic{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.6px;
+    color:var(--accent);background:var(--chip);padding:3px 9px;border-radius:999px;margin-bottom:10px}
+  .stem{font-size:17px;margin:2px 0 14px;white-space:pre-wrap}
+  .opts{display:flex;flex-direction:column;gap:9px}
+  .opt{display:flex;gap:10px;align-items:flex-start;background:var(--card2);border:1px solid var(--line);
+    border-radius:10px;padding:11px 12px;cursor:pointer;transition:border-color .15s,background .15s}
+  .opt:hover{border-color:var(--accent2)}
+  .opt input{margin-top:3px;accent-color:var(--accent);width:17px;height:17px;flex:0 0 auto}
+  .opt.sel{border-color:var(--accent);background:#22323f}
+  .opt.right{border-color:var(--good);background:var(--goodbg)}
+  .opt.wrong{border-color:var(--bad);background:var(--badbg)}
+  .opt .tag{margin-left:auto;font-size:12px;font-weight:600;white-space:nowrap}
+  .opt .tag.r{color:var(--good)} .opt .tag.w{color:var(--bad)}
+  .row{display:flex;gap:10px;align-items:center;background:var(--card2);border:1px solid var(--line);
+    border-radius:10px;padding:10px 12px;margin-bottom:8px;flex-wrap:wrap}
+  .row .lab{flex:1 1 230px}
+  select,input[type=text]{background:#0b1220;color:var(--ink);border:1px solid var(--line);
+    border-radius:8px;padding:8px 10px;font-size:15px;max-width:100%}
+  select:focus,input:focus{outline:2px solid var(--accent2)}
+  select.right,input.right{border-color:var(--good)} select.wrong,input.wrong{border-color:var(--bad)}
+  .grp{margin:10px 0;padding:10px;border:1px dashed var(--line);border-radius:10px}
+  .grp h4{margin:0 0 8px;font-size:13px;color:var(--accent);text-transform:uppercase;letter-spacing:.5px}
+  .btn{appearance:none;border:0;border-radius:10px;padding:12px 18px;font-size:15px;font-weight:600;
+    cursor:pointer;background:var(--accent2);color:#04201d}
+  .btn:disabled{opacity:.4;cursor:not-allowed}
+  .btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent2)}
+  .actions{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+  .fb{margin-top:14px;border-radius:12px;padding:14px;border:1px solid var(--line);display:none}
+  .fb.show{display:block}
+  .fb.ok{background:var(--goodbg);border-color:#1f5135}
+  .fb.no{background:var(--badbg);border-color:#5b2626}
+  .fb .verdict{font-weight:700;font-size:15px;margin-bottom:6px}
+  .fb .verdict.ok{color:var(--good)} .fb .verdict.no{color:var(--bad)}
+  .fb p{margin:6px 0}
+  .fb .lblrow{font-size:12px;color:var(--muted);margin-top:8px}
+  .fb .strat{font-style:italic;color:#cbd5e1}
+  .hint{font-size:12px;color:var(--muted);margin:-4px 0 10px}
+  .end{text-align:center;padding:24px 8px}
+  .score{font-size:46px;font-weight:800;color:var(--accent)}
+  .endsub{color:var(--muted);margin-top:6px}
+  table.brk{width:100%;border-collapse:collapse;margin-top:18px;font-size:13px}
+  table.brk td{border-top:1px solid var(--line);padding:7px 6px;text-align:left}
+  table.brk td:last-child{text-align:right;color:var(--muted)}
+  .miss{text-align:left;margin-top:18px;font-size:13px;color:var(--muted)}
+  .footnote{font-size:11px;color:var(--muted);margin-top:24px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>NCLEX Practice — Evidence-Based Practice (NR449)</h1>
+    <div class="sub">Week 1 · Intro to EBP · Research as Evidence · Historical Events · Ethics · Research & the Law · 28 items</div>
+    <div class="bar"><div class="fill" id="fill"></div></div>
+    <div class="meta"><span id="pos">Question 1 of 50</span><span id="sc">Score 0 / 0</span></div>
+  </header>
+  <div id="app"></div>
+</div>
+<script>
+const Q = [
+ {
+  "n": 1,
+  "topic": "Evidence and Nursing Care",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "On a telemetry unit, five nurses each handle new-onset hypoglycemia differently: two give juice first, two page the provider first, and one rechecks the glucose in 30 minutes before acting.\nThe unit council reviews the research and builds an evidence-based hypoglycemia order set and algorithm.\nWhich result does the council expect this tool to produce?",
+  "opts": [
+   "Consistent practice among the nurses, with reduced variability in how care is given",
+   "Assessment findings and nursing diagnoses tailored to each client's unique condition",
+   "Accountability to the client, who is the consumer of the care being delivered",
+   "A foundation for safe care that no longer rests on unit tradition and habit"
+  ],
+  "ans": 0,
+  "rat": "The guide lists order sets and algorithms under client management tools, whose stated purpose is to encourage consistent practice and reduce variability. Individualized assessment and nursing diagnoses belong to nursing care processes, accountability to the client belongs to evidence as the basis for client care, and replacing 'how things have always been done' describes policies and procedures.",
+  "strat": "Order set or algorithm = standardize the many into one; ask which of the four uses of evidence the tool itself serves."
+ },
+ {
+  "n": 2,
+  "topic": "Barriers to EBP",
+  "type": "multi",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A baccalaureate-prepared staff nurse tells the unit educator she wants to practice from current evidence but cannot: her assignment leaves no time to review new literature, the statistical terminology in the articles she does find is confusing, and she does not know how to search the hospital's databases.\nWhich actions should the educator recommend? Select all that apply.",
+  "opts": [
+   "Sign up for email alerts from nursing journals and join a professional organization",
+   "Join the unit's journal club, which works through research terminology together",
+   "Contact the hospital librarian, who can assist with database searches remotely",
+   "Wait until she is enrolled in a graduate program to begin appraising evidence",
+   "Ask the unit council to purchase individual articles from journal publishers",
+   "Adopt the practices used by the most experienced nurses on the unit"
+  ],
+  "ans": [
+   0,
+   1,
+   2
+  ],
+  "rat": "The guide pairs each barrier with a specific solution: no time to review evidence is met with journal email subscriptions and professional organizations, difficulty with statistical and research terminology is met with a journal club, and lack of database access is met with a staff educator or local librarian, who can often help remotely. Delaying appraisal until graduate school contradicts the baccalaureate role of participating on research teams and applying evidence; buying articles and copying senior nurses' habits address neither barrier and return practice to custom and tradition.",
+  "strat": "Match the barrier to its named solution: no time to journals, no understanding to journal club, no access to the librarian."
+ },
+ {
+  "n": 3,
+  "topic": "Sources of Knowledge (CASTLE)",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "On an orthopedic unit, nurses remove the surgical dressing at 24 hours because, as the preceptor explains, the unit has always done it that way and the incisions seem to heal fine.\nA nurse who questions the routine gathers information to decide whether the practice should continue.\nWhich source of knowledge should carry the most weight in that decision?",
+  "opts": [
+   "Published research studies on dressing removal timing and wound outcomes",
+   "Chart audit data on the unit's surgical site infection rates over two quarters",
+   "The clinical judgment of the nurses who have worked on this unit the longest",
+   "A wound care blog written by a client who healed well after early removal"
+  ],
+  "ans": 0,
+  "rat": "In the CASTLE framework, scientific research is named the most objective source of nursing knowledge. Assembled information from chart audits is legitimate quality improvement data but is limited to this organization; relying on senior nurses is customs and tradition plus trial and error, which the guide warns may not be best for the client; and an expert source should be authored by a nurse or other provider rather than a lay person.",
+  "strat": "CASTLE: only the S is called the most objective. Tradition, trial and error, and lay authors are the traps."
+ },
+ {
+  "n": 4,
+  "topic": "Nursing Roles in Research",
+  "type": "match",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A hospital is forming an evidence-based practice council and needs nurses at several preparation levels.\nMatch each contribution the council needs with the level of nursing education that typically prepares a nurse to provide it.",
+  "shared": [
+   "Baccalaureate",
+   "Master's",
+   "Practice-focused doctorate",
+   "Research-focused doctorate"
+  ],
+  "rows": [
+   {
+    "t": "Serves as a team member and applies published evidence at the bedside",
+    "a": 0
+   },
+   {
+    "t": "Writes the facility's EBP guidelines and leads the team's ongoing EBP discussions",
+    "a": 1
+   },
+   {
+    "t": "Tailors analyzed data to this unit's client population and partners with research scientists",
+    "a": 2
+   },
+   {
+    "t": "Conducts a study independently and seeks grant funding to finance it",
+    "a": 3
+   }
+  ],
+  "rat": "The guide's education table assigns the baccalaureate nurse to understanding EBP basics, participating on research teams, and applying evidence; the master's nurse to creating EBP guidelines and leading teams that discuss EBP; the practice-focused doctorate to analyzing data, tailoring it to specific groups, and partnering with research scientists using advanced leadership; and the research-focused doctorate to conducting research independently and seeking grants. Students commonly credit the master's nurse with independent research or assume the bedside nurse has no role at all.",
+  "strat": "Climb the ladder: apply, then guide, then translate for a population, then generate. Grant writing is the research doctorate's tell."
+ },
+ {
+  "n": 5,
+  "topic": "Research Vocabulary",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Evaluation",
+  "stem": "A journal club reads one small study reporting that a revised turning schedule lowered pressure injury rates on a single unit.\nMembers disagree about whether that is enough to change their own turning protocol.\nWhich factor best supports going ahead with the practice change?",
+  "opts": [
+   "Later studies using the same schedule reported similar reductions in injuries",
+   "The authors' names were withheld from the experts who evaluated the manuscript",
+   "The study ran in a journal that several council members already subscribe to",
+   "The facility holds Magnet designation and expects bedside nurses to lead change"
+  ],
+  "ans": 0,
+  "rat": "The guide defines replication as a repeated study with results similar to a prior study, which is what makes nurses confident enough to consider a practice change. Blinded review only removes reviewer bias about the author, journal familiarity says nothing about the strength of the findings, and Magnet designation reflects an organization's commitment to EBP rather than evidence that this particular change works.",
+  "strat": "One study is a signal; a repeated study is a reason. Look for replication before changing a protocol."
+ },
+ {
+  "topic": "Levels of Evidence",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A unit practice council is deciding whether to change its intramuscular injection technique. Four articles are on the table:\nArticle A — a report pooling several randomized controlled trials with large samples and large effect sizes\nArticle B — one randomized controlled study with a small sample and several limitations stated by the authors\nArticle C — a cohort study comparing two intact groups of nurses, with no randomization\nArticle D — a chart review presented alongside two expert opinion papers\nWhich article supports the strongest recommendation for or against the change?",
+  "opts": [
+   "Article A — pooled randomized trials support the strongest recommendation",
+   "Article B — one randomized trial rules out bias better than pooled findings",
+   "Article C — intact-group comparisons best reflect actual nursing units",
+   "Article D — expert opinion captures the current consensus at the bedside"
+  ],
+  "ans": 0,
+  "rat": "The guide grades evidence by study design: Level I is multiple RCTs with large samples and large effect sizes, and the strength table pairs RCTs or reports of multiple RCTs with a strong recommendation to use or not use the findings. Article B is an RCT with limitations, which only rates \"recommend\"; Article C is Level III non-randomized intact-group evidence; Article D is Level IV chart review and expert opinion, where the guide says action is optional.",
+  "strat": "Name the design first, then read its row off the strength table — pooled RCTs are the only \"strong\" row.",
+  "n": 6
+ },
+ {
+  "topic": "Appraising Credibility",
+  "type": "matrix",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A nurse is appraising articles gathered for a proposed practice change. Classify each feature of the articles as supporting credibility or raising a credibility concern.",
+  "cols": [
+   "Supports credibility",
+   "Raises a credibility concern"
+  ],
+  "rows": [
+   {
+    "t": "The authors list their professional degrees and years of experience in the specialty",
+    "a": 0
+   },
+   {
+    "t": "The study was conducted and published eight years ago",
+    "a": 1
+   },
+   {
+    "t": "A reviewer with no connection to the authors completed a blind peer review",
+    "a": 0
+   },
+   {
+    "t": "The lead researcher is paid by the company that manufactures the studied product",
+    "a": 1
+   },
+   {
+    "t": "A separate research team repeated the study and obtained the same results",
+    "a": 0
+   },
+   {
+    "t": "Two members of the journal's editorial board hold a financial stake in the study",
+    "a": 1
+   }
+  ],
+  "rat": "The guide's appraisal checklist asks whether the source is credible (disclosed degrees and experience mark subject matter expertise), whether a neutral party unconnected to the authors performed a blind peer review, and whether the study has been replicated, since reproduced results make findings more generalizable and raise validity. It raises concerns when evidence falls outside the last 3–5 years, or when either the researcher or the editorial board stands to gain financially.",
+  "strat": "Credible = credentials, blind review, replication, published within 3–5 years; concern = anyone with money riding on the result.",
+  "n": 7
+ },
+ {
+  "topic": "EBP Triad",
+  "type": "multi",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A baccalaureate-prepared nurse is asked to lead a review of the unit's medication administration practice after a rise in error reports. Which actions fit the nurse's role and the process for building an evidence-based change? Select all that apply.",
+  "opts": [
+   "Use appraised research-based evidence to solve the identified practice problem",
+   "Include qualitative studies describing client satisfaction and treatment burden",
+   "Screen each article for financial ties held by the researcher or editorial board",
+   "Keep the current method, since the unit has used it for years without complaint",
+   "Weigh consensus statements from expert practice panels alongside study findings",
+   "Set aside the client preference data, since only quantitative results are evidence"
+  ],
+  "ans": [
+   0,
+   1,
+   2,
+   4
+  ],
+  "rat": "Evidence-based nursing combines the best scientific evidence with clinical experience (expert panels, practice groups, consensus statements) and patient preferences, which the guide measures through satisfaction, quality of life, treatment burden, and qualitative studies; appraisal includes confirming the researcher has nothing to gain. The guide also states that the baccalaureate-prepared nurse is expected to utilize research-based evidence to solve practice problems. Continuing a method because it is long-standing is exactly what research exists to challenge, and client preference is one of the three legs of the triad, not an optional add-on.",
+  "strat": "Three legs — science, clinician experience, client preference. An option that amputates a leg is wrong.",
+  "n": 8
+ },
+ {
+  "topic": "Identifying a Need",
+  "type": "cloze",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "Three situations reach the unit council in the same month. Using the categories the guide gives for uncovering a need for evidence-based practice, classify each one.\n\nMedication error reports, client concerns, and nurse observations all point to a rise in errors: [1].\nThe Centers for Disease Control publishes a new catheter-associated urinary tract infection protocol: [2].\nThe facility is offered a trial of a medication dispensing machine that just came to market: [3].",
+  "blanks": [
+   {
+    "label": "[1] Rise in medication errors",
+    "opts": [
+     "Problem-focused",
+     "Nursing knowledge",
+     "New equipment, technology, and products"
+    ],
+    "a": 0
+   },
+   {
+    "label": "[2] New CDC CAUTI protocol",
+    "opts": [
+     "Problem-focused",
+     "Nursing knowledge",
+     "New equipment, technology, and products"
+    ],
+    "a": 1
+   },
+   {
+    "label": "[3] Medication dispensing machine",
+    "opts": [
+     "Problem-focused",
+     "Nursing knowledge",
+     "New equipment, technology, and products"
+    ],
+    "a": 2
+   }
+  ],
+  "rat": "The guide names three categories of factors that uncover a need to study something: problem-focused (error reports, client concerns, nurse observations), nursing knowledge (the newly published CDC CAUTI protocol), and new equipment, technology, and products (the new dispensing machine). Students commonly file the CAUTI protocol as problem-focused because infection is a problem, but nothing on the unit flagged it — the trigger was newly published knowledge.",
+  "strat": "Ask what triggered the question: our own data (problem), someone else's new publication (knowledge), or a new product on the market.",
+  "n": 9
+ },
+ {
+  "topic": "External Validity",
+  "type": "radio",
+  "cat": "Safety & Infection Prevention and Control",
+  "lvl": "Evaluation",
+  "stem": "A nurse on a pediatric medical-surgical unit finds a report pooling randomized controlled trials of a catheter-associated urinary tract infection prevention bundle. Every trial enrolled adults in intensive care units. The nurse is deciding whether these findings should drive a practice change on her unit. Which judgment is best supported?",
+  "opts": [
+   "External validity is unclear here — adult ICU findings may not transfer to her clients",
+   "Level I evidence is the strongest grade, so the bundle can be applied to any population",
+   "The report is unusable, because studies run on her own unit are the only valid guide",
+   "The bundle is ready to adopt once she confirms the trials were peer reviewed and recent"
+  ],
+  "ans": 0,
+  "rat": "The guide requires that research applied to practice meet the clients' needs, be assessed for credibility, and have external validity — the ability to generalize findings to other groups of people, locations, and situations. The level of evidence grades the strength of the design, not its fit to a different population, so a Level I report does not license automatic transfer to pediatric clients. Peer review and recency are credibility checks that leave the population mismatch unaddressed, and rejecting all research not conducted on one's own unit would make evidence-based practice impossible.",
+  "strat": "Level tells you how strong the study is; external validity tells you whether it is about your patients. Both have to clear.",
+  "n": 10
+ },
+ {
+  "topic": "Willowbrook / Belmont Principles",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A nursing student reviews the Willowbrook Study for a class discussion. Children with learning disabilities living at a state-run school were purposely exposed to hepatitis and observed while untreated. Enrollment at the school was closed, but children whose parents agreed to let them take part in the study were admitted.\n\nWhich Belmont Report principle does the admission arrangement most directly violate?",
+  "opts": [
+   "Beneficence, because deliberate exposure to hepatitis subjected the children to harm",
+   "Justice, because institutionalized children bore the burdens of the research",
+   "Respect for persons, because consent was pressured by the offer of admission",
+   "Nonmaleficence, because treatment was withheld from the children who became infected"
+  ],
+  "ans": 2,
+  "rat": "Respect for persons rests on autonomy and protection of vulnerable populations: consent must be voluntary and free of coercion, and tying school admission to study participation is the element of influence the guide describes. Beneficence (harm and benefit) and justice (fair distribution of burdens) were also violated by the study overall, but the admission arrangement specifically attacks voluntary consent; nonmaleficence is not one of the three Belmont principles.",
+  "strat": "Belmont has exactly three: beneficence, justice, respect for persons. Anything about consent, coercion, or a vulnerable group lands on respect for persons.",
+  "n": 11
+ },
+ {
+  "topic": "Events and the Protections They Produced",
+  "type": "match",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "Match each event or need to the protection or document that followed it. One pool item is not used.",
+  "shared": [
+   "The Nuremberg Code, the first international guidelines on voluntary consent",
+   "The Declaration of Helsinki (1964), adopted by the World Medical Association",
+   "The National Research Act (1974) and the commission that drafted The Belmont Report",
+   "The Common Rule (1981), the Federal Policy for the Protection of Human Subjects",
+   "An immediate halt to all gene therapy research at the university involved",
+   "The hepatitis vaccine that remains in use today"
+  ],
+  "rows": [
+   {
+    "t": "Concentration camp detainees were experimented on without any consent",
+    "a": 0
+   },
+   {
+    "t": "Men with syphilis went untreated for 40 years and were never told they were subjects",
+    "a": 2
+   },
+   {
+    "t": "A standard was needed to separate therapeutic from non-therapeutic research",
+    "a": 1
+   },
+   {
+    "t": "One federal standard was needed for IRB approval and recorded informed consent",
+    "a": 3
+   },
+   {
+    "t": "Jesse Gelsinger died after a large dose of the study virus",
+    "a": 4
+   }
+  ],
+  "rat": "Nazi experimentation led to the Nuremberg Trials and the Nuremberg Code, the first international guidelines on voluntary participation and informed consent. Public outrage over Tuskegee produced the National Research Act of 1974, which created the commission that drafted The Belmont Report. Helsinki, an extension of the Nuremberg Code, drew the therapeutic versus non-therapeutic line; the Common Rule made IRB approval and documented consent law. The Gelsinger death stopped the university's gene therapy research; the hepatitis vaccine came out of Willowbrook, which produced no document.",
+  "strat": "Follow the chain in order: Nazi to Nuremberg, Tuskegee to Belmont, then the Common Rule turns Belmont's ideas into law.",
+  "n": 12
+ },
+ {
+  "topic": "The Nuremberg Code",
+  "type": "multi",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A nurse serving on a research committee is asked to identify which requirements come from The Nuremberg Code itself rather than from a later document.\n\nWhich requirements belong to The Nuremberg Code? Select all that apply.",
+  "opts": [
+   "Human experiments should be based on previous animal experimentation",
+   "A subject may end participation in the experiment at any point",
+   "The risks of the experiment should not exceed its benefits",
+   "A legally authorized representative may consent for a cognitively impaired subject",
+   "An Institutional Review Board must approve the protocol before subjects enroll",
+   "Research institutions must comply with federal policy and keep review records"
+  ],
+  "ans": [
+   0,
+   1,
+   2
+  ],
+  "rat": "The Code's ten principles include grounding human trials in prior animal work, a subject's right to end participation at any time, and risks that never exceed benefits. Surrogate consent for a minor or cognitively impaired subject comes from the 2013 Declaration of Helsinki; mandatory IRB approval and institutional compliance with recordkeeping come from The Belmont Report and the Common Rule, which arrived decades later.",
+  "strat": "Nuremberg is about the subject and the investigator; IRBs and institutional paperwork are later American additions.",
+  "n": 13
+ },
+ {
+  "topic": "IRB Levels of Review",
+  "type": "matrix",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A nurse researcher is preparing five proposals for the Institutional Review Board.\n\nClassify the level of IRB review each proposal requires.",
+  "cols": [
+   "Exempt review",
+   "Expedited review",
+   "Full review"
+  ],
+  "rows": [
+   {
+    "t": "Data pulled from existing medical records, with no contact with clients",
+    "a": 0
+   },
+   {
+    "t": "A survey of staff nurses about shift preferences that poses no risk",
+    "a": 0
+   },
+   {
+    "t": "A walking protocol whose discomfort is no greater than that of daily life",
+    "a": 1
+   },
+   {
+    "t": "A federally funded trial of an experimental drug, with publication planned",
+    "a": 2
+   },
+   {
+    "t": "A wound dressing trial carrying more than minimal risk of skin injury",
+    "a": 2
+   }
+  ],
+  "rat": "Exempt review covers studies posing no risk to subjects, such as surveys or chart data, though the researcher still follows ethical principles. Expedited review, done by one or two members, fits minimal-risk studies in which discomfort is no greater than daily life. Full committee review is required when risk exceeds minimal; these studies often carry federal funding and anticipate publication, so consent, data collection, and subject selection are inspected closely.",
+  "strat": "Sort by risk: no risk is exempt, everyday-life risk is expedited, more than minimal risk goes to the full committee.",
+  "n": 14
+ },
+ {
+  "topic": "Declaration of Helsinki",
+  "type": "cloze",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A nurse reviews a proposal to test an investigational drug on adults with advanced cancer who may benefit from receiving it.\n\nBy the definitions in this lesson, the proposal is [1]. The document that drew this distinction is [2]. If the investigators later ask to enroll children instead, that change is acceptable when [3].",
+  "blanks": [
+   {
+    "label": "[1] Type of research",
+    "opts": [
+     "therapeutic research",
+     "non-therapeutic research",
+     "exempt research"
+    ],
+    "a": 0
+   },
+   {
+    "label": "[2] Source document",
+    "opts": [
+     "The Nuremberg Code",
+     "The Declaration of Helsinki",
+     "The Belmont Report"
+    ],
+    "a": 1
+   },
+   {
+    "label": "[3] Condition for enrolling children",
+    "opts": [
+     "the parents provide written permission before any study procedures begin",
+     "the study promotes the health of that population and cannot be done in competent adults",
+     "the Institutional Review Board classifies the protocol as an expedited review"
+    ],
+    "a": 1
+   }
+  ],
+  "rat": "Therapeutic research offers the subject a chance at beneficial treatment, while non-therapeutic research seeks knowledge without benefiting the subject; the Declaration of Helsinki, an extension of the Nuremberg Code, was written to draw that line. Helsinki permits surrogate consent for minors, but it also holds that vulnerable populations may be studied only when the work promotes that population's health and cannot be done in competent adults, so parental permission alone or an expedited classification does not justify the switch.",
+  "strat": "Ask who benefits: the subject means therapeutic. For a vulnerable group, permission is not enough; the need for that group has to be justified.",
+  "n": 15
+ },
+ {
+  "topic": "The Gelsinger Case",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Evaluation",
+  "stem": "A genetically engineered cold virus previously tested only in animals was used to deliver genes correcting a genetic liver disorder. The Institutional Review Board approved the study, and the subjects were stable adults with that disorder. Jesse Gelsinger, an 18-year-old, was enrolled next to last despite reports raising concern about the safety of the virus, received a dose far larger than the first subject's, and died of a massive immune response.\n\nWhich conclusion does this case best support?",
+  "opts": [
+   "Gene therapy protocols are safe for human subjects once an institutional review board approves them",
+   "IRB approval does not relieve investigators of the duty to act on new safety reports",
+   "Stable adult subjects carry the same research risk as subjects who are acutely ill",
+   "An 18-year-old cannot consent to research without a parent's signature on the form"
+  ],
+  "ans": 1,
+  "rat": "The case turned on whether high-risk research belongs in healthy, stable clients and whether adverse-event reports were ignored or misinterpreted, so IRB approval at the start does not end the investigator's obligation to respond to accumulating safety data. Approval is not a safety guarantee, stable subjects were the point of contention rather than an equivalence to acutely ill ones, and at 18 the subject could consent for himself.",
+  "strat": "IRB approval is a starting gate, not a finish line; new safety data reopens the question.",
+  "n": 16
+ },
+ {
+  "topic": "Self-Determination",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A nurse researcher studying burnout recruits staff from her own unit. At the staff meeting she announces that taking part will be noted in each nurse's annual performance evaluation, and that she will tell the manager which nurses decline.\n\nWhich participant right is the researcher violating?",
+  "opts": [
+   "The right to self-determination — participation must be free of coercion",
+   "The right to full disclosure — the study's risks must be described first",
+   "The right to fair treatment — selection must rest on study requirements",
+   "The right to privacy — the data provided must be held in strict confidence"
+  ],
+  "ans": 0,
+  "rat": "Coercion is an explicit or implicit threat of penalty for failing to participate, or an excessive reward for agreeing. Tying enrollment to a performance evaluation and reporting refusers to the manager is a threat of penalty, so it violates the right to self-determination under respect for human dignity. Full disclosure governs what the participant is told about the study, fair treatment governs how participants are selected and treated, and privacy governs how their data are handled — none is the breach described here.",
+  "strat": "A penalty for saying no, or a payout too large to refuse — both are coercion, and both hit self-determination.",
+  "n": 17
+ },
+ {
+  "topic": "Informed Consent",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A consent form for a wound-care trial describes the study's purpose, the procedures, and how to reach the researcher. It does not mention that the experimental dressing may cause skin irritation, and it does not state that the client may decline to take part. The client signs the form.\n\nHow should the nurse evaluate this consent?",
+  "opts": [
+   "It is not valid; disclosure must include risks and the right to refuse",
+   "It is valid; the signed form is evidence that participation was voluntary",
+   "It is not valid; a consent form must be witnessed by a second researcher",
+   "It is valid; a description of the procedures satisfies the disclosure rule"
+  ],
+  "ans": 0,
+  "rat": "Informed consent rests on two elements: the right to self-determination and the right to full disclosure. Full disclosure means the researcher has fully described the study, the person's right to refuse participation, and the potential risks and benefits — this form omits both the risk of irritation and the right to refuse, so the signature does not make the consent valid. A second witness is not the element the guide names, and describing procedures alone falls short of full disclosure.",
+  "strat": "Informed consent = self-determination + full disclosure; if either leg is missing, a signature does not rescue it.",
+  "n": 18
+ },
+ {
+  "topic": "Belmont Report Principles",
+  "type": "match",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "The Belmont Report articulated three primary ethical principles for research with human participants.\n\nMatch each researcher action to the principle it upholds.",
+  "shared": [
+   "Beneficence",
+   "Respect for human dignity",
+   "Justice"
+  ],
+  "rows": [
+   {
+    "t": "Rewording an interview guide so bereaved parents are not put through unnecessary emotional distress",
+    "a": 0
+   },
+   {
+    "t": "Assuring participants that what they report about their income will not cost them public benefits",
+    "a": 0
+   },
+   {
+    "t": "Describing the study, its risks and benefits, and the right to refuse before asking for a signature",
+    "a": 1
+   },
+   {
+    "t": "Telling participants they may skip any question or drop out of the study at any point",
+    "a": 1
+   },
+   {
+    "t": "Enrolling women and members of minority groups rather than excluding them from a clinical trial",
+    "a": 2
+   },
+   {
+    "t": "Holding the interview recordings in strict confidence in line with the HIPAA Privacy Rule",
+    "a": 2
+   }
+  ],
+  "rat": "Beneficence obliges the researcher to minimize harm and maximize benefit; it carries both the right to freedom from harm and discomfort (which includes emotional harm) and the right to protection from exploitation (what participants disclose must not be used against them). Respect for human dignity carries self-determination (refuse, skip questions, withdraw) and full disclosure (the study, its risks and benefits, and the right to refuse). Justice carries the right to fair treatment (equitable selection, no exclusion of women and minorities) and the right to privacy (data held in strict confidence, HIPAA).",
+  "strat": "Beneficence = protect them; human dignity = tell them and let them choose; justice = treat them fairly and guard their data.",
+  "n": 19
+ },
+ {
+  "topic": "Voluntary Participation",
+  "type": "multi",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A nurse is enrolling clients from her own clinic panel into a study of a new diabetes education program.\n\nWhich actions by the nurse uphold the participants' right to self-determination? Select all that apply.",
+  "opts": [
+   "Tell each client she may refuse to answer any question during the interviews",
+   "Explain that a client may withdraw from the study at any point after enrolling",
+   "Answer the client's questions about the study before asking for a signature",
+   "State that declining to enroll will not change the care the client receives",
+   "Offer clients on public assistance a $500 payment to encourage them to enroll",
+   "Enroll clients who seem agreeable and go over the study details at the next visit"
+  ],
+  "ans": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "rat": "Self-determination means prospective participants decide voluntarily, without risking prejudicial treatment, and it includes the right to ask questions, to refuse to answer questions, and to drop out of the study — so refusing individual questions, withdrawing, having questions answered before signing, and knowing that care is unaffected by declining all uphold it. A generous stipend directed at a low-income group is considered mildly coercive because the incentive functions as pressure, and enrolling first while explaining later removes the informed, voluntary decision this principle protects.",
+  "strat": "Voluntary means the client can say no, say nothing, or stop later — and nothing bad happens either way.",
+  "n": 20
+ },
+ {
+  "topic": "Beneficence: Harm and Discomfort",
+  "type": "radio",
+  "cat": "Psychosocial Integrity",
+  "lvl": "Application",
+  "stem": "During an in-depth qualitative interview about how parents cope when a child has a terminal illness, a mother begins to cry, says the questions are pulling her back into the worst weeks of her life, and asks how much longer this will take.\n\nWhich obligation does this situation place on the researcher?",
+  "opts": [
+   "Beneficence — the researcher must minimize emotional harm and discomfort",
+   "Justice — the researcher must honor every agreement made with the mother",
+   "Full disclosure — the researcher must restate the study's aims and risks",
+   "Fair treatment — the researcher must show respect for the mother's beliefs"
+  ],
+  "ans": 0,
+  "rat": "Beneficence imposes a duty to minimize harm and maximize benefits, and the guide states that harm and discomfort in research may be physical, emotional (such as stress), social, or financial. Qualitative studies probe highly personal areas, so the researcher must stay aware of the intrusion on the participant's psyche and act to limit it. Honoring agreements and respecting beliefs belong to justice and the right to fair treatment, and full disclosure concerns what she was told before consenting — neither addresses the distress happening now.",
+  "strat": "Research harm is physical, emotional, social, or financial — tears count, and beneficence owns them.",
+  "n": 21
+ },
+ {
+  "topic": "Deception and Concealment",
+  "type": "multi",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A researcher studying substance misuse among high school students describes the project to them as a study of student health practices. The students know they are enrolled in a study, and data collection is otherwise open.\n\nWhich statements about this practice are accurate? Select all that apply.",
+  "opts": [
+   "It is deception, since the students are given misinformation about the study",
+   "It interferes with the students' ability to make a truly informed decision",
+   "Some hold that it is acceptable when risk is minimal and society benefits",
+   "It is concealment, since data are gathered without the students' knowledge",
+   "It meets full disclosure, since the description of the study is broadly true",
+   "It is exempt from the consent requirement because the students are minors"
+  ],
+  "ans": [
+   0,
+   1,
+   2
+  ],
+  "rat": "Describing a drug-use study as a study of student health practices is what the guide calls a mild form of misinformation, which is deception; both deception and concealment are ethically problematic because they interfere with people's right to make truly informed decisions about the personal costs and benefits of participation. The guide also notes the split view that deception may be acceptable when a study carries minimal risk yet offers benefits to society. Concealment is a different technique — collecting data without participants' knowledge and therefore without consent — and a partly true description does not amount to full disclosure.",
+  "strat": "Concealment hides the watching; deception distorts the telling. Either one dents informed consent.",
+  "n": 22
+ },
+ {
+  "topic": "Justice: Fair Treatment",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A team designing a study of a sleep intervention plans to enroll only men in a state prison, explaining that this group is easy to reach, unlikely to move away, and available for repeat measurements. Nothing about the intervention itself is specific to incarcerated men.\n\nWhich right does this recruitment plan violate?",
+  "opts": [
+   "The right to fair treatment — selection must follow the study's requirements",
+   "The right to protection from exploitation — their data may be used against them",
+   "The right to freedom from harm — the sleep protocol may cause them discomfort",
+   "The right to self-determination — the men were offered no payment to take part"
+  ],
+  "ans": 0,
+  "rat": "Justice includes the right to fair treatment, which calls for equitable distribution of the benefits and burdens of research and requires that participants be selected on the basis of research requirements rather than their vulnerabilities. The guide names prisoners as an example of a group of lower social standing chosen for convenience, which is precisely this scenario. Protection from exploitation (part of beneficence) would apply if what participants disclosed were used against them, freedom from harm concerns risk of injury or distress, and self-determination concerns voluntary consent — no payment is required, and an excessive one would itself be coercive.",
+  "strat": "Ask why this group: if the answer is convenience rather than the science, the problem is justice.",
+  "n": 23
+ },
+ {
+  "topic": "Categories of Law",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A nurse researcher is recruiting clients from a cardiology clinic. To speed enrollment, the researcher e-mails a list of clients' names, diagnoses, and phone numbers to a nurse at an unaffiliated hospital who is not part of the study team.\n\nThe regulation the researcher has violated is the module's example of which category of law?",
+  "opts": [
+   "Common law, which is derived from custom and judicial precedent",
+   "Administrative law, which regulates government agencies and their rules",
+   "Statutory law, which consists of acts passed by the United States Congress",
+   "Tort law, which covers an act or omission that causes harm to another"
+  ],
+  "ans": 1,
+  "rat": "The module lists the Health Insurance Portability and Accountability Act (HIPAA) as its example of administrative law — the laws and legal principles governing the creation, administration, and regulation of government agencies. Statutory law is the module's Medicare/Medicaid example (acts of Congress), common law is its medical malpractice example (custom and precedent), and tort is its defective-instrument example (an act or omission causing harm).",
+  "strat": "Match each of the four law categories to the module's own example: malpractice = common, HIPAA = administrative, Medicare/Medicaid = statutory, defective instrument = tort.",
+  "n": 24
+ },
+ {
+  "topic": "IRB Review Levels",
+  "type": "matrix",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A nurse serving on an Institutional Review Board is sorting new proposals into the level of review each one requires.\n\nClassify each proposal.",
+  "cols": [
+   "Exempt review",
+   "Expedited review",
+   "Full review"
+  ],
+  "rows": [
+   {
+    "t": "A retrospective chart review of hemoglobin A1c values with no client contact",
+    "a": 0
+   },
+   {
+    "t": "An anonymous survey of staff nurses about shift-scheduling preferences",
+    "a": 0
+   },
+   {
+    "t": "Participants walk on a treadmill for 10 minutes; discomfort is no greater than that of daily life",
+    "a": 1
+   },
+   {
+    "t": "One extra tube of blood is drawn during an already scheduled venipuncture",
+    "a": 1
+   },
+   {
+    "t": "A federally funded trial of an investigational wound dressing that carries a risk of skin injury",
+    "a": 2
+   },
+   {
+    "t": "A trial of a new sedation protocol in critically ill adults, with findings submitted for publication",
+    "a": 2
+   }
+  ],
+  "rat": "Exempt review covers studies that pose no risk, such as surveys or data collected from medical records; the researcher still must adhere to ethical principles. Expedited review applies when risk is minimal — the probability of physical or emotional discomfort is no greater than that experienced in daily life — and one or two IRB members approve or deny it. Full review by the entire committee is required when risk is more than minimal, and is typical where federal funds are received and publication is anticipated.",
+  "strat": "Sort by risk, not by topic: no risk = exempt, no worse than daily life = expedited, more than minimal risk (often federally funded) = full committee.",
+  "n": 25
+ },
+ {
+  "topic": "Defamation and Privacy",
+  "type": "cloze",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "During a study team huddle, a nurse researcher tells the group that one participant \"makes up her symptoms to stay enrolled,\" a claim the researcher knows is untrue. She then repeats that same claim in the written monthly progress report circulated to the funding agency. Separately, a printout of the participant's health information is left on a counter where unit visitors can read it.\n\nComplete the statements.",
+  "blanks": [
+   {
+    "label": "[1] The remark made during the huddle is",
+    "opts": [
+     "libel",
+     "defamation",
+     "invasion of privacy"
+    ],
+    "a": 1
+   },
+   {
+    "label": "[2] The claim in the circulated report is",
+    "opts": [
+     "libel",
+     "defamation",
+     "invasion of privacy"
+    ],
+    "a": 0
+   },
+   {
+    "label": "[3] The printout left on the counter is",
+    "opts": [
+     "libel",
+     "defamation",
+     "invasion of privacy"
+    ],
+    "a": 2
+   }
+  ],
+  "rat": "The module defines defamation as a false and harmful oral statement and libel as a false statement that is published or written, so the spoken huddle remark is defamation and the same claim in the circulated report is libel. Subjects also have the right to have their health information kept confidential and released only to authorized individuals, so an exposed printout is a violation of privacy rather than a false statement.",
+  "strat": "Libel starts like \"letter\" — written or published; defamation is what is said out loud. Privacy is about who can see the information, not whether it is true.",
+  "n": 26
+ },
+ {
+  "topic": "Informed Consent",
+  "type": "multi",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A nurse is auditing the consent process for a study enrolling adults who live at a homeless shelter.\n\nWhich findings show that the consent process met the requirements described in the module? Select all that apply.",
+  "opts": [
+   "The consent form is written in plain language the participants can read and understand",
+   "Participants were given time to review the form before being asked to sign it",
+   "A signed consent form is on file for every enrolled participant",
+   "Participants were told that continued shelter meal service depends on enrolling",
+   "A verbal agreement at the recruiting table was accepted in place of a signature",
+   "The form was rewritten in research terminology so that the wording would be precise"
+  ],
+  "ans": [
+   0,
+   1,
+   2
+  ],
+  "rat": "The module sets four requirements: the language must be simple enough to understand, the consent must not be coerced, the consent must be documented, and the subject must have had time to review the document. Tying meal service to enrollment is coercion of a vulnerable population, a verbal yes leaves the consent undocumented, and rewriting the form in research terminology defeats the plain-language requirement.",
+  "strat": "Four consent checks: understandable, uncoerced, documented, and enough time to review.",
+  "n": 27
+ },
+ {
+  "topic": "Internet Research",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A nurse researcher is conducting a study entirely online. Participants read the informed consent document on a web page and click Submit. The researcher recognizes she cannot observe whether a participant actually read the document, which leaves room for a participant to later claim that consent was not informed.\n\nWhich action best addresses this concern?",
+  "opts": [
+   "E-mail the participant after submission to verify they read the form",
+   "Add a checkbox stating the participant has read and agrees to the form",
+   "Post the consent form on the study web page for any visitor to read",
+   "Require the participant to type their full legal name on the form"
+  ],
+  "ans": 0,
+  "rat": "The module names an e-mail conversation with the participant after they submit the consent document as a way to raise confidence that the participant read and understood the material, and to answer questions or clarify concerns. A checkbox or a typed name records the click but proves nothing about comprehension, and posting the form publicly does not confirm that this participant read it.",
+  "strat": "Online consent problems are solved by adding a second, two-way contact with the participant, not by adding another click to the form.",
+  "n": 28
+ }
+];
+
+// ---------- app logic ----------
+const app=document.getElementById('app');
+const fill=document.getElementById('fill');
+const posEl=document.getElementById('pos');
+const scEl=document.getElementById('sc');
+let i=0, score=0, answeredCount=0;
+const result=new Array(Q.length).fill(null); // true/false once answered
+
+function setMeta(){
+  posEl.textContent='Question '+(i+1)+' of '+Q.length;
+  scEl.textContent='Score '+score+' / '+answeredCount;
+  fill.style.width=((answeredCount)/Q.length*100)+'%';
+}
+function eqSet(a,b){ if(a.length!==b.length)return false; const s=new Set(a); return b.every(x=>s.has(x)); }
+
+function render(){
+  const q=Q[i]; setMeta();
+  let body='';
+  if(q.type==='radio'||q.type==='multi'){
+    const inputType=q.type==='radio'?'radio':'checkbox';
+    body='<div class="opts">'+q.opts.map((o,idx)=>
+      '<label class="opt" data-idx="'+idx+'"><input type="'+inputType+'" name="o" value="'+idx+'">'
+      +'<span>'+o+'</span></label>').join('')+'</div>';
+    if(q.type==='multi') body='<div class="hint">Select all that apply. Judge each option independently.</div>'+body;
+  } else if(q.type==='matrix'){
+    body=q.rows.map((r,ri)=>'<div class="row"><span class="lab">'+r.t+'</span>'
+      +'<select data-row="'+ri+'"><option value="">— choose —</option>'
+      +q.cols.map((c,ci)=>'<option value="'+ci+'">'+c+'</option>').join('')+'</select></div>').join('');
+  } else if(q.type==='match'){
+    body=q.rows.map((r,ri)=>'<div class="row"><span class="lab">'+r.t+'</span>'
+      +'<select data-row="'+ri+'"><option value="">— choose —</option>'
+      +q.shared.map((c,ci)=>'<option value="'+ci+'">'+c+'</option>').join('')+'</select></div>').join('');
+  } else if(q.type==='cloze'){
+    body=q.blanks.map((b,bi)=>'<div class="row"><span class="lab">'+b.label+'</span>'
+      +'<select data-row="'+bi+'"><option value="">— choose —</option>'
+      +b.opts.map((c,ci)=>'<option value="'+ci+'">'+c+'</option>').join('')+'</select></div>').join('');
+  } else if(q.type==='bowtie'){
+    const grp=(title,key,opts,multi)=>'<div class="grp"><h4>'+title+'</h4>'
+      +opts.map((o,idx)=>'<label class="opt" data-key="'+key+'" data-idx="'+idx+'">'
+        +'<input type="'+(multi?'checkbox':'radio')+'" name="'+key+'" value="'+idx+'"><span>'+o+'</span></label>').join('')+'</div>';
+    body=grp('Central problem (pick 1)','problem',q.problem.opts,false)
+        +grp('Two actions to take (pick 2)','actions',q.actions.opts,true)
+        +grp('Two parameters to monitor (pick 2)','params',q.params.opts,true);
+  } else if(q.type==='calc'){
+    body='<div class="row"><input type="text" id="calc" placeholder="e.g., 9 or 8.8" inputmode="decimal"> %</div>';
+  }
+  const last=i===Q.length-1;
+  app.innerHTML='<div class="card"><span class="topic">'+q.topic+'</span>'
+    +'<div class="stem">'+q.n+'. '+q.stem+'</div>'+body
+    +'<div class="actions">'
+    +'<button class="btn" id="submit">Submit answer</button>'
+    +'<button class="btn ghost" id="next" disabled>'+(last?'See results':'Next ▸')+'</button>'
+    +'</div><div class="fb" id="fb"></div></div>';
+
+  // selection highlighting for label-based inputs
+  app.querySelectorAll('.opt input').forEach(inp=>inp.addEventListener('change',()=>{
+    const grpName=inp.name;
+    app.querySelectorAll('.opt input[name="'+grpName+'"]').forEach(x=>x.closest('.opt').classList.toggle('sel',x.checked));
+  }));
+  document.getElementById('submit').onclick=grade;
+  document.getElementById('next').onclick=()=>{ if(i<Q.length-1){i++;render();} else {results();} };
+}
+
+function grade(){
+  const q=Q[i]; let correct=false; let answerText='';
+  const submitBtn=document.getElementById('submit'); const nextBtn=document.getElementById('next');
+  if(q.type==='radio'){
+    const sel=app.querySelector('input[name="o"]:checked');
+    const chosen=sel?+sel.value:-1; correct=chosen===q.ans;
+    app.querySelectorAll('.opt').forEach((el,idx)=>{
+      if(idx===q.ans){el.classList.add('right'); el.insertAdjacentHTML('beforeend','<span class="tag r">correct</span>');}
+      if(idx===chosen&&chosen!==q.ans){el.classList.add('wrong'); el.insertAdjacentHTML('beforeend','<span class="tag w">your pick</span>');}
+    });
+    answerText='Correct answer: '+q.opts[q.ans];
+  } else if(q.type==='multi'){
+    const chosen=[...app.querySelectorAll('input[name="o"]:checked')].map(x=>+x.value);
+    correct=eqSet(chosen,q.ans);
+    app.querySelectorAll('.opt').forEach((el,idx)=>{
+      const isAns=q.ans.includes(idx), picked=chosen.includes(idx);
+      if(isAns){el.classList.add('right'); el.insertAdjacentHTML('beforeend','<span class="tag r">answer</span>');}
+      if(picked&&!isAns){el.classList.add('wrong'); el.insertAdjacentHTML('beforeend','<span class="tag w">your pick</span>');}
+    });
+    answerText='Correct selections: '+q.ans.map(x=>q.opts[x]).join(' · ');
+  } else if(q.type==='matrix'||q.type==='match'||q.type==='cloze'){
+    const rows=q.type==='cloze'?q.blanks:q.rows;
+    let allRight=true;
+    app.querySelectorAll('select[data-row]').forEach(sel=>{
+      const ri=+sel.dataset.row; const a=rows[ri].a; const v=sel.value===''?-1:+sel.value;
+      if(v===a){sel.classList.add('right');} else {sel.classList.add('wrong'); allRight=false;}
+      sel.disabled=true;
+    });
+    correct=allRight;
+    if(q.type==='cloze'){answerText='Answers: '+q.blanks.map(b=>b.opts[b.a]).join(' · ');}
+    else if(q.type==='match'){answerText='Answers: '+q.rows.map(r=>r.t+' → '+q.shared[r.a]).join(' · ');}
+    else {answerText='Answers: '+q.rows.map(r=>r.t+' → '+q.cols[r.a]).join(' · ');}
+  } else if(q.type==='bowtie'){
+    const pSel=app.querySelector('input[name="problem"]:checked');
+    const pOk=pSel&&+pSel.value===q.problem.a;
+    const aChosen=[...app.querySelectorAll('input[name="actions"]:checked')].map(x=>+x.value);
+    const mChosen=[...app.querySelectorAll('input[name="params"]:checked')].map(x=>+x.value);
+    const aOk=eqSet(aChosen,q.actions.ans), mOk=eqSet(mChosen,q.params.ans);
+    correct=pOk&&aOk&&mOk;
+    const mark=(key,ansArr,single)=>{
+      app.querySelectorAll('.opt[data-key="'+key+'"]').forEach(el=>{
+        const idx=+el.dataset.idx; const picked=el.querySelector('input').checked;
+        const isAns=single?(idx===ansArr):ansArr.includes(idx);
+        if(isAns){el.classList.add('right');}
+        if(picked&&!isAns){el.classList.add('wrong');}
+      });
+    };
+    mark('problem',q.problem.a,true); mark('actions',q.actions.ans,false); mark('params',q.params.ans,false);
+    answerText='Problem: '+q.problem.opts[q.problem.a]
+      +' | Actions: '+q.actions.ans.map(x=>q.actions.opts[x]).join(', ')
+      +' | Monitor: '+q.params.ans.map(x=>q.params.opts[x]).join(', ');
+  } else if(q.type==='calc'){
+    const inp=document.getElementById('calc'); const v=parseFloat((inp.value||'').replace('%','').trim());
+    correct=!isNaN(v)&&v>=q.acceptLo&&v<=q.acceptHi;
+    inp.classList.add(correct?'right':'wrong'); inp.disabled=true;
+    answerText='Correct answer: '+q.answer;
+  }
+
+  // lock inputs
+  app.querySelectorAll('input').forEach(x=>x.disabled=true);
+  submitBtn.disabled=true; nextBtn.disabled=false;
+
+  if(result[i]===null){ result[i]=correct; answeredCount++; if(correct)score++; }
+  setMeta();
+
+  const fb=document.getElementById('fb');
+  fb.className='fb show '+(correct?'ok':'no');
+  fb.innerHTML='<div class="verdict '+(correct?'ok':'no')+'">'+(correct?'✓ Correct':'✗ Not quite')+'</div>'
+    +'<p>'+answerText+'</p>'
+    +'<p>'+q.rat+'</p>'
+    +'<p class="strat">Strategy: '+q.strat+'</p>'
+    +'<div class="lblrow">Client Needs: '+q.cat+' · Cognitive level: '+q.lvl+'</div>';
+  fb.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+function results(){
+  const pct=Math.round(score/Q.length*100);
+  // category breakdown
+  const cats={};
+  Q.forEach((q,idx)=>{ if(!cats[q.cat])cats[q.cat]={c:0,t:0}; cats[q.cat].t++; if(result[idx])cats[q.cat].c++; });
+  const rows=Object.entries(cats).sort((a,b)=>b[1].t-a[1].t)
+    .map(([k,v])=>'<tr><td>'+k+'</td><td>'+v.c+' / '+v.t+'</td></tr>').join('');
+  const missed=Q.filter((q,idx)=>!result[idx]).map(q=>q.n);
+  const msg = pct>=85?'Strong — that is solid NCLEX readiness territory.'
+            : pct>=70?'Passing range. Review the misses and the rationales.'
+            : 'Keep grinding — focus on the missed items and re-run.';
+  app.innerHTML='<div class="card end">'
+    +'<div class="score">'+pct+'%</div>'
+    +'<div class="endsub">'+score+' of '+Q.length+' correct</div>'
+    +'<p>'+msg+'</p>'
+    +'<table class="brk"><tr><td><strong>Client Needs category</strong></td><td><strong>Correct</strong></td></tr>'+rows+'</table>'
+    +(missed.length?'<div class="miss"><h3>Missed items: '+missed.join(', ')+'</h3></div>':'<div class="miss"><h3>Perfect run — no misses.</h3></div>')
+    +'<div class="actions" style="justify-content:center"><button class="btn" id="restart">Restart quiz</button></div>'
+    +'<div class="footnote">NR449 Week 1 practice · 28 items · rationale after each answer</div>'
+    +'</div>';
+  document.getElementById('restart').onclick=()=>{i=0;score=0;answeredCount=0;result.fill(null);render();};
+  fill.style.width='100%';
+}
+
+render();
+</script>
+</body>
+</html>
