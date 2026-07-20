@@ -2,16 +2,18 @@
  "meta": {
   "title": "NCLEX Practice — Evidence-Based Practice (NR449) Week 3",
   "header": "NCLEX Practice — Evidence-Based Practice (NR449)",
-  "subtitle": "Week 3 · Research Design · 11 items",
-  "footnote": "NR449 Week 3 practice · 11 items · rationale after each answer",
-  "cardTitle": "Week 3 Quiz — Research Design",
+  "subtitle": "Week 3 · Research Design · Types of Research · Theory & Frameworks · 30 items",
+  "footnote": "NR449 Week 3 practice · 30 items · rationale after each answer",
+  "cardTitle": "Week 3 Quiz — Designing & Reading Research",
   "chips": [
    "Research Design",
    "Quantitative vs Qualitative",
-   "Experimental Design",
-   "Randomization & Control",
-   "Validity & Reliability",
-   "Sampling"
+   "Descriptive Designs",
+   "Variables",
+   "Causality",
+   "Types of Research",
+   "Theoretical Frameworks",
+   "Critiquing a Study"
   ],
   "classCode": "NR449",
   "className": "Evidence-Based Practice",
@@ -324,6 +326,479 @@
    "ans": 2,
    "rat": "This module's evaluation criteria ask whether the study can be replicated by others and, in qualitative design, whether the researcher has explained the decisions made as the design emerged. The article satisfies the other criteria the module lists — the design is identified in standard language, the rationale is given, the design is linked to the research question, and the influencing variables are identified — so the only unmet criterion is the missing procedural detail that would let another researcher reproduce the work and follow how the design developed.",
    "strat": "Walk the evaluation checklist item by item; the criterion nothing in the article addresses is the answer."
+  },
+  {
+   "n": 1,
+   "topic": "Descriptive Research",
+   "type": "radio",
+   "cat": "Management of Care",
+   "lvl": "Analysis",
+   "stem": "A nurse researcher surveys 400 adults in one rural county to determine how many are living with untreated hypertension and what they report about access to care. No comparison group is used and no intervention is applied.\nWhich conclusion is supportable by this design?",
+   "opts": [
+    "The prevalence of untreated hypertension in this county is 34%, indicating a need for screening services.",
+    "Living in a rural county causes adults with hypertension to leave the condition untreated over time.",
+    "Adults who enroll in the new clinic will end up with lower untreated hypertension rates than those who do not.",
+    "The county's screening program lowered the rate of untreated hypertension across the study period."
+   ],
+   "ans": 0,
+   "rat": "Descriptive research answers what, when, and how questions and is invaluable for documenting the prevalence, nature, and intensity of a condition and the need for new or additional services. It explicitly does not answer why a phenomenon occurs or establish cause and effect, which rules out the causal claim, the predictive claim about future clinic enrollees, and the claim that a program lowered rates.",
+   "strat": "Descriptive tells you how much and how many, never why - it is hypothesis-generating, not hypothesis-testing."
+  },
+  {
+   "n": 2,
+   "topic": "Descriptive Research",
+   "type": "multi",
+   "cat": "Management of Care",
+   "lvl": "Analysis",
+   "stem": "A student is critiquing a descriptive survey study of vaccine hesitancy in which participants were questioned in their own homes.\nWhich statements about descriptive research are accurate? Select all that apply.",
+   "opts": [
+    "The design cannot be used to establish a cause-and-effect relationship between the variables studied.",
+    "Respondents may answer in a socially desirable way rather than truthfully.",
+    "The choice and wording of the questionnaire items can influence what the findings show.",
+    "Findings may not be generalizable, depending on the type and size of the sample obtained.",
+    "Data must be gathered in a controlled setting rather than where the participants live.",
+    "Subjects must be assigned at random to comparison groups before any data are collected."
+   ],
+   "ans": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "rat": "The guide lists inability to establish causation, untruthful or socially desirable responses, question wording effects, and limited generalizability as the limitations of descriptive research. Collecting data in the respondent's natural environment (home, childcare, or educational setting) is listed as a strength, not a requirement to avoid, and random assignment belongs to experimental designs, not descriptive ones.",
+   "strat": "Sort each option into strength, limitation, or wrong design family before marking it."
+  },
+  {
+   "n": 3,
+   "topic": "Descriptive Research",
+   "type": "match",
+   "cat": "Management of Care",
+   "lvl": "Application",
+   "stem": "Match each proposed study to the type of descriptive study it represents.",
+   "shared": [
+    "Observational",
+    "Survey",
+    "Cross-sectional",
+    "Longitudinal",
+    "Correlation",
+    "Case study"
+   ],
+   "rows": [
+    {
+     "t": "A team watches and records staff hand-hygiene behavior on a unit; the staff themselves provide no input",
+     "a": 0
+    },
+    {
+     "t": "A questionnaire is e-mailed to 12,000 licensed nurses in one state to collect feedback on staffing",
+     "a": 1
+    },
+    {
+     "t": "A one-day chart audit estimates how many residents of a nursing home currently have a pressure injury",
+     "a": 2
+    },
+    {
+     "t": "One cohort of new graduates is measured for burnout every year for the next ten years",
+     "a": 3
+    },
+    {
+     "t": "Investigators examine whether nurses' sleep hours and medication-error counts move in opposite directions, controlling neither",
+     "a": 4
+    },
+    {
+     "t": "One client with a rare metabolic disorder is studied in depth to generate a hypothesis for later work",
+     "a": 5
+    }
+   ],
+   "rat": "Observational studies collect data from the researcher's view of behavior with no input from respondents; surveys collect respondent-reported feedback and suit very large samples; cross-sectional studies are a snapshot of frequency at one point in time; longitudinal studies gather data repeatedly over an extended period; correlation measures the relationship between two or more variables the researcher does not control; case studies are in-depth study of an individual or group that widen the scope for later work.",
+   "strat": "Ask who supplies the data and over how much time - that pair separates observational, survey, cross-sectional, and longitudinal."
+  },
+  {
+   "n": 4,
+   "topic": "Descriptive Research",
+   "type": "radio",
+   "cat": "Safety & Infection Prevention and Control",
+   "lvl": "Analysis",
+   "stem": "A descriptive study reports that as the number of continuing-education hours completed by unit nurses rises, the unit's catheter-associated urinary tract infection rate falls. The researchers controlled neither variable.\nHow should the nurse interpret this finding?",
+   "opts": [
+    "A negative correlation exists, so the data support prediction but not a causal conclusion.",
+    "A positive correlation exists, so the data support prediction but not a causal conclusion.",
+    "A negative correlation exists, so the data establish that added education lowers the infection rate.",
+    "A zero correlation exists, so the data support neither prediction nor a causal conclusion."
+   ],
+   "ans": 0,
+   "rat": "Variables moving in opposite directions define a negative correlation; both moving the same direction would be positive, and no relationship would be zero. Correlation studies can be used to make predictions about relationships, but the researcher has no control over the variables, so correlation does not equal causation.",
+   "strat": "Name the direction first, then refuse the causal sentence - two decisions, not one."
+  },
+  {
+   "n": 5,
+   "topic": "Qualitative Research",
+   "type": "matrix",
+   "cat": "Management of Care",
+   "lvl": "Analysis",
+   "stem": "A nurse is appraising a proposed study of how families experience a relative's admission to hospice.\nIndicate whether each feature is consistent with qualitative research.",
+   "cols": [
+    "Consistent",
+    "Not consistent"
+   ],
+   "rows": [
+    {
+     "t": "Uses inductive reasoning to move from the participants' accounts toward understanding",
+     "a": 0
+    },
+    {
+     "t": "Studies the phenomenon in the naturalistic setting where the people involved live daily",
+     "a": 0
+    },
+    {
+     "t": "Tests whether an intervention produced a measurable change in the families",
+     "a": 1
+    },
+    {
+     "t": "May supply the information needed to pursue a later quantitative study",
+     "a": 0
+    },
+    {
+     "t": "Relies on a representative sample so results generalize to larger groups with confidence",
+     "a": 1
+    },
+    {
+     "t": "Interprets the phenomenon in terms of the meanings the people involved bring to it",
+     "a": 0
+    }
+   ],
+   "rat": "Qualitative research is inductive, studies phenomena in naturalistic settings, interprets meanings people bring to an experience, and may provide information necessary to pursue quantitative studies. It explicitly does not test interventions, and generalizing from a representative sample is a characteristic of quantitative designs, which apply interventions to samples in order to generalize to broader populations.",
+   "strat": "Any row about testing an intervention or generalizing to a population has crossed over into quantitative."
+  },
+  {
+   "n": 6,
+   "topic": "Qualitative Research",
+   "type": "radio",
+   "cat": "Management of Care",
+   "lvl": "Application",
+   "stem": "A team interviews 18 family caregivers, codes the transcripts interpretively, and reports themes. The published paper names the approach content analysis. A student asks how content analysis should be classified.\nWhich response is correct?",
+   "opts": [
+    "A data analysis method rather than a distinct design, used when a study fits no formal classification.",
+    "A distinct qualitative design, defined by the use of interview transcripts as its primary source of data.",
+    "A quantitative design, because interpretive codes are converted into counts and analyzed statistically.",
+    "A variant of grounded theory, because interpretive coding of transcripts produces themes and patterns."
+   ],
+   "ans": 0,
+   "rat": "The guide states content analysis is technically not a specific qualitative research design but is more accurately a data analysis method for interpreting meaning in verbal responses or written documents, often used when a qualitative study does not fit neatly into one of the more formal classifications. Grounded theory is a design whose aim is to develop a theory from the data, which content analysis does not claim to do.",
+   "strat": "If it describes how the data were interpreted rather than how the study was structured, it is a method, not a design."
+  },
+  {
+   "n": 7,
+   "topic": "Qualitative Research",
+   "type": "radio",
+   "cat": "Management of Care",
+   "lvl": "Application",
+   "stem": "A nurse researcher plans an ethnographic study of the culture of a hospital's night-shift staff and intends to work alongside them for several months.\nWhich statement describes the researcher's role in this design?",
+   "opts": [
+    "Becoming an active participant in the group in order to learn from its members without changing the culture.",
+    "Remaining outside the group entirely so that the members' usual behavior is not altered by the researcher's presence.",
+    "Assigning staff to different shift patterns so that cultural differences between the groups can be compared.",
+    "Interviewing members individually until no new themes emerge, without entering the work setting itself."
+   ],
+   "ans": 0,
+   "rat": "In ethnography the researcher's aim is to learn from, rather than study, the members of a culture without changing it, and participant observation is very common - the researcher becomes an active participant to understand the group's experiences and worldview. Staying outside the group describes detached observation, assigning staff to conditions is manipulation belonging to experimental work, and interview-only data collection describes a different qualitative approach.",
+   "strat": "Ethnography = culture + participant observation; the researcher joins in rather than watching from the hallway."
+  },
+  {
+   "n": 8,
+   "topic": "Qualitative Research",
+   "type": "radio",
+   "cat": "Management of Care",
+   "lvl": "Application",
+   "stem": "A nurse manager reads a qualitative study describing how clients experience their first month on home dialysis and wants to apply it on the unit.\nWhich use of this evidence fits what the study can offer?",
+   "opts": [
+    "Preparing anticipatory guidance about the range of responses clients may have that month.",
+    "Setting a target for the percentage of clients who will adapt within one month of starting dialysis.",
+    "Deciding whether home dialysis produces better adaptation than in-center dialysis does.",
+    "Establishing how often distress occurs among home dialysis clients in the first month."
+   ],
+   "ans": 0,
+   "rat": "Nurses use qualitative evidence to understand clients' experiences and the range of their responses, to provide anticipatory guidance and coaching, and to improve nurse-client communication. Setting a numeric target, comparing the effectiveness of two modalities, and establishing how often a problem occurs all require measurement and comparison, which are purposes of quantitative or descriptive-prevalence work.",
+   "strat": "Qualitative evidence tells you what it is like, so it feeds teaching and communication, not numbers or effect claims."
+  },
+  {
+   "n": 9,
+   "topic": "Quantitative Research",
+   "type": "cloze",
+   "cat": "Management of Care",
+   "lvl": "Application",
+   "stem": "A nurse is contrasting the two broad research traditions for a journal club.\nQualitative research is [1] in nature and uses [2] to explain a phenomenon. Quantitative research uses [3] and develops knowledge through [4].",
+   "blanks": [
+    {
+     "label": "[1] Qualitative reasoning",
+     "opts": [
+      "deductive",
+      "inductive",
+      "experimental"
+     ],
+     "a": 1
+    },
+    {
+     "label": "[2] Qualitative data",
+     "opts": [
+      "words rather than numbers",
+      "numbers rather than words",
+      "statistics rather than themes"
+     ],
+     "a": 0
+    },
+    {
+     "label": "[3] Quantitative reasoning",
+     "opts": [
+      "inductive reasoning",
+      "deductive reasoning",
+      "interpretive coding"
+     ],
+     "a": 1
+    },
+    {
+     "label": "[4] Quantitative knowledge development",
+     "opts": [
+      "a hypothesis-generating description",
+      "a hypothesis-testing process",
+      "participant observation"
+     ],
+     "a": 1
+    }
+   ],
+   "rat": "Qualitative research is explanatory, descriptive, and inductive in nature and uses words rather than numbers to explain a phenomenon. Quantitative research uses deductive reasoning and develops knowledge by a hypothesis-testing process: state them, test them, disprove them, or confirm findings by retesting. Hypothesis-generating is the phrase the guide attaches to descriptive research, not to quantitative research.",
+   "strat": "Qualitative goes from stories up to ideas (inductive); quantitative goes from a hypothesis down to data (deductive)."
+  },
+  {
+   "n": 10,
+   "topic": "Quantitative Research",
+   "type": "radio",
+   "cat": "Management of Care",
+   "lvl": "Analysis",
+   "stem": "A staff nurse notes that experimental designs are called the gold standard for evidence-based practice yet asks why so few nursing studies are randomized controlled trials.\nWhich response is accurate?",
+   "opts": [
+    "The high control an experiment requires is hard to achieve in practice, and withholding treatment can be unethical.",
+    "Nursing questions usually concern the meaning of lived experience, so a design that tests effects rarely fits them well.",
+    "Random assignment demands very large samples, which most nursing units cannot recruit or afford to study.",
+    "Findings from experiments cannot be generalized beyond the single site where the intervention was tested."
+   ],
+   "ans": 0,
+   "rat": "The guide attributes the rarity of experiments in nursing and healthcare to the difficulty of achieving the high levels of control that characterize experiments in an applied setting, and to the fact that manipulating an independent variable or withholding treatment is not always desirable or ethical. Nursing does ask effect questions, sample size is not the stated barrier, and generalizability is a strength of experimental work because of random assignment.",
+   "strat": "Experiments are rare in practice for two reasons the guide names: control is hard, and withholding care may be unethical."
+  },
+  {
+   "n": 11,
+   "topic": "Quantitative Research",
+   "type": "radio",
+   "cat": "Safety & Infection Prevention and Control",
+   "lvl": "Analysis",
+   "stem": "Investigators interview nurses who sustained a needlestick injury during the past five years and ask each one to recall whether a safety-engineered device was in use at the time. Both the device use and the injury had already occurred when the data were collected, and no uninjured comparison group was assembled.\nWhich statement identifies this design and its central weakness?",
+   "opts": [
+    "Ex post facto research; temporality cannot be proven because the investigator depends on the subject's recall.",
+    "Causal-comparative research; the groups were formed from an inherent characteristic the subjects already possessed.",
+    "Case-control research; each affected subject was matched with an unaffected subject on key characteristics.",
+    "Time series research; the outcome was measured repeatedly rather than compared against a separate group."
+   ],
+   "ans": 0,
+   "rat": "Ex post facto research observes relationships between naturally occurring differences after the fact, when both the independent and dependent variables have already occurred; this weakens cause-and-effect conclusions because the researcher cannot prove temporality and depends on the subject's recall to establish that the independent variable came first. Causal-comparative groups subjects by an inherent characteristic such as gender or region, case-control matches subjects who have a characteristic with subjects who do not, and time series measures one group repeatedly around an intervention.",
+   "strat": "Data collected after both variables have happened, resting on recall = ex post facto and no proof of temporality."
+  },
+  {
+   "n": 12,
+   "topic": "Quantitative Research",
+   "type": "radio",
+   "cat": "Safety & Infection Prevention and Control",
+   "lvl": "Analysis",
+   "stem": "A medical unit measures its fall rate per 1,000 patient-days monthly for three months, then implements a new mobility protocol and measures the rate monthly for the next twelve months. No other unit is used for comparison.\nHow should the nurse classify this study?",
+   "opts": [
+    "Quasi-experimental; the subjects serve as their own comparison group against the preintervention baseline.",
+    "Experimental; the repeated measurement over twelve months substitutes for random assignment of the subjects.",
+    "Longitudinal descriptive; repeated measures over time describe a trend but no intervention was applied here.",
+    "Case-control; the months carrying the protocol are matched against the months without the protocol."
+   ],
+   "ans": 0,
+   "rat": "This is a time series design, a type of quasi-experimental design with only one group: a baseline is measured, the intervention is applied, and measures are taken periodically afterward, with subjects serving as their own comparison group. Repeated measurement never substitutes for random assignment, an intervention clearly was applied so this is not purely descriptive, and case-control matches subjects with and without a characteristic rather than time periods.",
+   "strat": "One group, a baseline, then repeated measures after an intervention = time series, which is quasi-experimental."
+  },
+  {
+   "topic": "Theoretical Frameworks",
+   "type": "radio",
+   "cat": "Safety & Infection Prevention and Control",
+   "lvl": "Application",
+   "stem": "A unit EBP council is appraising a published study of a central-line dressing-change bundle before recommending it. The report states the problem, describes the sample and methods, and reports the outcomes, but no theory is named or described anywhere in the article. A council member asks what the study loses by leaving out a theoretical framework.\nWhich response by the nurse leading the appraisal is accurate?",
+   "opts": [
+    "The reported p values cannot be trusted because no hypothesis was tested.",
+    "The results carry less credibility and are harder for others to replicate.",
+    "The study cannot be classified as either quantitative or qualitative research.",
+    "The literature review cannot be used to justify the variables the authors measured."
+   ],
+   "ans": 1,
+   "rat": "The module teaches that the theory is the conceptual foundation, or backbone, of a study: a strong theoretical framework brings credibility to the results and allows the study to be replicated. A missing framework does not invalidate the statistics, erase the study's design classification, or void the literature review; it weakens the conceptual justification and reproducibility of the work.",
+   "strat": "Framework = backbone. Take the backbone out and the study still stands up, just weakly: less credibility, harder to replicate."
+  },
+  {
+   "topic": "Framework Functions",
+   "type": "match",
+   "cat": "Management of Care",
+   "lvl": "Analysis",
+   "stem": "A graduate student is annotating a published study to show the ways its theoretical framework strengthens it. Match each observation she wrote in the margin to the way the framework strengthens the study.",
+   "shared": [
+    "Specifies which variables influence the phenomenon and how they differ by circumstance",
+    "Lets the reader weigh the stated assumptions before accepting the conclusions",
+    "Ties the hypothesis to the methods and situates the study in existing knowledge",
+    "Moves the researcher past describing the phenomenon to generalizing aspects of it"
+   ],
+   "rows": [
+    {
+     "t": "Evaluation",
+     "a": 1
+    },
+    {
+     "t": "Connection",
+     "a": 2
+    },
+    {
+     "t": "Generalization",
+     "a": 3
+    },
+    {
+     "t": "Limitations",
+     "a": 0
+    }
+   ],
+   "rat": "Per the module's interactive: Evaluation - a distinct statement of theoretical assumptions lets the reader critically evaluate the research; Connection - the framework connects the reader to existing knowledge and connects the hypothesis to the methods; Generalization - articulating assumptions lets the researcher progress from describing a phenomenon to generalizing aspects of it; Limitations - the framework identifies limits to generalization by specifying which variables influence the phenomenon and under what circumstances they differ.",
+   "strat": "Limitations and Generalization are the pair students swap: Generalization is the reach the theory gives you, Limitations is the fence around that reach."
+  },
+  {
+   "topic": "Choosing a Framework",
+   "type": "radio",
+   "cat": "Safety & Infection Prevention and Control",
+   "lvl": "Application",
+   "stem": "A student is designing a study of whether a structured pre-shift huddle reduces medication administration errors on a medical unit. She has stated the research problem, reviewed how other researchers addressed similar problems, and identified the huddle as the independent variable and error rate as the dependent variable.\nAccording to the module's process, what is her next step in arriving at a theoretical framework?",
+   "opts": [
+    "Review several relevant theories and choose the one that best explains how her variables relate.",
+    "Select the theory cited most often in the literature she reviewed and then fit her variables into it.",
+    "Adopt the nursing theory her hospital has chosen as its professional practice model.",
+    "Run the study first and then choose the theory whose concepts her results most resemble."
+   ],
+   "ans": 0,
+   "rat": "The module's sequence ends with reviewing several relevant theories, choosing the one that best explains the relationships between the key variables, and then confirming that theory's relevance to the research problem. Letting citation counts, an employer's practice model, or the data pick the theory reverses the logic: the problem and its variables drive theory selection, not the other way around.",
+   "strat": "Problem, then variables, then theory. If the theory is chosen before the variables are known, or after the data are in, the order is wrong."
+  },
+  {
+   "topic": "Theory & Research Design",
+   "type": "radio",
+   "cat": "Management of Care",
+   "lvl": "Analysis",
+   "stem": "A nurse reviews a colleague's research proposal. The colleague selected a randomized design and wrote the data-collection tool first, then went back to the literature to attach a theory so the proposal 'would look stronger to the review board.'\nWhich critique of this proposal is most accurate?",
+   "opts": [
+    "The tool should be selected first so the theory can be matched to the data actually collected.",
+    "The theory should have focused the variables and framed the design, not been added afterward.",
+    "Theory frames qualitative work; a randomized design is directed by the hypothesis alone.",
+    "Attaching the theory later is acceptable as long as the literature review supports the variables."
+   ],
+   "ans": 1,
+   "rat": "The module describes theory as influencing design: the researcher picks a topic, hypothesizes how the concepts interact, reviews the literature, and then uses a theory to focus on the specific variables of interest, forming a road map for the design. A theory bolted on after the design cannot have guided it. The module also states that theoretical frameworks may be used in both quantitative and qualitative research, so a randomized design does not exempt the proposal.",
+   "strat": "Road map before the trip. If the theory arrives after the design or the tool, it framed nothing."
+  },
+  {
+   "topic": "Nursing & Non-Nursing Theories",
+   "type": "matrix",
+   "cat": "Management of Care",
+   "lvl": "Application",
+   "stem": "A nurse researcher is listing candidate frameworks for a study and must note, for each one, whether it is a nursing theory or a theory borrowed from another discipline.\nClassify each framework using the module's examples.",
+   "cols": [
+    "Nursing theory",
+    "Theory from another discipline"
+   ],
+   "rows": [
+    {
+     "t": "Benner's Novice-to-Expert Framework",
+     "a": 0
+    },
+    {
+     "t": "Becker's Health Belief Model",
+     "a": 1
+    },
+    {
+     "t": "Beck's Theory of Postpartum Depression",
+     "a": 0
+    },
+    {
+     "t": "Bandura's Social Cognitive Theory",
+     "a": 1
+    },
+    {
+     "t": "Roy's Adaptation Model",
+     "a": 0
+    },
+    {
+     "t": "Prochaska's Transtheoretical Change Theory",
+     "a": 1
+    }
+   ],
+   "rat": "The module lists Benner's Novice-to-Expert Framework, Roy's Adaptation Model, Beck's Theory of Postpartum Depression, Kolcaba's Comfort Theory, and Pender's Health Promotion Model as nursing theories, and Bandura's Social Cognitive Theory, Prochaska's Transtheoretical Change Theory, Becker's Health Belief Model, and Ajzen's Theory of Planned Behavior as theories from other disciplines that support nursing research. Beck (nursing, postpartum depression) and Becker (health belief model, outside nursing) are the pair most often confused, as are Pender's Health Promotion Model (nursing) and Becker's Health Belief Model.",
+   "strat": "Nurse researchers use both kinds. Sort by who wrote it, not by how clinical it sounds: Beck is nursing, Becker is not."
+  },
+  {
+   "topic": "Locating the Framework",
+   "type": "cloze",
+   "cat": "Management of Care",
+   "lvl": "Analysis",
+   "stem": "A student is asked to name the theoretical framework of two assigned articles. One article names Roy's Adaptation Model in its title and returns to it when discussing the findings. The second never labels a framework at all; it builds on what previous studies established about the problem and reports numeric outcomes.\nComplete the student's summary using the module's guidance.\n\nThe second article is typical, because [1] researchers are less likely to identify the theoretical framework. In contrast, [2] research reflects on a specific theory and always uses a theoretical framework. When no framework is labeled outright, the reader should look for it [3].",
+   "blanks": [
+    {
+     "label": "[1] Less likely to name the framework",
+     "opts": [
+      "quantitative",
+      "qualitative",
+      "mixed-methods"
+     ],
+     "a": 0
+    },
+    {
+     "label": "[2] Always uses a framework",
+     "opts": [
+      "quantitative",
+      "qualitative",
+      "descriptive"
+     ],
+     "a": 1
+    },
+    {
+     "label": "[3] Where to look",
+     "opts": [
+      "in the introduction, the title, and the discussion of the findings",
+      "only in a separately headed theoretical framework section",
+      "in the statistical results, where the theory's concepts are tested",
+      "in the funding and conflict-of-interest disclosures"
+     ],
+     "a": 0
+    }
+   ],
+   "rat": "The module states that quantitative researchers are less likely to identify the theoretical framework but often use what is already known about a problem from previous research, while qualitative research reflects on a specific theory and always uses a theoretical framework. It also lists where a framework may surface: the introduction, a separate section, the title, how the concepts relate to the outcome studied, how the variables are viewed, and how the findings are considered in relation to the theory. A separate headed section is one possible location, not the only one.",
+   "strat": "Quantitative may hide it; qualitative always has one. Hunt the title, the introduction, and the discussion before concluding there is no framework."
+  },
+  {
+   "topic": "Critiquing Theory Use",
+   "type": "multi",
+   "cat": "Management of Care",
+   "lvl": "Evaluation",
+   "stem": "A shared-governance committee is critiquing a published study that used Pender's Health Promotion Model to frame a nurse-led walking program for adults with hypertension.\nWhich features of the report should the committee identify as weaknesses in the study's use of theory? Select all that apply.",
+   "opts": [
+    "The theory is named in the introduction and is not referred to again once the results are reported.",
+    "The authors note that their findings conflict with an earlier study that used the same model but offer no theory-based explanation.",
+    "The variables are named, but the report does not describe how each was measured as an outcome.",
+    "The authors devote a separate headed section to describing the model and its major concepts.",
+    "The literature review presents prior work supporting the choice of the study's variables.",
+    "The discussion compares the study's outcomes with what the model predicts about perceived self-efficacy."
+   ],
+   "ans": [
+    0,
+    1,
+    2
+   ],
+   "rat": "The module's critique questions ask whether the framework is used as a basis for comparison once data are analyzed, whether the findings are discussed in relation to the theory, whether discrepancies with other researchers using the same framework can be explained through the theory, and whether the researcher clearly describes the variables and how they relate to a measurable outcome. Options 0, 1, and 2 each fail one of those. A separate theory section, a literature review that supports the variables, and a discussion tied to the model's concepts are exactly what the critique questions ask to see.",
+   "strat": "A framework has to work through the whole paper. If the theory appears in the introduction and never in the discussion, it decorated the study rather than framing it."
   }
  ]
 }
