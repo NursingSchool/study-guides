@@ -64,8 +64,24 @@ by an explicit framework — state it in the rationale (`rat`):
 - **Acute over chronic; unstable over stable.**
 - **Assess before intervene** (unless an ABC emergency demands immediate action).
 
-## Accuracy rule
+## Accuracy rule — the guide is the tested content
 
-Every value and rationale must match current evidence-based practice. If the source
-material conflicts with current standards, **flag it** rather than writing an item that
-propagates the error.
+**Key items to what the guide teaches.** Roughly 90% of Chris's quiz and exam questions come
+straight from the Edapt modules (his professors don't write them; a smaller share comes from
+the textbook). So the guide's content *is* the exam content. Write items that prepare him for
+that exam.
+
+This means: **do not substitute current evidence-based practice for the guide's version, and
+do not skip a topic because the guide lags current standards.** If the guide teaches cool mist
+for croup, bronchodilators for RSV, palivizumab as RSV prophylaxis, or a particular evidence
+hierarchy — key those, because that is what he will be asked. Silently "correcting" the guide
+produces a quiz that trains the wrong answer.
+
+Two narrow exceptions:
+- **Blatantly wrong or unsafe** content — don't key it. Flag it to Chris instead.
+- **A bad capture** — garbled, truncated, or self-contradictory extraction. Key the guide's
+  clearest/dominant version if you safely can, and flag the ambiguity.
+
+When the guide is merely *less current* than today's practice, key the guide's version and may
+add one short "current practice now favors X" clause to the rationale — the keyed answer still
+follows the guide. Always report any discrepancy you noticed in your summary.

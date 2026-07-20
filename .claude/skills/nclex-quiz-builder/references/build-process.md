@@ -57,8 +57,11 @@ Follow these exactly (read them first):
   honestly; write to Application/Analysis, not recall. Apply the "layperson test" to each item.
 - Client Needs `cat` strings (verbatim) + NCJMM steps: <skill>/references/blueprint-2026.md
 
-Ground every value in the source; if it conflicts with current evidence-based practice, note
-the conflict in the item's rationale rather than propagating the error.
+Ground every value in the source and KEY THE GUIDE'S VERSION — ~90% of this student's exam
+questions come straight from these Edapt modules, so the guide is the tested content. Do not
+substitute current evidence-based practice and do not skip a topic because the guide lags
+current standards. Only blatantly wrong/unsafe content or an obviously bad capture is an
+exception; flag those in your summary instead of silently changing them.
 Return: a JSON array of items using the exact field names from the schema.
 ```
 

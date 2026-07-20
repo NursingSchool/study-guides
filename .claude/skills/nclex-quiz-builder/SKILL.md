@@ -74,8 +74,11 @@ build/lint, hub) that the comprehensive build reuses in its Reduce phase.
    - **Topic focus** — default: follow the source material as given.
 
 2. **Read the two reference files**, then write items per `references/ngn-item-writing.md`.
-   Use only data drawn from or consistent with the source. If the source conflicts with
-   current evidence-based practice, flag it instead of writing a wrong item.
+   Use only data drawn from the source, and **key items to what the guide teaches** — ~90% of
+   Chris's exam questions come straight from these Edapt modules, so the guide *is* the tested
+   content. Don't substitute current practice for the guide's version (see the Accuracy rule in
+   `references/blueprint-2026.md`); only blatantly wrong/unsafe content or a bad capture is an
+   exception, and those get flagged rather than silently changed.
 
 3. **Write the data file** `<name>.quiz.json` next to where the quiz should live
    (the repo root for study-hub quizzes, so it sits beside `index.html`). Name it for
@@ -136,8 +139,11 @@ The questions are grounded in material Chris has already captured — you are
   full — a comprehensive review draws on all of them. The guides' frontmatter
   (`Unit:` / `Week`) tells you which exam block a module belongs to. Narrow to
   specific files only when Chris asks for a single topic.
-- Ground every item, value, and rationale in the guide. If a guide conflicts with
-  current evidence-based practice, **flag it** to Chris rather than writing a wrong item.
+- **The guides are the tested content.** Edapt writes ~90% of Chris's quiz/exam questions
+  (professors don't; the textbook supplies a smaller share). Ground every item in the guide and
+  **key the guide's version** even where it lags current practice — that's what he'll be asked.
+  Deviate only for blatantly wrong/unsafe content or an obviously bad capture, and flag those.
+  Never silently swap in current practice; see the Accuracy rule in `references/blueprint-2026.md`.
 - A folder may already hold a markdown quiz (`NCLEX_Quiz_*.md`) and/or a built `.html`.
   Reuse good items, but avoid producing a near-duplicate of an existing quiz unless asked.
 
