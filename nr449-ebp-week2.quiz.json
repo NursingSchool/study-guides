@@ -4,7 +4,7 @@
   "header": "NCLEX Practice — Evidence-Based Practice (NR449)",
   "subtitle": "Week 2 · Research Process · Practice Problems · PICOT · Levels of Evidence · Literature Review · 30 items",
   "footnote": "NR449 Week 2 practice · 30 items · rationale after each answer",
-  "cardTitle": "Week 2 Practice — Research Process, PICOT & Evidence",
+  "cardTitle": "Week 2 Quiz — Research Process, PICOT & Evidence",
   "chips": [
    "Research Process",
    "Quantitative vs Qualitative",
@@ -17,8 +17,8 @@
   "classCode": "NR449",
   "className": "Evidence-Based Practice",
   "classSlug": "nr449-evidence-based-practice",
-  "exam": "Exam 1",
-  "examOrder": 1,
+  "exam": "Week 2",
+  "examOrder": 12,
   "kind": "topic-practice"
  },
  "questions": [

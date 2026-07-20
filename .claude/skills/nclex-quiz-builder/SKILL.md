@@ -96,11 +96,20 @@ build/lint, hub) that the comprehensive build reuses in its Reduce phase.
      },
      "questions": [ ... ] }
    ```
-   The bottom block is the **study-hub** metadata (see "The study hub" below):
-   `classCode`/`className` (required for hub registration; `classSlug` auto-derives if
-   omitted), the `exam` bucket + `examOrder` (sorts exam sections), and `kind`
-   (`exam-review` | `topic-practice` — sets the badge; topic/week quizzes use
-   `topic-practice` and the exam they prep for).
+   The bottom block is the **study-hub** metadata (see "The study hub" below).
+   `classCode`/`className` are required for hub registration (`classSlug` auto-derives if
+   omitted). The rest control how it's labeled on the class page — **label a thing as what
+   it is**:
+
+   | | Comprehensive exam review | Week/topic quiz |
+   |---|---|---|
+   | `exam` (section heading) | `"Exam 2"` | `"Week 2"` |
+   | `examOrder` (sort key) | the exam number (`2`) | `10 + week` (`12`) — keeps reviews on top |
+   | `kind` (badge) | `"exam-review"` → **Exam Review** | `"topic-practice"` → **Quiz** |
+   | `cardTitle` | `"Exam 2 Review — Weeks 4-7: ..."` | `"Week 2 Quiz — ..."` |
+
+   Do **not** file a week quiz under the exam it prepares for — Chris wants a Week 2 quiz
+   labeled "Week 2," not "Exam 1."
    Keep ≥80% at Application+. On blueprint coverage: a **comprehensive exam review**
    (the default) should spread `cat` values to roughly match the 2026 blueprint bands
    — with the whole exam block as source you have the breadth to do this, so aim for
@@ -160,10 +169,11 @@ scales to dozens of reviews without manual upkeep:
 - **`index.html`** — a grid of **class** cards (`NR327 · Maternal-Child Nursing`, "N
   reviews", exam chips). It never contains quiz content, so it stays tiny. Each card links
   to that class's page.
-- **`<classSlug>.html`** — one page per class, listing that class's reviews **grouped by
-  exam** (sections ordered by `examOrder`). Within a section, `exam-review` cards come
-  first, then `topic-practice` cards (badged). Each card has the meta line, a `Start ▸`
-  link to the quiz, and an optional Download link (set `meta.download`).
+- **`<classSlug>.html`** — one page per class, listing that class's material in sections
+  ordered by `examOrder`: comprehensive **Exam N** reviews first, then **Week N** quizzes.
+  Within a section, `exam-review` cards come before quiz cards. Each card carries its badge
+  (**Exam Review** / **Quiz**), the meta line, a `Start ▸` link, and an optional Download
+  link (set `meta.download`).
 
 Passing `--hub index.html` does both levels automatically and idempotently: it creates the
 class page from `assets/class-page-template.html` if new, inserts/updates this quiz's card

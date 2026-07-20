@@ -310,7 +310,7 @@ def slugify(text):
 
 
 def build_review_card(href, title, kind, meta_line, chips, download=None):
-    badge = "Exam Review" if kind == "exam-review" else "Topic Practice"
+    badge = "Exam Review" if kind == "exam-review" else "Quiz"
     bcls = "badge-exam" if kind == "exam-review" else "badge-topic"
     chip_html = "".join(f'<span class="chip">{htmllib.escape(c)}</span>' for c in chips)
     dl = f'\n        <a class="dl" href="{download}">↓ Offline ZIP</a>' if download else ""

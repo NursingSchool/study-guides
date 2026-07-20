@@ -4,7 +4,7 @@
   "header": "NCLEX Practice — Pediatric Nursing (NR328)",
   "subtitle": "Week 2 · Respiratory Alterations · Croup & Epiglottitis · Cystic Fibrosis · Communicable Diseases & Immunizations · 31 items · NGN-style",
   "footnote": "NR328 Week 2 practice · 31 NGN-style items · rationale after each answer",
-  "cardTitle": "Week 2 Practice — Respiratory, Cystic Fibrosis & Communicable Diseases",
+  "cardTitle": "Week 2 Quiz — Respiratory, Cystic Fibrosis & Communicable Diseases",
   "chips": [
    "Respiratory Alterations",
    "RSV & Asthma",
@@ -18,8 +18,8 @@
   "classCode": "NR328",
   "className": "Pediatric Nursing",
   "classSlug": "nr328-pediatric-nursing",
-  "exam": "Exam 1",
-  "examOrder": 1,
+  "exam": "Week 2",
+  "examOrder": 12,
   "kind": "topic-practice"
  },
  "questions": [
