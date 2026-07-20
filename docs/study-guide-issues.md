@@ -27,7 +27,7 @@
 **Courses covered:** NR328 Pediatric Nursing (Week 2; Week 3 where noted) · NR449 Evidence-Based Practice (Week 2)
 **Not covered:** NR327 Maternal-Child and NR228 Nutrition were reviewed separately and are out of scope here.
 
-> **Round 2 has been appended below** (2026-07-20) covering NR328 Weeks 1 & 3 and NR449 Weeks 1 & 3 — 20 more Pediatrics items and 7 more EBP items, IDs PEDS-16+ and EBP-13+. It has **not** been verified against the live modules the way Round 1 was; its capture-suspect items still need that pass. Highest-priority item in the whole document is now **PEDS-31** (the Week 1 immunization schedule contradicts itself three ways).
+> **Round 2 has been appended below** (2026-07-20) covering NR328 Weeks 1 & 3 and NR449 Weeks 1 & 3 — 20 more Pediatrics items and 7 more EBP items, IDs PEDS-16+ and EBP-13+. **Round 2 has NOT been verified against the live modules, and its capture-suspect/source-suspect labels are provisional guesses, not findings** — see the warning box at the head of that section before acting on any of them. Highest-priority item is **PEDS-31** (the Week 1 immunization schedule contradicts itself three ways).
 
 ## Purpose — read this first
 
@@ -350,8 +350,25 @@ Bundle rather than filing individually: `Week2_Croup_and_Bacterial_Epiglottitis.
 # Round 2 — NR328 Weeks 1 & 3 · NR449 Week 1
 
 **Date:** 2026-07-20
-**Scope:** the modules not covered by the Week 2 audit above. Same labels, same three questions. IDs continue from Round 1.
-**Summary:** 20 Pediatrics items (5 capture-suspect) · 3 EBP items (1 capture-suspect). One capture bug was found and **already fixed** (see below).
+**Scope:** the modules not covered by the Week 2 audit above. IDs continue from Round 1.
+**Summary:** 20 Pediatrics items · 7 EBP items. One capture bug was found and **already fixed** (see below).
+
+> ### ⚠️ The CAPTURE-SUSPECT / SOURCE-SUSPECT labels in Round 2 are provisional — do not trust them
+>
+> In Round 1 those labels were assigned from evidence and then tested against the live modules. **In Round 2 they were assigned by analogy to Round 1's result** — "the source turned out to be sloppy last time, so it probably is again." That is not evidence, and it is the wrong inference to carry forward, because Round 1 earned its verdict through a verification pass Round 2 has never had.
+>
+> **Treat every Round 2 item as unclassified until the DOM pass is run.** What we actually know:
+>
+> | Evidence | Cuts which way |
+> |---|---|
+> | Round 1 tested 20 items that "looked like capture failures." **20 of 20 were faithful.** Including **PEDS-01**, the immunization item — the closest analogue to PEDS-31 — which was called the highest-value recapture on the list and turned out to be a decorative stock photo and a link. | Toward source |
+> | Week 1 and Week 2 guides have **no Section Manifest**, so completeness cannot be checked from the file alone. (Week 2 was verified externally anyway; Week 1 never has been.) | Neutral — unverifiable, not bad |
+> | Week 1 has a **demonstrated capture defect** the other weeks don't — 15 doubled apostrophes from here-string escaping. A pipeline that broke once may have broken elsewhere. | Toward capture, Week 1 only |
+> | Section-gap analysis: `Week1_Nursing_Care_Pediatric_Populations.md` skips §§10–12 consecutively. **This is not a signal.** Two Week 2 modules show the same triple gaps and were verified faithful — runs of three Self-Checks are normal. | Inconclusive — discarded |
+>
+> Net: the Week 1 items carry a genuinely higher capture prior than the Week 3 items, because of the apostrophe bug and because Week 3's manifests reconcile 16/16. But **no Round 2 item has been adjudicated**, and the Round 1 base rate argues against assuming capture failure. The resolution is not more armchair analysis — it is the same `textContent` DOM pass Round 1 used, which is cheap and decisive.
+>
+> **One caveat on Week 3's manifests:** they track *sections*, not tabs, slides, or accordions *within* a section. So a reconciling manifest rules out a skipped section — it does not rule out a lost tab, which is exactly the shape of PEDS-21, PEDS-24 and PEDS-27 (adjacent statements that contradict, as if a qualifying header between them went missing).
 
 ## Capture fixes applied (round 2)
 
