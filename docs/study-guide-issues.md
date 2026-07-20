@@ -578,7 +578,7 @@ The body established in 1986 was the **National Center for Nursing Research (NCN
 
 # NR449 Evidence-Based Practice — Week 3
 
-**Partial.** `Week3_Research_Design.md` is fully captured (manifest reconciles 16/16, all 9 Explore sections present, no garbling) and is audited below. `Week3_Theory_and_Frameworks.md` was still being extracted when this round was written — its manifest claims 7 captured sections but only §1 and §3 are present. **Re-audit that module once extraction completes**; it is not covered here, and the Week 3 quiz currently keys Research Design only.
+All three Week 3 modules are now captured and audited — `Week3_Research_Design.md` (16/16), `Week3_Types_of_Research.md` (19/19), and `Week3_Theory_and_Frameworks.md` (14/14), all reconciling fully with no sections missing from the file. Research Design's items are immediately below (EBP-16–19); the other two modules' items are appended at the end of this round (EBP-20–26). The Week 3 quiz now covers all three (30 items).
 
 ## Source-suspect — verify our capture is faithful, then report upstream
 
@@ -626,3 +626,83 @@ Same file, §14. Three of the five bullets restate the same phenomenology exampl
 which asserts the answer to the worked example instead of stating the standard. The section is usable but thin — only two bullets (replication, and explaining decisions as a qualitative design emerges) carry transferable content.
 
 **Same defect class as the FINER "Interesting" note in Round 1** — a criterion defined by restating itself. Worth reporting together as an editorial pattern.
+
+## NR449 Week 3 — remaining modules
+
+`Week3_Types_of_Research.md` and `Week3_Theory_and_Frameworks.md` finished extracting after the section above was written. Both manifests reconcile fully (19/19 and 14/14) with no sections missing from the file, and neither module has uncaptured media — each carries its own audit block confirming no video or audio embeds.
+
+### EBP-20 · Causal-comparative designs claim to establish causation, twice contradicted
+
+`Week3_Types_of_Research.md` §15 "Comparisons of Intact Groups" — two adjacent bullets in the same tab:
+
+> *"**Ex post facto research** … This design weakens the capacity of these studies to support cause-and-effect conclusions because the researcher cannot prove temporality."*
+>
+> *"**Causal-comparative study** … This design identifies cause-and-effect relationships by forming groups based on certain characteristics that the individuals inherently possess (e.g., gender, ethnicity, or geographic region)."*
+
+A non-randomized comparison of intact groups formed on inherent traits cannot identify cause and effect — that is the defining limitation of the family both designs belong to. The claim also contradicts §4's flat statement that *"Descriptive studies cannot be used to establish cause and effect relationships."*
+
+So the module denies causal inference for the design above, asserts it for the design below, and denies it again one section earlier. **Not keyed** — the quiz uses causal-comparative only as a group-formation distractor and never asserts it establishes causation.
+
+**Report to authors:** likely wants "identifies *relationships*" or "suggests possible causes." As written it teaches a methodological error that an exam item could well key.
+
+### EBP-21 · Descriptive data: either/or in the prose, both/and in the strengths tab
+
+Same file, §4:
+
+> *"The data collected through these methods can be **either** quantitative **or** qualitative."*
+>
+> *"It provides thorough information since the data collected **is** qualitative **and** quantitative and gives a holistic understanding of a research topic."*
+
+The second sentence makes a both/and claim the *strength* of descriptive research; the first says it is a choice. Item 2 avoids this bullet entirely.
+
+### EBP-22 · "Case study" appears in two different taxonomies with no cross-reference
+
+Same file — §5 lists **Case Study** under *"Types of Descriptive Research Studies"* (*"Involves in-depth research and study of individuals or groups"*), while §9 lists **Case Research Methods** under types of *qualitative* research (*"In-depth study of a single subject/person or a small group of subjects"*).
+
+Same design, two families, no note explaining the overlap — a predictable trap on a "classify this design" item. The quiz keys it to descriptive, following §5's own explicit list heading.
+
+### EBP-23 · §15 tab granularity is inconsistent
+
+Same file — three of the four tabs name a single design (Experimental, Quasi-experimental, Time Series); the fourth, "Comparisons of Intact Groups," is a container holding three distinct designs (ex post facto, causal-comparative, case-control). The section also calls time series *"a type of quasi-experimental design"* while presenting it as a **peer tab** to Quasi-experimental Designs rather than a subtype.
+
+A student building a taxonomy from the tab structure gets the wrong hierarchy.
+
+### EBP-24 · Required article is assigned but not reachable from the module
+
+`Week3_Theory_and_Frameworks.md` §6:
+
+> *"Review this research study by Gallegos & Sortedahl (2015)."*
+
+Six questions follow — *"What is the research problem?"*, *"What are the variables of interest?"*, *"What is the theory chosen to frame the research?"*, *"Is the theory relevant to the problem?"*, *"How will the data be collected?"*, *"Does the collection tool chosen seem related to the theory?"* — none of which can be answered from anything in the module.
+
+**This is not a capture defect.** The reference is a complete APA citation for a print article with no DOI:
+
+> *Gallegos, C., & Sortedahl, C. (2015). An exploration of professional values held by nurses at a large freestanding pediatric hospital. Pediatric Nursing, 41(4), 187-195. http://www.pediatricnursing.net/index.html*
+
+APA 7 prescribes the journal homepage URL precisely when no DOI exists, so the capture is correct and so is the citation. The defect is pedagogical: the module builds an exercise on a source it does not provide access to.
+
+**Report to authors:** ask for a library-proxy link or a PDF. If an exam item keys anything to that study's framework, our materials cannot answer it.
+
+### EBP-25 · §6 and §10 disagree on whether quantitative research uses frameworks
+
+`Week3_Theory_and_Frameworks.md`
+
+> §6: *"Theoretical frameworks may be used in both quantitative and qualitative research."*
+>
+> §10: *"Quantitative researchers are less likely to identify the theoretical framework… Qualitative research reflects on a specific theory and **always** uses a theoretical framework."*
+
+Reconcilable on a careful reading — both use frameworks, quantitative studies just name them less often — but a student reading §10 alone concludes frameworks are a qualitative feature. Both statements are keyed as written (one item to §6, one to §10 including the absolute *"always"*), because either could be the exam's source.
+
+### EBP-26 · §4 infographic splits one task across two numbered steps
+
+Same file — step 2 is *"Determine the key variables in the research"* and step 4 is *"Identify the independent and dependent variables."* The same task, twice, inside a sequence a student may be asked to reproduce in order.
+
+### EBP-16 corroborated across modules — reclassify toward source
+
+The Round 2 entry for **EBP-16** (qualitative research both has and does not have variables) was written from `Week3_Research_Design.md` alone. `Week3_Theory_and_Frameworks.md` now takes the **opposite implicit stance** from that guide's §6: its §4 and §11 treat variables as universal to any study, and its §10 says qualitative research always uses a theoretical framework, which §3 defines as specifying *"which variables influence a phenomenon."*
+
+Two modules in the same week landing on opposite sides makes a lost tab or dropped qualifier much less likely than genuine author inconsistency. **EBP-16 should be treated as source-suspect with more confidence than the rest of Round 2** — it is the one Round 2 item with corroborating evidence from an independent module.
+
+### Minor — source defect already confirmed by the extractor
+
+`Week3_Types_of_Research.md` §13 infographic renders a qualitative bullet as `Answer "Why? question` — an unclosed quotation mark. The extractor's own capture note records this as present in the source, so it is not a capture defect.
