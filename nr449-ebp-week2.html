@@ -1,0 +1,1024 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NCLEX Practice — Evidence-Based Practice (NR449) Week 2</title>
+<style>
+  :root{
+    --bg:#0f172a; --card:#1e293b; --card2:#273449; --ink:#e2e8f0; --muted:#94a3b8;
+    --line:#334155; --accent:#2dd4bf; --accent2:#14b8a6; --good:#22c55e; --bad:#f87171;
+    --goodbg:#0c2a1a; --badbg:#2a1414; --chip:#0b3b3b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.55 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:780px;margin:0 auto;padding:20px 16px 80px}
+  header{display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
+  h1{font-size:20px;margin:0;letter-spacing:.2px}
+  .sub{color:var(--muted);font-size:13px}
+  .bar{height:8px;background:var(--card);border-radius:999px;overflow:hidden;margin-top:6px}
+  .fill{height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .3s}
+  .meta{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);margin-top:6px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-top:14px}
+  .topic{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.6px;
+    color:var(--accent);background:var(--chip);padding:3px 9px;border-radius:999px;margin-bottom:10px}
+  .stem{font-size:17px;margin:2px 0 14px;white-space:pre-wrap}
+  .opts{display:flex;flex-direction:column;gap:9px}
+  .opt{display:flex;gap:10px;align-items:flex-start;background:var(--card2);border:1px solid var(--line);
+    border-radius:10px;padding:11px 12px;cursor:pointer;transition:border-color .15s,background .15s}
+  .opt:hover{border-color:var(--accent2)}
+  .opt input{margin-top:3px;accent-color:var(--accent);width:17px;height:17px;flex:0 0 auto}
+  .opt.sel{border-color:var(--accent);background:#22323f}
+  .opt.right{border-color:var(--good);background:var(--goodbg)}
+  .opt.wrong{border-color:var(--bad);background:var(--badbg)}
+  .opt .tag{margin-left:auto;font-size:12px;font-weight:600;white-space:nowrap}
+  .opt .tag.r{color:var(--good)} .opt .tag.w{color:var(--bad)}
+  .row{display:flex;gap:10px;align-items:center;background:var(--card2);border:1px solid var(--line);
+    border-radius:10px;padding:10px 12px;margin-bottom:8px;flex-wrap:wrap}
+  .row .lab{flex:1 1 230px}
+  select,input[type=text]{background:#0b1220;color:var(--ink);border:1px solid var(--line);
+    border-radius:8px;padding:8px 10px;font-size:15px;max-width:100%}
+  select:focus,input:focus{outline:2px solid var(--accent2)}
+  select.right,input.right{border-color:var(--good)} select.wrong,input.wrong{border-color:var(--bad)}
+  .grp{margin:10px 0;padding:10px;border:1px dashed var(--line);border-radius:10px}
+  .grp h4{margin:0 0 8px;font-size:13px;color:var(--accent);text-transform:uppercase;letter-spacing:.5px}
+  .btn{appearance:none;border:0;border-radius:10px;padding:12px 18px;font-size:15px;font-weight:600;
+    cursor:pointer;background:var(--accent2);color:#04201d}
+  .btn:disabled{opacity:.4;cursor:not-allowed}
+  .btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent2)}
+  .actions{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+  .fb{margin-top:14px;border-radius:12px;padding:14px;border:1px solid var(--line);display:none}
+  .fb.show{display:block}
+  .fb.ok{background:var(--goodbg);border-color:#1f5135}
+  .fb.no{background:var(--badbg);border-color:#5b2626}
+  .fb .verdict{font-weight:700;font-size:15px;margin-bottom:6px}
+  .fb .verdict.ok{color:var(--good)} .fb .verdict.no{color:var(--bad)}
+  .fb p{margin:6px 0}
+  .fb .lblrow{font-size:12px;color:var(--muted);margin-top:8px}
+  .fb .strat{font-style:italic;color:#cbd5e1}
+  .hint{font-size:12px;color:var(--muted);margin:-4px 0 10px}
+  .end{text-align:center;padding:24px 8px}
+  .score{font-size:46px;font-weight:800;color:var(--accent)}
+  .endsub{color:var(--muted);margin-top:6px}
+  table.brk{width:100%;border-collapse:collapse;margin-top:18px;font-size:13px}
+  table.brk td{border-top:1px solid var(--line);padding:7px 6px;text-align:left}
+  table.brk td:last-child{text-align:right;color:var(--muted)}
+  .miss{text-align:left;margin-top:18px;font-size:13px;color:var(--muted)}
+  .footnote{font-size:11px;color:var(--muted);margin-top:24px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>NCLEX Practice — Evidence-Based Practice (NR449)</h1>
+    <div class="sub">Week 2 · Research Process · Practice Problems · PICOT · Levels of Evidence · Literature Review · 30 items</div>
+    <div class="bar"><div class="fill" id="fill"></div></div>
+    <div class="meta"><span id="pos">Question 1 of 50</span><span id="sc">Score 0 / 0</span></div>
+  </header>
+  <div id="app"></div>
+</div>
+<script>
+const Q = [
+ {
+  "topic": "Phases of the Research Process",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A staff nurse joins a research team studying whether hourly rounding lowers call-light use on a medical unit. At today's meeting the team is working out how participants will be recruited, how they will be assigned to the two groups, and how many participants are needed.\nWhich phase is the team in, and what comes next?",
+  "opts": [
+   "Determine design; the sampling strategy is settled after the data are collected",
+   "Sampling strategy; the team will move next to collecting the study data",
+   "Sampling strategy; the design of the study is chosen after recruitment ends",
+   "Collect data; the design and the sample were settled in the literature scan"
+  ],
+  "ans": 1,
+  "rat": "Recruitment, group assignment, and the number of subjects needed define the Sampling Strategy phase, which follows Determine Design and precedes Collect Data. Design decisions address philosophical assumptions, the nature of the question, the intent of the researcher, and the time dimension — not how many people to enroll. The literature scan supplies background and a theoretical framework, not the sample.",
+  "strat": "Hold the order: define problem → scan literature → determine design → sampling strategy → collect → analyze → communicate → support practice.",
+  "n": 1
+ },
+ {
+  "topic": "Quantitative vs. Qualitative",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A palliative care team wants to learn how clients living with advanced heart failure describe the meaning of their illness and how much they are willing to endure medication side effects in order to stay at home. The team plans to interview clients and identify themes from what they say.\nWhich approach fits this question, and how would the merit of the finished study be judged?",
+  "opts": [
+   "Qualitative research, with merit judged by trustworthiness",
+   "Qualitative research, with merit judged by reliability and validity",
+   "Quantitative research, with merit judged by reliability and validity",
+   "Quantitative research, with merit judged by trustworthiness"
+  ],
+  "ans": 0,
+  "rat": "Understanding the meaning of an experience from the individual's perspective, gathered by interview and analyzed into themes, is qualitative: its purpose is discovery, its view of reality is subjective, and its criterion for merit is trustworthiness. Reliability and validity are the merit criteria for quantitative work, which assumes an objective reality and measures variables statistically.",
+  "strat": "Meaning and themes → qualitative → trustworthiness; measured variables and cause-effect → quantitative → reliability and validity.",
+  "n": 2
+ },
+ {
+  "topic": "Classification by Design",
+  "type": "matrix",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A nurse on a journal club is sorting five study descriptions by the nature of the design.\nClassify each study.",
+  "cols": [
+   "Experimental",
+   "Quasi-experimental",
+   "Nonexperimental"
+  ],
+  "rows": [
+   {
+    "t": "Volunteers are randomly assigned to a new mouth-care protocol or to usual mouth care, and pneumonia rates are compared",
+    "a": 0
+   },
+   {
+    "t": "Residents of two nursing homes are compared; one home's residents receive the protocol and the other's do not, with no random assignment",
+    "a": 1
+   },
+   {
+    "t": "Nurses describe the fall rate on one unit over a quarter, with nothing about care changed",
+    "a": 2
+   },
+   {
+    "t": "Investigators examine whether teenagers whose mothers had a teen pregnancy have higher pregnancy rates themselves",
+    "a": 2
+   },
+   {
+    "t": "Clients are randomized to a scheduled repositioning program or to standard repositioning, and skin outcomes are compared",
+    "a": 0
+   }
+  ],
+  "rat": "Experimental designs randomly select and assign participants and manipulate a treatment against a group that receives none. Quasi-experimental designs manipulate a treatment but take the groups as they already exist — the two nursing homes are a convenience sample. Nonexperimental designs manipulate nothing and cannot test cause and effect, whether they describe an existing situation (the fall rate) or examine a relationship between variables (the pregnancy question).",
+  "strat": "Two questions in order: was a treatment manipulated, and were participants randomly assigned? No manipulation = nonexperimental; manipulation without randomization = quasi-experimental.",
+  "n": 3
+ },
+ {
+  "topic": "Time Dimension & Limitations",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A nurse critiques a 10-year study that enrolled 250 children of caregivers who smoke and measured pulmonary function at prescribed intervals to detect emerging lung disease. Of those enrolled, 148 children completed the final measurement.\nHow should the nurse interpret this for the report?",
+  "opts": [
+   "Attrition this large belongs in the limitations and narrows who the findings apply to",
+   "Attrition is offset here because data were gathered at prescribed intervals for years",
+   "Attrition weakens a study only when the data are secondary and gathered by other people",
+   "Attrition is inherent to cross-sectional work and has little bearing on these results"
+  ],
+  "ans": 0,
+  "rat": "Subject attrition is the significant disadvantage of longitudinal designs, and a high attrition rate is a classic limitation the researcher must state, since limitations explain why results may generalize only to specific situations or may be less robust than anticipated. Repeated measures do not replace lost participants; the data here are primary and prospective, collected by the researchers, and the design follows subjects over time rather than at a single point.",
+  "strat": "Long follow-up = attrition. Anything that weakens generalizability belongs in the limitations section.",
+  "n": 4
+ },
+ {
+  "topic": "Critiquing a Study",
+  "type": "multi",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A nurse is critiquing a published quantitative study before bringing it to the unit practice council.\nWhich information should the nurse expect to find in the methods section? Select all that apply.",
+  "opts": [
+   "How participants were recruited and selected for the study",
+   "Which variables served as the independent and the dependent variables",
+   "The data collection instruments and how reliability and validity were addressed",
+   "Enough procedural detail for another team to replicate the study",
+   "What is already known about the problem and where the gaps remain",
+   "Recommendations for changing practice at the reader's own institution"
+  ],
+  "ans": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "rat": "The methods section tells how the study was conducted in enough detail to permit replication: recruitment and selection of subjects, the independent and dependent variables, and the instruments used along with how reliability and validity were accounted for. What is already known and the remaining gaps belong to the literature review, and practice recommendations belong to the discussion, where the reader must decide whether they are supported by the data or are the researcher's opinion.",
+  "strat": "Methods answers \"how was this done, and could I do it again?\" — anything about background goes up front, anything about meaning goes at the end.",
+  "n": 5
+ },
+ {
+  "topic": "Mixed Methods",
+  "type": "multi",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A unit council is planning a mixed methods project on hand hygiene.\nWhich planned components make up the qualitative strand of the study? Select all that apply.",
+  "opts": [
+   "Interviewing nurses about what makes hand hygiene feel important on a busy shift",
+   "Observing and describing how nurses perform hand-washing technique at the sink",
+   "Calculating the percentage of observed opportunities in which hand hygiene occurred",
+   "Counting bacterial colonies cultured from nurses' hands after they wash",
+   "Comparing the unit's infection rate in the quarter before and after the campaign"
+  ],
+  "ans": [
+   0,
+   1
+  ],
+  "rat": "Qualitative data are verbal descriptions and observable behaviors gathered through interviews, observation, case studies, or social interaction and analyzed for themes. The rate of hand washing, colony counts, and before-and-after infection rates are measured variables — the quantitative strand. Mixed methods pairs the two so a measured relationship is joined to an understanding of the human experience behind it.",
+  "strat": "Counted or measured → quantitative; described or interpreted → qualitative. A mixed methods study carries both.",
+  "n": 6
+ },
+ {
+  "topic": "Classifying a Study",
+  "type": "cloze",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A nurse researcher reviews three years of existing hospital records to see whether the number of years a nurse has worked on a unit is related to that unit's pressure injury rate. No care is changed and no participants are assigned to groups. The findings are intended to guide a revision of the unit's skin care protocol.\nBy the intent of the researcher this is [1]. By the nature of the design it is [2]. By its time dimension it is [3].",
+  "blanks": [
+   {
+    "label": "[1] Intent of the researcher",
+    "opts": [
+     "basic research",
+     "applied research",
+     "predictive research"
+    ],
+    "a": 1
+   },
+   {
+    "label": "[2] Nature of the design",
+    "opts": [
+     "correlational",
+     "predictive",
+     "quasi-experimental"
+    ],
+    "a": 0
+   },
+   {
+    "label": "[3] Time dimension",
+    "opts": [
+     "prospective",
+     "cross-sectional",
+     "retrospective"
+    ],
+    "a": 2
+   }
+  ],
+  "rat": "Findings meant to be applied to modify nursing practice are applied research; basic (bench) research builds foundational knowledge without direct application. Examining an existing relationship between two variables while manipulating nothing is correlational and nonexperimental — it would be predictive only if one variable's value were used to forecast another. The data already exist and were collected for other purposes, making them secondary and the study retrospective.",
+  "strat": "Ask three separate questions: why the study was done (basic vs. applied), what was done to the variables (design), and when the data were created (time dimension).",
+  "n": 7
+ },
+ {
+  "topic": "Nurse-Sensitive Problems",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A surgical unit's shared governance council reviews the quarter's data: unit-acquired pressure injuries rose from 2 to 9, restraint days rose, three nurses reported back strain during boosts, and the surgeons switched to a new suture material.\nThe council wants an evidence-based practice project that will measure nursing's impact on client outcomes. Which question should the council pursue?",
+  "opts": [
+   "Whether the new suture material lowers wound dehiscence after abdominal surgery",
+   "Whether a two-hour turning schedule lowers unit-acquired pressure injuries",
+   "Whether prophylactic antibiotic timing changes surgical site infection rates",
+   "Whether the anesthetic agent selected affects postoperative length of stay"
+  ],
+  "ans": 1,
+  "rat": "Nursing research targets concepts inside nursing's span of control so the study can measure nursing's contribution; pressure injury prevention, restraint prevalence, falls, and staff back injury are nurse-sensitive indicators, and a turning schedule is nurse-driven. Suture material, antibiotic timing, and anesthetic selection are medically-sensitive decisions the nurse does not control, so outcomes from those studies would not reflect nursing care.",
+  "strat": "Ask \"can a nurse change this at the bedside?\" If not, it is medically-sensitive, not nurse-sensitive.",
+  "n": 8
+ },
+ {
+  "topic": "Sources of Practice Problems",
+  "type": "multi",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A nurse new to a telemetry unit brings a list of observations to the unit educator and asks which ones could seed an evidence-based practice inquiry.\nWhich items are appropriate starting points for identifying a practice problem? Select all that apply.",
+  "opts": [
+   "Night-shift and day-shift nurses prime infusion tubing by two different methods",
+   "Clients on the unit repeatedly report that their call lights go unanswered",
+   "The nurse's own frustration with a handoff routine that duplicates charting",
+   "A question broad enough to link many concepts and relationships at once",
+   "Which central catheter material the vascular access physicians select",
+   "A concern whose outcomes could not be measured on the telemetry unit"
+  ],
+  "ans": [
+   0,
+   1,
+   2
+  ],
+  "rat": "Practice problems come from clinical practice observations (including unexplained variation between shifts), client feedback, personal experience with inefficient or ineffective care, and social issues. A question left too broad generates more concepts and relationships than can be tested, catheter selection sits outside nursing's span of control, and a concern with no measurable outcome cannot generate evidence.",
+  "strat": "Sources of problems surround the nurse daily; the test is whether the issue is nurse-controlled, narrow, and measurable.",
+  "n": 9
+ },
+ {
+  "topic": "Problem, Purpose, and Question",
+  "type": "matrix",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A nurse drafting a fall-prevention EBP paper has written five sentences but mislabeled them.\nClassify each sentence by the element of the research process it represents.",
+  "cols": [
+   "Problem statement",
+   "Purpose statement",
+   "Research question"
+  ],
+  "rows": [
+   {
+    "t": "Fall risk tools are well validated, yet little research links specific risk factors to matched interventions.",
+    "a": 0
+   },
+   {
+    "t": "The purpose of this study is to compare two fall-prevention education modalities for hospitalized adults.",
+    "a": 1
+   },
+   {
+    "t": "In hospitalized adults, does bedside fall-prevention teaching compared with a printed handout affect fall rates?",
+    "a": 2
+   },
+   {
+    "t": "Few studies describe how night-shift staffing levels relate to fall rates on medical units.",
+    "a": 0
+   },
+   {
+    "t": "The purpose of this study is to explore how nurses describe their role in the fall-prevention program.",
+    "a": 1
+   }
+  ],
+  "rat": "A problem statement declares the disparity, or gap, between what is known and what still needs to be known. A purpose statement declares the researcher's intent and goal for the study. The research question is the final step before design, naming the primary variables to be studied; neither the problem nor the purpose statement is specific enough to guide methodology.",
+  "strat": "Gap = problem, intent = purpose, variables in a question mark = research question.",
+  "n": 10
+ },
+ {
+  "topic": "Purpose Statements",
+  "type": "cloze",
+  "cat": "Management of Care",
+  "lvl": "Evaluation",
+  "stem": "A nurse drafts this purpose statement for a unit project: \"The purpose of this study is to prove that hourly rounding reduces call-light use on the medical unit.\"\nThe verb \"prove\" is a problem because it is [1]. A defensible revision would read: the purpose of this study is to [2]. Before advancing to the research question, the nurse should confirm the project [3].",
+  "blanks": [
+   {
+    "label": "[1] The problem with \"prove\"",
+    "opts": [
+     "imprecise, because it omits the study variables",
+     "biased, because it commits the researcher to a finding",
+     "informal, because purpose statements avoid action verbs"
+    ],
+    "a": 1
+   },
+   {
+    "label": "[2] Revised wording",
+    "opts": [
+     "demonstrate the value of hourly rounding to the staff",
+     "show that call-light use falls with hourly rounding",
+     "compare hourly rounding with the current rounding schedule"
+    ],
+    "a": 2
+   },
+   {
+    "label": "[3] Final check",
+    "opts": [
+     "is important to clinical care and offers practical benefit",
+     "includes every medical unit in the hospital system",
+     "measures a variable the medical staff controls"
+    ],
+    "a": 0
+   }
+  ],
+  "rat": "Purpose statements use unbiased verbs such as compare, describe, develop, discover, explore, test, and understand; prove, demonstrate, and show presume the result and bias the study, which is why both \"demonstrate the value\" and \"show that call-light use falls\" fail the same test. The researcher then asks whether the question makes sense, is logical, matters to clinical care, and could yield practical benefits, not whether it is maximally broad or physician-controlled.",
+  "strat": "If the verb already announces the answer, the purpose statement is biased; swap in compare, describe, or explore.",
+  "n": 11
+ },
+ {
+  "topic": "Narrowing the Practice Problem",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "An oncology nurse starts with a general topic of interest: pain management. A literature review turns up little evidence directing nonpharmacologic pain relief during implanted port access in adults, and the nurse writes a problem statement around that gap.\nWhich question best carries that problem forward into a design that can be studied?",
+  "opts": [
+   "How can oncology nurses improve the way pain is managed for clients across the unit?",
+   "During port access in adults, does topical anesthetic versus vapocoolant lower pain scores?",
+   "Do adults receiving chemotherapy believe their reports of pain are taken seriously by staff?",
+   "Which analgesic order set do the oncology physicians prefer before port access procedures?"
+  ],
+  "ans": 1,
+  "rat": "The research question is the last step before design and must name the primary variables, so it has to be narrowed from the general topic to a comparison with a measurable outcome. The first option is still the general topic and generates too many concepts to test, the third abandons the identified gap for an unrelated qualitative question, and the fourth measures physician preference rather than a nurse-sensitive client outcome.",
+  "strat": "Trace topic to problem to purpose to question; the question that names both variables and an outcome is the researchable one.",
+  "n": 12
+ },
+ {
+  "topic": "PICOT Elements",
+  "type": "cloze",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "An ICU quality team drafts this clinical question:\n\n\"In adults receiving mechanical ventilation in the ICU, does oral hygiene with 2% chlorhexidine gel and toothbrushing compared with placebo gel and toothbrushing impact the rate of ventilator-associated pneumonia?\"\n\nLabel each part of the question. The phrase \"in adults receiving mechanical ventilation in the ICU\" is the [1]. The phrase \"2% chlorhexidine gel and toothbrushing\" is the [2]. The phrase \"placebo gel and toothbrushing\" is the [3]. The phrase \"the rate of ventilator-associated pneumonia\" is the [4]. The PICOT element missing from this question is [5].",
+  "blanks": [
+   {
+    "label": "[1] Adults receiving mechanical ventilation in the ICU",
+    "opts": [
+     "the population",
+     "the intervention",
+     "the outcome"
+    ],
+    "a": 0
+   },
+   {
+    "label": "[2] 2% chlorhexidine gel and toothbrushing",
+    "opts": [
+     "the comparison",
+     "the intervention",
+     "the outcome"
+    ],
+    "a": 1
+   },
+   {
+    "label": "[3] Placebo gel and toothbrushing",
+    "opts": [
+     "the intervention",
+     "the comparison",
+     "the population"
+    ],
+    "a": 1
+   },
+   {
+    "label": "[4] Rate of ventilator-associated pneumonia",
+    "opts": [
+     "the outcome",
+     "the intervention",
+     "the time"
+    ],
+    "a": 0
+   },
+   {
+    "label": "[5] Missing element",
+    "opts": [
+     "the intervention",
+     "the comparison",
+     "the time",
+     "the outcome"
+    ],
+    "a": 2
+   }
+  ],
+  "rat": "The population names who is studied, the intervention is what the researcher does to that group, the comparison is the alternative it is measured against (here a placebo gel), and the outcome is what is measured. No period of observation is stated, so Time is absent; Population, Intervention, and Outcome are always present, while Comparison and Time may or may not be.",
+  "strat": "Read the question left to right: who, what you do, what you do it instead of, what you measure, over how long.",
+  "n": 13
+ },
+ {
+  "topic": "PICOT Elements",
+  "type": "match",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A student is breaking this research question into its PICOT parts:\n\n\"In adult surgical clients in the operating room, does the pre-incision use of chlorhexidine gluconate (CHG) compared to the use of povidone-iodine impact surgical site infections in 30 days?\"\n\nMatch each PICOT letter to the phrase from the question that represents it. One phrase in the list is not part of the question.",
+  "shared": [
+   "in adult surgical clients in the operating room",
+   "the pre-incision use of chlorhexidine gluconate (CHG)",
+   "the use of povidone-iodine",
+   "surgical site infections",
+   "in 30 days",
+   "the perioperative nurses who apply the skin prep"
+  ],
+  "rows": [
+   {
+    "t": "P — Population/Patient problem",
+    "a": 0
+   },
+   {
+    "t": "I — Intervention",
+    "a": 1
+   },
+   {
+    "t": "C — Comparison",
+    "a": 2
+   },
+   {
+    "t": "O — Outcome",
+    "a": 3
+   },
+   {
+    "t": "T — Time",
+    "a": 4
+   }
+  ],
+  "rat": "P is the client group receiving care, I is the therapeutic measure being tested (CHG), and C is the existing alternative it is measured against (povidone-iodine); reversing I and C is the most common error because both name an antiseptic. O is what is measured (surgical site infections) and T is the period over which it is measured. The staff who apply the prep are providers, not the study population.",
+  "strat": "The intervention is the new thing being tried; the comparison is what care already looks like.",
+  "n": 14
+ },
+ {
+  "topic": "Writing a Focused Question",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A nurse on a practice council drafts this question for an evidence-based practice project:\n\n\"In adults with type 2 diabetes seen in a primary care clinic, does a pharmacist-led teaching session compared with the standard printed handout improve hemoglobin A1C, medication adherence, and clinic satisfaction in 6 months?\"\n\nWhich critique of this draft is accurate?",
+  "opts": [
+   "It packs three outcomes into one question; each concept belongs in a question of its own.",
+   "It states a comparison group, which belongs in the hypothesis rather than in the question.",
+   "It sets a time period, which is reserved for qualitative research questions instead.",
+   "It names a specific clinic setting, which narrows the population more than PICOT permits."
+  ],
+  "ans": 0,
+  "rat": "A research question should carry no more than one major concept or outcome; three outcomes should be split into separate questions rather than bolted onto one. The comparison and the time period are legitimate PICOT elements of a quantitative question, and specifying age, condition, and setting is exactly how the population should be described.",
+  "strat": "One question, one outcome — if you need an 'and' in the outcome, you need a second question.",
+  "n": 15
+ },
+ {
+  "topic": "Appraising a Question (FINER)",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A nurse researcher proposes: \"In adults admitted to a 24-bed medical unit, does a nurse-led mobility protocol compared with usual care reduce hospital-acquired pressure injuries in 60 days?\"\n\nA power analysis indicates 400 participants are needed. Unit records show about 15 eligible adults are admitted per month, and funding covers a 6-month enrollment window. Using the FINER criteria, which concern is best supported by these data?",
+  "opts": [
+   "Feasibility, because roughly 90 eligible adults can be enrolled in the funded window.",
+   "Novel, because a mobility protocol has been tested at other hospitals and adds little here.",
+   "Ethical, because the comparison group receives usual care rather than the new protocol.",
+   "Relevant, because pressure injury rates carry little weight for bedside clinical practice."
+  ],
+  "ans": 0,
+  "rat": "Feasibility asks whether enough participants are available and whether the scope fits the study; 15 per month over 6 months yields about 90 of the 400 needed, so the study cannot be powered as designed. Replication of prior work is expected rather than a flaw, usual care is an accepted comparison, and pressure injury rates are highly relevant to clinical practice.",
+  "strat": "Do the arithmetic on the sample before judging the idea — Feasibility fails on numbers, not opinions.",
+  "n": 16
+ },
+ {
+  "topic": "Appraising a Question (FINER)",
+  "type": "multi",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A unit council drafts this question:\n\n\"In adults on a medical unit, does a nurse-led mobility protocol compared with usual care reduce hospital-acquired pressure injuries in 60 days?\"\n\nWhich statements about this draft are accurate? Select all that apply.",
+  "opts": [
+   "A comparison element is present, stated as usual care.",
+   "The outcome is measurable, stated as a pressure injury rate.",
+   "The question is focused on a single major outcome.",
+   "The question should be finalized before the literature review begins.",
+   "Naming a time period makes this a qualitative research question.",
+   "A question this specific removes the need to define a sampling strategy."
+  ],
+  "ans": [
+   0,
+   1,
+   2
+  ],
+  "rat": "Usual care is a legitimate comparison, a pressure injury rate is a measurable outcome, and one outcome keeps the question focused. The literature review comes before the question is finalized rather than after; a stated time period is a PICOT element of a quantitative question, not a marker of qualitative work; and the population element is precisely what drives the sampling strategy, so it still has to be worked out.",
+  "strat": "Population drives sampling, intervention drives the protocol, outcome drives the measurement — the question builds the design.",
+  "n": 17
+ },
+ {
+  "topic": "From Question to Hypothesis",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A nurse is converting this question into a testable hypothesis:\n\n\"In adults on a medical unit, does a nurse-led mobility protocol compared with usual care reduce hospital-acquired pressure injuries in 60 days?\"\n\nWhich statement is the null hypothesis for this question?",
+  "opts": [
+   "In adults on a medical unit, there is no difference in pressure injury rates with the mobility protocol compared with usual care.",
+   "In adults on a medical unit, pressure injury rates are lower with the mobility protocol than with usual care over 60 days.",
+   "In adults on a medical unit, pressure injury rates differ in some direction with the mobility protocol compared with usual care within 60 days.",
+   "In adults on a medical unit, the mobility protocol is the intervention being tested against usual care for pressure injuries."
+  ],
+  "ans": 0,
+  "rat": "A null hypothesis states that no difference exists between groups as a result of receiving or not receiving the treatment, which is what makes statistical significance measurable. A statement that rates are lower is a directional alternative hypothesis, a statement that rates differ in some direction is a nondirectional alternative, and simply naming the intervention restates a PICOT element instead of predicting a result.",
+  "strat": "Null = 'no difference'; alternative with a direction word (lower, higher) = directional.",
+  "n": 18
+ },
+ {
+  "topic": "Levels of Evidence",
+  "type": "match",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A unit council is appraising five sources found during a search on preventing hospital-acquired infection. Using the five-level rating scale presented in this module, assign each described source to its level.",
+  "shared": [
+   "Level 1",
+   "Level 2",
+   "Level 3",
+   "Level 4",
+   "Level 5"
+  ],
+  "rows": [
+   {
+    "t": "A meta-analysis that statistically pools the results of 14 randomized trials of chlorhexidine bathing",
+    "a": 0
+   },
+   {
+    "t": "A controlled trial of two mobility protocols in which clients were assigned by admission day rather than at random",
+    "a": 1
+   },
+   {
+    "t": "A retrospective chart review comparing infection rates in clients who did and did not receive a care bundle",
+    "a": 2
+   },
+   {
+    "t": "A survey with a 14% response rate, reported alongside interview quotes from the nurses who responded",
+    "a": 3
+   },
+   {
+    "t": "A recommendation a panel of infection prevention specialists agreed on by consensus",
+    "a": 4
+   }
+  ],
+  "rat": "The module's scale places multiple randomized trials pooled in a meta-analysis, systematic review, or guideline at Level 1; well designed controlled studies that may or may not be randomized at Level 2; case-controlled, cohort, and observational work including retroactive chart reviews at Level 3; descriptive/qualitative or mixed-method work and low-response surveys at Level 4; and expert consensus, anecdote, or previous experience at Level 5. Assignment by admission day is still a controlled design, so it lands at Level 2 rather than being demoted to the observational tier.",
+  "strat": "Ask two questions in order: was there a controlled comparison, and was it pooled across trials? Pooled across trials = 1, controlled = 2, observed = 3, described = 4, opinion = 5.",
+  "n": 19
+ },
+ {
+  "topic": "Strength of Evidence",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Evaluation",
+  "stem": "A wound care committee wants to replace the dressing product used on the medical-surgical unit. Four sources on the newer product are available. Which source provides the strongest support for making this practice change?",
+  "opts": [
+   "A clinical practice guideline that graded each product's trials, costs, and barriers",
+   "A randomized clinical trial of 240 clients that has not yet been independently replicated",
+   "A cohort study that followed 900 clients at one health system across two years",
+   "A consensus statement written by a panel of certified wound care specialists"
+  ],
+  "ans": 0,
+  "rat": "This module identifies clinical practice guidelines as the most comprehensive and highest strength evidence, because they pull many sources together and grade each one for quality, risk, study weakness, cost, and barriers to implementation. A single randomized trial is a strong design but needs replication; a cohort study has less control over variables; and specialist consensus is expert opinion, the weakest form.",
+  "strat": "Aggregated beats individual. The source that grades other sources sits above the sources it grades.",
+  "n": 20
+ },
+ {
+  "topic": "Source Credibility",
+  "type": "multi",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A nurse is appraising an article on a new enteral feeding pump before citing it in a unit proposal. Which features of the article support its credibility as a source? Select all that apply.",
+  "opts": [
+   "Both authors hold doctoral degrees and clinical certification in the field studied",
+   "The manuscript went through peer review before the journal accepted it",
+   "The article was published 14 months after data collection ended",
+   "One author is a paid consultant for the company that manufactures the pump",
+   "The journal's publisher receives royalties tied to sales of the pump",
+   "The findings first circulated as a thread from a verified nurse's social media account"
+  ],
+  "ans": [
+   0,
+   1,
+   2
+  ],
+  "rat": "The module lists strong clinical or educational credentials, peer review, and a reasonable interval between study and publication as marks of a credible source. A paid consulting relationship with the manufacturer and a publisher with a financial stake in the outcome are both conflicts of interest that weaken credibility, and the module states outright that social media carry a high risk of disinformation and are not a credible source even when the poster is verified.",
+  "strat": "Credentials, peer review, and timeliness build a source up; anyone with money riding on the result tears it down.",
+  "n": 21
+ },
+ {
+  "topic": "Aggregated vs. Non-Aggregated",
+  "type": "matrix",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A student is sorting the sources retrieved for an evidence-based practice paper. Classify each described source as aggregated or non-aggregated evidence.",
+  "cols": [
+   "Aggregated evidence",
+   "Non-aggregated evidence"
+  ],
+  "rows": [
+   {
+    "t": "Statistically combines the results of 22 trials of early ambulation into one summary estimate",
+    "a": 0
+   },
+   {
+    "t": "Collects and summarizes every study meeting set criteria, but reaches its conclusion without statistical methods",
+    "a": 0
+   },
+   {
+    "t": "Follows one group of clients forward in time to link a risk factor to a later outcome",
+    "a": 1
+   },
+   {
+    "t": "Compares one group with the condition and one group without it, looking backward at what differed",
+    "a": 1
+   },
+   {
+    "t": "Summarizes many sources into a graded guide for the practicing clinician, weighing cost and barriers",
+    "a": 0
+   },
+   {
+    "t": "Measures results in one population after care was already delivered, with little control of treatment groups",
+    "a": 1
+   }
+  ],
+  "rat": "Aggregated evidence pulls multiple studies together by a stated selection process and usually grades what it includes: clinical practice guidelines, meta-analyses, and systematic reviews. Meta-analysis and systematic review differ only in whether statistical methods are used, so a narrative synthesis is still aggregated. Cohort studies, case-controlled studies, and outcome research each examine a single question in one sample and are non-aggregated, which is why the module ranks them lower.",
+  "strat": "Ask whether the source studied clients or studied studies. Studying studies is aggregated.",
+  "n": 22
+ },
+ {
+  "topic": "Evidence for Practice Change",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Evaluation",
+  "stem": "A staff nurse asks the unit council to change the oral care protocol based on one randomized clinical trial published last year. Which response by the nurse educator is most accurate?",
+  "opts": [
+   "One trial should be replicated before its results are translated into unit practice",
+   "One trial's findings are invalid until a clinical practice guideline has adopted them",
+   "Cohort studies outrank randomized trials because they follow clients across a longer period",
+   "The unit's experienced wound team could settle the question faster than any published study"
+  ],
+  "ans": 0,
+  "rat": "The module names randomized clinical trials a strong design that is nonetheless limited by sample size, study design, and statistical methods, and states that such a study needs replication to become stronger evidence. Weak or unreplicated evidence is not the same as invalid evidence, which is the misconception in the second option. Cohort studies rank below randomized trials because there is less control over variables, and clinician experience is expert opinion, the weakest form of evidence.",
+  "strat": "Unreplicated is not the same as untrue. One good trial is a reason to look further, not yet a reason to rewrite the protocol.",
+  "n": 23
+ },
+ {
+  "topic": "Aggregated Evidence",
+  "type": "cloze",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A nurse manager is comparing two sources on delirium screening.\nSource A statistically pools the results of 19 randomized trials into a single estimate.\nSource B collects every study that met stated criteria and summarizes them narratively, without statistical methods.\n\nSource A is best described as a [1]. Compared with Source A, Source B is [2].",
+  "blanks": [
+   {
+    "label": "[1] Source A",
+    "opts": [
+     "systematic review",
+     "meta-analysis",
+     "cohort study"
+    ],
+    "a": 1
+   },
+   {
+    "label": "[2] Source B",
+    "opts": [
+     "stronger, because it includes every study that met the criteria",
+     "ranked just below Source A and still a form of aggregated evidence",
+     "non-aggregated evidence, because it reports no statistical analysis"
+    ],
+    "a": 1
+   }
+  ],
+  "rat": "Both sources gather and summarize existing studies, so both are aggregated evidence; the statistical pooling is what makes Source A a meta-analysis rather than a systematic review. In this module's ranking from strongest to weakest, meta-analyses sit just above systematic reviews, so Source B is slightly lower but is not demoted out of the aggregated tier and does not gain strength simply by including more studies.",
+  "strat": "Same job, one tool apart: systematic review plus statistics equals meta-analysis.",
+  "n": 24
+ },
+ {
+  "topic": "PICOT to Search Terms",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A nurse on a medical unit writes the PICOT question: \"In hospitalized adults over 65, does hourly rounding compared with call-light response alone reduce the incidence of falls during the first 72 hours of admission?\"\nThe nurse has already entered the Concepts row of the search strategy template as: older adults | hourly rounding | falls.\nWhich entry should the nurse place in the Terms row?",
+  "opts": [
+   "older adults / elderly; hourly rounding / intentional rounding; falls / fall rate",
+   "hospitalized adults; call-light response alone; falls in the first 72 hours of stay",
+   "does hourly rounding reduce the incidence of falls in adults over 65",
+   "fall prevention; patient safety; nurse staffing; quality improvement"
+  ],
+  "ans": 0,
+  "rat": "Search terms are the exact words and synonyms used for each concept, so searching similar terms keeps studies that used slightly different wording from being missed. Rebuilding the comparison and time elements as terms narrows the search prematurely, typing the question as a sentence is not a term list, and substituting broad themes abandons the concepts already identified.",
+  "strat": "Concepts come straight out of the PICOT; Terms are the concept plus its synonyms.",
+  "n": 25
+ },
+ {
+  "topic": "Boolean Operators",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "The nurse enters this string into the database: older adults or hourly rounding and falls.\nThe search returns thousands of records, most about older adults with no mention of rounding.\nWhich revision corrects the search strategy?",
+  "opts": [
+   "\"older adults\" AND (\"hourly rounding\" OR \"intentional rounding\") AND falls",
+   "\"older adults\" OR \"hourly rounding\" OR falls, with each connector capitalized",
+   "older adults and hourly rounding and falls, entered as a single quoted phrase",
+   "\"older adults\" NOT \"hourly rounding\" NOT falls, with peer review checked"
+  ],
+  "ans": 0,
+  "rat": "AND narrows the search to records containing every concept, parentheses group synonyms so the database treats them as one topic, quotation marks hold multi-word phrases together, and connectors must be capitalized to be read as operators. Using OR between all three concepts is what flooded the results; quoting the whole string searches for one literal phrase; NOT strips out the intervention the nurse is studying.",
+  "strat": "OR widens inside a concept, AND narrows between concepts.",
+  "n": 26
+ },
+ {
+  "topic": "Search Filters",
+  "type": "multi",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "The nurse's first search returns 3,842 records. The nurse wants a manageable set of current, relevant studies without distorting the review.\nWhich actions are consistent with the literature search process? Select all that apply.",
+  "opts": [
+   "Set the date range to the last five years to capture current research",
+   "Check the peer-reviewed limiter so evaluated articles are returned",
+   "Place quotation marks around \"hourly rounding\" so the words are searched together",
+   "Apply every available filter at once to force the list under 20 records",
+   "Search only CINAHL so the indexing and results stay consistent",
+   "Restrict results to full text only so no article has to be requested"
+  ],
+  "ans": [
+   0,
+   1,
+   2
+  ],
+  "rat": "Date range, the peer-review limiter, and quotation marks are all standard ways to tighten a search without changing the terms. Applying many limiters at once causes a drastic loss of relevant articles (use one or two, then adjust), searching a single database invites publication bias, and a full-text-only restriction limits the return and introduces bias when interlibrary loan could retrieve the article.",
+  "strat": "Adjust one or two limiters at a time; anything that quietly deletes whole categories of studies is bias, not efficiency.",
+  "n": 27
+ },
+ {
+  "topic": "Inclusion and Exclusion Criteria",
+  "type": "matrix",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "The nurse plans a quantitative review of hourly rounding and fall rates in hospitalized adults 65 and older, using research from the last five years.\nClassify each criterion as an inclusion or an exclusion criterion for this search.",
+  "cols": [
+   "Inclusion criterion",
+   "Exclusion criterion"
+  ],
+  "rows": [
+   {
+    "t": "Randomized controlled trials measuring fall rates",
+    "a": 0
+   },
+   {
+    "t": "Qualitative interviews on how nurses experience rounding",
+    "a": 1
+   },
+   {
+    "t": "Studies published within the last five years",
+    "a": 0
+   },
+   {
+    "t": "Samples restricted to adults 65 years and older",
+    "a": 0
+   },
+   {
+    "t": "Trials of bed-alarm devices with no rounding component",
+    "a": 1
+   },
+   {
+    "t": "A landmark rounding trial published in 2004",
+    "a": 1
+   }
+  ],
+  "rat": "Criteria are set from the PICOT: the design (quantitative), the publication window, the population, and the intervention. Qualitative work is excluded because the question is quantitative, bed-alarm trials lack the intervention being studied, and the 2004 trial falls outside the five-year window even though it is well known.",
+  "strat": "Every inclusion and exclusion line should trace back to a letter in PICOT or to study design.",
+  "n": 28
+ },
+ {
+  "topic": "Selecting Databases",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "The nurse searched CINAHL only, applied both the peer-reviewed and full-text-only limiters, and retrieved nine articles. All nine report that hourly rounding lowered fall rates.\nA colleague questions whether the retrieved evidence represents the literature.\nWhich statement best explains the colleague's concern?",
+  "opts": [
+   "One database plus a full-text limiter can omit studies reporting negative results",
+   "CINAHL indexes allied health journals, so its articles are not peer reviewed",
+   "Nine articles is too small a set for any of the findings to reach significance",
+   "The peer-review limiter removes the systematic reviews housed in the Cochrane Library"
+  ],
+  "ans": 0,
+  "rat": "Limiting the number of databases searched produces publication bias, and a full-text-only limiter further narrows the return, so studies with negative or null findings can disappear and leave a uniformly positive picture. CINAHL does index peer-reviewed journals, the concern is representativeness rather than statistical power, and Cochrane holds systematic reviews that the peer-review limiter does not delete.",
+  "strat": "Uniformly positive results from one database is a bias signal, not proof the intervention works.",
+  "n": 29
+ },
+ {
+  "topic": "Summarize and Synthesize",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Evaluation",
+  "stem": "The final section of the nurse's literature review reads as three paragraphs: one describing what Study A found, one describing what Study B found, and one describing what Study C found, in the order the articles were retrieved.\nFaculty comment that the last step of the literature review is not yet complete.\nWhich revision best meets the intent of that step?",
+  "opts": [
+   "Group studies by agreement and difference, then link them to the PICOT question",
+   "Rewrite each paragraph with the sample size and design of that study included",
+   "Order the paragraphs from oldest to newest so the reader can follow a timeline",
+   "Add a full APA citation to the end of each study paragraph for the reference list"
+  ],
+  "ans": 0,
+  "rat": "The last step is to organize findings so relationships and differences among the studies are visible and tied back to the research question, which is synthesis rather than a study-by-study recap. Adding design details, resequencing by date, or attaching citations improves the summaries but leaves the writing as a list of separate studies.",
+  "strat": "Article-by-article paragraphs are a summary; organizing across articles toward the question is synthesis.",
+  "n": 30
+ }
+];
+
+// ---------- app logic ----------
+const app=document.getElementById('app');
+const fill=document.getElementById('fill');
+const posEl=document.getElementById('pos');
+const scEl=document.getElementById('sc');
+let i=0, score=0, answeredCount=0;
+const result=new Array(Q.length).fill(null); // true/false once answered
+
+function setMeta(){
+  posEl.textContent='Question '+(i+1)+' of '+Q.length;
+  scEl.textContent='Score '+score+' / '+answeredCount;
+  fill.style.width=((answeredCount)/Q.length*100)+'%';
+}
+function eqSet(a,b){ if(a.length!==b.length)return false; const s=new Set(a); return b.every(x=>s.has(x)); }
+
+function render(){
+  const q=Q[i]; setMeta();
+  let body='';
+  if(q.type==='radio'||q.type==='multi'){
+    const inputType=q.type==='radio'?'radio':'checkbox';
+    body='<div class="opts">'+q.opts.map((o,idx)=>
+      '<label class="opt" data-idx="'+idx+'"><input type="'+inputType+'" name="o" value="'+idx+'">'
+      +'<span>'+o+'</span></label>').join('')+'</div>';
+    if(q.type==='multi') body='<div class="hint">Select all that apply. Judge each option independently.</div>'+body;
+  } else if(q.type==='matrix'){
+    body=q.rows.map((r,ri)=>'<div class="row"><span class="lab">'+r.t+'</span>'
+      +'<select data-row="'+ri+'"><option value="">— choose —</option>'
+      +q.cols.map((c,ci)=>'<option value="'+ci+'">'+c+'</option>').join('')+'</select></div>').join('');
+  } else if(q.type==='match'){
+    body=q.rows.map((r,ri)=>'<div class="row"><span class="lab">'+r.t+'</span>'
+      +'<select data-row="'+ri+'"><option value="">— choose —</option>'
+      +q.shared.map((c,ci)=>'<option value="'+ci+'">'+c+'</option>').join('')+'</select></div>').join('');
+  } else if(q.type==='cloze'){
+    body=q.blanks.map((b,bi)=>'<div class="row"><span class="lab">'+b.label+'</span>'
+      +'<select data-row="'+bi+'"><option value="">— choose —</option>'
+      +b.opts.map((c,ci)=>'<option value="'+ci+'">'+c+'</option>').join('')+'</select></div>').join('');
+  } else if(q.type==='bowtie'){
+    const grp=(title,key,opts,multi)=>'<div class="grp"><h4>'+title+'</h4>'
+      +opts.map((o,idx)=>'<label class="opt" data-key="'+key+'" data-idx="'+idx+'">'
+        +'<input type="'+(multi?'checkbox':'radio')+'" name="'+key+'" value="'+idx+'"><span>'+o+'</span></label>').join('')+'</div>';
+    body=grp('Central problem (pick 1)','problem',q.problem.opts,false)
+        +grp('Two actions to take (pick 2)','actions',q.actions.opts,true)
+        +grp('Two parameters to monitor (pick 2)','params',q.params.opts,true);
+  } else if(q.type==='calc'){
+    body='<div class="row"><input type="text" id="calc" placeholder="e.g., 9 or 8.8" inputmode="decimal"> %</div>';
+  }
+  const last=i===Q.length-1;
+  app.innerHTML='<div class="card"><span class="topic">'+q.topic+'</span>'
+    +'<div class="stem">'+q.n+'. '+q.stem+'</div>'+body
+    +'<div class="actions">'
+    +'<button class="btn" id="submit">Submit answer</button>'
+    +'<button class="btn ghost" id="next" disabled>'+(last?'See results':'Next ▸')+'</button>'
+    +'</div><div class="fb" id="fb"></div></div>';
+
+  // selection highlighting for label-based inputs
+  app.querySelectorAll('.opt input').forEach(inp=>inp.addEventListener('change',()=>{
+    const grpName=inp.name;
+    app.querySelectorAll('.opt input[name="'+grpName+'"]').forEach(x=>x.closest('.opt').classList.toggle('sel',x.checked));
+  }));
+  document.getElementById('submit').onclick=grade;
+  document.getElementById('next').onclick=()=>{ if(i<Q.length-1){i++;render();} else {results();} };
+}
+
+function grade(){
+  const q=Q[i]; let correct=false; let answerText='';
+  const submitBtn=document.getElementById('submit'); const nextBtn=document.getElementById('next');
+  if(q.type==='radio'){
+    const sel=app.querySelector('input[name="o"]:checked');
+    const chosen=sel?+sel.value:-1; correct=chosen===q.ans;
+    app.querySelectorAll('.opt').forEach((el,idx)=>{
+      if(idx===q.ans){el.classList.add('right'); el.insertAdjacentHTML('beforeend','<span class="tag r">correct</span>');}
+      if(idx===chosen&&chosen!==q.ans){el.classList.add('wrong'); el.insertAdjacentHTML('beforeend','<span class="tag w">your pick</span>');}
+    });
+    answerText='Correct answer: '+q.opts[q.ans];
+  } else if(q.type==='multi'){
+    const chosen=[...app.querySelectorAll('input[name="o"]:checked')].map(x=>+x.value);
+    correct=eqSet(chosen,q.ans);
+    app.querySelectorAll('.opt').forEach((el,idx)=>{
+      const isAns=q.ans.includes(idx), picked=chosen.includes(idx);
+      if(isAns){el.classList.add('right'); el.insertAdjacentHTML('beforeend','<span class="tag r">answer</span>');}
+      if(picked&&!isAns){el.classList.add('wrong'); el.insertAdjacentHTML('beforeend','<span class="tag w">your pick</span>');}
+    });
+    answerText='Correct selections: '+q.ans.map(x=>q.opts[x]).join(' · ');
+  } else if(q.type==='matrix'||q.type==='match'||q.type==='cloze'){
+    const rows=q.type==='cloze'?q.blanks:q.rows;
+    let allRight=true;
+    app.querySelectorAll('select[data-row]').forEach(sel=>{
+      const ri=+sel.dataset.row; const a=rows[ri].a; const v=sel.value===''?-1:+sel.value;
+      if(v===a){sel.classList.add('right');} else {sel.classList.add('wrong'); allRight=false;}
+      sel.disabled=true;
+    });
+    correct=allRight;
+    if(q.type==='cloze'){answerText='Answers: '+q.blanks.map(b=>b.opts[b.a]).join(' · ');}
+    else if(q.type==='match'){answerText='Answers: '+q.rows.map(r=>r.t+' → '+q.shared[r.a]).join(' · ');}
+    else {answerText='Answers: '+q.rows.map(r=>r.t+' → '+q.cols[r.a]).join(' · ');}
+  } else if(q.type==='bowtie'){
+    const pSel=app.querySelector('input[name="problem"]:checked');
+    const pOk=pSel&&+pSel.value===q.problem.a;
+    const aChosen=[...app.querySelectorAll('input[name="actions"]:checked')].map(x=>+x.value);
+    const mChosen=[...app.querySelectorAll('input[name="params"]:checked')].map(x=>+x.value);
+    const aOk=eqSet(aChosen,q.actions.ans), mOk=eqSet(mChosen,q.params.ans);
+    correct=pOk&&aOk&&mOk;
+    const mark=(key,ansArr,single)=>{
+      app.querySelectorAll('.opt[data-key="'+key+'"]').forEach(el=>{
+        const idx=+el.dataset.idx; const picked=el.querySelector('input').checked;
+        const isAns=single?(idx===ansArr):ansArr.includes(idx);
+        if(isAns){el.classList.add('right');}
+        if(picked&&!isAns){el.classList.add('wrong');}
+      });
+    };
+    mark('problem',q.problem.a,true); mark('actions',q.actions.ans,false); mark('params',q.params.ans,false);
+    answerText='Problem: '+q.problem.opts[q.problem.a]
+      +' | Actions: '+q.actions.ans.map(x=>q.actions.opts[x]).join(', ')
+      +' | Monitor: '+q.params.ans.map(x=>q.params.opts[x]).join(', ');
+  } else if(q.type==='calc'){
+    const inp=document.getElementById('calc'); const v=parseFloat((inp.value||'').replace('%','').trim());
+    correct=!isNaN(v)&&v>=q.acceptLo&&v<=q.acceptHi;
+    inp.classList.add(correct?'right':'wrong'); inp.disabled=true;
+    answerText='Correct answer: '+q.answer;
+  }
+
+  // lock inputs
+  app.querySelectorAll('input').forEach(x=>x.disabled=true);
+  submitBtn.disabled=true; nextBtn.disabled=false;
+
+  if(result[i]===null){ result[i]=correct; answeredCount++; if(correct)score++; }
+  setMeta();
+
+  const fb=document.getElementById('fb');
+  fb.className='fb show '+(correct?'ok':'no');
+  fb.innerHTML='<div class="verdict '+(correct?'ok':'no')+'">'+(correct?'✓ Correct':'✗ Not quite')+'</div>'
+    +'<p>'+answerText+'</p>'
+    +'<p>'+q.rat+'</p>'
+    +'<p class="strat">Strategy: '+q.strat+'</p>'
+    +'<div class="lblrow">Client Needs: '+q.cat+' · Cognitive level: '+q.lvl+'</div>';
+  fb.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+function results(){
+  const pct=Math.round(score/Q.length*100);
+  // category breakdown
+  const cats={};
+  Q.forEach((q,idx)=>{ if(!cats[q.cat])cats[q.cat]={c:0,t:0}; cats[q.cat].t++; if(result[idx])cats[q.cat].c++; });
+  const rows=Object.entries(cats).sort((a,b)=>b[1].t-a[1].t)
+    .map(([k,v])=>'<tr><td>'+k+'</td><td>'+v.c+' / '+v.t+'</td></tr>').join('');
+  const missed=Q.filter((q,idx)=>!result[idx]).map(q=>q.n);
+  const msg = pct>=85?'Strong — that is solid NCLEX readiness territory.'
+            : pct>=70?'Passing range. Review the misses and the rationales.'
+            : 'Keep grinding — focus on the missed items and re-run.';
+  app.innerHTML='<div class="card end">'
+    +'<div class="score">'+pct+'%</div>'
+    +'<div class="endsub">'+score+' of '+Q.length+' correct</div>'
+    +'<p>'+msg+'</p>'
+    +'<table class="brk"><tr><td><strong>Client Needs category</strong></td><td><strong>Correct</strong></td></tr>'+rows+'</table>'
+    +(missed.length?'<div class="miss"><h3>Missed items: '+missed.join(', ')+'</h3></div>':'<div class="miss"><h3>Perfect run — no misses.</h3></div>')
+    +'<div class="actions" style="justify-content:center"><button class="btn" id="restart">Restart quiz</button></div>'
+    +'<div class="footnote">NR449 Week 2 practice · 30 items · rationale after each answer</div>'
+    +'</div>';
+  document.getElementById('restart').onclick=()=>{i=0;score=0;answeredCount=0;result.fill(null);render();};
+  fill.style.width='100%';
+}
+
+render();
+</script>
+</body>
+</html>

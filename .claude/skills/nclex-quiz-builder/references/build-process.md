@@ -64,7 +64,13 @@ Return: a JSON array of items using the exact field names from the schema.
 
 ## 3. REDUCE (you, the main agent)
 
-- **Merge** all modules' arrays into one `questions` list in a sensible teaching order.
+- **Merge** all modules into one `questions` list with the bundled helper — don't hand-roll it:
+  ```
+  python <skill>/scripts/merge_modules.py <modules-dir> --meta meta.json -o <name>.quiz.json
+  ```
+  Modules merge in sorted filename order (name them `w4_01_*`, `w4_02_*`, … to set teaching
+  order). `meta.json` holds the quiz `meta` object; `{n}` and `{cases}` in any meta string are
+  filled in automatically. It prints a per-module count table so coverage is visible at a glance.
 - **Dedupe** near-identical items (same fact/lookup table twice) — keep the stronger one.
 - **Verify case studies**: each is exactly 6 linked items, one evolving patient, steps 1–6.
 - **Build + lint**: write `<name>.quiz.json` (include the `classCode`/`className`/`exam`/
