@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NCLEX Practice — Evidence-Based Practice (NR449) Week 3</title>
+<style>
+  :root{
+    --bg:#0f172a; --card:#1e293b; --card2:#273449; --ink:#e2e8f0; --muted:#94a3b8;
+    --line:#334155; --accent:#2dd4bf; --accent2:#14b8a6; --good:#22c55e; --bad:#f87171;
+    --goodbg:#0c2a1a; --badbg:#2a1414; --chip:#0b3b3b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:16px/1.55 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:780px;margin:0 auto;padding:20px 16px 80px}
+  header{display:flex;flex-direction:column;gap:8px;margin-bottom:14px}
+  h1{font-size:20px;margin:0;letter-spacing:.2px}
+  .sub{color:var(--muted);font-size:13px}
+  .bar{height:8px;background:var(--card);border-radius:999px;overflow:hidden;margin-top:6px}
+  .fill{height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .3s}
+  .meta{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);margin-top:6px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-top:14px}
+  .topic{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.6px;
+    color:var(--accent);background:var(--chip);padding:3px 9px;border-radius:999px;margin-bottom:10px}
+  .stem{font-size:17px;margin:2px 0 14px;white-space:pre-wrap}
+  .opts{display:flex;flex-direction:column;gap:9px}
+  .opt{display:flex;gap:10px;align-items:flex-start;background:var(--card2);border:1px solid var(--line);
+    border-radius:10px;padding:11px 12px;cursor:pointer;transition:border-color .15s,background .15s}
+  .opt:hover{border-color:var(--accent2)}
+  .opt input{margin-top:3px;accent-color:var(--accent);width:17px;height:17px;flex:0 0 auto}
+  .opt.sel{border-color:var(--accent);background:#22323f}
+  .opt.right{border-color:var(--good);background:var(--goodbg)}
+  .opt.wrong{border-color:var(--bad);background:var(--badbg)}
+  .opt .tag{margin-left:auto;font-size:12px;font-weight:600;white-space:nowrap}
+  .opt .tag.r{color:var(--good)} .opt .tag.w{color:var(--bad)}
+  .row{display:flex;gap:10px;align-items:center;background:var(--card2);border:1px solid var(--line);
+    border-radius:10px;padding:10px 12px;margin-bottom:8px;flex-wrap:wrap}
+  .row .lab{flex:1 1 230px}
+  select,input[type=text]{background:#0b1220;color:var(--ink);border:1px solid var(--line);
+    border-radius:8px;padding:8px 10px;font-size:15px;max-width:100%}
+  select:focus,input:focus{outline:2px solid var(--accent2)}
+  select.right,input.right{border-color:var(--good)} select.wrong,input.wrong{border-color:var(--bad)}
+  .grp{margin:10px 0;padding:10px;border:1px dashed var(--line);border-radius:10px}
+  .grp h4{margin:0 0 8px;font-size:13px;color:var(--accent);text-transform:uppercase;letter-spacing:.5px}
+  .btn{appearance:none;border:0;border-radius:10px;padding:12px 18px;font-size:15px;font-weight:600;
+    cursor:pointer;background:var(--accent2);color:#04201d}
+  .btn:disabled{opacity:.4;cursor:not-allowed}
+  .btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent2)}
+  .actions{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+  .fb{margin-top:14px;border-radius:12px;padding:14px;border:1px solid var(--line);display:none}
+  .fb.show{display:block}
+  .fb.ok{background:var(--goodbg);border-color:#1f5135}
+  .fb.no{background:var(--badbg);border-color:#5b2626}
+  .fb .verdict{font-weight:700;font-size:15px;margin-bottom:6px}
+  .fb .verdict.ok{color:var(--good)} .fb .verdict.no{color:var(--bad)}
+  .fb p{margin:6px 0}
+  .fb .lblrow{font-size:12px;color:var(--muted);margin-top:8px}
+  .fb .strat{font-style:italic;color:#cbd5e1}
+  .hint{font-size:12px;color:var(--muted);margin:-4px 0 10px}
+  .end{text-align:center;padding:24px 8px}
+  .score{font-size:46px;font-weight:800;color:var(--accent)}
+  .endsub{color:var(--muted);margin-top:6px}
+  table.brk{width:100%;border-collapse:collapse;margin-top:18px;font-size:13px}
+  table.brk td{border-top:1px solid var(--line);padding:7px 6px;text-align:left}
+  table.brk td:last-child{text-align:right;color:var(--muted)}
+  .miss{text-align:left;margin-top:18px;font-size:13px;color:var(--muted)}
+  .footnote{font-size:11px;color:var(--muted);margin-top:24px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>NCLEX Practice — Evidence-Based Practice (NR449)</h1>
+    <div class="sub">Week 3 · Research Design · 11 items</div>
+    <div class="bar"><div class="fill" id="fill"></div></div>
+    <div class="meta"><span id="pos">Question 1 of 50</span><span id="sc">Score 0 / 0</span></div>
+  </header>
+  <div id="app"></div>
+</div>
+<script>
+const Q = [
+ {
+  "topic": "Design Approach",
+  "type": "matrix",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A nursing research committee is reviewing five proposals submitted by staff nurses. Classify each proposal by the design approach it uses.",
+  "cols": [
+   "Quantitative",
+   "Qualitative",
+   "Mixed-method"
+  ],
+  "rows": [
+   {
+    "t": "Comparing the mean blood pressures of clients who completed cardiac rehabilitation after a myocardial infarction with those of clients who did not",
+    "a": 0
+   },
+   {
+    "t": "Investigating what it means to be a nursing student who also works 20 or more hours a week",
+    "a": 1
+   },
+   {
+    "t": "Collecting post-rehabilitation blood pressure readings and also interviewing those same clients about how the program shaped their recovery",
+    "a": 2
+   },
+   {
+    "t": "Living within a rural community for two years to learn how its members view illness and healing",
+    "a": 1
+   },
+   {
+    "t": "Counting how many days elapse before clients refill a newly prescribed antihypertensive and analyzing the pattern by age group",
+    "a": 0
+   }
+  ],
+  "rat": "This module defines a quantitative design as one that measures data and analyzes numbers (blood pressures, refill intervals), a qualitative design as one that seeks the lived experiences of participants or the meaning of a phenomenon (what it means to work while in nursing school; how a community views illness), and a mixed-method design as one in which both qualitative and quantitative data are available. Adding the clients' lived experiences to the blood pressure study is the module's own example of what converts a quantitative study into a mixed-method one.",
+  "strat": "Ask what is actually being analyzed — numbers, meaning, or both.",
+  "n": 1
+ },
+ {
+  "topic": "Design Decisions",
+  "type": "cloze",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A nurse researcher wants to determine whether a structured 48-hour discharge phone call lowers the 30-day readmission rate on a heart failure unit.\n\nBecause the aim is to test a relationship between variables rather than to describe a phenomenon, the study is [1]. Because the data to be analyzed are readmission counts, the design approach is [2]. Before any specific design can be chosen, the first of the three phases of decision making requires the researcher to [3].",
+  "blanks": [
+   {
+    "label": "[1] Aim of the study",
+    "opts": [
+     "exploratory",
+     "confirmatory",
+     "emergent"
+    ],
+    "a": 1
+   },
+   {
+    "label": "[2] Design approach",
+    "opts": [
+     "qualitative",
+     "quantitative",
+     "mixed-method"
+    ],
+    "a": 1
+   },
+   {
+    "label": "[3] First phase of decision making",
+    "opts": [
+     "identify the assumptions about the knowledge the study will produce",
+     "develop detailed plans for how the study will be implemented",
+     "select the design that fits the purpose of the study"
+    ],
+    "a": 0
+   }
+  ],
+  "rat": "The module states that confirmatory studies are based on testing a relationship between variables, while exploratory studies are usually qualitative or mixed-method and describe a phenomenon. Readmission counts are measured numbers, which is this module's definition of a quantitative design. The three phases run in a fixed order — identify assumptions, select a design, implementation — and it is the assumptions phase that tells the researcher whether a quantitative, qualitative, or mixed-method design is required, so it cannot be skipped ahead of choosing the design or planning its execution.",
+  "strat": "Testing a relationship = confirmatory; assumptions come before the design, and the design before the plan.",
+  "n": 2
+ },
+ {
+  "topic": "Descriptive Study Designs",
+  "type": "match",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A faculty mentor asks a student to name the descriptive design used in each of six study summaries. Match each summary to its design.",
+  "shared": [
+   "Survey design",
+   "Cross-sectional design",
+   "Longitudinal study",
+   "Case study",
+   "Single subject design",
+   "Phenomenology"
+  ],
+  "rows": [
+   {
+    "t": "Teen clients are asked, at the moment of their cancer diagnosis, what their top information need is",
+    "a": 0
+   },
+   {
+    "t": "Clients aged 5 to 50 years are asked, at the moment of their cancer diagnosis, what their top information need is",
+    "a": 1
+   },
+   {
+    "t": "Teen cancer clients are asked about their top information need at diagnosis, at first treatment, and again at six months",
+    "a": 2
+   },
+   {
+    "t": "Detailed information is gathered by varied techniques from one campus's graduating nursing class about their priority needs after graduation",
+    "a": 3
+   },
+   {
+    "t": "A small group's adherence to blood pressure medication is reviewed repeatedly over time to follow each person's own response",
+    "a": 4
+   },
+   {
+    "t": "Nursing students who work 20 or more hours a week are interviewed to uncover the meaning of that experience",
+    "a": 5
+   }
+  ],
+  "rat": "Survey and cross-sectional designs both use a single point in time; this module separates them by whether the sample differs on a key characteristic — teens only is a single sample characteristic (survey), while ages 5 to 50 differ on age (cross-sectional). Longitudinal data are collected at select points over time to describe change, a case study collects detailed information by varied techniques about a single individual, program, event, or action, single subject design studies interventions against individuals' own responses at baseline or ongoing, and phenomenology seeks the meaning of a lived experience among those who lived it.",
+  "strat": "Single point in time? Then ask whether the sample varies on a key characteristic — that is what splits survey from cross-sectional.",
+  "n": 3
+ },
+ {
+  "topic": "Descriptive Study Designs",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A nurse researcher wants to understand how the members of a remote community understand their relationship to the environment and to healing. The researcher plans to live within the community and take part in its daily life for the next two years. Which design is the researcher describing?",
+  "opts": [
+   "Phenomenology, because the study centers on the meaning of a lived experience shared by participants",
+   "Ethnography, because the researcher immerses in the culture over an extended period of time",
+   "Grounded theory, because a theory of process is developed from analysis of participants' words",
+   "Case study, because varied techniques collect detailed information about a single group"
+  ],
+  "ans": 1,
+  "rat": "This module defines ethnography as a cultural study in which the researcher immerses themselves in the culture over a period of time, and its example is a researcher living within a tribe for years to understand their view of the environment — the immersion plus duration is the tell. Phenomenology would fit only if the aim were the meaning of one specific lived experience among people who had experienced it, grounded theory builds a theory of process, action, or interaction from participants' words, and a case study explores a single individual, program, event, or action rather than a whole culture.",
+  "strat": "Immersion plus time equals ethnography; meaning of one experience equals phenomenology.",
+  "n": 4
+ },
+ {
+  "topic": "Variables",
+  "type": "cloze",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A researcher is studying whether a 30-minute screen-free evening routine increases the number of hours adolescents sleep. Each participant's age is recorded to describe the sample. Partway through data collection the researcher learns that several participants share a bedroom with a sibling who studies late with the light on.\n\nClassify each element of this study.",
+  "blanks": [
+   {
+    "label": "[1] The screen-free evening routine",
+    "opts": [
+     "independent variable",
+     "dependent variable",
+     "extraneous variable"
+    ],
+    "a": 0
+   },
+   {
+    "label": "[2] Hours of sleep",
+    "opts": [
+     "independent variable",
+     "dependent variable",
+     "descriptive variable"
+    ],
+    "a": 1
+   },
+   {
+    "label": "[3] The sibling's late-night light",
+    "opts": [
+     "independent variable",
+     "extraneous variable",
+     "dependent variable"
+    ],
+    "a": 1
+   },
+   {
+    "label": "[4] The recorded ages",
+    "opts": [
+     "research variables introduced to measure an expected effect",
+     "descriptive variables not influenced by the study or researcher",
+     "extraneous variables that confuse interpretation of the outcome"
+    ],
+    "a": 1
+   }
+  ],
+  "rat": "This module defines the independent variable as the cause in cause and effect, added to the study to measure an effect, and the dependent variable as the effect or outcome — so the routine is independent and hours of sleep dependent. An extraneous variable is not part of the planned research but influences the outcome and may confuse interpretation; the module's own parallel example is blue-light exposure occurring outside the research framework. Age is a descriptive variable: a measurable participant characteristic that is not influenced by the study or the researcher.",
+  "strat": "Cause = independent, effect = dependent, uninvited influence = extraneous, description of the sample = descriptive.",
+  "n": 5
+ },
+ {
+  "topic": "Variables",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A student proposes a phenomenological study of what caregiving means to the spouses of clients living with dementia, then asks the faculty mentor for help naming the independent and dependent variables. Which response by the mentor reflects this module's teaching?",
+  "opts": [
+   "The caregiving role would be the independent variable and the reported burden the dependent variable",
+   "Variables are the basis of quantitative research and are not used in a qualitative design like this",
+   "Both variables can be named once the interview data have been analyzed into themes",
+   "Spouse age and years of caregiving would serve as the extraneous variables here"
+  ],
+  "ans": 1,
+  "rat": "The Variables section of this module states directly that variables are not used in qualitative research but are the basis of quantitative research, so a phenomenological study — which seeks the meaning of a lived experience — has no independent or dependent variable to name. Assigning cause-and-effect roles to the caregiving experience treats a qualitative aim as a confirmatory quantitative one, and extraneous variables belong to that same quantitative framework. (Note the module's evaluation section separately asks whether design variables such as age are identified when appraising a qualitative article; the Variables section is its direct statement on this question.)",
+  "strat": "If the design is chasing meaning rather than measurement, stop hunting for variables.",
+  "n": 6
+ },
+ {
+  "topic": "Design Selection",
+  "type": "multi",
+  "cat": "Safety & Infection Prevention and Control",
+  "lvl": "Analysis",
+  "stem": "A nurse researcher proposes a three-year study of a new fall-prevention protocol on a medical-surgical unit. The unit's census falls sharply every summer, the protocol calls for one group of clients to go without the intervention, the researcher has never carried a study past six months, and the grant covers only the first year. Which of these are design-selection factors this module says must be weighed before the design is finalized? Select all that apply.",
+  "opts": [
+   "Whether the client population will still be available on the unit throughout the data-collection window",
+   "Whether going without the protocol places that group of clients in danger",
+   "Whether the researcher's own strengths and weaknesses could become limitations of the study",
+   "Whether the funding and materials on hand can carry the project through its full time frame",
+   "Whether the sample will be large enough for the findings to reach statistical significance",
+   "Whether the unit's policy manual will be revised once the findings are reported"
+  ],
+  "ans": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "rat": "This module lists the factors that influence design selection: variables (protecting participants is an ethical role of the nurse researcher, and putting participants in danger is a reason not to implement a design), sampling and measurements (is the population available during the research time frame?), the researcher's strengths and weaknesses, the time frame, the amount of control required, the audience, and resources such as money, materials, and participant pools. The size needed for statistical significance and the policy change that may follow are products of the study, not factors that determine which design can be used.",
+  "strat": "Design-selection factors are all about what the researcher can feasibly and ethically do; anything about the results comes later.",
+  "n": 7
+ },
+ {
+  "topic": "Relationship Study Designs",
+  "type": "match",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A journal club is sorting five studies by the relationship design each one used. Match each study to its design.",
+  "shared": [
+   "Correlation",
+   "Predictive study",
+   "Grounded theory",
+   "Test of model fit"
+  ],
+  "rows": [
+   {
+    "t": "Examining the relationship between maternal age and anxiety among mothers scheduled for a planned cesarean birth",
+    "a": 0
+   },
+   {
+    "t": "Comparing the level of a single variable, treatment adherence, across two separate populations",
+    "a": 0
+   },
+   {
+    "t": "Determining whether a participant's age forecasts that participant's medication adherence",
+    "a": 1
+   },
+   {
+    "t": "Analyzing teens' own words to build an explanation of how they come to take their medication consistently",
+    "a": 2
+   },
+   {
+    "t": "Applying a preconceived model to test whether adding a support group affects the coping skills of teens with anxiety",
+    "a": 3
+   }
+  ],
+  "rat": "This module defines a correlation as a relationship between two variables in a single population or one variable in two populations, so both of the first two studies are correlations. A predictive study relationship runs between a predictor variable and an outcome variable, which is the age-to-adherence study. Grounded theory develops a theory of process, action, or interaction based on analysis of participants' words. A test of model fit uses a preconceived model to test theories of causal relationships between variables.",
+  "strat": "Correlation describes a relationship, prediction aims one variable at an outcome, grounded theory builds from words, model fit starts from the model.",
+  "n": 8
+ },
+ {
+  "topic": "Causality",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Analysis",
+  "stem": "A study reports that clients who received a new mobility protocol walked farther at discharge than clients who did not. Every client received the protocol before walking distance was measured, and the statistical effect of the protocol was strong. During the same months, however, the unit added a full-time physical therapist and changed its staffing ratio. Which criterion for establishing causality has this study failed to meet?",
+  "opts": [
+   "Temporality, because the sequence between the independent and dependent variables is unclear",
+   "Influence, because the effect of the independent variable is not statistically sound",
+   "Specificity, because competing explanations for the relationship were not controlled",
+   "Reliability, because the walking-distance measurement was not repeated over time"
+  ],
+  "ans": 2,
+  "rat": "This module names three criteria that must be considered in a causality study: temporality (the time sequence between the independent and dependent variables supports causation), influence (the statistical soundness of the effect the independent variable has on the dependent variable), and specificity (the elimination or control of other explanations for the relationship). The sequence here is intact and the effect is strong, but the new therapist and the staffing change are uncontrolled alternative explanations, which is exactly what specificity requires the researcher to rule out. Reliability of measurement is not one of the three criteria this module lists.",
+  "strat": "Temporality = order, influence = strength, specificity = nothing else explains it.",
+  "n": 9
+ },
+ {
+  "topic": "Causality",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Application",
+  "stem": "A nurse researcher introduces a hand-off communication bundle on one telemetry unit and measures error reports before the bundle and again after it. No comparison unit is used, and the nurses on the unit were not assigned to groups in any way. Which design has the researcher used?",
+  "opts": [
+   "Experimental design, because an intervention was introduced and the resulting outcome was measured",
+   "Quasi-experimental design, because a treatment was given without randomization or a control group",
+   "Causal-comparative design, because groups are matched on the independent variables of interest",
+   "Time series analysis, because a baseline was measured before the treatment was implemented"
+  ],
+  "ans": 1,
+  "rat": "This module defines quasi-experimental design as introducing a treatment to a group with no random assignment and no control group, which is precisely this study. An experimental design would require randomly assigning subjects to a treatment group and a control group and comparing the outcomes. A causal-comparative/case-control design matches already-formed groups by independent variables and analyzes dependent variables for differences. Time series analysis measures a baseline, implements the treatment, then collects outcome data over time at specified dates or periods rather than at one point afterward.",
+  "strat": "No randomization and no control group drops experimental down to quasi-experimental.",
+  "n": 10
+ },
+ {
+  "topic": "Evaluating Research Articles",
+  "type": "radio",
+  "cat": "Management of Care",
+  "lvl": "Evaluation",
+  "stem": "A nurse appraises a published qualitative study of nursing students who work while enrolled. The article names the design in standard research language, gives the rationale for choosing it, ties that design to the research question, and identifies the variables that could influence outcomes. It reports the resulting themes but never describes how participants were recruited and interviewed or how the researchers' choices were made as the design took shape. Using this module's criteria, which conclusion is best supported?",
+  "opts": [
+   "The design that was chosen cannot be linked to the research question as the article is written",
+   "The rationale for the design choice was not provided anywhere in the published article",
+   "The study could not be replicated, and the emerging design decisions are not explained",
+   "The variables that could influence the students' outcomes were left undefined by the researchers"
+  ],
+  "ans": 2,
+  "rat": "This module's evaluation criteria ask whether the study can be replicated by others and, in qualitative design, whether the researcher has explained the decisions made as the design emerged. The article satisfies the other criteria the module lists — the design is identified in standard language, the rationale is given, the design is linked to the research question, and the influencing variables are identified — so the only unmet criterion is the missing procedural detail that would let another researcher reproduce the work and follow how the design developed.",
+  "strat": "Walk the evaluation checklist item by item; the criterion nothing in the article addresses is the answer.",
+  "n": 11
+ }
+];
+
+// ---------- app logic ----------
+const app=document.getElementById('app');
+const fill=document.getElementById('fill');
+const posEl=document.getElementById('pos');
+const scEl=document.getElementById('sc');
+let i=0, score=0, answeredCount=0;
+const result=new Array(Q.length).fill(null); // true/false once answered
+
+function setMeta(){
+  posEl.textContent='Question '+(i+1)+' of '+Q.length;
+  scEl.textContent='Score '+score+' / '+answeredCount;
+  fill.style.width=((answeredCount)/Q.length*100)+'%';
+}
+function eqSet(a,b){ if(a.length!==b.length)return false; const s=new Set(a); return b.every(x=>s.has(x)); }
+
+function render(){
+  const q=Q[i]; setMeta();
+  let body='';
+  if(q.type==='radio'||q.type==='multi'){
+    const inputType=q.type==='radio'?'radio':'checkbox';
+    body='<div class="opts">'+q.opts.map((o,idx)=>
+      '<label class="opt" data-idx="'+idx+'"><input type="'+inputType+'" name="o" value="'+idx+'">'
+      +'<span>'+o+'</span></label>').join('')+'</div>';
+    if(q.type==='multi') body='<div class="hint">Select all that apply. Judge each option independently.</div>'+body;
+  } else if(q.type==='matrix'){
+    body=q.rows.map((r,ri)=>'<div class="row"><span class="lab">'+r.t+'</span>'
+      +'<select data-row="'+ri+'"><option value="">— choose —</option>'
+      +q.cols.map((c,ci)=>'<option value="'+ci+'">'+c+'</option>').join('')+'</select></div>').join('');
+  } else if(q.type==='match'){
+    body=q.rows.map((r,ri)=>'<div class="row"><span class="lab">'+r.t+'</span>'
+      +'<select data-row="'+ri+'"><option value="">— choose —</option>'
+      +q.shared.map((c,ci)=>'<option value="'+ci+'">'+c+'</option>').join('')+'</select></div>').join('');
+  } else if(q.type==='cloze'){
+    body=q.blanks.map((b,bi)=>'<div class="row"><span class="lab">'+b.label+'</span>'
+      +'<select data-row="'+bi+'"><option value="">— choose —</option>'
+      +b.opts.map((c,ci)=>'<option value="'+ci+'">'+c+'</option>').join('')+'</select></div>').join('');
+  } else if(q.type==='bowtie'){
+    const grp=(title,key,opts,multi)=>'<div class="grp"><h4>'+title+'</h4>'
+      +opts.map((o,idx)=>'<label class="opt" data-key="'+key+'" data-idx="'+idx+'">'
+        +'<input type="'+(multi?'checkbox':'radio')+'" name="'+key+'" value="'+idx+'"><span>'+o+'</span></label>').join('')+'</div>';
+    body=grp('Central problem (pick 1)','problem',q.problem.opts,false)
+        +grp('Two actions to take (pick 2)','actions',q.actions.opts,true)
+        +grp('Two parameters to monitor (pick 2)','params',q.params.opts,true);
+  } else if(q.type==='calc'){
+    body='<div class="row"><input type="text" id="calc" placeholder="e.g., 9 or 8.8" inputmode="decimal"> %</div>';
+  }
+  const last=i===Q.length-1;
+  app.innerHTML='<div class="card"><span class="topic">'+q.topic+'</span>'
+    +'<div class="stem">'+q.n+'. '+q.stem+'</div>'+body
+    +'<div class="actions">'
+    +'<button class="btn" id="submit">Submit answer</button>'
+    +'<button class="btn ghost" id="next" disabled>'+(last?'See results':'Next ▸')+'</button>'
+    +'</div><div class="fb" id="fb"></div></div>';
+
+  // selection highlighting for label-based inputs
+  app.querySelectorAll('.opt input').forEach(inp=>inp.addEventListener('change',()=>{
+    const grpName=inp.name;
+    app.querySelectorAll('.opt input[name="'+grpName+'"]').forEach(x=>x.closest('.opt').classList.toggle('sel',x.checked));
+  }));
+  document.getElementById('submit').onclick=grade;
+  document.getElementById('next').onclick=()=>{ if(i<Q.length-1){i++;render();} else {results();} };
+}
+
+function grade(){
+  const q=Q[i]; let correct=false; let answerText='';
+  const submitBtn=document.getElementById('submit'); const nextBtn=document.getElementById('next');
+  if(q.type==='radio'){
+    const sel=app.querySelector('input[name="o"]:checked');
+    const chosen=sel?+sel.value:-1; correct=chosen===q.ans;
+    app.querySelectorAll('.opt').forEach((el,idx)=>{
+      if(idx===q.ans){el.classList.add('right'); el.insertAdjacentHTML('beforeend','<span class="tag r">correct</span>');}
+      if(idx===chosen&&chosen!==q.ans){el.classList.add('wrong'); el.insertAdjacentHTML('beforeend','<span class="tag w">your pick</span>');}
+    });
+    answerText='Correct answer: '+q.opts[q.ans];
+  } else if(q.type==='multi'){
+    const chosen=[...app.querySelectorAll('input[name="o"]:checked')].map(x=>+x.value);
+    correct=eqSet(chosen,q.ans);
+    app.querySelectorAll('.opt').forEach((el,idx)=>{
+      const isAns=q.ans.includes(idx), picked=chosen.includes(idx);
+      if(isAns){el.classList.add('right'); el.insertAdjacentHTML('beforeend','<span class="tag r">answer</span>');}
+      if(picked&&!isAns){el.classList.add('wrong'); el.insertAdjacentHTML('beforeend','<span class="tag w">your pick</span>');}
+    });
+    answerText='Correct selections: '+q.ans.map(x=>q.opts[x]).join(' · ');
+  } else if(q.type==='matrix'||q.type==='match'||q.type==='cloze'){
+    const rows=q.type==='cloze'?q.blanks:q.rows;
+    let allRight=true;
+    app.querySelectorAll('select[data-row]').forEach(sel=>{
+      const ri=+sel.dataset.row; const a=rows[ri].a; const v=sel.value===''?-1:+sel.value;
+      if(v===a){sel.classList.add('right');} else {sel.classList.add('wrong'); allRight=false;}
+      sel.disabled=true;
+    });
+    correct=allRight;
+    if(q.type==='cloze'){answerText='Answers: '+q.blanks.map(b=>b.opts[b.a]).join(' · ');}
+    else if(q.type==='match'){answerText='Answers: '+q.rows.map(r=>r.t+' → '+q.shared[r.a]).join(' · ');}
+    else {answerText='Answers: '+q.rows.map(r=>r.t+' → '+q.cols[r.a]).join(' · ');}
+  } else if(q.type==='bowtie'){
+    const pSel=app.querySelector('input[name="problem"]:checked');
+    const pOk=pSel&&+pSel.value===q.problem.a;
+    const aChosen=[...app.querySelectorAll('input[name="actions"]:checked')].map(x=>+x.value);
+    const mChosen=[...app.querySelectorAll('input[name="params"]:checked')].map(x=>+x.value);
+    const aOk=eqSet(aChosen,q.actions.ans), mOk=eqSet(mChosen,q.params.ans);
+    correct=pOk&&aOk&&mOk;
+    const mark=(key,ansArr,single)=>{
+      app.querySelectorAll('.opt[data-key="'+key+'"]').forEach(el=>{
+        const idx=+el.dataset.idx; const picked=el.querySelector('input').checked;
+        const isAns=single?(idx===ansArr):ansArr.includes(idx);
+        if(isAns){el.classList.add('right');}
+        if(picked&&!isAns){el.classList.add('wrong');}
+      });
+    };
+    mark('problem',q.problem.a,true); mark('actions',q.actions.ans,false); mark('params',q.params.ans,false);
+    answerText='Problem: '+q.problem.opts[q.problem.a]
+      +' | Actions: '+q.actions.ans.map(x=>q.actions.opts[x]).join(', ')
+      +' | Monitor: '+q.params.ans.map(x=>q.params.opts[x]).join(', ');
+  } else if(q.type==='calc'){
+    const inp=document.getElementById('calc'); const v=parseFloat((inp.value||'').replace('%','').trim());
+    correct=!isNaN(v)&&v>=q.acceptLo&&v<=q.acceptHi;
+    inp.classList.add(correct?'right':'wrong'); inp.disabled=true;
+    answerText='Correct answer: '+q.answer;
+  }
+
+  // lock inputs
+  app.querySelectorAll('input').forEach(x=>x.disabled=true);
+  submitBtn.disabled=true; nextBtn.disabled=false;
+
+  if(result[i]===null){ result[i]=correct; answeredCount++; if(correct)score++; }
+  setMeta();
+
+  const fb=document.getElementById('fb');
+  fb.className='fb show '+(correct?'ok':'no');
+  fb.innerHTML='<div class="verdict '+(correct?'ok':'no')+'">'+(correct?'✓ Correct':'✗ Not quite')+'</div>'
+    +'<p>'+answerText+'</p>'
+    +'<p>'+q.rat+'</p>'
+    +'<p class="strat">Strategy: '+q.strat+'</p>'
+    +'<div class="lblrow">Client Needs: '+q.cat+' · Cognitive level: '+q.lvl+'</div>';
+  fb.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+
+function results(){
+  const pct=Math.round(score/Q.length*100);
+  // category breakdown
+  const cats={};
+  Q.forEach((q,idx)=>{ if(!cats[q.cat])cats[q.cat]={c:0,t:0}; cats[q.cat].t++; if(result[idx])cats[q.cat].c++; });
+  const rows=Object.entries(cats).sort((a,b)=>b[1].t-a[1].t)
+    .map(([k,v])=>'<tr><td>'+k+'</td><td>'+v.c+' / '+v.t+'</td></tr>').join('');
+  const missed=Q.filter((q,idx)=>!result[idx]).map(q=>q.n);
+  const msg = pct>=85?'Strong — that is solid NCLEX readiness territory.'
+            : pct>=70?'Passing range. Review the misses and the rationales.'
+            : 'Keep grinding — focus on the missed items and re-run.';
+  app.innerHTML='<div class="card end">'
+    +'<div class="score">'+pct+'%</div>'
+    +'<div class="endsub">'+score+' of '+Q.length+' correct</div>'
+    +'<p>'+msg+'</p>'
+    +'<table class="brk"><tr><td><strong>Client Needs category</strong></td><td><strong>Correct</strong></td></tr>'+rows+'</table>'
+    +(missed.length?'<div class="miss"><h3>Missed items: '+missed.join(', ')+'</h3></div>':'<div class="miss"><h3>Perfect run — no misses.</h3></div>')
+    +'<div class="actions" style="justify-content:center"><button class="btn" id="restart">Restart quiz</button></div>'
+    +'<div class="footnote">NR449 Week 3 practice · 11 items · rationale after each answer</div>'
+    +'</div>';
+  document.getElementById('restart').onclick=()=>{i=0;score=0;answeredCount=0;result.fill(null);render();};
+  fill.style.width='100%';
+}
+
+render();
+</script>
+</body>
+</html>

@@ -39,10 +39,13 @@ JSON array (no file writes). Run them concurrently, then collect.
 
 ### Subagent briefing template (fill the <slots>)
 ```
-Write NCLEX-RN exam items for ONE module. Return ONLY a JSON array of item objects —
-no prose, no file writes.
+Write NCLEX-RN exam items for ONE module.
 
 Source (read in full): <abs path to WeekN_Topic.md>
+Write to exactly this absolute path: <abs path>/modules/<wN_NN_topic>.quiz.json
+Shape: {"meta": {"title": "draft"}, "questions": [ ...items... ]}. The `meta` block is a
+throwaway placeholder — `merge_modules.py` supplies the real one. Do NOT emit a bare array;
+both scripts call .get("questions") and crash on a list.
 Write exactly <N> items, distributed as <e.g. "7 radio, 3 SATA, 1 matrix; mostly Analysis">.
 <If this module owns a case study:> Include a 6-item unfolding case study on <scenario>,
 one item per NCJMM step, each stem labeled "CASE (n/6) <step>."
@@ -62,7 +65,16 @@ questions come straight from these Edapt modules, so the guide is the tested con
 substitute current evidence-based practice and do not skip a topic because the guide lags
 current standards. Only blatantly wrong/unsafe content or an obviously bad capture is an
 exception; flag those in your summary instead of silently changing them.
-Return: a JSON array of items using the exact field names from the schema.
+
+Then self-lint until clean — 0 errors, 0 warnings:
+  python <skill>/scripts/assemble_quiz.py <your output file>
+Ignore the advisory per-category blueprint-band percentages; they assume a full-length exam
+and do NOT apply to a single-module set. Never pad items to chase a band.
+
+Report back briefly: (1) item count with type + cognitive level each, (2) whether you built a
+case study and how many steps, (3) linter status, (4) any internal contradiction, garbled
+text, or uncaptured media you found in the guide — quote it. That last point feeds a defect
+report going back to the material's authors, so be specific.
 ```
 
 ## 3. REDUCE (you, the main agent)

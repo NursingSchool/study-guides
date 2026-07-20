@@ -27,6 +27,8 @@
 **Courses covered:** NR328 Pediatric Nursing (Week 2; Week 3 where noted) · NR449 Evidence-Based Practice (Week 2)
 **Not covered:** NR327 Maternal-Child and NR228 Nutrition were reviewed separately and are out of scope here.
 
+> **Round 2 has been appended below** (2026-07-20) covering NR328 Weeks 1 & 3 and NR449 Weeks 1 & 3 — 20 more Pediatrics items and 7 more EBP items, IDs PEDS-16+ and EBP-13+. It has **not** been verified against the live modules the way Round 1 was; its capture-suspect items still need that pass. Highest-priority item in the whole document is now **PEDS-31** (the Week 1 immunization schedule contradicts itself three ways).
+
 ## Purpose — read this first
 
 This list is for the **Edapt extraction agent**. Every item below is a place where our captured study guide either contradicts itself, is missing promised content, or reads as garbled. For each one the question to answer is:
@@ -342,3 +344,268 @@ Each was re-read in the live module and matched our capture. All are cleared to 
 ## Low-severity formatting notes
 
 Bundle rather than filing individually: `Week2_Croup_and_Bacterial_Epiglottitis.md`'s manifest lists *"Explore: Types of Croup (3)"* against an actual heading of *"Explore: Types of Croup Syndromes"*; `Week2_Cystic_Fibrosis.md` §6 places the *"Transcript (figure: 'Huff Coughing')"* several items below the huff-coughing bullet it belongs to.
+
+---
+
+# Round 2 — NR328 Weeks 1 & 3 · NR449 Week 1
+
+**Date:** 2026-07-20
+**Scope:** the modules not covered by the Week 2 audit above. Same labels, same three questions. IDs continue from Round 1.
+**Summary:** 20 Pediatrics items (5 capture-suspect) · 3 EBP items (1 capture-suspect). One capture bug was found and **already fixed** (see below).
+
+## Capture fixes applied (round 2)
+
+1. `Week1_Introduction_to_Pediatric_Nursing.md` — 15 doubled apostrophes (`Piaget''s`, `Erikson''s`, `parents''`, `child''s`, `Boys''`, `Girls''`, `other''s`, `others''`) leaked into the guide. Cause: PowerShell single-quoted here-strings escape an apostrophe as `''`, and the escape was written through instead of resolved. **Fixed** — all 15 collapsed to `'`. No other class folder is affected; this file was the only one.
+   **Prevention:** the extractor never needs `''` inside a `@'...'@` here-string, because the delimiter is `'@`, not `'`. Worth a lint check on future captures.
+
+---
+
+# NR328 Pediatric Nursing — Weeks 1 & 3
+
+## Capture-suspect — check these first
+
+### PEDS-16 · Guide filename does not match the module it contains
+
+`Week1_Nursing_Care_Pediatric_Populations.md`
+
+The file is named for a "Nursing Care of Pediatric Populations" module, but its contents are Edapt **Module 3, "Pediatric Pain, Loss, and Grief."** There is no age-group population overview, no safety/injury-risk-by-age table, and no play-by-age content beyond play therapy under atraumatic care.
+
+**Re-check:** determine which is wrong — was the file named from the sidebar/unit label while the content came from a different module, or does Edapt itself title this unit "Nursing Care of Pediatric Populations" with pain and grief content inside? If a *separate* populations module exists in Week 1, it was never captured and is missing from our notes entirely. This is the highest-value re-check in round 2.
+
+### PEDS-17 · Vocabulary count garbled
+
+`Week1_Introduction_to_Pediatric_Nursing.md` — preschool Cognitive row
+
+> *"By age 6, children have a vocabulary of 8,000 to 140,000."*
+
+Two problems: the range is implausible (140,000 exceeds adult vocabulary; the standard figure is 8,000–14,000), and the unit noun is missing — "of 8,000 to 140,000" *what*.
+
+**Re-check:** almost certainly a stray `0`. Confirm the source reads "8,000 to 14,000 words."
+
+### PEDS-18 · Wong-Baker FACES numbering garbled
+
+`Week1_Nursing_Care_Pediatric_Populations.md` — pain assessment tools
+
+> *"1 or 2 = Hurts little bit, 2 or 4 = Hurts little more … 5 or 10 = Hurts worst"*
+
+The pairs are internally inconsistent — the first is not a doubling, the rest are. This reads like a two-column table (a 0–5 scale beside a 0–10 scale) flattened into one line, with the first row's left value dropped.
+
+**Re-check:** re-open as a table. The intended content is near-certainly `0/0, 1/2, 2/4, 3/6, 4/8, 5/10`. No quiz item currently keys a FACES number because of this.
+
+### PEDS-19 · Uncaptured video in the anemia module
+
+`Week3_Pediatric_Hematologic_or_Immunologic_Alterations.md` §3 slide 4 carries our own `[NEEDS MANUAL REVIEW]` marker for an embedded "AnemiaVideo."
+
+**Re-check:** look for a transcript track or caption file. Testable content may be sitting behind it.
+
+### PEDS-20 · Fetal circulation lost to untranscribed video, in two modules
+
+`Week3_Congenital_Heart_Disease_and_Cardiac_Anomalies.md` and `Week3_Pediatric_Circulatory_System_Alterations.md`
+
+Both modules gesture at the fetal-to-newborn circulatory transition via video without a captured transcript. Fetal circulation underpins every shunt lesion in the week, and it currently exists nowhere in our notes.
+
+**Re-check:** same as PEDS-19 — look for `<track>` elements or a `.ednx-transcript-div`.
+
+## Source-suspect — verify our capture is faithful, then report upstream
+
+### PEDS-21 · Pulmonary stenosis filed as obstructive, described as cyanotic
+
+`Week3_Congenital_Heart_Disease_and_Cardiac_Anomalies.md`
+
+The "obstruction to blood flow" section lists Pulmonary Stenosis alongside aortic stenosis and coarctation, and closes:
+
+> *"These children have clinical manifestations of heart failure."*
+
+The interactive transcript for the same defect says:
+
+> *"Deoxygenated blood is forced through the foramen ovale, bypassing the right ventricle to the left side of the heart where it is pumped through systemic circulation. As a result, these infants will be cyanotic."*
+
+So the module's own classification scheme (obstructive → heart failure) is contradicted by its own description (right-to-left shunt → cyanosis) for the same lesion. Both statements are defensible in isolation — severe PS with a patent foramen ovale genuinely does shunt — but the guide never reconciles them, and a student sorting defects into "cyanotic vs. acyanotic" gets opposite answers depending on which section they read.
+
+**Report to authors:** one sentence noting that severe PS can present with cyanosis via a PFO despite being an obstructive lesion would resolve it.
+
+### PEDS-22 · "Same as adults" immediately contradicted
+
+`Week3_Pediatric_Circulatory_System_Alterations.md`
+
+> *"Pulse locations and expected findings in children and adolescents are the same as those in the adult population."*
+
+The next four bullets then list pediatric-specific findings: the radial pulse is unreliable under age 2, heart rate elevates from fear so listen before counting, and the apical pulse is at the **4th** intercostal space — the adult landmark is the 5th.
+
+**Report to authors:** the lead sentence should say pulse *sites* are the same, not "locations and expected findings."
+
+### PEDS-23 · IV ferrous sulfate
+
+`Week3_Pediatric_Hematologic_or_Immunologic_Alterations.md`
+
+> *"IV ferrous sulfate administration is very painful and requires close monitoring of the client during administration"*
+
+Ferrous sulfate is an oral preparation; there is no IV form. The painful parenteral iron is iron dextran (IM Z-track or IV). Not keyed in any quiz item.
+
+**Report to authors:** likely a substitution error for iron dextran.
+
+### PEDS-24 · Hemophilia NSAID guidance contradicts itself in adjacent bullets
+
+Same file, therapeutic management:
+
+> *"Aspirin and nonsteroidal anti-inflammatory agents (NSAIDs) — avoid as they inhibit platelet function"*
+>
+> *"Ibuprofen and other non-steroidal anti-inflammatory drugs are used occasionally to treat inflammatory musculoskeletal and join pain, under close supervision by the primary care provider."*
+
+A blanket avoid followed immediately by a use-case, with no framing to reconcile them. (Also: *"join pain"* → *"joint pain"*.) Quiz items key aspirin as contraindicated — the module's unambiguous half.
+
+### PEDS-25 · Module title promises immunologic content that is absent
+
+`Week3_Pediatric_Hematologic_or_Immunologic_Alterations.md` is titled "Hematologic **or Immunologic** Alterations" but contains no immunologic disorder at all — no immunodeficiency, no HIV, no allergy or hypersensitivity. The only immune-adjacent lines are that anemic children are infection-prone via tissue hypoxia, and corticosteroid infection precautions.
+
+**Re-check:** confirm no immunologic sections were skipped. If the module genuinely has none, the title is the defect.
+
+### PEDS-26 · Section titled for sickle cell, contains general anemia care
+
+Same file, §4 — heading *"Nursing Care - Sickle Cell Anemia"*, but the slides are general anemia nursing care with no sickle-specific content. Sickle cell has its own dedicated module in the same week.
+
+### PEDS-27 · Kawasaki skin care reverses between sections
+
+`Week3_Kawasaki_Disease_and_Multisystem_Inflammatory_Syndrome.md` — §8 (KD nursing care) says to avoid soap because it dries the skin; §15 (MIS-C nursing care) says to apply skin lotions and omits the soap caution entirely. Same desquamation problem, opposite instruction. The quiz keys the §8 version as the module's dominant statement.
+
+### PEDS-28 · Kawasaki introduced as a "Hematologic Alteration"
+
+Same file — the Introduction files KD under hematologic alterations; the body correctly describes it as a vasculitis. Not keyed either way.
+
+### PEDS-29 · Adult content in a pediatric course — now a pattern, not a typo
+
+Three instances outside Week 2:
+
+- `Week3_Kawasaki_Disease_and_Multisystem_Inflammatory_Syndrome.md` — the COVID-19 3D-model transcript gives *"normal respiratory rate 12-20 breaths/min"*, an adult range.
+- `Week3_Pediatric_Circulatory_System_Alterations.md` — see PEDS-22.
+- `Week1_Nursing_Care_Pediatric_Populations.md` — §3's two case studies are **adults aged 34 and 54**, in a pediatric pain module.
+
+Together with **PEDS-12** from Week 2, this is four instances across three weeks. Worth reporting as a single systemic finding — adult assets appear to be reused into the pediatric course without adaptation — rather than as four isolated typos.
+
+### PEDS-30 · Piaget: no stage for 3–5 year olds, then a stage for 3–5 year olds
+
+`Week1_Introduction_to_Pediatric_Nursing.md` — preschool Cognitive row
+
+> *"Piaget's cognitive theory does not include a period specifically for children 3 to 5 years old. The preoperational is divided into two stages: the preconceptual (2 to 4 years), and intuitive thought (4 to 7 years)."*
+
+The disclaimer is contradicted by the rest of its own sentence, and by the toddler row, which places preoperational at 2–7 years. The intended point is presumably that Piaget draws no stage boundary *at* 3–5 — but as written it reads as a denial that the age band is covered. Quiz items key the preoperational version.
+
+### PEDS-31 · Immunization schedule is internally inconsistent — highest priority
+
+`Week1_Introduction_to_Pediatric_Nursing.md` — the Health Promotion rows across infant / toddler / preschool / school-age
+
+| Stated as | Then given |
+|---|---|
+| *"Inactivated poliovirus (IPV): 3-dose series at 2, 4, and 6-15 months"* | *"Inactivated poliovirus: 3rd dose at 18 months"* (toddler), *"4th dose (4-6 years)"* (preschool) |
+| *"Diphtheria, tetanus, and acellular pertussis (DTap): 4-dose series at 2, 4, 6, 15 months"* | *"DTap: 4th dose at 15 months"* (toddler — consistent), then *"Tetanus, diphtheria & acellular pertussis (Ddap): 5th dose (4-6 years)"* (preschool) |
+
+Three distinct problems:
+
+1. **IPV** is called a 3-dose series but four doses are listed, and the 3rd dose is placed at both *"6-15 months"* and *"18 months."*
+2. **DTaP** is called a 4-dose series but a 5th dose is listed.
+3. ***"Ddap"*** appears twice — at 4–6 years and at 11–12 years — and is not a vaccine. The 4–6 year dose is **DTaP #5**; the 11–12 year dose is **Tdap**. The guide uses one misspelling for two different products. (`DTap` is also the wrong casing for DTaP throughout.)
+
+This is the second immunization defect on this report after **PEDS-01** — but unlike PEDS-01, the content *is* present here. It is just wrong. Chris has confirmed immunization schedules are tested material. **No quiz item keys any of it.**
+
+**Re-check:** confirm our capture is faithful — these are table cells and could have lost a row. If faithful, this is the single most important item to send the authors, and the schedule should be reconciled against the CDC chart handed out in class before anyone studies from this guide.
+
+### PEDS-32 · Developmental age ranges disagree between sections
+
+`Week1_Introduction_to_Pediatric_Nursing.md` — adolescence is given as 13–20 years in one section and split as early 11–14 / middle 15–17 / late 18–22 in the next. Toddler and preschool also overlap at 36 months.
+
+### PEDS-33 – PEDS-35 · Gaps rather than errors — confirm nothing was skipped
+
+- **PEDS-33 · Child maltreatment** (`Week1_Child_Abuse.md`): states mandatory reporting exists in all 50 states with civil and criminal penalties, but gives **no reporting timeframe, no agency, and no bruise-dating criteria**. The quiz deliberately makes "estimate the age of each bruise in days" a distractor rather than invent a standard. Also inconsistent terminology: §§8 and 12 say *"Substance abuse"*, §17 says *"substance misuse."*
+- **PEDS-34 · Sickle cell** (`Week3_Sickle_Cell_Anemia.md`): gives **no pediatric vital-sign norms** anywhere, so a "which cues are expected" item has to source ranges from the textbook rather than Edapt. The module also calls vaso-occlusive crisis *"non-life-threatening"* while listing acute chest syndrome and stroke among its manifestations.
+- **PEDS-35 · Sickle cell, absent content:** hydroxyurea, transcranial doppler stroke screening, and folic acid do not appear anywhere. Standard pediatric curriculum content — likely textbook or handout, but confirm the module has no section covering them.
+
+---
+
+# NR449 Evidence-Based Practice — Week 1
+
+## Capture-suspect — check these first
+
+### EBP-13 · Level III definition ends mid-phrase
+
+`Week1_Research_as_Evidence_in_Nursing_Practice.md`
+
+> *"Level III = evidence from case studies, studies of intact groups, non-randomized"*
+
+The trailing *"non-randomized"* is a dangling adjective with no noun. Separately, Level III overlaps Level II, which already claims *"randomized or non-randomized control studies"* — so a non-randomized controlled study qualifies for both levels.
+
+**Re-check:** likely a dropped trailing word (e.g. "non-randomized trials"). Recovering it may also resolve the overlap.
+
+## Source-suspect — verify our capture is faithful, then report upstream
+
+### EBP-14 · Nuremberg Code dated 1947 and 1949 in the same course
+
+- `Week1_Historical_Events_in_Research.md` §3 timeline: *"1947: The Nuremberg Code"*
+- Same file, §5: *"The Nuremberg Code, established in 1949, was used by American military judges…"*
+- `Week1_Ethics_in_Research.md`: *"The ethical standards known as the Nuremberg Code were developed in 1949."*
+
+The timeline and the prose disagree, and the prose date is repeated across two modules — so a student sees 1949 twice and 1947 once. (The Code was issued with the August 1947 verdict; 1949 is when it appeared in the published trial record. Both dates circulate, which is exactly why the guide should pick one and say why.)
+
+**Report to authors:** an exam item asking when the Nuremberg Code was established is currently unanswerable from our own materials.
+
+### EBP-15 · 1986 NIH nursing research body named wrong
+
+`Week1_Introduction_to_Evidence_Based_Practice.md`
+
+> *"**1986:** The National Center for Research for Nursing (NCRN) opened as part of the National Institutes of Health (NIH)."*
+
+The body established in 1986 was the **National Center for Nursing Research (NCNR)**. Both the expansion and the acronym are wrong, and the error repeats in the next line — *"The NCRN became an institute…"*. The guide gets the 1993 successor right (NINR), which isolates the 1986 name as the defect.
+
+**Report to authors:** verifiable against NINR's own published history. A "what was NINR called before 1993" item would currently be keyed to a name that never existed.
+
+---
+
+# NR449 Evidence-Based Practice — Week 3
+
+**Partial.** `Week3_Research_Design.md` is fully captured (manifest reconciles 16/16, all 9 Explore sections present, no garbling) and is audited below. `Week3_Theory_and_Frameworks.md` was still being extracted when this round was written — its manifest claims 7 captured sections but only §1 and §3 are present. **Re-audit that module once extraction completes**; it is not covered here, and the Week 3 quiz currently keys Research Design only.
+
+## Source-suspect — verify our capture is faithful, then report upstream
+
+### EBP-16 · Qualitative research both has and does not have variables
+
+`Week3_Research_Design.md`
+
+§6, the section devoted to variables:
+
+> *"Variables are not used in qualitative research, but are the basis of quantitative research."*
+
+§14, in a passage whose worked example is explicitly *"a phenomenological study of nursing students who work 20 hours or more a week"*:
+
+> *"Design variables are identified and defined"* … *"Are the students also parents? … How old are the students? These are all variables that may influence outcomes."*
+
+The same qualitative study is said both to have no variables and to require identified, defined variables. This is the sharpest contradiction in the module — and it is squarely testable, since "do qualitative studies use variables" is exactly the kind of item that gets written.
+
+**How the quiz handles it:** keyed to §6 (the section devoted to variables, and the more declarative statement), with a parenthetical in the rationale flagging the §14 position so a student is not blindsided if the exam keys the other side.
+
+### EBP-17 · Survey and cross-sectional definitions overlap
+
+Same file, §7:
+
+- Survey — *"a single point in time or a single sample characteristic"*
+- Cross-sectional — *"single point in time, sample characteristics differ on a key characteristic"*
+
+The *"or"* in the survey definition makes it subsume cross-sectional, since a cross-sectional study is also conducted at a single point in time. Only the paired cancer-diagnosis examples actually disambiguate the two, so quiz items are built on the examples rather than the definitions.
+
+**Report to authors:** the survey definition likely wants "and", or an explicit contrast naming the differing-characteristic criterion as what distinguishes cross-sectional.
+
+### EBP-18 · One causality criterion defined without a mechanism
+
+Same file, §12. Temporality and specificity each get a mechanism and an example; "influence" gets only a bare noun phrase:
+
+> *"The statistical soundness of the effect that the independent variable has on the dependent variable"*
+
+No threshold, no example, no contrast with the other two criteria. A "which criterion is unmet" item cannot fairly key influence, so the quiz keys specificity instead.
+
+### EBP-19 · Article-evaluation criteria are partly circular
+
+Same file, §14. Three of the five bullets restate the same phenomenology example rather than teaching a distinct criterion. The criterion *"The design selected can be clearly identified and linked to the research question"* is explained as:
+
+> *"The reader should be able to identify the design used and this design should be a phenomenological design…"*
+
+which asserts the answer to the worked example instead of stating the standard. The section is usable but thin — only two bullets (replication, and explaining decisions as a qualitative design emerges) carry transferable content.
+
+**Same defect class as the FINER "Interesting" note in Round 1** — a criterion defined by restating itself. Worth reporting together as an editorial pattern.

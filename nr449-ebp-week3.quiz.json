@@ -1,0 +1,329 @@
+{
+ "meta": {
+  "title": "NCLEX Practice — Evidence-Based Practice (NR449) Week 3",
+  "header": "NCLEX Practice — Evidence-Based Practice (NR449)",
+  "subtitle": "Week 3 · Research Design · 11 items",
+  "footnote": "NR449 Week 3 practice · 11 items · rationale after each answer",
+  "cardTitle": "Week 3 Quiz — Research Design",
+  "chips": [
+   "Research Design",
+   "Quantitative vs Qualitative",
+   "Experimental Design",
+   "Randomization & Control",
+   "Validity & Reliability",
+   "Sampling"
+  ],
+  "classCode": "NR449",
+  "className": "Evidence-Based Practice",
+  "classSlug": "nr449-evidence-based-practice",
+  "exam": "Week 3",
+  "examOrder": 13,
+  "kind": "topic-practice"
+ },
+ "questions": [
+  {
+   "topic": "Design Approach",
+   "type": "matrix",
+   "cat": "Management of Care",
+   "lvl": "Analysis",
+   "stem": "A nursing research committee is reviewing five proposals submitted by staff nurses. Classify each proposal by the design approach it uses.",
+   "cols": [
+    "Quantitative",
+    "Qualitative",
+    "Mixed-method"
+   ],
+   "rows": [
+    {
+     "t": "Comparing the mean blood pressures of clients who completed cardiac rehabilitation after a myocardial infarction with those of clients who did not",
+     "a": 0
+    },
+    {
+     "t": "Investigating what it means to be a nursing student who also works 20 or more hours a week",
+     "a": 1
+    },
+    {
+     "t": "Collecting post-rehabilitation blood pressure readings and also interviewing those same clients about how the program shaped their recovery",
+     "a": 2
+    },
+    {
+     "t": "Living within a rural community for two years to learn how its members view illness and healing",
+     "a": 1
+    },
+    {
+     "t": "Counting how many days elapse before clients refill a newly prescribed antihypertensive and analyzing the pattern by age group",
+     "a": 0
+    }
+   ],
+   "rat": "This module defines a quantitative design as one that measures data and analyzes numbers (blood pressures, refill intervals), a qualitative design as one that seeks the lived experiences of participants or the meaning of a phenomenon (what it means to work while in nursing school; how a community views illness), and a mixed-method design as one in which both qualitative and quantitative data are available. Adding the clients' lived experiences to the blood pressure study is the module's own example of what converts a quantitative study into a mixed-method one.",
+   "strat": "Ask what is actually being analyzed — numbers, meaning, or both."
+  },
+  {
+   "topic": "Design Decisions",
+   "type": "cloze",
+   "cat": "Management of Care",
+   "lvl": "Application",
+   "stem": "A nurse researcher wants to determine whether a structured 48-hour discharge phone call lowers the 30-day readmission rate on a heart failure unit.\n\nBecause the aim is to test a relationship between variables rather than to describe a phenomenon, the study is [1]. Because the data to be analyzed are readmission counts, the design approach is [2]. Before any specific design can be chosen, the first of the three phases of decision making requires the researcher to [3].",
+   "blanks": [
+    {
+     "label": "[1] Aim of the study",
+     "opts": [
+      "exploratory",
+      "confirmatory",
+      "emergent"
+     ],
+     "a": 1
+    },
+    {
+     "label": "[2] Design approach",
+     "opts": [
+      "qualitative",
+      "quantitative",
+      "mixed-method"
+     ],
+     "a": 1
+    },
+    {
+     "label": "[3] First phase of decision making",
+     "opts": [
+      "identify the assumptions about the knowledge the study will produce",
+      "develop detailed plans for how the study will be implemented",
+      "select the design that fits the purpose of the study"
+     ],
+     "a": 0
+    }
+   ],
+   "rat": "The module states that confirmatory studies are based on testing a relationship between variables, while exploratory studies are usually qualitative or mixed-method and describe a phenomenon. Readmission counts are measured numbers, which is this module's definition of a quantitative design. The three phases run in a fixed order — identify assumptions, select a design, implementation — and it is the assumptions phase that tells the researcher whether a quantitative, qualitative, or mixed-method design is required, so it cannot be skipped ahead of choosing the design or planning its execution.",
+   "strat": "Testing a relationship = confirmatory; assumptions come before the design, and the design before the plan."
+  },
+  {
+   "topic": "Descriptive Study Designs",
+   "type": "match",
+   "cat": "Management of Care",
+   "lvl": "Analysis",
+   "stem": "A faculty mentor asks a student to name the descriptive design used in each of six study summaries. Match each summary to its design.",
+   "shared": [
+    "Survey design",
+    "Cross-sectional design",
+    "Longitudinal study",
+    "Case study",
+    "Single subject design",
+    "Phenomenology"
+   ],
+   "rows": [
+    {
+     "t": "Teen clients are asked, at the moment of their cancer diagnosis, what their top information need is",
+     "a": 0
+    },
+    {
+     "t": "Clients aged 5 to 50 years are asked, at the moment of their cancer diagnosis, what their top information need is",
+     "a": 1
+    },
+    {
+     "t": "Teen cancer clients are asked about their top information need at diagnosis, at first treatment, and again at six months",
+     "a": 2
+    },
+    {
+     "t": "Detailed information is gathered by varied techniques from one campus's graduating nursing class about their priority needs after graduation",
+     "a": 3
+    },
+    {
+     "t": "A small group's adherence to blood pressure medication is reviewed repeatedly over time to follow each person's own response",
+     "a": 4
+    },
+    {
+     "t": "Nursing students who work 20 or more hours a week are interviewed to uncover the meaning of that experience",
+     "a": 5
+    }
+   ],
+   "rat": "Survey and cross-sectional designs both use a single point in time; this module separates them by whether the sample differs on a key characteristic — teens only is a single sample characteristic (survey), while ages 5 to 50 differ on age (cross-sectional). Longitudinal data are collected at select points over time to describe change, a case study collects detailed information by varied techniques about a single individual, program, event, or action, single subject design studies interventions against individuals' own responses at baseline or ongoing, and phenomenology seeks the meaning of a lived experience among those who lived it.",
+   "strat": "Single point in time? Then ask whether the sample varies on a key characteristic — that is what splits survey from cross-sectional."
+  },
+  {
+   "topic": "Descriptive Study Designs",
+   "type": "radio",
+   "cat": "Management of Care",
+   "lvl": "Application",
+   "stem": "A nurse researcher wants to understand how the members of a remote community understand their relationship to the environment and to healing. The researcher plans to live within the community and take part in its daily life for the next two years. Which design is the researcher describing?",
+   "opts": [
+    "Phenomenology, because the study centers on the meaning of a lived experience shared by participants",
+    "Ethnography, because the researcher immerses in the culture over an extended period of time",
+    "Grounded theory, because a theory of process is developed from analysis of participants' words",
+    "Case study, because varied techniques collect detailed information about a single group"
+   ],
+   "ans": 1,
+   "rat": "This module defines ethnography as a cultural study in which the researcher immerses themselves in the culture over a period of time, and its example is a researcher living within a tribe for years to understand their view of the environment — the immersion plus duration is the tell. Phenomenology would fit only if the aim were the meaning of one specific lived experience among people who had experienced it, grounded theory builds a theory of process, action, or interaction from participants' words, and a case study explores a single individual, program, event, or action rather than a whole culture.",
+   "strat": "Immersion plus time equals ethnography; meaning of one experience equals phenomenology."
+  },
+  {
+   "topic": "Variables",
+   "type": "cloze",
+   "cat": "Management of Care",
+   "lvl": "Analysis",
+   "stem": "A researcher is studying whether a 30-minute screen-free evening routine increases the number of hours adolescents sleep. Each participant's age is recorded to describe the sample. Partway through data collection the researcher learns that several participants share a bedroom with a sibling who studies late with the light on.\n\nClassify each element of this study.",
+   "blanks": [
+    {
+     "label": "[1] The screen-free evening routine",
+     "opts": [
+      "independent variable",
+      "dependent variable",
+      "extraneous variable"
+     ],
+     "a": 0
+    },
+    {
+     "label": "[2] Hours of sleep",
+     "opts": [
+      "independent variable",
+      "dependent variable",
+      "descriptive variable"
+     ],
+     "a": 1
+    },
+    {
+     "label": "[3] The sibling's late-night light",
+     "opts": [
+      "independent variable",
+      "extraneous variable",
+      "dependent variable"
+     ],
+     "a": 1
+    },
+    {
+     "label": "[4] The recorded ages",
+     "opts": [
+      "research variables introduced to measure an expected effect",
+      "descriptive variables not influenced by the study or researcher",
+      "extraneous variables that confuse interpretation of the outcome"
+     ],
+     "a": 1
+    }
+   ],
+   "rat": "This module defines the independent variable as the cause in cause and effect, added to the study to measure an effect, and the dependent variable as the effect or outcome — so the routine is independent and hours of sleep dependent. An extraneous variable is not part of the planned research but influences the outcome and may confuse interpretation; the module's own parallel example is blue-light exposure occurring outside the research framework. Age is a descriptive variable: a measurable participant characteristic that is not influenced by the study or the researcher.",
+   "strat": "Cause = independent, effect = dependent, uninvited influence = extraneous, description of the sample = descriptive."
+  },
+  {
+   "topic": "Variables",
+   "type": "radio",
+   "cat": "Management of Care",
+   "lvl": "Application",
+   "stem": "A student proposes a phenomenological study of what caregiving means to the spouses of clients living with dementia, then asks the faculty mentor for help naming the independent and dependent variables. Which response by the mentor reflects this module's teaching?",
+   "opts": [
+    "The caregiving role would be the independent variable and the reported burden the dependent variable",
+    "Variables are the basis of quantitative research and are not used in a qualitative design like this",
+    "Both variables can be named once the interview data have been analyzed into themes",
+    "Spouse age and years of caregiving would serve as the extraneous variables here"
+   ],
+   "ans": 1,
+   "rat": "The Variables section of this module states directly that variables are not used in qualitative research but are the basis of quantitative research, so a phenomenological study — which seeks the meaning of a lived experience — has no independent or dependent variable to name. Assigning cause-and-effect roles to the caregiving experience treats a qualitative aim as a confirmatory quantitative one, and extraneous variables belong to that same quantitative framework. (Note the module's evaluation section separately asks whether design variables such as age are identified when appraising a qualitative article; the Variables section is its direct statement on this question.)",
+   "strat": "If the design is chasing meaning rather than measurement, stop hunting for variables."
+  },
+  {
+   "topic": "Design Selection",
+   "type": "multi",
+   "cat": "Safety & Infection Prevention and Control",
+   "lvl": "Analysis",
+   "stem": "A nurse researcher proposes a three-year study of a new fall-prevention protocol on a medical-surgical unit. The unit's census falls sharply every summer, the protocol calls for one group of clients to go without the intervention, the researcher has never carried a study past six months, and the grant covers only the first year. Which of these are design-selection factors this module says must be weighed before the design is finalized? Select all that apply.",
+   "opts": [
+    "Whether the client population will still be available on the unit throughout the data-collection window",
+    "Whether going without the protocol places that group of clients in danger",
+    "Whether the researcher's own strengths and weaknesses could become limitations of the study",
+    "Whether the funding and materials on hand can carry the project through its full time frame",
+    "Whether the sample will be large enough for the findings to reach statistical significance",
+    "Whether the unit's policy manual will be revised once the findings are reported"
+   ],
+   "ans": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "rat": "This module lists the factors that influence design selection: variables (protecting participants is an ethical role of the nurse researcher, and putting participants in danger is a reason not to implement a design), sampling and measurements (is the population available during the research time frame?), the researcher's strengths and weaknesses, the time frame, the amount of control required, the audience, and resources such as money, materials, and participant pools. The size needed for statistical significance and the policy change that may follow are products of the study, not factors that determine which design can be used.",
+   "strat": "Design-selection factors are all about what the researcher can feasibly and ethically do; anything about the results comes later."
+  },
+  {
+   "topic": "Relationship Study Designs",
+   "type": "match",
+   "cat": "Management of Care",
+   "lvl": "Analysis",
+   "stem": "A journal club is sorting five studies by the relationship design each one used. Match each study to its design.",
+   "shared": [
+    "Correlation",
+    "Predictive study",
+    "Grounded theory",
+    "Test of model fit"
+   ],
+   "rows": [
+    {
+     "t": "Examining the relationship between maternal age and anxiety among mothers scheduled for a planned cesarean birth",
+     "a": 0
+    },
+    {
+     "t": "Comparing the level of a single variable, treatment adherence, across two separate populations",
+     "a": 0
+    },
+    {
+     "t": "Determining whether a participant's age forecasts that participant's medication adherence",
+     "a": 1
+    },
+    {
+     "t": "Analyzing teens' own words to build an explanation of how they come to take their medication consistently",
+     "a": 2
+    },
+    {
+     "t": "Applying a preconceived model to test whether adding a support group affects the coping skills of teens with anxiety",
+     "a": 3
+    }
+   ],
+   "rat": "This module defines a correlation as a relationship between two variables in a single population or one variable in two populations, so both of the first two studies are correlations. A predictive study relationship runs between a predictor variable and an outcome variable, which is the age-to-adherence study. Grounded theory develops a theory of process, action, or interaction based on analysis of participants' words. A test of model fit uses a preconceived model to test theories of causal relationships between variables.",
+   "strat": "Correlation describes a relationship, prediction aims one variable at an outcome, grounded theory builds from words, model fit starts from the model."
+  },
+  {
+   "topic": "Causality",
+   "type": "radio",
+   "cat": "Management of Care",
+   "lvl": "Analysis",
+   "stem": "A study reports that clients who received a new mobility protocol walked farther at discharge than clients who did not. Every client received the protocol before walking distance was measured, and the statistical effect of the protocol was strong. During the same months, however, the unit added a full-time physical therapist and changed its staffing ratio. Which criterion for establishing causality has this study failed to meet?",
+   "opts": [
+    "Temporality, because the sequence between the independent and dependent variables is unclear",
+    "Influence, because the effect of the independent variable is not statistically sound",
+    "Specificity, because competing explanations for the relationship were not controlled",
+    "Reliability, because the walking-distance measurement was not repeated over time"
+   ],
+   "ans": 2,
+   "rat": "This module names three criteria that must be considered in a causality study: temporality (the time sequence between the independent and dependent variables supports causation), influence (the statistical soundness of the effect the independent variable has on the dependent variable), and specificity (the elimination or control of other explanations for the relationship). The sequence here is intact and the effect is strong, but the new therapist and the staffing change are uncontrolled alternative explanations, which is exactly what specificity requires the researcher to rule out. Reliability of measurement is not one of the three criteria this module lists.",
+   "strat": "Temporality = order, influence = strength, specificity = nothing else explains it."
+  },
+  {
+   "topic": "Causality",
+   "type": "radio",
+   "cat": "Management of Care",
+   "lvl": "Application",
+   "stem": "A nurse researcher introduces a hand-off communication bundle on one telemetry unit and measures error reports before the bundle and again after it. No comparison unit is used, and the nurses on the unit were not assigned to groups in any way. Which design has the researcher used?",
+   "opts": [
+    "Experimental design, because an intervention was introduced and the resulting outcome was measured",
+    "Quasi-experimental design, because a treatment was given without randomization or a control group",
+    "Causal-comparative design, because groups are matched on the independent variables of interest",
+    "Time series analysis, because a baseline was measured before the treatment was implemented"
+   ],
+   "ans": 1,
+   "rat": "This module defines quasi-experimental design as introducing a treatment to a group with no random assignment and no control group, which is precisely this study. An experimental design would require randomly assigning subjects to a treatment group and a control group and comparing the outcomes. A causal-comparative/case-control design matches already-formed groups by independent variables and analyzes dependent variables for differences. Time series analysis measures a baseline, implements the treatment, then collects outcome data over time at specified dates or periods rather than at one point afterward.",
+   "strat": "No randomization and no control group drops experimental down to quasi-experimental."
+  },
+  {
+   "topic": "Evaluating Research Articles",
+   "type": "radio",
+   "cat": "Management of Care",
+   "lvl": "Evaluation",
+   "stem": "A nurse appraises a published qualitative study of nursing students who work while enrolled. The article names the design in standard research language, gives the rationale for choosing it, ties that design to the research question, and identifies the variables that could influence outcomes. It reports the resulting themes but never describes how participants were recruited and interviewed or how the researchers' choices were made as the design took shape. Using this module's criteria, which conclusion is best supported?",
+   "opts": [
+    "The design that was chosen cannot be linked to the research question as the article is written",
+    "The rationale for the design choice was not provided anywhere in the published article",
+    "The study could not be replicated, and the emerging design decisions are not explained",
+    "The variables that could influence the students' outcomes were left undefined by the researchers"
+   ],
+   "ans": 2,
+   "rat": "This module's evaluation criteria ask whether the study can be replicated by others and, in qualitative design, whether the researcher has explained the decisions made as the design emerged. The article satisfies the other criteria the module lists — the design is identified in standard language, the rationale is given, the design is linked to the research question, and the influencing variables are identified — so the only unmet criterion is the missing procedural detail that would let another researcher reproduce the work and follow how the design developed.",
+   "strat": "Walk the evaluation checklist item by item; the criterion nothing in the article addresses is the answer."
+  }
+ ]
+}
