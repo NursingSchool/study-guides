@@ -77,7 +77,8 @@
     }
    ],
    "rat": "Nasal flaring, head bobbing, grunting, retractions, a climbing respiratory rate, and a falling level of consciousness are the deterioration signs this lesson lists — each describes increased work of breathing or failing compensation. Fever, nasal discharge, diarrhea, and anorexia are the generalized symptoms infants and young children routinely have with a respiratory illness; they drive the dehydration risk but are not by themselves evidence the airway is failing.",
-   "strat": "What the nose, chest, and head are doing is work of breathing — that is distress; whole-body symptoms are just the infection."
+   "strat": "What the nose, chest, and head are doing is work of breathing — that is distress; whole-body symptoms are just the infection.",
+   "why": "Nasal flaring, head bobbing, grunting, retractions, a climbing respiratory rate, and reduced alertness all show increased work of breathing or failing compensation. Each one signals worsening distress. Fever, nasal discharge, diarrhea, and refusing food are generalized symptoms infants commonly show with any respiratory infection. They raise dehydration risk but do not by themselves prove the airway is failing."
   },
   {
    "n": 2,
@@ -94,7 +95,13 @@
    ],
    "ans": 1,
    "rat": "Infants have smaller airway diameters and shorter distances between structures in the respiratory tract, so the edema and secretions of bronchiolitis obstruct airflow far more than the identical virus does in a school-age child — which is why RSV presents as severe in infants and mild in older children. Maternal antibodies do fade around 3 months, but infants are building their own between 3 and 6 months; alveolar development and cough-reflex maturity are not what makes this infant decompensate.",
-   "strat": "Same swelling, smaller tube — narrowing a small airway costs far more airflow than narrowing a big one."
+   "strat": "Same swelling, smaller tube — narrowing a small airway costs far more airflow than narrowing a big one.",
+   "why": "Infants have smaller airway diameters and shorter distances between structures in the respiratory tract. The same edema and secretions from bronchiolitis narrow that small airway far more than they narrow an older child's larger one. This size difference is why RSV can look severe in an infant and mild in her school-age brother.",
+   "whyNot": [
+    "An immature cough reflex describes secretion clearance, not the airway-diameter problem that actually determines how much a given amount of swelling obstructs airflow.",
+    "Maternal antibodies do fade around three months, but infants are actively building their own between three and six months, so this is not the mechanism.",
+    "Alveolar development affects gas exchange surface area, but it is not what makes this particular infant more symptomatic than her brother."
+   ]
   },
   {
    "n": 3,
@@ -133,7 +140,8 @@
     }
    ],
    "rat": "In infants the oximetry sensor goes on a toe or around the foot, where the probe fits and stays put. End-tidal carbon dioxide monitoring reads exhaled CO2 continuously; transcutaneous monitoring is also continuous but follows oxygen, and a blood gas is a single invasive snapshot. Pulmonary function testing with spirometry is the noninvasive study used to judge how severe the disease is and whether treatment is working — an x-ray shows structure, not function.",
-   "strat": "Match the tool to the question: oxygen, carbon dioxide, or airflow — each monitor answers only one of the three."
+   "strat": "Match the tool to the question: oxygen, carbon dioxide, or airflow — each monitor answers only one of the three.",
+   "why": "In infants, the oximetry probe goes on a toe or around the foot, where it fits and stays in place. End-tidal carbon dioxide monitoring gives continuous data on exhaled carbon dioxide, unlike a single arterial blood gas or oxygen-based transcutaneous monitoring. Pulmonary function testing with spirometry is the noninvasive study that grades disease severity and treatment response."
   },
   {
    "n": 4,
@@ -150,7 +158,13 @@
    ],
    "ans": 2,
    "rat": "RSV spreads through droplets in the air and on surfaces, where it stays viable for several hours, so respiratory isolation pairs contact with droplet precautions. Droplet-only or standard precautions leave the surface route open — the shared toys are a real transmission path — and RSV is not an airborne pathogen requiring negative pressure and an N95. Infants can shed the virus up to 4 weeks, so precautions stay in place well past the usual 3 to 8 days of contagion.",
-   "strat": "Two routes of spread means two sets of precautions — the droplets in the air and the virus on the crib rail."
+   "strat": "Two routes of spread means two sets of precautions — the droplets in the air and the virus on the crib rail.",
+   "why": "RSV spreads through droplets in the air and survives for hours on surfaces, so it needs both routes covered. Contact precautions block the surface route the shared toys represent, while droplet precautions block the airborne-droplet route. Combining both in a private room matches how this virus actually travels, and infants can shed it for up to four weeks.",
+   "whyNot": [
+    "RSV actually survives for hours on surfaces, so droplet precautions alone leave the contact route these shared toys create wide open.",
+    "Standard precautions with hand hygiene do not add the droplet barrier this virus needs beyond routine contact between patients.",
+    "RSV is not an airborne pathogen, so negative pressure and an N95 respirator are unnecessary protection for this transmission route."
+   ]
   },
   {
    "n": 5,
@@ -174,7 +188,12 @@
     5
    ],
    "rat": "Treatment of RSV in this course is increased fluids (oral or IV), supplemental oxygen, and bronchodilators, and because admissions are driven by breathing difficulty plus dehydration, tracking intake and output belongs in the plan. Palivizumab is monthly prophylaxis given through RSV season to high-risk infants, not a treatment for an infection already underway, and antibiotics do not touch a viral bronchiolitis. (Current national guidance questions routine bronchodilators for bronchiolitis, but this lesson lists them among the RSV treatments.)",
-   "strat": "RSV admissions turn on two problems — moving air and taking fluids; sort every ordered intervention into one of those two."
+   "strat": "RSV admissions turn on two problems — moving air and taking fluids; sort every ordered intervention into one of those two.",
+   "why": "Treatment for RSV bronchiolitis is increased fluids by mouth or IV, supplemental oxygen, and bronchodilators. Because these admissions combine breathing difficulty with dehydration, tracking wet diapers and daily weight belongs in the plan alongside the other interventions. Each selected action addresses either the oxygenation problem or the fluid-balance problem this infant is showing. Current guidance questions routine bronchodilators for bronchiolitis, but this course lists them as treatment.",
+   "whyNot": [
+    "Palivizumab is monthly prophylaxis given through RSV season to high-risk infants, not a treatment for an infection already underway.",
+    "Bronchiolitis is viral, so an antibiotic does nothing for the infection and is not part of this plan."
+   ]
   },
   {
    "n": 6,
@@ -191,7 +210,13 @@
    ],
    "ans": 0,
    "rat": "Palivizumab is an injection given once a month throughout RSV season to prevent infection in children at high risk for severe disease — premature infants, infants with bronchopulmonary dysplasia, and those with certain heart defects — which describes this infant exactly. It gives passive protection that wanes between doses rather than lasting immunity from one dose, it is prophylaxis so it is not started after symptoms begin, and influenza vaccine offers no cross-protection against RSV. (Newer RSV agents have since entered practice; this course names palivizumab as the prophylaxis.)",
-   "strat": "Palivizumab is a monthly shield for the season — given before RSV to the high-risk infant, not after symptoms start."
+   "strat": "Palivizumab is a monthly shield for the season — given before RSV to the high-risk infant, not after symptoms start.",
+   "why": "Palivizumab is an injection given monthly throughout RSV season. It prevents infection in infants at high risk for severe disease, including those born prematurely or treated for bronchopulmonary dysplasia. It gives passive protection that wanes between doses, so it is started before RSV season rather than after symptoms appear. Newer RSV agents have since entered practice, but this course names palivizumab as the prophylaxis it tests.",
+   "whyNot": [
+    "Palivizumab is prophylaxis given before RSV season, not a treatment started once symptoms like a cough already begin.",
+    "Influenza vaccine protects only against influenza and offers no cross-protection against RSV, a different virus entirely.",
+    "Palivizumab gives passive protection that fades between doses, unlike a vaccine's lasting immunity from a single dose."
+   ]
   },
   {
    "n": 7,
@@ -208,7 +233,13 @@
    ],
    "ans": 3,
    "rat": "The 1900 reading is 130 ÷ 300 = 43% of personal best. Under 50% is the red zone — a medical emergency — so the family follows the prescribed red zone plan and contacts the provider. He was green at 0800 (83%) and yellow at 1300 (68%), but he has fallen through both zones across the day; treating him as green or yellow, or waiting to recheck, delays emergency care in a child who is already symptomatic.",
-   "strat": "Divide the reading by personal best: 80-100% green, 50-80% yellow, under 50% red — and act on the newest number."
+   "strat": "Divide the reading by personal best: 80-100% green, 50-80% yellow, under 50% red — and act on the newest number.",
+   "why": "The most recent reading, 130 L/min, is 43% of his 300 L/min personal best. Anything under 50% is the red zone, a medical emergency requiring the prescribed red zone plan and provider contact. His readings fell through green and yellow across the day, so the newest number is the one that must guide the decision.",
+   "whyNot": [
+    "The current reading is 43%, well below the yellow zone's 50 to 80% range, so yellow zone treatment undertreats this drop.",
+    "Waiting to recheck delays emergency care for a child whose peak flow is already in the red zone and symptomatic.",
+    "The reading is far below the 80 to 100% green zone, so treating it as green misses a true emergency."
+   ]
   },
   {
    "n": 8,
@@ -231,7 +262,13 @@
     5
    ],
    "rat": "Saline drops with an aspirator open the nasal passages a young nose-breather needs in order to feed, warm or cool mist soothes inflamed membranes, and checking cold-remedy labels prevents an acetaminophen overdose when an antipyretic is already being given on a schedule. Topical vapor rubs are reserved for children older than 2 years, 6 to 7 wet diapers in 24 hours is the expected output so 3 to 4 is a dehydration warning rather than a goal, and holding fluids deepens the deficit that fever and poor intake have already started.",
-   "strat": "In a congested infant, clearing the nose is a feeding intervention — he cannot suck and breathe through a blocked nose."
+   "strat": "In a congested infant, clearing the nose is a feeding intervention — he cannot suck and breathe through a blocked nose.",
+   "why": "Saline drops with an aspirator open the nasal passages a young nose-breather needs to feed. Warm or cool mist soothes inflamed membranes, and checking cold-remedy labels prevents an acetaminophen overdose when an antipyretic is already scheduled. These three actions treat the airway, the mucosa, and the medication risk together.",
+   "whyNot": [
+    "Topical vapor rub products are reserved for children older than 2 years, so this 15-month-old is too young for one.",
+    "Holding fluids deepens the dehydration risk that fever and poor intake have already started rather than protecting him.",
+    "Six to seven wet diapers in 24 hours is the expected output, so three to four is a warning sign, not a normal goal."
+   ]
   },
   {
    "topic": "Croup Syndromes",
@@ -247,7 +284,13 @@
    ],
    "ans": 1,
    "rat": "Laryngotracheobronchitis is viral and progressive: it follows an upper respiratory infection with a low-grade fever and produces the barky cough and inspiratory stridor Child A has, and crying makes it worse. Epiglottitis comes on within hours with a high fever, sore throat, drooling, and the tripod posture, and one of its three classic signs is the absence of a spontaneous cough — the picture Child B shows. Reversing the two or lumping them together misses that a barking cough points away from epiglottitis while drooling with no cough points straight at it.",
-   "strat": "Cough belongs to croup, drool belongs to epiglottitis — the loud one is safer than the quiet one."
+   "strat": "Cough belongs to croup, drool belongs to epiglottitis — the loud one is safer than the quiet one.",
+   "why": "Laryngotracheobronchitis is viral and progressive. It follows an upper respiratory infection with low-grade fever, a barky cough, and stridor that worsens with crying — the picture Child A shows. Epiglottitis develops within hours with high fever, sore throat, drooling, and the tripod posture. One of its classic signs is an absent spontaneous cough, which fits Child B exactly.",
+   "whyNot": [
+    "Both children being at different stages of the same viral illness ignores that Child B's drooling and absent cough point to a different disease entirely.",
+    "Child A's barky cough and stridor that worsens with crying are the croup picture, not the drooling and silent presentation of epiglottitis.",
+    "Reversing the two diagnoses misses that a barking cough points away from epiglottitis while drooling with no cough points straight at it."
+   ]
   },
   {
    "topic": "Croup Syndromes",
@@ -285,7 +328,8 @@
     }
    ],
    "rat": "Cool mist is the treatment for croup because it constricts the edematous blood vessels in the airway, which is why caregivers are told to take the child into cool night air, use a cold-water vaporizer, or stand at an open freezer, and why the hospital gives cool mist by mask or blow-by; warm steam and warm-mist vaporizers do not produce that vasoconstriction. Once stridor is present at rest, croup is moderate to severe and nebulized racemic epinephrine is given as fast as possible, with corticosteroids added early to reduce edema — antibiotics treat bacterial epiglottitis, not this viral illness. Fluids are encouraged only in mild croup; a child in severe distress is NPO so that a swallow does not become an aspiration.",
-   "strat": "Cool constricts — every home croup remedy on the list is a way to get cold air into the child."
+   "strat": "Cool constricts — every home croup remedy on the list is a way to get cold air into the child.",
+   "why": "Cool mist constricts the edematous blood vessels in the airway. Cool night air, a cold-water vaporizer, or an open freezer door all help at home. Warm steam and warm-mist vaporizers do not produce that vasoconstriction. Once stridor is present at rest, croup is moderate to severe, and nebulized racemic epinephrine is given as quickly as possible. A child in severe distress is kept NPO to prevent aspiration."
   },
   {
    "topic": "Case: Epiglottitis Airway Emergency",
@@ -307,7 +351,13 @@
     5
    ],
    "rat": "Drooling, the tripod posture, and an absent spontaneous cough are the findings that mark this as acute epiglottitis, an obstructive process that can close the airway within minutes, so each one drives immediate action. A heart rate of 148 is what a 4-year-old with a temperature of 39.6°C and respiratory distress is expected to do, and it will settle as those resolve; sitting on the caregiver's lap is the position the child should keep, since being held conserves energy and prevents the crying that worsens obstruction. A normal bedtime is history, not a finding — it tells the nurse how fast this came on rather than what to act on.",
-   "strat": "Separate cues the fever explains from cues the airway explains — only the airway cues start the clock."
+   "strat": "Separate cues the fever explains from cues the airway explains — only the airway cues start the clock.",
+   "why": "Drooling, the tripod posture, and an absent spontaneous cough mark this as acute epiglottitis. That is an obstructive process that can close the airway within minutes. Each finding demands immediate follow-up because the airway itself is threatened. The other findings either reflect the fever and distress already present, or are history rather than a current cue.",
+   "whyNot": [
+    "A heart rate of 148 is the expected response to fever and respiratory distress in a 4-year-old, and it will settle as those resolve.",
+    "Sitting on the caregiver's lap is the position the child should keep, since being held conserves energy and prevents crying that worsens obstruction.",
+    "A normal bedtime is history rather than a current finding — it shows how fast this came on, not what to act on now."
+   ]
   },
   {
    "topic": "Case: Epiglottitis Airway Emergency",
@@ -323,7 +373,13 @@
    ],
    "ans": 3,
    "rat": "Rapid onset preceded by a sore throat, a high fever, painful swallowing, drooling, the tripod position, agitation, and an absent cough are the history and manifestations of acute epiglottitis, usually caused by Haemophilus influenzae — more likely here because the immunizations are incomplete. Laryngotracheobronchitis builds gradually after an upper respiratory infection, runs a low-grade fever, and produces a barky cough with stridor, none of which this child has, and agitation worsening croup would explain one symptom rather than this whole picture. Pharyngitis with dehydration accounts for neither the tripod posture nor the speed of onset; this child is drooling because swallowing hurts, not because fluids were lost.",
-   "strat": "Hours instead of days, high fever, no cough — that combination belongs to the bacterial one."
+   "strat": "Hours instead of days, high fever, no cough — that combination belongs to the bacterial one.",
+   "why": "Rapid onset after a sore throat, high fever, painful swallowing, drooling, the tripod position, agitation, and an absent cough together describe acute epiglottitis. It is usually caused by Haemophilus influenzae, which is more likely here because the child's immunizations are incomplete. This whole combination, not any single symptom, points to a bacterial airway emergency rather than a viral one.",
+   "whyNot": [
+    "Croup builds gradually with a barky cough and stridor, none of which this child has, so crying alone does not explain this whole picture.",
+    "Pharyngitis with dehydration explains neither the tripod posture nor how fast this came on. The child drools because swallowing hurts, not from fluid loss.",
+    "Laryngotracheobronchitis runs a low-grade fever with a barky cough and stridor, symptoms this child does not have at all."
+   ]
   },
   {
    "topic": "Case: Epiglottitis Airway Emergency",
@@ -339,7 +395,13 @@
    ],
    "ans": 0,
    "rat": "All four are genuine risks, but by the ABCs the airway ranks first: epiglottitis is an obstructive inflammatory process that can progress to complete obstruction, severe distress, and sudden death, which is why the child is seen by the provider at once. Aspiration is prevented by NPO status, the fluid deficit and the bacteremia are treated by intravenous fluids and antibiotics, and none of the three can kill this child in the next few minutes the way a closed airway can.",
-   "strat": "When several problems compete, pick the one with the shortest fuse — swelling that can seal the airway wins."
+   "strat": "When several problems compete, pick the one with the shortest fuse — swelling that can seal the airway wins.",
+   "why": "All four problems are real, but the ABCs rank airway first. Epiglottitis is an obstructive process that can progress to complete obstruction, severe distress, and sudden death within minutes. That speed is why the child is seen by the provider immediately, ahead of the other threats.",
+   "whyNot": [
+    "Fluid deficit from painful swallowing is treated with intravenous fluids and can wait behind the airway that could close in minutes.",
+    "Bacteremia is real and is treated with antibiotics, but it cannot kill this child in the next few minutes like a closed airway can.",
+    "Aspiration is prevented by NPO status, a lower-urgency measure than the airway obstruction that threatens to close within minutes."
+   ]
   },
   {
    "topic": "Case: Epiglottitis Airway Emergency",
@@ -383,7 +445,12 @@
     ]
    },
    "rat": "The central problem is impending complete obstruction, so both actions protect the airway: crying and struggling raise oxygen demand and can tip a narrowed airway shut, so the child is held and comforted by the caregiver in the position the child chose, while resuscitation and suction equipment are staged at the bedside for a failing airway. Putting a tongue blade in the mouth can trigger complete obstruction and is never part of the assessment, laying the child flat removes the child's own compensation, and anything oral violates NPO status. Respiratory status with pulse oximetry and the ability to manage oral secretions change minute to minute, while weights, intake and output, bowel sounds, and electrolytes track much slower problems.",
-   "strat": "In suspected epiglottitis nothing goes into the mouth and the child is not laid down — position plus equipment is the intervention."
+   "strat": "In suspected epiglottitis nothing goes into the mouth and the child is not laid down — position plus equipment is the intervention.",
+   "why": "The central problem is impending complete airway obstruction, so both correct actions protect the airway. Crying and struggling raise oxygen demand and can close a narrowed airway. The child therefore stays upright and comforted while resuscitation and suction equipment are staged at the bedside. Respiratory status and secretion handling are monitored because they can change within minutes, unlike weight or electrolytes.",
+   "whyNot": [
+    "Depressing the tongue to inspect the epiglottis can trigger complete obstruction and is never part of this assessment.",
+    "Positioning the child supine for an x-ray removes the compensation the child's own posture is providing."
+   ]
   },
   {
    "topic": "Case: Epiglottitis Airway Emergency",
@@ -406,7 +473,12 @@
     5
    ],
    "rat": "Being held by the caregiver in the self-chosen upright position conserves energy and prevents the crying that worsens the obstruction; suction and resuscitation equipment belong at the bedside before the airway fails; humidified oxygen is given by mask or blow-by for less severe distress, and blow-by avoids the struggle a mask would cause; and NPO status prevents aspiration while readying the child for intubation. A throat culture or any attempt to visualize the epiglottis can provoke complete airway obstruction and is withheld, and forcing the child supine takes away the position that is keeping the airway open.",
-   "strat": "Let the child pick the position, stage the airway gear, and keep hands and instruments out of the mouth."
+   "strat": "Let the child pick the position, stage the airway gear, and keep hands and instruments out of the mouth.",
+   "why": "Being held in the position the child chose conserves energy and prevents crying that worsens obstruction. Suction and resuscitation equipment belong at the bedside before the airway fails. Humidified oxygen is offered by blow-by rather than a forced mask, and NPO status prepares for a possible emergency airway. Each action protects the airway without disturbing the child.",
+   "whyNot": [
+    "Forcing the child supine takes away the upright position that is keeping this airway open right now.",
+    "Any attempt to inspect the throat or obtain a culture can provoke complete airway obstruction and is withheld."
+   ]
   },
   {
    "topic": "Case: Epiglottitis Airway Emergency",
@@ -422,7 +494,13 @@
    ],
    "ans": 2,
    "rat": "The problem being treated was the obstructed airway, so the airway supplies the evidence: epiglottal swelling usually decreases after about 24 hours of antibiotic therapy, and a leak heard around the tube means the supraglottic space has reopened. A temperature down to 38.1°C is partial progress that says nothing about the swelling, the drooling stopped because a catheter is removing the secretions rather than because the child can swallow, and lying still in an intubated child reflects sedation rather than a resolving infection.",
-   "strat": "Judge the outcome against the problem you named — an airway problem is measured with airway data, not the fever curve."
+   "strat": "Judge the outcome against the problem you named — an airway problem is measured with airway data, not the fever curve.",
+   "why": "The problem being treated was the obstructed airway, so the airway itself must supply the evidence of improvement. Epiglottal swelling usually decreases after about 24 hours of antibiotic therapy, and a leak heard around the tube means the supraglottic space has reopened. That direct airway finding is stronger evidence than any sign occurring elsewhere in the body.",
+   "whyNot": [
+    "A falling temperature is partial progress, but it says nothing about whether the epiglottal swelling itself has resolved.",
+    "Lying still in an intubated child reflects sedation rather than evidence that the airway swelling is resolving.",
+    "Drooling has stopped because a catheter is removing secretions, not because the child's swallowing has actually improved."
+   ]
   },
   {
    "topic": "CF Genetics",
@@ -438,7 +516,13 @@
    ],
    "ans": 0,
    "rat": "Cystic fibrosis is autosomal recessive: two unaffected carrier parents each contribute one CFTR mutation, giving a 25% risk per pregnancy. A 1 in 2 pattern describes autosomal dominant inheritance, sex-linked risk to daughters misapplies X-linked reasoning, and a spontaneous new mutation does not explain a recessive disease appearing in a healthy couple.",
-   "strat": "Two healthy parents plus an affected child equals recessive - think carrier plus carrier, one in four."
+   "strat": "Two healthy parents plus an affected child equals recessive - think carrier plus carrier, one in four.",
+   "why": "Cystic fibrosis is autosomal recessive, so two unaffected carrier parents each contribute one CFTR mutation. That combination gives a 25% risk with each pregnancy, regardless of the child's sex or which parent carries which copy. Both parents being healthy carriers is exactly what explains an affected newborn from a couple with no known family history.",
+   "whyNot": [
+    "This describes X-linked inheritance, but cystic fibrosis is autosomal, so sex and parent-of-origin do not change either child's risk.",
+    "A spontaneous new mutation does not explain a recessive disease appearing in a couple who are both known carriers.",
+    "A 1 in 2 risk describes autosomal dominant inheritance, where only one parent needs to carry and pass on the gene."
+   ]
   },
   {
    "topic": "Pancreatic Enzymes",
@@ -454,7 +538,13 @@
    ],
    "ans": 3,
    "rat": "Pancreatic enzymes are given immediately before or with every meal and snack so the enzymes reach the duodenum mixed with the food they must digest. Dosing an hour later means the food has already moved past the enzymes, holding doses when stools improve removes the very therapy producing the improvement, and a single daily dose leaves most of the day's intake undigested.",
-   "strat": "Enzymes have to arrive with the food, not after it - no food, no enzyme dose."
+   "strat": "Enzymes have to arrive with the food, not after it - no food, no enzyme dose.",
+   "why": "Pancreatic enzymes are given immediately before or with every meal and snack so they reach the duodenum mixed with the food they need to digest. Giving them with each eating occasion, not just once a day, matches how often this child actually eats. That timing is what lets the enzymes do their job on every meal and snack.",
+   "whyNot": [
+    "One dose in the morning leaves every later meal and snack that day without enzyme coverage for digestion.",
+    "Holding doses when stools improve removes the very therapy that produced that improvement in the first place.",
+    "Dosing an hour after eating means the food has already moved past the point where enzymes can act on it."
+   ]
   },
   {
    "topic": "CF Inpatient Care",
@@ -477,7 +567,12 @@
     5
    ],
    "rat": "Nebulized therapy is delivered during vest therapy to hydrate the airway while secretions are being mobilized; contact precautions plus masking in common areas are standard for every client with cystic fibrosis; fat-soluble vitamins A, D, E, and K are supplemented because fat malabsorption depletes them; and aerobic exercise increases vital capacity and helps clear secretions. Fat is not restricted - enzyme replacement is what allows fat to be digested and the calories are needed for growth - and children with cystic fibrosis must be separated from one another to prevent cross-infection.",
-   "strat": "In cystic fibrosis, feed the calories and separate the patients - restricting fat and cohorting CF clients are both wrong."
+   "strat": "In cystic fibrosis, feed the calories and separate the patients - restricting fat and cohorting CF clients are both wrong.",
+   "why": "Nebulized saline is given during vest therapy to hydrate the airway while secretions are mobilized. Contact precautions with masking in common areas are standard for every client with cystic fibrosis. Fat-soluble vitamins A, D, E, and K are supplemented because malabsorption depletes them. Enjoyable aerobic activity increases vital capacity and helps clear secretions.",
+   "whyNot": [
+    "Fat is not restricted in cystic fibrosis. Enzyme replacement lets fat be digested, and those calories are needed for growth.",
+    "Children with cystic fibrosis must be kept apart from one another to prevent cross-infection between them, not roomed together."
+   ]
   },
   {
    "topic": "CF Diagnosis",
@@ -493,7 +588,13 @@
    ],
    "ans": 2,
    "rat": "Meconium ileus plus an abnormal newborn screen points to cystic fibrosis, and the sweat chloride test - stimulating and collecting sweat to measure electrolytes - is the confirmatory study. Identifying a CFTR mutation gives a high degree of certainty but does not by itself guarantee the child has the disease, repeating the screen only repeats a screening result, and serum electrolytes reflect losses from sweat rather than confirming the diagnosis.",
-   "strat": "Newborn screen flags it, sweat chloride confirms it - screening and confirming are different jobs."
+   "strat": "Newborn screen flags it, sweat chloride confirms it - screening and confirming are different jobs.",
+   "why": "Meconium ileus plus an abnormal newborn screen points strongly to cystic fibrosis, and the sweat chloride test is the study that confirms it. The test stimulates and collects sweat, then measures the electrolyte concentration in it. Screening and mutation testing raise suspicion, but only the sweat chloride result establishes the diagnosis itself.",
+   "whyNot": [
+    "Serum sodium and chloride levels reflect losses from sweat, but they do not confirm the diagnosis on their own.",
+    "Repeating the newborn screen only repeats a screening result. It cannot serve as the confirmatory diagnostic test.",
+    "Identifying a CFTR mutation gives a high degree of certainty but does not by itself guarantee the child has the disease."
+   ]
   },
   {
    "topic": "CF Exacerbation",
@@ -509,7 +610,13 @@
    ],
    "ans": 1,
    "rat": "By ABCs, falling oxygen saturation with wheezing and copious thick secretions makes ventilation the priority: the bronchodilator opens the bronchi so the airway clearance that follows can move the mucus out. The sputum culture matters but does not relieve obstruction, fever is not a reason to postpone clearance in a deteriorating child, and huff coughing is meant to be combined with other airway clearance therapy rather than used by itself.",
-   "strat": "Open the airway, then clear it - bronchodilator before chest therapy."
+   "strat": "Open the airway, then clear it - bronchodilator before chest therapy.",
+   "why": "By ABCs, falling oxygen saturation with wheezing and copious thick secretions makes ventilation the priority problem to treat. The bronchodilator opens the bronchi first, so the airway clearance that follows can actually move the mucus out. Treating the airway in that order addresses the deterioration trend directly instead of just documenting it.",
+   "whyNot": [
+    "Fever is not a reason to postpone airway clearance in a child whose oxygenation is actively worsening.",
+    "Huff coughing is meant to be combined with other airway clearance therapy, not used by itself while waiting.",
+    "A sputum culture matters for guiding antibiotics but does nothing to relieve the obstruction happening right now."
+   ]
   },
   {
    "topic": "CF Nutrition",
@@ -538,7 +645,8 @@
     }
    ],
    "rat": "Thick secretions plug the pancreatic ducts so trypsin, chymotrypsin, amylase, and lipase never reach the duodenum, leaving undigested fat and protein that produce steatorrhea. The resulting malabsorption, combined with the increased oxygen demand of the lungs, is what drives failure to thrive; sweat electrolyte loss is real in cystic fibrosis but causes dehydration and alkalosis, not the fatty stools, and lactose intolerance is not the mechanism.",
-   "strat": "Frothy foul stools plus poor weight gain equals blocked enzymes - follow the duct, not the gut lining."
+   "strat": "Frothy foul stools plus poor weight gain equals blocked enzymes - follow the duct, not the gut lining.",
+   "why": "Thick secretions plug the pancreatic ducts, so digestive enzymes never reach the duodenum and fat and protein pass through undigested. That malabsorption produces the frothy, foul-smelling stools and, combined with the lungs' increased oxygen demand, drives the poor weight gain. Sweat electrolyte loss is real in cystic fibrosis, but it causes dehydration and alkalosis, not this stool pattern."
   },
   {
    "n": 1,
@@ -577,7 +685,8 @@
     }
    ],
    "rat": "Koplik's spots in the buccal cavity precede the measles rash; mumps produces parotid edema with an earache aggravated by chewing; varicella lesions move papule to vesicle to crust; pertussis produces paroxysmal coughing followed by the inspiratory whoop; in young children rubella often produces rash with no other symptoms. Measles and rubella rashes both begin on the face, so the discriminator is the accompanying picture (fever, cough, conjunctivitis, Koplik's spots) rather than the rash pattern alone.",
-   "strat": "Rashes overlap; the finding unique to one disease is what identifies it."
+   "strat": "Rashes overlap; the finding unique to one disease is what identifies it.",
+   "why": "Koplik's spots inside the cheeks precede the measles rash, and mumps causes parotid swelling with pain on chewing. Varicella lesions progress from papule to vesicle to crust, and pertussis produces paroxysmal coughing followed by the inspiratory whoop. In young children, rubella often produces only a mild rash, which is itself the hallmark this module assigns it."
   },
   {
    "n": 2,
@@ -594,7 +703,13 @@
    ],
    "ans": 1,
    "rat": "This module lists mumps as spread through the air and by direct contact, with saliva as the transmission source, and specifies droplet AND contact precautions, which is what is keyed here. Airborne plus contact belongs to measles and chickenpox in this module, and droplet alone is rubella. Current CDC guidance lists droplet precautions alone for mumps, but the module's version is what this course tests.",
-   "strat": "Saliva travels two ways here, in droplets and on hands and objects, so mumps gets droplet plus contact."
+   "strat": "Saliva travels two ways here, in droplets and on hands and objects, so mumps gets droplet plus contact.",
+   "why": "This module lists mumps as spread through the air and by direct contact, with saliva as the transmission source. It specifies droplet and contact precautions together, which is the combination keyed here. Airborne plus contact belongs to measles and chickenpox in this module, and droplet alone is rubella's precaution, not mumps's. Current CDC guidance lists droplet precautions alone for mumps, but this course tests the module's combined version.",
+   "whyNot": [
+    "Contact precautions alone miss the airborne route this module also assigns to mumps transmission through saliva droplets.",
+    "Droplet precautions alone leave out the direct-contact route this module also lists for mumps transmission.",
+    "Airborne precautions belong to measles and chickenpox in this module, not to mumps, which spreads by droplet and contact."
+   ]
   },
   {
    "n": 3,
@@ -611,7 +726,13 @@
    ],
    "ans": 0,
    "rat": "The cues describe measles, and this module lists its precautions as airborne AND contact: a negative-pressure room with the door closed, an N95, plus gown and gloves. A surgical mask does not filter airborne particles, gown and gloves alone cover only the contact half, and a private room without negative pressure is droplet-level placement.",
-   "strat": "Airborne plus contact means room engineering plus PPE: negative pressure, door closed, N95, gown, gloves."
+   "strat": "Airborne plus contact means room engineering plus PPE: negative pressure, door closed, N95, gown, gloves.",
+   "why": "The cues describe measles, and this module lists its precautions as airborne and contact together. That combination requires a negative-pressure room with the door closed, an N95 respirator, plus a gown and gloves for anyone entering. Only the option pairing room engineering with both layers of personal protective equipment matches what airborne-plus-contact isolation actually requires.",
+   "whyNot": [
+    "A surgical mask does not filter airborne particles, so this plan covers only the droplet distance, not true airborne spread.",
+    "A negative-pressure room without an N95 and without gown and gloves covers only the airborne half of this isolation, not the contact half.",
+    "A private room without negative pressure is droplet-level placement, and an open door defeats the airborne containment measles needs."
+   ]
   },
   {
    "n": 4,
@@ -651,7 +772,8 @@
     }
    ],
    "rat": "This module names three contraindications: severe febrile illness (minor illness is explicitly not one), live virus vaccines in immunocompromised children or after recent passive immunity such as immunoglobulin, and a known allergy to the vaccine or a substance in it; MMR and varicella are also withheld in pregnancy. MMR, varicella, and rotavirus are the live vaccines here. A mild cold with a low-grade temperature and a food allergy unrelated to vaccine components are not reasons to defer.",
-   "strat": "Ask two questions: is it a live vaccine, and is this child's immune status or pregnancy a problem? Minor illness does not hold a dose."
+   "strat": "Ask two questions: is it a live vaccine, and is this child's immune status or pregnancy a problem? Minor illness does not hold a dose.",
+   "why": "This module names three contraindications: severe febrile illness, a live vaccine in an immunocompromised child, and a known allergy to the vaccine or a component. A live vaccine is also held after recent passive immunity, such as immunoglobulin. MMR and varicella are additionally withheld during pregnancy. A minor cold with a low-grade temperature, or a food allergy unrelated to vaccine ingredients, does not defer a dose."
   },
   {
    "n": 5,
@@ -674,7 +796,13 @@
     4
    ],
    "rat": "This module states that a vaccine reaction may occur a few hours to days after injection and that localized tenderness, redness, swelling at the site, low-grade fever, and irritability are expected side effects. Hives with wheezing points to an allergic reaction, spreading redness with purulent drainage points to injection-site infection, and a limp unresponsive episode is a neurologic event; none of those three fit the expected pattern and each needs evaluation.",
-   "strat": "Expected reactions are local and mild and settle on their own; anything systemic, spreading, or neurologic gets reported."
+   "strat": "Expected reactions are local and mild and settle on their own; anything systemic, spreading, or neurologic gets reported.",
+   "why": "This module states that a vaccine reaction may occur hours to days after injection. Localized tenderness, redness, and swelling at the site, a low-grade fever, and irritability are all expected side effects. Fussiness settling in that window is part of the same normal pattern, so all three selected findings fit expected post-vaccine reactions.",
+   "whyNot": [
+    "Spreading redness with purulent drainage points to an injection-site infection, not an expected localized vaccine reaction.",
+    "Hives with wheezing signals an allergic reaction, a systemic event that falls well outside the expected local pattern.",
+    "A limp, unresponsive episode is a neurologic event, not one of the local or mild reactions this module expects."
+   ]
   },
   {
    "n": 6,
@@ -698,7 +826,12 @@
     5
    ],
    "rat": "This module keeps the child away from unvaccinated and high-risk contacts until lesions are crusted, avoids aspirin because of Reye's syndrome, and manages itching with mittens, short smooth nails, loose lightweight clothing, and daily bathing without soap. Scrubbing still abrades the lesions and invites the secondary bacterial skin infection listed as a varicella complication; the module teaches applying pressure to itchy areas instead. A cousin on chemotherapy is precisely the high-risk contact to avoid, and a normal temperature does not end communicability.",
-   "strat": "For varicella, crusted lesions, not a normal temperature, is what ends isolation."
+   "strat": "For varicella, crusted lesions, not a normal temperature, is what ends isolation.",
+   "why": "This module keeps a child with chickenpox away from unvaccinated and high-risk contacts until every lesion has crusted. It also avoids aspirin because of the Reye's syndrome risk. Itching is managed with mittens, short smooth nails, loose lightweight clothing, and daily bathing without soap. Each correct statement matches one of these teaching points: isolation, medication safety, or comfort care.",
+   "whyNot": [
+    "A cousin on chemotherapy is precisely the high-risk contact to avoid, and a normal temperature does not end communicability.",
+    "Scrubbing still abrades the lesions and invites the secondary skin infection this module lists as a complication."
+   ]
   },
   {
    "n": 7,
@@ -737,7 +870,8 @@
     }
    ],
    "rat": "This module directs isolation until the fifth day of the rash for measles and until lesions are crusted for chickenpox, and it warns against aspirin because of Reye's syndrome. A resolved fever and the first appearance of vesicles both fall well inside the communicable window. Aplastic anemia is the risk this module attaches to fifth disease in children with hemolytic disease, not to aspirin.",
-   "strat": "Isolation endpoints follow the rash, not the fever: day 5 for measles, crusted for varicella."
+   "strat": "Isolation endpoints follow the rash, not the fever: day 5 for measles, crusted for varicella.",
+   "why": "This module directs isolation until the fifth day of the rash for measles, and until every lesion has crusted for chickenpox. Both illnesses avoid aspirin because of the risk of Reye's syndrome. A resolved fever and the first appearance of vesicles both fall well inside the communicable window for their respective diseases."
   },
   {
    "n": 8,
@@ -754,7 +888,13 @@
    ],
    "ans": 3,
    "rat": "Meningitis and encephalitis are among the mumps complications this module lists, and nuchal rigidity with headache and photophobia is the meningeal picture; a central nervous system complication outranks the rest. Parotid edema becoming bilateral by day 3, an earache aggravated by chewing, and fever with malaise are the expected acute-phase course the module describes for mumps.",
-   "strat": "Separate the disease's expected course from its complication list; the complication is what gets escalated."
+   "strat": "Separate the disease's expected course from its complication list; the complication is what gets escalated.",
+   "why": "Meningitis and encephalitis are complications this module lists for mumps, and nuchal rigidity with headache and photophobia is the meningeal picture. A central nervous system complication like this outranks the expected acute-phase findings the child is also having. Recognizing that pattern early is what gets this finding evaluated right away.",
+   "whyNot": [
+    "An earache aggravated by chewing is the expected acute-phase course of mumps, not a complication requiring escalation.",
+    "Fever with malaise is part of the expected mumps course this module describes, not a complication in itself.",
+    "Parotid edema becoming bilateral by day three is the typical course of mumps, not a sign of a complication."
+   ]
   },
   {
    "n": 9,
@@ -771,7 +911,13 @@
    ],
    "ans": 2,
    "rat": "This module makes reporting the incidence of communicable diseases to the local public health department part of the nurse's role in preventing spread; public health then handles contact tracing and prophylaxis. Delegating notification to the parents leaves the required report undone, releasing a roster of children breaches their privacy and is not the nurse's call, and delaying the report until treatment ends wastes the window when contacts are still being exposed.",
-   "strat": "A confirmed reportable disease goes to the health department now, not after treatment."
+   "strat": "A confirmed reportable disease goes to the health department now, not after treatment.",
+   "why": "This module makes reporting communicable diseases to the local public health department part of the nurse's role in limiting spread. Public health then handles contact tracing and prophylaxis for everyone the child exposed. Reporting now, rather than after treatment, is what keeps the window for protecting other exposed children open.",
+   "whyNot": [
+    "Delegating notification to the parents leaves the nurse's required report to public health completely undone.",
+    "Releasing a roster of children to the daycare breaches their privacy and is not the nurse's call to make.",
+    "Delaying the report until treatment ends wastes the window when other exposed contacts are still being identified."
+   ]
   }
  ]
 }

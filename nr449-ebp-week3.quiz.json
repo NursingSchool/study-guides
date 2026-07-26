@@ -57,7 +57,8 @@
     }
    ],
    "rat": "This module defines a quantitative design as one that measures data and analyzes numbers (blood pressures, refill intervals), a qualitative design as one that seeks the lived experiences of participants or the meaning of a phenomenon (what it means to work while in nursing school; how a community views illness), and a mixed-method design as one in which both qualitative and quantitative data are available. Adding the clients' lived experiences to the blood pressure study is the module's own example of what converts a quantitative study into a mixed-method one.",
-   "strat": "Ask what is actually being analyzed — numbers, meaning, or both."
+   "strat": "Ask what is actually being analyzed — numbers, meaning, or both.",
+   "why": "A quantitative design measures data and analyzes numbers, such as blood pressures or medication refill intervals. A qualitative design seeks participants' lived experiences or a phenomenon's meaning, such as working while in nursing school or a community's view of illness. A mixed-method design exists once both qualitative and quantitative data are collected, as when interviews are added to a blood-pressure study."
   },
   {
    "topic": "Design Decisions",
@@ -95,7 +96,8 @@
     }
    ],
    "rat": "The module states that confirmatory studies are based on testing a relationship between variables, while exploratory studies are usually qualitative or mixed-method and describe a phenomenon. Readmission counts are measured numbers, which is this module's definition of a quantitative design. The three phases run in a fixed order — identify assumptions, select a design, implementation — and it is the assumptions phase that tells the researcher whether a quantitative, qualitative, or mixed-method design is required, so it cannot be skipped ahead of choosing the design or planning its execution.",
-   "strat": "Testing a relationship = confirmatory; assumptions come before the design, and the design before the plan."
+   "strat": "Testing a relationship = confirmatory; assumptions come before the design, and the design before the plan.",
+   "why": "Confirmatory studies test a relationship between variables, which fits testing whether these calls lower readmissions. Exploratory studies are usually qualitative or mixed-method and simply describe a phenomenon instead. Readmission counts are measured numbers, this module's definition of a quantitative design. The three decision-making phases run in a fixed order — assumptions, design, then implementation — so assumptions must come first."
   },
   {
    "topic": "Descriptive Study Designs",
@@ -138,7 +140,8 @@
     }
    ],
    "rat": "Survey and cross-sectional designs both use a single point in time; this module separates them by whether the sample differs on a key characteristic — teens only is a single sample characteristic (survey), while ages 5 to 50 differ on age (cross-sectional). Longitudinal data are collected at select points over time to describe change, a case study collects detailed information by varied techniques about a single individual, program, event, or action, single subject design studies interventions against individuals' own responses at baseline or ongoing, and phenomenology seeks the meaning of a lived experience among those who lived it.",
-   "strat": "Single point in time? Then ask whether the sample varies on a key characteristic — that is what splits survey from cross-sectional."
+   "strat": "Single point in time? Then ask whether the sample varies on a key characteristic — that is what splits survey from cross-sectional.",
+   "why": "Survey and cross-sectional designs both use one point in time, split by whether the sample differs on a key trait. Longitudinal designs sample at select points over time to describe change. A case study gathers detailed information by varied techniques about one individual, program, event, or action. Single subject design tracks an individual's own response at baseline and ongoing. Phenomenology seeks a lived experience's meaning among people who lived it."
   },
   {
    "topic": "Descriptive Study Designs",
@@ -154,7 +157,13 @@
    ],
    "ans": 2,
    "rat": "This module defines ethnography as a cultural study in which the researcher immerses themselves in the culture over a period of time, and its example is a researcher living within a tribe for years to understand their view of the environment — the immersion plus duration is the tell. Phenomenology would fit only if the aim were the meaning of one specific lived experience among people who had experienced it, grounded theory builds a theory of process, action, or interaction from participants' words, and a case study explores a single individual, program, event, or action rather than a whole culture.",
-   "strat": "Immersion plus time equals ethnography; meaning of one experience equals phenomenology."
+   "strat": "Immersion plus time equals ethnography; meaning of one experience equals phenomenology.",
+   "why": "Ethnography is a cultural study in which the researcher immerses in the culture over a period of time. The module's own example is a researcher living within a tribe for years to learn its members' view of the environment. Immersion plus extended duration is the tell here, since the researcher plans to live within the community for two years.",
+   "whyNot": [
+    "Case study collects detailed information via varied techniques about one individual, program, or event, not an entire culture.",
+    "Phenomenology would apply only to the meaning of one specific lived experience shared by people who experienced it, not immersion in a culture.",
+    "Grounded theory builds a theory of process, action, or interaction from participants' words, not from prolonged cultural immersion."
+   ]
   },
   {
    "topic": "Variables",
@@ -201,7 +210,8 @@
     }
    ],
    "rat": "This module defines the independent variable as the cause in cause and effect, added to the study to measure an effect, and the dependent variable as the effect or outcome — so the routine is independent and hours of sleep dependent. An extraneous variable is not part of the planned research but influences the outcome and may confuse interpretation; the module's own parallel example is blue-light exposure occurring outside the research framework. Age is a descriptive variable: a measurable participant characteristic that is not influenced by the study or the researcher.",
-   "strat": "Cause = independent, effect = dependent, uninvited influence = extraneous, description of the sample = descriptive."
+   "strat": "Cause = independent, effect = dependent, uninvited influence = extraneous, description of the sample = descriptive.",
+   "why": "The independent variable is the cause in cause and effect, added to measure an effect, making the routine independent. The dependent variable is the effect or outcome, so hours of sleep is dependent. An extraneous variable is not part of the planned research but still influences the outcome, like the sibling's late-night light. A descriptive variable, like age, is a measurable participant characteristic not influenced by the study or researcher."
   },
   {
    "topic": "Variables",
@@ -217,7 +227,13 @@
    ],
    "ans": 3,
    "rat": "The Variables section of this module states directly that variables are not used in qualitative research but are the basis of quantitative research, so a phenomenological study — which seeks the meaning of a lived experience — has no independent or dependent variable to name. Assigning cause-and-effect roles to the caregiving experience treats a qualitative aim as a confirmatory quantitative one, and extraneous variables belong to that same quantitative framework. (Note the module's evaluation section separately asks whether design variables such as age are identified when appraising a qualitative article; the Variables section is its direct statement on this question.)",
-   "strat": "If the design is chasing meaning rather than measurement, stop hunting for variables."
+   "strat": "If the design is chasing meaning rather than measurement, stop hunting for variables.",
+   "why": "The module states directly that variables are not used in qualitative research but are the basis of quantitative research. A phenomenological study seeks the meaning of a lived experience, so it has no independent or dependent variable to name. Assigning cause-and-effect roles here would treat a qualitative aim as if it were a confirmatory quantitative study.",
+   "whyNot": [
+    "Naming age and caregiving years as extraneous variables assumes a quantitative framework, but this qualitative design uses no variables of any kind.",
+    "Waiting until themes emerge does not create variables, since phenomenology develops themes rather than independent or dependent variables.",
+    "Naming the caregiving role and burden as independent and dependent variables assigns cause and effect to a study that only seeks meaning."
+   ]
   },
   {
    "topic": "Design Selection",
@@ -240,7 +256,12 @@
     4
    ],
    "rat": "This module lists the factors that influence design selection: variables (protecting participants is an ethical role of the nurse researcher, and putting participants in danger is a reason not to implement a design), sampling and measurements (is the population available during the research time frame?), the researcher's strengths and weaknesses, the time frame, the amount of control required, the audience, and resources such as money, materials, and participant pools. The size needed for statistical significance and the policy change that may follow are products of the study, not factors that determine which design can be used.",
-   "strat": "Design-selection factors are all about what the researcher can feasibly and ethically do; anything about the results comes later."
+   "strat": "Design-selection factors are all about what the researcher can feasibly and ethically do; anything about the results comes later.",
+   "why": "Design-selection factors include variables, since protecting participants is an ethical duty and danger to a group is reason not to implement a design. They also include sampling and measurements, such as whether the population stays available through the data-collection window. The researcher's own strengths and weaknesses count too, along with resources like funding and materials needed to carry the study to completion.",
+   "whyNot": [
+    "Needing a large-enough sample for statistical significance is an outcome the study aims for, not a factor that determines which design gets chosen.",
+    "Revising the policy manual after results are reported is a downstream consequence of the study, not a factor weighed before choosing its design."
+   ]
   },
   {
    "topic": "Relationship Study Designs",
@@ -277,7 +298,8 @@
     }
    ],
    "rat": "This module defines a correlation as a relationship between two variables in a single population or one variable in two populations, so both of the first two studies are correlations. A predictive study relationship runs between a predictor variable and an outcome variable, which is the age-to-adherence study. Grounded theory develops a theory of process, action, or interaction based on analysis of participants' words. A test of model fit uses a preconceived model to test theories of causal relationships between variables.",
-   "strat": "Correlation describes a relationship, prediction aims one variable at an outcome, grounded theory builds from words, model fit starts from the model."
+   "strat": "Correlation describes a relationship, prediction aims one variable at an outcome, grounded theory builds from words, model fit starts from the model.",
+   "why": "A correlation is a relationship between two variables in one population, or one variable across two populations. This covers both the treatment-adherence and maternal-age-anxiety studies here. A predictive study links a predictor variable to an outcome, as with age forecasting adherence. Grounded theory develops a theory of process, action, or interaction from participants' words. A test of model fit applies a preconceived model to test causal relationships between variables."
   },
   {
    "topic": "Causality",
@@ -293,7 +315,13 @@
    ],
    "ans": 1,
    "rat": "This module names three criteria that must be considered in a causality study: temporality (the time sequence between the independent and dependent variables supports causation), influence (the statistical soundness of the effect the independent variable has on the dependent variable), and specificity (the elimination or control of other explanations for the relationship). The sequence here is intact and the effect is strong, but the new therapist and the staffing change are uncontrolled alternative explanations, which is exactly what specificity requires the researcher to rule out. Reliability of measurement is not one of the three criteria this module lists.",
-   "strat": "Temporality = order, influence = strength, specificity = nothing else explains it."
+   "strat": "Temporality = order, influence = strength, specificity = nothing else explains it.",
+   "why": "Specificity requires the elimination or control of other explanations for a relationship between variables. Here the sequence is intact and the statistical effect is strong. But the added therapist and the staffing-ratio change are uncontrolled alternative explanations for the improved walking distance. Ruling out exactly those competing explanations is what specificity demands.",
+   "whyNot": [
+    "Influence measures whether the independent variable's statistical effect on the outcome is strong, and here that effect is described as strong, not weak.",
+    "Reliability of measurement is not one of this module's three causality criteria, and the scenario gives no reason to doubt the walking-distance readings.",
+    "Temporality asks whether the time sequence between cause and effect supports causation, and that sequence is intact since the protocol came before the outcome."
+   ]
   },
   {
    "topic": "Causality",
@@ -309,7 +337,13 @@
    ],
    "ans": 0,
    "rat": "This module defines quasi-experimental design as introducing a treatment to a group with no random assignment and no control group, which is precisely this study. An experimental design would require randomly assigning subjects to a treatment group and a control group and comparing the outcomes. A causal-comparative/case-control design matches already-formed groups by independent variables and analyzes dependent variables for differences. Time series analysis measures a baseline, implements the treatment, then collects outcome data over time at specified dates or periods rather than at one point afterward.",
-   "strat": "No randomization and no control group drops experimental down to quasi-experimental."
+   "strat": "No randomization and no control group drops experimental down to quasi-experimental.",
+   "why": "Quasi-experimental design introduces a treatment to a group with no random assignment and no control group, which is exactly what happened on this telemetry unit. The bundle was introduced to everyone, with no separate comparison unit and no randomization of nurses into groups. That absence of both features is what keeps the design from qualifying as a true experiment.",
+   "whyNot": [
+    "An experimental design requires randomly assigning subjects to a treatment group and a separate control group, neither of which occurred here.",
+    "Time series analysis measures a baseline, applies the treatment, then collects outcome data repeatedly over specified time points, not just once afterward.",
+    "Causal-comparative design matches already-formed groups by an independent variable they already possess, which this single-unit study never set up."
+   ]
   },
   {
    "topic": "Evaluating Research Articles",
@@ -325,7 +359,13 @@
    ],
    "ans": 3,
    "rat": "This module's evaluation criteria ask whether the study can be replicated by others and, in qualitative design, whether the researcher has explained the decisions made as the design emerged. The article satisfies the other criteria the module lists — the design is identified in standard language, the rationale is given, the design is linked to the research question, and the influencing variables are identified — so the only unmet criterion is the missing procedural detail that would let another researcher reproduce the work and follow how the design developed.",
-   "strat": "Walk the evaluation checklist item by item; the criterion nothing in the article addresses is the answer."
+   "strat": "Walk the evaluation checklist item by item; the criterion nothing in the article addresses is the answer.",
+   "why": "This module's evaluation criteria ask whether a study can be replicated by others and whether the researcher explained decisions made as a qualitative design emerged. The article satisfies every other criterion. The design is named in standard language, its rationale is given, it links to the research question, and the influencing variables are identified. Only the missing recruitment and interview detail keeps another researcher from reproducing the work.",
+   "whyNot": [
+    "The article does give a rationale for the design choice, so that criterion is actually met, not missing.",
+    "The influencing variables are identified in the article, so this criterion is satisfied rather than left undefined.",
+    "The design is clearly linked to the research question in the article, so that connection is not the problem here."
+   ]
   },
   {
    "n": 1,
@@ -342,7 +382,13 @@
    ],
    "ans": 2,
    "rat": "Descriptive research answers what, when, and how questions and is invaluable for documenting the prevalence, nature, and intensity of a condition and the need for new or additional services. It explicitly does not answer why a phenomenon occurs or establish cause and effect, which rules out the causal claim, the predictive claim about future clinic enrollees, and the claim that a program lowered rates.",
-   "strat": "Descriptive tells you how much and how many, never why - it is hypothesis-generating, not hypothesis-testing."
+   "strat": "Descriptive tells you how much and how many, never why - it is hypothesis-generating, not hypothesis-testing.",
+   "why": "Descriptive research answers what, when, and how questions and documents the prevalence, nature, and intensity of a condition. It is well suited to reporting that 34% of this county's adults have untreated hypertension and that screening services are needed. Descriptive research does not answer why a phenomenon occurs, so it cannot support any cause-and-effect claim.",
+   "whyNot": [
+    "Claiming the screening program lowered rates asserts a causal effect, which descriptive research — with no intervention or comparison group here — cannot establish.",
+    "Predicting that future clinic enrollees will end up healthier goes beyond what a one-time descriptive survey can support.",
+    "Saying rural living causes untreated hypertension asserts causation, but this descriptive design cannot show why the condition goes untreated."
+   ]
   },
   {
    "n": 2,
@@ -366,7 +412,12 @@
     4
    ],
    "rat": "The guide lists inability to establish causation, untruthful or socially desirable responses, question wording effects, and limited generalizability as the limitations of descriptive research. Collecting data in the respondent's natural environment (home, childcare, or educational setting) is listed as a strength, not a requirement to avoid, and random assignment belongs to experimental designs, not descriptive ones.",
-   "strat": "Sort each option into strength, limitation, or wrong design family before marking it."
+   "strat": "Sort each option into strength, limitation, or wrong design family before marking it.",
+   "why": "The guide lists four limitations of descriptive research: inability to establish causation, untruthful or socially desirable responses, question-wording effects, and limited generalizability. Collecting data in the respondent's natural environment, such as their home, is a listed strength rather than something to avoid.",
+   "whyNot": [
+    "Random assignment to comparison groups is a feature of experimental design, not something descriptive research requires before data collection.",
+    "Gathering data in a controlled setting reverses the guide's point — the respondent's natural environment is the listed strength, not a controlled lab."
+   ]
   },
   {
    "n": 3,
@@ -410,7 +461,8 @@
     }
    ],
    "rat": "Observational studies collect data from the researcher's view of behavior with no input from respondents; surveys collect respondent-reported feedback and suit very large samples; cross-sectional studies are a snapshot of frequency at one point in time; longitudinal studies gather data repeatedly over an extended period; correlation measures the relationship between two or more variables the researcher does not control; case studies are in-depth study of an individual or group that widen the scope for later work.",
-   "strat": "Ask who supplies the data and over how much time - that pair separates observational, survey, cross-sectional, and longitudinal."
+   "strat": "Ask who supplies the data and over how much time - that pair separates observational, survey, cross-sectional, and longitudinal.",
+   "why": "Observational studies collect data from the researcher's own view of behavior, with no respondent input. Surveys collect respondent-reported feedback and suit very large samples. Cross-sectional studies snapshot the frequency at one point in time. Longitudinal studies gather data repeatedly over an extended period. Correlation measures the relationship between two or more uncontrolled variables. Case studies are in-depth research into an individual or group that widens the scope for later work."
   },
   {
    "n": 4,
@@ -427,7 +479,13 @@
    ],
    "ans": 0,
    "rat": "Variables moving in opposite directions define a negative correlation; both moving the same direction would be positive, and no relationship would be zero. Correlation studies can be used to make predictions about relationships, but the researcher has no control over the variables, so correlation does not equal causation.",
-   "strat": "Name the direction first, then refuse the causal sentence - two decisions, not one."
+   "strat": "Name the direction first, then refuse the causal sentence - two decisions, not one.",
+   "why": "Variables moving in opposite directions define a negative correlation, which fits continuing education hours rising as the infection rate falls. Correlation studies can support predictions about how variables relate. But the researcher never controls the variables here, so correlation does not equal causation.",
+   "whyNot": [
+    "A positive correlation would mean both variables move in the same direction, but education rising while infections fall moves in opposite directions.",
+    "A zero correlation would mean no relationship exists between the variables, but this study reports a clear inverse pattern between them.",
+    "Naming the correlation as negative is correct, but the researchers controlled neither variable, so causation cannot be established from this data."
+   ]
   },
   {
    "n": 5,
@@ -467,7 +525,8 @@
     }
    ],
    "rat": "Qualitative research is inductive, studies phenomena in naturalistic settings, interprets meanings people bring to an experience, and may provide information necessary to pursue quantitative studies. It explicitly does not test interventions, and generalizing from a representative sample is a characteristic of quantitative designs, which apply interventions to samples in order to generalize to broader populations.",
-   "strat": "Any row about testing an intervention or generalizing to a population has crossed over into quantitative."
+   "strat": "Any row about testing an intervention or generalizing to a population has crossed over into quantitative.",
+   "why": "Qualitative research is inductive, studies phenomena in naturalistic settings, and interprets the meanings people bring to an experience. It may also supply information needed to pursue a later quantitative study. It explicitly does not test interventions. Generalizing from a representative sample is a quantitative characteristic, since quantitative designs apply interventions to samples specifically to generalize to broader populations."
   },
   {
    "n": 6,
@@ -484,7 +543,13 @@
    ],
    "ans": 1,
    "rat": "The guide states content analysis is technically not a specific qualitative research design but is more accurately a data analysis method for interpreting meaning in verbal responses or written documents, often used when a qualitative study does not fit neatly into one of the more formal classifications. Grounded theory is a design whose aim is to develop a theory from the data, which content analysis does not claim to do.",
-   "strat": "If it describes how the data were interpreted rather than how the study was structured, it is a method, not a design."
+   "strat": "If it describes how the data were interpreted rather than how the study was structured, it is a method, not a design.",
+   "why": "The guide states content analysis is technically not a specific qualitative research design. It is more accurately a data analysis method for interpreting meaning in verbal responses or written documents. It is often used when a qualitative study does not fit neatly into a more formal classification.",
+   "whyNot": [
+    "Calling content analysis a distinct design defined by transcripts overstates it — the guide says it is a method, not a formal design.",
+    "Content analysis interprets meaning in words and documents rather than converting codes into counts for statistical analysis, so it is not quantitative.",
+    "Grounded theory aims to develop a theory from the data, a claim content analysis — a method for interpreting meaning — does not make."
+   ]
   },
   {
    "n": 7,
@@ -501,7 +566,13 @@
    ],
    "ans": 2,
    "rat": "In ethnography the researcher's aim is to learn from, rather than study, the members of a culture without changing it, and participant observation is very common - the researcher becomes an active participant to understand the group's experiences and worldview. Staying outside the group describes detached observation, assigning staff to conditions is manipulation belonging to experimental work, and interview-only data collection describes a different qualitative approach.",
-   "strat": "Ethnography = culture + participant observation; the researcher joins in rather than watching from the hallway."
+   "strat": "Ethnography = culture + participant observation; the researcher joins in rather than watching from the hallway.",
+   "why": "In ethnography, the researcher's aim is to learn from the members of a culture without changing it, rather than simply studying them. Participant observation is very common: the researcher becomes an active participant to understand the group's experiences and worldview. Working alongside the night-shift staff for months fits that active, immersive role.",
+   "whyNot": [
+    "Remaining entirely outside the group describes detached observation, not the immersive participant role ethnography actually calls for.",
+    "Assigning staff to different shift patterns to compare them is manipulation belonging to experimental work, not ethnographic immersion.",
+    "Interviewing individually without entering the work setting describes a different qualitative approach, not the immersion ethnography requires."
+   ]
   },
   {
    "n": 8,
@@ -518,7 +589,13 @@
    ],
    "ans": 1,
    "rat": "Nurses use qualitative evidence to understand clients' experiences and the range of their responses, to provide anticipatory guidance and coaching, and to improve nurse-client communication. Setting a numeric target, comparing the effectiveness of two modalities, and establishing how often a problem occurs all require measurement and comparison, which are purposes of quantitative or descriptive-prevalence work.",
-   "strat": "Qualitative evidence tells you what it is like, so it feeds teaching and communication, not numbers or effect claims."
+   "strat": "Qualitative evidence tells you what it is like, so it feeds teaching and communication, not numbers or effect claims.",
+   "why": "Nurses use qualitative evidence to understand clients' experiences and the range of their responses. This supports providing anticipatory guidance and coaching and improving nurse-client communication. Preparing guidance about the range of responses clients may have during their first month fits exactly that use.",
+   "whyNot": [
+    "Deciding whether home dialysis beats in-center dialysis requires comparing effectiveness between groups, a quantitative purpose this study cannot serve.",
+    "Establishing how often distress occurs requires measuring prevalence, which is descriptive or quantitative work, not what this study offers.",
+    "Setting a numeric adaptation target demands measurement and comparison across a sample, purposes that belong to quantitative research."
+   ]
   },
   {
    "n": 9,
@@ -566,7 +643,8 @@
     }
    ],
    "rat": "Qualitative research is explanatory, descriptive, and inductive in nature and uses words rather than numbers to explain a phenomenon. Quantitative research uses deductive reasoning and develops knowledge by a hypothesis-testing process: state them, test them, disprove them, or confirm findings by retesting. Hypothesis-generating is the phrase the guide attaches to descriptive research, not to quantitative research.",
-   "strat": "Qualitative goes from stories up to ideas (inductive); quantitative goes from a hypothesis down to data (deductive)."
+   "strat": "Qualitative goes from stories up to ideas (inductive); quantitative goes from a hypothesis down to data (deductive).",
+   "why": "Qualitative research is explanatory, descriptive, and inductive in nature, and it uses words rather than numbers to explain a phenomenon. Quantitative research uses deductive reasoning and develops knowledge through a hypothesis-testing process: state a hypothesis, test it, then disprove or confirm it by retesting. Hypothesis-generating describes descriptive research, not quantitative research."
   },
   {
    "n": 10,
@@ -583,7 +661,13 @@
    ],
    "ans": 0,
    "rat": "The guide attributes the rarity of experiments in nursing and healthcare to the difficulty of achieving the high levels of control that characterize experiments in an applied setting, and to the fact that manipulating an independent variable or withholding treatment is not always desirable or ethical. Nursing does ask effect questions, sample size is not the stated barrier, and generalizability is a strength of experimental work because of random assignment.",
-   "strat": "Experiments are rare in practice for two reasons the guide names: control is hard, and withholding care may be unethical."
+   "strat": "Experiments are rare in practice for two reasons the guide names: control is hard, and withholding care may be unethical.",
+   "why": "The guide attributes the rarity of experiments in nursing to two things. First, achieving the high levels of control that experiments require is difficult in an applied clinical setting. Second, manipulating an independent variable or withholding treatment from clients is not always desirable or ethical.",
+   "whyNot": [
+    "Sample size is not the barrier the guide names — the guide points to the difficulty of control and ethics, not recruitment numbers.",
+    "Generalizability is actually a strength of experimental designs because of random assignment, not a reason experiments are avoided.",
+    "Nursing does ask effect questions, so a design that tests effects fits many nursing questions rather than rarely applying."
+   ]
   },
   {
    "n": 11,
@@ -600,7 +684,13 @@
    ],
    "ans": 3,
    "rat": "Ex post facto research observes relationships between naturally occurring differences after the fact, when both the independent and dependent variables have already occurred; this weakens cause-and-effect conclusions because the researcher cannot prove temporality and depends on the subject's recall to establish that the independent variable came first. Causal-comparative groups subjects by an inherent characteristic such as gender or region, case-control matches subjects who have a characteristic with subjects who do not, and time series measures one group repeatedly around an intervention.",
-   "strat": "Data collected after both variables have happened, resting on recall = ex post facto and no proof of temporality."
+   "strat": "Data collected after both variables have happened, resting on recall = ex post facto and no proof of temporality.",
+   "why": "Ex post facto research observes naturally occurring differences after the fact, once both the independent and dependent variables have already occurred. This weakens cause-and-effect conclusions because the researcher cannot prove temporality. Here, that means depending on the nurses' recall to establish that device use came before the injury.",
+   "whyNot": [
+    "Causal-comparative research groups subjects by an inherent trait like gender or region, not by whether an injury already occurred.",
+    "Case-control research matches an affected subject with an unaffected one on key traits, which this study never set up.",
+    "Time series research repeatedly measures one group's outcome around an intervention, not a single retrospective recall of past events."
+   ]
   },
   {
    "n": 12,
@@ -617,7 +707,13 @@
    ],
    "ans": 1,
    "rat": "This is a time series design, a type of quasi-experimental design with only one group: a baseline is measured, the intervention is applied, and measures are taken periodically afterward, with subjects serving as their own comparison group. Repeated measurement never substitutes for random assignment, an intervention clearly was applied so this is not purely descriptive, and case-control matches subjects with and without a characteristic rather than time periods.",
-   "strat": "One group, a baseline, then repeated measures after an intervention = time series, which is quasi-experimental."
+   "strat": "One group, a baseline, then repeated measures after an intervention = time series, which is quasi-experimental.",
+   "why": "This is a time series design, a type of quasi-experimental design with only one group. A baseline fall rate is measured, the mobility protocol is applied, and measures are taken monthly afterward. The unit's own preintervention months serve as its comparison, rather than a separate control unit.",
+   "whyNot": [
+    "Calling this experimental is wrong, since repeated monthly measurement never substitutes for randomly assigning subjects to treatment and control groups.",
+    "Case-control matches subjects who have a characteristic against subjects who do not, not months carrying a protocol against months without it.",
+    "Longitudinal descriptive research would only track a trend over time, but applying the mobility protocol makes this an intervention study."
+   ]
   },
   {
    "topic": "Theoretical Frameworks",
@@ -633,7 +729,13 @@
    ],
    "ans": 0,
    "rat": "The module teaches that the theory is the conceptual foundation, or backbone, of a study: a strong theoretical framework brings credibility to the results and allows the study to be replicated. A missing framework does not invalidate the statistics, erase the study's design classification, or void the literature review; it weakens the conceptual justification and reproducibility of the work.",
-   "strat": "Framework = backbone. Take the backbone out and the study still stands up, just weakly: less credibility, harder to replicate."
+   "strat": "Framework = backbone. Take the backbone out and the study still stands up, just weakly: less credibility, harder to replicate.",
+   "why": "The module teaches that theory is the conceptual foundation, or backbone, of a study. A strong theoretical framework brings credibility to the results and allows the study to be replicated by others. Leaving out that framework weakens the conceptual justification and reproducibility of this dressing-change bundle study, without invalidating anything else in it.",
+   "whyNot": [
+    "A missing framework does not void the literature review's support for the chosen variables — that justification stands on its own.",
+    "Lacking a theory does not erase whether a study is quantitative or qualitative — that classification depends on the design, not the framework.",
+    "A missing theoretical framework does not invalidate reported p values, since hypothesis testing and statistical soundness are separate from theory."
+   ]
   },
   {
    "topic": "Framework Functions",
@@ -666,7 +768,8 @@
     }
    ],
    "rat": "Per the module's interactive: Evaluation - a distinct statement of theoretical assumptions lets the reader critically evaluate the research; Connection - the framework connects the reader to existing knowledge and connects the hypothesis to the methods; Generalization - articulating assumptions lets the researcher progress from describing a phenomenon to generalizing aspects of it; Limitations - the framework identifies limits to generalization by specifying which variables influence the phenomenon and under what circumstances they differ.",
-   "strat": "Limitations and Generalization are the pair students swap: Generalization is the reach the theory gives you, Limitations is the fence around that reach."
+   "strat": "Limitations and Generalization are the pair students swap: Generalization is the reach the theory gives you, Limitations is the fence around that reach.",
+   "why": "Evaluation: a distinct statement of theoretical assumptions lets the reader critically evaluate the research. Connection: the framework connects the reader to existing knowledge and ties the hypothesis to the methods. Generalization: articulating assumptions lets the researcher move from describing a phenomenon to generalizing aspects of it. Limitations: the framework identifies limits to generalization by specifying which variables influence the phenomenon and how they differ by circumstance."
   },
   {
    "topic": "Choosing a Framework",
@@ -682,7 +785,13 @@
    ],
    "ans": 3,
    "rat": "The module's sequence ends with reviewing several relevant theories, choosing the one that best explains the relationships between the key variables, and then confirming that theory's relevance to the research problem. Letting citation counts, an employer's practice model, or the data pick the theory reverses the logic: the problem and its variables drive theory selection, not the other way around.",
-   "strat": "Problem, then variables, then theory. If the theory is chosen before the variables are known, or after the data are in, the order is wrong."
+   "strat": "Problem, then variables, then theory. If the theory is chosen before the variables are known, or after the data are in, the order is wrong.",
+   "why": "The module's sequence calls for reviewing several relevant theories next, after the problem and variables are already identified. The researcher chooses the theory that best explains the relationships between those key variables, then confirms its relevance to the research problem. The problem and its variables drive theory selection, not the reverse.",
+   "whyNot": [
+    "Adopting the hospital's chosen practice model skips reviewing theories against these specific variables, reversing the sequence the module describes.",
+    "Picking the most-cited theory and forcing the variables to fit it reverses the logic — the variables should shape the theory choice.",
+    "Choosing a theory after the results are in lets the data pick the theory, backward from how the module sequences this step."
+   ]
   },
   {
    "topic": "Theory & Research Design",
@@ -698,7 +807,13 @@
    ],
    "ans": 2,
    "rat": "The module describes theory as influencing design: the researcher picks a topic, hypothesizes how the concepts interact, reviews the literature, and then uses a theory to focus on the specific variables of interest, forming a road map for the design. A theory bolted on after the design cannot have guided it. The module also states that theoretical frameworks may be used in both quantitative and qualitative research, so a randomized design does not exempt the proposal.",
-   "strat": "Road map before the trip. If the theory arrives after the design or the tool, it framed nothing."
+   "strat": "Road map before the trip. If the theory arrives after the design or the tool, it framed nothing.",
+   "why": "The module describes theory as influencing design. The researcher picks a topic, hypothesizes how concepts interact, reviews the literature, then uses a theory to focus on the variables of interest. That theory becomes a road map for the design itself. A theory bolted on after the design and the tool cannot have guided either one.",
+   "whyNot": [
+    "Selecting the tool first and matching a theory to it afterward is the very sequence the module identifies as backward.",
+    "A supportive literature review does not excuse attaching the theory afterward, since the theory itself never shaped this design.",
+    "The module states theoretical frameworks may be used in both quantitative and qualitative research, so a randomized design is not exempt."
+   ]
   },
   {
    "topic": "Nursing & Non-Nursing Theories",
@@ -737,7 +852,8 @@
     }
    ],
    "rat": "The module lists Benner's Novice-to-Expert Framework, Roy's Adaptation Model, Beck's Theory of Postpartum Depression, Kolcaba's Comfort Theory, and Pender's Health Promotion Model as nursing theories, and Bandura's Social Cognitive Theory, Prochaska's Transtheoretical Change Theory, Becker's Health Belief Model, and Ajzen's Theory of Planned Behavior as theories from other disciplines that support nursing research. Beck (nursing, postpartum depression) and Becker (health belief model, outside nursing) are the pair most often confused, as are Pender's Health Promotion Model (nursing) and Becker's Health Belief Model.",
-   "strat": "Nurse researchers use both kinds. Sort by who wrote it, not by how clinical it sounds: Beck is nursing, Becker is not."
+   "strat": "Nurse researchers use both kinds. Sort by who wrote it, not by how clinical it sounds: Beck is nursing, Becker is not.",
+   "why": "The module lists nursing theories including Benner's Novice-to-Expert Framework, Roy's Adaptation Model, Beck's Theory of Postpartum Depression, Kolcaba's Comfort Theory, and Pender's Health Promotion Model. It also lists non-nursing theories that support nursing research: Bandura's Social Cognitive Theory and Prochaska's Transtheoretical Change Theory. Becker's Health Belief Model and Ajzen's Theory of Planned Behavior round out that list. Beck and Becker are the pair most often confused."
   },
   {
    "topic": "Locating the Framework",
@@ -776,7 +892,8 @@
     }
    ],
    "rat": "The module states that quantitative researchers are less likely to identify the theoretical framework but often use what is already known about a problem from previous research, while qualitative research reflects on a specific theory and always uses a theoretical framework. It also lists where a framework may surface: the introduction, a separate section, the title, how the concepts relate to the outcome studied, how the variables are viewed, and how the findings are considered in relation to the theory. A separate headed section is one possible location, not the only one.",
-   "strat": "Quantitative may hide it; qualitative always has one. Hunt the title, the introduction, and the discussion before concluding there is no framework."
+   "strat": "Quantitative may hide it; qualitative always has one. Hunt the title, the introduction, and the discussion before concluding there is no framework.",
+   "why": "Quantitative researchers are less likely to identify the theoretical framework, often relying instead on what previous research already established about a problem. Qualitative research reflects on a specific theory and always uses a theoretical framework. A framework may surface in the introduction, a separate section, the title, or the discussion of findings. A headed section is only one possible location, not the only one."
   },
   {
    "topic": "Critiquing Theory Use",
@@ -798,7 +915,13 @@
     5
    ],
    "rat": "The module's critique questions ask whether the framework is used as a basis for comparison once data are analyzed, whether the findings are discussed in relation to the theory, whether discrepancies with other researchers using the same framework can be explained through the theory, and whether the researcher clearly describes the variables and how they relate to a measurable outcome. Options 0, 1, and 2 each fail one of those. A separate theory section, a literature review that supports the variables, and a discussion tied to the model's concepts are exactly what the critique questions ask to see.",
-   "strat": "A framework has to work through the whole paper. If the theory appears in the introduction and never in the discussion, it decorated the study rather than framing it."
+   "strat": "A framework has to work through the whole paper. If the theory appears in the introduction and never in the discussion, it decorated the study rather than framing it.",
+   "why": "The module's critique questions ask several things. Is the framework used as a basis for comparison once data are analyzed? Are findings discussed in relation to the theory? Are discrepancies with other researchers explained through the framework? Are variables clearly tied to how they were measured? A theory named once and dropped, an unexplained conflict with prior findings, and unmeasured variables each fail one of those questions.",
+   "whyNot": [
+    "A literature review that supports the chosen variables is exactly what the critique questions look for, not a defect in the theory's use.",
+    "A separate headed section describing the model is one accepted place to locate a framework, not a weakness in how it was used.",
+    "Comparing outcomes against what the model predicts about self-efficacy is exactly the theory-based comparison the critique questions ask studies to make."
+   ]
   }
  ]
 }

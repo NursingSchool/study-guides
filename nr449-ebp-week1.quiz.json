@@ -38,7 +38,13 @@
    ],
    "ans": 0,
    "rat": "The guide lists order sets and algorithms under client management tools, whose stated purpose is to encourage consistent practice and reduce variability. Individualized assessment and nursing diagnoses belong to nursing care processes, accountability to the client belongs to evidence as the basis for client care, and replacing 'how things have always been done' describes policies and procedures.",
-   "strat": "Order set or algorithm = standardize the many into one; ask which of the four uses of evidence the tool itself serves."
+   "strat": "Order set or algorithm = standardize the many into one; ask which of the four uses of evidence the tool itself serves.",
+   "why": "Order sets and algorithms are the guide's client management tools, and their stated purpose is to encourage consistent practice and reduce variability among providers. The hypoglycemia algorithm exists to standardize the five nurses' differing responses into one evidence-based pathway that every nurse follows the same way.",
+   "whyNot": [
+    "This describes policies and procedures replacing tradition with an evidence-based foundation for care, a different category from the client-management tool tested here.",
+    "Accountability to the client as care's consumer is evidence functioning as the basis for client care, not a client-management tool like an order set.",
+    "Individualized assessment findings and nursing diagnoses describe nursing care processes, the opposite of the standardized, one-size approach an algorithm is built to produce."
+   ]
   },
   {
    "n": 2,
@@ -61,7 +67,13 @@
     4
    ],
    "rat": "The guide pairs each barrier with a specific solution: no time to review evidence is met with journal email subscriptions and professional organizations, difficulty with statistical and research terminology is met with a journal club, and lack of database access is met with a staff educator or local librarian, who can often help remotely. Delaying appraisal until graduate school contradicts the baccalaureate role of participating on research teams and applying evidence; buying articles and copying senior nurses' habits address neither barrier and return practice to custom and tradition.",
-   "strat": "Match the barrier to its named solution: no time to journals, no understanding to journal club, no access to the librarian."
+   "strat": "Match the barrier to its named solution: no time to journals, no understanding to journal club, no access to the librarian.",
+   "why": "The guide pairs each barrier with a named solution. No time to review evidence is met with journal email alerts and professional organizations. Confusing statistical terminology is met with a journal club. Lack of database access is met with the hospital librarian, who can often help remotely.",
+   "whyNot": [
+    "Delaying appraisal until graduate school contradicts the baccalaureate-level expectation to participate on research teams and apply evidence now.",
+    "Purchasing individual articles addresses neither named barrier and is not a solution the guide pairs with any of them.",
+    "Copying senior nurses' habits returns practice to custom and tradition instead of addressing any of the three named barriers."
+   ]
   },
   {
    "n": 3,
@@ -78,7 +90,13 @@
    ],
    "ans": 3,
    "rat": "In the CASTLE framework, scientific research is named the most objective source of nursing knowledge. Assembled information from chart audits is legitimate quality improvement data but is limited to this organization; relying on senior nurses is customs and tradition plus trial and error, which the guide warns may not be best for the client; and an expert source should be authored by a nurse or other provider rather than a lay person.",
-   "strat": "CASTLE: only the S is called the most objective. Tradition, trial and error, and lay authors are the traps."
+   "strat": "CASTLE: only the S is called the most objective. Tradition, trial and error, and lay authors are the traps.",
+   "why": "In the CASTLE framework, scientific research is named the most objective source of nursing knowledge. It comes from rigorous, systematic study rather than personal experience or opinion. Because this question concerns client safety, published studies on dressing-removal timing and wound outcomes should carry the most weight.",
+   "whyNot": [
+    "Chart audit data is assembled information, a legitimate quality-improvement source, but it is limited to this one unit.",
+    "Relying on the longest-tenured nurses' judgment reflects customs and tradition plus trial and error, sources the guide warns may not serve the client best.",
+    "An expert source should be authored by a nurse or provider. A client's personal blog is a lay account, not a credible authority."
+   ]
   },
   {
    "n": 4,
@@ -112,7 +130,8 @@
     }
    ],
    "rat": "The guide's education table assigns the baccalaureate nurse to understanding EBP basics, participating on research teams, and applying evidence; the master's nurse to creating EBP guidelines and leading teams that discuss EBP; the practice-focused doctorate to analyzing data, tailoring it to specific groups, and partnering with research scientists using advanced leadership; and the research-focused doctorate to conducting research independently and seeking grants. Students commonly credit the master's nurse with independent research or assume the bedside nurse has no role at all.",
-   "strat": "Climb the ladder: apply, then guide, then translate for a population, then generate. Grant writing is the research doctorate's tell."
+   "strat": "Climb the ladder: apply, then guide, then translate for a population, then generate. Grant writing is the research doctorate's tell.",
+   "why": "The guide's education table assigns each level a distinct role. The baccalaureate nurse understands EBP basics, participates on research teams, and applies published evidence at the bedside. The master's nurse writes EBP guidelines and leads teams discussing them. The practice-focused doctorate analyzes data, tailors it to a population, and partners with research scientists. The research-focused doctorate conducts independent studies and seeks grant funding."
   },
   {
    "n": 5,
@@ -129,7 +148,13 @@
    ],
    "ans": 2,
    "rat": "The guide defines replication as a repeated study with results similar to a prior study, which is what makes nurses confident enough to consider a practice change. Blinded review only removes reviewer bias about the author, journal familiarity says nothing about the strength of the findings, and Magnet designation reflects an organization's commitment to EBP rather than evidence that this particular change works.",
-   "strat": "One study is a signal; a repeated study is a reason. Look for replication before changing a protocol."
+   "strat": "One study is a signal; a repeated study is a reason. Look for replication before changing a protocol.",
+   "why": "Replication means a repeated study reports results similar to a prior study. The guide says this repetition is what gives nurses enough confidence to consider a practice change. Because later studies reproduced the same reduction in pressure injuries, this finding no longer rests on one small study alone.",
+   "whyNot": [
+    "Blinded review only removes reviewer bias about who wrote the study. It says nothing about whether the finding itself has held up.",
+    "Being a journal the council already subscribes to says nothing about the strength of this particular study's findings.",
+    "Magnet designation reflects the organization's overall commitment to evidence-based practice, not evidence that this specific turning schedule works."
+   ]
   },
   {
    "topic": "Levels of Evidence",
@@ -145,7 +170,13 @@
    ],
    "ans": 0,
    "rat": "The guide grades evidence by study design: Level I is multiple RCTs with large samples and large effect sizes, and the strength table pairs RCTs or reports of multiple RCTs with a strong recommendation to use or not use the findings. Article B is an RCT with limitations, which only rates \"recommend\"; Article C is Level III non-randomized intact-group evidence; Article D is Level IV chart review and expert opinion, where the guide says action is optional.",
-   "strat": "Name the design first, then read its row off the strength table — pooled RCTs are the only \"strong\" row."
+   "strat": "Name the design first, then read its row off the strength table — pooled RCTs are the only \"strong\" row.",
+   "why": "The guide grades evidence by study design, and Level I is multiple randomized controlled trials with large samples and large effect sizes. The strength table pairs pooled RCTs with a strong recommendation to use or not use the findings, which is the only row rated that strongly.",
+   "whyNot": [
+    "Article D is chart review and expert opinion, the guide's Level IV, where the strength table marks action as optional rather than a strong recommendation.",
+    "Article B is a single randomized trial with stated limitations, which the strength table rates only as recommend, not strong.",
+    "Article C is Level III evidence from a non-randomized comparison of intact groups, a weaker design than pooled trials."
+   ]
   },
   {
    "topic": "Appraising Credibility",
@@ -184,7 +215,8 @@
     }
    ],
    "rat": "The guide's appraisal checklist asks whether the source is credible (disclosed degrees and experience mark subject matter expertise), whether a neutral party unconnected to the authors performed a blind peer review, and whether the study has been replicated, since reproduced results make findings more generalizable and raise validity. It raises concerns when evidence falls outside the last 3–5 years, or when either the researcher or the editorial board stands to gain financially.",
-   "strat": "Credible = credentials, blind review, replication, published within 3–5 years; concern = anyone with money riding on the result."
+   "strat": "Credible = credentials, blind review, replication, published within 3–5 years; concern = anyone with money riding on the result.",
+   "why": "The appraisal checklist rewards disclosed credentials, since these establish subject-matter expertise. It also rewards a blind peer review by a neutral party unconnected to the authors. Replication by an independent team counts too, since reproduced results raise validity and generalizability. The checklist flags evidence older than 3–5 years and any financial stake held by the researcher or the editorial board."
   },
   {
    "topic": "EBP Triad",
@@ -207,7 +239,12 @@
     5
    ],
    "rat": "Evidence-based nursing combines the best scientific evidence with clinical experience (expert panels, practice groups, consensus statements) and patient preferences, which the guide measures through satisfaction, quality of life, treatment burden, and qualitative studies; appraisal includes confirming the researcher has nothing to gain. The guide also states that the baccalaureate-prepared nurse is expected to utilize research-based evidence to solve practice problems. Continuing a method because it is long-standing is exactly what research exists to challenge, and client preference is one of the three legs of the triad, not an optional add-on.",
-   "strat": "Three legs — science, clinician experience, client preference. An option that amputates a leg is wrong."
+   "strat": "Three legs — science, clinician experience, client preference. An option that amputates a leg is wrong.",
+   "why": "Evidence-based nursing combines the best scientific evidence with clinical experience, such as expert panels and consensus statements, and with patient preferences. The guide measures preference through satisfaction, treatment burden, and qualitative studies. Appraisal also requires confirming researchers have nothing to gain. The guide expects the baccalaureate nurse to use appraised research-based evidence to solve identified practice problems.",
+   "whyNot": [
+    "Client preference is one of the triad's three legs, not data to set aside just because it is not quantitative.",
+    "Continuing a method because the unit has used it for years is exactly the custom-and-tradition thinking evidence-based review exists to challenge."
+   ]
   },
   {
    "topic": "Identifying a Need",
@@ -245,7 +282,8 @@
     }
    ],
    "rat": "The guide names three categories of factors that uncover a need to study something: problem-focused (error reports, client concerns, nurse observations), nursing knowledge (the newly published CDC CAUTI protocol), and new equipment, technology, and products (the new dispensing machine). Students commonly file the CAUTI protocol as problem-focused because infection is a problem, but nothing on the unit flagged it — the trigger was newly published knowledge.",
-   "strat": "Ask what triggered the question: our own data (problem), someone else's new publication (knowledge), or a new product on the market."
+   "strat": "Ask what triggered the question: our own data (problem), someone else's new publication (knowledge), or a new product on the market.",
+   "why": "The guide names three triggers for identifying a need. Problem-focused issues come from error reports, client concerns, and nurse observations. New nursing knowledge means a freshly published protocol or guideline. New equipment, technology, or products means something newly available on the market. The CAUTI protocol counts as nursing knowledge because nothing on the unit flagged the issue. A national body simply published new guidance."
   },
   {
    "topic": "External Validity",
@@ -261,7 +299,13 @@
    ],
    "ans": 1,
    "rat": "The guide requires that research applied to practice meet the clients' needs, be assessed for credibility, and have external validity — the ability to generalize findings to other groups of people, locations, and situations. The level of evidence grades the strength of the design, not its fit to a different population, so a Level I report does not license automatic transfer to pediatric clients. Peer review and recency are credibility checks that leave the population mismatch unaddressed, and rejecting all research not conducted on one's own unit would make evidence-based practice impossible.",
-   "strat": "Level tells you how strong the study is; external validity tells you whether it is about your patients. Both have to clear."
+   "strat": "Level tells you how strong the study is; external validity tells you whether it is about your patients. Both have to clear.",
+   "why": "Applying research to practice requires meeting the clients' needs, appraising credibility, and confirming external validity. External validity is the ability to generalize findings to other groups, locations, and situations. Because every trial enrolled adult ICU patients, the bundle's fit to pediatric clients is genuinely unclear no matter how strong the evidence grade is.",
+   "whyNot": [
+    "The level of evidence grades how strong a study's design is, not whether its population matches a different group of clients.",
+    "Peer review and recency are credibility checks. Neither one addresses whether adult ICU findings transfer to a pediatric population.",
+    "Rejecting every study not conducted on her own unit would make evidence-based practice impossible, since almost no research is unit-specific."
+   ]
   },
   {
    "topic": "Willowbrook / Belmont Principles",
@@ -277,7 +321,13 @@
    ],
    "ans": 3,
    "rat": "Respect for persons rests on autonomy and protection of vulnerable populations: consent must be voluntary and free of coercion, and tying school admission to study participation is the element of influence the guide describes. Beneficence (harm and benefit) and justice (fair distribution of burdens) were also violated by the study overall, but the admission arrangement specifically attacks voluntary consent; nonmaleficence is not one of the three Belmont principles.",
-   "strat": "Belmont has exactly three: beneficence, justice, respect for persons. Anything about consent, coercion, or a vulnerable group lands on respect for persons."
+   "strat": "Belmont has exactly three: beneficence, justice, respect for persons. Anything about consent, coercion, or a vulnerable group lands on respect for persons.",
+   "why": "Respect for persons rests on autonomy and protection of vulnerable populations. Consent must be voluntary and free of coercion. Tying school admission to study participation is exactly the added element of influence the guide describes, compromising these children's ability to consent freely.",
+   "whyNot": [
+    "Deliberate hepatitis exposure did violate beneficence by causing harm, but the admission arrangement itself is a consent problem, not a harm-benefit problem.",
+    "Nonmaleficence is not one of the Belmont Report's three principles, so it cannot be the one violated here.",
+    "Justice concerns fair distribution of burdens across the study overall, but the admission arrangement specifically targets voluntary consent, not distribution."
+   ]
   },
   {
    "topic": "Events and the Protections They Produced",
@@ -316,7 +366,8 @@
     }
    ],
    "rat": "Nazi experimentation led to the Nuremberg Trials and the Nuremberg Code, the first international guidelines on voluntary participation and informed consent. Public outrage over Tuskegee produced the National Research Act of 1974, which created the commission that drafted The Belmont Report. Helsinki, an extension of the Nuremberg Code, drew the therapeutic versus non-therapeutic line; the Common Rule made IRB approval and documented consent law. The Gelsinger death stopped the university's gene therapy research; the hepatitis vaccine came out of Willowbrook, which produced no document.",
-   "strat": "Follow the chain in order: Nazi to Nuremberg, Tuskegee to Belmont, then the Common Rule turns Belmont's ideas into law."
+   "strat": "Follow the chain in order: Nazi to Nuremberg, Tuskegee to Belmont, then the Common Rule turns Belmont's ideas into law.",
+   "why": "Nazi experimentation led to the Nuremberg Code, the first international guidelines on voluntary consent. Tuskegee's outrage produced the National Research Act of 1974, which created the commission behind The Belmont Report. Helsinki, extending the Nuremberg Code, drew the line between therapeutic and non-therapeutic research. The Common Rule turned IRB approval and documented consent into federal law. Gelsinger's death instead halted only the university's own gene therapy research."
   },
   {
    "topic": "The Nuremberg Code",
@@ -338,7 +389,13 @@
     5
    ],
    "rat": "The Code's ten principles include grounding human trials in prior animal work, a subject's right to end participation at any time, and risks that never exceed benefits. Surrogate consent for a minor or cognitively impaired subject comes from the 2013 Declaration of Helsinki; mandatory IRB approval and institutional compliance with recordkeeping come from The Belmont Report and the Common Rule, which arrived decades later.",
-   "strat": "Nuremberg is about the subject and the investigator; IRBs and institutional paperwork are later American additions."
+   "strat": "Nuremberg is about the subject and the investigator; IRBs and institutional paperwork are later American additions.",
+   "why": "The Nuremberg Code's ten principles require that human experiments be grounded in prior animal work. They also require that a subject may end participation at any point, and that the risks of an experiment never exceed its benefits. These three requirements come directly from the Code's original 1947 text, decades before any American regulatory document existed.",
+   "whyNot": [
+    "Institutional compliance with federal policy and recordkeeping requirements comes from the Common Rule of 1981, decades after Nuremberg.",
+    "Surrogate consent for a cognitively impaired subject was introduced by the 2013 revision of the Declaration of Helsinki, not the original Code.",
+    "Mandatory IRB approval traces to The Belmont Report and the Common Rule, American institutions built decades after the Code was written."
+   ]
   },
   {
    "topic": "IRB Levels of Review",
@@ -374,7 +431,8 @@
     }
    ],
    "rat": "Exempt review covers studies posing no risk to subjects, such as surveys or chart data, though the researcher still follows ethical principles. Expedited review, done by one or two members, fits minimal-risk studies in which discomfort is no greater than daily life. Full committee review is required when risk exceeds minimal; these studies often carry federal funding and anticipate publication, so consent, data collection, and subject selection are inspected closely.",
-   "strat": "Sort by risk: no risk is exempt, everyday-life risk is expedited, more than minimal risk goes to the full committee."
+   "strat": "Sort by risk: no risk is exempt, everyday-life risk is expedited, more than minimal risk goes to the full committee.",
+   "why": "Exempt review covers studies posing no risk, such as surveys or existing chart data, though the researcher must still follow ethical principles. Expedited review, completed by one or two members, fits minimal-risk studies where discomfort is no greater than daily life. Full committee review is required once risk exceeds minimal, typically when federal funding and planned publication are involved."
   },
   {
    "topic": "Declaration of Helsinki",
@@ -412,7 +470,8 @@
     }
    ],
    "rat": "Therapeutic research offers the subject a chance at beneficial treatment, while non-therapeutic research seeks knowledge without benefiting the subject; the Declaration of Helsinki, an extension of the Nuremberg Code, was written to draw that line. Helsinki permits surrogate consent for minors, but it also holds that vulnerable populations may be studied only when the work promotes that population's health and cannot be done in competent adults, so parental permission alone or an expedited classification does not justify the switch.",
-   "strat": "Ask who benefits: the subject means therapeutic. For a vulnerable group, permission is not enough; the need for that group has to be justified."
+   "strat": "Ask who benefits: the subject means therapeutic. For a vulnerable group, permission is not enough; the need for that group has to be justified.",
+   "why": "Therapeutic research offers subjects a chance at beneficial treatment. Non-therapeutic research seeks knowledge without benefiting the subject, and the Declaration of Helsinki was written to draw that line. Helsinki permits surrogate consent for minors. A vulnerable population may be studied only when the work promotes that population's health and cannot be done in competent adults. Parental permission or an expedited classification alone does not meet that bar."
   },
   {
    "topic": "The Gelsinger Case",
@@ -428,7 +487,13 @@
    ],
    "ans": 2,
    "rat": "The case turned on whether high-risk research belongs in healthy, stable clients and whether adverse-event reports were ignored or misinterpreted, so IRB approval at the start does not end the investigator's obligation to respond to accumulating safety data. Approval is not a safety guarantee, stable subjects were the point of contention rather than an equivalence to acutely ill ones, and at 18 the subject could consent for himself.",
-   "strat": "IRB approval is a starting gate, not a finish line; new safety data reopens the question."
+   "strat": "IRB approval is a starting gate, not a finish line; new safety data reopens the question.",
+   "why": "The Gelsinger case turned on whether high-risk research belongs in healthy, stable clients, and whether investigators ignored or misinterpreted mounting adverse-event reports. IRB approval at the study's start did not end the team's obligation to respond to new safety data. Reports had already raised concern about the virus before Gelsinger was enrolled.",
+   "whyNot": [
+    "IRB approval is a starting requirement, not a guarantee of safety, so it does not make gene therapy protocols inherently safe.",
+    "Whether stable subjects carry the same risk as acutely ill ones was the case's central controversy, not an established equivalence.",
+    "At eighteen, Gelsinger was a legal adult who could consent to research for himself, without a parent's signature."
+   ]
   },
   {
    "topic": "Self-Determination",
@@ -444,7 +509,13 @@
    ],
    "ans": 0,
    "rat": "Coercion is an explicit or implicit threat of penalty for failing to participate, or an excessive reward for agreeing. Tying enrollment to a performance evaluation and reporting refusers to the manager is a threat of penalty, so it violates the right to self-determination under respect for human dignity. Full disclosure governs what the participant is told about the study, fair treatment governs how participants are selected and treated, and privacy governs how their data are handled — none is the breach described here.",
-   "strat": "A penalty for saying no, or a payout too large to refuse — both are coercion, and both hit self-determination."
+   "strat": "A penalty for saying no, or a payout too large to refuse — both are coercion, and both hit self-determination.",
+   "why": "Coercion is an explicit or implicit threat of penalty for not participating, or an excessive reward for agreeing to take part. Tying enrollment to a performance evaluation, and reporting who declined to the manager, is a threat of penalty. That violates the right to self-determination under respect for human dignity.",
+   "whyNot": [
+    "Full disclosure governs what participants are told about study risks and benefits, a separate right from the coercion described here.",
+    "The right to privacy governs how participants' data are handled, not how they are pressured to enroll in the first place.",
+    "Fair treatment governs how participants are selected and treated, not the threat of an unfavorable evaluation for declining."
+   ]
   },
   {
    "topic": "Informed Consent",
@@ -460,7 +531,13 @@
    ],
    "ans": 1,
    "rat": "Informed consent rests on two elements: the right to self-determination and the right to full disclosure. Full disclosure means the researcher has fully described the study, the person's right to refuse participation, and the potential risks and benefits — this form omits both the risk of irritation and the right to refuse, so the signature does not make the consent valid. A second witness is not the element the guide names, and describing procedures alone falls short of full disclosure.",
-   "strat": "Informed consent = self-determination + full disclosure; if either leg is missing, a signature does not rescue it."
+   "strat": "Informed consent = self-determination + full disclosure; if either leg is missing, a signature does not rescue it.",
+   "why": "Informed consent rests on two elements: self-determination and full disclosure. Full disclosure means describing the study, the right to refuse, and the risks and benefits. This form omits both the risk of skin irritation and the right to refuse, so a signature alone cannot make this consent valid.",
+   "whyNot": [
+    "A second researcher's witness signature is not one of the two elements the guide requires for valid consent.",
+    "Describing the procedures alone falls short of full disclosure, which also requires stating the risks and the right to refuse.",
+    "A signature only shows the client signed. It cannot substitute for the risk and refusal information the form never disclosed."
+   ]
   },
   {
    "topic": "Belmont Report Principles",
@@ -500,7 +577,8 @@
     }
    ],
    "rat": "Beneficence obliges the researcher to minimize harm and maximize benefit; it carries both the right to freedom from harm and discomfort (which includes emotional harm) and the right to protection from exploitation (what participants disclose must not be used against them). Respect for human dignity carries self-determination (refuse, skip questions, withdraw) and full disclosure (the study, its risks and benefits, and the right to refuse). Justice carries the right to fair treatment (equitable selection, no exclusion of women and minorities) and the right to privacy (data held in strict confidence, HIPAA).",
-   "strat": "Beneficence = protect them; human dignity = tell them and let them choose; justice = treat them fairly and guard their data."
+   "strat": "Beneficence = protect them; human dignity = tell them and let them choose; justice = treat them fairly and guard their data.",
+   "why": "Beneficence obliges researchers to minimize harm and maximize benefit, covering freedom from harm and discomfort, including emotional harm, and protection from exploitation of disclosed information. Respect for human dignity covers self-determination, refusing, skipping questions, withdrawing, and full disclosure of the study, its risks and benefits, and the right to refuse. Justice covers fair treatment, equitable selection without excluding groups, and privacy of the data participants provide."
   },
   {
    "topic": "Voluntary Participation",
@@ -523,7 +601,12 @@
     5
    ],
    "rat": "Self-determination means prospective participants decide voluntarily, without risking prejudicial treatment, and it includes the right to ask questions, to refuse to answer questions, and to drop out of the study — so refusing individual questions, withdrawing, having questions answered before signing, and knowing that care is unaffected by declining all uphold it. A generous stipend directed at a low-income group is considered mildly coercive because the incentive functions as pressure, and enrolling first while explaining later removes the informed, voluntary decision this principle protects.",
-   "strat": "Voluntary means the client can say no, say nothing, or stop later — and nothing bad happens either way."
+   "strat": "Voluntary means the client can say no, say nothing, or stop later — and nothing bad happens either way.",
+   "why": "Self-determination means prospective participants decide voluntarily, without risking prejudicial treatment, including the right to ask questions, refuse to answer questions, and withdraw at any point. Answering questions before signing, allowing refusal of individual questions, permitting withdrawal, and confirming that declining will not affect care all protect that voluntary choice.",
+   "whyNot": [
+    "A large stipend aimed at a low-income group is considered mildly coercive, since the incentive itself functions as pressure to agree.",
+    "Enrolling first and explaining details later removes the informed, voluntary decision self-determination is meant to protect."
+   ]
   },
   {
    "topic": "Beneficence: Harm and Discomfort",
@@ -539,7 +622,13 @@
    ],
    "ans": 2,
    "rat": "Beneficence imposes a duty to minimize harm and maximize benefits, and the guide states that harm and discomfort in research may be physical, emotional (such as stress), social, or financial. Qualitative studies probe highly personal areas, so the researcher must stay aware of the intrusion on the participant's psyche and act to limit it. Honoring agreements and respecting beliefs belong to justice and the right to fair treatment, and full disclosure concerns what she was told before consenting — neither addresses the distress happening now.",
-   "strat": "Research harm is physical, emotional, social, or financial — tears count, and beneficence owns them."
+   "strat": "Research harm is physical, emotional, social, or financial — tears count, and beneficence owns them.",
+   "why": "Beneficence imposes a duty to minimize harm and maximize benefit, and harm and discomfort in research may be physical, emotional, social, or financial. Qualitative interviews probe highly personal territory, so when this mother's distress surfaces mid-interview, the researcher must recognize the emotional harm and act to limit it.",
+   "whyNot": [
+    "Justice concerns honoring agreements made with participants, a different obligation from responding to distress happening in the moment.",
+    "Fair treatment concerns respecting a participant's beliefs, not the emotional intrusion this line of questioning is causing right now.",
+    "Full disclosure concerns what she was told before consenting, which does not address the distress she is experiencing during the interview."
+   ]
   },
   {
    "topic": "Deception and Concealment",
@@ -561,7 +650,13 @@
     5
    ],
    "rat": "Describing a drug-use study as a study of student health practices is what the guide calls a mild form of misinformation, which is deception; both deception and concealment are ethically problematic because they interfere with people's right to make truly informed decisions about the personal costs and benefits of participation. The guide also notes the split view that deception may be acceptable when a study carries minimal risk yet offers benefits to society. Concealment is a different technique — collecting data without participants' knowledge and therefore without consent — and a partly true description does not amount to full disclosure.",
-   "strat": "Concealment hides the watching; deception distorts the telling. Either one dents informed consent."
+   "strat": "Concealment hides the watching; deception distorts the telling. Either one dents informed consent.",
+   "why": "Describing a drug-use study as a study of student health practices is a mild form of misinformation, which the guide defines as deception. Deception is ethically problematic because it interferes with a person's right to make a truly informed decision about the costs and benefits of taking part. Some hold that it is acceptable when risk is minimal and society benefits.",
+   "whyNot": [
+    "Being minors does not exempt a study from consent requirements. Vulnerable populations need more protection, not less.",
+    "A partly true description does not amount to full disclosure, which requires accurately describing the actual study being conducted.",
+    "This is deception, not concealment. Students know they are enrolled in a study, so nothing is being hidden from them."
+   ]
   },
   {
    "topic": "Justice: Fair Treatment",
@@ -577,7 +672,13 @@
    ],
    "ans": 0,
    "rat": "Justice includes the right to fair treatment, which calls for equitable distribution of the benefits and burdens of research and requires that participants be selected on the basis of research requirements rather than their vulnerabilities. The guide names prisoners as an example of a group of lower social standing chosen for convenience, which is precisely this scenario. Protection from exploitation (part of beneficence) would apply if what participants disclosed were used against them, freedom from harm concerns risk of injury or distress, and self-determination concerns voluntary consent — no payment is required, and an excessive one would itself be coercive.",
-   "strat": "Ask why this group: if the answer is convenience rather than the science, the problem is justice."
+   "strat": "Ask why this group: if the answer is convenience rather than the science, the problem is justice.",
+   "why": "The right to fair treatment calls for equitable distribution of research's burdens and requires selecting participants based on study requirements, not their vulnerabilities. The guide names prisoners as an example of a group of lower social standing chosen for convenience, which is exactly this recruitment plan.",
+   "whyNot": [
+    "Freedom from harm concerns injury or distress from the protocol itself, not why this particular group was chosen to receive it.",
+    "Self-determination concerns voluntary consent. No payment is required, and an excessive one would itself raise coercion concerns.",
+    "Protection from exploitation applies when disclosed information could be used against participants, not when a group is chosen for convenience."
+   ]
   },
   {
    "topic": "Categories of Law",
@@ -593,7 +694,13 @@
    ],
    "ans": 3,
    "rat": "The module lists the Health Insurance Portability and Accountability Act (HIPAA) as its example of administrative law — the laws and legal principles governing the creation, administration, and regulation of government agencies. Statutory law is the module's Medicare/Medicaid example (acts of Congress), common law is its medical malpractice example (custom and precedent), and tort is its defective-instrument example (an act or omission causing harm).",
-   "strat": "Match each of the four law categories to the module's own example: malpractice = common, HIPAA = administrative, Medicare/Medicaid = statutory, defective instrument = tort."
+   "strat": "Match each of the four law categories to the module's own example: malpractice = common, HIPAA = administrative, Medicare/Medicaid = statutory, defective instrument = tort.",
+   "why": "The module lists HIPAA as its example of administrative law, the laws and legal principles governing the creation, administration, and regulation of government agencies. E-mailing client names, diagnoses, and phone numbers to someone outside the study team without authorization is exactly the kind of HIPAA violation this category covers.",
+   "whyNot": [
+    "The module's example of common law is medical malpractice, which rests on custom and judicial precedent, not a HIPAA data breach.",
+    "The module's example of tort law is using a known defective instrument, an act causing harm rather than a records disclosure.",
+    "The module's example of statutory law is Medicare and Medicaid, acts passed by Congress rather than agency regulations like HIPAA."
+   ]
   },
   {
    "topic": "IRB Review Levels",
@@ -633,7 +740,8 @@
     }
    ],
    "rat": "Exempt review covers studies that pose no risk, such as surveys or data collected from medical records; the researcher still must adhere to ethical principles. Expedited review applies when risk is minimal — the probability of physical or emotional discomfort is no greater than that experienced in daily life — and one or two IRB members approve or deny it. Full review by the entire committee is required when risk is more than minimal, and is typical where federal funds are received and publication is anticipated.",
-   "strat": "Sort by risk, not by topic: no risk = exempt, no worse than daily life = expedited, more than minimal risk (often federally funded) = full committee."
+   "strat": "Sort by risk, not by topic: no risk = exempt, no worse than daily life = expedited, more than minimal risk (often federally funded) = full committee.",
+   "why": "Exempt review covers studies posing no risk, such as anonymous surveys or retrospective chart data with no client contact, though ethical principles still apply. Expedited review fits minimal-risk studies, such as an extra tube of blood or a treadmill walk, where discomfort is no greater than daily life. Full committee review applies once risk is more than minimal, typically with federal funding and planned publication."
   },
   {
    "topic": "Defamation and Privacy",
@@ -671,7 +779,8 @@
     }
    ],
    "rat": "The module defines defamation as a false and harmful oral statement and libel as a false statement that is published or written, so the spoken huddle remark is defamation and the same claim in the circulated report is libel. Subjects also have the right to have their health information kept confidential and released only to authorized individuals, so an exposed printout is a violation of privacy rather than a false statement.",
-   "strat": "Libel starts like \"letter\" — written or published; defamation is what is said out loud. Privacy is about who can see the information, not whether it is true."
+   "strat": "Libel starts like \"letter\" — written or published; defamation is what is said out loud. Privacy is about who can see the information, not whether it is true.",
+   "why": "Defamation is a false and harmful oral statement, while libel is a false statement that is published or written. The spoken huddle remark is defamation, and the identical claim in the circulated report is libel. Participants also have the right to have their health information kept confidential, so an exposed printout is a privacy violation rather than a false statement."
   },
   {
    "topic": "Informed Consent",
@@ -693,7 +802,13 @@
     5
    ],
    "rat": "The module sets four requirements: the language must be simple enough to understand, the consent must not be coerced, the consent must be documented, and the subject must have had time to review the document. Tying meal service to enrollment is coercion of a vulnerable population, a verbal yes leaves the consent undocumented, and rewriting the form in research terminology defeats the plain-language requirement.",
-   "strat": "Four consent checks: understandable, uncoerced, documented, and enough time to review."
+   "strat": "Four consent checks: understandable, uncoerced, documented, and enough time to review.",
+   "why": "The module sets four consent requirements: understandable plain language, freedom from coercion, documentation, and enough time to review the form before signing. Giving participants review time and writing the form in plain language each satisfy one requirement. Keeping a signed form on file for every enrolled participant satisfies documentation.",
+   "whyNot": [
+    "A verbal yes at the recruiting table leaves consent undocumented, which fails the documentation requirement regardless of what was discussed.",
+    "Tying continued shelter meals to enrollment coerces a vulnerable population, violating the requirement that consent be free of coercion.",
+    "Rewriting the form in research terminology defeats the plain-language requirement, even though the wording becomes more technically precise."
+   ]
   },
   {
    "topic": "Internet Research",
@@ -709,7 +824,13 @@
    ],
    "ans": 1,
    "rat": "The module names an e-mail conversation with the participant after they submit the consent document as a way to raise confidence that the participant read and understood the material, and to answer questions or clarify concerns. A checkbox or a typed name records the click but proves nothing about comprehension, and posting the form publicly does not confirm that this participant read it.",
-   "strat": "Online consent problems are solved by adding a second, two-way contact with the participant, not by adding another click to the form."
+   "strat": "Online consent problems are solved by adding a second, two-way contact with the participant, not by adding another click to the form.",
+   "why": "The module names an e-mail exchange with the participant after they submit the consent form. This raises confidence that they read and understood it, while also giving them a chance to ask questions. This two-way contact directly addresses the concern that online consent cannot be observed as it happens.",
+   "whyNot": [
+    "Typing a full legal name only records a click. It proves nothing about whether the participant actually read and understood the form.",
+    "Posting the form publicly for any visitor confirms nothing about whether this specific participant read it before clicking submit.",
+    "A checkbox records the click just as a signature would, without verifying actual comprehension of what was read."
+   ]
   }
  ]
 }
