@@ -1,7 +1,7 @@
 # Week 1 Supplement: Growth, Development, and Safety Gaps
 
 **Course:** NR328 Pediatric Nursing (Pediatric Nursing-Dennis)
-**Why this file exists:** The Week 1 Canvas practice quiz (14 questions) tests several specifics that appear nowhere in the captured Edapt modules. Three of them correspond to Self-Check sections that our extraction skips by design, so the teaching content never appeared in an Explore section.
+**Why this file exists:** The Week 1 Canvas practice quiz tests several specifics that appear nowhere in the *captured* Edapt text. **This is a capture gap, not a course-material gap** — see the correction note at the end of this file. Edapt almost certainly teaches this content; our extraction could not read it.
 **Provenance:** NOT from Edapt and NOT from CDC. These are standard pediatric nursing norms as taught in Hockenberry & Wilson, *Wong's Nursing Care of Infants and Children*. **Verify against course materials before relying on them** — note that CDC's 2022 revised milestones use different percentile cutoffs than nursing textbooks, so prefer the nursing norms for this exam.
 **Created:** 2026-07-26
 
@@ -116,3 +116,35 @@ Appeared only as Self-Check: Kohlberg's Stages of Moral Development (section 5) 
 | 14 | Wong-Baker for a 7-year-old | `Nursing_Care_Pediatric_Populations` — Pain Assessment Tools |
 
 **Nine of fourteen** were answerable from existing Edapt captures; **five** required this supplement.
+
+---
+
+## Correction note (2026-07-26)
+
+An earlier version of this file implied Edapt does not teach this material. **That was wrong.**
+Chris pushed back, and tracing it through the module proved him right.
+
+**What actually happened.** `Week1_Introduction_to_Pediatric_Nursing.md` Section 4, "Pediatric
+Growth & Development by Age Groups," consists of **five life-span videos and nothing else** —
+Infant, Toddler, Preschool, School Age, Adolescent — none with a transcript. All the extraction
+captured were the filenames. That section is the module's primary growth-and-development
+teaching, and it is absent from the study guide.
+
+The three Self-Checks with no matching captured text — **Fine and Gross Motor Skills**,
+**Kohlberg's Stages of Moral Development**, and **Play** — all sit immediately after Section 4.
+Since Self-Checks only drill material from the preceding slides, their titles are direct evidence
+that those videos taught motor milestones, Kohlberg, and play types. The content was there; we
+couldn't read it.
+
+**What this file is, correctly stated:** a text reconstruction of material Edapt teaches on video,
+sourced from standard nursing references because the video had no transcript. Not a supplement for
+something the course omitted.
+
+**What is genuinely covered in the captured text** (don't restudy here): Section 3's per-age table
+carries Physical growth, Cognitive (Piaget), Psychosocial (Erikson), Health Risks by age, Health
+Promotion, and Nursing Process for all five stages. Sections 12–13 cover therapeutic play's purpose
+and nursing considerations — though *not* the developmental play-type taxonomy, which was in the
+video.
+
+**Recommended:** watch the five Section 4 videos in Edapt directly and reconcile them against this
+file. Where they disagree, the videos win — they are the course's own content.
