@@ -17,3 +17,6 @@ __pycache__/
 Thumbs.db
 .DS_Store
 desktop.ini
+
+# Lint runs without -o default to <name>.quiz.html; never a deliverable
+*.quiz.html
