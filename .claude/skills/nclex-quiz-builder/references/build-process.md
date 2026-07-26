@@ -129,6 +129,10 @@ and a defect report back to the material's authors, so be specific.
   absolute / SATA-variation; if Management of Care or Psychosocial are under band, swap in
   prioritization/psychosocial items; re-run until the linter is quiet (or each remaining warning
   has a logged reason). This central pass is where even coverage and difficulty are enforced.
+- **Fix the guessability tells here — they are invisible to per-module agents.** Each agent lints only its own handful of items, so distribution defects only become visible once merged. Three to check, all reported by the linter:
+  - **Correct-answer position.** Authors overwhelmingly write the key first: measured across the eight earlier quizzes it sat at option A for 55–100% of radio items, so "always pick A" beat most of them. Permute options and deal target positions round-robin per option-count so the spread is uniform *by construction* — random shuffling still clumps at small n (one 14-item quiz landed 57% on B, 0% on C). Remap `ans` and verify the keyed **text** is unchanged.
+  - **match/matrix row order.** Identity maps (`[0,1,2,3]`) are answerable top-to-bottom; clustered answers (`[0,0,0,1,1,1]`) expose the grouping. Fix by reordering **rows**, never keys.
+  - **Length tells.** The keyed option being longest — per-module agents usually catch this, but re-check after merge.
 - **Fix the format mix here.** Read the linter's `Item format mix` block. If multi-select is over
   the 40% ceiling or `radio` is under 55%, convert the weakest multi-select items to single-best
   — the usual candidates are SATA items whose options aren't truly independent, and `match`/`cloze`

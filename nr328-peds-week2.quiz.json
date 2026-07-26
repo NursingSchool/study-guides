@@ -87,12 +87,12 @@
    "lvl": "Application",
    "stem": "A 5-month-old is hospitalized with RSV bronchiolitis while her 8-year-old brother, who has the same virus, is being managed at home with fluids and rest. The parent asks why the baby is so much sicker than her brother.\nWhich explanation should the nurse give?",
    "opts": [
-    "Her alveoli are still forming, so she cannot move oxygen across them yet",
-    "Her cough reflex is immature, so she swallows secretions instead of clearing them",
     "Her airways are much narrower, so the same swelling blocks far more airflow",
-    "Maternal antibodies faded at 3 months and she has not made any of her own yet"
+    "Maternal antibodies faded at 3 months and she has not made any of her own yet",
+    "Her alveoli are still forming, so she cannot move oxygen across them yet",
+    "Her cough reflex is immature, so she swallows secretions instead of clearing them"
    ],
-   "ans": 2,
+   "ans": 0,
    "rat": "Infants have smaller airway diameters and shorter distances between structures in the respiratory tract, so the edema and secretions of bronchiolitis obstruct airflow far more than the identical virus does in a school-age child — which is why RSV presents as severe in infants and mild in older children. Maternal antibodies do fade around 3 months, but infants are building their own between 3 and 6 months; alveolar development and cough-reflex maturity are not what makes this infant decompensate.",
    "strat": "Same swelling, smaller tube — narrowing a small airway costs far more airflow than narrowing a big one."
   },
@@ -107,29 +107,29 @@
     {
      "label": "[1] Oximeter sensor site",
      "opts": [
-      "On the earlobe",
       "Around the foot or on a toe",
+      "On the earlobe",
       "Across the bridge of the nose"
      ],
-     "a": 1
+     "a": 0
     },
     {
      "label": "[2] Continuous carbon dioxide data",
      "opts": [
-      "Transcutaneous monitoring",
       "End-tidal carbon dioxide monitoring",
+      "Transcutaneous monitoring",
       "A single arterial blood gas"
      ],
-     "a": 1
+     "a": 0
     },
     {
      "label": "[3] Grading severity and response",
      "opts": [
-      "A chest x-ray",
       "Overnight pulse oximetry",
-      "Pulmonary function testing with spirometry"
+      "Pulmonary function testing with spirometry",
+      "A chest x-ray"
      ],
-     "a": 2
+     "a": 1
     }
    ],
    "rat": "In infants the oximetry sensor goes on a toe or around the foot, where the probe fits and stays put. End-tidal carbon dioxide monitoring reads exhaled CO2 continuously; transcutaneous monitoring is also continuous but follows oxygen, and a blood gas is a single invasive snapshot. Pulmonary function testing with spirometry is the noninvasive study used to judge how severe the disease is and whether treatment is working — an x-ray shows structure, not function.",
@@ -143,12 +143,12 @@
    "lvl": "Application",
    "stem": "A 4-month-old is admitted in January with RSV bronchiolitis. A sibling had a cold last week, and the children share toys and a play mat at home.\nWhich infection-control plan should the nurse put in place?",
    "opts": [
-    "Airborne precautions in a negative-pressure room with N95 respirators",
     "Contact and droplet precautions in a private room",
     "Droplet precautions alone, because the virus dies quickly on surfaces",
+    "Airborne precautions in a negative-pressure room with N95 respirators",
     "Standard precautions with hand hygiene between contacts"
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "RSV spreads through droplets in the air and on surfaces, where it stays viable for several hours, so respiratory isolation pairs contact with droplet precautions. Droplet-only or standard precautions leave the surface route open — the shared toys are a real transmission path — and RSV is not an airborne pathogen requiring negative pressure and an N95. Infants can shed the virus up to 4 weeks, so precautions stay in place well past the usual 3 to 8 days of contagion.",
    "strat": "Two routes of spread means two sets of precautions — the droplets in the air and the virus on the crib rail."
   },
@@ -160,18 +160,18 @@
    "lvl": "Application",
    "stem": "A 7-month-old is admitted with RSV bronchiolitis. Respiratory rate 62/min, intercostal retractions, expiratory wheezing, thick nasal secretions, and SpO2 89% on room air. She has taken about half her usual formula volume for 2 days.\nWhich interventions should the nurse anticipate? Select all that apply.",
    "opts": [
-    "Administer a nebulized bronchodilator as prescribed",
-    "Increase fluid intake by mouth or intravenously",
+    "Begin an oral antibiotic to head off bacterial pneumonia",
     "Apply supplemental oxygen to correct the hypoxemia",
     "Count wet diapers and weigh her daily to follow hydration",
+    "Administer a nebulized bronchodilator as prescribed",
     "Give palivizumab now to shorten the current infection",
-    "Begin an oral antibiotic to head off bacterial pneumonia"
+    "Increase fluid intake by mouth or intravenously"
    ],
    "ans": [
-    0,
     1,
     2,
-    3
+    3,
+    5
    ],
    "rat": "Treatment of RSV in this course is increased fluids (oral or IV), supplemental oxygen, and bronchodilators, and because admissions are driven by breathing difficulty plus dehydration, tracking intake and output belongs in the plan. Palivizumab is monthly prophylaxis given through RSV season to high-risk infants, not a treatment for an infection already underway, and antibiotics do not touch a viral bronchiolitis. (Current national guidance questions routine bronchodilators for bronchiolitis, but this lesson lists them among the RSV treatments.)",
    "strat": "RSV admissions turn on two problems — moving air and taking fluids; sort every ordered intervention into one of those two."
@@ -185,11 +185,11 @@
    "stem": "A 4-month-old born at 28 weeks and treated for bronchopulmonary dysplasia is going home in October. The nurse has finished teaching the parents about palivizumab.\nWhich statement by a parent indicates the teaching was effective?",
    "opts": [
     "This shot works like her other vaccines, so one dose covers her for life",
-    "We give her the shot at the first sign of a cough to keep her out of the hospital",
     "Her big brother's flu shot this fall will cover her for RSV as well",
-    "She will need an injection every month through the RSV season"
+    "She will need an injection every month through the RSV season",
+    "We give her the shot at the first sign of a cough to keep her out of the hospital"
    ],
-   "ans": 3,
+   "ans": 2,
    "rat": "Palivizumab is an injection given once a month throughout RSV season to prevent infection in children at high risk for severe disease — premature infants, infants with bronchopulmonary dysplasia, and those with certain heart defects — which describes this infant exactly. It gives passive protection that wanes between doses rather than lasting immunity from one dose, it is prophylaxis so it is not started after symptoms begin, and influenza vaccine offers no cross-protection against RSV. (Newer RSV agents have since entered practice; this course names palivizumab as the prophylaxis.)",
    "strat": "Palivizumab is a monthly shield for the season — given before RSV to the high-risk infant, not after symptoms start."
   },
@@ -201,12 +201,12 @@
    "lvl": "Analysis",
    "stem": "An 11-year-old with moderate persistent asthma has a personal best peak flow of 300 L/min. His parent calls the clinic with today's readings:\n\n• 0800 — 250 L/min\n• 1300 — 205 L/min\n• 1900 — 130 L/min\n\nHe is coughing and says his chest feels tight.\nWhich instruction should the nurse give?",
    "opts": [
+    "Have him rest for 20 minutes and repeat the reading before deciding",
     "Keep to the daily plan; these numbers are still in the green zone",
     "Start the yellow zone medicines and recheck the peak flow in the morning",
-    "Follow the red zone plan and contact the provider now",
-    "Have him rest for 20 minutes and repeat the reading before deciding"
+    "Follow the red zone plan and contact the provider now"
    ],
-   "ans": 2,
+   "ans": 3,
    "rat": "The 1900 reading is 130 ÷ 300 = 43% of personal best. Under 50% is the red zone — a medical emergency — so the family follows the prescribed red zone plan and contacts the provider. He was green at 0800 (83%) and yellow at 1300 (68%), but he has fallen through both zones across the day; treating him as green or yellow, or waiting to recheck, delays emergency care in a child who is already symptomatic.",
    "strat": "Divide the reading by personal best: 80-100% green, 50-80% yellow, under 50% red — and act on the newest number."
   },
@@ -218,17 +218,17 @@
    "lvl": "Application",
    "stem": "The parent of a 15-month-old with acute viral nasopharyngitis asks how to care for him at home. He is febrile, congested, and taking his bottles poorly.\nWhich instructions should the nurse include? Select all that apply.",
    "opts": [
+    "Rub a camphor-menthol vapor product on his chest at bedtime",
+    "Read the label on any cold syrup, since many also contain acetaminophen",
+    "Expect three to four wet diapers in 24 hours while he is sick",
     "Instill saline drops and clear the nares with an aspirator before feedings",
     "Run warm or cool mist in his room to soothe the inflamed membranes",
-    "Read the label on any cold syrup, since many also contain acetaminophen",
-    "Rub a camphor-menthol vapor product on his chest at bedtime",
-    "Expect three to four wet diapers in 24 hours while he is sick",
     "Hold his bottles until the congestion clears so he does not choke"
    ],
    "ans": [
-    0,
     1,
-    2
+    3,
+    4
    ],
    "rat": "Saline drops with an aspirator open the nasal passages a young nose-breather needs in order to feed, warm or cool mist soothes inflamed membranes, and checking cold-remedy labels prevents an acetaminophen overdose when an antipyretic is already being given on a schedule. Topical vapor rubs are reserved for children older than 2 years, 6 to 7 wet diapers in 24 hours is the expected output so 3 to 4 is a dehydration warning rather than a goal, and holding fluids deepens the deficit that fever and poor intake have already started.",
    "strat": "In a congested infant, clearing the nose is a feeding intervention — he cannot suck and breathe through a blocked nose."
@@ -260,28 +260,28 @@
      "label": "[1] Home management",
      "opts": [
       "cool mist or cool night air constricts the swollen airway vessels",
-      "steam from a hot shower relaxes the swollen airway tissue",
-      "a warm-mist vaporizer at the bedside keeps the airway from drying out"
+      "a warm-mist vaporizer at the bedside keeps the airway from drying out",
+      "steam from a hot shower relaxes the swollen airway tissue"
      ],
      "a": 0
     },
     {
      "label": "[2] Moderate to severe croup",
      "opts": [
-      "an oral antibiotic for 7 to 10 days",
       "nebulized racemic epinephrine",
+      "an oral antibiotic for 7 to 10 days",
       "a throat culture and a lateral neck x-ray"
      ],
-     "a": 1
+     "a": 0
     },
     {
      "label": "[3] Severe respiratory distress",
      "opts": [
-      "on continuous oral fluids to thin the secretions",
       "on clear liquids only until the stridor resolves",
-      "NPO to prevent aspiration"
+      "NPO to prevent aspiration",
+      "on continuous oral fluids to thin the secretions"
      ],
-     "a": 2
+     "a": 1
     }
    ],
    "rat": "Cool mist is the treatment for croup because it constricts the edematous blood vessels in the airway, which is why caregivers are told to take the child into cool night air, use a cold-water vaporizer, or stand at an open freezer, and why the hospital gives cool mist by mask or blow-by; warm steam and warm-mist vaporizers do not produce that vasoconstriction. Once stridor is present at rest, croup is moderate to severe and nebulized racemic epinephrine is given as fast as possible, with corticosteroids added early to reduce edema — antibiotics treat bacterial epiglottitis, not this viral illness. Fluids are encouraged only in mild croup; a child in severe distress is NPO so that a swallow does not become an aspiration.",
@@ -294,17 +294,17 @@
    "lvl": "Analysis",
    "stem": "CASE (1/6) Recognize cues.\nA 4-year-old is brought to the emergency department at 0200. The caregiver says the child ate dinner and went to bed well, then woke about 2 hours ago with a fever and a sore throat and now says it hurts to swallow. The immunization record is incomplete.\n\nAssessment: temperature 39.6°C, heart rate 148, respirations 34, SpO2 94% on room air. The child sits upright on the caregiver's lap leaning forward with the mouth open, and saliva runs onto the shirt. The child is restless and pushes the nurse's hands away. No cough is heard at any point.\n\nSelect ALL of the findings that require immediate follow-up.",
    "opts": [
-    "Saliva running out of the mouth onto the child's shirt",
-    "Upright, forward-leaning posture the child will not give up",
-    "No cough heard at any point during the assessment",
-    "Heart rate of 148 beats per minute",
+    "The caregiver's report that the child ate dinner and went to bed well",
     "The child sitting on the caregiver's lap rather than the stretcher",
-    "The caregiver's report that the child ate dinner and went to bed well"
+    "Upright, forward-leaning posture the child will not give up",
+    "Heart rate of 148 beats per minute",
+    "No cough heard at any point during the assessment",
+    "Saliva running out of the mouth onto the child's shirt"
    ],
    "ans": [
-    0,
-    1,
-    2
+    2,
+    4,
+    5
    ],
    "rat": "Drooling, the tripod posture, and an absent spontaneous cough are the findings that mark this as acute epiglottitis, an obstructive process that can close the airway within minutes, so each one drives immediate action. A heart rate of 148 is what a 4-year-old with a temperature of 39.6°C and respiratory distress is expected to do, and it will settle as those resolve; sitting on the caregiver's lap is the position the child should keep, since being held conserves energy and prevents the crying that worsens obstruction. A normal bedtime is history, not a finding — it tells the nurse how fast this came on rather than what to act on.",
    "strat": "Separate cues the fever explains from cues the airway explains — only the airway cues start the clock."
@@ -316,12 +316,12 @@
    "lvl": "Analysis",
    "stem": "CASE (2/6) Analyze cues.\nThe nurse reviews the 4-year-old's cues: onset within hours, temperature 39.6°C, sore throat with painful swallowing, drooling, upright forward-leaning posture with the mouth open, restlessness, and no cough.\n\nWhich interpretation of these cues is best supported?",
    "opts": [
-    "Acute epiglottitis, a bacterial swelling above the vocal cords",
     "Acute laryngotracheobronchitis, a viral swelling that peaks at night",
-    "Viral croup made worse by the child's crying and agitation",
-    "Pharyngitis with dehydration from days of poor fluid intake"
+    "Acute epiglottitis, a bacterial swelling above the vocal cords",
+    "Pharyngitis with dehydration from days of poor fluid intake",
+    "Viral croup made worse by the child's crying and agitation"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Rapid onset preceded by a sore throat, a high fever, painful swallowing, drooling, the tripod position, agitation, and an absent cough are the history and manifestations of acute epiglottitis, usually caused by Haemophilus influenzae — more likely here because the immunizations are incomplete. Laryngotracheobronchitis builds gradually after an upper respiratory infection, runs a low-grade fever, and produces a barky cough with stridor, none of which this child has, and agitation worsening croup would explain one symptom rather than this whole picture. Pharyngitis with dehydration accounts for neither the tripod posture nor the speed of onset; this child is drooling because swallowing hurts, not because fluids were lost.",
    "strat": "Hours instead of days, high fever, no cough — that combination belongs to the bacterial one."
   },
@@ -332,10 +332,10 @@
    "lvl": "Analysis",
    "stem": "CASE (3/6) Prioritize hypotheses.\nThe nurse suspects acute epiglottitis in the 4-year-old. Several problems are in play at once.\n\nWhich problem should the nurse treat as the priority threat?",
    "opts": [
-    "Aspiration of the secretions pooling in the child's mouth",
+    "Systemic spread of the bacterial infection through the blood",
     "Sudden complete obstruction of the swollen airway",
-    "Fluid volume deficit from swallowing that is too painful",
-    "Systemic spread of the bacterial infection through the blood"
+    "Aspiration of the secretions pooling in the child's mouth",
+    "Fluid volume deficit from swallowing that is too painful"
    ],
    "ans": 1,
    "rat": "All four are genuine risks, but by the ABCs the airway ranks first: epiglottitis is an obstructive inflammatory process that can progress to complete obstruction, severe distress, and sudden death, which is why the child is seen by the provider at once. Aspiration is prevented by NPO status, the fluid deficit and the bacteremia are treated by intravenous fluids and antibiotics, and none of the three can kill this child in the next few minutes the way a closed airway can.",
@@ -349,32 +349,32 @@
    "stem": "CASE (4/6) Generate solutions (bowtie).\nThe 4-year-old with suspected acute epiglottitis stays on the caregiver's lap, leaning forward, drooling, and restless while the provider is en route. Choose the central problem, two actions the nurse should take, and two parameters to monitor.",
    "problem": {
     "opts": [
-     "Impending complete airway obstruction",
-     "Ineffective airway clearance from thick secretions",
      "Fluid volume deficit from painful swallowing",
-     "Acute pain related to pharyngeal inflammation"
+     "Ineffective airway clearance from thick secretions",
+     "Acute pain related to pharyngeal inflammation",
+     "Impending complete airway obstruction"
     ],
-    "a": 0
+    "a": 3
    },
    "actions": {
     "opts": [
-     "Let the caregiver hold and comfort the child in the upright position",
-     "Have intubation, resuscitation, and suction equipment set up at the bedside",
      "Depress the tongue with a blade to inspect the swollen epiglottis",
+     "Let the caregiver hold and comfort the child in the upright position",
      "Position the child supine for a portable lateral neck x-ray",
-     "Give an oral antipyretic for the fever and the sore throat"
+     "Give an oral antipyretic for the fever and the sore throat",
+     "Have intubation, resuscitation, and suction equipment set up at the bedside"
     ],
     "ans": [
-     0,
-     1
+     1,
+     4
     ]
    },
    "params": {
     "opts": [
-     "Respiratory status with continuous pulse oximetry",
      "Ability to handle the secretions in the mouth",
-     "Daily weight and 24-hour intake and output",
+     "Respiratory status with continuous pulse oximetry",
      "Bowel sounds and abdominal girth",
+     "Daily weight and 24-hour intake and output",
      "Serum sodium and potassium levels"
     ],
     "ans": [
@@ -392,18 +392,18 @@
    "lvl": "Application",
    "stem": "CASE (5/6) Take action.\nThe provider has been notified and is on the way. The 4-year-old with suspected acute epiglottitis is still leaning forward on the caregiver's lap, drooling, restless, with a temperature of 39.6°C and SpO2 93% on room air.\n\nSelect ALL of the actions the nurse should take now.",
    "opts": [
-    "Let the caregiver keep holding the child in the position the child chose",
-    "Bring suction and resuscitation equipment to the bedside",
     "Offer blow-by humidified oxygen without forcing a mask onto the face",
+    "Let the caregiver keep holding the child in the position the child chose",
     "Keep the child NPO in case an emergency airway becomes necessary",
     "Obtain a throat culture before the intravenous antibiotic is started",
+    "Bring suction and resuscitation equipment to the bedside",
     "Move the child supine onto the stretcher to improve chest expansion"
    ],
    "ans": [
     0,
     1,
     2,
-    3
+    4
    ],
    "rat": "Being held by the caregiver in the self-chosen upright position conserves energy and prevents the crying that worsens the obstruction; suction and resuscitation equipment belong at the bedside before the airway fails; humidified oxygen is given by mask or blow-by for less severe distress, and blow-by avoids the struggle a mask would cause; and NPO status prevents aspiration while readying the child for intubation. A throat culture or any attempt to visualize the epiglottis can provoke complete airway obstruction and is withheld, and forcing the child supine takes away the position that is keeping the airway open.",
    "strat": "Let the child pick the position, stage the airway gear, and keep hands and instruments out of the mouth."
@@ -415,12 +415,12 @@
    "lvl": "Evaluation",
    "stem": "CASE (6/6) Evaluate outcomes.\nThe 4-year-old was intubated for severe respiratory distress and started on intravenous antibiotics. Twenty-four hours later the nurse reassesses before the planned extubation trial.\n\nWhich finding best indicates that the plan of care is working?",
    "opts": [
-    "Epiglottal swelling has decreased and an air leak is now audible",
-    "The temperature has fallen from 39.6°C to 38.1°C since admission",
     "Drooling has stopped because a suction catheter now clears the mouth",
-    "The child rests quietly and no longer resists being repositioned"
+    "Epiglottal swelling has decreased and an air leak is now audible",
+    "The child rests quietly and no longer resists being repositioned",
+    "The temperature has fallen from 39.6°C to 38.1°C since admission"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "The problem being treated was the obstructed airway, so the airway supplies the evidence: epiglottal swelling usually decreases after about 24 hours of antibiotic therapy, and a leak heard around the tube means the supraglottic space has reopened. A temperature down to 38.1°C is partial progress that says nothing about the swelling, the drooling stopped because a catheter is removing the secretions rather than because the child can swallow, and lying still in an intubated child reflects sedation rather than a resolving infection.",
    "strat": "Judge the outcome against the problem you named — an airway problem is measured with airway data, not the fever curve."
   },
@@ -433,8 +433,8 @@
    "opts": [
     "You each carry one copy of the gene, so each pregnancy has a 1 in 4 chance.",
     "One of you passed the gene along, so each pregnancy has a 1 in 2 chance.",
-    "The gene came from the mother's side, so future daughters are most at risk.",
-    "Since neither of you has the disease, this mutation is new and will not repeat."
+    "Since neither of you has the disease, this mutation is new and will not repeat.",
+    "The gene came from the mother's side, so future daughters are most at risk."
    ],
    "ans": 0,
    "rat": "Cystic fibrosis is autosomal recessive: two unaffected carrier parents each contribute one CFTR mutation, giving a 25% risk per pregnancy. A 1 in 2 pattern describes autosomal dominant inheritance, sex-linked risk to daughters misapplies X-linked reasoning, and a spontaneous new mutation does not explain a recessive disease appearing in a healthy couple.",
@@ -447,12 +447,12 @@
    "lvl": "Evaluation",
    "stem": "A 3-year-old with cystic fibrosis is being discharged on pancrelipase. The child eats three meals and two snacks daily.\nWhich statement by the parent indicates that teaching about the medication has been effective?",
    "opts": [
-    "I will give the enzymes right before each meal and each snack.",
-    "I will give the enzymes about an hour after he finishes eating.",
     "I will hold the enzymes on days when his stools look formed.",
+    "I will give the enzymes about an hour after he finishes eating.",
+    "I will give the enzymes right before each meal and each snack.",
     "I will give one dose of the enzymes each morning along with his vitamins."
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "Pancreatic enzymes are given immediately before or with every meal and snack so the enzymes reach the duodenum mixed with the food they must digest. Dosing an hour later means the food has already moved past the enzymes, holding doses when stools improve removes the very therapy producing the improvement, and a single daily dose leaves most of the day's intake undigested.",
    "strat": "Enzymes have to arrive with the food, not after it - no food, no enzyme dose."
   },
@@ -464,16 +464,16 @@
    "stem": "A 9-year-old admitted for a cystic fibrosis pulmonary exacerbation has orders for high-frequency chest compression (vest) therapy twice daily, IV antibiotics, and nighttime enteral feedings. The unit currently has two other children admitted with cystic fibrosis.\nWhich interventions should the nurse include in the plan of care? Select all that apply.",
    "opts": [
     "Administer the nebulized saline treatments during the vest therapy sessions",
-    "Maintain contact precautions and have the child wear a mask in common areas",
-    "Give the prescribed supplemental vitamins A, D, E, and K",
-    "Limit dietary fat to reduce the number of bulky, foul-smelling stools",
     "Encourage an aerobic activity the child enjoys as his tolerance allows",
-    "Assign the child to a room with one of the other children who has cystic fibrosis"
+    "Assign the child to a room with one of the other children who has cystic fibrosis",
+    "Give the prescribed supplemental vitamins A, D, E, and K",
+    "Maintain contact precautions and have the child wear a mask in common areas",
+    "Limit dietary fat to reduce the number of bulky, foul-smelling stools"
    ],
    "ans": [
     0,
     1,
-    2,
+    3,
     4
    ],
    "rat": "Nebulized therapy is delivered during vest therapy to hydrate the airway while secretions are being mobilized; contact precautions plus masking in common areas are standard for every client with cystic fibrosis; fat-soluble vitamins A, D, E, and K are supplemented because fat malabsorption depletes them; and aerobic exercise increases vital capacity and helps clear secretions. Fat is not restricted - enzyme replacement is what allows fat to be digested and the calories are needed for growth - and children with cystic fibrosis must be separated from one another to prevent cross-infection.",
@@ -486,12 +486,12 @@
    "lvl": "Analysis",
    "stem": "A term newborn has not passed meconium in the first 48 hours of life and now has abdominal distention and bilious emesis. The state newborn screening result for cystic fibrosis was abnormal.\nWhich test should the nurse anticipate to confirm the diagnosis?",
    "opts": [
-    "Sweat chloride test",
     "CFTR mutation panel",
     "Repeat newborn screening blood spot",
-    "Serum sodium and chloride levels"
+    "Serum sodium and chloride levels",
+    "Sweat chloride test"
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "Meconium ileus plus an abnormal newborn screen points to cystic fibrosis, and the sweat chloride test - stimulating and collecting sweat to measure electrolytes - is the confirmatory study. Identifying a CFTR mutation gives a high degree of certainty but does not by itself guarantee the child has the disease, repeating the screen only repeats a screening result, and serum electrolytes reflect losses from sweat rather than confirming the diagnosis.",
    "strat": "Newborn screen flags it, sweat chloride confirms it - screening and confirming are different jobs."
   },
@@ -502,12 +502,12 @@
    "lvl": "Analysis",
    "stem": "A 12-year-old with cystic fibrosis has been hospitalized for three days. The nurse reviews the trend:\nDay 1 - SpO2 95% on room air, temp 37.2°C, respirations 20/min, scant clear sputum.\nDay 2 - SpO2 91%, temp 38.1°C, respirations 26/min, moderate thick sputum.\nDay 3 - SpO2 88%, temp 38.7°C, respirations 34/min, copious thick green sputum with audible wheezing.\nWhich action should the nurse take first?",
    "opts": [
-    "Give the prescribed bronchodilator, then perform vest airway clearance",
     "Send a sputum specimen for culture before any airway clearance is done",
     "Withhold airway clearance until the fever is treated with acetaminophen",
+    "Give the prescribed bronchodilator, then perform vest airway clearance",
     "Have the child use huff coughing alone until the provider makes rounds"
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "By ABCs, falling oxygen saturation with wheezing and copious thick secretions makes ventilation the priority: the bronchodilator opens the bronchi so the airway clearance that follows can move the mucus out. The sputum culture matters but does not relieve obstruction, fever is not a reason to postpone clearance in a deteriorating child, and huff coughing is meant to be combined with other airway clearance therapy rather than used by itself.",
    "strat": "Open the airway, then clear it - bronchodilator before chest therapy."
   },
@@ -521,18 +521,18 @@
     {
      "label": "[1] Cause of the stools",
      "opts": [
-      "blocked pancreatic ducts that keep enzymes out of the duodenum",
       "thick mucus coating the stomach and slowing gastric emptying",
-      "bile duct scarring that sends bile salts into the large intestine"
+      "bile duct scarring that sends bile salts into the large intestine",
+      "blocked pancreatic ducts that keep enzymes out of the duodenum"
      ],
-     "a": 0
+     "a": 2
     },
     {
      "label": "[2] Growth problem to target",
      "opts": [
       "impaired absorption of fat and protein",
-      "an acquired intolerance to lactose sugars",
-      "excess loss of sodium and chloride in sweat"
+      "excess loss of sodium and chloride in sweat",
+      "an acquired intolerance to lactose sugars"
      ],
      "a": 0
     }
@@ -587,10 +587,10 @@
    "lvl": "Application",
    "stem": "A 5-year-old is admitted after 2 days of fever, headache, and anorexia, followed by tender swelling over the right jaw angle and an earache that worsens with chewing. Mumps is diagnosed.\nWhich transmission-based precautions should the nurse initiate in addition to standard precautions?",
    "opts": [
-    "Airborne and contact precautions",
-    "Droplet and contact precautions",
     "Droplet precautions alone",
-    "Contact precautions alone"
+    "Droplet and contact precautions",
+    "Contact precautions alone",
+    "Airborne and contact precautions"
    ],
    "ans": 1,
    "rat": "This module lists mumps as spread through the air and by direct contact, with saliva as the transmission source, and specifies droplet AND contact precautions, which is what is keyed here. Airborne plus contact belongs to measles and chickenpox in this module, and droplet alone is rubella. Current CDC guidance lists droplet precautions alone for mumps, but the module's version is what this course tests.",
@@ -604,12 +604,12 @@
    "lvl": "Application",
    "stem": "A 4-year-old whose family declined immunizations arrives with 4 days of fever, cough, and conjunctivitis, pinpoint white-centered spots on the buccal mucosa, and a blotchy red rash starting behind the ears.\nWhich admission plan matches the precautions this module specifies for this disease?",
    "opts": [
-    "Negative-pressure room; N95, gown, and gloves to enter",
     "Negative-pressure room; a surgical mask is worn to enter",
+    "Private room; a surgical mask is worn within 3 feet of the child",
     "Private room with the door open; gown and gloves to enter",
-    "Private room; a surgical mask is worn within 3 feet of the child"
+    "Negative-pressure room; N95, gown, and gloves to enter"
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "The cues describe measles, and this module lists its precautions as airborne AND contact: a negative-pressure room with the door closed, an N95, plus gown and gloves. A surgical mask does not filter airborne particles, gown and gloves alone cover only the contact half, and a private room without negative pressure is droplet-level placement.",
    "strat": "Airborne plus contact means room engineering plus PPE: negative pressure, door closed, N95, gown, gloves."
   },
@@ -661,17 +661,17 @@
    "lvl": "Application",
    "stem": "A parent calls the clinic about a 15-month-old who received several immunizations yesterday.\nWhich reported findings are consistent with the expected vaccine reactions described in this module? Select all that apply.",
    "opts": [
+    "Hives across the trunk with noisy, wheezy breathing after the visit",
     "Redness, swelling, and tenderness at the injection sites",
+    "A hot, spreading red area with yellow drainage at one injection site",
     "A temperature of 37.9°C last evening that responded to acetaminophen",
     "Fussiness and clinginess that has continued since the visit",
-    "Hives across the trunk with noisy, wheezy breathing after the visit",
-    "A hot, spreading red area with yellow drainage at one injection site",
     "A brief episode of limpness and unresponsiveness this morning"
    ],
    "ans": [
-    0,
     1,
-    2
+    3,
+    4
    ],
    "rat": "This module states that a vaccine reaction may occur a few hours to days after injection and that localized tenderness, redness, swelling at the site, low-grade fever, and irritability are expected side effects. Hives with wheezing points to an allergic reaction, spreading redness with purulent drainage points to injection-site infection, and a limp unresponsive episode is a neurologic event; none of those three fit the expected pattern and each needs evaluation.",
    "strat": "Expected reactions are local and mild and settle on their own; anything systemic, spreading, or neurologic gets reported."
@@ -685,17 +685,17 @@
    "stem": "A 6-year-old with chickenpox is being discharged home.\nWhich statements by the parent indicate that discharge teaching was effective? Select all that apply.",
    "opts": [
     "\"She stays home from school until every blister has scabbed over.\"",
-    "\"I will give acetaminophen rather than aspirin for her fever.\"",
-    "\"I will put mittens on her at night and keep her nails short and smooth.\"",
     "\"I will dress her in loose, lightweight clothes and bathe her daily without soap.\"",
+    "\"I will put mittens on her at night and keep her nails short and smooth.\"",
     "\"I will have her scrub the itchy spots with a washcloth instead of scratching.\"",
-    "\"She can visit her cousin who is on chemotherapy once her fever is gone.\""
+    "\"She can visit her cousin who is on chemotherapy once her fever is gone.\"",
+    "\"I will give acetaminophen rather than aspirin for her fever.\""
    ],
    "ans": [
     0,
     1,
     2,
-    3
+    5
    ],
    "rat": "This module keeps the child away from unvaccinated and high-risk contacts until lesions are crusted, avoids aspirin because of Reye's syndrome, and manages itching with mittens, short smooth nails, loose lightweight clothing, and daily bathing without soap. Scrubbing still abrades the lesions and invites the secondary bacterial skin infection listed as a varicella complication; the module teaches applying pressure to itchy areas instead. A cousin on chemotherapy is precisely the high-risk contact to avoid, and a normal temperature does not end communicability.",
    "strat": "For varicella, crusted lesions, not a normal temperature, is what ends isolation."
@@ -711,27 +711,27 @@
     {
      "label": "[1] Measles isolation",
      "opts": [
-      "until the fifth day of the rash",
       "until the fever has been gone 24 hours",
+      "until the fifth day of the rash",
       "for 21 days after the rash appears"
      ],
-     "a": 0
+     "a": 1
     },
     {
      "label": "[2] Chickenpox isolation",
      "opts": [
+      "until the itching has stopped",
       "until all of the lesions have crusted",
-      "until the first vesicles appear",
-      "until the itching has stopped"
+      "until the first vesicles appear"
      ],
-     "a": 0
+     "a": 1
     },
     {
      "label": "[3] Aspirin risk",
      "opts": [
       "Reye's syndrome",
-      "aplastic anemia",
-      "Kawasaki disease"
+      "Kawasaki disease",
+      "aplastic anemia"
      ],
      "a": 0
     }
@@ -747,12 +747,12 @@
    "lvl": "Analysis",
    "stem": "An 11-year-old is recovering at home on day 4 of mumps. The parent calls the nurse line to describe several findings.\nWhich finding should the nurse have evaluated right away?",
    "opts": [
-    "A stiff neck, pounding headache, and dislike of light",
-    "Parotid swelling that spread to the other side on day 3",
     "An earache that gets sharper each time the child chews",
-    "A temperature of 38.2°C with fatigue and a poor appetite"
+    "A temperature of 38.2°C with fatigue and a poor appetite",
+    "A stiff neck, pounding headache, and dislike of light",
+    "Parotid swelling that spread to the other side on day 3"
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "Meningitis and encephalitis are among the mumps complications this module lists, and nuchal rigidity with headache and photophobia is the meningeal picture; a central nervous system complication outranks the rest. Parotid edema becoming bilateral by day 3, an earache aggravated by chewing, and fever with malaise are the expected acute-phase course the module describes for mumps.",
    "strat": "Separate the disease's expected course from its complication list; the complication is what gets escalated."
   },
@@ -764,12 +764,12 @@
    "lvl": "Application",
    "stem": "A clinic nurse cares for a 3-year-old who attends a home daycare and whose nasopharyngeal culture has just confirmed pertussis. The cough comes in paroxysms, and the airway is patent between spells.\nWhich action carries out the nurse's responsibility for limiting spread beyond this family?",
    "opts": [
-    "Report the case to the local public health department",
-    "Ask the parents to notify the other daycare families",
     "Send the daycare a list of children who need testing",
-    "Hold the report until the antibiotic course is finished"
+    "Ask the parents to notify the other daycare families",
+    "Hold the report until the antibiotic course is finished",
+    "Report the case to the local public health department"
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "This module makes reporting the incidence of communicable diseases to the local public health department part of the nurse's role in preventing spread; public health then handles contact tracing and prophylaxis. Delegating notification to the parents leaves the required report undone, releasing a roster of children breaches their privacy and is not the nurse's call, and delaying the report until treatment ends wastes the window when contacts are still being exposed.",
    "strat": "A confirmed reportable disease goes to the health department now, not after treatment."
   }

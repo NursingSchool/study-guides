@@ -38,11 +38,11 @@
    "stem": "A 20-month-old is hospitalized and repeatedly says \"No!\" and attempts to feed and dress themselves, becoming upset when the nurse or parent intervenes. According to Erikson, which nursing approach best supports this child's developmental task?",
    "opts": [
     "Complete the child's self-care tasks quickly to reduce the child's frustration and conserve the child's energy during illness.",
-    "Offer the child simple choices, such as which cup to use, and allow the child to attempt self-care tasks whenever possible.",
     "Redirect the child toward quiet solitary play so the child is not overstimulated by attempting new tasks.",
+    "Offer the child simple choices, such as which cup to use, and allow the child to attempt self-care tasks whenever possible.",
     "Explain to the child that hospital rules require staff to complete all care tasks during the admission."
    ],
-   "ans": 1,
+   "ans": 2,
    "rat": "Toddlers are in Erikson's autonomy versus shame and doubt stage and need opportunities to make choices and attempt self-care to build independence; completing tasks for the child (A) or removing choice (D) risks shame and doubt, and solitary play (C) is the infant stage, not a toddler intervention.",
    "strat": "Toddler plus tantrums and independence-seeking equals autonomy vs. shame and doubt: let them choose and try."
   },
@@ -53,12 +53,12 @@
    "lvl": "Application",
    "stem": "A nurse is planning diabetes self-management teaching for a 15-year-old newly diagnosed with type 1 diabetes. According to Piaget, which teaching approach best matches this client's cognitive stage?",
    "opts": [
+    "Use simple, one-step directions and avoid discussing hypothetical situations, such as sick days or missed meals.",
     "Use concrete objects, such as a diagram of the pancreas, without discussing why blood glucose levels rise and fall.",
-    "Guide the adolescent to reason through how food, activity, and insulin dosing interact to solve new problems.",
     "Rely mainly on the parent to make treatment decisions until the adolescent demonstrates concrete operational thinking.",
-    "Use simple, one-step directions and avoid discussing hypothetical situations, such as sick days or missed meals."
+    "Guide the adolescent to reason through how food, activity, and insulin dosing interact to solve new problems."
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "Adolescents are in Piaget's formal operations stage and can reason abstractly, form hypotheses, and weigh different options, so teaching should engage that reasoning about how variables interact; concrete, one-step, or hypothesis-avoidant approaches (A, D) underestimate the adolescent's cognitive ability, and deferring to the parent (C) ignores the adolescent's own capacity to participate in decisions.",
    "strat": "Adolescent equals formal operations: teach with 'what if' reasoning, not concrete props."
   },
@@ -69,12 +69,12 @@
    "lvl": "Analysis",
    "stem": "A nurse observes a 2-year-old in the playroom sitting near two other toddlers, each child using their own set of blocks without interacting or sharing the same activity. How should the nurse interpret this behavior?",
    "opts": [
-    "This is expected parallel play for a toddler; playing alongside peers does not require intervention.",
     "This is a sign of associative play and indicates the child is developmentally ready for preschool activities.",
     "This suggests delayed social development, since toddlers should be playing cooperatively with peers by this age.",
-    "This indicates the child needs to be redirected toward solitary play until ready to interact with any peers."
+    "This indicates the child needs to be redirected toward solitary play until ready to interact with any peers.",
+    "This is expected parallel play for a toddler; playing alongside peers does not require intervention."
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "Toddlers engage in parallel play, playing alongside rather than with other children, which is expected and needs no intervention; associative play (B) is the preschooler's stage, cooperative rule-governed play (C) is school-age, and solitary play (D) is the infant stage, so none of those labels or 'corrections' fit a toddler.",
    "strat": "Toddler side by side, no sharing, equals parallel play; do not confuse it with the preschooler's associative play."
   },
@@ -85,12 +85,12 @@
    "lvl": "Application",
    "stem": "A 4-year-old tells the nurse, \"I didn't touch the IV pump because I don't want to get in trouble.\" According to Kohlberg, this reasoning best reflects which stage of moral development?",
    "opts": [
+    "Postconventional social contract orientation, in which the child follows rules that serve the common good.",
     "Preconventional punishment-obedience orientation, in which the child acts mainly to avoid punishment.",
-    "Conventional good boy-nice girl orientation, in which the child acts to gain approval from others nearby.",
     "Conventional law and order orientation, in which the child follows fixed rules out of a sense of duty.",
-    "Postconventional social contract orientation, in which the child follows rules that serve the common good."
+    "Conventional good boy-nice girl orientation, in which the child acts to gain approval from others nearby."
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "A young child who avoids an action mainly to escape punishment demonstrates Kohlberg's preconventional, punishment-obedience stage, typical of toddlers and preschoolers; seeking approval (B), following rules from duty (C), and reasoning about the common good (D) all reflect more advanced conventional or postconventional reasoning than a preschooler typically shows.",
    "strat": "'I'll get in trouble' equals punishment-obedience, the earliest preconventional stage."
   },
@@ -187,19 +187,19 @@
      "label": "[1] Age to introduce solids",
      "opts": [
       "4 months",
-      "6 months",
-      "9 months"
+      "9 months",
+      "6 months"
      ],
-     "a": 1
+     "a": 2
     },
     {
      "label": "[2] Avoid due to botulism risk",
      "opts": [
+      "Peanut butter",
       "Honey",
-      "Cow's milk",
-      "Peanut butter"
+      "Cow's milk"
      ],
-     "a": 0
+     "a": 1
     }
    ],
    "rat": "Solid foods are introduced around 6 months, when the extrusion reflex fades and head control is adequate; honey is avoided before 12 months specifically because of infant botulism risk, while cow's milk is avoided before 12 months for a different reason, poor iron content and risk of GI blood loss or iron-deficiency anemia, not botulism.",
@@ -212,12 +212,12 @@
    "lvl": "Analysis",
    "stem": "A nurse personally disagrees with a family's decision, based on their religious beliefs, to decline a non-emergent elective procedure for their child. Which response by the nurse best demonstrates culturally-appropriate, family-centered care?",
    "opts": [
-    "Document the decision, continue to support the family, and help the team explore options that fit their beliefs.",
     "Explain to the family why the nurse's own personal beliefs about the procedure are the medically correct choice.",
     "Ask a different nurse to take over the family's care so the personal disagreement does not need to be addressed.",
+    "Document the decision, continue to support the family, and help the team explore options that fit their beliefs.",
     "Continue to encourage the family to reconsider the procedure at each subsequent clinic visit until they agree."
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "Recognizing personal bias and continuing to support the family's autonomous, values-based decision reflects culturally-appropriate, family-centered care; imposing the nurse's own beliefs (B), avoiding the family instead of managing personal bias (C), and repeatedly pressuring the family (D) all fail to respect the family's right to make care decisions consistent with their values.",
    "strat": "Your discomfort with a family's choice is yours to manage; support the decision, do not relitigate it."
   },
@@ -229,9 +229,9 @@
    "stem": "A nurse is caring for two families from different cultural backgrounds who are hospitalized on the same unit with children of similar ages. Which understanding by the nurse about cultural health practices is correct?",
    "opts": [
     "Health practices can vary widely within the same cultural background, so the nurse should ask each family individually.",
-    "Families who share the same cultural or ethnic background can be expected to hold the same health practices and preferences.",
+    "Once a family's cultural background is identified, the nurse does not need to ask further questions about their specific preferences.",
     "Cultural rituals and preferences should be discouraged in the hospital setting because they may interfere with standard medical care.",
-    "Once a family's cultural background is identified, the nurse does not need to ask further questions about their specific preferences."
+    "Families who share the same cultural or ethnic background can be expected to hold the same health practices and preferences."
    ],
    "ans": 0,
    "rat": "Cultural preferences vary even within a shared background, and many practices do not conflict with medical care, so the nurse should ask each family about their own preferences rather than assuming uniformity (B), assuming conflict with care (C), or skipping further questions once a culture is identified (D).",
@@ -244,12 +244,12 @@
    "lvl": "Application",
    "stem": "A nurse is developing a plan of care for a hospitalized child. Which action best reflects the nurse's professional responsibility for providing developmentally appropriate, family-centered care?",
    "opts": [
+    "Allow the family to independently create the plan of care without further nursing assessment or input.",
     "Assess the child's developmental stage and individualize the plan of care with the family.",
     "Apply the same standardized teaching materials used for adult clients to save time during a busy shift.",
-    "Allow the family to independently create the plan of care without further nursing assessment or input.",
     "Wait to individualize the plan of care until the child asks specific questions about the planned treatment."
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Professional responsibility for developmentally appropriate, family-centered care means the nurse actively assesses the child's developmental level and individualizes the plan in partnership with the family; using generic adult materials (B), stepping back from planning altogether (C), or waiting passively for the child to ask (D) all abdicate the nurse's active assessment and planning role.",
    "strat": "Family-centered does not mean nurse-absent: assess, then plan together."
   },
@@ -260,12 +260,12 @@
    "lvl": "Application",
    "stem": "A nurse is preparing to auscultate the lungs of an anxious 4-year-old before a physical assessment. Which approach is most likely to gain the child's cooperation?",
    "opts": [
-    "Demonstrate listening to a stuffed animal's chest first and let the child hold the stethoscope.",
-    "Explain in detailed medical terms exactly how the lungs function so the child understands the procedure fully.",
     "Tell the child the assessment will not be uncomfortable in any way so the child does not become anxious.",
-    "Proceed quickly with the assessment without explanation so the child does not have time to become fearful."
+    "Demonstrate listening to a stuffed animal's chest first and let the child hold the stethoscope.",
+    "Proceed quickly with the assessment without explanation so the child does not have time to become fearful.",
+    "Explain in detailed medical terms exactly how the lungs function so the child understands the procedure fully."
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Demonstrating procedures on a doll or stuffed animal first, then letting the child handle the equipment, is a therapeutic-play technique that gains cooperation and reduces fear in young children; detailed medical explanations (B) suit an older child, blanket reassurance (C) risks sounding untrue, and skipping preparation (D) ignores the preschooler's fear of bodily harm.",
    "strat": "When a preschooler is scared, show it on the stuffed animal first."
   },
@@ -276,12 +276,12 @@
    "lvl": "Application",
    "stem": "A nurse is assessing factors that influence a child's health and health promotion. Which of the following should the nurse consider? Select all that apply.",
    "opts": [
+    "Whether the family has consistent access to a primary care provider",
     "The family's economic stability and ability to afford nutritious food",
     "The neighborhood's access to safe outdoor play areas",
     "The family's cultural and spiritual beliefs about illness and healing",
-    "Whether the family has consistent access to a primary care provider",
-    "The child's most recent complete blood count result",
-    "The exact model and manufacturer of the family's home thermometer"
+    "The exact model and manufacturer of the family's home thermometer",
+    "The child's most recent complete blood count result"
    ],
    "ans": [
     0,
@@ -299,12 +299,12 @@
    "lvl": "Analysis",
    "stem": "A school-age child arrives for a well-child visit wearing a bicycle helmet. Which finding indicates the helmet fits correctly?",
    "opts": [
-    "The helmet sits level on the head, with the front edge about two finger-widths above the eyebrows.",
-    "The helmet is tilted back slightly off the forehead so the child can see more clearly while riding.",
     "The chin strap is adjusted loosely enough that four fingers fit comfortably underneath it while riding.",
-    "The helmet is a size larger than needed so the child can continue wearing it as they grow."
+    "The helmet sits level on the head, with the front edge about two finger-widths above the eyebrows.",
+    "The helmet is a size larger than needed so the child can continue wearing it as they grow.",
+    "The helmet is tilted back slightly off the forehead so the child can see more clearly while riding."
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "A correctly fitted helmet sits level on the head with the front edge about two finger-widths above the eyebrows; tilting it back (B), a chin strap loose enough for more than one or two fingers (C), and sizing it up to 'grow into' (D) are all documented fit errors that reduce protection.",
    "strat": "Level, low on the forehead, snug strap, fits now, not tilted, loose, or oversized."
   },
@@ -315,17 +315,17 @@
    "lvl": "Evaluation",
    "stem": "A nurse is evaluating a caregiver's understanding of injury prevention teaching for an 18-month-old. Which caregiver statements indicate correct understanding of the teaching? Select all that apply.",
    "opts": [
+    "\"Now that my child can walk well, a car seat isn't necessary for short trips.\"",
     "\"I keep medications, household chemicals, and cleaning products locked and out of reach.\"",
     "\"I use a car seat appropriate for my child's age and weight every time we drive, even for short trips.\"",
-    "\"I stay within arm's reach of my child any time we are near open water, including the bathtub.\"",
-    "\"Now that my child can walk well, a car seat isn't necessary for short trips.\"",
     "\"It's fine to leave my child alone in the bathtub for a minute as long as the water is shallow.\"",
+    "\"I stay within arm's reach of my child any time we are near open water, including the bathtub.\"",
     "\"I only need to call poison control if my child becomes unresponsive after swallowing something.\""
    ],
    "ans": [
-    0,
     1,
-    2
+    2,
+    4
    ],
    "rat": "Locking away poisons, using an age-appropriate car seat every trip, and staying within reach of a toddler near water directly address the toddler's leading injury risks of poisoning, motor vehicle injury, and drowning; skipping the car seat once walking (D), leaving the child briefly in the bathtub (E), and waiting for unresponsiveness before calling poison control (F) are all dangerous misconceptions that need further teaching.",
    "strat": "Toddler's big three: poisoning, drowning, and motor vehicle injury; every 'except this once' statement is wrong."
@@ -374,8 +374,8 @@
    "opts": [
     "This is a normal anticipatory pain response common in toddlers before a procedure begins",
     "This suggests the toddler has an unusually low pain threshold compared with same-age peers",
-    "This suggests a prior procedure was undertreated with analgesia and should be reported to the provider",
-    "This is a learned attention-seeking behavior the toddler developed after previous hospital visits"
+    "This is a learned attention-seeking behavior the toddler developed after previous hospital visits",
+    "This suggests a prior procedure was undertreated with analgesia and should be reported to the provider"
    ],
    "ans": 0,
    "rat": "Toddlers exhibit anticipatory pain behaviors - tensing, pulling away, crying - before the stimulus occurs, and this anticipatory phase is often more intense than the child's response to the actual procedure. Nothing in the scenario supports a lowered pain threshold, undertreated prior pain, or attention-seeking; each distractor substitutes an assumption for the developmental pattern described in the stem.",
@@ -390,9 +390,9 @@
    "stem": "A 3-month-old infant is undergoing a heel stick for a laboratory draw. The nurse observes a harsh, high-pitched cry, rigid extremities, and facial grimacing with the eyes tightly closed and mouth drawn into a square shape. Which vital sign pattern should the nurse expect to accompany these findings?",
    "opts": [
     "Increased blood pressure and heart rate with decreased arterial oxygen saturation",
-    "Decreased blood pressure and heart rate with increased arterial oxygen saturation",
     "Stable vital signs, since infants cannot yet physiologically demonstrate pain",
-    "Increased arterial oxygen saturation with an unchanged heart rate"
+    "Increased arterial oxygen saturation with an unchanged heart rate",
+    "Decreased blood pressure and heart rate with increased arterial oxygen saturation"
    ],
    "ans": 0,
    "rat": "Infants respond to pain with sympathetic activation: increased heart rate and blood pressure and decreased arterial oxygen saturation, along with a harsh cry, rigid or thrashing extremities, and facial grimacing (eyes tightly closed, mouth square, brows drawn together). Pain produces measurable physiologic changes even though the infant cannot verbalize it, which rules out the 'stable vital signs' option; the remaining choices reverse or truncate the expected pattern.",
@@ -406,16 +406,16 @@
    "lvl": "Analysis",
    "stem": "The nurse is caring for a 14-year-old recovering from surgery. Which behaviors should the nurse recognize as consistent with this client's expected pain response? Select all that apply.",
    "opts": [
-    "Verbalizing the presence of pain with little protest",
-    "Increased muscle tension while maintaining control of body movements",
-    "A harsh, loud cry with thrashing of the extremities",
     "Withdrawing from others and rejecting offers of comfort",
+    "A harsh, loud cry with thrashing of the extremities",
     "Expressing concern about being perceived as different from peers because of the pain or illness",
+    "Increased muscle tension while maintaining control of body movements",
+    "Verbalizing the presence of pain with little protest",
     "Reverting to an earlier developmental behavior, such as wanting to be rocked or held"
    ],
    "ans": [
     0,
-    1,
+    2,
     3,
     4
    ],
@@ -430,12 +430,12 @@
    "lvl": "Application",
    "stem": "An 8-year-old is 1 day post-appendectomy and rates pain as 8 out of 10 using the Numerical Pain Scale. The provider has ordered both ibuprofen and morphine, each to be given as needed. Which approach should the nurse use to manage this child's pain?",
    "opts": [
-    "Administer the ibuprofen and morphine together to treat pain both peripherally and centrally",
-    "Give only the morphine, since a scheduled opioid alone is sufficient for pain rated this high",
     "Give only the ibuprofen first, and administer the morphine later if the child continues to request more medication",
-    "Withhold both medications and try nonpharmacologic measures first, since the child is verbal enough to reliably self-report"
+    "Withhold both medications and try nonpharmacologic measures first, since the child is verbal enough to reliably self-report",
+    "Administer the ibuprofen and morphine together to treat pain both peripherally and centrally",
+    "Give only the morphine, since a scheduled opioid alone is sufficient for pain rated this high"
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "Combining a non-opioid (ibuprofen) with an opioid (morphine) treats pain both peripherally and centrally, improving relief while allowing fewer adverse effects such as respiratory depression and constipation. Morphine alone or ibuprofen alone does not achieve this combined effect for pain this severe, and withholding both medications ignores the child's own pain report, which is the most reliable indicator of pain.",
    "strat": "Moderate-to-severe pediatric pain = non-opioid plus opioid together, not one instead of the other."
   },
@@ -447,12 +447,12 @@
    "lvl": "Application",
    "stem": "A child is scheduled for a painful IV insertion. Which nursing action best reflects atraumatic care principles?",
    "opts": [
-    "Perform the procedure in a designated treatment room and allow the caregiver to remain at the bedside",
-    "Perform the procedure in the child's hospital room so the child does not have to be moved",
     "Perform the procedure in the playroom so the child associates it with a familiar, comfortable space",
-    "Perform the procedure in the treatment room, but ask the caregiver to wait outside until it is finished"
+    "Perform the procedure in a designated treatment room and allow the caregiver to remain at the bedside",
+    "Perform the procedure in the treatment room, but ask the caregiver to wait outside until it is finished",
+    "Perform the procedure in the child's hospital room so the child does not have to be moved"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Atraumatic care preserves the child's hospital room and playroom as 'safe spaces,' so painful procedures should be done in a treatment room, and caregivers should be allowed to remain for support. Using the child's room or the playroom for a painful procedure contaminates that safe space, and excluding the caregiver removes a key source of comfort.",
    "strat": "Keep the bed and playroom as pain-free zones - procedures happen in the treatment room, with the caregiver present."
   },
@@ -474,25 +474,25 @@
    "actions": {
     "opts": [
      "Administer the ordered morphine and ibuprofen together for combined peripheral and central pain relief",
-     "Offer a nonpharmacologic measure such as guided imagery or distraction during position changes",
      "Withhold pain medication until the child directly asks for it",
-     "Ask the caregiver to step out during pain assessments so the child can answer independently"
+     "Ask the caregiver to step out during pain assessments so the child can answer independently",
+     "Offer a nonpharmacologic measure such as guided imagery or distraction during position changes"
     ],
     "ans": [
      0,
-     1
+     3
     ]
    },
    "params": {
     "opts": [
-     "Pain rating using an age-appropriate scale",
+     "Urine specific gravity",
      "Respiratory rate and sedation level",
-     "Deep tendon reflexes",
-     "Urine specific gravity"
+     "Pain rating using an age-appropriate scale",
+     "Deep tendon reflexes"
     ],
     "ans": [
-     0,
-     1
+     1,
+     2
     ]
    },
    "rat": "The findings (guarding, reluctance to move, grimacing, an 8/10 self-report) point to acute pain related to the surgical incision as the priority problem over anxiety or infection risk, neither of which is supported by the data given. Combining the non-opioid and opioid treats pain peripherally and centrally with fewer side effects than either alone, and a nonpharmacologic measure supports overall comfort; withholding medication until directly asked ignores the child's own pain rating, and excluding the caregiver removes a key comfort measure. Reassess pain using an age-appropriate scale and monitor respiratory rate and sedation level, since opioids carry a risk of respiratory depression and oversedation.",
@@ -506,12 +506,12 @@
    "lvl": "Analysis",
    "stem": "A 4-year-old's older sibling has died. The child repeatedly asks when the sibling is coming back and tells the nurse, \"He's just sleeping, he'll wake up soon.\" Which nursing approach best supports this child's developmental understanding of death?",
    "opts": [
-    "Offer supportive presence, answer questions honestly in simple terms, and provide a safe space for feelings",
     "Give the child a detailed, medically accurate, adult-level explanation of what happens to the body after death",
-    "Redirect the child with games and favorite toys so the child does not dwell on the sibling's death",
-    "Tell the child that the sibling is not really gone and will be back again soon"
+    "Offer supportive presence, answer questions honestly in simple terms, and provide a safe space for feelings",
+    "Tell the child that the sibling is not really gone and will be back again soon",
+    "Redirect the child with games and favorite toys so the child does not dwell on the sibling's death"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Preschoolers use magical and egocentric thinking and view death as temporary and reversible, so the nurse should stay present, answer honestly in simple direct language, and let the child express feelings safely. A detailed adult-level explanation is developmentally inappropriate, distraction avoids rather than supports processing the loss, and telling the child the sibling will return reinforces the child's magical thinking with a false promise instead of gently addressing it.",
    "strat": "For grieving children of any age: presence and honest simple answers, not distraction or false reassurance."
   },
@@ -522,12 +522,12 @@
    "lvl": "Analysis",
    "stem": "A nurse in the emergency department is assessing a 7-month-old infant brought in by a caregiver for \"fussiness.\" The caregiver reports the infant rolled off a changing table earlier that morning. On exam, the infant has a spiral fracture of the femur, several bruises in different stages of healing on the trunk, and becomes rigid and cries when the abdomen is palpated. The infant does not yet pull to stand or cruise.\n\nWhich finding is the STRONGEST indicator of suspected abuse rather than an accidental injury?",
    "opts": [
-    "The caregiver's account that the infant rolled off a changing table earlier that morning",
-    "A spiral femur fracture in an infant who cannot yet pull to stand or cruise",
     "Isolated tenderness on abdominal palpation without any other abnormal physical exam findings",
-    "A growth curve that has tracked steadily and consistently across several prior well-child visits"
+    "The caregiver's account that the infant rolled off a changing table earlier that morning",
+    "A growth curve that has tracked steadily and consistently across several prior well-child visits",
+    "A spiral femur fracture in an infant who cannot yet pull to stand or cruise"
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "A spiral fracture results from a twisting force; an infant who cannot yet pull to stand or cruise could not generate this mechanism independently, so the reported fall is incompatible with the injury — a classic warning sign of abuse. A caregiver's initial account, isolated abdominal tenderness, and a steady growth curve are not, by themselves, diagnostic of abuse.",
    "strat": "Ask whether the child's own developmental ability could produce the injury; if not, the history doesn't hold up."
   },
@@ -540,8 +540,8 @@
    "opts": [
     "Physical abuse",
     "Physical neglect",
-    "Emotional neglect",
-    "Sexual abuse"
+    "Sexual abuse",
+    "Emotional neglect"
    ],
    "ans": 1,
    "rat": "Thin extremities, abdominal distention, poor hygiene, and a dull/passive affect reflect malnutrition and failure to thrive — manifestations of physical neglect (failure to provide basic physical care). Emotional neglect can also produce withdrawal, but the growth-failure and hygiene findings point to unmet physical needs rather than unmet emotional needs; there is no inflicted injury (physical abuse) or genital/behavioral finding (sexual abuse).",
@@ -554,12 +554,12 @@
    "lvl": "Analysis",
    "stem": "A 3-month-old infant is brought to the emergency department by a caregiver who reports the infant \"just stopped acting right\" after crying inconsolably for hours. Assessment reveals a bulging anterior fontanel, a witnessed episode of apnea, and a decreased level of consciousness. There is no external bruising or scalp swelling, and the caregiver cannot explain the symptoms further.\n\nWhat is the nurse's PRIORITY action?",
    "opts": [
+    "Request an urgent head CT scan to confirm the diagnosis",
     "Notify child protective services of suspected abusive head trauma",
-    "Assess and support the infant's airway and breathing",
     "Obtain a detailed social history from the caregiver",
-    "Request an urgent head CT scan to confirm the diagnosis"
+    "Assess and support the infant's airway and breathing"
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "Apnea and a decreasing level of consciousness signal actual or impending respiratory failure, so airway and breathing take priority over any other action under the ABC framework, even with strong suspicion of abuse. Reporting, obtaining a history, and ordering diagnostic imaging are all necessary but come after the infant is stabilized — imaging cannot proceed safely in an infant with an unprotected airway.",
    "strat": "ABCs outrank the report — stabilize the infant first, notify second."
   },
@@ -570,12 +570,12 @@
    "lvl": "Application",
    "stem": "A community health nurse is developing a program to reduce adverse childhood experiences (ACEs) in a neighborhood with a high proportion of young, unmarried mothers with limited social support. Which action should the nurse prioritize as the MOST direct, evidence-based strategy for this specific population?",
    "opts": [
-    "Distribute pamphlets on the long-term health effects of ACEs at the neighborhood library",
     "Conduct early childhood home visits targeted to families with the identified risk factors",
+    "Distribute pamphlets on the long-term health effects of ACEs at the neighborhood library",
     "Refer every family in the neighborhood for family-centered substance misuse treatment services",
     "Hold a single public lecture on healthy dating and relationship skills for local teenagers"
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "CDC ACE-prevention strategies specifically identify early childhood home visits targeted to families with known risk factors (young, unmarried mothers with low socioeconomic status/support) as a direct intervention for this population. Passive pamphlet distribution, a blanket substance-misuse referral with no identified substance concern, and a one-time lecture are less targeted, lower-yield approaches.",
    "strat": "Match the prevention strategy to the stated risk factor — targeted home visiting reaches the at-risk families directly."
   },
@@ -586,18 +586,18 @@
    "lvl": "Application",
    "stem": "A nurse in the emergency department strongly suspects that a 4-year-old's injuries resulted from physical abuse. Which actions should the nurse take? Select all that apply.",
    "opts": [
-    "Report the suspected abuse to child protective services as required by state law",
     "Interview the child and each caregiver separately using open-ended questions",
     "Photograph and thoroughly document the size, shape, and color of all injuries",
     "Tell the caregivers that a report will not be filed unless abuse is confirmed",
-    "Explain the child protective services process to the caregivers if a referral is made",
-    "Ask the child direct yes/no questions to quickly confirm how each injury occurred"
+    "Report the suspected abuse to child protective services as required by state law",
+    "Ask the child direct yes/no questions to quickly confirm how each injury occurred",
+    "Explain the child protective services process to the caregivers if a referral is made"
    ],
    "ans": [
     0,
     1,
-    2,
-    4
+    3,
+    5
    ],
    "rat": "All 50 states require reporting suspected — not confirmed — abuse, so the nurse reports per mandatory reporting law, interviews caregivers separately, thoroughly documents and photographs findings, and explains the CPS process if a referral occurs. Telling caregivers a report requires confirmation is false and undermines mandatory reporting, and directive yes/no questioning of the child is probing and should be avoided in favor of open-ended, age-appropriate language.",
    "strat": "Report suspicion, not proof; question caregivers separately and the child gently, never with pointed yes/no questions."
@@ -649,11 +649,11 @@
    "stem": "A 5-year-old is hospitalized for an asthma exacerbation. The grandmother, who has legal custody of the child and has provided daily care since infancy, tells the nurse about the child's usual triggers and coping behaviors. The child's biological mother, who does not have custody, arrives unexpectedly and asks the nurse to change the plan of care. Which action best reflects family-centered care?",
    "opts": [
     "Follow the biological mother's new care requests, since a biological parent's wishes outrank any caregiver's.",
-    "Continue partnering with the grandmother, the legally responsible caregiver who knows the child best.",
+    "Consult the hospital ethics committee to determine legal custody before making any care decisions.",
     "Make all care decisions independently, without involving either family member, to avoid conflict.",
-    "Consult the hospital ethics committee to determine legal custody before making any care decisions."
+    "Continue partnering with the grandmother, the legally responsible caregiver who knows the child best."
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "Family-centered care defines the caregiver by legal responsibility for the child, not by biology, and treats that caregiver as the expert on the child's usual needs and behaviors. The grandmother holds legal custody and firsthand knowledge, so the nurse continues partnering with her. Deferring to the biological mother assumes biology outranks legal responsibility, acting alone abandons the partnership component, and escalating to ethics is unnecessary once the legal caregiver is already established.",
    "strat": "Caregiver = whoever is legally responsible for the child, not necessarily who gave birth to them."
   },
@@ -664,12 +664,12 @@
    "lvl": "Analysis",
    "stem": "A nurse is assigned to care for a child being raised by two foster parents. The nurse holds personal beliefs that differ from this family structure. Which nurse action best demonstrates culturally-appropriate, family-centered care?",
    "opts": [
-    "Partner with the foster parents in planning care, recognizing them as the child's family regardless of personal beliefs.",
     "Contact the child's biological parents for consent, since they represent the family structure the nurse considers traditional.",
-    "Limit information sharing with the foster parents until the nurse feels more comfortable with the family structure.",
-    "Record the nurse's personal concerns about the family structure in the child's chart for other staff to see."
+    "Record the nurse's personal concerns about the family structure in the child's chart for other staff to see.",
+    "Partner with the foster parents in planning care, recognizing them as the child's family regardless of personal beliefs.",
+    "Limit information sharing with the foster parents until the nurse feels more comfortable with the family structure."
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "Family-centered care requires the nurse to set aside personal beliefs and partner with the family the child actually has - here, the foster parents who are legally responsible for the child. Seeking the biological parents assumes they must approve care, withholding information breaches the partnership and information-sharing components, and recording personal objections introduces bias into the record instead of respecting the family's diversity.",
    "strat": "The family is whoever the child and caregivers say it is - partner with it, don't judge it."
   },
@@ -697,12 +697,12 @@
    "lvl": "Analysis",
    "stem": "A 6-year-old has had 3 days of fever, cough, and conjunctivitis. Today the parent reports pinpoint red spots with tiny white centers inside the child's cheeks, and the fever continues. Which condition do these findings support?",
    "opts": [
-    "Measles (rubeola)",
-    "Mumps (parotitis)",
+    "Chickenpox (varicella)",
     "German measles (rubella)",
-    "Chickenpox (varicella)"
+    "Measles (rubeola)",
+    "Mumps (parotitis)"
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "Koplik's spots (pinpoint red spots with white specks on the buccal mucosa) appearing during the fever/cough/conjunctivitis prodrome are the classic identifying sign of measles, preceding the rash by 3-4 days. Mumps presents with parotid swelling, rubella with a mild prodrome and rash, and chickenpox with a vesicular rash - none produce Koplik's spots.",
    "strat": "Koplik's spots inside the cheek = pathognomonic for measles; no other childhood rash disease produces them."
   },
@@ -714,12 +714,12 @@
    "lvl": "Application",
    "stem": "A parent calls because her 5-year-old with chickenpox has a temperature of 38.3 C (100.9 F) and is uncomfortable. The parent asks which over-the-counter medication is safe to give. What should the nurse recommend?",
    "opts": [
+    "A combination cold and fever product containing aspirin",
     "Acetaminophen for the fever and discomfort",
     "Aspirin for the fever and discomfort",
-    "Ibuprofen alternated with aspirin for the fever",
-    "A combination cold and fever product containing aspirin"
+    "Ibuprofen alternated with aspirin for the fever"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Acetaminophen is the recommended antipyretic/analgesic for chickenpox. Aspirin - whether given alone, alternated with another antipyretic, or hidden inside a combination product - must be avoided in children with varicella because of the risk of Reye's syndrome, a rare but life-threatening hepatic and cerebral condition.",
    "strat": "Chickenpox plus a fever-reducer question: eliminate anything containing aspirin first, every time."
   },
@@ -731,12 +731,12 @@
    "lvl": "Application",
    "stem": "A 7-year-old is admitted with 3 days of fever, malaise, and anorexia. Today the child has new unilateral swelling and tenderness below the ear, and reports the earache worsens with chewing. Which nursing intervention should the nurse include for comfort?",
    "opts": [
-    "Apply a warm or cool compress and offer soft, bland foods",
     "Massage the swollen gland to help reduce the swelling",
+    "Encourage the child to chew gum periodically to keep the jaw mobile",
     "Encourage sour or tart foods such as citrus to stimulate saliva flow",
-    "Encourage the child to chew gum periodically to keep the jaw mobile"
+    "Apply a warm or cool compress and offer soft, bland foods"
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "The presentation - unilateral parotid swelling and tenderness with pain on chewing after a fever/malaise prodrome - is consistent with mumps. Comfort measures include warm or cool compresses and soft, bland foods that require less chewing. Sour foods and gum both stimulate salivary flow and jaw movement, worsening parotid pain, and massaging the gland offers no therapeutic benefit.",
    "strat": "Mumps hurts more with chewing and saliva flow: go soft, bland, and compressed, and avoid anything that stimulates the jaw or the glands."
   },
@@ -766,9 +766,9 @@
    "stem": "A 15-month-old is at a well-child visit for scheduled immunizations. The child has had clear rhinorrhea and a mild cough for two days but is afebrile, playful, and feeding well. The parent asks if the vaccines should wait. What should the nurse explain?",
    "opts": [
     "The vaccines can be given today because a mild illness without fever is not a contraindication",
+    "The vaccines must be postponed until the child is confirmed to be immunocompetent by lab testing",
     "The vaccines must be postponed until the child has been symptom-free for at least one week",
-    "The vaccines must be postponed because any respiratory symptoms indicate an active infection",
-    "The vaccines must be postponed until the child is confirmed to be immunocompetent by lab testing"
+    "The vaccines must be postponed because any respiratory symptoms indicate an active infection"
    ],
    "ans": 0,
    "rat": "A minor illness - mild upper respiratory symptoms without fever - is not a contraindication to vaccination; only a severe febrile illness, immunocompromise (for live vaccines), or a known allergy to a prior dose or component should delay or avoid immunization. Postponing for a week, treating any respiratory symptom as disqualifying, or requiring lab-confirmed immune status all needlessly delay protection.",
@@ -782,12 +782,12 @@
    "lvl": "Analysis",
    "stem": "A 15-month-old with leukemia who is currently receiving chemotherapy is due for the MMR, varicella, DTaP, and inactivated polio (IPV) vaccines. Which vaccines should the nurse anticipate withholding because of the child's immune status?",
    "opts": [
-    "MMR and varicella",
-    "DTaP and IPV",
     "IPV and varicella",
-    "MMR and DTaP"
+    "MMR and varicella",
+    "MMR and DTaP",
+    "DTaP and IPV"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "MMR and varicella are both live attenuated vaccines, which are contraindicated in severely immunocompromised children because the weakened virus can still cause disease when the immune system cannot mount a normal response. DTaP and IPV are inactivated/toxoid vaccines and can be given safely.",
    "strat": "Immunocompromised plus vaccine question: ask \"is it live?\" - MMR, varicella, oral rotavirus, and intranasal flu are the ones to hold."
   },
@@ -799,12 +799,12 @@
    "lvl": "Application",
    "stem": "A nurse is teaching the parent of an 8-year-old recently diagnosed with German measles (rubella) about preventing spread while the child recovers at home. Which instruction is most important to include?",
    "opts": [
-    "Keep the child away from women who are pregnant or may be pregnant",
     "Keep the child out of school until the fever has been gone for 24 hours",
+    "Keep the child away from women who are pregnant or may be pregnant",
     "Avoid giving the child acetaminophen so the rash can be monitored",
     "Keep the child in a dark room until the rash fades"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Rubella infection during pregnancy carries a serious risk of miscarriage or birth defects, so avoiding exposure to pregnant contacts is the priority teaching point. Acetaminophen and antipyretics are appropriate for rubella, dimming lights is a measles-specific measure for photophobia, and general school-return timing is far less critical than protecting a pregnant contact.",
    "strat": "Rubella's number-one danger is to pregnant contacts - teaching always leads with that, not the child's own comfort measures."
   },
@@ -816,12 +816,12 @@
    "lvl": "Application",
    "stem": "A nurse is teaching the parent of a 2-year-old with chickenpox how to prevent the child from scratching pruritic lesions and causing skin breakdown. Which strategy is most developmentally appropriate for a toddler?",
    "opts": [
-    "Place mittens on the toddler's hands and keep the fingernails trimmed short",
-    "Explain to the toddler why scratching will make the rash worse and ask for cooperation",
+    "Have the toddler wear a full-body cotton suit fastened at the back throughout the day",
     "Give the toddler a firm verbal reminder each time scratching is noticed",
-    "Have the toddler wear a full-body cotton suit fastened at the back throughout the day"
+    "Explain to the toddler why scratching will make the rash worse and ask for cooperation",
+    "Place mittens on the toddler's hands and keep the fingernails trimmed short"
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "Toddlers lack the abstract reasoning and impulse control to comply with verbal explanations or reminders, so a concrete, hands-on measure - mittens and short, smooth nails - most effectively prevents scratching and skin breakdown. Explaining rationale or relying on verbal correction assumes cognitive skills toddlers do not yet have, and a constant full-body suit is impractical for a mildly pruritic illness.",
    "strat": "Toddler behavior control calls for concrete, physical measures, not verbal reasoning - match the strategy to the developmental stage."
   },
@@ -833,17 +833,17 @@
    "lvl": "Evaluation",
    "stem": "A 2-month-old received DTaP, IPV, PCV, Hib, and rotavirus vaccines at today's well-child visit. Six hours later, the parent calls to report several findings. Which findings should the nurse identify as expected reactions that do not require the infant to be seen? (Select all that apply.)",
    "opts": [
-    "Redness and mild swelling at the injection sites",
+    "Swelling of the lips with difficulty breathing",
     "Temperature of 38.0 C (100.4 F)",
+    "Redness and mild swelling at the injection sites",
     "Increased fussiness and irritability",
     "Temperature of 40.2 C (104.4 F) with a high-pitched cry",
-    "Swelling of the lips with difficulty breathing",
     "Sleeping somewhat more than usual today"
    ],
    "ans": [
-    0,
     1,
     2,
+    3,
     5
    ],
    "rat": "Localized tenderness, redness, and swelling at the injection site; a low-grade fever; irritability; and mild drowsiness are expected, self-limited reactions after childhood vaccination. A high fever paired with a high-pitched cry, and lip swelling with difficulty breathing (signs of a serious neurologic or anaphylactic reaction), are not expected and need immediate evaluation.",
@@ -857,17 +857,17 @@
    "lvl": "Application",
    "stem": "A nurse is reviewing which routine childhood vaccines are live attenuated before immunizing a child with severe combined immunodeficiency. Which vaccines should the nurse identify as live attenuated and therefore contraindicated for this child? (Select all that apply.)",
    "opts": [
+    "Inactivated polio vaccine (IPV)",
     "MMR (measles, mumps, rubella)",
+    "Hepatitis B",
     "Varicella (chickenpox)",
     "Rotavirus (oral)",
-    "DTaP",
-    "Inactivated polio vaccine (IPV)",
-    "Hepatitis B"
+    "DTaP"
    ],
    "ans": [
-    0,
     1,
-    2
+    3,
+    4
    ],
    "rat": "MMR, varicella, and oral rotavirus vaccines all contain live attenuated virus and are contraindicated in severely immunocompromised children because the weakened virus can still cause disease when the immune system cannot respond normally. DTaP, IPV, and hepatitis B are inactivated or toxoid vaccines and are safe to give.",
    "strat": "Live-virus vaccines to remember: MMR, varicella, oral rotavirus, intranasal flu - hold these for immunocompromised kids; nearly everything else is inactivated."
@@ -922,31 +922,31 @@
      "label": "[1] Birth dose",
      "opts": [
       "Hepatitis B",
+      "Hepatitis B and Hepatitis A",
       "Hepatitis A",
-      "Hib",
-      "Hepatitis B and Hepatitis A"
+      "Hib"
      ],
      "a": 0
     },
     {
      "label": "[2] 12-15 month partner vaccine",
      "opts": [
-      "Varicella (chickenpox)",
       "Influenza",
+      "Pneumococcal (PCV)",
       "DTaP",
-      "Pneumococcal (PCV)"
+      "Varicella (chickenpox)"
      ],
-     "a": 0
+     "a": 3
     },
     {
      "label": "[3] Vaccine type",
      "opts": [
-      "live attenuated",
       "inactivated",
+      "subunit",
       "toxoid",
-      "subunit"
+      "live attenuated"
      ],
-     "a": 0
+     "a": 3
     }
    ],
    "rat": "Hepatitis B is the only vaccine given at birth, before the 2-4-6 month series of DTaP, Hib, PCV, IPV, and rotavirus. MMR and varicella are both first given at 12-15 months and are live attenuated vaccines, so both must be withheld in a severely immunocompromised child, unlike the inactivated hepatitis B vaccine.",
@@ -972,12 +972,12 @@
    "lvl": "Evaluation",
    "stem": "A 9-year-old with moderate persistent asthma is prescribed a daily inhaled corticosteroid (ICS) as a controller medication and albuterol as a rescue inhaler. At a follow-up visit, the nurse evaluates the parent's understanding of the regimen. Which statement indicates a need for further teaching?",
    "opts": [
-    "\"We use the albuterol rescue inhaler whenever she suddenly starts having trouble breathing.\"",
-    "\"She got her annual flu shot again this year, same as last year.\"",
     "\"Once her cough clears up for a few days, we can just stop giving the daily inhaler.\"",
+    "\"She got her annual flu shot again this year, same as last year.\"",
+    "\"We use the albuterol rescue inhaler whenever she suddenly starts having trouble breathing.\"",
     "\"We've asked her grandparents to stop smoking inside the house when she visits.\""
    ],
-   "ans": 2,
+   "ans": 0,
    "rat": "Stopping a daily ICS controller once symptoms resolve is the statement that needs further teaching: the ICS suppresses the underlying airway inflammation, and the absence of symptoms shows the drug is working, not that it can be stopped — only the prescriber changes the regimen. PRN use of the rescue inhaler, the annual influenza vaccine, and eliminating secondhand smoke are all correct asthma-management behaviors.",
    "strat": "\"Feels better, so we stopped it\" is almost always the wrong statement for a daily controller/maintenance medication."
   },
@@ -988,18 +988,18 @@
    "lvl": "Application",
    "stem": "The nurse is teaching an 8-year-old newly diagnosed with mild persistent asthma and her parent about the daily inhaled corticosteroid controller, including the child directly in the teaching as developmentally appropriate. Which teaching points should the nurse include? Select all that apply.",
    "opts": [
-    "Rinse the mouth out with water after every dose of the inhaled corticosteroid.",
-    "Use a spacer with the metered-dose inhaler to help the medication reach the lungs.",
-    "Keep the rescue (albuterol) inhaler with her at school and other activities at all times.",
+    "Use the daily controller inhaler in place of the rescue inhaler during a sudden asthma attack.",
     "Get an annual influenza vaccine, since respiratory infections are a common asthma trigger.",
+    "Keep the rescue (albuterol) inhaler with her at school and other activities at all times.",
+    "Rinse the mouth out with water after every dose of the inhaled corticosteroid.",
     "If a dose of the controller is missed, give a double dose at the next scheduled time.",
-    "Use the daily controller inhaler in place of the rescue inhaler during a sudden asthma attack."
+    "Use a spacer with the metered-dose inhaler to help the medication reach the lungs."
    ],
    "ans": [
-    0,
     1,
     2,
-    3
+    3,
+    5
    ],
    "rat": "Correct controller teaching includes rinsing the mouth after each ICS dose to prevent oral thrush, using a spacer to improve lung deposition, keeping the rescue inhaler accessible everywhere the child goes, and getting an annual flu vaccine since respiratory infection is a major trigger. Doubling a missed dose is unsafe, and the ICS controller has a slow onset of days to weeks, so it cannot substitute for the rescue inhaler during an acute attack.",
    "strat": "Controller = daily prevention; rescue = right now. Never swap their jobs, and never double a dose to catch up."
@@ -1011,12 +1011,12 @@
    "lvl": "Application",
    "stem": "A 4-month-old is admitted with bronchiolitis caused by respiratory syncytial virus (RSV), with tachypnea, nasal flaring, and wheezing. The infant is currently in a shared room on the pediatric unit. Which action is the nurse's priority?",
    "opts": [
-    "Request a private room and initiate droplet and contact precautions.",
-    "Initiate airborne precautions and request a negative-pressure room.",
     "Place the infant on standard precautions only, since RSV spreads only through direct skin contact.",
+    "Initiate airborne precautions and request a negative-pressure room.",
+    "Request a private room and initiate droplet and contact precautions.",
     "Wait to isolate the infant until the RSV test result confirms the diagnosis."
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "RSV spreads through respiratory droplets and contact with contaminated surfaces, where it can survive for hours, so droplet and contact precautions with isolation are the priority to protect other patients. RSV is not spread by the airborne route, standard precautions alone under-protect the unit since RSV also spreads by droplet, and isolation should begin on clinical suspicion rather than waiting on confirmatory testing.",
    "strat": "RSV lives on surfaces and travels in droplets — think droplet AND contact, never airborne."
   },
@@ -1044,9 +1044,9 @@
    "stem": "A parent asks the nurse why her 8-month-old's cold seems so much worse than when the parent has a cold herself. Which explanation by the nurse is accurate?",
    "opts": [
     "Infants have smaller, narrower airways, so the same swelling blocks much more of the airway.",
+    "Infants have larger tonsils and adenoids than adults, and this mainly blocks their airway during a cold.",
     "Infants have weaker immune systems overall and cannot fight off most types of respiratory virus.",
-    "Infants have a greater number of airway branches than adults, which traps more mucus in the lungs.",
-    "Infants have larger tonsils and adenoids than adults, and this mainly blocks their airway during a cold."
+    "Infants have a greater number of airway branches than adults, which traps more mucus in the lungs."
    ],
    "ans": 0,
    "rat": "Because infants and young children have smaller airway diameters and shorter distances between structures, the same amount of mucosal swelling and secretions that would be minor in an adult causes proportionally much greater airway narrowing in an infant. Maternal antibodies actually protect most infants younger than 3 months from many infections, and the other options describe mechanisms not supported by the source material.",
@@ -1059,12 +1059,12 @@
    "lvl": "Analysis",
    "stem": "A toddler hospitalized with a respiratory infection shows these changes over the past hour: respiratory rate increased from 30 to 48/min, new intercostal and subcostal retractions, heart rate increased from 118 to 156/min, and the child has become difficult to rouse. Which of these findings is most concerning to the nurse?",
    "opts": [
-    "The respiratory rate and retractions only; the heart rate change is not clinically meaningful in a toddler.",
-    "The combination of rising respiratory rate, worsening retractions, tachycardia, and decreased responsiveness.",
     "The decreased responsiveness alone, since it most likely just means the child is tired from being sick.",
-    "The tachycardia alone, since heart rate is the single most sensitive indicator of respiratory status in toddlers."
+    "The tachycardia alone, since heart rate is the single most sensitive indicator of respiratory status in toddlers.",
+    "The respiratory rate and retractions only; the heart rate change is not clinically meaningful in a toddler.",
+    "The combination of rising respiratory rate, worsening retractions, tachycardia, and decreased responsiveness."
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "Signs of respiratory deterioration cluster together: an increasing respiratory rate, increasing work of breathing (retractions), an increasing heart rate, and reduced level of consciousness together indicate the child is decompensating and require immediate provider notification. Any single vital sign in isolation is less informative than the overall trend, and decreased responsiveness in an acutely ill child is never an expected or reassuring finding on its own.",
    "strat": "Deterioration is a pattern, not one number — rising RR + rising HR + more effort + less alertness together mean act now."
   },
@@ -1076,11 +1076,11 @@
    "stem": "A parent calls the clinic about home care for two children with upper respiratory infections: a 14-month-old and a 4-year-old. Which recommendation by the nurse is developmentally appropriate for both children?",
    "opts": [
     "Apply a topical vapor rub to the chest of both children before bedtime tonight.",
+    "Have both children gargle with warm salt water to soothe their sore, irritated throats.",
     "Use saline drops, then suction or gentle nose-blowing, to clear secretions in each child.",
-    "Give the 14-month-old an over-the-counter combination cold and fever medicine for comfort.",
-    "Have both children gargle with warm salt water to soothe their sore, irritated throats."
+    "Give the 14-month-old an over-the-counter combination cold and fever medicine for comfort."
    ],
-   "ans": 1,
+   "ans": 2,
    "rat": "Saline drops followed by suction (for the infant, who cannot blow her nose) or nose-blowing (for the preschooler) are appropriate for both ages. Topical vapor rubs are recommended only for children older than 2 years, so the 14-month-old should not receive one. Combination over-the-counter cold remedies risk unintentional acetaminophen overdose and are not appropriate for a toddler this young, and gargling requires a skill a 14-month-old does not yet have.",
    "strat": "Match the intervention to the age: vapor rub only over age 2, gargling only once a child can reliably do it, saline plus suction or blowing works at any age."
   },
@@ -1094,20 +1094,20 @@
     {
      "label": "[1] Peak flow zone",
      "opts": [
+      "Red (below 50% of personal best)",
       "Green (80-100% of personal best)",
-      "Yellow (50-80% of personal best)",
-      "Red (below 50% of personal best)"
+      "Yellow (50-80% of personal best)"
      ],
-     "a": 1
+     "a": 2
     },
     {
      "label": "[2] Action for this zone",
      "opts": [
+      "Call for emergency help right away",
       "Continue the current treatment plan with no changes",
-      "Follow the prescribed yellow-zone action plan and watch closely for worsening",
-      "Call for emergency help right away"
+      "Follow the prescribed yellow-zone action plan and watch closely for worsening"
      ],
-     "a": 1
+     "a": 2
     }
    ],
    "rat": "A peak flow of 65% of personal best falls in the yellow zone (50-80%), which signals caution and worsening control. The family should follow the prescribed yellow-zone action plan and monitor closely, rather than continuing unchanged (the green zone, 80-100%) or treating it as an emergency (the red zone, below 50%).",
@@ -1156,9 +1156,9 @@
    "stem": "CASE (2/6) Analyze cues. Maya's reassessment now shows HR 168/min, SpO2 86% on room air, new nasal flaring and grunting, and she is answering only in single words. Which explanation best fits this cue pattern?",
    "opts": [
     "Maya's asthma exacerbation is progressing toward failure.",
-    "Maya is having a sudden anaphylactic reaction to a new allergen.",
     "Maya is developing bacterial pneumonia on top of her viral cold.",
-    "Maya is anxious about being examined in an unfamiliar clinic setting."
+    "Maya is anxious about being examined in an unfamiliar clinic setting.",
+    "Maya is having a sudden anaphylactic reaction to a new allergen."
    ],
    "ans": 0,
    "rat": "Worsening tachypnea and wheeze already present from asthma, combined with new hypoxia, increased work of breathing (nasal flaring, grunting), rising heart rate, and reduced ability to speak, together fit progression of the asthma exacerbation toward respiratory failure rather than a new problem. Anaphylaxis typically also presents with findings such as hives or hypotension, pneumonia typically presents with fever and focal findings, and anxiety would not explain the falling SpO2 or the objective work-of-breathing findings.",
@@ -1171,12 +1171,12 @@
    "lvl": "Analysis",
    "stem": "CASE (3/6) Prioritize hypotheses. The nurse identifies several concerns for Maya: risk for impending respiratory failure, risk for dehydration from decreased oral intake, and anxiety related to difficulty breathing. Which should the nurse prioritize?",
    "opts": [
-    "Risk for impending respiratory failure.",
-    "Risk for dehydration from decreased oral intake.",
+    "All three problems, since they are all present at the same time right now.",
     "Anxiety related to difficulty breathing.",
-    "All three problems, since they are all present at the same time right now."
+    "Risk for impending respiratory failure.",
+    "Risk for dehydration from decreased oral intake."
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "Airway and breathing outrank other needs (the ABC framework): impending respiratory failure is immediately life-threatening and must be prioritized over dehydration risk or anxiety, both of which matter but are not immediate airway or breathing threats. Treating every problem as equal priority ignores the urgency hierarchy and risks delaying the intervention Maya needs most right now.",
    "strat": "ABCs outrank everything else on the list — an airway/breathing risk is always prioritized first."
   },
@@ -1188,9 +1188,9 @@
    "stem": "CASE (4/6) Generate solutions. Given Maya's risk for impending respiratory failure, which action should the nurse anticipate implementing first?",
    "opts": [
     "Administer the ordered nebulized short-acting bronchodilator, albuterol.",
-    "Administer the ordered daily inhaled corticosteroid controller dose now.",
     "Administer the ordered oral leukotriene receptor antagonist right now.",
-    "Obtain a chest x-ray first, before giving any ordered medication."
+    "Obtain a chest x-ray first, before giving any ordered medication.",
+    "Administer the ordered daily inhaled corticosteroid controller dose now."
    ],
    "ans": 0,
    "rat": "A short-acting beta2-agonist (albuterol) is the priority medication in an acute exacerbation because it works within minutes to reverse bronchospasm — it is the rescue drug for a crisis happening right now. The ICS controller and a leukotriene receptor antagonist are daily maintenance medications with an onset of days to weeks and will not relieve this acute event, and obtaining imaging first delays the airway-focused treatment Maya needs.",
@@ -1203,18 +1203,18 @@
    "lvl": "Application",
    "stem": "CASE (5/6) Take action. The provider orders supplemental oxygen, nebulized albuterol, and an oral systemic corticosteroid for Maya. Which nursing actions are appropriate at this time? Select all that apply.",
    "opts": [
+    "Offer a full glass of juice right away to prevent dehydration.",
+    "Administer the ordered nebulized albuterol treatment.",
     "Administer supplemental oxygen to maintain SpO2 at or above 94%.",
     "Position Maya upright, such as in high Fowler's position.",
-    "Administer the ordered nebulized albuterol treatment.",
     "Administer the ordered oral systemic corticosteroid.",
-    "Have Maya lie flat and remain still to help conserve her energy.",
-    "Offer a full glass of juice right away to prevent dehydration."
+    "Have Maya lie flat and remain still to help conserve her energy."
    ],
    "ans": [
-    0,
     1,
     2,
-    3
+    3,
+    4
    ],
    "rat": "Supplemental oxygen, upright positioning, nebulized albuterol, and the ordered systemic corticosteroid are all appropriate: oxygen and albuterol address the immediate hypoxia and bronchospasm, upright positioning eases the work of breathing, and the systemic corticosteroid reduces the airway inflammation driving the exacerbation. Lying flat increases the work of breathing rather than easing it, and offering a large volume of fluid abruptly during respiratory distress risks vomiting and aspiration — small, frequent amounts are the safer approach to hydration.",
    "strat": "Distress = sit the child up, open the airway, treat the bronchospasm and inflammation — never lay a distressed child flat or push fluids fast."
@@ -1226,12 +1226,12 @@
    "lvl": "Evaluation",
    "stem": "CASE (6/6) Evaluate outcomes. Thirty minutes after nebulized albuterol, supplemental oxygen, and the oral corticosteroid, the nurse reassesses Maya: RR has decreased from 40 to 26/min, SpO2 is now 96% on room air (oxygen has been discontinued), peak flow has improved from 55% to 84% of personal best, and she is speaking in full sentences again and asking for her stuffed animal. How should the nurse interpret this reassessment?",
    "opts": [
-    "The interventions were effective; Maya is moving out of the acute exacerbation and should continue to be monitored.",
-    "The interventions were ineffective; Maya should receive another albuterol treatment right away because her respiratory rate is still elevated.",
     "The findings are inconclusive; Maya requires an emergent chest x-ray before any further action is taken.",
+    "The interventions were ineffective; Maya should receive another albuterol treatment right away because her respiratory rate is still elevated.",
+    "The interventions were effective; Maya is moving out of the acute exacerbation and should continue to be monitored.",
     "Maya's respiratory status is worsening, and a rapid response should be activated now."
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "Peak flow back in the green zone (80% or greater of personal best), a normal SpO2 on room air with oxygen already weaned, a respiratory rate trending down toward normal, and a return to speaking in full sentences and normal behavior together indicate an effective response to treatment, not a worsening or inconclusive picture. A mildly elevated respiratory rate alone, in the context of this much broader improvement, does not by itself justify another immediate bronchodilator dose or an emergent workup.",
    "strat": "Judge the whole trend, not one leftover number — when oxygenation, peak flow, effort, and behavior all move the same good direction, that is a real response."
   },
@@ -1243,12 +1243,12 @@
    "lvl": "Analysis",
    "stem": "A 4-year-old arrives in the emergency department with a 6-hour history of high fever, sore throat, and drooling. The child sits upright with the neck extended and mouth open, refuses to lie down, and has no spontaneous cough. The nurse suspects acute epiglottitis. What is the nurse's priority action?",
    "opts": [
-    "Obtain a throat culture swab and send it to the laboratory to identify the causative organism responsible for the infection.",
-    "Keep the child calm and undisturbed in the position of comfort while preparing for emergency airway management.",
     "Obtain a portable chest x-ray to determine the extent of airway narrowing and edema before treatment begins.",
-    "Begin the intravenous antibiotic infusion that has already been ordered by the provider for this child."
+    "Obtain a throat culture swab and send it to the laboratory to identify the causative organism responsible for the infection.",
+    "Begin the intravenous antibiotic infusion that has already been ordered by the provider for this child.",
+    "Keep the child calm and undisturbed in the position of comfort while preparing for emergency airway management."
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "Epiglottitis can progress to complete airway obstruction within minutes, and agitation or crying from throat inspection, culture swabbing, or repositioning can precipitate that obstruction (ABCs: protect the airway before anything else). A throat culture and direct visualization of the epiglottis are contraindicated because they can trigger laryngospasm; a chest x-ray requires positioning and movement that carries the same risk (a lateral neck film, not a chest film, is the diagnostic study per the guide, and even that waits until the child is calm and the airway is secured). IV antibiotics are indicated but only after the airway is safe, not as the first action.",
    "strat": "Suspected epiglottitis = hands off the throat, camera off the chest: don't look, don't swab, don't move the child — secure the airway first."
   },
@@ -1260,10 +1260,10 @@
    "lvl": "Analysis",
    "stem": "The nurse is comparing two toddlers admitted for stridor. Child A has a 2-day history of low-grade fever and upper respiratory symptoms and awakens with a barking cough and stridor that is worse at night. Child B has a several-hour history of high fever and sore throat, sits upright drooling with the mouth open, and has no spontaneous cough. Which statement by the nurse correctly differentiates the two presentations?",
    "opts": [
-    "Child A's rapid onset and drooling are consistent with bacterial epiglottitis, while Child B's gradual onset and barking cough are consistent with viral croup instead.",
+    "Child B's findings indicate a milder illness than Child A's and can likely be managed at home with humidified air and encouraged fluids.",
     "Child A's gradual onset and barking cough are consistent with viral croup, while Child B's rapid onset and absent cough are consistent with bacterial epiglottitis.",
     "Both children are describing the same viral illness, just presenting at two different stages of severity and needing the same plan of care.",
-    "Child B's findings indicate a milder illness than Child A's and can likely be managed at home with humidified air and encouraged fluids."
+    "Child A's rapid onset and drooling are consistent with bacterial epiglottitis, while Child B's gradual onset and barking cough are consistent with viral croup instead."
    ],
    "ans": 1,
    "rat": "Viral laryngotracheobronchitis (croup) has a gradual onset following an upper respiratory infection, with a barking cough and stridor that is often worse at night. Bacterial epiglottitis has a rapid onset following a sore throat, with high fever, drooling, and an absent spontaneous cough — one of its three classic signs. Reversing the findings, treating both as the same illness, or downgrading epiglottitis to home management all miscategorize a medical emergency as a benign illness.",
@@ -1277,12 +1277,12 @@
    "lvl": "Evaluation",
    "stem": "A 2-year-old with mild acute laryngotracheobronchitis (croup) and no stridor at rest is being discharged home. Which statement by the parent indicates a need for further teaching?",
    "opts": [
+    "\"I expect his cough to sound worse at night, and I'll avoid letting him get worked up or cry for long periods.\"",
     "\"I will take him outside into the cool night air or run a cold-water humidifier if his cough starts again.\"",
-    "\"I will run a hot shower and sit with him in the steamy bathroom to loosen the mucus in his airway.\"",
     "\"I will encourage him to keep drinking fluids and try to keep him calm if he wakes up scared.\"",
-    "\"I expect his cough to sound worse at night, and I'll avoid letting him get worked up or cry for long periods.\""
+    "\"I will run a hot shower and sit with him in the steamy bathroom to loosen the mucus in his airway.\""
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "The guide teaches cool mist — cool night air, a cold-water vaporizer or humidifier, standing in front of an open freezer, or a cool basement or garage — to constrict edematous airway vessels, not warm steam. A hot, steamy shower reflects the common misconception that heat loosens croup secretions and needs correction. Encouraging fluids, expecting nighttime worsening, and keeping the child calm to avoid exacerbating symptoms are all accurate teaching points that need no follow-up.",
    "strat": "Croup calls for COOL mist, not hot steam — the opposite of the classic 'steamy bathroom' myth."
   },
@@ -1294,9 +1294,9 @@
    "lvl": "Application",
    "stem": "A 3-year-old with acute epiglottitis is anxious and beginning to cry as the nurse approaches to reassess vital signs. The child's parent is at the bedside. Which nursing action best demonstrates family-centered, developmentally appropriate care for this child?",
    "opts": [
-    "Ask the parent to step into the hallway briefly so the nurse can complete the assessment more quickly and without distraction.",
-    "Allow the child to remain in the parent's lap and complete only the assessments that do not require disturbing the child.",
     "Distract the child with a favorite toy while quickly attempting to visualize the back of the throat with a tongue depressor.",
+    "Allow the child to remain in the parent's lap and complete only the assessments that do not require disturbing the child.",
+    "Ask the parent to step into the hallway briefly so the nurse can complete the assessment more quickly and without distraction.",
     "Explain to the child in detailed medical terms exactly why the vital sign reassessment is necessary before proceeding further."
    ],
    "ans": 1,
@@ -1319,27 +1319,27 @@
    },
    "actions": {
     "opts": [
-     "Ensure resuscitation and suction equipment are readily available at the bedside.",
      "Administer humidified oxygen by mask or blow-by as tolerated.",
-     "Attempt to visualize the epiglottis with a tongue depressor to confirm swelling.",
      "Obtain a throat culture to identify the causative organism.",
+     "Attempt to visualize the epiglottis with a tongue depressor to confirm swelling.",
+     "Ensure resuscitation and suction equipment are readily available at the bedside.",
      "Place the child supine to obtain a lateral neck x-ray."
     ],
     "ans": [
      0,
-     1
+     3
     ]
    },
    "params": {
     "opts": [
-     "Respiratory rate, effort, and oxygen saturation via continuous pulse oximetry",
-     "Presence of stridor, drooling, and tripod positioning",
+     "Bowel sounds and abdominal girth",
      "Deep tendon reflexes and muscle tone",
-     "Bowel sounds and abdominal girth"
+     "Respiratory rate, effort, and oxygen saturation via continuous pulse oximetry",
+     "Presence of stridor, drooling, and tripod positioning"
     ],
     "ans": [
-     0,
-     1
+     2,
+     3
     ]
    },
    "rat": "Classic epiglottitis (rapid onset, high fever, drooling, tripod positioning, absence of cough) is an airway emergency, not croup. The priority actions are having resuscitation/suction equipment ready at the bedside and providing humidified oxygen, while avoiding throat visualization, throat culture, or forcing supine positioning for imaging, any of which can trigger complete obstruction. The nurse continuously monitors respiratory rate, effort, and oxygen saturation along with the classic epiglottitis signs (stridor, drooling, positioning) for deterioration; reflexes and bowel sounds are not relevant to this problem.",
@@ -1353,12 +1353,12 @@
    "lvl": "Analysis",
    "stem": "A term newborn passed a meconium ileus shortly after birth and has since had poor stooling. The newborn screening test result is positive for cystic fibrosis. Which diagnostic test does the nurse anticipate will be used to confirm the diagnosis?",
    "opts": [
+    "A 72-hour stool collection to measure the child's fecal fat content",
     "Sweat chloride test to measure sodium and chloride in the sweat",
     "Repeat the newborn screening test again in six months to verify the result",
-    "CFTR mutation analysis alone, since detecting it guarantees the diagnosis",
-    "A 72-hour stool collection to measure the child's fecal fat content"
+    "CFTR mutation analysis alone, since detecting it guarantees the diagnosis"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Sweat chloride testing directly measures the elevated sweat sodium/chloride characteristic of cystic fibrosis and is used to confirm the diagnosis. Per the guide, CFTR mutation analysis increases certainty but does not guarantee the child will have the disease, repeating the screening test doesn't add diagnostic certainty, and fecal fat testing evaluates malabsorption rather than confirming cystic fibrosis itself.",
    "strat": "Newborn screening flags risk; sweat chloride testing confirms it."
   },
@@ -1370,12 +1370,12 @@
    "lvl": "Evaluation",
    "stem": "The nurse teaches the caregiver of a child newly diagnosed with cystic fibrosis how to administer pancreatic enzyme replacement at home. Which statement by the caregiver indicates a need for further teaching?",
    "opts": [
-    "\"I will give the enzyme capsule right before he eats a meal or snack.\"",
-    "\"I will wait about an hour after he finishes eating to give the enzyme capsule.\"",
+    "\"I will continue giving the enzyme even when his stools look normal.\"",
     "\"I will give the enzyme with every meal and every snack, not just the big meals.\"",
-    "\"I will continue giving the enzyme even when his stools look normal.\""
+    "\"I will give the enzyme capsule right before he eats a meal or snack.\"",
+    "\"I will wait about an hour after he finishes eating to give the enzyme capsule.\""
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "Per the guide, pancreatic enzymes are given right before or with meals and snacks so they are mixed with food in the duodenum; waiting an hour after eating means the enzymes arrive after most digestion has already occurred, defeating their purpose. The other statements are correct: enzymes are needed with every meal and snack, and therapy continues regardless of current stool appearance since it is ongoing replacement, not a symptom-triggered dose.",
    "strat": "Enzymes travel WITH the food, not after it's already gone."
   },
@@ -1387,12 +1387,12 @@
    "lvl": "Application",
    "stem": "A preschool-age child with cystic fibrosis becomes upset and resists during a scheduled high-frequency chest compression (vest) therapy session while the parent is present. Which nursing action best reflects developmentally appropriate, family-centered care?",
    "opts": [
-    "Offer the child a small choice, such as which toy to hold, while continuing the vest therapy",
-    "Ask the parent to step out of the room so the session can be completed more efficiently",
+    "Reschedule the session for whenever the child happens to fall asleep for a nap",
     "Tell the child that the therapy is not painful and must be completed regardless of preference",
-    "Reschedule the session for whenever the child happens to fall asleep for a nap"
+    "Ask the parent to step out of the room so the session can be completed more efficiently",
+    "Offer the child a small choice, such as which toy to hold, while continuing the vest therapy"
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "The guide directs the nurse to involve the child in planning care and modify care to the child's preferences, since children with cystic fibrosis commonly resist their treatment regimen; offering a small, controlled choice respects developmental autonomy while therapy continues. Excluding the parent undermines family-centered care, overriding the child's feelings without engaging them ignores developmental needs, and indefinitely rescheduling around sleep is impractical since airway clearance requires the child's participation.",
    "strat": "Family-centered + developmentally appropriate = involve the child and family, don't exclude or override them."
   },
@@ -1404,12 +1404,12 @@
    "lvl": "Evaluation",
    "stem": "The nurse teaches a school-age child with cystic fibrosis how to perform huff coughing to clear airway secretions at home. Which sequence, if demonstrated by the child, shows correct understanding of the technique?",
    "opts": [
+    "Cough forcefully to loosen the mucus first, then breathe in slowly through the nose, then huff out",
     "Breathe in slowly through the nose and hold, huff the air out forcefully, then cough to clear it",
     "Huff the air out forcefully first, then breathe in slowly through the nose and hold, then cough",
-    "Cough forcefully to loosen the mucus first, then breathe in slowly through the nose, then huff out",
     "Breathe in quickly through the mouth and hold it, then cough forcefully instead of huffing it out"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "The guide's taught sequence is: breathe in slowly through the nose and hold 2-3 seconds to move mucus into the larger airways, forcefully huff the air out to move mucus out of the lungs, then cough and spit to clear it. Reordering the steps or coughing forcefully without the slow-breath/huff sequence does not move mucus the same way and does not match the taught technique.",
    "strat": "Huff-cough order: slow breath in and hold, huff out, then cough — sequence matters."
   },
@@ -1421,18 +1421,18 @@
    "lvl": "Analysis",
    "stem": "The nurse assesses a school-age child with cystic fibrosis. Select all findings that are consistent with the multi-system effects of cystic fibrosis.",
    "opts": [
-    "Barrel-shaped chest with clubbing of the fingers and toes",
-    "Large, greasy, foul-smelling stools",
-    "Skin that tastes salty due to high sodium and chloride sweat concentration",
     "Early onset of puberty with rapid growth",
     "Polyuria with unexplained weight loss",
-    "Bradycardia with hypertension"
+    "Large, greasy, foul-smelling stools",
+    "Bradycardia with hypertension",
+    "Skin that tastes salty due to high sodium and chloride sweat concentration",
+    "Barrel-shaped chest with clubbing of the fingers and toes"
    ],
    "ans": [
-    0,
     1,
     2,
-    4
+    4,
+    5
    ],
    "rat": "Thick, tenacious secretions from the CFTR defect affect every system the guide addresses: chronic mucus obstruction produces a barrel-shaped chest and clubbing in advanced pulmonary disease; deficient pancreatic enzymes cause malabsorption and greasy, foul-smelling stools; abnormally high sweat sodium and chloride cause the classic salty skin; and pancreatic insufficiency produces cystic fibrosis-related diabetes with polyuria and weight loss. Puberty is delayed, not early, in cystic fibrosis, and bradycardia with hypertension is not a recognized manifestation of the disease.",
    "strat": "Thick secretions clog every duct they touch — trace the finding back to which duct is blocked."
@@ -1445,12 +1445,12 @@
    "lvl": "Analysis",
    "stem": "A 14-month-old with known Tetralogy of Fallot becomes acutely more cyanotic while crying during a nail trim, becomes agitated, and draws the knees up toward the chest while lying on the floor. Oxygen saturation reads 74%. What is the nurse's priority action?",
    "opts": [
-    "Place the child in a knee-chest position and use a calm, comforting approach",
-    "Position the child supine with the legs fully extended to promote venous return",
     "Administer the child's next scheduled digoxin dose instead of repositioning the child",
+    "Position the child supine with the legs fully extended to promote venous return",
+    "Place the child in a knee-chest position and use a calm, comforting approach",
     "Begin a rapid intravenous fluid bolus before repositioning the child into knee-chest"
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "This presentation is a hypercyanotic ('tet') spell. The guide's documented intervention sequence begins with the knee-chest position (increases systemic vascular resistance, reducing the right-to-left shunt) paired with a calm approach to lower oxygen demand, followed by 100% oxygen, morphine, and IV fluids only if still needed. Extending the legs (B) does the opposite of the knee-chest position and worsens the shunt. Digoxin (C) is a maintenance heart-failure medication, not an emergency tet-spell response. A fluid bolus (D) comes later in the sequence, only if needed, not before positioning.",
    "strat": "Tet spell = knees to chest first; extending the legs is the opposite of what helps."
   },
@@ -1462,12 +1462,12 @@
    "lvl": "Analysis",
    "stem": "A 2-month-old with a large, unrepaired ventricular septal defect (VSD) is brought to the clinic for a routine visit. Which set of findings is most consistent with this infant's hemodynamic defect classification?",
    "opts": [
-    "Diaphoresis with feeds, tachypnea with retractions, hepatomegaly, and poor weight gain",
     "Cyanosis at rest that worsens with crying, clubbed fingertips, and squatting after exertion",
     "Bounding pulses in the arms with diminished, cool pulses in the legs",
-    "Sudden hypercyanotic episodes relieved by the knee-chest position"
+    "Sudden hypercyanotic episodes relieved by the knee-chest position",
+    "Diaphoresis with feeds, tachypnea with retractions, hepatomegaly, and poor weight gain"
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "A VSD causes a left-to-right shunt that increases pulmonary blood flow, producing congestive heart failure: impaired myocardial function (diaphoresis, tachycardia), pulmonary congestion (tachypnea, retractions), and systemic venous congestion (hepatomegaly, poor weight gain). Option B describes decreased pulmonary blood flow (e.g., Tetralogy of Fallot). Option C describes an obstructive defect such as coarctation of the aorta, where pressure differs before and after the obstruction. Option D describes a tet spell, specific to decreased-pulmonary-flow defects, not a VSD.",
    "strat": "Increased pulmonary flow = heart-failure picture (wet, tired, big liver); decreased pulmonary flow = cyanosis/tet spells."
   },
@@ -1480,17 +1480,17 @@
    "stem": "The nurse is assessing a 3-month-old with a large patent ductus arteriosus (PDA) and known congestive heart failure. Select all findings the nurse should expect as manifestations of this infant's heart failure.",
    "opts": [
     "Tachycardia",
-    "Hepatomegaly",
-    "Tachypnea with nasal flaring and grunting",
+    "Anorexia and vomiting",
     "Diminished, weak peripheral pulses",
     "Bradycardia",
-    "Anorexia and vomiting"
+    "Hepatomegaly",
+    "Tachypnea with nasal flaring and grunting"
    ],
    "ans": [
     0,
-    1,
     2,
-    3
+    4,
+    5
    ],
    "rat": "A PDA produces a left-to-right shunt that increases pulmonary blood flow and decreases cardiac output, generating the classic heart-failure picture: impaired myocardial function (tachycardia, weak pulses), pulmonary congestion (tachypnea, nasal flaring, grunting), and systemic venous congestion (hepatomegaly). Bradycardia and anorexia/vomiting are signs of digoxin toxicity, not untreated heart failure — a distinction the nurse must keep straight when the infant is also on digoxin therapy.",
    "strat": "Heart failure runs fast (tachycardia, tachypnea); digoxin toxicity runs slow (bradycardia) — don't mix up the two lists."
@@ -1504,9 +1504,9 @@
    "stem": "An echocardiogram performed on a cyanotic 4-month-old shows a ventricular septal defect, narrowing at the entrance to the pulmonary artery, an aorta that opens to both ventricles, and a thickened right ventricular wall. The nurse recognizes this echocardiogram is consistent with which condition?",
    "opts": [
     "Tetralogy of Fallot",
-    "Hypoplastic left heart syndrome",
+    "Coarctation of the aorta with an atrial septal defect",
     "Transposition of the great arteries",
-    "Coarctation of the aorta with an atrial septal defect"
+    "Hypoplastic left heart syndrome"
    ],
    "ans": 0,
    "rat": "The four echocardiographic findings — VSD, pulmonary stenosis, an overriding aorta, and right ventricular hypertrophy — are the defining tetrad of Tetralogy of Fallot. Hypoplastic left heart syndrome instead shows an underdeveloped left ventricle and mitral valve. Transposition shows reversed great vessels without an intrinsically obstructed pulmonary outflow tract. Coarctation with an ASD does not produce right ventricular hypertrophy from pulmonic outflow obstruction.",
@@ -1541,11 +1541,11 @@
     {
      "label": "[3] Antidote",
      "opts": [
+      "Naloxone",
       "Digoxin immune Fab",
-      "Vitamin K",
-      "Naloxone"
+      "Vitamin K"
      ],
-     "a": 0
+     "a": 1
     }
    ],
    "rat": "The guide specifies holding digoxin in infants if the pulse is under 90/minute (under 70/minute in children) and monitoring for toxicity signs of bradycardia, dysrhythmias, nausea, vomiting, and anorexia. Digoxin immune Fab is the specific antidote. Vitamin K reverses warfarin, and naloxone reverses opioids (relevant to morphine used for tet spells) — neither treats digoxin toxicity.",
@@ -1559,12 +1559,12 @@
    "lvl": "Application",
    "stem": "A 4-month-old with a large ventricular septal defect and heart failure becomes fatigued and diaphoretic midway through bottle feeds, taking in less than half of the prescribed volume at most feeds. Which nursing action reflects the feeding plan described for infants with congenital heart defects?",
    "opts": [
-    "Offer small, high-calorie feedings every 3 hours using an enlarged nipple opening, with rest as needed",
     "Switch to a standard nipple and encourage the infant to finish the full prescribed volume before resting",
     "Space feedings to every 6 hours so the infant has longer uninterrupted rest between feeds",
+    "Offer small, high-calorie feedings every 3 hours using an enlarged nipple opening, with rest as needed",
     "Increase the volume given at each feeding so fewer feeding sessions are needed per day"
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "Infants with CHD tire quickly, so the guide directs small, frequent (every 3 hours), high-calorie feedings using an enlarged nipple opening, a semi-upright position, and paced rest during a feeding lasting about 30 minutes, with gavage supplementation if intake remains inadequate. A standard nipple with pressure to finish the full volume (B) increases fatigue and oxygen demand. Spacing feeds further apart (C) or increasing the volume per feeding (D) both contradict the small-frequent-feeding principle meant to conserve the infant's energy.",
    "strat": "Tired heart, tired baby: small and frequent beats big and rare for CHD feeding."
   },
@@ -1576,12 +1576,12 @@
    "lvl": "Application",
    "stem": "A 5-year-old with a congenital heart defect is scheduled for an echocardiogram. Which nursing action best reflects the family-centered nursing role described for children undergoing diagnostic tests and procedures?",
    "opts": [
+    "Wait until moments before the procedure begins to give the child any explanation, in order to minimize worry time",
     "Give the child a developmentally appropriate explanation of the test and support the family's coping beforehand",
-    "Withhold details about the test from the child to limit anxiety and explain the results to the parents afterward",
     "Defer all explanation of the procedure to the scheduling department and focus nursing time on hemodynamic monitoring",
-    "Wait until moments before the procedure begins to give the child any explanation, in order to minimize worry time"
+    "Withhold details about the test from the child to limit anxiety and explain the results to the parents afterward"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Family-centered nursing care for children with CHD includes providing age-appropriate preparation for diagnostic tests and procedures, monitoring and supporting family coping, and practicing atraumatic care. Withholding information (B) and deferring the explanation entirely (C) both abandon this nursing role. Delaying preparation until the last possible moment (D) does not meet the intent of developmentally appropriate, supportive preparation.",
    "strat": "Age-appropriate prep plus family coping support is the nurse's role before any diagnostic test — not a job to hand off or delay."
   },
@@ -1635,17 +1635,17 @@
    "lvl": "Analysis",
    "stem": "The nurse is assessing a 2-week-old newborn recently diagnosed with severe coarctation of the aorta. Select all findings the nurse should expect.",
    "opts": [
-    "Blood pressure higher in the upper extremities than in the lower extremities",
-    "Signs of heart failure, such as tachypnea and poor feeding",
     "Decreased cardiac output",
-    "Blood pressure higher in the lower extremities than in the upper extremities",
     "Increased cardiac output",
-    "Complete resolution of symptoms by 1 month of age regardless of defect severity"
+    "Complete resolution of symptoms by 1 month of age regardless of defect severity",
+    "Signs of heart failure, such as tachypnea and poor feeding",
+    "Blood pressure higher in the lower extremities than in the upper extremities",
+    "Blood pressure higher in the upper extremities than in the lower extremities"
    ],
    "ans": [
     0,
-    1,
-    2
+    3,
+    5
    ],
    "rat": "Coarctation narrows the aorta, raising pressure proximal to the narrowing (higher upper-extremity blood pressure) while pressure and flow fall distal to it; the obstruction also lowers cardiac output and produces heart-failure findings. Severe coarctation typically presents within the first weeks of life, unlike milder narrowing, which may remain undiagnosed for years — findings do not resolve on a fixed timeline regardless of severity, and cardiac output falls rather than rises with the obstruction.",
    "strat": "Coarctation means pressure backs up before the narrowing: BP is higher in the arms than the legs, and output falls, not rises."
@@ -1675,12 +1675,12 @@
    "lvl": "Application",
    "stem": "A child is diagnosed with Kawasaki disease on hospital day 1 and completes the IVIG infusion on day 3, with an uncomplicated course. Per the recommended monitoring schedule, when should the nurse anticipate the two follow-up echocardiograms will be performed?",
    "opts": [
-    "1-2 weeks after diagnosis, then 4-6 weeks after treatment is completed",
+    "Daily while the child remains hospitalized, then none after discharge",
     "24 hours after diagnosis, then again 1 week after treatment is completed",
-    "Once only, about 6 months after treatment has been completed",
-    "Daily while the child remains hospitalized, then none after discharge"
+    "1-2 weeks after diagnosis, then 4-6 weeks after treatment is completed",
+    "Once only, about 6 months after treatment has been completed"
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "Follow-up echocardiograms are recommended 1-2 weeks after diagnosis and 4-6 weeks after treatment (more often if the child's response warrants it) to track myocardial function and coronary artery dimensions, since coronary artery aneurysm is the feared complication and can develop after the acute illness resolves. A same-week repeat, a single late echo, or stopping surveillance at discharge would miss this delayed-risk window.",
    "strat": "Echo timeline: diagnosis -> 1-2 wks -> 4-6 wks post-treatment - aneurysms show up later, not just at baseline."
   },
@@ -1693,9 +1693,9 @@
    "stem": "A child with Kawasaki disease has been afebrile for 48 hours after completing the IVIG infusion. The child has been receiving aspirin 90 mg/kg/day divided every 6 hours, and the follow-up echocardiogram shows no coronary artery abnormalities. Which change to the aspirin regimen should the nurse anticipate?",
    "opts": [
     "Reduce the dose to 3-5 mg/kg/day until platelet counts normalize (about 6-8 weeks)",
-    "Discontinue the aspirin now that the fever has resolved and not restart it later",
     "Continue the current 80-100 mg/kg/day dose since an echocardiogram was performed",
-    "Increase the dose to offset the antiplatelet effect of the completed IVIG infusion"
+    "Increase the dose to offset the antiplatelet effect of the completed IVIG infusion",
+    "Discontinue the aspirin now that the fever has resolved and not restart it later"
    ],
    "ans": 0,
    "rat": "Once the child is afebrile, the high anti-inflammatory aspirin dose (80-100 mg/kg/day) is reduced to a low antiplatelet dose (3-5 mg/kg/day) and continued until the platelet count normalizes, about 6-8 weeks, then weaned to reduce bleeding risk. Aspirin is not stopped outright at defervescence or continued at the high dose once afebrile, and IVIG does not create a need to raise the aspirin dose. Had the echocardiogram shown coronary abnormalities, the low dose would instead continue indefinitely.",
@@ -1709,12 +1709,12 @@
    "lvl": "Evaluation",
    "stem": "The nurse is evaluating discharge teaching for the parent of a child recovering from Kawasaki disease who received IVIG during hospitalization. Which statement indicates correct understanding of home care?",
    "opts": [
-    "I will do gentle range-of-motion exercises in the bathtub when my child's joints seem stiff.",
     "I will have my child resume full-contact sports practice as soon as the fever finally breaks.",
-    "I will use antibacterial soap on my child's skin every single day to help prevent infection.",
-    "I will schedule my child's MMR vaccine at next month's regular well-child checkup visit."
+    "I will do gentle range-of-motion exercises in the bathtub when my child's joints seem stiff.",
+    "I will schedule my child's MMR vaccine at next month's regular well-child checkup visit.",
+    "I will use antibacterial soap on my child's skin every single day to help prevent infection."
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Passive range-of-motion exercises performed in the bathtub, where warm water eases joint stiffness from arthritis, reflects correct understanding of the guide's family education. Harsh or antibacterial soaps should be avoided because they dry the skin and increase breakdown; live vaccines such as MMR must be delayed 11 months after IVIG because the antibodies can blunt the child's vaccine response; and resuming full-contact sports right after the fever resolves ignores ongoing joint inflammation and cardiac monitoring needs.",
    "strat": "Bathtub ROM = correct; harsh soap, an early live vaccine, or early full-contact sports = a teaching gap."
   },
@@ -1726,17 +1726,17 @@
    "lvl": "Analysis",
    "stem": "A child recently recovered from COVID-19 is being evaluated for multisystem inflammatory syndrome in children (MIS-C). The nurse is teaching the parent which findings should prompt emergency care right away. Select all findings that represent an emergency early-warning sign of MIS-C.",
    "opts": [
-    "Difficulty breathing",
-    "Pain or pressure in the chest",
     "Persistent fever lasting longer than 24 hours",
     "Pallor or cyanosis of the skin, lips, or nail beds",
+    "Severe abdominal pain",
     "Mild diarrhea without abdominal pain",
-    "Severe abdominal pain"
+    "Difficulty breathing",
+    "Pain or pressure in the chest"
    ],
    "ans": [
-    0,
     1,
-    3,
+    2,
+    4,
     5
    ],
    "rat": "The guide lists difficulty breathing; chest pain or pressure; new-onset confusion or decreased level of consciousness; pallor/cyanosis of the skin, lips, or nail beds; and severe abdominal pain as the emergency early-warning signs of MIS-C that need immediate intervention. Persistent fever longer than 24 hours is one of the diagnostic criteria for MIS-C but is not itself an emergency trigger, and mild diarrhea without pain is a general manifestation, not a warning sign.",
@@ -1792,36 +1792,36 @@
    "problem": {
     "opts": [
      "Risk for fluid volume overload and heart failure during the IVIG infusion",
-     "Risk for dehydration secondary to the high fever and reduced oral intake",
      "Risk for impaired parent-child attachment related to hospitalization",
-     "Risk for delayed growth and development related to prolonged bed rest"
+     "Risk for delayed growth and development related to prolonged bed rest",
+     "Risk for dehydration secondary to the high fever and reduced oral intake"
     ],
     "a": 0
    },
    "actions": {
     "opts": [
-     "Administer the IVIG infusion per protocol while monitoring vital signs and assessing for an allergic reaction",
+     "Reduce assessment frequency to every 8 hours once the infusion begins because the child is stable",
      "Maintain continuous cardiac monitoring and document strict intake and output with daily weights",
      "Administer a prophylactic diuretic before starting the infusion to prevent fluid overload",
-     "Reduce assessment frequency to every 8 hours once the infusion begins because the child is stable",
+     "Administer the IVIG infusion per protocol while monitoring vital signs and assessing for an allergic reaction",
      "Give the scheduled high-dose aspirin as an IV bolus at the start of the infusion"
     ],
     "ans": [
-     0,
-     1
+     1,
+     3
     ]
    },
    "params": {
     "opts": [
      "Daily weight and strict intake and output (I&O)",
-     "Signs of an IVIG reaction - elevated blood pressure, facial flushing, or chest tightness - and cardiac status",
      "Serum potassium level every shift",
+     "Signs of an IVIG reaction - elevated blood pressure, facial flushing, or chest tightness - and cardiac status",
      "Deep tendon reflexes bilaterally",
      "Stool for occult blood after every void"
     ],
     "ans": [
      0,
-     1
+     2
     ]
    },
    "rat": "The large-volume IVIG infusion (2 g/kg) places a significant fluid load on the heart, so the priority problem is fluid volume overload/heart failure risk, not dehydration, attachment, or development. The correct actions are administering IVIG per protocol with vital-sign and allergic-reaction monitoring, and maintaining continuous cardiac monitoring with strict I&O/daily weights - not prophylactic diuretics, reduced assessment frequency, or IV-bolus aspirin (aspirin is given orally, not IV). The parameters that evaluate this risk are daily weight/I&O and signs of an IVIG reaction (elevated BP, facial flushing, chest tightness) plus cardiac status - not potassium, reflexes, or stool guaiac.",
@@ -1835,11 +1835,11 @@
    "stem": "A 6-year-old with chronic anemia (hemoglobin 7.8 g/dL) is pale, tachycardic, and fatigued but shows no cyanosis, with an oxygen saturation of 98% on room air. The parent asks why the child looks pale instead of blue if the oxygen level is fine. Which explanation should the nurse give?",
    "opts": [
     "Cyanosis in anemia typically takes several months of low hemoglobin levels to become visible on assessment.",
-    "Anemia lowers circulating hemoglobin, leaving too little deoxygenated hemoglobin to produce a visible blue color.",
     "The child's naturally darker skin pigmentation is masking a bluish discoloration that would otherwise be visible on exam.",
+    "Anemia lowers circulating hemoglobin, leaving too little deoxygenated hemoglobin to produce a visible blue color.",
     "Tachycardia is compensating for a low oxygen saturation, which is keeping the tissues oxygenated and preventing cyanosis."
    ],
-   "ans": 1,
+   "ans": 2,
    "rat": "Cyanosis results from an increased amount of deoxygenated hemoglobin in the blood; anemia reduces the total hemoglobin available, so even though the existing hemoglobin remains well saturated (98%), there is too little of it to produce visible cyanosis. Option 4 misreads the data - the child's oxygen saturation is normal, not low. Option 3 misattributes the finding to pigmentation instead of physiology, and option 1 invents a time course that does not apply.",
    "strat": "No cyanosis with a normal SpO2 in anemia means too little hemoglobin, not poorly oxygenated hemoglobin - separate the amount of Hgb from its saturation."
   },
@@ -1852,8 +1852,8 @@
    "opts": [
     "Daily intake of about 40 oz of cow's milk along with minimal solid food intake",
     "The child's history of a mild upper respiratory infection last month",
-    "Exclusive breastfeeding without iron-fortified supplementation until 9 months of age",
-    "A slowing growth rate that is typical for toddlers at this age"
+    "A slowing growth rate that is typical for toddlers at this age",
+    "Exclusive breastfeeding without iron-fortified supplementation until 9 months of age"
    ],
    "ans": 0,
    "rat": "Excessive cow's milk intake (well above the recommended limit) displaces iron-rich foods and impairs iron absorption, the classic cause of iron deficiency anemia in toddlers, and matches this child's pallor, fatigue, and pica. A respiratory infection is not an iron deficiency risk factor described in this content; prolonged exclusive breastfeeding is a real risk factor but does not apply to this milk-fed toddler; toddlers actually have rapid, not slowing, growth, which increases iron demand.",
@@ -1866,12 +1866,12 @@
    "lvl": "Analysis",
    "stem": "Laboratory results for a toddler being evaluated for iron deficiency anemia show a decreased hemoglobin, decreased hematocrit, and decreased RBC indices. Which additional finding would the nurse expect to support this diagnosis?",
    "opts": [
-    "Elevated total iron-binding capacity (TIBC)",
-    "Decreased total iron-binding capacity (TIBC)",
     "Elevated reticulocyte count",
-    "Positive direct Coombs test"
+    "Elevated total iron-binding capacity (TIBC)",
+    "Positive direct Coombs test",
+    "Decreased total iron-binding capacity (TIBC)"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "In iron deficiency anemia, TIBC rises as the body's compensatory attempt to bind and transport more iron from available sources; it is elevated, not decreased. Reticulocyte count is typically decreased, not elevated, because RBC production itself is impaired. A positive Coombs test points to immune-mediated hemolysis, a different anemia mechanism not described here.",
    "strat": "IDA means the body is 'hungry' for iron, so TIBC (iron-binding capacity) rises to grab more."
   },
@@ -1882,12 +1882,12 @@
    "lvl": "Application",
    "stem": "A child with severe iron deficiency anemia is receiving IV ferrous sulfate because oral iron therapy has been ineffective. Which nursing action is the priority during the infusion?",
    "opts": [
-    "Monitor the child closely and assess pain level throughout the infusion",
-    "Encourage the child to ambulate continuously during the infusion to promote circulation",
+    "Limit assessment to a single set of vital signs at the end of the infusion",
     "Administer the iron by rapid IV push to shorten the length of the infusion",
-    "Limit assessment to a single set of vital signs at the end of the infusion"
+    "Monitor the child closely and assess pain level throughout the infusion",
+    "Encourage the child to ambulate continuously during the infusion to promote circulation"
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "IV ferrous sulfate administration is very painful, so close monitoring of the child's response and pain level throughout the infusion is the priority. Rapid IV push is not the recommended administration method and can worsen adverse effects; assessing only at the end fails to capture reactions during the infusion; ambulation does not address the priority concern (pain and reaction to the infusion) and can complicate IV site management.",
    "strat": "IV iron is painful iron - the priority is watching the child during the infusion, not just before or after it."
   },
@@ -1898,12 +1898,12 @@
    "lvl": "Analysis",
    "stem": "A 4-year-old with known hemophilia A is brought to the emergency department after falling off a bike an hour ago. Assessment reveals a swollen, warm right knee with decreased range of motion, and the parent also reports the child has become increasingly drowsy with slurred speech since the fall. Which finding is the priority for the nurse to act on?",
    "opts": [
+    "The report that the fall happened while the child was riding a bike",
     "The swollen, warm knee with decreased range of motion",
     "The new drowsiness and slurred speech that began after the fall",
-    "The report that the fall happened while the child was riding a bike",
     "The one-hour delay between the fall and arrival in the emergency department"
    ],
-   "ans": 1,
+   "ans": 2,
    "rat": "New drowsiness and slurred speech after a fall in a child with hemophilia suggest intracranial (cerebral) bleeding, a life-threatening emergency that outranks the joint bleed - an acute change in mental status takes priority over a stable musculoskeletal finding under an ABCs/neurologic-emergency framework. The swollen knee (hemarthrosis) still needs treatment but is not immediately life-threatening, and how or when the fall happened does not change the priority of the current neurologic finding.",
    "strat": "In hemophilia, drowsiness and slurred speech after a head or body trauma signal a possible cerebral bleed - it outranks a joint bleed every time."
   },
@@ -1914,18 +1914,18 @@
    "lvl": "Application",
    "stem": "The nurse is teaching the parent of a child newly diagnosed with hemophilia A about home management. Which instructions should the nurse include?",
    "opts": [
+    "Use a small, soft-bristled toothbrush during daily dental care",
+    "Give injections into the muscle instead of under the skin for faster absorption",
+    "Apply firm heat packs to a swollen joint to help stop the bleeding",
     "Give acetaminophen instead of aspirin or NSAIDs for pain relief",
     "Apply the RICE method (rest, ice, compression, elevation) for a joint bleed",
-    "Choose non-contact activities such as swimming or golf instead of contact sports",
-    "Use a small, soft-bristled toothbrush during daily dental care",
-    "Apply firm heat packs to a swollen joint to help stop the bleeding",
-    "Give injections into the muscle instead of under the skin for faster absorption"
+    "Choose non-contact activities such as swimming or golf instead of contact sports"
    ],
    "ans": [
     0,
-    1,
-    2,
-    3
+    3,
+    4,
+    5
    ],
    "rat": "Home management of hemophilia centers on avoiding bleeding triggers and controlling bleeds early: acetaminophen instead of aspirin/NSAIDs (which impair platelet function) for pain, RICE for an acute joint bleed, non- or low-contact activities with protective equipment, and a soft toothbrush to prevent oral trauma. Heat increases blood flow to a bleeding joint and should be avoided in favor of ice; injections should be given subcutaneously rather than intramuscularly to reduce the risk of deep muscle bleeding.",
    "strat": "Home hemophilia teaching: avoid, protect, RICE - no aspirin/NSAIDs, no contact sports, no IM injections, no heat on a bleed."
@@ -1989,18 +1989,18 @@
    "lvl": "Analysis",
    "stem": "CASE (1/6) Recognize cues. J.T., an 8-year-old boy with a history of sickle cell anemia (homozygous Hgb SS), is brought to the emergency department by his mother. She reports he has had a low-grade fever and several episodes of vomiting over the past 2 days and has barely been drinking fluids. He now reports severe pain, 9/10, in both lower legs and his lower back, and is lying still and guarding his legs when the nurse attempts to move them. Vital signs: T 38.3°C, HR 128/min, RR 24/min, BP 102/68 mm Hg. Select all findings the nurse should recognize as relevant cues for this presentation.",
    "opts": [
-    "Pain rated 9/10 in bilateral lower legs and lower back",
-    "Blood pressure 102/68 mm Hg",
+    "Dry oral mucous membranes",
     "Temperature 38.3°C",
+    "Blood pressure 102/68 mm Hg",
+    "Pain rated 9/10 in bilateral lower legs and lower back",
     "Two days of poor oral intake with vomiting",
-    "No reported shortness of breath",
-    "Dry oral mucous membranes"
+    "No reported shortness of breath"
    ],
    "ans": [
     0,
-    2,
+    1,
     3,
-    5
+    4
    ],
    "rat": "Severe bilateral limb/back pain, fever, and two days of poor intake with dry mucous membranes are the classic triggers and manifestations of vaso-occlusive crisis, since dehydration and infection both increase blood viscosity and sickling. The blood pressure is within an acceptable range for age, and the absence of shortness of breath is a reassuring negative — neither is itself a cue of concern.",
    "strat": "In recognize-cues items, ask 'does this finding point toward the problem, or is it normal/unremarkable' — normal vitals and absent symptoms are noise, not cues."
@@ -2013,12 +2013,12 @@
    "lvl": "Analysis",
    "stem": "CASE (2/6) Analyze cues. Given J.T.'s history of Hgb SS sickle cell anemia, low-grade fever, two days of poor fluid intake, dry mucous membranes, and severe bilateral leg and back pain, which explanation best links these cues?",
    "opts": [
+    "He is having a normal, expected physiologic reaction to a mild viral illness",
     "Splenic sequestration is pooling large amounts of blood in his spleen, causing hypovolemic shock",
     "Dehydration and fever have increased his blood viscosity and triggered a vaso-occlusive crisis",
-    "Bone marrow suppression from a recent viral infection is causing an aplastic crisis",
-    "He is having a normal, expected physiologic reaction to a mild viral illness"
+    "Bone marrow suppression from a recent viral infection is causing an aplastic crisis"
    ],
-   "ans": 1,
+   "ans": 2,
    "rat": "Fever and poor intake raise blood viscosity, promoting sickling and vessel occlusion — the mechanism behind vaso-occlusive crisis. Sequestration presents with splenomegaly and shock, and aplastic crisis presents with pallor and lethargy from severe anemia rather than focal severe pain; the combination of fever and severe pain is not a normal reaction in a child with sickle cell disease.",
    "strat": "Match the trigger (dehydration, fever, hypoxia, stress) to the crisis type by its classic presentation, not just the presence of a viral illness."
   },
@@ -2030,12 +2030,12 @@
    "lvl": "Analysis",
    "stem": "CASE (3/6) Prioritize hypotheses. The provider diagnoses acute vaso-occlusive crisis. J.T.'s temperature has come down to 37.6°C and he tolerated 200 mL of oral fluids after an initial IV bolus, but he continues to rate his pain 9/10, is guarding his legs, and refuses to move. Which problem should the nurse prioritize now?",
    "opts": [
-    "Risk for infection related to functional asplenia",
+    "Anxiety related to hospitalization and fear of needles",
     "Deficient fluid volume related to poor oral intake",
-    "Acute pain from vaso-occlusion and tissue ischemia",
-    "Anxiety related to hospitalization and fear of needles"
+    "Risk for infection related to functional asplenia",
+    "Acute pain from vaso-occlusion and tissue ischemia"
    ],
-   "ans": 2,
+   "ans": 3,
    "rat": "Fever and intake are already improving with treatment, but severe pain remains unrelieved — an unmet physiologic need takes priority (Maslow) over a resolving fluid deficit, a long-term infection risk, or a psychosocial concern.",
    "strat": "When several problems are present, prioritize the one that is severe AND unresolved despite initial treatment."
   },
@@ -2048,17 +2048,17 @@
    "stem": "CASE (4/6) Generate solutions (bowtie). J.T.'s hemoglobin is 8.0 g/dL, close to his baseline of 7.5–9 g/dL, with an elevated reticulocyte count. Choose the central problem, two priority actions, and two parameters to monitor.",
    "problem": {
     "opts": [
-     "Splenic sequestration with pooling of blood in the spleen and liver",
+     "Aplastic crisis from suppressed red blood cell production in the bone marrow",
      "Acute pain and vascular occlusion from a vaso-occlusive crisis",
-     "Aplastic crisis from suppressed red blood cell production in the bone marrow"
+     "Splenic sequestration with pooling of blood in the spleen and liver"
     ],
     "a": 1
    },
    "actions": {
     "opts": [
-     "Apply ice packs directly to the painful joints",
-     "Administer around-the-clock opioid analgesia and apply warm packs to the painful joints",
      "Administer a packed red blood cell transfusion for severe anemia",
+     "Administer around-the-clock opioid analgesia and apply warm packs to the painful joints",
+     "Apply ice packs directly to the painful joints",
      "Continue IV fluids to correct dehydration and decrease blood viscosity"
     ],
     "ans": [
@@ -2068,13 +2068,13 @@
    },
    "params": {
     "opts": [
-     "Deep tendon reflexes",
-     "Pain rating and effectiveness of analgesia",
      "Bowel sounds",
-     "Intake and output and hydration status"
+     "Deep tendon reflexes",
+     "Intake and output and hydration status",
+     "Pain rating and effectiveness of analgesia"
     ],
     "ans": [
-     1,
+     2,
      3
     ]
    },
@@ -2089,12 +2089,12 @@
    "lvl": "Application",
    "stem": "CASE (5/6) Take action. Several hours later, J.T.'s SpO2 is 91% on room air and he reports mild shortness of breath. Which action should the nurse take next?",
    "opts": [
-    "Encourage increased ambulation and activity to help clear his lungs",
     "Administer supplemental oxygen as prescribed to improve tissue perfusion",
     "Apply ice packs to his chest to reduce inflammation",
+    "Encourage increased ambulation and activity to help clear his lungs",
     "Withhold his next dose of pain medication to allow a full respiratory assessment"
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "Hypoxia increases tissue ischemia and sickling, so supplemental oxygen is given to improve perfusion and decrease ischemia. Vigorous activity raises oxygen consumption, ice increases vasoconstriction, and withholding analgesia leaves severe pain unrelieved — none address the hypoxia.",
    "strat": "SpO2 drop plus sickle cell disease means give oxygen; ice and vigorous activity are always wrong actions during a vaso-occlusive crisis."
   },
@@ -2108,10 +2108,10 @@
    "opts": [
     "Temperature 39.1°C, and he is refusing all oral and IV fluids",
     "Pain unchanged at 9/10, and he is drowsy and difficult to arouse",
-    "Pain decreased to 2/10, SpO2 98% on room air, and tolerating oral fluids",
-    "Pain decreased to 4/10, but SpO2 is 89% on room air and he appears anxious"
+    "Pain decreased to 4/10, but SpO2 is 89% on room air and he appears anxious",
+    "Pain decreased to 2/10, SpO2 98% on room air, and tolerating oral fluids"
    ],
-   "ans": 2,
+   "ans": 3,
    "rat": "Pain controlled at 2/10 with normalized oxygenation (98%) and tolerance of oral fluids demonstrates the plan worked across all three treated priorities: pain, oxygenation, and hydration. Persistent hypoxia with only partial pain relief is an incomplete response; a new fever with fluid refusal, and oversedation with unchanged pain, are both concerning findings, not reassuring ones.",
    "strat": "Evaluate outcomes against every priority that was treated, not just one improving number — a partial fix (better pain, still hypoxic) is not yet 'effective.'"
   },
@@ -2123,12 +2123,12 @@
    "lvl": "Application",
    "stem": "A nurse is providing genetic counseling to two parents who are both known carriers of sickle cell trait (heterozygous, Hgb AS). They ask about the risk to future children. Which explanation is accurate?",
    "opts": [
-    "Each of their children will inherit one copy of the sickle cell gene and will have sickle cell trait, a lifelong but generally asymptomatic carrier state",
-    "Each pregnancy has a 25% chance of sickle cell anemia, a 50% chance of sickle cell trait, and a 25% chance of being unaffected",
     "Because both parents carry only one copy of the gene each, it is not biologically possible for any of their children to develop sickle cell anemia",
-    "Each pregnancy carries a 50% chance of sickle cell anemia and a 50% chance of being unaffected, since the trait is not part of this calculation"
+    "Each pregnancy carries a 50% chance of sickle cell anemia and a 50% chance of being unaffected, since the trait is not part of this calculation",
+    "Each pregnancy has a 25% chance of sickle cell anemia, a 50% chance of sickle cell trait, and a 25% chance of being unaffected",
+    "Each of their children will inherit one copy of the sickle cell gene and will have sickle cell trait, a lifelong but generally asymptomatic carrier state"
    ],
-   "ans": 1,
+   "ans": 2,
    "rat": "Sickle cell anemia is autosomal recessive; when both parents are carriers, each pregnancy carries a 25% chance of sickle cell anemia (two recessive genes), a 50% chance of sickle cell trait (one gene, asymptomatic), and a 25% chance of being unaffected — the guide's exact inheritance pattern.",
    "strat": "Two carrier parents give the classic 25/50/25 recessive split — don't round it to a coin flip or assume trait is guaranteed."
   },
@@ -2140,9 +2140,9 @@
    "lvl": "Analysis",
    "stem": "A 12-year-old with sickle cell anemia reports a sudden severe headache and blurred vision that began 20 minutes ago. Which action should the nurse take first?",
    "opts": [
-    "Administer acetaminophen for the headache and continue to monitor",
-    "Administer the child's home dose of oral prophylactic penicillin",
     "Apply a warm compress to the child's forehead for comfort",
+    "Administer the child's home dose of oral prophylactic penicillin",
+    "Administer acetaminophen for the headache and continue to monitor",
     "Notify the healthcare provider to evaluate for a possible stroke"
    ],
    "ans": 3,
@@ -2157,10 +2157,10 @@
    "lvl": "Analysis",
    "stem": "A nurse is teaching the parent of a toddler newly diagnosed with sickle cell anemia about preventing infection and crisis at home. Which statement by the parent indicates a need for further teaching?",
    "opts": [
-    "I will give the daily prophylactic penicillin as prescribed",
+    "I will encourage frequent handwashing and avoid contact with people who are sick",
     "I will apply ice packs during a pain crisis to reduce swelling",
     "I will make sure my child receives the pneumococcal and meningococcal vaccines",
-    "I will encourage frequent handwashing and avoid contact with people who are sick"
+    "I will give the daily prophylactic penicillin as prescribed"
    ],
    "ans": 1,
    "rat": "Ice increases vasoconstriction and worsens sickling and should never be applied during a crisis; warm packs are used instead to promote vasodilation. Daily prophylactic penicillin, up-to-date vaccination, and infection-prevention hygiene are all correct, guide-supported teaching points.",
@@ -2186,20 +2186,20 @@
     {
      "label": "[2] One gene inherited",
      "opts": [
-      "trait (asymptomatic carrier)",
+      "crisis (life-threatening episode)",
       "anemia (symptomatic disease)",
-      "crisis (life-threatening episode)"
+      "trait (asymptomatic carrier)"
      ],
-     "a": 0
+     "a": 2
     },
     {
      "label": "[3] Two genes inherited",
      "opts": [
       "trait (asymptomatic carrier)",
-      "anemia (symptomatic disease)",
-      "crisis (life-threatening episode)"
+      "crisis (life-threatening episode)",
+      "anemia (symptomatic disease)"
      ],
-     "a": 1
+     "a": 2
     }
    ],
    "rat": "Sickle cell anemia requires the autosomal-recessive gene from both parents (homozygous, Hgb SS, symptomatic disease); inheriting the gene from only one parent produces sickle cell trait (heterozygous, Hgb AS), which is asymptomatic — the guide's exact distinction.",
@@ -2212,12 +2212,12 @@
    "lvl": "Analysis",
    "stem": "The nurse is comparing two children with suspected cardiac alterations. A 5-month-old infant has a 2-week history of poor feeding, diaphoresis during bottle feeds, and poor weight gain. A 7-year-old with a known long-standing cyanotic heart defect has new clubbing of the fingers. How should the nurse interpret these findings?",
    "opts": [
-    "Poor feeding and diaphoresis reflect early cardiac dysfunction, and clubbing reflects chronic hypoxia from long-standing disease.",
-    "Clubbing is actually the earliest and most reliable warning sign, while poor feeding only appears after years of untreated heart disease.",
     "Both findings are expected variations in normal childhood growth, feeding, and development that need no further evaluation.",
-    "Both findings together indicate an acute emergency that requires immediate resuscitation and transfer to intensive care."
+    "Both findings together indicate an acute emergency that requires immediate resuscitation and transfer to intensive care.",
+    "Poor feeding and diaphoresis reflect early cardiac dysfunction, and clubbing reflects chronic hypoxia from long-standing disease.",
+    "Clubbing is actually the earliest and most reliable warning sign, while poor feeding only appears after years of untreated heart disease."
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "Poor feeding, diaphoresis with feeds, and poor weight gain are documented early indicators of cardiac dysfunction; clubbing develops only after long-standing hypoxia. Reversing that timeline misreads the pathophysiology, calling both benign ignores the history given, and nothing in the stem supports an acute emergency.",
    "strat": "New feeding/growth trouble = early cardiac cue; clubbing = late, chronic-hypoxia cue."
   },
@@ -2228,12 +2228,12 @@
    "lvl": "Analysis",
    "stem": "During a well-child visit, the nurse assesses a 4-month-old infant with bounding pulses in both arms and weak, barely palpable pulses in both legs. The infant otherwise appears well. What should the nurse do first?",
    "opts": [
-    "Obtain blood pressures in all four extremities and notify the provider of the pulse findings.",
     "Note the pulse findings as an expected part of newborn circulatory transition and proceed with the remainder of the exam.",
     "Reposition the infant and recheck the pulses again in 24 hours before taking any further action.",
+    "Obtain blood pressures in all four extremities and notify the provider of the pulse findings.",
     "Prepare the infant for cardiac catheterization today without performing any additional assessment first."
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "Bounding pulses in the arms with weak leg pulses is a classic finding in coarctation of the aorta; assess before intervening by comparing blood pressures in all four extremities and notifying the provider. It is not an expected finding at 4 months (circulatory transition resolves in the newborn period), a 24-hour delay risks missing a time-sensitive problem, and catheterization is a provider-ordered next step, not an independent nursing action taken without further assessment.",
    "strat": "Bounding arms + weak legs = think coarctation; get 4-extremity BPs and notify before acting further."
   },
@@ -2244,12 +2244,12 @@
    "lvl": "Application",
    "stem": "The nurse needs an accurate baseline heart rate for an anxious 18-month-old toddler who becomes tearful whenever a stranger approaches. Which technique should the nurse use?",
    "opts": [
-    "Let the toddler settle briefly, then auscultate the apical pulse at the 4th intercostal space, left midclavicular line, for a full minute.",
     "Palpate the radial pulse for 30 seconds and multiply by two as soon as the toddler first enters the exam room.",
     "Count respirations by watching the chest wall move, then palpate the radial pulse right away without waiting.",
-    "Have the caregiver hold the toddler firmly still while the nurse counts the apical pulse for 15 seconds and multiplies that count by four."
+    "Have the caregiver hold the toddler firmly still while the nurse counts the apical pulse for 15 seconds and multiplies that count by four.",
+    "Let the toddler settle briefly, then auscultate the apical pulse at the 4th intercostal space, left midclavicular line, for a full minute."
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "Fear and crying elevate heart rate in infants and young children, so the nurse should let the child settle first, then auscultate the apical pulse (4th ICS, left midclavicular line) for a full minute for accuracy. The radial pulse is unreliable in young children because the vessels are easily obliterated, and a shortened count multiplied out amplifies error from crying-related tachycardia.",
    "strat": "Scared child = falsely fast pulse; wait, then auscultate apical for a full 60 seconds."
   },
@@ -2262,8 +2262,8 @@
    "opts": [
     "Recognize the murmur as a likely functional murmur from normal flow turbulence and continue routine follow-up.",
     "Restrict the child's physical activity entirely until a pediatric cardiologist rules out a structural heart defect.",
-    "Contact the provider today to report suspected heart failure and request an urgent cardiology evaluation.",
-    "Record the murmur as pathologic and tell the caregiver that surgery will likely be needed sometime soon."
+    "Record the murmur as pathologic and tell the caregiver that surgery will likely be needed sometime soon.",
+    "Contact the provider today to report suspected heart failure and request an urgent cardiology evaluation."
    ],
    "ans": 0,
    "rat": "Children commonly have functional (innocent) murmurs from normal physiologic flow turbulence; with none of the indicators of cardiac dysfunction present (normal growth, no cyanosis, no feeding trouble or activity intolerance), the finding is consistent with a benign murmur and routine follow-up is appropriate. The other options overreact to an isolated finding with no supporting signs of dysfunction.",
@@ -2277,16 +2277,16 @@
    "stem": "The nurse is completing a history and physical for a 3-month-old infant referred to cardiology for poor growth. Which findings, if present, would be consistent with cardiac dysfunction and support the referral? Select all that apply.",
    "opts": [
     "Diaphoresis and fatigue during bottle feeding",
-    "Respiratory rate consistently elevated above the infant's baseline",
-    "A father with a history of a congenital heart defect",
     "Steady weight gain that consistently tracks above the growth curve",
+    "Maternal diabetes during the pregnancy",
     "High energy and increased exercise tolerance during tummy time",
-    "Maternal diabetes during the pregnancy"
+    "A father with a history of a congenital heart defect",
+    "Respiratory rate consistently elevated above the infant's baseline"
    ],
    "ans": [
     0,
-    1,
     2,
+    4,
     5
    ],
    "rat": "Diaphoresis and fatigue with feeds, sustained tachypnea, family history of congenital heart disease, and maternal diabetes are all documented indicators or risk factors for cardiac dysfunction. Weight gain that tracks above the curve and high exercise tolerance are the opposite of the expected failure-to-thrive and activity-intolerance pattern, so they do not support the referral.",
@@ -2338,12 +2338,12 @@
    "lvl": "Analysis",
    "stem": "The nurse begins the shift with four assigned clients:\n- An 8-year-old with a history of asthma whose peak flow reading this morning is in the green zone, with no wheezing or accessory muscle use\n- A 6-month-old admitted 18 hours ago for RSV bronchiolitis, now with a respiratory rate that has risen from 44 to 68/min, new subcostal retractions, and difficulty rousing for feeding\n- A 5-year-old admitted 3 days ago for a sickle cell vaso-occlusive crisis, reporting pain at 2/10 on a stable oral analgesic schedule\n- A 4-year-old who received IVIG for Kawasaki disease yesterday, currently afebrile and tolerating a soft diet\n\nWhich client should the nurse assess first?",
    "opts": [
-    "The 8-year-old with asthma whose peak flow reading this morning sits in the green zone",
     "The 6-month-old with RSV bronchiolitis whose breathing has become rapid and labored this shift",
-    "The 5-year-old with sickle cell anemia whose crisis pain remains well controlled today",
-    "The 4-year-old with Kawasaki disease who remains afebrile and is tolerating a soft diet this morning"
+    "The 4-year-old with Kawasaki disease who remains afebrile and is tolerating a soft diet this morning",
+    "The 8-year-old with asthma whose peak flow reading this morning sits in the green zone",
+    "The 5-year-old with sickle cell anemia whose crisis pain remains well controlled today"
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "The RSV infant shows acute respiratory deterioration: rising respiratory rate, new retractions, and decreased responsiveness. This is an unstable, unfolding ABC concern that outranks three clients who are stable or improving. Green-zone asthma, controlled sickle cell pain, and an afebrile post-IVIG Kawasaki client all reflect expected, monitored status rather than a developing emergency.",
    "strat": "Acute-over-chronic, unstable-over-stable: new deterioration always outranks a stable or improving client, no matter the diagnosis."
   },
@@ -2355,12 +2355,12 @@
    "lvl": "Analysis",
    "stem": "The nurse is assigned to four clients:\n- A 9-year-old with cystic fibrosis due for a scheduled high-frequency chest wall compression (vest) session in 30 minutes\n- A 7-year-old with sickle cell anemia, day 3 of admission, resting comfortably with pain controlled on patient-controlled analgesia\n- A 3-year-old with tetralogy of Fallot who became acutely cyanotic and inconsolable 15 minutes ago and was just placed in a knee-chest position with oxygen applied\n- A 5-year-old in the convalescent stage of Kawasaki disease, afebrile for a week, awaiting discharge teaching\n\nWhich client should the nurse assess first?",
    "opts": [
+    "The 5-year-old with Kawasaki disease who is awaiting discharge teaching this morning",
     "The 9-year-old with cystic fibrosis who is due for a scheduled vest therapy session",
     "The 7-year-old with sickle cell anemia who is resting comfortably on PCA this shift",
-    "The 3-year-old with tetralogy of Fallot who just had a hypercyanotic \"tet\" spell",
-    "The 5-year-old with Kawasaki disease who is awaiting discharge teaching this morning"
+    "The 3-year-old with tetralogy of Fallot who just had a hypercyanotic \"tet\" spell"
    ],
-   "ans": 2,
+   "ans": 3,
    "rat": "A tet spell is an acute hypoxic event; even after initial positioning and oxygen, the nurse must promptly reassess the child's response before anything else. The other three clients are stable, scheduled, or improving and can safely wait.",
    "strat": "An unresolved acute event in progress always comes before scheduled or stable chronic care, even when first-response measures have already begun."
   },
@@ -2372,12 +2372,12 @@
    "lvl": "Analysis",
    "stem": "An 8-year-old is admitted for a scheduled surgical procedure. The child's biological mother arrives on the unit and states she wants to sign the consent form. The chart indicates the child's maternal grandmother holds court-ordered legal custody and is the caregiver of record; the grandmother has not yet arrived. What should the nurse do?",
    "opts": [
-    "Accept the biological mother's signature since she is a parent physically present at the bedside",
     "Proceed with the scheduled procedure today because an adult family member is present and willing to give written consent",
     "Notify the surgeon that consent cannot proceed until the legal caregiver is available, and contact the grandmother",
-    "Have the child life specialist obtain the child's verbal agreement in place of legal consent today"
+    "Have the child life specialist obtain the child's verbal agreement in place of legal consent today",
+    "Accept the biological mother's signature since she is a parent physically present at the bedside"
    ],
-   "ans": 2,
+   "ans": 1,
    "rat": "Legal consent must come from the person who holds legal responsibility for the child, which is not always the biological parent. Because the grandmother, not the mother, holds court-ordered custody, consent cannot be obtained from the mother; the nurse must notify the team and involve the legal caregiver. A child's assent supports but does not substitute for legally required consent.",
    "strat": "Caregiver is a legal status, not a biology test - confirm who holds legal responsibility before consent proceeds."
   },
@@ -2389,12 +2389,12 @@
    "lvl": "Application",
    "stem": "A nurse examines a 3-year-old with a spiral fracture of the forearm. The caregiver reports the child fell from a low step stool, an explanation the provider believes is inconsistent with the fracture pattern. Which documentation approach by the nurse is most appropriate?",
    "opts": [
-    "Wait until child protective services completes its full investigation before entering any findings in the medical record",
     "Record the objective findings and measurements, and the caregiver's exact words, using a body diagram for the location",
-    "Summarize the caregiver's account as the likely cause of the injury without separately recording the exam findings",
-    "Note only that the injury looks suspicious for abuse, and leave out the caregiver's explanation from the chart entry"
+    "Wait until child protective services completes its full investigation before entering any findings in the medical record",
+    "Note only that the injury looks suspicious for abuse, and leave out the caregiver's explanation from the chart entry",
+    "Summarize the caregiver's account as the likely cause of the injury without separately recording the exam findings"
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "Legally defensible documentation is objective and factual: exact measurements, a body diagram, and the caregiver's own words, recorded without inserting the nurse's conclusions. This preserves an accurate record for the mandatory report and any legal proceeding. Delaying documentation, blending the caregiver's account with exam findings, or recording only a suspicion all weaken the record's legal value.",
    "strat": "Chart what you saw and what you were told, kept separate and objective - let the data, not your conclusion, go in the record."
   },
@@ -2406,12 +2406,12 @@
    "lvl": "Application",
    "stem": "A child is being discharged home after treatment for Kawasaki disease. Which follow-up plan should the nurse reinforce with the family for ongoing cardiac monitoring?",
    "opts": [
-    "No further cardiac imaging is needed now that the child is afebrile and the IVIG infusion has been completed",
     "Follow-up echocardiograms at 1-2 weeks after diagnosis and 4-6 weeks after treatment, with more studies if indicated",
-    "An echocardiogram beginning one full year after hospital discharge is the recommended monitoring schedule for this child",
-    "A single echocardiogram at the 2-month follow-up visit is sufficient given the resolution of the fever"
+    "No further cardiac imaging is needed now that the child is afebrile and the IVIG infusion has been completed",
+    "A single echocardiogram at the 2-month follow-up visit is sufficient given the resolution of the fever",
+    "An echocardiogram beginning one full year after hospital discharge is the recommended monitoring schedule for this child"
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "Coronary artery aneurysms can develop even after systemic symptoms resolve, so the protocol calls for echocardiograms at 1-2 weeks and again at 4-6 weeks post-treatment, with more frequent studies based on the child's response. Waiting a full year, stopping imaging once afebrile, or relying on one later visit would miss the window when aneurysms are most likely to be found.",
    "strat": "Kawasaki's real risk is cardiac, not the fever curve - the echo schedule follows the coronary arteries, not the temperature."
   },
@@ -2423,10 +2423,10 @@
    "lvl": "Application",
    "stem": "Both parents of a child recently diagnosed with sickle cell anemia are known carriers of the sickle cell trait. As part of care coordination and family planning, which information should the nurse provide?",
    "opts": [
-    "Genetic counseling is unnecessary for this family since sickle cell anemia is not an inherited genetic condition",
+    "Future pregnancies carry the same 25% risk only for male children, with no similar risk for female children in the family",
     "Because one child already has the disease, any future children born to this couple would only inherit the trait, not the disease itself",
     "Genetic testing and counseling are recommended, since each pregnancy carries a 25% chance of the disease and a 50% chance of the trait",
-    "Future pregnancies carry the same 25% risk only for male children, with no similar risk for female children in the family"
+    "Genetic counseling is unnecessary for this family since sickle cell anemia is not an inherited genetic condition"
    ],
    "ans": 2,
    "rat": "Sickle cell anemia is autosomal recessive; when both parents carry the trait, each pregnancy independently carries a 25% chance of the disease and a 50% chance of the trait, regardless of the outcome of a previous pregnancy. Referral for genetic counseling supports informed family planning. The risk is not sex-linked, and it does not shrink to trait-only after one affected child.",
@@ -2441,11 +2441,11 @@
    "stem": "A child recovering from COVID-19 develops a persistent fever, abdominal pain, and a rash consistent with multisystem inflammatory syndrome in children (MIS-C). During assessment, the nurse notes the child is difficult to wake and has new pallor to the lips. Which action is the priority?",
    "opts": [
     "Encourage oral fluids and recheck the child's alertness after a period of rest",
-    "Notify the provider immediately of the change in level of consciousness and the new pallor",
     "Continue the current plan of care and recheck the child's temperature at the next scheduled time",
-    "Note the findings in the chart and reassess in 4 hours per the standing vital sign schedule"
+    "Note the findings in the chart and reassess in 4 hours per the standing vital sign schedule",
+    "Notify the provider immediately of the change in level of consciousness and the new pallor"
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "New onset confusion or decreased level of consciousness and pallor or cyanosis are explicit MIS-C emergency early-warning signs that require immediate provider notification, not a routine recheck. Waiting for the next scheduled assessment or trying to manage the finding with rest or fluids delays recognition of a potentially life-threatening deterioration.",
    "strat": "For MIS-C, new confusion, trouble breathing, chest pressure, pallor or cyanosis, and severe belly pain are the call-now list - they do not wait for the next routine round."
   },
@@ -2457,12 +2457,12 @@
    "lvl": "Analysis",
    "stem": "A child with a congenital heart defect is receiving digoxin. Before the scheduled dose, the nurse obtains an apical pulse of 68/min in this 6-year-old and notes the child has vomited twice this morning with new anorexia. Which action is the priority?",
    "opts": [
+    "Withhold the dose and notify the provider of the pulse and the new gastrointestinal symptoms",
     "Administer the dose as scheduled since the pulse is close to the child's baseline range",
     "Give the dose with food today to help settle the nausea before reassessing the child's pulse",
-    "Chart the findings and give the next dose at the scheduled time if the symptoms persist",
-    "Withhold the dose and notify the provider of the pulse and the new gastrointestinal symptoms"
+    "Chart the findings and give the next dose at the scheduled time if the symptoms persist"
    ],
-   "ans": 3,
+   "ans": 0,
    "rat": "A pulse below 70/min in a child, together with new vomiting and anorexia, reflects the classic digoxin toxicity picture; the dose must be withheld and the provider notified before any further doses are given. Administering the dose, giving it with food, or waiting for the next scheduled time all risk worsening toxicity.",
    "strat": "Digoxin has a hold pulse and a toxicity triad - a low pulse (under 90 in an infant, under 70 in a child) plus nausea, vomiting, or anorexia means hold and call, not give and wait."
   },
@@ -2508,17 +2508,17 @@
    "lvl": "Application",
    "stem": "The nurse is coordinating referrals for several pediatric clients. Which referral is correctly matched to the client's need? Select all that apply.",
    "opts": [
-    "Refer a child newly diagnosed with cystic fibrosis to a registered dietitian for pancreatic enzyme dosing and caloric-needs teaching",
+    "Refer every child admitted with a communicable disease to an infectious disease specialist before initiating standard transmission-based precautions",
+    "Refer a child with sickle cell anemia to inpatient psychiatry solely because this is a repeat admission for a vaso-occlusive pain crisis",
     "Refer a child with a suspected physical abuse injury to social work and child protective services as part of the interdisciplinary plan of care",
     "Refer a child with cystic fibrosis to respiratory therapy for airway clearance therapy and vest-device teaching",
     "Refer a child recovering from Kawasaki disease to physical therapy so a therapist, rather than the caregiver, performs the joint range-of-motion exercises during bathing",
-    "Refer every child admitted with a communicable disease to an infectious disease specialist before initiating standard transmission-based precautions",
-    "Refer a child with sickle cell anemia to inpatient psychiatry solely because this is a repeat admission for a vaso-occlusive pain crisis"
+    "Refer a child newly diagnosed with cystic fibrosis to a registered dietitian for pancreatic enzyme dosing and caloric-needs teaching"
    ],
    "ans": [
-    0,
-    1,
-    2
+    2,
+    3,
+    5
    ],
    "rat": "Dietitian, social work, and respiratory therapy referrals match established interprofessional roles for cystic fibrosis and suspected abuse. Passive range-of-motion for Kawasaki-related joint discomfort is taught to the caregiver by the nurse, not a required physical therapy referral; transmission-based precautions begin immediately per protocol without waiting on an infectious disease consult; and a repeat admission for a known chronic pain crisis does not, by itself, indicate a psychiatric referral.",
    "strat": "A correct referral fills a real unmet need - if the guide already assigns the task to the nurse or caregiver, or the referral would delay standard care, it is a distractor."
@@ -2532,17 +2532,17 @@
    "stem": "The provider orders droplet precautions for a 6-year-old admitted with suspected mumps. Which actions should the nurse take? Select all that apply.",
    "opts": [
     "Perform hand hygiene before and after entering the child's room",
+    "Wear eye protection if respiratory secretions are likely to contact the face during care",
     "Wear a surgical mask when working within 3 feet of the child",
     "Place the child in a negative-pressure airborne infection isolation room with the door closed",
-    "Don an N95 respirator before any contact with the child",
-    "Wear eye protection if respiratory secretions are likely to contact the face during care",
-    "Offer the child a mask to wear, if tolerated, when leaving the room for a procedure"
+    "Offer the child a mask to wear, if tolerated, when leaving the room for a procedure",
+    "Don an N95 respirator before any contact with the child"
    ],
    "ans": [
     0,
     1,
-    4,
-    5
+    2,
+    4
    ],
    "rat": "Droplet precautions call for hand hygiene, a surgical mask within close range, eye protection when a splash of secretions is likely, and a mask on the child when transported out of the room. A negative-pressure room and an N95 respirator are airborne-precaution requirements - mumps spreads by droplet and contact, not by airborne particles, so those two steps are not indicated.",
    "strat": "Droplet means mask and distance; airborne means N95 and negative pressure. Do not upgrade the precaution past what the organism needs."
@@ -2564,26 +2564,26 @@
    },
    "actions": {
     "opts": [
+     "Discharge the child home with the caregiver who brought them in for care",
      "Remove the child from the caregiver believed responsible and ensure immediate safety",
-     "Interview the child's caregivers separately using open-ended questions",
      "Instruct the caregiver to track the child's symptoms in a diary at home",
-     "Discharge the child home with the caregiver who brought them in for care"
+     "Interview the child's caregivers separately using open-ended questions"
     ],
     "ans": [
-     0,
-     1
+     1,
+     3
     ]
    },
    "params": {
     "opts": [
+     "Daily weight trend",
      "New or additional bruising, burns, or fractures",
      "Caregiver-child interaction and affect during the visit",
-     "Serum electrolyte panel",
-     "Daily weight trend"
+     "Serum electrolyte panel"
     ],
     "ans": [
-     0,
-     1
+     1,
+     2
     ]
    },
    "rat": "The priority problem is protecting the child from further injury while abuse is suspected. Immediate protective actions are removing the child from the suspected abuser and gathering an accurate history through separate, open-ended caregiver interviews - not sending the child home or relying on caregiver self-report. The nurse then monitors the two objective signs most specific to ongoing abuse risk: new injury and concerning caregiver-child interaction.",
@@ -2633,10 +2633,10 @@
    "lvl": "Evaluation",
    "stem": "The nurse teaches the caregiver of a 5-year-old with sickle cell anemia and functional asplenia about infection prevention. Which caregiver statement indicates the teaching was effective?",
    "opts": [
-    "I'll wait about two full days to see if the fever goes away before calling the provider's office",
     "I only need to give the penicillin when my child is having a pain crisis, not on days in between crises",
+    "I can stop the pneumococcal and meningitis vaccines since the antibiotic already protects my child",
     "I'll give the penicillin every day, even when my child feels fine, and call right away for any fever",
-    "I can stop the pneumococcal and meningitis vaccines since the antibiotic already protects my child"
+    "I'll wait about two full days to see if the fever goes away before calling the provider's office"
    ],
    "ans": 2,
    "rat": "Daily penicillin prophylaxis regardless of symptoms, continued age-appropriate vaccination, and immediate provider notification for fever are the core teaching points for the asplenic child's infection risk, since fever can trigger a sickle cell crisis. Delaying a call for fever, dosing penicillin only during a crisis, or stopping vaccines all reflect a misunderstanding of the prophylactic purpose of this regimen.",
@@ -2652,10 +2652,10 @@
    "opts": [
     "Assign both children to the same room since they share the same diagnosis",
     "Schedule their chest physiotherapy sessions together so they can support each other",
-    "Keep each child in a separate room and avoid shared play areas unless a mask is worn",
-    "Use the same nebulizer equipment for both children after wiping it down between uses"
+    "Use the same nebulizer equipment for both children after wiping it down between uses",
+    "Keep each child in a separate room and avoid shared play areas unless a mask is worn"
    ],
-   "ans": 2,
+   "ans": 3,
    "rat": "Clients with cystic fibrosis are frequently colonized with organisms such as Pseudomonas aeruginosa and MRSA that pose a cross-infection risk to one another, so they should be kept in separate rooms and masked in shared spaces rather than roomed together, sharing equipment, or grouped for therapy.",
    "strat": "Two clients with cystic fibrosis together is a cross-infection risk, not a roommate convenience - keep them apart and masked in shared spaces."
   },
@@ -2667,12 +2667,12 @@
    "lvl": "Application",
    "stem": "After administering a scheduled immunization to a 4-year-old, which information must the nurse document?",
    "opts": [
+    "The date of administration, vaccine manufacturer and lot number, and the site and route used",
     "The caregiver's occupation, household income level, and family health insurance details on file",
     "The child's most recent hemoglobin, hematocrit, and complete blood count values from this visit",
-    "The date of administration, vaccine manufacturer and lot number, and the site and route used",
     "The child's most recent growth percentile, weight trend, and developmental milestones"
    ],
-   "ans": 2,
+   "ans": 0,
    "rat": "Required vaccine documentation includes the date of administration, manufacturer and lot number, site and route, who administered it, and confirmation that informed consent was obtained. Growth data, socioeconomic information, and unrelated lab values are not part of the vaccine administration record.",
    "strat": "Vaccine charting checklist: date, manufacturer and lot, site and route, administrator, and consent - nothing else belongs in that note."
   }

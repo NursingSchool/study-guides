@@ -264,6 +264,24 @@ def coverage_report(questions):
     by_type = {}
     for q in questions:
         by_type[q.get("type")] = by_type.get(q.get("type"), 0) + 1
+    radios = [q for q in questions if q.get("type") == "radio" and isinstance(q.get("ans"), int)]
+    if len(radios) >= 12:
+        pos = {}
+        for q in radios:
+            pos[q["ans"]] = pos.get(q["ans"], 0) + 1
+        k = max(len(q.get("opts", [])) for q in radios)
+        share = " / ".join(f"{round(100 * pos.get(i, 0) / len(radios))}%" for i in range(k))
+        top = max(pos.values()) / len(radios)
+        lines.append(f"\n  Correct-answer position (radio, n={len(radios)}): {share}")
+        if top > 0.40:
+            worst = max(pos, key=pos.get)
+            lines.append("    NOTE: answers cluster on one position - see WARNINGS.")
+            warnings.append(
+                f"  [answer position] {round(top * 100)}% of radio keys sit at option "
+                f"{chr(65 + worst)} ({share}). A student who always picks that option scores "
+                f"{round(top * 100)}%. Permute options so the key lands ~uniformly."
+            )
+
     lines.append("\n  Item format mix:")
     for label, types, lo, hi in FORMAT_MIX:
         n = sum(by_type.get(t, 0) for t in types)
