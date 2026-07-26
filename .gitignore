@@ -1,3 +1,7 @@
+# MCP server config — contains live API tokens (Discord bot token, etc.).
+# Never commit: this repo publishes to GitHub Pages.
+.mcp.json
+
 # Playwright MCP scratch — browser snapshots, console logs, screenshots
 .playwright-mcp/
 
