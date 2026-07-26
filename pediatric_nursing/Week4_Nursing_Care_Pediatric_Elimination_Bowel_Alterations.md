@@ -37,6 +37,7 @@ This lesson provides an overview of pediatric gastrointestinal (GI) disorders an
 This lesson will focus on the nursing care of children with constipation, Hirschsprung disease, gastroesophageal reflux, appendicitis, pyloric stenosis, and intussusception.
 
 ---
+
 ## Section 3: Explore: Gastrointestinal Dysfunction
 
 # Gastrointestinal Dysfunction
@@ -86,6 +87,7 @@ This lesson will focus on constipation, Hirschsprung disease, gastroesophageal r
 - hernia
 
 ---
+
 ## Section 4: Explore: Gastrointestinal Function Assessment
 
 # Gastrointestinal Function Assessment
@@ -107,6 +109,7 @@ Common abnormal gastrointestinal assessment findings:
   - sometimes accompanied by developmental delays
 
 ---
+
 ## Section 5: Explore: Nursing Care for Gastrointestinal Surgery
 
 # Nursing Care for Gastrointestinal Surgery
@@ -154,6 +157,7 @@ Nursing Care Priorities for Gastrointestinal Surgery:
 **Reference:** Maimonides Medical Center. (2012, June 18). *A day in the life of a Child Life Specialist* [Video]. YouTube. https://www.youtube.com/watch?v=OrFzwpAhijE
 
 ---
+
 ## Section 6: Explore: Gastrointestinal Disorder: Constipation
 
 # Gastrointestinal Disorder: Constipation
@@ -230,6 +234,7 @@ Constipation is an alteration in the frequency, consistency, or ease of passing 
 - Type 7: Liquid consistency with no solid pieces (Severe diarrhea)
 
 ---
+
 ## Section 8: Explore: Motility Disorder: Hirschsprung Disease
 
 # Motility Disorder: Hirschsprung Disease
@@ -293,6 +298,7 @@ The pathology of HD relates to the absence of ganglion cells in the affected are
   - Care for colostomy if needed.
 
 ---
+
 ## Section 9: Explore: Motility Disorder: Gastroesophageal Reflux
 
 # Motility Disorder: Gastroesophageal Reflux
@@ -353,6 +359,7 @@ The primary cause is inappropriate relaxation of the lower esophageal sphincter,
   - Educate caregivers for home care.
 
 ---
+
 ## Section 11: Explore: Inflammatory Condition: Appendicitis
 
 # Inflammatory Condition: Appendicitis
@@ -393,6 +400,7 @@ Appendicitis is the inflammation of the appendix, a thin, tube-like organ attach
 Appendicitis occurs when the appendix becomes blocked by bacterial infection, stagnation of waste matter, parasites, inflammatory bowel disease, or other gastrointestinal conditions.
 
 ---
+
 ## Section 13: Explore: Obstructive Disorder: Pyloric Stenosis
 
 # Obstructive Disorder: Pyloric Stenosis
@@ -432,6 +440,7 @@ The pyloric canal between the stomach and duodenum narrows and becomes inflamed 
   - feedings usually restarted with clear liquids in small amounts within 12-24 hours of surgery
 
 ---
+
 ## Section 15: Explore: Obstructive Disorder: Intussusception
 
 # Obstructive Disorder: Intussusception

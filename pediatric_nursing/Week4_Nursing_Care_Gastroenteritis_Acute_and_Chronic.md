@@ -32,6 +32,7 @@ This lesson provides an overview of how the nurse applies the nursing process in
 Gastroenteritis, or diarrhea involving the stomach and small intestines, is a common disorder among children. Infants are most susceptible to experiencing dehydration because their body water content is higher than older children and adults.
 
 ---
+
 ## Section 3: Explore: Gastroenteritis
 
 # Gastroenteritis
@@ -74,6 +75,7 @@ Rotavirus is easily spread among infants and young children and can cause severe
 **Reference:** Centers for Disease Control and Prevention. (2024). *Clinical overview of rotavirus.* https://www.cdc.gov/rotavirus/hcp/clinical-overview/
 
 ---
+
 ## Section 4: Explore: Gastroenteritis: Diagnostic Evaluation
 
 # Gastroenteritis: Diagnostic Evaluation
@@ -109,6 +111,7 @@ Rotavirus is easily spread among infants and young children and can cause severe
     - blood urea nitrogen (BUN)
 
 ---
+
 ## Section 5: Explore: Gastroenteritis: Therapeutic Management
 
 # Gastroenteritis: Therapeutic Management
@@ -143,6 +146,7 @@ Rotavirus is easily spread among infants and young children and can cause severe
 - Centers for Disease Control and Prevention. (2003). *Managing acute gastroenteritis among children: Oral rehydration, maintenance, and nutritional therapy.* (MMWR Publication No. RR-16). https://doi.org/10.1542/peds.114.2.507
 
 ---
+
 ## Section 6: Explore: Gastroenteritis: Nursing Care
 
 # Gastroenteritis: Nursing Care

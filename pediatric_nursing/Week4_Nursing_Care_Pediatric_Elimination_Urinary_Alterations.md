@@ -30,6 +30,7 @@
 This lesson provides an overview of pediatric urinary dysfunction and how the nurse applies the nursing process in caring for pediatric clients with urinary dysfunction. Urinary elimination involves the process of waste formation through the production of urine. The kidneys, ureters, bladder, and urethra must function for urination to occur. The type and clinical manifestations of urinary dysfunction change with the age of the child. This lesson will focus on the nursing care of children with urinary tract infections, enuresis, and acute poststreptococcal glomerulonephritis.
 
 ---
+
 ## Section 3: Explore: Urinary Function Assessment
 
 # Urinary Function Assessment
@@ -82,6 +83,7 @@ Many clinical manifestations of kidney or urinary tract dysfunction are common t
 - voiding cystourethrogram (VCUG)
 
 ---
+
 ## Section 5: Explore: Urinary Tract Infection
 
 # Urinary Tract Infection
@@ -190,6 +192,7 @@ Many clinical manifestations of kidney or urinary tract dysfunction are common t
 - Sterile procedure: clean, insert catheter, allow urine to flow into specimen cup
 
 ---
+
 ## Section 8: Explore: Enuresis
 
 # Enuresis
@@ -240,6 +243,7 @@ Enuresis (bed-wetting) is a common disorder that is defined as intentional or in
 **Reference:** Prihoda, K. S., & Rodgers, C. C. (2019). Health problems of the school-age child. In Hockenberry, M. J., & Wilson, D. (2019). *Wong's nursing care of infants and children* (11th ed., pp. 505-506). Mosby.
 
 ---
+
 ## Section 9: Explore: Acute Poststreptococcal Glomerulonephritis
 
 # Acute Poststreptococcal Glomerulonephritis
