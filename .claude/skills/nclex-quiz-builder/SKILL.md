@@ -67,9 +67,21 @@ build/lint, hub) that the comprehensive build reuses in its Reduce phase.
      cover every module tested on the exam (the full block of weeks), sized like the
      live example (~50–100 items, scaled to how much material the exam spans). Go
      smaller only when Chris asks for a single topic or a quick set.
-   - **Item-type mix** — default a realistic NGN blend: mostly single-best, several
-     SATA, and a few clinical-judgment items (matrix, cloze, bowtie, a trend item,
-     and at least one 6-item unfolding case study) when the content supports them.
+   - **Item-type mix — hit these bands.** "Mostly single-best" was too vague and the
+     builder drifted to ~50% multi-select, which is nothing like the real exam. Targets,
+     enforced by the linter's format-mix report:
+
+     | Format | Types | Target |
+     |---|---|---|
+     | Single-best answer | `radio`, `calc` | **55–70%** |
+     | SATA / multiple-response | `multi` | **10–20%** |
+     | Other NGN clinical judgment | `matrix`, `cloze`, `match`, `bowtie` | **15–25%** |
+     | *Anything needing multiple selections* | *all but `radio`/`calc`* | ***ceiling 40%*** |
+
+     Plus at least one 6-item unfolding case study when the content supports it (its items
+     count toward the bands like any others). **Single-best is the workhorse** — a 100-item
+     review should have roughly 60 `radio` items, ~15 SATA, and ~20 across the NGN types.
+     Build the mix in deliberately rather than writing freely and rebalancing after.
    - **Difficulty** — default Application/Analysis; raise to Analysis/Evaluation on request.
    - **Topic focus** — default: follow the source material as given.
 

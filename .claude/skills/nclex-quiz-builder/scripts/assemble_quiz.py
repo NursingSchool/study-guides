@@ -194,6 +194,18 @@ def check_case_studies(questions):
             )
 
 
+# Item-format mix. NCLEX is dominated by single-best-answer items; multi-select
+# formats are a minority. Without these bands, generated quizzes drift to ~50%
+# multi-select, which does not resemble the real exam.
+FORMAT_MIX = (
+    ("single-best answer (radio, calc)", ("radio", "calc"), 55, 70),
+    ("SATA / multiple-response (multi)", ("multi",), 10, 20),
+    ("other NGN (matrix, cloze, match, bowtie)", ("matrix", "cloze", "match", "bowtie"), 15, 25),
+)
+MULTISELECT_TYPES = ("multi", "matrix", "cloze", "match", "bowtie")
+MULTISELECT_CEILING = 40
+
+
 def coverage_report(questions):
     total = len(questions)
     by_cat, by_lvl = {}, {}
@@ -218,6 +230,36 @@ def coverage_report(questions):
             appplus += n
     if total and appplus / total < 0.8:
         lines.append("    NOTE: under 80% at Application+; raise the cognitive level of recall items.")
+
+    by_type = {}
+    for q in questions:
+        by_type[q.get("type")] = by_type.get(q.get("type"), 0) + 1
+    lines.append("\n  Item format mix:")
+    for label, types, lo, hi in FORMAT_MIX:
+        n = sum(by_type.get(t, 0) for t in types)
+        pct = round(n / total * 100) if total else 0
+        flag = "" if lo <= pct <= hi else "  <-- off-target"
+        lines.append(f"    {label:<42} {n:>3} {pct:>4}%   {lo}-{hi}%{flag}")
+    ms = sum(by_type.get(t, 0) for t in MULTISELECT_TYPES)
+    ms_pct = round(ms / total * 100) if total else 0
+    over = ms_pct > MULTISELECT_CEILING
+    lines.append(
+        f"    {'-> requires multiple selections':<42} {ms:>3} {ms_pct:>4}%"
+        f"   <={MULTISELECT_CEILING}%{'  <-- too many' if over else ''}"
+    )
+    if total >= 25:
+        if over:
+            warnings.append(
+                f"  [format mix] {ms_pct}% of items require multiple selections "
+                f"(multi/matrix/cloze/match/bowtie), ceiling {MULTISELECT_CEILING}%. NCLEX is "
+                "dominated by single-best-answer items; convert some to 4-option radio."
+            )
+        radio_pct = round(by_type.get("radio", 0) / total * 100) if total else 0
+        if radio_pct < 55:
+            warnings.append(
+                f"  [format mix] only {radio_pct}% single-best radio items (target 55-70%). "
+                "Single-response is the dominant NCLEX format."
+            )
     if total < 25:
         lines.append(
             "\n  (Small/topic-focused set: the per-category band flags above are expected and\n"

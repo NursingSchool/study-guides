@@ -49,6 +49,12 @@ emergencies omitted, Management of Care / Psychosocial near zero). Build it in t
   study, bowtie, trend, and matrix — and spread them across the block. The richest emergency
   material (e.g. intrapartum: cord prolapse, tachysystole, dystocia) deserves a case study; don't
   cluster all case studies in one topic.
+- **Budget the format mix at the block level, then hand each agent its exact quota.** Left to
+  choose, agents over-produce multi-select — measured drift is ~50% against a 40% ceiling. Compute
+  the block totals first (55–70% `radio`+`calc`, 10–20% `multi`, 15–25% `matrix`/`cloze`/`match`/
+  `bowtie`), divide into per-module quotas, and state each as an explicit count in the briefing
+  (e.g. "7 radio, 2 SATA, 1 matrix"). A module with only 4 items should usually be **all radio** —
+  NGN formats belong in the modules rich enough to support them.
 - **List the must-test high-yield per module before writing:** emergencies, priority actions,
   "must report," meds + antidotes + contraindications first; nice-to-knows fill the rest. The
   per-module gap analyses in this folder's history are a model for what "high-yield" means.
@@ -123,6 +129,11 @@ and a defect report back to the material's authors, so be specific.
   absolute / SATA-variation; if Management of Care or Psychosocial are under band, swap in
   prioritization/psychosocial items; re-run until the linter is quiet (or each remaining warning
   has a logged reason). This central pass is where even coverage and difficulty are enforced.
+- **Fix the format mix here.** Read the linter's `Item format mix` block. If multi-select is over
+  the 40% ceiling or `radio` is under 55%, convert the weakest multi-select items to single-best
+  — the usual candidates are SATA items whose options aren't truly independent, and `match`/`cloze`
+  items that are really one fact split into blanks. Converting is better than deleting: keep the
+  content, change the format. Re-run until the bands are met.
 - **Check objective coverage before reporting.** Assemble the MAP agents' objective claims into
   one table: every weekly objective from the block, and which items cover it. **Any objective with
   zero items is a defect** — either write items for it, or, if the source genuinely doesn't
