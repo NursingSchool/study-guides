@@ -279,7 +279,26 @@ def coverage_report(questions):
             warnings.append(
                 f"  [answer position] {round(top * 100)}% of radio keys sit at option "
                 f"{chr(65 + worst)} ({share}). A student who always picks that option scores "
-                f"{round(top * 100)}%. Permute options so the key lands ~uniformly."
+                f"{round(top * 100)}%. Run balance_answers.py."
+            )
+
+        # Aggregate share hides the defect a student actually experiences. The first
+        # published NR328 exam review was 55% option A -- which sounded survivable --
+        # but the A's were front-loaded into a block of TWELVE consecutive items.
+        seq = [q["ans"] for q in radios]
+        longest = run = 1
+        at = end = 0
+        for i in range(1, len(seq)):
+            run = run + 1 if seq[i] == seq[i - 1] else 1
+            if run > longest:
+                longest, end = run, i
+        at = end - longest + 2  # 1-based index of the run's first radio item
+        lines.append(f"    longest run of one position: {longest}")
+        if longest >= 4:
+            warnings.append(
+                f"  [answer position] {longest} consecutive radio items all key to option "
+                f"{chr(65 + seq[end])} (starting at radio item {at}). Runs are what a student "
+                "notices, even when the overall spread looks even. Run balance_answers.py."
             )
 
     lines.append("\n  Item format mix:")
