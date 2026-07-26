@@ -138,6 +138,21 @@ The questions are grounded in material Chris has already captured — you are
 
 - Each class is a folder named after it (e.g. `maternal_child/`, `nutrition_nr228/`).
   Inside are verbatim **Edapt study guides**, one per module, named `WeekN_<Topic>.md`.
+- **`WeekN_Prepare_and_Plan.md` — the course's own statement of what the week tests.**
+  Captured from Canvas, not Edapt. **Read every week's before writing a single item.** It carries:
+  - **Weekly Objectives** — the granular testable list. Treat as a *coverage checklist*: every
+    objective needs at least one item. This is the authoritative scope.
+  - **Weekly Outcomes with `(CO n)` tags** — maps the week onto course outcomes, giving a second
+    coverage axis alongside Client Needs.
+  - **Concepts with Exemplars** — the module list the course expects, with a cross-link to the
+    matching `WeekN_*.md` files. Use it to verify your module inventory is complete; a listed
+    exemplar with no guide file is a missing capture, not a topic to skip.
+  - **Are You Ready to Apply?** — the course's own self-check prompts. Excellent high-yield seeds.
+  - **Reading** — which textbook chapters back the week (relevant to the ~10% below).
+- **`WeekN_Supplement_<Topic>.md` — gap-fill files.** Content the objectives require that the
+  Edapt modules don't carry (e.g. immunization schedules, asthma pharmacology). Each is explicitly
+  marked non-Edapt with its provenance. **Items may be grounded in these**, but prefer the Edapt
+  guide's version wherever both cover a fact, and never let a supplement override a guide.
 - Each guide has frontmatter (Course/Unit/Module), a Module Manifest, then
   `## Section N: <title>` blocks (often with `### Tab:` sub-content) — every Explore
   section/tab is a discrete, testable concept and good question fodder. They cite
@@ -155,11 +170,26 @@ The questions are grounded in material Chris has already captured — you are
   Never silently swap in current practice; see the Accuracy rule in `references/blueprint-2026.md`.
 - A folder may already hold a markdown quiz (`NCLEX_Quiz_*.md`) and/or a built `.html`.
   Reuse good items, but avoid producing a near-duplicate of an existing quiz unless asked.
-- **The other ~10%.** Some tested content comes from the textbook or instructor handouts rather
-  than Edapt (a handed-out immunization schedule chart is the known example). If a clearly
-  testable topic is missing from the guides, don't invent it from general knowledge and don't
-  assume it isn't tested — tell Chris what's missing and ask for the handout so items can be
-  grounded in his actual source.
+- **The other ~10%, and how to find it.** Some tested content comes from the textbook or
+  instructor handouts rather than Edapt. **The Prepare and Plan objectives are how you detect
+  this systematically:** walk each Weekly Objective and ask which guide teaches it. An objective
+  with no supporting guide section is a real gap, not a topic to skip.
+
+  Confirmed examples of this pattern in NR328: Week 2 Objective 4 says "Discuss routine childhood
+  immunizations," but the Edapt module embeds no schedule at all — it only links to CDC. The
+  asthma section names no medications whatsoever. Both are now `WeekN_Supplement_*.md` files.
+
+  Two further traps, both real:
+  - **Skipped Self-Check topics.** `edapt-extract` drops `Self-Check:` sections by design. Usually
+    they only drill Explore content, but not always — NR328 Week 1's `Self-Check: Kohlberg's
+    Stages of Moral Development` had no Explore counterpart, so no Kohlberg content exists in any
+    guide. Check the guides' skipped-section audit lines for orphaned topics.
+  - **Canvas practice quizzes are gap detection, not scope.** Each week has one (~9–19 items).
+    They reveal thin spots well. They do **not** define what's testable and are far smaller than
+    the real exam — never treat them as a blueprint or as an item-format template.
+
+  When a genuine gap has no source, tell Chris what's missing and ask for the handout rather than
+  inventing it from general knowledge or assuming it isn't tested.
 
 ## The study hub (`index.html` → class pages)
 

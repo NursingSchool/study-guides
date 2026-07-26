@@ -7,7 +7,28 @@ emergencies omitted, Management of Care / Psychosocial near zero). Build it in t
 
 ## 1. PLAN (you, the main agent)
 
+- **Read every `WeekN_Prepare_and_Plan.md` in the block FIRST — before inventorying modules.**
+  This is the course's own statement of what the week tests, and it turns the plan from "cover the
+  material" into "cover what they said they'd test."
+  - Extract the **Weekly Objectives** across all weeks into one flat checklist. This is your
+    scope. A ~3-week block typically yields ~19 objectives. **Every objective must be claimed by
+    at least one module** in the allocation below; an unclaimed objective is a hole in the exam
+    review, and you should say so rather than quietly ship it.
+  - Note the **`(CO n)` tags** on the Weekly Outcomes. Carry them through so the final report can
+    show course-outcome coverage next to Client Needs coverage.
+  - Cross-check **Concepts with Exemplars** against the `WeekN_*.md` files present. A listed
+    exemplar with no guide file is a **missing capture** — flag it to Chris; don't silently drop
+    the topic.
+  - Mine **Are You Ready to Apply?** for high-yield seeds; those are the course's own framing of
+    what a student should be able to answer.
 - **Inventory** every module (`WeekN_*.md`) in the exam block; skim each to gauge its weight.
+  Include any `WeekN_Supplement_*.md` — those exist precisely because an objective outran the
+  Edapt content, so they are high-yield by construction. Give a supplement its own MAP agent when
+  it carries real volume (a full schedule, a drug class table); fold a thin one into the related
+  content module.
+- **Map objectives → modules.** Before allocating counts, write the objective-to-module mapping
+  out. Objectives that no module covers are the gap list; objectives covered by several modules
+  tell you where the exam's weight actually sits.
 - **One module = one guide file.** Treat every `WeekN_*.md` as its own module and give it its
   own MAP agent — *including* the "overview" and "Nursing Application" companion guides. Never
   fold several files into one agent: it silently under-covers a module, and the student counts
@@ -50,6 +71,10 @@ Write exactly <N> items, distributed as <e.g. "7 radio, 3 SATA, 1 matrix; mostly
 <If this module owns a case study:> Include a 6-item unfolding case study on <scenario>,
 one item per NCJMM step, each stem labeled "CASE (n/6) <step>."
 
+WEEKLY OBJECTIVES this module is responsible for (from the course's Prepare and Plan page —
+these are the course's own statement of what is testable; each needs at least one item):
+<the objectives mapped to this module in the PLAN, verbatim>
+
 MUST-TEST high-yield (cover these first, they cannot be omitted):
 <bulleted list from the PLAN — emergencies / priority / meds / contraindications>
 
@@ -72,9 +97,11 @@ Ignore the advisory per-category blueprint-band percentages; they assume a full-
 and do NOT apply to a single-module set. Never pad items to chase a band.
 
 Report back briefly: (1) item count with type + cognitive level each, (2) whether you built a
-case study and how many steps, (3) linter status, (4) any internal contradiction, garbled
-text, or uncaptured media you found in the guide — quote it. That last point feeds a defect
-report going back to the material's authors, so be specific.
+case study and how many steps, (3) linter status, (4) which of your assigned weekly objectives
+each item covers, and any you could NOT cover from this guide — say so explicitly rather than
+stretching an item to claim one, (5) any internal contradiction, garbled text, or uncaptured
+media you found in the guide — quote it. Points (4) and (5) feed the objective-coverage report
+and a defect report back to the material's authors, so be specific.
 ```
 
 ## 3. REDUCE (you, the main agent)
@@ -96,7 +123,14 @@ report going back to the material's authors, so be specific.
   absolute / SATA-variation; if Management of Care or Psychosocial are under band, swap in
   prioritization/psychosocial items; re-run until the linter is quiet (or each remaining warning
   has a logged reason). This central pass is where even coverage and difficulty are enforced.
-- **Report** the final coverage table + per-module allocation to Chris, and link the `.html`.
+- **Check objective coverage before reporting.** Assemble the MAP agents' objective claims into
+  one table: every weekly objective from the block, and which items cover it. **Any objective with
+  zero items is a defect** — either write items for it, or, if the source genuinely doesn't
+  support it, tell Chris the objective is untestable from current material and what's missing.
+  Do not ship silently under-covered.
+- **Report** to Chris: the Client Needs coverage table, the **objective-coverage table** (with any
+  uncovered objectives called out), per-module allocation, any missing captures found via Concepts
+  with Exemplars, and the link to the `.html`.
 
 This is *why* fan-out works: every module is independently and deeply authored (a dedicated
 agent finds the high-yield and writes tougher distractors), the floor guarantees even coverage,
