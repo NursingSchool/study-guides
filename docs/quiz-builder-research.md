@@ -100,6 +100,38 @@ Also present: `Report content error` per item, and a `Study Mode` toggle.
 
 ---
 
+## 5a. Format-mix audit (2026-07-26)
+
+Measured after the rationale restructure, across every shipped quiz. The
+`FORMAT_MIX` bands were added to the linter partway through this session, so
+only the Exam 1 quiz was assembled under them.
+
+| Quiz | Items | Single-best | Multi-selection | In band? |
+|---|---:|---:|---:|---|
+| nr328-peds-weeks1-3 (Exam 1) | 124 | 69% | 31% | **yes** |
+| maternal-child-weeks4-7 | 145 | 59% | 41% | marginal |
+| nr228-nutrition-exam2 | 154 | 58% | 42% | marginal |
+| nr328-peds-week2 | 31 | 52% | 48% | no |
+| nr449-ebp-week3 | 30 | 53% | 47% | no |
+| nr328-peds-week1 | 30 | 50% | 50% | no |
+| nr449-ebp-week2 | 30 | 47% | 53% | no |
+| nr449-ebp-week1 | 28 | 46% | 54% | no |
+| nr328-peds-week3 | 32 | 44% | 56% | no |
+
+The one quiz built under the rule is the one quiz that passes — which is the
+evidence that the rule works, and that the older builds carry the defect Chris
+originally reported ("the vast majority of questions as select all that apply").
+
+**Not fixed, deliberately.** Correcting this means converting SATA items into
+four-option single-best items: new distractors, new keys, new rationales. That
+rewrites what is assessed rather than how it is presented, on quizzes Chris is
+actively studying from. It is a content decision, not a formatting one, so it
+is queued rather than applied. The two large exam quizzes are barely over and
+would need only a handful of conversions each; the weeklies would need roughly
+a third of their items reworked.
+
+---
+
 ## 6. The transferable lesson
 
 Three defects this session were invisible to per-module agents because **each linted only its own items**. Distribution problems — answer position, run length, format mix — only exist at the whole-quiz level. And the aggregate can lie: 55% option A sounded survivable; the actual sequence opened with **twelve consecutive A's**, which is what a person notices.
