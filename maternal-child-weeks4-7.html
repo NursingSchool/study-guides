@@ -61,6 +61,22 @@
     text-transform:uppercase;margin:12px 0 2px}
   .fb ul.whynot{margin:2px 0 0;padding-left:20px}
   .fb ul.whynot li{margin:5px 0;line-height:1.5}
+  #clock{font-variant-numeric:tabular-nums}
+  #clock.warn{color:#f59e0b;font-weight:700}
+  #clock.crit{color:var(--bad);font-weight:700}
+  .modepick{display:flex;gap:8px;margin:10px 0 2px}
+  .modepick button{flex:1;text-align:left}
+  .modepick button.on{outline:2px solid var(--accent)}
+  .navwrap{margin-top:12px}
+  .navtoggle{font-size:12px;color:var(--muted);cursor:pointer;user-select:none}
+  .navgrid{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+  .navgrid button{width:30px;height:26px;font-size:11px;border-radius:5px;cursor:pointer;
+    border:1px solid var(--line);background:#111827;color:var(--muted);padding:0}
+  .navgrid button.ok{background:var(--goodbg);border-color:#1f5135;color:var(--good)}
+  .navgrid button.no{background:var(--badbg);border-color:#5b2626;color:var(--bad)}
+  .navgrid button.flag{border-color:#f59e0b;color:#f59e0b}
+  .navgrid button.cur{outline:2px solid var(--accent)}
+  .flagbtn.on{color:#f59e0b;border-color:#f59e0b}
   .hint{font-size:12px;color:var(--muted);margin:-4px 0 10px}
   .end{text-align:center;padding:24px 8px}
   .score{font-size:46px;font-weight:800;color:var(--accent)}
@@ -78,7 +94,7 @@
     <h1>NCLEX Practice — Maternal-Child Nursing</h1>
     <div class="sub">Weeks 4-7 · Intrapartum · Postpartum · Newborn · High-Risk Newborn · 145 items · NGN-style</div>
     <div class="bar"><div class="fill" id="fill"></div></div>
-    <div class="meta"><span id="pos">Question 1 of 50</span><span id="sc">Score 0 / 0</span></div>
+    <div class="meta"><span id="pos">Question 1 of 50</span><span id="clock"></span><span id="sc">Score 0 / 0</span></div>
   </header>
   <div id="app"></div>
 </div>
@@ -3295,10 +3311,52 @@ const app=document.getElementById('app');
 const fill=document.getElementById('fill');
 const posEl=document.getElementById('pos');
 const scEl=document.getElementById('sc');
+const clockEl=document.getElementById('clock');
 let ITEMS=Q.slice();               // the set being worked this session
 let i=0, score=0, answeredCount=0;
 let result=new Array(ITEMS.length).fill(null); // true/false once answered
 let conf=new Array(ITEMS.length).fill(null);   // 'sure' | 'unsure'
+let spent=new Array(ITEMS.length).fill(0);     // seconds on each item
+let flags=new Array(ITEMS.length).fill(false); // flagged for review
+let navOpen=false;
+
+// UWorld's documented pattern: Tutor mode (rationale immediately, no clock)
+// and Timed mode (clock runs, feedback deferred) are independent of each other.
+// Timed mode here defers rationale entirely -- missed items are saved, so the
+// review loop is "run Timed, then re-run Missed only in Tutor".
+let TIMED=false;
+const SECS_PER_ITEM=90;            // ~NCLEX pacing (5h / ~150 items ≈ 2 min)
+let deadline=0, tick=null, itemStart=0, warned={};
+
+function fmt(s){ s=Math.max(0,Math.round(s)); const m=Math.floor(s/60);
+  return m+':'+String(s%60).padStart(2,'0'); }
+
+function stopClock(){ if(tick){ clearInterval(tick); tick=null; } }
+
+function startClock(seconds){
+  stopClock(); warned={};
+  deadline=Date.now()+seconds*1000;
+  const paint=()=>{
+    const left=(deadline-Date.now())/1000;
+    clockEl.textContent=fmt(left);
+    clockEl.className = left<=30?'crit' : left<=120?'warn' : '';
+    // Canvas New Quizzes' cadence: warn at 2 min and 30 s, then auto-submit.
+    if(left<=120 && !warned.m2){ warned.m2=1; flash('2 minutes left'); }
+    if(left<=30  && !warned.s30){ warned.s30=1; flash('30 seconds left'); }
+    if(left<=0){ stopClock(); clockEl.textContent='0:00'; results(true); }
+  };
+  paint(); tick=setInterval(paint,1000);
+}
+
+function flash(msg){
+  const d=document.createElement('div');
+  d.textContent=msg;
+  d.style.cssText='position:fixed;left:50%;top:14px;transform:translateX(-50%);'
+    +'background:var(--badbg);border:1px solid #5b2626;color:#fff;padding:8px 14px;'
+    +'border-radius:8px;font-size:13px;z-index:9;box-shadow:0 4px 14px rgba(0,0,0,.4)';
+  document.body.appendChild(d);
+  setTimeout(()=>d.remove(),2600);
+}
 
 function setMeta(){
   posEl.textContent='Question '+(i+1)+' of '+ITEMS.length;
@@ -3307,10 +3365,15 @@ function setMeta(){
 }
 
 function startSession(set){
+  if(!set.length) return;
   ITEMS=set.slice();
   i=0; score=0; answeredCount=0;
   result=new Array(ITEMS.length).fill(null);
   conf=new Array(ITEMS.length).fill(null);
+  spent=new Array(ITEMS.length).fill(0);
+  flags=new Array(ITEMS.length).fill(false);
+  if(TIMED) startClock(ITEMS.length*SECS_PER_ITEM);
+  else { stopClock(); clockEl.textContent=''; clockEl.className=''; }
   render();
 }
 
@@ -3322,11 +3385,19 @@ function startScreen(){
     ' style="display:block;width:100%;text-align:left;margin:8px 0;padding:12px 14px">'
     +'<strong>'+label+'</strong> <span style="opacity:.75">— '+n+' item'+(n===1?'':'s')+'</span>'
     +'<div style="font-size:12px;opacity:.7;font-weight:400;margin-top:3px">'+sub+'</div></button>';
+  const mins=Math.round(Q.length*SECS_PER_ITEM/60);
   app.innerHTML='<div class="card">'
     +'<div class="stem" style="margin-bottom:4px">Choose how to run this quiz</div>'
     +(attempted?'<div class="hint">You have answered '+attempted+' of '+Q.length
         +' items before. Missed: '+missed.length+'.</div>'
       :'<div class="hint">First run — no history yet.</div>')
+    +'<div class="modepick">'
+    +'<button class="btn ghost'+(TIMED?'':' on')+'" id="mode-tutor"><strong>Tutor</strong>'
+      +'<div style="font-size:11px;opacity:.75;font-weight:400">Rationale after each answer. No clock.</div></button>'
+    +'<button class="btn ghost'+(TIMED?' on':'')+'" id="mode-timed"><strong>Timed</strong>'
+      +'<div style="font-size:11px;opacity:.75;font-weight:400">'+Math.round(SECS_PER_ITEM)+'s per item ('
+      +mins+' min full). Rationale held to the end.</div></button>'
+    +'</div>'
     +opt('m-full','Full quiz','Every item, in a fresh order.',Q.length,false)
     +opt('m-missed','Missed only','Re-drill just the items you got wrong last time.',missed.length,missed.length===0)
     +opt('m-unseen','Unseen only','Items you have not answered yet.',unseen.length,unseen.length===0)
@@ -3335,14 +3406,17 @@ function startScreen(){
     +'</div>';
   const go=(id,set)=>{ const b=document.getElementById(id); if(b&&!b.disabled) b.onclick=()=>startSession(set); };
   go('m-full',Q); go('m-missed',missed); go('m-unseen',unseen);
+  document.getElementById('mode-tutor').onclick=()=>{ TIMED=false; startScreen(); };
+  document.getElementById('mode-timed').onclick=()=>{ TIMED=true;  startScreen(); };
   const rb=document.getElementById('m-reset');
   if(rb) rb.onclick=()=>{ HIST={}; saveHist(); startScreen(); };
-  posEl.textContent=Q.length+' items'; scEl.textContent=''; fill.style.width='0%';
+  stopClock();
+  posEl.textContent=Q.length+' items'; scEl.textContent=''; clockEl.textContent=''; fill.style.width='0%';
 }
 function eqSet(a,b){ if(a.length!==b.length)return false; const s=new Set(a); return b.every(x=>s.has(x)); }
 
 function render(){
-  const q=ITEMS[i]; setMeta();
+  const q=ITEMS[i]; setMeta(); itemStart=Date.now();
   let body='';
   if(q.type==='radio'||q.type==='multi'){
     const inputType=q.type==='radio'?'radio':'checkbox';
@@ -3379,8 +3453,19 @@ function render(){
     +'<div class="actions">'
     +'<button class="btn ghost" id="unsure">Not sure</button>'
     +'<button class="btn" id="sure">Confident</button>'
+    +'<button class="btn ghost flagbtn'+(flags[i]?' on':'')+'" id="flag" title="Flag for review">'
+      +(flags[i]?'⚑ Flagged':'⚐ Flag')+'</button>'
     +'<button class="btn ghost" id="next" disabled>'+(last?'See results':'Next ▸')+'</button>'
-    +'</div><div class="fb" id="fb"></div></div>';
+    +'</div><div class="fb" id="fb"></div>'
+    +'<div class="navwrap"><span class="navtoggle" id="navtoggle">'
+      +(navOpen?'▾':'▸')+' Question navigator ('+answeredCount+'/'+ITEMS.length+' answered'
+      +(flags.filter(Boolean).length?', '+flags.filter(Boolean).length+' flagged':'')+')</span>'
+    +(navOpen?'<div class="navgrid" id="navgrid">'+ITEMS.map((_,idx)=>{
+        const cls=[]; if(result[idx]===true)cls.push('ok'); if(result[idx]===false)cls.push('no');
+        if(flags[idx])cls.push('flag'); if(idx===i)cls.push('cur');
+        return '<button data-go="'+idx+'" class="'+cls.join(' ')+'">'+(idx+1)+'</button>';
+      }).join('')+'</div>':'')
+    +'</div></div>';
 
   // selection highlighting for label-based inputs
   app.querySelectorAll('.opt input').forEach(inp=>inp.addEventListener('change',()=>{
@@ -3390,6 +3475,20 @@ function render(){
   document.getElementById('unsure').onclick=()=>grade('unsure');
   document.getElementById('sure').onclick=()=>grade('sure');
   document.getElementById('next').onclick=()=>{ if(i<ITEMS.length-1){i++;render();} else {results();} };
+  document.getElementById('flag').onclick=()=>{ flags[i]=!flags[i]; render(); };
+  document.getElementById('navtoggle').onclick=()=>{ navOpen=!navOpen; render(); };
+  const grid=document.getElementById('navgrid');
+  if(grid) grid.querySelectorAll('button').forEach(b=>b.onclick=()=>{ i=+b.dataset.go; render(); });
+
+  // an already-answered item stays answered when you jump back to it
+  if(result[i]!==null){
+    document.getElementById('unsure').disabled=true;
+    document.getElementById('sure').disabled=true;
+    document.getElementById('next').disabled=false;
+    const h=document.getElementById('confhint');
+    if(h) h.textContent='Already answered — '+(result[i]?'correct':'missed')
+      +(conf[i]?' ('+(conf[i]==='sure'?'confident':'not sure')+')':'');
+  }
 }
 
 function grade(confidence){
@@ -3459,9 +3558,17 @@ function grade(confidence){
 
   if(result[i]===null){
     result[i]=correct; conf[i]=confidence; answeredCount++; if(correct)score++;
+    spent[i]=Math.round((Date.now()-itemStart)/1000);
     record(q,correct,confidence);
   }
   setMeta();
+
+  // Timed mode withholds the rationale — the review loop is to re-run
+  // "Missed only" in Tutor mode afterwards, which is why history matters.
+  if(TIMED){
+    if(i<ITEMS.length-1){ i++; render(); } else { results(); }
+    return;
+  }
 
   const fb=document.getElementById('fb');
   fb.className='fb show '+(correct?'ok':'no');
@@ -3487,8 +3594,13 @@ function grade(confidence){
   fb.scrollIntoView({behavior:'smooth',block:'nearest'});
 }
 
-function results(){
+function results(ranOut){
+  stopClock();
   const pct=Math.round(score/ITEMS.length*100);
+  const totalSecs=spent.reduce((a,b)=>a+b,0);
+  const answered=spent.filter((s,idx)=>result[idx]!==null);
+  const slowest=ITEMS.map((q,idx)=>({q,idx,s:spent[idx]}))
+    .filter(x=>result[x.idx]!==null).sort((a,b)=>b.s-a.s).slice(0,3);
   const cats={};
   ITEMS.forEach((q,idx)=>{ if(!cats[q.cat])cats[q.cat]={c:0,t:0}; cats[q.cat].t++; if(result[idx])cats[q.cat].c++; });
   const rows=Object.entries(cats).sort((a,b)=>b[1].t-a[1].t)
@@ -3518,11 +3630,21 @@ function results(){
   const msg = pct>=85?'Strong — that is solid NCLEX readiness territory.'
             : pct>=70?'Passing range. Review the misses and the rationales.'
             : 'Keep grinding — focus on the missed items and re-run.';
+  const timeLine = answered.length
+    ? '<div class="endsub">'+fmt(totalSecs)+' total · '
+      +Math.round(totalSecs/answered.length)+'s average per item</div>' : '';
+  const slowLine = slowest.length>1
+    ? '<div class="miss"><h3>Longest to answer</h3>'
+      + slowest.map(x=>'<div>'+fmt(x.s)+' — '+x.q.topic+(result[x.idx]?'':' <span style="color:var(--bad)">(missed)</span>')+'</div>').join('')
+      + '</div>' : '';
   app.innerHTML='<div class="card end">'
+    +(ranOut?'<div class="verdict no" style="margin-bottom:8px">⏱ Time expired — submitted automatically</div>':'')
     +'<div class="score">'+pct+'%</div>'
     +'<div class="endsub">'+score+' of '+ITEMS.length+' correct</div>'
+    +timeLine
     +'<p>'+msg+'</p>'
     +quadTable
+    +slowLine
     +'<table class="brk"><tr><td><strong>Client Needs category</strong></td><td><strong>Correct</strong></td></tr>'+rows+'</table>'
     +(missedNow?'<div class="miss"><h3>'+missedNow+' missed this run — saved for a "Missed only" re-run.</h3></div>'
                :'<div class="miss"><h3>Perfect run — no misses.</h3></div>')
