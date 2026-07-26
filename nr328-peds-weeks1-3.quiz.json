@@ -1369,25 +1369,25 @@
     {
      "label": "[1] Peak flow zone",
      "opts": [
-      "Yellow (50-80% of personal best)",
-      "Red (below 50% of personal best)",
-      "Green (80-100% of personal best)"
+      "Green",
+      "Yellow",
+      "Red"
      ],
-     "a": 0
+     "a": 1
     },
     {
      "label": "[2] Action for this zone",
      "opts": [
-      "Continue the current treatment plan with no changes",
-      "Follow the prescribed yellow-zone action plan and watch closely for worsening",
-      "Call for emergency help right away"
+      "Continue the daily controller plan and recheck at the usual time",
+      "Use the prescribed quick-relief inhaler and recheck the peak flow",
+      "Call 911 and get emergency help before doing anything else"
      ],
      "a": 1
     }
    ],
-   "rat": "A peak flow of 65% of personal best falls in the yellow zone (50-80%), which signals caution and worsening control. The family should follow the prescribed yellow-zone action plan and monitor closely, rather than continuing unchanged (the green zone, 80-100%) or treating it as an emergency (the red zone, below 50%).",
+   "rat": "A peak flow of 65% of personal best falls in the yellow zone, which spans 50 to 80 percent and signals caution and worsening control. The family should use the prescribed quick-relief inhaler and recheck the peak flow, rather than carrying on unchanged as in the green zone above 80 percent, or treating it as the red-zone emergency that begins below 50 percent.",
    "strat": "Green-go, Yellow-slow down and follow the plan, Red-emergency — match the percentage to the traffic-light zone.",
-   "why": "A peak flow reading of 65% of personal best falls within the yellow zone, which spans 50 to 80 percent. The yellow zone signals caution and worsening asthma control, unlike the green zone above 80 percent or the red zone below 50 percent. The family should follow the prescribed yellow-zone action plan and watch closely for further worsening."
+   "why": "A peak flow reading of 65% of personal best falls within the yellow zone, which spans 50 to 80 percent. The yellow zone signals caution and worsening asthma control. Above 80 percent is green, where the daily plan continues unchanged. Below 50 percent is red, a true emergency. Yellow calls for the prescribed quick-relief inhaler and a repeat peak flow."
   },
   {
    "topic": "CASE: Acute Asthma Exacerbation",

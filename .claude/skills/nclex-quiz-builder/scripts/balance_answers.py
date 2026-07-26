@@ -70,6 +70,9 @@ def natural_order(opts):
     """
     if len(opts) < 3:
         return None
+    scale = _ordinal_scale_order(opts)
+    if scale:
+        return scale
     vals = []
     for o in opts:
         s = (o or "").strip()
@@ -82,6 +85,42 @@ def natural_order(opts):
     if len(set(vals)) != len(vals):
         return None
     return sorted(range(len(opts)), key=lambda i: vals[i])
+
+
+# Word scales with a conventional order. Shuffling "Green / Yellow / Red" into
+# "Yellow / Red / Green" is the same irrelevant-difficulty flaw as scrambling
+# "4 / 6 / 9 months" -- the reader expects the ramp and has to re-derive it.
+_ORDINAL_SCALES = (
+    ("green", "yellow", "red"),
+    ("none", "mild", "moderate", "severe"),
+    ("mild", "moderate", "severe"),
+    ("never", "sometimes", "often", "always"),
+)
+
+
+def _ordinal_scale_order(opts):
+    """Return the sorted order if every option names a rung of one word scale.
+
+    The option must BE the rung, not merely contain the word. "Green / Yellow /
+    Red" and "Green zone / Yellow zone / Red zone" are scales. "Green apples /
+    Yellow squash / Red peppers" is a list of foods that happen to have colours,
+    so the remainder after removing the scale word must match across options.
+    """
+    words = [set(re.findall(r"[a-z]+", (o or "").lower())) for o in opts]
+    if any(len((o or "").split()) > 3 for o in opts):
+        return None                              # prose, not a bare rung
+    for scale in _ORDINAL_SCALES:
+        ranks, rests = [], []
+        for w in words:
+            hit = [tok for tok in scale if tok in w]
+            if len(hit) != 1:
+                break
+            ranks.append(scale.index(hit[0]))
+            rests.append(frozenset(w - {hit[0]}))
+        else:
+            if len(set(ranks)) == len(ranks) and len(set(rests)) == 1:
+                return sorted(range(len(opts)), key=lambda i: ranks[i])
+    return None
 
 
 def _apply_natural(obj, field, key="ans"):

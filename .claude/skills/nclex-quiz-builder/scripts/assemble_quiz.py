@@ -150,6 +150,83 @@ def _check_natural_order(qn, where, opts):
                  "under irrelevant-difficulty flaws. Sort ascending (balance_answers.py does this).")
 
 
+_RANGE_RE = re.compile(
+    r"\d+\s*(?:-|to|–)\s*\d+\s*%"
+    r"|\b(?:below|under|above|over|less than|greater than|at least)\s+\d+\s*%"
+    r"|\d+\s*%\s*(?:-|to|–)\s*\d+")
+
+
+def _check_self_defining_opts(qn, where, opts, stem):
+    """Options must not carry the range that decides the answer.
+
+    Found while studying the NR328 Exam 1 build: a peak-flow item whose three
+    zone options each stated their own boundaries - "Yellow (50-80% of personal
+    best)", "Red (below 50%)", "Green (80-100%)". With "65%" given in the stem,
+    the item is arithmetic against the labels and no asthma knowledge is needed.
+    Teach the boundaries in the rationale; never print them in the options.
+    """
+    if not isinstance(opts, list) or len(opts) < 2:
+        return
+    if not re.search(r"\d", str(stem or "")):
+        return
+    hits = [o for o in opts if _RANGE_RE.search(str(o or ""))]
+    if len(hits) >= 2:
+        warn(qn, f"{where}: {len(hits)} of {len(opts)} options state their own numeric "
+                 "range while the stem supplies a number - answerable by matching "
+                 "rather than by knowing. Move the ranges into the rationale.")
+
+
+_CUE_STOP = frozenset("""
+    that this these those with from into onto they them their there when what which
+    should would could about after before while every each other than then
+    plan zone action follow start begin give given continue current
+    right away call keep take make watch closely worsening
+""".split())
+
+
+def _cue_words(t):
+    return {w for w in re.split(r"[^a-z]+", str(t or "").lower())
+            if len(w) > 3 and w not in _CUE_STOP}
+
+
+def _check_cross_blank_cue(qn, blanks):
+    """One blank's key must not name another blank's key.
+
+    Same peak-flow item: blank 1 keyed "Yellow (...)" while blank 2 keyed
+    "Follow the prescribed yellow-zone action plan", so either blank hands over
+    the other and two blanks test one decision.
+
+    Blanks drawing from a shared menu are exempt. A triage item that classifies
+    four warning signs into "call 911" / "call the provider" reuses those two
+    actions by design; matching keys there leak nothing, because the same action
+    is on offer under every blank.
+    """
+    if not isinstance(blanks, list) or len(blanks) < 2:
+        return
+    for x, bx in enumerate(blanks):
+        if not isinstance(bx, dict):
+            continue
+        ox, ax = bx.get("opts") or [], bx.get("a")
+        if not _idx_ok(ax, len(ox)):
+            continue
+        others = [_cue_words(o) for j, o in enumerate(ox) if j != ax]
+        uniq = _cue_words(ox[ax]) - (set().union(*others) if others else set())
+        if not uniq:
+            continue
+        for y, by in enumerate(blanks):
+            if y == x or not isinstance(by, dict):
+                continue
+            oy, ay = by.get("opts") or [], by.get("a")
+            if not _idx_ok(ay, len(oy)) or ox[ax] in oy:
+                continue
+            leak = uniq & _cue_words(oy[ay])
+            if leak:
+                warn(qn, f"cloze blank {y} key names blank {x} key "
+                         f"(\"{'\", \"'.join(sorted(leak))}\") - answering either one "
+                         "hands over the other. Reword so neither key contains the "
+                         "other's distinguishing term.")
+
+
 def _check_letter_refs(qn, q):
     """Rationales must never cite an option by letter.
 
@@ -227,9 +304,12 @@ def validate_item(q):
     _check_rationale_shape(qn, q)
     if isinstance(q.get("opts"), list):
         _check_natural_order(qn, "opts", q["opts"])
+        _check_self_defining_opts(qn, "opts", q["opts"], q.get("stem"))
     for bi, b in enumerate(q.get("blanks") or []):
         if isinstance(b, dict):
             _check_natural_order(qn, f"cloze blank {bi}", b.get("opts"))
+            _check_self_defining_opts(qn, f"cloze blank {bi}", b.get("opts"), q.get("stem"))
+    _check_cross_blank_cue(qn, q.get("blanks"))
 
     if t in ("radio", "multi"):
         opts = q.get("opts", [])
