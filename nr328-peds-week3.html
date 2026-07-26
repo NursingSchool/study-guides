@@ -148,7 +148,8 @@ const Q = [
    }
   ],
   "rat": "Septal defects and a PDA shunt blood from the higher-pressure left side back to the right side and the lungs, so they increase pulmonary blood flow. Tetralogy of Fallot and tricuspid atresia restrict blood from reaching the lungs, so they decrease pulmonary blood flow and cause cyanosis. Coarctation and aortic stenosis narrow the outflow tract itself (obstruction), while transposition and truncus arteriosus let saturated and desaturated blood mix inside the heart.",
-  "strat": "Ask where the blood goes wrong: back to the lungs (increased), blocked from the lungs (decreased), squeezed at a valve or vessel (obstruction), or stirred together (mixed)."
+  "strat": "Ask where the blood goes wrong: back to the lungs (increased), blocked from the lungs (decreased), squeezed at a valve or vessel (obstruction), or stirred together (mixed).",
+  "why": "Septal defects and a patent ductus arteriosus shunt blood from the higher-pressure left side back to the right side and lungs, increasing pulmonary blood flow. Tetralogy of Fallot and tricuspid atresia block blood from reaching the lungs, decreasing pulmonary flow and causing cyanosis. Coarctation and aortic stenosis narrow the outflow tract itself, producing obstruction, while transposition and truncus arteriosus mix saturated and desaturated blood inside the heart."
  },
  {
   "n": 2,
@@ -165,7 +166,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "This is a hypercyanotic (\"tet\") spell, and the knee-chest position is the first step in the guide's tet-spell sequence: it increases systemic vascular resistance so less blood shunts right-to-left across the VSD, followed by 100% oxygen by mask, a calm approach, morphine, and IV volume. Lying flat and the 45-degree seated position do nothing for the shunt (the 45-degree position is for reducing cardiac workload in heart failure), and bulb suctioning treats an airway obstruction the infant does not have.",
-  "strat": "A walking child with tetralogy squats during a spell; do the same thing for an infant by folding the knees to the chest."
+  "strat": "A walking child with tetralogy squats during a spell. Do the same thing for an infant by folding the knees to the chest.",
+  "why": "This is a hypercyanotic tet spell. Knee-chest positioning is the first response because flexing the knees onto the chest raises systemic vascular resistance. That reduces the right-to-left shunt across the ventricular septal defect and pushes more blood toward the lungs.",
+  "whyNot": [
+   "Laying the infant flat does nothing to raise systemic vascular resistance or reduce the shunt driving the cyanosis.",
+   "A 45-degree upright position lowers cardiac workload in heart failure but does not correct the shunt causing a tet spell.",
+   "Bulb suctioning treats airway obstruction, which is not the cause of this infant's sudden drop in oxygen saturation."
+  ]
  },
  {
   "n": 3,
@@ -188,7 +195,13 @@ const Q = [
    4
   ],
   "rat": "Sweating with feeds reflects impaired myocardial function, tachypnea with retractions reflects pulmonary congestion, and hepatomegaly reflects systemic venous congestion, the three groupings the guide uses for heart failure. Pulses in heart failure are diminished and weak rather than bounding, an arm-to-leg pressure gradient points to coarctation, and clubbing with chronic desaturation belongs to a decreased-pulmonary-flow (cyanotic) defect, not a left-to-right shunt.",
-  "strat": "Sort heart failure cues into three buckets: pump (sweating, weak pulses), lungs (tachypnea, retractions), and backup (big liver, puffy eyes)."
+  "strat": "Sort heart failure cues into three buckets: pump (sweating, weak pulses), lungs (tachypnea, retractions), and backup (big liver, puffy eyes).",
+  "why": "Diaphoresis during feeds reflects impaired myocardial function, tachypnea with retractions reflects pulmonary congestion, and an enlarged liver reflects systemic venous congestion. These are the three symptom clusters of heart failure from increased pulmonary blood flow in a large ventricular septal defect.",
+  "whyNot": [
+   "Clubbing with a low resting saturation reflects chronic hypoxia from a cyanotic, decreased-flow defect, not this left-to-right shunt.",
+   "Heart failure produces weak, diminished pulses, so bounding femoral pulses with a widened pulse pressure suggest a different problem.",
+   "A blood pressure gradient between arms and legs points to coarctation of the aorta, not left-sided heart failure."
+  ]
  },
  {
   "n": 4,
@@ -205,7 +218,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "Digoxin is held in an infant when the apical rate is below 90/minute, and this infant is at 84 with vomiting and anorexia, the early signs of digoxin toxicity, so the dose is held and reported. The 70/minute threshold applies to older children, not infants, and splitting a cardiac glycoside dose or giving it and rechecking later delivers the drug to a bradycardic, possibly toxic infant.",
-  "strat": "Infants hold below 90, children hold below 70, and bradycardia plus vomiting and anorexia spells toxicity (antidote: digoxin immune Fab)."
+  "strat": "Infants hold below 90, children hold below 70, and bradycardia plus vomiting and anorexia spells toxicity (antidote: digoxin immune Fab).",
+  "why": "Digoxin is held in infants when the apical rate is below 90 beats per minute. This infant's rate of 84, plus vomiting and refused feedings, are early signs of digoxin toxicity. The dose should be withheld and the provider notified.",
+  "whyNot": [
+   "Giving the dose and rechecking later still delivers a cardiac glycoside to an infant who may already be toxic.",
+   "A threshold of 70 beats per minute applies to older children, not infants, so it is the wrong cutoff here.",
+   "Splitting the dose still exposes a bradycardic infant to more digoxin instead of addressing the suspected toxicity."
+  ]
  },
  {
   "n": 5,
@@ -222,7 +241,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "Feeding should take about 30 minutes and a slit nipple enlarges the opening so the infant gets more volume for less work, with small frequent higher-calorie feeds about every 3 hours or soon after waking. Waking every 2 hours removes the rest these infants need, stretching to 5-hour larger feeds makes each feed longer and more exhausting, and diluting the formula lowers caloric density when the guide calls for increasing it.",
-  "strat": "For a tiring cardiac infant, shorten the work and raise the calories: 30 minutes, slit nipple, semi-upright, rest breaks."
+  "strat": "For a tiring cardiac infant, shorten the work and raise the calories: 30 minutes, slit nipple, semi-upright, rest breaks.",
+  "why": "Feeding should take about 30 minutes, and a slit nipple enlarges the opening so the infant gets more volume for less effort. Small, frequent, higher-calorie feeds about every 3 hours, or soon after waking, let a tiring cardiac infant rest without stretching out each feed.",
+  "whyNot": [
+   "Waking the infant every 2 hours removes the rest periods a tiring cardiac infant needs between feeds.",
+   "Diluting the formula lowers caloric density when this infant's falling weight calls for increasing it instead.",
+   "A larger bottle every 5 hours makes each feeding longer and more exhausting instead of easier to finish."
+  ]
  },
  {
   "n": 6,
@@ -239,7 +264,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "Coarctation narrows the aorta, so pressure is high before the narrowing and low after it, which shows up as a blood pressure and pulse difference between the upper and lower extremities, and severe coarctation surfaces in the first few weeks of life. A PDA produces a machinery murmur with signs of increased pulmonary flow, tetralogy produces cyanosis and tet spells, and transposition produces cyanosis from birth; none of them create an arm-to-leg gradient.",
-  "strat": "Upper-body pressure higher than lower-body pressure means something is pinching the aorta in between."
+  "strat": "Upper-body pressure higher than lower-body pressure means something is pinching the aorta in between.",
+  "why": "Coarctation narrows the aorta, so pressure is high before the narrowing and low after it. That produces a blood pressure and pulse gradient between the upper and lower extremities, and severe coarctation often surfaces in the first weeks of life.",
+  "whyNot": [
+   "A patent ductus arteriosus produces a machinery murmur with signs of increased pulmonary flow, not an arm-to-leg gradient.",
+   "Transposition of the great arteries causes cyanosis from birth rather than a pressure difference between extremities.",
+   "Tetralogy of Fallot produces cyanosis and tet spells from restricted pulmonary flow, not an extremity pressure gradient."
+  ]
  },
  {
   "n": 7,
@@ -263,7 +294,12 @@ const Q = [
    5
   ],
   "rat": "ACE inhibitors require a blood pressure check before and after administration, and diuretic therapy requires daily weights, intake and output, and a high-potassium diet because furosemide causes hypokalemia. A potassium supplement is contraindicated in a child taking an ACE inhibitor, and because ACE inhibitors cause hyperkalemia rather than hypokalemia, a potassium of 3.2 mEq/L is not the reason to hold that drug.",
-  "strat": "Diuretics drain potassium, ACE inhibitors hoard it: feed potassium with the diuretic, never supplement it alongside the ACE inhibitor."
+  "strat": "Diuretics drain potassium, ACE inhibitors hoard it: feed potassium with the diuretic, never supplement it alongside the ACE inhibitor.",
+  "why": "ACE inhibitors need a blood pressure check both before and after each dose is given. Diuretic therapy needs daily weights, intake and output, and potassium-rich foods, since furosemide causes hypokalemia as an adverse effect. Together these four actions cover the monitoring that both heart failure drugs require.",
+  "whyNot": [
+   "A potassium supplement is contraindicated with an ACE inhibitor because the drug already raises serum potassium.",
+   "ACE inhibitors cause hyperkalemia rather than hypokalemia, so a potassium of 3.2 mEq/L is not a reason to hold it."
+  ]
  },
  {
   "n": 8,
@@ -286,7 +322,13 @@ const Q = [
    4
   ],
   "rat": "Poor feeding, tachypnea, and poor weight gain or failure to thrive are the history and physical indicators of cardiac dysfunction, along with activity intolerance, developmental delay, prenatal risk factors (substance misuse, diabetes, maternal infection), and family history. A soft murmur that shifts with position is functional, caused by normal physiologic flow turbulence, and a sinus arrhythmia that varies with respiration is common in children. The 152 was obtained on a startled, undressed infant, which is why the guide says to listen for a few minutes before counting the rate.",
-  "strat": "Feeding, breathing, growing: an infant's cardiac history lives in those three. Position-changing murmurs and respiration-linked rate swings are the normal look-alikes."
+  "strat": "Feeding, breathing, growing: an infant's cardiac history lives in those three. Position-changing murmurs and respiration-linked rate swings are the normal look-alikes.",
+  "why": "Poor feeding, tachypnea, and falling weight are the history and physical indicators of cardiac dysfunction in an infant. A resting respiratory rate of 68, stopping the bottle to become diaphoretic, and the drop from the 45th to 10th percentile all fit that picture.",
+  "whyNot": [
+   "A heart rate that rises with inspiration and falls with expiration is a normal sinus arrhythmia in children.",
+   "A soft murmur that quiets with position change is functional, caused by normal physiologic flow turbulence.",
+   "A rate of 152 taken on a startled, undressed infant is why the guide says to listen a few minutes before counting."
+  ]
  },
  {
   "n": 9,
@@ -325,7 +367,8 @@ const Q = [
    }
   ],
   "rat": "Infant respirations are primarily diaphragmatic, so count abdominal movements, and record respirations before the apical rate because handling raises both. The apical pulse in infants and children is auscultated at the 4th intercostal space at the left midclavicular line for a full minute; the 5th space at the midclavicular line is the adult landmark. Traumatic and invasive steps, blood pressure and rectal temperature, are saved for last so crying does not distort the earlier findings.",
-  "strat": "Least invasive to most invasive, quiet work first: listen while the infant is calm and save the parts that make him cry for the end."
+  "strat": "Least invasive to most invasive, quiet work first: listen while the infant is calm and save the parts that make him cry for the end.",
+  "why": "Infant respirations are primarily diaphragmatic, so the nurse watches abdominal movement for a full minute rather than the chest wall. The apical pulse is auscultated at the fourth intercostal space at the left midclavicular line for infants and children. Blood pressure and rectal temperature are saved for the end because these traumatic steps make an infant cry and can distort earlier findings."
  },
  {
   "n": 10,
@@ -365,7 +408,8 @@ const Q = [
    }
   ],
   "rat": "S1 louder at the apex with S2 louder at the base, and a sinus arrhythmia tied to respiration, are expected, as is an apical impulse at the 4th intercostal space in the left midclavicular line for this age. Bounding arm pulses with weak leg pulses suggest coarctation of the aorta, the same defect suggested by blood pressure differences between extremities, so pulses must be compared bilaterally. Circumoral and nail bed cyanosis is where cyanosis appears first in a child with cardiovascular alterations, and a palpable thrill over an active precordium is turbulent flow that needs evaluation.",
-  "strat": "Upper strong, lower weak equals coarctation. Anything you can feel through the chest wall, a heave or a thrill, is never a normal variant."
+  "strat": "Upper strong, lower weak equals coarctation. Anything you can feel through the chest wall, a heave or a thrill, is never a normal variant.",
+  "why": "S1 louder at the apex, S2 louder at the base, and a respiration-linked sinus arrhythmia are expected in this age group. So is an apical impulse at the fourth intercostal space, left midclavicular line. Bounding arm pulses with weak leg pulses, cyanosis around the mouth or nail beds, and a palpable thrill are all reported findings. Each can signal coarctation, hypoxia, or turbulent flow that needs evaluation."
  },
  {
   "n": 11,
@@ -382,7 +426,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "By ABCs and acute-over-chronic, the tachypneic infant who cannot finish a feeding comes first: tachypnea with feeding intolerance signals decreased cardiac output and pulmonary congestion right now. Clubbing develops only after long-term hypoxia and reflects a chronic state, a position-dependent soft murmur is functional flow turbulence, and a falling growth curve is a serious but chronic finding in a child with a cardiac alteration.",
-  "strat": "Sort cardiac findings by clock speed: breathing trouble is happening now, clubbing and growth curves took months."
+  "strat": "Sort cardiac findings by clock speed: breathing trouble is happening now, clubbing and growth curves took months.",
+  "why": "By ABCs and acute-over-chronic reasoning, the tachypneic infant who cannot finish a feeding comes first. Tachypnea with feeding intolerance signals decreased cardiac output and pulmonary congestion happening right now, which outranks findings that reflect a slower, months-long process instead. The other three findings matter, but none is acute.",
+  "whyNot": [
+   "A falling growth curve is a serious finding in cardiac disease, but it reflects a chronic process, not an acute one.",
+   "Clubbing develops only after long-term hypoxia, so it reflects a chronic rather than an urgent change.",
+   "A soft murmur that changes with position is functional flow turbulence, not a sign that needs urgent attention."
+  ]
  },
  {
   "n": 12,
@@ -399,7 +449,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "The guide's Kawasaki lab picture is a CBC with elevated WBCs and platelets and low RBCs (anemia), plus elevated ESR, CRP, and liver enzymes with a decreased albumin — exactly this set. Kawasaki fever is unresponsive to antipyretics and antibiotics, so the WBC and CRP elevation is vasculitis, not bacterial infection; the anemia is part of the inflammatory process, not blood loss or poor intake.",
-  "strat": "Fever past 5 days that ignores both antipyretics and antibiotics, with high ESR, CRP, and platelets — think Kawasaki."
+  "strat": "Fever past 5 days that ignores both antipyretics and antibiotics, with high ESR, CRP, and platelets — think Kawasaki.",
+  "why": "The classic Kawasaki lab picture is an elevated white count and platelet count with a low red count causing anemia. It also includes elevated ESR and CRP with a low albumin. This child's labs match that pattern, and because Kawasaki fever resists both antipyretics and antibiotics, these changes reflect vasculitis rather than infection or blood loss.",
+  "whyNot": [
+   "Kawasaki raises the platelet count rather than lowering it, so these values do not point to active bleeding.",
+   "Kawasaki fever does not respond to antibiotics, so an elevated white count and CRP here reflect vasculitis, not bacterial infection.",
+   "The anemia and low albumin are part of the systemic inflammatory process, not a sign of poor oral intake."
+  ]
  },
  {
   "n": 13,
@@ -416,7 +472,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "By circulation (ABCs), the falling urine output with a gallop rhythm is heart failure — the guide specifically directs the nurse to watch for heart failure during IVIG because 2 g/kg is a large fluid load on an already inflamed myocardium. Facial flushing and elevated blood pressure are listed IVIG side effects, and fever that resists antipyretics is characteristic of the acute stage itself.",
-  "strat": "IVIG is 2 g/kg of volume — assess the heart, not just for allergy."
+  "strat": "IVIG is 2 g/kg of volume — assess the heart, not just for allergy.",
+  "why": "By circulation, falling urine output with a new gallop rhythm signals heart failure, and the guide specifically flags heart failure risk during IVIG. A 2 g/kg infusion is a large fluid load on an already inflamed myocardium, so this combination is reported first.",
+  "whyNot": [
+   "Fever that resists acetaminophen is expected in the acute stage itself and is not the most urgent change here.",
+   "A rising blood pressure is a listed IVIG side effect, not evidence that the heart is failing.",
+   "Facial flushing during the infusion is an expected IVIG side effect rather than a sign of cardiac compromise."
+  ]
  },
  {
   "n": 14,
@@ -440,7 +502,14 @@ const Q = [
    6
   ],
   "rat": "The guide teaches daily temperature checks before each salicylate dose with any fever reported, deferral of live vaccines (MMR, varicella) for 11 months after IVIG, and continued follow-up because cardiac changes are monitored for months. Low-dose aspirin continues until the platelet count normalizes, roughly 6-8 weeks; tinnitus is a sign of salicylate toxicity that is reported rather than re-dosed; refusal to walk is reported to the provider; and soap is avoided because it dries the skin and worsens breakdown.",
-  "strat": "After IVIG: no live vaccines for 11 months, and ringing ears means hold and call."
+  "strat": "After IVIG: no live vaccines for 11 months, and ringing ears means hold and call.",
+  "why": "Effective teaching includes daily temperature checks before each aspirin dose. It also means deferring live vaccines like MMR and varicella for about 11 months after IVIG. Follow-up echocardiograms continue too, since cardiac changes are monitored for months. These three points match the guide's core discharge teaching.",
+  "whyNot": [
+   "Tinnitus is a sign of salicylate toxicity that should be reported, not managed by adding food and milk to the next dose.",
+   "Low-dose aspirin continues for about 6 to 8 weeks until the platelet count normalizes, not just until the fever breaks.",
+   "Refusal to walk from joint soreness should be reported to the provider rather than simply managed by carrying the child.",
+   "Soap dries the skin and worsens breakdown during peeling, so it should be avoided rather than used to prevent infection."
+  ]
  },
  {
   "n": 15,
@@ -479,7 +548,8 @@ const Q = [
    }
   ],
   "rat": "The guide specifies a single IVIG infusion of 2 g/kg over 8-12 hours, repeatable if the child is still febrile 36 hours later, and it shortens fever and lowers coronary artery abnormality rates when given in the first 7-10 days. High-dose aspirin treats fever and inflammation; once the child is afebrile it drops to the antiplatelet dose of 3-5 mg/kg/day until the platelet count returns to normal, about 6-8 weeks, and it is not stopped when the fever breaks.",
-  "strat": "High dose aspirin fights fever, low dose fights platelets — the switch happens when the fever breaks."
+  "strat": "High dose aspirin fights fever, low dose fights platelets — the switch happens when the fever breaks.",
+  "why": "IVIG is given as a single 2 g/kg infusion over 8 to 12 hours. It can be repeated if the child is still febrile 36 hours later. Giving it within the first 7 to 10 days of illness best shortens fever and lowers coronary artery abnormality rates. High-dose aspirin controls fever and inflammation, then drops to 3 to 5 mg/kg/day once afebrile, until the platelet count normalizes."
  },
  {
   "n": 16,
@@ -523,7 +593,8 @@ const Q = [
    }
   ],
   "rat": "The guide lists the MIS-C emergency early warning signs as difficulty breathing, chest pain or pressure, new confusion, decreasing level of consciousness or inability to stay awake, pallor or cyanosis of skin, lips, or nail beds, and severe abdominal pain. Persistent fever beyond 24 hours, loose stools, and the Kawasaki-like mucocutaneous changes are manifestations of the syndrome itself and are managed with supportive care.",
-  "strat": "MIS-C red flags cluster around breathing, chest, brain, color, and belly."
+  "strat": "MIS-C red flags cluster around breathing, chest, brain, color, and belly.",
+  "why": "Difficulty breathing, chest pressure, new confusion, an inability to stay awake, pallor or cyanosis, and severe abdominal pain are all emergency signs. Persistent fever, loose stools, and Kawasaki-like changes such as cracked lips and a swollen tongue are expected manifestations of the syndrome itself. They are managed with supportive care rather than treated as emergencies."
  },
  {
   "n": 17,
@@ -540,7 +611,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "The guide describes MIS-C as an excessive immune response linked to COVID-19 that inflames multiple systems, with gastrointestinal symptoms of vomiting, diarrhea, and abdominal pain listed alongside the fever. Conjunctivitis, rash, and mucocutaneous redness and edema are named as Kawasaki-disease-like features that the two conditions share, so they cannot separate them; the recent COVID-19 infection plus the gut symptoms can.",
-  "strat": "Shared features cannot discriminate — look for the COVID link and the gastrointestinal picture."
+  "strat": "Shared features cannot discriminate — look for the COVID link and the gastrointestinal picture.",
+  "why": "MIS-C is an excessive immune response linked to COVID-19 that inflames multiple systems. Gastrointestinal symptoms such as vomiting, diarrhea, and abdominal pain are listed alongside fever as part of that picture. A recent COVID-19 illness plus this gut involvement is what points to MIS-C rather than Kawasaki disease.",
+  "whyNot": [
+   "A non-blistering rash on the trunk is a shared Kawasaki-like feature, so it cannot distinguish MIS-C from Kawasaki disease.",
+   "Conjunctivitis without discharge is named as a feature both conditions share, so it does not separate them.",
+   "Redness and swelling of the lips, tongue, hands, and feet are Kawasaki-like features common to both illnesses."
+  ]
  },
  {
   "n": 18,
@@ -557,7 +634,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "Headache, slurred speech, and a falling level of consciousness are the guide's warning signs of cerebral bleeding, a neurologic emergency that outranks the other findings by acute-over-stable priority. Hemarthrosis of the knee, easy bruising, and oozing from a superficial scrape are all expected in severe hemophilia and are treated after the intracranial bleed is addressed.",
-  "strat": "In hemophilia, any new neuro change means bleeding in the head until proven otherwise; joints and bruises can wait."
+  "strat": "In hemophilia, any new neuro change means bleeding in the head until proven otherwise. Joints and bruises can wait.",
+  "why": "Headache, slurred speech, and a change in level of consciousness are warning signs of cerebral bleeding, a neurologic emergency in hemophilia. By acute-over-stable priority, this outranks joint or skin findings. Hemarthrosis, bruising, and oozing from a scrape are all expected in severe hemophilia and are addressed after the intracranial bleed.",
+  "whyNot": [
+   "Slow oozing from a superficial scrape is expected in severe hemophilia and is treated after the neurologic emergency.",
+   "Hemarthrosis of the knee is expected after a fall in severe hemophilia and does not outrank a brain bleed.",
+   "Scattered bruising on the forearms is a common, expected finding in severe hemophilia rather than an emergency."
+  ]
  },
  {
   "n": 19,
@@ -597,7 +680,8 @@ const Q = [
    }
   ],
   "rat": "Hemophilia A is a factor VIII deficiency (80% of cases) and hemophilia B a factor IX deficiency; both are X-linked recessive and show a prolonged aPTT with a normal platelet count and prothrombin time, so the sixth choice fits none of these disorders. Von Willebrand disease is a lack of the von Willebrand protein, leaving platelets unable to aggregate. In iron deficiency the TIBC rises as the body tries to pull in more iron, while frontal bossing is the classic facial change of beta-thalassemia.",
-  "strat": "Count the factors in order: A comes first and takes VIII, B comes second and takes IX."
+  "strat": "Count the factors in order: A comes first and takes VIII, B comes second and takes IX.",
+  "why": "Hemophilia A is a factor VIII deficiency, and hemophilia B is a factor IX deficiency. Both are X-linked recessive with a normal platelet count and prothrombin time. Von Willebrand disease leaves platelets unable to aggregate. In iron deficiency, total iron-binding capacity rises, while frontal bossing marks beta-thalassemia. No listed disorder here shows a prolonged prothrombin time with low platelets."
  },
  {
   "n": 20,
@@ -620,7 +704,13 @@ const Q = [
    3
   ],
   "rat": "The guide caps formula at 32 oz per day, pairs iron-rich foods with vitamin C to improve absorption, and builds in frequent rest periods because the anemic child tires easily. Giving iron with formula and switching to a low-iron formula both work against the correction of the deficiency, and delaying solids, including iron-fortified cereal, is itself listed as a cause of iron deficiency anemia rather than a remedy.",
-  "strat": "Too much formula crowds out iron: cap the bottle at 32 oz and push iron plus vitamin C onto the plate."
+  "strat": "Too much formula crowds out iron: cap the bottle at 32 oz and push iron plus vitamin C onto the plate.",
+  "why": "Capping formula at 32 ounces a day prevents it from crowding out solid food and iron intake. Pairing iron-rich foods with vitamin C improves absorption, and frequent rest periods help because an anemic child tires easily. These three actions match the guide's core teaching for iron deficiency anemia.",
+  "whyNot": [
+   "Delaying iron-fortified cereal is itself a listed cause of iron deficiency anemia, not a remedy for it.",
+   "Switching to a low-iron formula for hard stools works against correcting the underlying deficiency instead of treating it.",
+   "Giving iron with a bottle of formula also works against correction of the deficiency rather than helping it."
+  ]
  },
  {
   "n": 21,
@@ -660,7 +750,8 @@ const Q = [
    }
   ],
   "rat": "The guide directs acetaminophen as the acceptable analgesic, RICE for a joint bleed, subcutaneous injection in place of intramuscular, and venipuncture rather than finger or heel sticks, which cause bleeding that is hard to control. Aspirin and other agents that inhibit platelet function are avoided, and passive range of motion is specifically contraindicated during an acute episode; active range of motion is started only after the acute phase.",
-  "strat": "Hemophilia care means fewer holes and gentler joints: no small sticks, no aspirin, no passive ROM while it is actively bleeding."
+  "strat": "Hemophilia care means fewer holes and gentler joints: no small sticks, no aspirin, no passive ROM while it is actively bleeding.",
+  "why": "Acetaminophen, ice with elevation, and subcutaneous rather than intramuscular injection are all indicated for this child. Finger sticks are contraindicated because venipuncture is preferred, since small punctures cause bleeding that is hard to control. Passive range of motion is contraindicated during an acute bleed, and aspirin is avoided because it inhibits platelet function."
  },
  {
   "n": 22,
@@ -677,7 +768,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "Corticosteroid therapy calls for monitoring for infection and bleeding, good hygiene, and avoiding people with colds, viruses, or infections, so keeping the child away from a sick contact shows the teaching worked. DDAVP raises factor VIII and is not effective in hemophilia B, which is a factor IX deficiency; ibuprofen and other NSAIDs inhibit platelet function and are used only under close provider supervision; and soccer is a contact sport, while the guide steers these children toward low-contact activities such as swimming, bowling, or golf.",
-  "strat": "DDAVP boosts factor VIII only, so it does nothing for hemophilia B."
+  "strat": "DDAVP boosts factor VIII only, so it does nothing for hemophilia B.",
+  "why": "Corticosteroid therapy calls for monitoring for infection and bleeding, good hygiene, and avoiding people with colds or infections. Keeping the child away from a sick cousin follows that guidance directly. This is the statement that best reflects effective teaching for a child finishing a steroid course.",
+  "whyNot": [
+   "DDAVP raises factor VIII and is not effective in hemophilia B, which is a factor IX deficiency.",
+   "Soccer is a contact sport, and these children are steered toward low-contact activities such as swimming or golf.",
+   "Ibuprofen and other NSAIDs inhibit platelet function and are used only under close provider supervision, not added freely."
+  ]
  },
  {
   "n": 23,
@@ -694,7 +791,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "In anemia the hemoglobin that is present is fully saturated, so the pulse oximetry reading stays high; the problem is that there are not enough red cells in circulation to deliver oxygen, which produces the pallor, tachycardia, flow murmur, and cool skin from tissue hypoxia. The second option reverses the mechanism, and cyanosis is absent because cyanosis requires an increased quantity of deoxygenated hemoglobin in arterial blood, not a shortage of red cells.",
-  "strat": "Anemia is a delivery problem, not a saturation problem, so the pulse ox looks fine while the child looks terrible."
+  "strat": "Anemia is a delivery problem, not a saturation problem, so the pulse ox looks fine while the child looks terrible.",
+  "why": "In anemia the hemoglobin present is fully saturated, so pulse oximetry stays normal. The real problem is too few red cells in circulation to deliver oxygen, producing pallor, tachycardia, a flow murmur, and cool skin from tissue hypoxia. The oxygen number on the monitor looks fine because it only measures saturation, not the total supply.",
+  "whyNot": [
+   "The pulse oximeter is not giving a falsely high reading, since available hemoglobin really is well saturated.",
+   "Cyanosis requires an increased amount of deoxygenated hemoglobin in arterial blood, not merely a shortage of red cells.",
+   "This option reverses the actual mechanism, since the red cells present are saturated but too few in number."
+  ]
  },
  {
   "n": 24,
@@ -733,7 +836,8 @@ const Q = [
    }
   ],
   "rat": "Both parents carrying the trait gives each pregnancy a 25% chance of disease and a 50% chance of trait. Sickled cells accumulate in small vessels and raise blood viscosity, causing ischemia and infarction — the blood does not thin, and the defect is in hemoglobin, not platelets. Dehydration is a classic trigger because it thickens the blood further; sickle cell anemia is not an iron-deficiency problem, and vaccines protect against the infections that trigger crises rather than causing them.",
-  "strat": "Both parents carriers = 25% disease, 50% trait, every pregnancy — the odds reset each time."
+  "strat": "Both parents carriers = 25% disease, 50% trait, every pregnancy — the odds reset each time.",
+  "why": "Because both parents carry the trait, each pregnancy carries a 25 percent chance of disease and a 50 percent chance of trait. Sickled cells accumulate in small vessels and increase blood viscosity, which impairs flow and causes ischemia and infarction rather than thinning the blood. Dehydration is a classic trigger because it thickens the blood further."
  },
  {
   "n": 25,
@@ -766,7 +870,8 @@ const Q = [
    }
   ],
   "rat": "Vaso-occlusive crisis is the most common and non-life-threatening type: blocked flow produces severe bone, joint, and abdominal pain along with hematuria, obstructive jaundice, visual disturbances, and tissue engorgement. Sequestration pools large volumes of blood in the spleen, producing splenomegaly with pallor, thready pulse, and hypotension that can progress to hypovolemic shock. Aplastic crisis is bone marrow suppression, usually after a viral infection, so the picture is a falling red cell count with pallor, lethargy, sleepiness, and dyspnea — not pain.",
-  "strat": "Pain = vaso-occlusive; big spleen and shock signs = sequestration; post-viral with no pain = aplastic."
+  "strat": "Pain points to vaso-occlusive crisis, a big spleen with shock signs points to sequestration, and post-viral with no pain points to aplastic crisis.",
+  "why": "Vaso-occlusive crisis is the most common, non-life-threatening type, producing severe bone, joint, and abdominal pain with hematuria, jaundice, visual disturbance, and tissue engorgement. Sequestration pools blood in the spleen, causing splenomegaly with pallor, a thready pulse, and falling blood pressure that can progress to shock. Aplastic crisis follows bone marrow suppression, usually after a viral illness, producing a falling red cell count with pallor, lethargy, and dyspnea rather than pain."
  },
  {
   "n": 26,
@@ -790,7 +895,12 @@ const Q = [
    5
   ],
   "rat": "Daily oral prophylactic penicillin, up-to-date immunizations including pneumococcal vaccine, prompt evaluation of fever, and generous fluids are the guide's core prevention measures — fever signals infection that can trigger a crisis, and dehydration thickens the blood. Sickle cell anemia is not outgrown, and the teaching is to avoid people who are ill and practice hand hygiene, not to withdraw the child from all contact and activity. Cutting back fluids during any illness is the opposite of what prevents a crisis.",
-  "strat": "Prevention rests on three legs: fluids in, infection out, triggers avoided."
+  "strat": "Prevention rests on three legs: fluids in, infection out, triggers avoided.",
+  "why": "Daily oral penicillin, up-to-date immunizations including the pneumococcal vaccine, generous fluids, and prompt evaluation of fever are the core prevention measures for sickle cell anemia. Fever signals infection that can trigger a crisis, and dehydration thickens the blood, so both are addressed quickly rather than watched.",
+  "whyNot": [
+   "Sickle cell anemia is not outgrown, and the guide teaches avoiding sick contacts, not withdrawing the child from all activity.",
+   "Cutting back fluids during any illness is the opposite of what prevents dehydration and a crisis."
+  ]
  },
  {
   "n": 27,
@@ -814,7 +924,12 @@ const Q = [
    3
   ],
   "rat": "A saturation of 91% signals hypoxia, which both results from and worsens sickling; fever points to infection, itself a crisis trigger; severe bone and joint pain is the hallmark of vaso-occlusion; and cool extremities with a 4-second capillary refill show impaired peripheral perfusion. A blood pressure of 100/62 and a respiratory rate of 22 are within range for a 6-year-old, and active bowel sounds with a recent stool are reassuring — the guide notes that constipation must be ruled out as a separate cause of abdominal pain, and there is no evidence of it here.",
-  "strat": "Sort each number against the age norm first, then ask whether it fits the sickling story."
+  "strat": "Sort each number against the age norm first, then ask whether it fits the sickling story.",
+  "why": "A saturation of 91 percent signals hypoxia, which both results from and worsens sickling. Fever points to infection, a known crisis trigger, and severe bone and joint pain is the hallmark of vaso-occlusion. Cool extremities with a 4-second capillary refill show impaired peripheral perfusion, so all four findings need follow-up.",
+  "whyNot": [
+   "A blood pressure of 100/62 with a respiratory rate of 22 is within the normal range for a 6-year-old.",
+   "Active bowel sounds with a recent soft stool are reassuring, ruling out constipation as a separate cause of pain."
+  ]
  },
  {
   "n": 28,
@@ -831,7 +946,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "Severe bone, joint, and low back pain with hematuria, cool extremities, and hypoxia after exertion in the heat with poor intake is the guide's picture of an acute vaso-occlusive crisis, which it links to dehydration and decreased oxygen. Sequestration would show an enlarging spleen with pallor and falling blood pressure, and aplastic crisis follows a viral infection with a sharp drop in red cells and reticulocytes rather than pain. The anemia here is hemolytic and congenital, not from dietary iron.",
-  "strat": "Name the trigger and the crisis names itself — heat, exertion, and no fluids point straight at vaso-occlusion."
+  "strat": "Name the trigger and the crisis names itself — heat, exertion, and no fluids point straight at vaso-occlusion.",
+  "why": "Severe bone, joint, and low back pain with hematuria fits the classic picture of vaso-occlusive crisis. So do cool extremities and hypoxia after exertion in the heat with poor fluid intake. The guide links this crisis directly to dehydration and decreased oxygen delivery.",
+  "whyNot": [
+   "Iron-deficiency anemia builds up over months of low dietary iron and does not explain this sudden pain crisis.",
+   "Aplastic crisis follows a viral illness with a falling red cell and reticulocyte count, not this exertion and pain picture.",
+   "Sequestration would show an enlarging spleen with pallor and falling blood pressure, and his spleen is not palpable."
+  ]
  },
  {
   "n": 29,
@@ -848,7 +969,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "By the ABCs, oxygenation and perfusion outrank the other problems, and the guide adds a disease-specific reason: any condition that lowers oxygen delivery drives more sickling, so hypoxia feeds the crisis it caused. Pain control, hydration, and infection prevention are all essential and are started alongside oxygen, but they do not displace a saturation of 91% with cool, poorly perfused extremities as the first concern.",
-  "strat": "ABCs first — and in sickle cell, low oxygen is not just a symptom, it is fuel for more sickling."
+  "strat": "ABCs first — and in sickle cell, low oxygen is not just a symptom, it is fuel for more sickling.",
+  "why": "By the ABCs, oxygenation and perfusion outrank the other problems here. The guide adds a disease-specific reason: anything that lowers oxygen delivery drives more sickling, so hypoxia feeds the crisis it caused. A saturation of 91 percent with cool, poorly perfused extremities is the most urgent concern.",
+  "whyNot": [
+   "Infection risk matters, but it does not outrank a saturation of 91 percent with poor perfusion right now.",
+   "Fluid volume deficit is treated alongside oxygen, but hypoxia and impaired perfusion take priority in this moment.",
+   "Pain control is essential and starts alongside oxygen, but it does not displace hypoxia as the first concern."
+  ]
  },
  {
   "n": 30,
@@ -893,7 +1020,8 @@ const Q = [
    ]
   },
   "rat": "The guide's management of vaso-occlusive crisis is hydration to lower viscosity and open flow plus analgesia given around the clock, with oxygen when hypoxia is present. Ice is specifically contraindicated because cold causes vasoconstriction and worsens the occlusion, ambulating a child in crisis raises oxygen demand when rest is what he needs, and PRN-only dosing lets pain re-escalate. Intake, output, and weight track both fluid overload and kidney function during intense hydration, while serial pain ratings with sedation level judge the analgesic; reflexes, orthostatics, and serial sodium levels are not the parameters this therapy calls for.",
-  "strat": "Vaso-occlusive crisis = fluids in, pain covered around the clock, oxygen if hypoxic — and never ice."
+  "strat": "Vaso-occlusive crisis = fluids in, pain covered around the clock, oxygen if hypoxic — and never ice.",
+  "why": "Vaso-occlusive crisis is managed with hydration to lower blood viscosity and open flow, plus scheduled analgesia rather than as-needed dosing. Ice is contraindicated because cold causes vasoconstriction and worsens the occlusion. Ambulating a child in crisis raises oxygen demand when rest is what he needs instead. Intake, output, and weight track fluid status and kidney function, while pain rating and sedation level judge the analgesic."
  },
  {
   "n": 31,
@@ -916,7 +1044,13 @@ const Q = [
    5
   ],
   "rat": "Warmth promotes vasodilation and eases the occluded area, positioning off painful joints with clustered care supports rest and lowers oxygen consumption, and the guide specifically warns that opioids cause constipation which produces more pain, so bowel movements must be monitored and constipation prevented. Cold is contraindicated because vasoconstriction worsens sickling; oral intake is encouraged along with the IV fluids rather than held; and around-the-clock dosing is what keeps him ahead of the pain, so scheduled doses are not skipped for sleep.",
-  "strat": "Warm dilates, cold constricts — and around-the-clock means around the clock."
+  "strat": "Warm dilates, cold constricts — and around-the-clock means around the clock.",
+  "why": "Warmth promotes vasodilation and eases the occluded area, and positioning off painful joints with clustered care supports rest and lowers oxygen consumption. Opioids cause constipation, which produces more pain, so bowel movements must be monitored and constipation prevented while the opioid is running.",
+  "whyNot": [
+   "Around-the-clock dosing is what keeps him ahead of the pain, so scheduled doses are not skipped for sleep.",
+   "Oral fluids are actively encouraged alongside the IV fluids, not held while they are infusing.",
+   "Cold packs cause vasoconstriction, which worsens sickling instead of relieving his joint pain right now."
+  ]
  },
  {
   "n": 32,
@@ -933,7 +1067,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "Resolution means the occlusion has opened, so perfusion measures have to improve along with the pain: warm extremities and brisk capillary refill with a low pain score show restored flow. Pain relief with extremities that stay cool and mottled shows the analgesic is working but the vaso-occlusion is not resolved, urine output of 0.4 mL/kg/hr with tea-colored urine suggests hydration is still inadequate and kidney involvement persists, and a saturation that holds only with supplemental oxygen while the respiratory rate climbs points toward chest involvement rather than recovery.",
-  "strat": "On evaluate items, make the perfusion data agree with the pain score before you call it resolved."
+  "strat": "On evaluate items, make the perfusion data agree with the pain score before you call it resolved.",
+  "why": "Resolution means the occlusion has opened, so perfusion must improve along with the pain. Warm extremities and a brisk capillary refill with a low pain score show that flow is genuinely restored. Pain relief alone is not enough proof that the vaso-occlusion has resolved.",
+  "whyNot": [
+   "A rising respiratory rate even with a good saturation on oxygen points toward chest involvement, not recovery.",
+   "Pain relief with extremities that stay cool and mottled shows the analgesic working, not that perfusion has improved.",
+   "Low urine output with tea-colored urine suggests hydration is still inadequate and kidney involvement persists."
+  ]
  }
 ];
 
