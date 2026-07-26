@@ -115,6 +115,12 @@ const Q = [
   "ans": 3,
   "rat": "Vitamin A forms rhodopsin in the retina; night blindness is the first sign of deficiency, and a low-fat diet impairs absorption of all fat-soluble vitamins. Vitamin D deficiency causes bone disease (rickets/osteomalacia), vitamin E causes neuromuscular/hemolytic problems, and vitamin K causes bleeding — none present first as night blindness.",
   "strat": "Match the earliest symptom to the vitamin's job: vision at night points straight to vitamin A.",
+  "why": "Vitamin A forms rhodopsin, the retina's light-sensitive pigment, and night blindness is classically the earliest deficiency sign. This client's very low-fat diet impairs absorption of all fat-soluble vitamins. The diet also lacks the orange and dark-green vegetables that supply vitamin A, matching the dusk-and-night-only vision loss described.",
+  "whyNot": [
+   "Vitamin E deficiency causes neuromuscular and hemolytic problems, not an isolated loss of night vision.",
+   "Vitamin K deficiency causes increased bleeding and bruising from impaired clotting, not a vision change.",
+   "Vitamin D deficiency causes bone disease such as rickets or osteomalacia, not impaired night vision."
+  ],
   "n": 1
  },
  {
@@ -132,6 +138,12 @@ const Q = [
   "ans": 1,
   "rat": "Isotretinoin contains vitamin A, and excess vitamin A is teratogenic; women of childbearing age must use reliable contraception because use in pregnancy causes birth defects. Adding liver and carrots would raise vitamin A intake further and worsen the risk, and the green-vegetable caution applies to vitamin K and anticoagulants, not this drug.",
   "strat": "Vitamin A in excess = birth defects; any vitamin-A-based drug in a fertile woman means contraception teaching first.",
+  "why": "Isotretinoin contains vitamin A, and excess vitamin A is teratogenic, causing birth defects if taken during pregnancy. Because of this, women of childbearing age must use reliable contraception for the entire course of the drug. This teaching point takes priority over any dietary or absorption instruction.",
+  "whyNot": [
+   "Adding liver and carrots would raise vitamin A intake further, worsening the teratogenic risk instead of protecting the skin.",
+   "The green-vegetable caution applies to vitamin K interfering with warfarin, not to this vitamin-A-based acne medication.",
+   "Isotretinoin is a fat-soluble vitamin derivative and absorbs better with food, not on an empty stomach."
+  ],
   "n": 2
  },
  {
@@ -168,6 +180,11 @@ const Q = [
   ],
   "rat": "Vitamin D regulates calcium and phosphorus for bone, is synthesized in skin with sun exposure, and its deficiency causes rickets in children. Older adults need MORE vitamin D because aging skin synthesizes less, and because it is fat-soluble and stored, excess causes toxicity (hypercalcemia) rather than being freely excreted.",
   "strat": "Fat-soluble vitamins are stored, not flushed — 'extra just leaves the body' is almost always the false statement.",
+  "why": "Vitamin D regulates calcium and phosphorus for bone mineralization, and deficiency causes rickets in children — this is the vitamin's core physiologic role. The skin synthesizes vitamin D during sun exposure, confirming why it is called the sunshine vitamin. These three statements are accurate.",
+  "whyNot": [
+   "Aging skin actually synthesizes vitamin D less efficiently, so older adults need more, not less, than younger adults.",
+   "Vitamin D is fat-soluble and stored in the body, so excessive long-term doses accumulate and cause toxicity such as hypercalcemia."
+  ],
   "n": 3
  },
  {
@@ -202,6 +219,7 @@ const Q = [
   ],
   "rat": "Vitamin A deficiency first shows as night blindness (rhodopsin); vitamin D deficiency causes rickets in children; vitamin K deficiency impairs clotting factor synthesis, causing bleeding; vitamin E deficiency causes anemia and neurological/muscular deficits. Each finding ties directly to that vitamin's primary physiologic role.",
   "strat": "Anchor each vitamin to its one job — A=eyes, D=bone, K=clotting, E=antioxidant/cell membranes — then the deficiency follows.",
+  "why": "Vitamin A deficiency first shows as night blindness because it forms the retina's rhodopsin pigment. Vitamin D deficiency causes rickets in children through impaired bone mineralization. Vitamin K deficiency impairs clotting-factor synthesis, causing increased bleeding and bruising. Vitamin E deficiency causes hemolytic anemia and neuromuscular deficits from its antioxidant, cell-membrane-protecting role.",
   "n": 4
  },
  {
@@ -219,6 +237,12 @@ const Q = [
   "ans": 2,
   "rat": "Green leafy vegetables are high in vitamin K, which decreases the effectiveness of warfarin; the goal is consistent, not zero, intake so the dose can be balanced against it. Eliminating them entirely is unnecessary and unrealistic, eating extra would reduce the drug's effect, and saying there is no effect is false.",
   "strat": "Vitamin K opposes warfarin — teach consistency, not elimination; 'all' or 'never' options are usually wrong.",
+  "why": "Green leafy vegetables are high in vitamin K, which opposes warfarin by supporting clotting factor synthesis and can reduce its anticoagulant effect. The goal of teaching is consistent, not zero, intake so the provider can balance the warfarin dose against a steady vitamin K intake. This keeps INR levels predictable over time.",
+  "whyNot": [
+   "Eating extra green vegetables would raise vitamin K intake and actually weaken warfarin's anticoagulant effect, the opposite of the goal.",
+   "Eliminating green vegetables entirely is unnecessary and unrealistic, and it removes a nutritious food group without medical benefit.",
+   "This statement is false. Vitamin K intake directly affects warfarin's clotting effect, so varying it unpredictably destabilizes dosing."
+  ],
   "n": 5
  },
  {
@@ -236,6 +260,12 @@ const Q = [
   "ans": 0,
   "rat": "Newborns are born with a sterile gut and lack the intestinal bacteria that synthesize vitamin K, so they cannot make enough to support clotting and are at risk for bleeding; the injection provides it until gut flora develop. The other options confuse vitamin K with vitamin D, immune support, or iron, none of which is the reason for this injection.",
   "strat": "Sterile newborn gut = no vitamin K = bleeding risk = the after-birth injection.",
+  "why": "Newborns are born with a sterile gut and lack the bacteria that synthesize vitamin K, so they cannot yet make enough for normal clotting. This leaves them at risk for bleeding until breastfeeding or formula feeding establishes intestinal flora over the first couple weeks. The injection bridges that gap.",
+  "whyNot": [
+   "The injection is not iron replacement. Iron status is unrelated to blood loss during a routine, uncomplicated birth.",
+   "This option confuses vitamin K with vitamin D. The injection supports clotting, not bone growth or mineralization.",
+   "The injection is not an immune booster. It specifically replaces the vitamin K newborns cannot yet synthesize themselves."
+  ],
   "n": 6
  },
  {
@@ -260,6 +290,7 @@ const Q = [
   ],
   "rat": "Because fat-soluble vitamins are stored, excess is harmful: vitamin A toxicity causes vomiting, anorexia, and menstrual cessation; vitamin D toxicity causes hypercalcemia; and high-dose vitamin E with an anticoagulant raises bleeding risk. Night blindness and rickets are signs of DEFICIENCY, not excess, so they are not reported as toxicity findings.",
   "strat": "On a 'toxicity' SATA, screen out the deficiency look-alikes (night blindness, rickets) — those belong to the opposite list.",
+  "why": "Fat-soluble vitamins are stored, so excess intake builds toward toxicity rather than being cleared. Vitamin A excess causes vomiting, anorexia, and menstrual cessation, while vitamin D excess causes hypercalcemia. Vitamin E at high doses adds to bleeding risk when combined with an anticoagulant. Night blindness and rickets are deficiency signs, not toxicity findings, so they are excluded.",
   "n": 7
  },
  {
@@ -290,6 +321,7 @@ const Q = [
   ],
   "rat": "Fat-soluble vitamins (A, D, E, K) depend on dietary fat for absorption, so taking them with a fat-containing meal improves uptake; because they are stored in fatty tissue rather than readily excreted, intake above the upper limit accumulates and can cause toxicity. The empty-stomach and water-flush options describe water-soluble vitamins.",
   "strat": "Fat-soluble = take WITH fat and they STAY in the body — both blanks key on 'fat' and 'stored.'",
+  "why": "Fat-soluble vitamins (A, D, E, K) depend on dietary fat for absorption, so taking them with a fat-containing meal improves uptake. Because they are stored in body fat rather than readily excreted, intake above the upper limit accumulates and can cause toxicity. The empty-stomach and water-flush distractors instead describe water-soluble vitamin behavior.",
   "n": 8
  },
  {
@@ -329,6 +361,7 @@ const Q = [
   ],
   "rat": "Thiamine deficiency causes beriberi; niacin deficiency causes pellagra (the three D's: dermatitis, diarrhea, dementia); B12 deficiency from absent intrinsic factor causes pernicious anemia; inadequate folate during early pregnancy causes neural tube defects; vitamin C deficiency causes scurvy. Students often swap B12 and folate because both produce a megaloblastic anemia, but only B12 loss from intrinsic-factor failure is called pernicious anemia.",
   "strat": "Map each vitamin to its signature disease name; B12 owns the word 'pernicious,' folate owns 'neural tube.'",
+  "why": "Thiamine deficiency causes beriberi, and severe cases progress to Wernicke-Korsakoff syndrome. Niacin deficiency causes pellagra, marked by the three D's: dermatitis, diarrhea, and dementia. Cobalamin (B12) deficiency from absent intrinsic factor causes pernicious anemia, while inadequate folate in early pregnancy causes neural tube defects. Vitamin C deficiency causes scurvy. B12 and folate are easy to swap since both produce a megaloblastic anemia, but only intrinsic-factor loss is called pernicious anemia.",
   "n": 9
  },
  {
@@ -346,6 +379,12 @@ const Q = [
   "ans": 2,
   "rat": "Confusion, ataxia, and ocular changes in a client with chronic alcohol use point to thiamine deficiency (Wernicke-Korsakoff, the cerebral form of beriberi); thiamine is given before dextrose to avoid worsening the neurologic injury. Riboflavin deficiency causes cheilosis and glossitis, B6 deficiency causes dermatitis and neuropathy, and B12 deficiency is more typically a slowly progressive neurologic and hematologic problem.",
   "strat": "Alcohol + confusion + ataxia = thiamine; give it before glucose.",
+  "why": "Confusion, ataxia, and abnormal eye movements in a client with chronic alcohol use point to thiamine deficiency — the cerebral form of beriberi. This is known as Wernicke-Korsakoff syndrome. IV thiamine is given before dextrose because glucose metabolism without adequate thiamine can worsen the neurologic injury.",
+  "whyNot": [
+   "Cobalamin deficiency typically causes a slower, progressive neurologic and hematologic problem, not this acute alcohol-related presentation.",
+   "Pyridoxine deficiency causes dermatitis and peripheral neuropathy, not the acute confusion and ataxia seen here.",
+   "Riboflavin deficiency causes cheilosis and glossitis around the mouth, not neurologic confusion or abnormal eye movements."
+  ],
   "n": 10
  },
  {
@@ -363,6 +402,12 @@ const Q = [
   "ans": 1,
   "rat": "Neural tube closure happens in the first weeks of pregnancy, often before pregnancy is recognized, so folic acid must be in place beforehand; supplementation is recommended for all women of childbearing age planning conception. Starting after a positive test, waiting for anemia, or relying on a third-trimester vitamin all miss the early window when the neural tube forms.",
   "strat": "Neural tube closes before she knows she's pregnant; folate has to be on board first.",
+  "why": "Neural tube closure happens within the first weeks of pregnancy, often before pregnancy is even recognized, so folic acid needs to be on board beforehand. Supplementation is recommended for all women of childbearing age who are planning conception, not only those who are already pregnant. This client's plan to conceive within a year makes preconception counseling appropriate now.",
+  "whyNot": [
+   "Waiting for a positive pregnancy test misses the early window, since the neural tube has often already begun forming.",
+   "Folate's protective role is for neural tube formation early in pregnancy, not for anemia that develops later.",
+   "A prenatal vitamin started in the third trimester comes far too late to prevent a neural tube defect."
+  ],
   "n": 11
  },
  {
@@ -385,6 +430,7 @@ const Q = [
   ],
   "rat": "B12 absorption depends on intrinsic factor and on intake from animal foods, so older adults with declining intrinsic factor, vegans (B12 is absent from plant foods), and clients with gastric surgery affecting intrinsic factor are all at risk. The client eating meat, eggs, and dairy has ample B12 intake, and citrus intake addresses vitamin C, not B12.",
   "strat": "B12 needs intrinsic factor AND animal foods; lose either pathway and risk climbs.",
+  "why": "B12 absorption depends on intrinsic factor and on intake from animal foods, so both pathways must be intact to meet needs. Older adults with declining intrinsic factor, strict vegans with no supplementation, and clients recovering from partial gastrectomy are all at higher risk. The client eating meat, eggs, and dairy has ample intake, and citrus fruit addresses vitamin C, not B12.",
   "n": 12
  },
  {
@@ -424,6 +470,7 @@ const Q = [
   ],
   "rat": "Water-soluble vitamins are not stored in appreciable amounts; excess is excreted in the urine, so they must be consumed regularly. That contrasts with fat-soluble vitamins, which are stored in fat and the liver and can build to toxic levels. The distractors reflect the common error of applying fat-soluble storage behavior to the water-soluble group.",
   "strat": "Not stored -> excreted -> needed regularly; that triad defines water-soluble vitamins.",
+  "why": "Water-soluble vitamins are not stored in the body to any meaningful degree, so excess amounts are excreted in the urine rather than accumulated. Because nothing is held in reserve, a person must obtain them regularly through diet or supplements. This contrasts with fat-soluble vitamins, which are stored in fat and the liver and can build to toxic levels.",
   "n": 13
  },
  {
@@ -441,6 +488,12 @@ const Q = [
   "ans": 3,
   "rat": "Vitamin C enhances the absorption of non-heme (plant and supplement) iron, so pairing the iron with a vitamin C source such as orange juice increases uptake. Milk and calcium reduce iron absorption, and the phytates in high-fiber bran cereal also inhibit it.",
   "strat": "Vitamin C boosts non-heme iron; pair iron with a citrus source, not dairy.",
+  "why": "Vitamin C enhances absorption of non-heme iron, the form found in supplements and plant foods. Pairing the iron dose with a vitamin C source such as orange juice increases uptake and supports the client's goal. Vitamin C's absorption-enhancing effect on iron is the key teaching point here.",
+  "whyNot": [
+   "High-fiber bran cereal contains phytates, which bind non-heme iron and inhibit its absorption rather than help it.",
+   "Milk supplies calcium, which competes with iron for absorption and reduces how much iron the body takes up.",
+   "Taking iron together with a calcium supplement reduces iron absorption, the opposite of the intended benefit."
+  ],
   "n": 14
  },
  {
@@ -458,6 +511,12 @@ const Q = [
   "ans": 0,
   "rat": "Vitamin C is required for collagen formation and wound healing; its deficiency (scurvy) causes impaired healing and bleeding gums, and a diet lacking fresh fruits and vegetables is a classic risk. Niacin deficiency causes pellagra (dermatitis, diarrhea, dementia), riboflavin deficiency causes cheilosis and glossitis, and biotin deficiency causes a scaly rash and hair loss rather than this bleeding-gum, poor-healing pattern.",
   "strat": "Collagen + bleeding gums + no fresh produce = vitamin C (scurvy).",
+  "why": "Vitamin C is required for collagen formation and wound healing, and its deficiency (scurvy) causes impaired healing and bleeding gums. A diet lacking fresh fruits and vegetables, as seen here with mostly canned and shelf-stable foods, is a classic risk factor for this deficiency. The pressure injury and gum bleeding together point specifically to vitamin C.",
+  "whyNot": [
+   "Riboflavin deficiency causes cheilosis and glossitis at the mouth, not bleeding gums or a non-healing pressure injury.",
+   "Biotin deficiency causes a scaly rash and hair loss, a different pattern than bleeding gums and poor healing.",
+   "Niacin deficiency causes pellagra, marked by dermatitis, diarrhea, and dementia, not the bleeding-gum, poor-healing picture described."
+  ],
   "n": 15
  },
  {
@@ -494,6 +553,7 @@ const Q = [
   ],
   "rat": "B12 comes from animal foods only, folate from leafy greens/legumes/enriched grains, and vitamin C from fruits and vegetables. The two inaccurate rows reverse the food groups: vitamin C is not a meat nutrient, and folate is abundant in plant foods, so a vegan can readily meet folate needs (B12, not folate, is the vegan concern).",
   "strat": "B12 = animal foods; folate and vitamin C = plant foods. Don't swap them.",
+  "why": "B12 comes only from animal foods — meat, fish, eggs, and dairy. Folate is abundant in leafy greens, legumes, and enriched grains, so both statements are accurate. Vitamin C likewise comes from fruits and vegetables, not meat or organ meats, correcting one false row. The other false row claims folate occurs only in animal products, but folate's plant abundance makes B12 the real vegan concern.",
   "n": 16
  },
  {
@@ -511,6 +571,12 @@ const Q = [
   "ans": 3,
   "rat": "Riboflavin is sensitive to light, which is why milk is sold in opaque containers; storing it in clear glass in the light causes riboflavin loss. Warmth does not add the vitamin, light does affect it, and heating cannot restore a vitamin already destroyed.",
   "strat": "Riboflavin is light-sensitive; opaque container protects it.",
+  "why": "Riboflavin is sensitive to light, which is why commercial milk is sold in opaque cartons rather than clear containers. Storing milk in a clear glass pitcher exposes it to light and causes riboflavin to break down over time. An opaque jug protects the vitamin the same way the original packaging does.",
+  "whyNot": [
+   "Riboflavin is not light-stable. Claiming light has no effect ignores the reason milk cartons are opaque in the first place.",
+   "Warmth does not add riboflavin to milk. Leaving it out only invites light exposure and vitamin loss, not gain.",
+   "Heating cannot restore a vitamin that light has already destroyed, so boiling does not reverse the riboflavin loss."
+  ],
   "n": 17
  },
  {
@@ -528,7 +594,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "Non-heme iron from plants is absorbed far less efficiently than heme iron; vitamin C (citrus, peppers) converts iron to a more absorbable form and enhances uptake. Tea (tannins) and calcium both inhibit non-heme iron absorption, and cooking does not destroy the mineral, so eating it raw confers no absorption benefit.",
-  "strat": "Vitamin C boosts non-heme iron; tea and calcium block it."
+  "strat": "Vitamin C boosts non-heme iron; tea and calcium block it.",
+  "why": "Non-heme iron from plant foods like lentils and spinach is absorbed far less efficiently than heme iron from meat. Vitamin C in citrus fruit or peppers converts this non-heme iron to a more absorbable form and enhances its uptake. Pairing plant iron sources with a vitamin C food is the most effective single change this client can make.",
+  "whyNot": [
+   "Calcium taken with the fortified cereal competes with iron for absorption and would blunt the iron uptake this client needs.",
+   "Cooking does not destroy iron, so eating spinach raw offers no absorption advantage over lightly steaming it.",
+   "Tannins in black tea and coffee bind non-heme iron and inhibit its absorption when taken with iron-rich meals."
+  ]
  },
  {
   "n": 19,
@@ -545,7 +617,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "Per the WHO/CDC data in the source, iron deficiency is the most common micronutrient malnutrition worldwide, and pregnant women in low-income households are a top at-risk group; pregnancy raises iron demand and 1 in 6 women is iron-deficient in pregnancy. Frequent red-meat intake and vitamin C both support iron status, and fortified milk is not a key iron source.",
-  "strat": "Match the at-risk group to increased demand plus limited intake."
+  "strat": "Match the at-risk group to increased demand plus limited intake.",
+  "why": "Iron deficiency is the most common micronutrient malnutrition worldwide, and pregnant women in low-income households are a top at-risk group named in the source data. Pregnancy raises iron demand substantially, and roughly one in six pregnant women is iron-deficient, especially in under-resourced households. This client's combination of pregnancy and low income places her at the highest priority for screening.",
+  "whyNot": [
+   "Fortified milk is not identified as a key iron source, so this teenager's intake pattern is not the top-priority risk.",
+   "Frequent red-meat intake is a strong dietary source of heme iron, so this client's iron status is actually well supported.",
+   "Daily vitamin C supports iron absorption rather than creating risk, so this client is not a screening priority."
+  ]
  },
  {
   "n": 20,
@@ -562,7 +640,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "Calcium supports nerve function and muscle relaxation/contraction; low intake can produce neuromuscular irritability such as twitching and tetany. A dairy-avoidant client who replaces nothing with fortified soy, canned fish with bones, tofu, or greens is at risk. Sodium and phosphorus excess and potassium deficiency cause different problems and do not best fit the dairy-avoidance picture.",
-  "strat": "No dairy plus twitching/spasm points to calcium and tetany."
+  "strat": "No dairy plus twitching/spasm points to calcium and tetany.",
+  "why": "Calcium supports normal nerve function and muscle contraction and relaxation, so low intake can produce neuromuscular irritability such as twitching and spasm, or tetany. A client who avoids dairy without replacing it with fortified alternatives, canned fish with bones, tofu, or greens is at clear risk. The muscle twitching and hand spasms described fit low calcium intake specifically.",
+  "whyNot": [
+   "Excessive sodium intake raises blood pressure risk over time, but it does not explain acute muscle twitching or hand spasms.",
+   "Excess phosphorus from cola can disrupt calcium balance over time, but it is not the primary deficiency behind this presentation.",
+   "Inadequate potassium causes weakness and abnormal heart rhythm, a different pattern than the hand twitching and spasm described here."
+  ]
  },
  {
   "n": 21,
@@ -592,7 +676,8 @@ const Q = [
    }
   ],
   "rat": "Calcium requires vitamin D for absorption and use, a key teaching point for bone health. Non-dairy calcium sources from the source list include fortified soy milk/tofu, canned fish with bones (salmon, sardines), and greens; refined grains and chicken are not meaningful calcium sources.",
-  "strat": "Calcium needs vitamin D; canned fish-with-bones and fortified soy are non-dairy options."
+  "strat": "Calcium needs vitamin D; canned fish-with-bones and fortified soy are non-dairy options.",
+  "why": "Calcium requires adequate vitamin D for absorption and use in the body, a key teaching point for bone health. A client who avoids dairy can still meet calcium needs through fortified soy milk, tofu, or canned fish with bones such as salmon and sardines. Refined grains and plain chicken are not meaningful calcium sources and do not substitute for these alternatives."
  },
  {
   "n": 22,
@@ -609,7 +694,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "Iodine is a component of thyroid hormone, which regulates growth, development, and metabolism; deficiency causes goiter. Iodized salt, seafood, and dairy supply iodine. The other options misattribute the roles of calcium/fluoride (bones), iron (oxygen transport), and chromium (glucose regulation).",
-  "strat": "Iodine to thyroid to goiter; iodized salt prevents it."
+  "strat": "Iodine to thyroid to goiter; iodized salt prevents it.",
+  "why": "Iodine is a component of thyroid hormone, which regulates growth, development, and metabolism, and deficiency causes goiter, the enlargement this client's relative experienced. Iodized salt, seafood, and dairy are reliable dietary sources when a household uses non-iodized specialty salt and eats little seafood. Recommending one of these sources directly addresses the mechanism behind this family's goiter risk.",
+  "whyNot": [
+   "This option misattributes iodine's job to calcium and fluoride, which support bone and dental health, not thyroid hormone production.",
+   "This option confuses iodine with iron, which carries oxygen in hemoglobin. It does not describe iodine's thyroid role.",
+   "This option describes chromium's role in glucose regulation, not iodine, and brewer's yeast is a chromium source, not an iodine one."
+  ]
  },
  {
   "n": 23,
@@ -643,7 +734,8 @@ const Q = [
    }
   ],
   "rat": "Iron is part of hemoglobin and carries oxygen; iodine is part of thyroid hormone; zinc supports wound healing, immune health, and taste perception; chromium works closely with insulin to regulate glucose. These are the source-defined functions for each trace mineral.",
-  "strat": "Iron-oxygen, iodine-thyroid, zinc-healing, chromium-glucose."
+  "strat": "Iron-oxygen, iodine-thyroid, zinc-healing, chromium-glucose.",
+  "why": "Iron is part of hemoglobin and carries oxygen through the bloodstream, a role tied directly to red blood cell function. Iodine is a component of thyroid hormone that regulates metabolism, while zinc supports wound healing, immune function, and taste perception. Chromium works closely with insulin to help regulate blood glucose levels. Each function is the source-defined role for that specific trace mineral."
  },
  {
   "n": 24,
@@ -667,7 +759,8 @@ const Q = [
    3
   ],
   "rat": "Sodium is the major extracellular electrolyte for fluid and acid-base balance, supplied largely by processed foods and table salt; potassium is the major intracellular electrolyte found in fruits, vegetables, meats, and whole grains; both support nerve transmission and muscle contraction. Potassium is intracellular (not extracellular), and minerals do not provide energy once absorbed.",
-  "strat": "Sodium = extracellular, potassium = intracellular; minerals are catalysts, not fuel."
+  "strat": "Sodium = extracellular, potassium = intracellular; minerals are catalysts, not fuel.",
+  "why": "Sodium is the major extracellular electrolyte, regulating fluid and acid-base balance, and most dietary sodium comes from processed foods and table salt. Potassium is found in fresh fruits, vegetables, meats, and whole grains, and both electrolytes support nerve transmission and muscle contraction. Potassium is actually the major intracellular electrolyte, not extracellular, and minerals act as metabolic catalysts rather than a direct energy source."
  },
  {
   "n": 25,
@@ -684,7 +777,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "Fortification adds essential vitamins and minerals (e.g., iron, folic acid, B12 to flour and rice) to help populations meet intake and prevent the 'hidden hunger' of micronutrient deficiency in diets of cheap, filling foods. It is not aimed at adding calories or shelf life, and it supplements rather than replaces a varied diet.",
-  "strat": "Fortification targets micronutrient gaps, not calories or shelf life."
+  "strat": "Fortification targets micronutrient gaps, not calories or shelf life.",
+  "why": "Fortification adds essential vitamins and minerals such as iron, folic acid, and B12 to staple foods. This helps populations meet intake and prevents the hidden hunger of micronutrient deficiency in diets of cheap, filling foods. Fortification supplements a varied diet rather than replacing it, and it does not target shelf life or calorie content.",
+  "whyNot": [
+   "Extending shelf life is a storage concern unrelated to the nutrient gaps that fortification programs are designed to close.",
+   "Adding calories to cheap staple foods does not address the micronutrient gaps that put this population at risk.",
+   "Fortification supplements a diet's micronutrient content. It does not replace the need for fresh fruits and vegetables."
+  ]
  },
  {
   "n": 26,
@@ -701,7 +800,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "Antioxidants counteract free radicals and protect cells from the damage (oxidative stress) that leads to apoptosis or necrosis; tissue trauma and inflammation are listed sources of free-radical production. They do not bind fat for absorption, do not increase free-radical output, and are not a calorie source.",
-  "strat": "Map the term to its mechanism: antioxidant = anti-(free radical) = less oxidative stress."
+  "strat": "Map the term to its mechanism: antioxidant = anti-(free radical) = less oxidative stress.",
+  "why": "Antioxidants counteract free radicals and limit the cell damage of oxidative stress, protecting cells from the apoptosis or necrosis that unchecked damage can cause. Tissue trauma and inflammation, as seen after a major burn injury, are documented sources of increased free-radical production. This is why the dietitian emphasizes fruits and vegetables rich in antioxidant vitamins during recovery.",
+  "whyNot": [
+   "Antioxidants act by neutralizing free radicals directly. They do not work by binding dietary fat to block absorption.",
+   "This option reverses the mechanism. Antioxidants reduce free-radical activity rather than increasing it during cellular healing.",
+   "Antioxidants are not a calorie source. They protect cells from damage rather than fueling the body's energy needs."
+  ]
  },
  {
   "n": 27,
@@ -724,7 +829,8 @@ const Q = [
    4
   ],
   "rat": "Citrus and strawberries supply vitamin C; carrots and sweet potatoes supply vitamin A; nuts and vegetable oils supply vitamin E; fish, eggs, and mushrooms supply selenium. Refined, processed foods are listed as a source of oxidative stress, not a source of antioxidants.",
-  "strat": "Color and whole-food variety signal antioxidants; refined/processed signals the opposite."
+  "strat": "Color and whole-food variety signal antioxidants; refined/processed signals the opposite.",
+  "why": "Citrus fruits and strawberries supply vitamin C, carrots and sweet potatoes supply vitamin A, and nuts and vegetable oils supply vitamin E. Fish, eggs, and mushrooms supply selenium, another named antioxidant mineral, so all four food groups are correct. Refined, processed foods such as white bread and pasta are instead a documented source of oxidative stress, not antioxidant protection."
  },
  {
   "n": 28,
@@ -741,7 +847,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "The preference is meeting nutrient recommendations through a healthy, nutrient-rich diet; research has not shown that supplementation supports disease prevention. Supplements are not proven equivalent or superior, and produce should not be reduced. Supplementation is reserved for malabsorption or disease states that impair absorption.",
-  "strat": "Default to food first; supplements are the exception (malabsorption), not the rule."
+  "strat": "Default to food first; supplements are the exception (malabsorption), not the rule.",
+  "why": "Current evidence favors meeting nutrient recommendations through a healthy, varied diet of fruits and vegetables rather than through supplements. Research has not shown that antioxidant supplementation supports disease prevention, so pills are not proven equivalent or superior to food sources. Supplementation is reserved for situations involving malabsorption or a disease state that impairs absorption, not for a healthy adult with a varied diet.",
+  "whyNot": [
+   "Reducing produce intake once starting a supplement is not supported. Supplements have not been shown to replace food-based nutrients.",
+   "Supplements have not been proven equivalent to food for disease protection, so this claim overstates the current evidence.",
+   "No evidence shows supplements outperform food despite higher doses per pill. This claim is not supported by current research."
+  ]
  },
  {
   "n": 29,
@@ -777,7 +889,8 @@ const Q = [
    }
   ],
   "rat": "The module ties each megadose to a specific harm: vitamin A and lung cancer in smokers, vitamin E and hemorrhagic stroke plus prostate cancer, selenium and liver toxicity, and vitamin C and GI diarrhea. Research has NOT shown that high-dose supplementation prevents disease, so the final statement is inaccurate and is itself a safety concern.",
-  "strat": "\"More is better\" is the trap; each megadose maps to a named toxicity, not a benefit."
+  "strat": "\"More is better\" is the trap; each megadose maps to a named toxicity, not a benefit.",
+  "why": "Each documented megadose risk maps to a specific harm: vitamin A to lung cancer risk in smokers, vitamin E to hemorrhagic stroke and prostate cancer. Selenium is linked to liver toxicity, and vitamin C to GI symptoms such as diarrhea. All four of these are accurate risks worth reinforcing. The remaining statement, claiming high-dose antioxidants above the RDA prevent chronic disease, is false — research has not shown that benefit."
  },
  {
   "n": 30,
@@ -794,7 +907,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "Vitamin E supplement use is contraindicated with anticoagulant drugs because of bleeding risk, so that is the priority concern. Vitamin E toxicity is otherwise rare, and the source does not describe it blocking warfarin absorption or raising blood pressure.",
-  "strat": "Antioxidant supplement + anticoagulant in one picture = think additive bleeding risk."
+  "strat": "Antioxidant supplement + anticoagulant in one picture = think additive bleeding risk.",
+  "why": "Vitamin E supplementation is contraindicated with anticoagulants because it raises bleeding risk. The priority response is to flag the concern and have the client check with the provider before continuing. This is a safety issue that outweighs any teaching about absorption or storage. A friend's use of the same supplement does not make it safe for someone taking warfarin.",
+  "whyNot": [
+   "Vitamin E is not documented to raise blood pressure. The source ties it to bleeding risk, not hypertension, when combined with anticoagulants.",
+   "Vitamin E toxicity is otherwise rare at usual supplement doses. The real danger here is the anticoagulant interaction, not toxicity.",
+   "The source does not describe vitamin E as blocking warfarin absorption. The documented concern is additive bleeding risk instead."
+  ]
  },
  {
   "n": 31,
@@ -811,7 +930,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "Older adults lose intrinsic factor and stomach acid, so B12 is poorly absorbed even when dietary intake is adequate; the neurologic (tingling) and cognitive symptoms fit B12 deficiency. Sun exposure points to vitamin D, citrus to vitamin C, and iodized salt to iodine — none of which match this picture.",
-  "strat": "Adequate intake + absorption symptom = think absorption, not the plate. Older adult + neuro/cognitive = B12."
+  "strat": "Adequate intake + absorption symptom = think absorption, not the plate. Older adult + neuro/cognitive = B12.",
+  "why": "Older adults lose intrinsic factor and stomach acid production, so B12 can be poorly absorbed even when dietary intake of meat and dairy is adequate. This client's neurologic tingling and cognitive changes fit a B12 deficiency picture despite an adequate diet recall. Asking about low stomach acid or reflux medication targets the absorption pathway that actually explains this presentation.",
+  "whyNot": [
+   "Citrus intake addresses vitamin C status, not B12, and does not explain this client's neurologic and cognitive symptoms.",
+   "Sun exposure relates to vitamin D synthesis, which affects bone health rather than this tingling and memory presentation.",
+   "Iodized salt use relates to thyroid function, not the absorption problem behind this client's neurologic and cognitive findings."
+  ]
  },
  {
   "n": 32,
@@ -847,7 +972,8 @@ const Q = [
    }
   ],
   "rat": "Red meat, dark leafy greens, and legumes are the iron sources named in the source material. Milk supplies calcium, which actually competes with iron absorption, and unfortified white bread is not an iron source; fortified grains would be, but plain unfortified bread is not.",
-  "strat": "Iron = meat, dark greens, beans. Dairy is a calcium food and blocks iron, not a source."
+  "strat": "Iron = meat, dark greens, beans. Dairy is a calcium food and blocks iron, not a source.",
+  "why": "Red meat, dark leafy greens, and legumes are the iron sources named in the source material. Lean beef, spinach, and beans and chickpeas are all good choices to encourage for this client. Whole milk supplies calcium, which actually competes with iron absorption, making it a poor choice for this goal. Plain, unfortified white bread is not an iron source, though fortified grains would be."
  },
  {
   "n": 33,
@@ -869,7 +995,8 @@ const Q = [
    4
   ],
   "rat": "Vitamin C (orange juice) increases iron absorption; calcium, milk, and antacids should be separated from iron by at least 2 hours; and caffeine blocks iron absorption. Taking iron together with calcium, or washing it down with milk, reduces absorption and reflects the common error this teaching is meant to prevent.",
-  "strat": "Iron loves vitamin C; iron fights calcium and caffeine — separate them."
+  "strat": "Iron loves vitamin C; iron fights calcium and caffeine — separate them.",
+  "why": "Vitamin C from orange juice increases iron absorption, so pairing the supplement with juice is correct. Calcium, milk, and antacids should be separated from iron by at least two hours because they block absorption. Caffeine also blocks iron absorption, so skipping coffee near dose time is correct technique. Taking iron with calcium or milk instead reduces absorption, the common error this teaching prevents."
  },
  {
   "n": 34,
@@ -886,7 +1013,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "Vitamin E supplementation is contraindicated with anticoagulants because it raises bleeding risk, so the priority is to stop and involve the provider — a safety issue. Reassuring the client, coaching absorption, or citing an iron interaction all ignore the dangerous drug–supplement combination.",
-  "strat": "On an anticoagulant, screen any supplement for bleeding risk first — vitamin E adds to it."
+  "strat": "On an anticoagulant, screen any supplement for bleeding risk first — vitamin E adds to it.",
+  "why": "Vitamin E supplementation is contraindicated with anticoagulants because it raises bleeding risk. The priority response is to flag the concern and have the client check with the provider before continuing. This is a safety issue that outweighs any teaching about absorption or storage. A friend's use of the same supplement does not make it safe for someone taking warfarin.",
+  "whyNot": [
+   "Coaching absorption technique with a fatty meal ignores the more urgent bleeding-risk interaction with the client's warfarin.",
+   "Vitamin E is not documented to aid iron absorption, and this response ignores the anticoagulant interaction entirely.",
+   "Being fat-soluble does not make vitamin E safe here. The concern is bleeding risk with warfarin, not storage."
+  ]
  },
  {
   "n": 35,
@@ -903,7 +1036,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "Potassium controls cardiac excitability, and a critical level with an irregular pulse can cause lethal dysrhythmias — an unstable, life-threatening finding that outranks the three teaching needs. The other three are important health-promotion conversations but are stable and not urgent.",
-  "strat": "Unstable/life-threat beats teaching. Potassium swings = heart = act first."
+  "strat": "Unstable/life-threat beats teaching. Potassium swings = heart = act first.",
+  "why": "Potassium controls cardiac excitability and nerve conduction in the heart, so a critical level with an irregular pulse signals life-threatening dysrhythmia risk. This unstable, potentially fatal finding must be addressed immediately, ahead of any stable teaching need. The other three clients are asking important but non-urgent health-promotion questions that can wait.",
+  "whyNot": [
+   "This is an important dietary teaching question, but it is stable and not an immediate safety threat.",
+   "Confirming adequate folate intake is valuable prenatal teaching, but it is not an urgent, unstable finding.",
+   "Asking about vitamin D food sources is routine health teaching, not a time-sensitive or life-threatening concern."
+  ]
  },
  {
   "n": 36,
@@ -933,7 +1072,8 @@ const Q = [
    }
   ],
   "rat": "Calcium carbonate is best absorbed with food because stomach acid produced during eating aids absorption, and vitamin D is required for calcium absorption. Vitamin C boosts iron, not calcium; vitamin K relates to clotting; and taking it on an empty stomach or with an antacid reduces the acid that carbonate needs.",
-  "strat": "Carbonate needs acid — take with food. No vitamin D, no calcium uptake."
+  "strat": "Carbonate needs acid — take with food. No vitamin D, no calcium uptake.",
+  "why": "Calcium carbonate is best absorbed with food because the stomach acid produced during eating helps break it down for absorption. Vitamin D is also required for the body to absorb calcium, so ensuring adequate vitamin D intake is part of this teaching. Vitamin C supports iron absorption rather than calcium, and taking the supplement on an empty stomach or with an antacid reduces the acid it needs."
  },
  {
   "topic": "Fat- vs Water-Soluble Classification",
@@ -969,6 +1109,7 @@ const Q = [
   ],
   "rat": "Fat-soluble vitamins (A, D, E, K) are stored in fat and the liver, depend on dietary fat for absorption, and accumulate to toxic levels with overuse. Water-soluble vitamins (B-complex, C) are not stored, so they need regular intake, and because they dissolve in water they leach into cooking water during boiling. Linking each behavior to whether the vitamin is stored explains every row.",
   "strat": "One word decides each row: 'stored' = fat-soluble; 'not kept / lost in water' = water-soluble.",
+  "why": "Fat-soluble vitamins (A, D, E, K) are stored in fat and the liver and depend on dietary fat for absorption. This storage is also why they can accumulate to toxic levels with overuse. Water-soluble vitamins (B-complex and C) are not retained by the body, so they need regular intake. Because they dissolve in water, they leach into cooking water during boiling.",
   "n": 37
  },
  {
@@ -986,6 +1127,12 @@ const Q = [
   "ans": 3,
   "rat": "Fat-soluble vitamins (A, D, E, K) are stored in fat and the liver, so intake above the upper limit accumulates and can cause toxicity, much like a drug's pharmacologic effect. Water-soluble vitamins are not stored and are cleared in the urine, so they rarely reach toxic levels. The absorption-speed and protein-binding options are not the mechanism, and it is the fat-soluble group — not water-soluble — that is stored.",
   "strat": "Toxicity follows storage: the vitamins the body holds onto (fat-soluble) are the ones that can build up.",
+  "why": "Fat-soluble vitamins (A, D, E, K) are stored in fat and the liver, so intake above the upper limit accumulates in tissue. This buildup works much like a drug accumulating toward a pharmacologic effect. Water-soluble vitamins are not stored and are cleared in the urine, so they rarely reach toxic levels. Storage, not absorption speed or protein binding, is the mechanism that explains this difference in toxicity risk.",
+  "whyNot": [
+   "Water-soluble vitamins are not stored in the liver. They are cleared in the urine rather than accumulating there.",
+   "Protein binding is not the mechanism described here. Toxicity risk in this comparison is driven by tissue storage.",
+   "Absorption speed is not the mechanism at issue. Fat-soluble vitamins' storage is what drives their toxicity risk."
+  ],
   "n": 38
  },
  {
@@ -1009,6 +1156,7 @@ const Q = [
   ],
   "rat": "Because water-soluble vitamins are not stored, regular intake is needed, and because they dissolve in water and are heat-sensitive, gentler methods (steaming, microwaving), reusing cooking water, and avoiding overcooking all reduce losses. The option claiming reserves last for weeks describes fat-soluble storage and is false for this group, so skipping these foods for days risks deficiency.",
   "strat": "Water-soluble = dissolves and isn't stored, so the false choice is any that treats them like a stored reserve.",
+  "why": "Because water-soluble vitamins are not stored, regular intake of these foods is needed to maintain adequate levels. Since they dissolve in water and are heat-sensitive, steaming or microwaving, reusing cooking water, and avoiding overcooking all reduce losses. The option claiming reserves last for weeks describes fat-soluble storage, not this group, so skipping these foods for days risks deficiency.",
   "n": 39
  },
  {
@@ -1026,6 +1174,12 @@ const Q = [
   "ans": 2,
   "rat": "Fat-soluble vitamins require dietary fat to be absorbed, so pairing the supplement with a meal containing some fat improves uptake — especially important when the habitual diet is very low in fat. Taking it on an empty stomach, dissolved in water, or hours away from any fat all limit absorption of this group; those approaches fit water-soluble vitamins instead.",
   "strat": "Fat-soluble vitamins need a ride on fat — pair the dose with a meal that has some.",
+  "why": "Fat-soluble vitamins A, D, E, and K need dietary fat to be absorbed, so pairing the supplement with a meal containing some fat improves uptake. This matters most for this client, whose very-low-fat diet otherwise limits absorption of these vitamins.",
+  "whyNot": [
+   "Dissolving it in water and drinking between meals keeps the supplement away from any dietary fat, so absorption of these vitamins stays poor.",
+   "Taking it alone at bedtime, hours after eating, means no fat is present in the gut to help these vitamins absorb.",
+   "An empty stomach provides no fat for these vitamins to dissolve into, so this timing works against absorption rather than aiding it."
+  ],
   "n": 40
  },
  {
@@ -1043,6 +1197,12 @@ const Q = [
   "ans": 1,
   "rat": "Dietary supplements are not intended to diagnose, treat, prevent, or cure disease and cannot legitimately make claims such as preventing heart disease, and the preferred source of vitamins is a variety of whole foods. The other responses are wrong because disease claims do not signal testing, fat-soluble vitamins can reach toxic levels in excess, and supplements are not regulated as strictly as drugs.",
   "strat": "Food first, and any supplement promising to 'prevent' or 'cure' disease is overstepping what supplements may claim.",
+  "why": "Dietary supplements are not permitted to claim they diagnose, treat, prevent, or cure disease, so a claim like preventing heart disease is not legitimate. A varied diet built from whole foods remains the preferred and safest source of vitamins for this client.",
+  "whyNot": [
+   "A printed health claim on a supplement label does not indicate the product was rigorously tested, since such disease-prevention claims are not actually permitted.",
+   "Dietary supplements are not held to the same rigorous testing and approval standards as prescription drugs, so their labeled claims are not reliable.",
+   "Fat-soluble vitamins can reach toxic levels when taken in excess, so assuming more vitamins are always harmless is inaccurate and potentially dangerous."
+  ],
   "n": 41
  },
  {
@@ -1060,6 +1220,12 @@ const Q = [
   "ans": 0,
   "rat": "Neural tube closure occurs in the first 3-4 weeks, often before pregnancy is confirmed, so folic acid must be adequate at conception. Calcium, vitamin C, and vitamin D are all needed in pregnancy but do not prevent neural tube defects, and timing them preconception is not the priority.",
   "strat": "Folic acid = neural tube = start BEFORE conception; the early-timing nutrient is the answer.",
+  "why": "Neural tube closure occurs in the first 3 to 4 weeks, often before pregnancy is confirmed, so folic acid must be adequate at conception. That is why folic acid should start before conception rather than after pregnancy is already underway.",
+  "whyNot": [
+   "Vitamin C aids iron absorption, but iron needs are not the preconception priority, and timing it before conception offers no special benefit.",
+   "Vitamin D supports calcium absorption, which matters throughout pregnancy, but it does not prevent neural tube defects and is not the earliest priority.",
+   "Calcium builds fetal bones and teeth throughout pregnancy, but it is not the nutrient tied to the critical early window before conception."
+  ],
   "n": 42
  },
  {
@@ -1083,6 +1249,12 @@ const Q = [
   ],
   "rat": "Unpasteurized cheese, raw fish, and raw sprouts/dough carry Listeria, Salmonella, or other pathogens that endanger the fetus. Thoroughly cooked roast beef, pasteurized juice, and cooked eggs/pasteurized yogurt are safe and encouraged sources of protein, iron, calcium, and vitamin D — they are distractors because the client may overgeneralize 'avoid meat, juice, eggs, and dairy.'",
   "strat": "Raw or unpasteurized = avoid; fully cooked and pasteurized = safe.",
+  "why": "Raw fish, unpasteurized cheese, and raw sprouts or dough all carry Listeria, Salmonella, or other pathogens that can cross the placenta and harm the fetus. These specific foods are avoided in pregnancy because they are eaten without a kill step for the organisms they carry.",
+  "whyNot": [
+   "Hard-boiled eggs and pasteurized yogurt are fully cooked or pasteurized, so they carry no listed risk and remain good sources of protein and calcium.",
+   "Pasteurized fortified orange juice has already had the pasteurization kill step applied, making it a safe source of vitamin C and folate.",
+   "Roast beef cooked to a safe internal temperature has eliminated the pathogens of concern and is an encouraged source of protein and iron."
+  ],
   "n": 43
  },
  {
@@ -1119,6 +1291,7 @@ const Q = [
   ],
   "rat": "Iron-fortified formula and iron-rich solids near 6 months meet the infant's high iron needs. Honey is avoided before 1 year (risk of infant botulism), cow's milk before 1 year (poor digestion, low iron and vitamin C), and diluting formula causes water intoxication (hyponatremia, seizures). The 'small taste' and 'main drink' wording models how parents rationalize unsafe practices.",
   "strat": "Before age 1: no honey, no cow's milk, never dilute formula.",
+  "why": "Iron-fortified formula and iron-rich solids introduced around 6 months meet the infant's sharply rising iron needs. Honey is unsafe before 12 months due to infant botulism risk. Cow's milk before 12 months is poorly digested and low in iron and vitamin C. Diluting formula causes water intoxication, with hyponatremia and seizures.",
   "n": 44
  },
  {
@@ -1143,6 +1316,11 @@ const Q = [
   ],
   "rat": "Low hemoglobin/hematocrit, exertional fatigue, a folate-poor diet, and no prenatal vitamin are all concerning cues pointing to anemia and inadequate folate intake. The BP and temperature are within normal limits and serve as normal-finding distractors.",
   "strat": "Sort each cue normal vs. abnormal on its own; only flag what falls outside expected.",
+  "why": "Fatigue with exertional shortness of breath, a folate-poor diet, low hemoglobin/hematocrit, and no prenatal vitamin together point to anemia with inadequate folate intake. Each finding falls outside what is expected for this stage of pregnancy. Together they justify follow-up before the plan of care is finalized.",
+  "whyNot": [
+   "A blood pressure of 116/72 mm Hg is within normal limits for pregnancy and is not a concerning finding requiring follow-up.",
+   "An afebrile temperature indicates no fever or infection, so this finding is normal and does not add to the current concerns."
+  ],
   "n": 45
  },
  {
@@ -1160,6 +1338,12 @@ const Q = [
   "ans": 3,
   "rat": "A hemoglobin of 9.8 g/dL with symptoms plus a diet lacking iron- and folate-rich foods points to iron-deficiency anemia with poor folate intake. Physiologic hemodilution lowers values mildly but not to symptomatic 9.8 g/dL; gestational diabetes and hyperemesis are not supported by these cues (no glucose abnormality, no vomiting/weight loss).",
   "strat": "Link the cues — low Hgb + symptoms + nutrient-poor diet names the deficiency, not a normal variant.",
+  "why": "A hemoglobin of 9.8 g/dL with exertional fatigue, plus a diet lacking iron- and folate-rich foods, points to iron-deficiency anemia with poor folate intake. Physiologic hemodilution of pregnancy lowers values only mildly, not to a symptomatic level this low. The cues together name a nutritional deficiency, not a normal variant of pregnancy.",
+  "whyNot": [
+   "Hemodilution is an expected pregnancy change, but it does not explain a hemoglobin this low combined with symptomatic fatigue.",
+   "Hyperemesis gravidarum involves severe nausea and vomiting, which are not present here, so this diagnosis does not fit the cues.",
+   "Gestational diabetes is diagnosed by glucose abnormalities, and none appear in this client's labs or history."
+  ],
   "n": 46
  },
  {
@@ -1177,6 +1361,12 @@ const Q = [
   "ans": 0,
   "rat": "Although neural tube closure peaks earlier, organogenesis continues and the client is still early in pregnancy with a folate-poor diet and untreated anemia, making inadequate folate the highest-priority, time-sensitive fetal risk. Postpartum weight, bone density, and sleep are real but lower-acuity and not the immediate fetal threat.",
   "strat": "Prioritize the time-sensitive fetal risk over maternal comfort or long-term concerns.",
+  "why": "Although neural tube closure peaks earlier in gestation, organogenesis continues, and this client is still early in pregnancy with a folate-poor diet and untreated anemia. That combination makes inadequate folate intake the highest-priority, time-sensitive risk to the developing fetus. The other concerns matter but are lower-acuity and not urgent for the fetus right now.",
+  "whyNot": [
+   "Postpartum weight retention is a real long-term concern, but it does not threaten the fetus during this pregnancy.",
+   "Bone density loss from low calcium develops gradually over years, not urgently within this pregnancy.",
+   "Caffeine affecting sleep is a maternal comfort issue, not a time-sensitive risk to fetal development."
+  ],
   "n": 47
  },
  {
@@ -1219,6 +1409,12 @@ const Q = [
   },
   "rat": "The problem is iron-deficiency anemia with low folate; appropriate actions are a prenatal vitamin (folic acid + iron) and teaching iron-rich foods with vitamin C to boost absorption. Monitor hemoglobin/hematocrit and dietary intake. Restricting protein and adding milk with iron are plausible-sounding errors (protein is needed; calcium blunts iron). Ketones and reflexes track conditions this client does not have.",
   "strat": "Bowtie: name the deficiency, fix it (supplement + absorption-smart diet), then track the labs and the intake you changed.",
+  "why": "The central problem is iron-deficiency anemia with low folate intake. Appropriate actions are starting a prenatal vitamin supplying folic acid and iron, and teaching iron-rich foods paired with vitamin C to boost absorption. Hemoglobin/hematocrit and dietary intake are the parameters to monitor as the plan takes effect.",
+  "whyNot": [
+   "Restricting protein intake is a plausible-sounding error, but protein is still needed to support fetal growth during pregnancy.",
+   "Adding a milk-based calcium supplement alongside iron seems logical but calcium actually blunts iron absorption when taken together.",
+   "Checking urine ketones or deep tendon reflexes are appropriate assessments for other conditions this client does not have."
+  ],
   "n": 48
  },
  {
@@ -1242,6 +1438,12 @@ const Q = [
   ],
   "rat": "A prenatal vitamin, folate-rich foods, and iron taken with vitamin C directly address the deficiencies. Taking iron with calcium reduces absorption; substituting coffee for meals worsens intake; and increasing caffeine further impairs iron absorption — all realistic but wrong choices a fatigued client might make.",
   "strat": "Keep actions that raise iron/folate and aid absorption; drop anything that competes with iron or skips meals.",
+  "why": "Taking iron with orange juice rather than milk boosts absorption through its vitamin C. The prenatal vitamin supplies both folic acid and iron in one daily dose. Folate-rich foods like leafy greens and citrus directly raise the nutrient this client is lacking.",
+  "whyNot": [
+   "Increasing coffee intake to four or more cups actually impairs iron absorption further and does not address the underlying deficiency.",
+   "Replacing meals with coffee skips the nutrients from food entirely and worsens both iron and folate intake.",
+   "Taking iron together with a calcium supplement reduces how much iron the body can absorb from that dose."
+  ],
   "n": 49
  },
  {
@@ -1259,6 +1461,12 @@ const Q = [
   "ans": 2,
   "rat": "A hemoglobin rise toward normal plus a consistently iron- and folate-rich diet shows the plan worked. The other options are realistic partial or false improvements: inconsistent dosing barely moved the value, stopping iron for a side effect undermines treatment, and feeling better from more caffeine masks an unchanged lab while worsening iron absorption.",
   "strat": "Success = the lab improved AND the behavior that fixed it is sustained; feeling better alone isn't proof.",
+  "why": "A hemoglobin rise toward the normal range, paired with a consistently iron- and folate-rich diet, shows this client's treatment plan is working. Both the lab value and the sustained behavior have to move together for the plan to count as effective.",
+  "whyNot": [
+   "Stopping the iron for a side effect undermines the treatment itself, even though feeling less bloated sounds like improvement.",
+   "A hemoglobin of only 10.0 g/dL with inconsistent dosing shows the plan barely moved the value at all.",
+   "Feeling better from more caffeine masks an unchanged lab value while further worsening iron absorption."
+  ],
   "n": 50
  },
  {
@@ -1276,7 +1484,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "Food jags and reduced intake are normal as growth slows after toddlerhood; the parent should offer variety and let the child self-regulate amount, since steady growth shows needs are met. Forcing a child to clean the plate undermines self-regulation, a vitamin does not fix an eating pattern, and grazing on a preferred snack between meals reinforces the jag and spoils appetite for balanced meals.",
-  "strat": "Steady growth + normal toddler pickiness = reassure and offer variety; don't force, bribe, or graze."
+  "strat": "Steady growth + normal toddler pickiness = reassure and offer variety; don't force, bribe, or graze.",
+  "why": "Food jags and reduced intake are a normal part of toddler development as growth slows after infancy. This child's steady growth along the 50th percentile confirms his needs are being met. The parent should keep offering variety and let him self-regulate how much he eats.",
+  "whyNot": [
+   "Forcing a child to clean the plate overrides his ability to self-regulate and can create mealtime power struggles.",
+   "A multivitamin does not fix an eating pattern and does not address why the child is refusing meals.",
+   "Offering a preferred snack between meals reinforces the food jag and spoils appetite for balanced meals later."
+  ]
  },
  {
   "n": 52,
@@ -1300,7 +1514,12 @@ const Q = [
    5
   ],
   "rat": "Round, firm, or hard foods that match the size of a toddler's airway are the classic high-risk choking foods: whole grapes, hot dogs cut into rounds (which form a plug), popcorn, and whole nuts. Grapes and hot dogs should be cut lengthwise into small pieces. Mashed sweet potato and yogurt are soft, smooth textures that pose no choking risk.",
-  "strat": "Choking risk = round, firm, slippery, airway-sized — grapes, hot dogs, nuts, popcorn; soft/mashed is safe."
+  "strat": "Choking risk = round, firm, slippery, airway-sized — grapes, hot dogs, nuts, popcorn; soft/mashed is safe.",
+  "why": "Whole nuts, whole grapes, hot dog rounds, and popcorn are round, firm, airway-shaped foods that classically plug a toddler's airway. Grapes and hot dogs need to be cut lengthwise into small pieces rather than served whole or in rounds. Popcorn and whole nuts are avoided entirely at this age rather than modified.",
+  "whyNot": [
+   "Mashed sweet potato is a soft, smooth texture with no round or firm pieces, so it poses no choking risk.",
+   "Plain whole-milk yogurt is a smooth, easily swallowed food that does not need to be modified for choking safety."
+  ]
  },
  {
   "n": 53,
@@ -1317,7 +1536,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "Eating breakfast daily is linked to better academic performance and behavior, and sugar-sweetened beverages are a leading source of empty calories in children, so adding breakfast and cutting the sodas targets the two highest-yield problems explaining the fatigue and inattention. A fiber supplement, a chip swap, and a calcium tablet address lower-priority or unrelated concerns and do not fix the missed morning meal or the sugar load.",
-  "strat": "School-age red flags: skipped breakfast + sugary drinks — fix those before fine-tuning snacks."
+  "strat": "School-age red flags: skipped breakfast + sugary drinks — fix those before fine-tuning snacks.",
+  "why": "Eating breakfast daily is linked to better academic performance and behavior, and sugar-sweetened sodas are a leading source of empty calories in children. Adding a daily breakfast and cutting the two sodas targets the two highest-yield problems behind this child's fatigue and inattention at school.",
+  "whyNot": [
+   "A fiber supplement might help bowel regularity, but it does not address the missed breakfast or the sugar load driving the fatigue.",
+   "A chewable calcium tablet does not fix the missed morning meal or the two daily sodas contributing to inattention.",
+   "Swapping to baked chips improves a lower-priority snack choice but leaves the skipped breakfast and sugary drinks unaddressed."
+  ]
  },
  {
   "n": 54,
@@ -1347,7 +1572,8 @@ const Q = [
    }
   ],
   "rat": "Calcium and vitamin D together are critical during adolescence because nearly all bone mass is laid down by age 18; vitamin D drives calcium absorption. Menstruating adolescent females are at elevated risk for iron deficiency, and iron supports growth, blood volume, immunity, and cognitive development. Vitamin C, K, zinc, and folate matter generally but are not the targeted answers here.",
-  "strat": "Teen bone mass = calcium + vitamin D; menstruating teen = watch iron."
+  "strat": "Teen bone mass = calcium + vitamin D; menstruating teen = watch iron.",
+  "why": "Calcium and vitamin D together are critical during adolescence because nearly all bone mass is laid down by age 18. Vitamin D drives how well that calcium gets absorbed into bone. Because this client is menstruating, iron becomes the second priority, since it supports growth, blood volume, immunity, and cognitive development."
  },
  {
   "n": 55,
@@ -1383,7 +1609,8 @@ const Q = [
    }
   ],
   "rat": "Increased appetite during a growth spurt and an occasional vegetarian meal are normal. Self-induced behaviors and warning signs of an eating disorder include disappearing to the bathroom after eating (possible purging), concealing the body and avoiding eating around others, and amenorrhea from low energy availability, which is a recognized complication of weight-control practices in lean-sport athletes. These warrant nonjudgmental further assessment.",
-  "strat": "Eating-disorder red flags: bathroom after meals, hiding the body, amenorrhea — appetite and a veggie lunch are normal."
+  "strat": "Eating-disorder red flags: bathroom after meals, hiding the body, amenorrhea — appetite and a veggie lunch are normal.",
+  "why": "Increased appetite during a growth spurt and an occasional vegetarian meal are both normal adolescent variations and not warning signs. Disappearing to the bathroom after eating, concealing the body, and avoiding eating around others are recognized warning signs. Amenorrhea from low energy availability is a known complication in lean-sport athletes and also warrants assessment."
  },
  {
   "n": 56,
@@ -1400,7 +1627,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "Family-based interventions are the evidence-based approach: the family environment shapes a child's eating attitudes and behaviors, so changing meals and activity for the whole household supports the child without shaming or singling them out. Isolating the child on a restrictive diet, mandating daily self-weighing and food logging, and skipping meals are stigmatizing or unsafe and can promote disordered eating in a growing child.",
-  "strat": "Childhood obesity teaching is family-wide and non-shaming — never isolate or starve the child."
+  "strat": "Childhood obesity teaching is family-wide and non-shaming — never isolate or starve the child.",
+  "why": "Family-based intervention is the evidence-based approach to childhood overweight because the family environment shapes a child's eating attitudes and behaviors. Changing meals and activity for the whole household supports this 10-year-old without singling him out or shaming him for his weight.",
+  "whyNot": [
+   "Limiting a growing child to one meal a day is unsafe restriction that can trigger disordered eating patterns.",
+   "Mandating daily self-weighing and food logging places adult-level scrutiny on a child and can promote body shame.",
+   "Isolating the child on a separate restrictive diet singles him out from the family and can feel stigmatizing."
+  ]
  },
  {
   "n": 57,
@@ -1417,7 +1650,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "The Guidelines emphasize small shifts toward nutrient-dense foods, more produce, and less refined grains, added sugar, and sodium to lower diet-related chronic disease risk. Eliminating all fat and piling on grains misapplies the guidance; skipping meals on a high-protein plan is a fad approach, not a balanced pattern; a supplement does not fix an unbalanced base diet.",
-  "strat": "Chronic-disease prevention = shift the whole eating pattern toward nutrient density, not one magic fix."
+  "strat": "Chronic-disease prevention = shift the whole eating pattern toward nutrient density, not one magic fix.",
+  "why": "The Dietary Guidelines for Americans emphasize small, sustainable shifts toward nutrient-dense foods, including more produce and less refined grain, added sugar, and sodium. For this sedentary, overweight client, that whole-pattern shift is the recommended first step to lower chronic-disease risk.",
+  "whyNot": [
+   "A multivitamin does not fix an unbalanced base diet, and it leaves the actual eating pattern unchanged.",
+   "Skipping meals on a very high-protein plan is a fad approach, not the balanced pattern the guidelines recommend.",
+   "Eliminating nearly all fat and adding extra grains misapplies the guidance and does not target the sugar or sodium problem."
+  ]
  },
  {
   "n": 58,
@@ -1456,7 +1695,8 @@ const Q = [
    }
   ],
   "rat": "With aging, metabolism and energy needs decline while requirements for most nutrients stay the same or rise, so each calorie must carry more nutrition; nutrient-dense foods meet needs without excess calories. Larger portions or refined grains add calories without proportional nutrients, widening the mismatch.",
-  "strat": "Aging = fewer calories, same/more nutrients, so every bite has to count (nutrient density)."
+  "strat": "Aging = fewer calories, same/more nutrients, so every bite has to count (nutrient density).",
+  "why": "As people age, total daily calorie needs generally decline while the requirement for most vitamins and minerals stays the same or even increases. Because of this mismatch, this 77-year-old client should prioritize nutrient-dense foods so that every calorie consumed still delivers adequate vitamins and minerals."
  },
  {
   "n": 59,
@@ -1473,7 +1713,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "Older adults have a blunted thirst sensation, so they under-drink and slip into dehydration before noticing, which matches this client's findings. Glomerular filtration falls with age rather than rising, thirst is decreased rather than heightened, and metabolic rate declines rather than climbing.",
-  "strat": "Old + confused + dry membranes = think dehydration; the missing thirst cue is the trap."
+  "strat": "Old + confused + dry membranes = think dehydration; the missing thirst cue is the trap.",
+  "why": "Older adults develop a blunted thirst sensation, so they under-drink and slip into dehydration before they consciously notice it. That mechanism matches this 80-year-old's new confusion, dry mucous membranes, and dark concentrated urine after living alone and forgetting to drink.",
+  "whyNot": [
+   "Glomerular filtration rate actually falls with age rather than rising, so it does not explain this presentation.",
+   "Metabolic rate declines with age rather than climbing, so an elevated rate is not the mechanism at work here.",
+   "Thirst is decreased rather than heightened in older adults, so this option describes the opposite of what actually happens."
+  ]
  },
  {
   "n": 60,
@@ -1497,7 +1743,12 @@ const Q = [
    5
   ],
   "rat": "Social isolation, food insecurity on a fixed income, chewing problems, and polypharmacy with xerostomic or appetite-suppressing side effects all reduce intake and raise malnutrition risk in older adults. Regular social meals with neighbors and a well-stocked variety of food are protective, not risk factors.",
-  "strat": "Elder malnutrition is mostly social and functional: isolation, money, teeth, meds. The two protective options are the odd ones out."
+  "strat": "Elder malnutrition is mostly social and functional: isolation, money, teeth, meds. The two protective options are the odd ones out.",
+  "why": "Social isolation, food insecurity on a fixed income, chewing problems from missing teeth, and polypharmacy causing dry mouth or low appetite all reduce food intake. Each factor interferes with either the ability or the desire to eat enough, raising this older adult's malnutrition risk.",
+  "whyNot": [
+   "Walking daily with neighbors and sharing weekend meals is a social, protective habit, not a malnutrition risk factor.",
+   "A home stocked with a variety of fresh and frozen foods supports adequate nutrition rather than threatening it."
+  ]
  },
  {
   "n": 61,
@@ -1514,7 +1765,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "Aging reduces the ability to absorb and synthesize nutrients, leaving older adults at particular risk for inadequate vitamin B12 and vitamin D. Vitamins C and K, niacin/biotin, and sodium/chloride are not the classic at-risk nutrients of aging, and sodium is more often consumed in excess.",
-  "strat": "Older-adult deficiency pair to memorize: B12 and D."
+  "strat": "Older-adult deficiency pair to memorize: B12 and D.",
+  "why": "Aging reduces the body's ability to absorb and synthesize nutrients, which leaves older adults particularly prone to inadequate vitamin B12 and vitamin D. These two are the classic pairing nurses should highlight when teaching this 75-year-old about age-related deficiency risk.",
+  "whyNot": [
+   "Vitamin C and vitamin K are not the nutrients classically tied to age-related absorption and synthesis decline.",
+   "Sodium and chloride are minerals that older adults more often over-consume, not fall short on with aging.",
+   "Niacin and biotin are not the classic at-risk nutrient pair associated with the aging process."
+  ]
  },
  {
   "n": 62,
@@ -1531,7 +1788,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "Coughing and a wet, gurgly voice after thin liquids are warning signs of dysphagia and aspiration risk; a swallowing evaluation guides safe texture modification and must come before more oral intake (safety, assess-before-intervene). Pushing thin liquids, reclining while eating, and hard raw foods each increase aspiration or choking risk.",
-  "strat": "Wet voice + cough after liquids = dysphagia red flag; stop and get a swallow eval before feeding more."
+  "strat": "Wet voice + cough after liquids = dysphagia red flag; stop and get a swallow eval before feeding more.",
+  "why": "Coughing and a wet, gurgly voice after thin liquids are warning signs of dysphagia and aspiration risk in this client with Parkinson's disease. A formal swallowing evaluation must come before offering more oral intake so any texture modification is based on the client's actual ability.",
+  "whyNot": [
+   "Reclining at only 30 degrees during eating actually increases aspiration risk rather than easing safe swallowing for this client.",
+   "Pushing more thin liquids is exactly what triggered the coughing and wet voice, so it raises aspiration risk further.",
+   "Hard raw vegetables are a choking hazard for a client already showing swallowing difficulty, not a safe strengthening tool."
+  ]
  },
  {
   "n": 63,
@@ -1548,7 +1811,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "Raw fish in pregnancy carries a real, immediate risk to mother and fetus (Listeria, mercury, parasites), so the pregnant client with an active harmful behavior is the current problem needing follow-up first. The dairy-avoiding child and the vegetable-refusing child are at risk for deficiency over time but are still being offered adequate alternatives, and the healthy parent has no nutritional concern.",
-  "strat": "Acute, active harm to two clients (mother + fetus) outranks a slow-developing single-nutrient risk."
+  "strat": "Acute, active harm to two clients (mother + fetus) outranks a slow-developing single-nutrient risk.",
+  "why": "Raw fish in pregnancy carries an immediate risk to both the pregnant client and the fetus from Listeria, mercury, and parasites. That makes this an active, current harm rather than a slowly developing one, so she needs the nurse's follow-up first.",
+  "whyNot": [
+   "The healthy 34-year-old parent eating a balanced, varied diet has no nutritional concern that needs follow-up at all.",
+   "The dairy-avoiding child is at risk for a slow-developing calcium shortfall, but is still being offered adequate alternative foods.",
+   "The vegetable-refusing child still eats fruit, so this is a slow, single-nutrient risk rather than an acute problem."
+  ]
  },
  {
   "n": 64,
@@ -1565,7 +1834,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "Effective teaching pairs the safety rule (avoid raw fish in pregnancy) with the client's culture by adapting dishes to cooked versions, supporting both adherence and cultural identity. Telling her to give up the dishes entirely is unnecessary since cooked versions are safe; permitting small or weekly amounts of raw fish is still unsafe; and endorsing continued raw fish ignores the fetal risk.",
-  "strat": "Best teaching keeps the client's culture while changing only the unsafe part - adapt, don't forbid."
+  "strat": "Best teaching keeps the client's culture while changing only the unsafe part - adapt, don't forbid.",
+  "why": "Effective teaching pairs the safety rule against raw fish in pregnancy with this client's stated cultural identity by adapting her favorite dishes into cooked versions. That approach supports both adherence to the food-safety guidance and respect for the family traditions she named.",
+  "whyNot": [
+   "Endorsing continued raw fish consumption ignores the real risk it poses to the developing fetus.",
+   "Permitting small or weekly amounts of raw fish is still unsafe, since the risk is not dose-dependent in that way.",
+   "Telling her to give up the dishes entirely is unnecessarily harsh since cooked versions are a safe substitute."
+  ]
  },
  {
   "n": 65,
@@ -1601,7 +1876,8 @@ const Q = [
    }
   ],
   "rat": "Simplifying meals and allowing extra time fits dementia care; fortified foods meet the dairy-avoiding child's calcium needs; and culturally adapted DASH teaching supports the older adult with hypertension. Withholding preferred foods as leverage creates power struggles and is not recommended for children, and encouraging added salt directly contradicts the low-sodium goal for hypertension.",
-  "strat": "Tailor to the stage: simplify for dementia, fortify for the picky eater, and never use food as a bargaining chip with kids."
+  "strat": "Tailor the stage: simplify for dementia, fortify for the picky eater, never bargain with food with kids.",
+  "why": "Simplifying meals and allowing extra time fits dementia care. Fortified foods meet a dairy-avoiding child's calcium needs. Culturally adapted DASH teaching supports an older adult managing hypertension. Withholding preferred foods as leverage creates power struggles and is not recommended with children, and encouraging added salt directly contradicts a low-sodium goal."
  },
  {
   "n": 66,
@@ -1625,7 +1901,12 @@ const Q = [
    3
   ],
   "rat": "DASH emphasizes fruits, vegetables, whole grains, and low-fat dairy while allowing red meat and sweets in small amounts, and adapting it to culture improves adherence. Refitting dentures supports chewing and intake in an older adult. Eliminating all dairy is wrong - low-fat dairy is a DASH component - and adding table salt undermines the low-sodium goal.",
-  "strat": "DASH limits sodium, not dairy; fix the dentures so the older adult can actually eat the plan."
+  "strat": "DASH limits sodium, not dairy; fix the dentures so the older adult can actually eat the plan.",
+  "why": "DASH emphasizes fruits, vegetables, whole grains, and low-fat dairy while still allowing red meat and sweets in small amounts. Adapting the plan to this client's culture improves his adherence to it. Refitting his dentures also supports his ability to actually chew the foods DASH requires.",
+  "whyNot": [
+   "Eliminating all dairy is incorrect since low-fat dairy is a core DASH component, not something the plan removes.",
+   "Adding table salt for flavor directly undermines the low-sodium goal that DASH is built around."
+  ]
  },
  {
   "n": 67,
@@ -1642,7 +1923,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "A modest first-trimester gain followed by roughly 1 pound per week, totaling about 33 pounds, falls within the normal range for a single pregnancy, and avoiding raw fish shows the safety teaching worked - so the plan is effective and should be reinforced. The total is not excessive, the early gain is normal rather than a growth emergency, and avoiding raw fish is the desired outcome, not a failure.",
-  "strat": "On an outcome question, compare the data to the expected pattern before calling it a problem - normal weight gain plus a safe diet equals success."
+  "strat": "On an outcome question, compare the data to the expected pattern before calling it a problem.",
+  "why": "A modest 4-pound first-trimester gain followed by about a pound per week, totaling 33 pounds, falls within the normal range for this pregnancy. Combined with her avoidance of raw fish, this shows the teaching worked and current habits should be reinforced.",
+  "whyNot": [
+   "The weight gain here is normal, and avoiding raw fish is exactly the desired outcome, not a teaching failure.",
+   "A total gain of about 33 pounds falls within the normal range and is not excessive for this pregnancy.",
+   "A modest early gain followed by steady weekly weight gain is a normal pattern, not a growth emergency."
+  ]
  },
  {
   "topic": "Iron Needs Across the Lifespan",
@@ -1659,6 +1946,12 @@ const Q = [
   "ans": 0,
   "rat": "Pregnancy carries the highest recommended iron intake (27 mg) because iron supports the expanded maternal blood volume and the developing fetus. The adolescent female (15 mg) is high but second; the toddler (7 mg) is comparatively low; and reduced absorption in older adults raises intake needs in theory but the recommendation actually drops to 8 mg.",
   "strat": "When a need peaks, ask what physiologic demand is being added — pregnancy adds a whole second circulation.",
+  "why": "Pregnancy carries the highest recommended iron intake, 27 mg daily, because iron must support both the expanded maternal blood volume and the developing fetus. The 16-year-old female's 15 mg is high but second, while the toddler's 7 mg and the 70-year-old man's 8 mg are comparatively low.",
+  "whyNot": [
+   "The adolescent female's iron need is high at 15 mg, but it is still lower than the pregnant client's 27 mg.",
+   "Reduced absorption in older adults raises need in theory, but the actual recommendation drops to 8 mg after age 50.",
+   "The toddler's need is comparatively low at 7 mg, well below what pregnancy or adolescence requires."
+  ],
   "n": 68
  },
  {
@@ -1698,6 +1991,7 @@ const Q = [
   ],
   "rat": "Female iron need rises from 7 mg (toddler) to 15 mg (14–18 yr), roughly doubling, then drops to 8 mg at age 51+ as menstrual losses end. The elevated requirement through the reproductive years is driven chiefly by recurring menstrual blood loss, not by acid changes or activity level.",
   "strat": "Track a single nutrient up and down the age columns — the inflection points reveal the physiology.",
+  "why": "Recommended iron intake for females roughly doubles, rising from 7 mg in the toddler years to 15 mg by mid-adolescence. It then drops to 8 mg after age 51 as menstrual losses end. The elevated requirement across the reproductive years is driven chiefly by recurring menstrual blood loss, not by stomach-acid changes or activity level.",
   "n": 69
  },
  {
@@ -1721,6 +2015,10 @@ const Q = [
   ],
   "rat": "The four higher-risk groups span the lifespan and share weakened or altered defenses: young children (developing immunity, less stomach acid), older adults (declining immunity, slowed peristalsis, reduced liver/kidney clearance), the immunocompromised, and pregnant clients (altered immunity plus fetal risk). A healthy young adult is not in a designated high-risk group.",
   "strat": "Foodborne risk clusters at the extremes of age and wherever defenses are altered — pregnancy and immune suppression.",
+  "why": "Young children, older adults, immunocompromised clients such as those on chemotherapy, and pregnant clients all share weakened or altered defenses against foodborne pathogens. Children have developing immunity and less stomach acid, older adults have declining immunity and slower peristalsis, and pregnancy alters immunity while adding fetal risk.",
+  "whyNot": [
+   "A healthy, active 25-year-old has normal, intact immune defenses and is not in any designated high-risk group."
+  ],
   "n": 70
  },
  {
@@ -1738,6 +2036,12 @@ const Q = [
   "ans": 3,
   "rat": "Choking can occur at any age, but risk concentrates at two ends of the lifespan: toddlers, whose chewing and swallowing skills are still developing, and older adults, in whom advanced age and coexisting conditions raise both the likelihood and the lethality of an event. It is not limited to toddlers, nor does it peak in school-age children or middle adulthood.",
   "strat": "When risk is 'U-shaped' across age, name the distinct mechanism at each end rather than picking one group.",
+  "why": "Choking risk concentrates at two ends of the lifespan for different reasons. Toddlers are still developing chewing and swallowing skills. Older adults face elevated risk because advanced age and coexisting conditions raise both the likelihood and the lethality of an event. Naming both groups and their distinct mechanisms best fits this U-shaped pattern.",
+  "whyNot": [
+   "Risk does not climb steadily with age or peak in middle adulthood, since it is elevated at both ends of life instead.",
+   "Choking is not limited to toddlers, since older adults also face elevated risk, just from different underlying causes.",
+   "School-age children are not the peak-risk group, and risk does not simply decline afterward through adulthood."
+  ],
   "n": 71
  },
  {
@@ -1755,6 +2059,12 @@ const Q = [
   "ans": 1,
   "rat": "WIC is the program targeted to a specific lifespan window — low-income pregnant, breastfeeding, and postpartum women, plus infants and children up to age 5 at nutritional risk — providing supplemental foods, referrals, and nutrition education. NSLP serves school-age children, while SNAP and TEFAP address food insecurity broadly without targeting this stage.",
   "strat": "Match the program to the life stage in its name — WIC literally names Women, Infants, and Children.",
+  "why": "WIC is the federal program targeted specifically to this client's life stage. It serves low-income pregnant, breastfeeding, and postpartum women, along with infants and children up to age 5 who are at nutritional risk. It provides supplemental foods, healthcare referrals, and nutrition education matched to pregnancy and early childhood.",
+  "whyNot": [
+   "TEFAP distributes emergency food broadly through food banks but does not target this pregnancy-and-infancy life stage specifically.",
+   "SNAP addresses general food insecurity for grocery purchases but is not designed around any one life stage.",
+   "NSLP serves enrolled school-age children, which is a later life stage than this pregnant client's current need."
+  ],
   "n": 72
  },
  {
@@ -1768,7 +2078,8 @@ const Q = [
   "acceptHi": 10.4,
   "answer": "10% loss",
   "rat": "Percent weight change = weight lost ÷ original weight × 100 = 6 ÷ 60 × 100 = 10%. Percent of weight change over a given time period is the anthropometric data point the guide lists for the 'A' of the ABCDs, and an unintentional loss of this size flags the client for further nutritional evaluation.",
-  "strat": "Always divide by the ORIGINAL (earlier) weight, not the current weight, when computing percent change."
+  "strat": "Always divide by the ORIGINAL (earlier) weight, not the current weight, when computing percent change.",
+  "why": "Percent weight change equals weight lost divided by the original weight, times 100: 6 kg divided by 60 kg times 100 equals 10%. Percent weight change over time is the anthropometric data point in the ABCD framework. A loss this size flags this older adult for further nutritional evaluation."
  },
  {
   "n": 74,
@@ -1785,7 +2096,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "Albumin and prealbumin are the protein markers the guide places in the biochemical ('B') category, used to determine nutritional deficiencies; tracking them over time is an anthropometric/biochemical evaluation outcome. Both values rise steadily across the three timepoints, indicating improving protein status and a working intervention. They are not falling, were clearly low on admission, and are protein — not renal — markers.",
-  "strat": "On a trend item, read the direction across ALL timepoints before judging — a steady rise in protein markers means the intervention is working."
+  "strat": "On a trend item, read the direction across ALL timepoints before judging the outcome.",
+  "why": "Albumin and prealbumin are the biochemical protein markers in the ABCD framework, and both values rise steadily across the three recorded timepoints. That consistent upward trend indicates improving protein status and shows the nutrition intervention is working. Both markers were clearly low on admission, ruling out the idea that no concern existed at the start.",
+  "whyNot": [
+   "Both markers are rising, not falling, across the three timepoints, so protein status is improving rather than worsening.",
+   "Admission values of 2.6 g/dL albumin and 9 mg/dL prealbumin were clearly below normal, not within normal limits.",
+   "Albumin and prealbumin are protein markers, not renal markers, so they should be trended for nutrition status, not kidney function."
+  ]
  },
  {
   "n": 75,
@@ -1802,7 +2119,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "The guide states infection of the catheter is the most common and serious complication of parenteral nutrition, which is why sterile technique is required for insertion and maintenance of the central line. Aspiration, tube clogging, and abdominal distention are complications of enteral (tube) feeding, which uses the GI tract — not of parenteral nutrition, which bypasses the GI system and is infused into the bloodstream.",
-  "strat": "Match the complication to the route: a line in the bloodstream worries you about infection; a tube in the gut worries you about aspiration and GI upset."
+  "strat": "Match the complication to the route: bloodstream access worries about infection; a gut tube worries about aspiration and GI upset.",
+  "why": "Infection of the catheter is the most common and serious complication of parenteral nutrition. This is why sterile technique is required for inserting and maintaining the central line. Parenteral nutrition infuses directly into the bloodstream, bypassing the GI system, so it does not carry the risks tied to tube feeding.",
+  "whyNot": [
+   "Aspiration into the lungs is a complication of enteral tube feeding through the GI tract, not of parenteral nutrition.",
+   "A clogged feeding tube lumen is a mechanical problem specific to enteral tubes, which parenteral nutrition does not use.",
+   "Abdominal distention and cramping are GI complications of enteral feeding, since parenteral nutrition bypasses the GI tract entirely."
+  ]
  },
  {
   "n": 76,
@@ -1825,7 +2148,13 @@ const Q = [
    5
   ],
   "rat": "Nausea, abdominal distention, and vomiting are GI complications of enteral feeding the guide lists, and a flat head of bed is a setup for aspiration during feeding — all are relevant cues. Counting feedings as I&O, the availability of many formulas, and the indication for tube placement are true background facts from the guide but are not abnormal cues that change the picture for this client.",
-  "strat": "A 'cue' is data that is abnormal or changes the plan — separate it from true-but-routine background information."
+  "strat": "A 'cue' is data that is abnormal or changes the plan — separate it from true-but-routine background information.",
+  "why": "Vomiting formula, a flat head of bed during feeding, and new nausea with abdominal distention are abnormal findings that change this client's plan of care. The flat bed is a direct setup for aspiration, while the vomiting and distention are GI complications the nurse must act on.",
+  "whyNot": [
+   "The reason the tube was placed is true background information about this client, not a new abnormal cue.",
+   "That many enteral formulas exist commercially is a general fact about tube feeding, not a cue about this client.",
+   "Counting feedings as intake on the I&O record is routine documentation practice, not an abnormal finding to flag."
+  ]
  },
  {
   "n": 77,
@@ -1842,7 +2171,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "Nausea, distention, and vomiting are the GI complications of tube feeding the guide names, and with the head of the bed flat the vomited formula puts the client at risk for aspiration — together this is feeding intolerance. The access is an NG tube, not a central catheter, so bloodstream infection does not fit; vomiting formula is not an expected finding; and dehydration would not explain the nausea and distention.",
-  "strat": "Cluster the cues before naming the problem — GI upset plus a flat bed during feeding points to intolerance with aspiration risk."
+  "strat": "Cluster the cues before naming the problem — GI upset plus a flat bed points to feeding intolerance.",
+  "why": "Nausea, abdominal distention, and vomited formula are the GI complications of tube feeding. With the head of the bed flat, that vomited formula also puts this client at risk for aspiration. Together, this cluster of findings best fits feeding intolerance with an added aspiration risk.",
+  "whyNot": [
+   "Vomiting formula is not an expected response to continuous feeding, so this cluster does need a change in care.",
+   "The access here is a nasogastric tube, not a central catheter, so bloodstream infection does not fit these findings.",
+   "Dehydration from inadequate free water would not explain the nausea, distention, and vomiting seen in this cluster."
+  ]
  },
  {
   "n": 78,
@@ -1859,7 +2194,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "The guide repeatedly stresses positioning to prevent aspiration, and aspiration is the mechanical complication that threatens the airway — by an airway/safety framework it outranks the others. Diarrhea, a clogged tube, and slow weight gain are real enteral concerns from the guide but none is an immediate threat to airway or breathing.",
-  "strat": "When one hypothesis threatens the airway, it wins the priority — aspiration outranks GI tolerance and equipment issues."
+  "strat": "When one hypothesis threatens the airway, it wins the priority — aspiration outranks GI tolerance and equipment issues.",
+  "why": "Aspiration is the mechanical complication that directly threatens this client's airway and breathing, and positioning is repeatedly emphasized as the way to prevent it. Under an airway-first safety framework, a threat to breathing always outranks GI tolerance or equipment problems that are not immediately life-threatening.",
+  "whyNot": [
+   "A clogged tube is an equipment problem, not an immediate threat to this client's airway or breathing.",
+   "Slowed progress toward a weight goal is a real concern, but it is not an urgent threat to airway or breathing.",
+   "Diarrhea is a GI tolerance issue from the formula, not an immediate airway or breathing emergency."
+  ]
  },
  {
   "n": 79,
@@ -1901,7 +2242,12 @@ const Q = [
    ]
   },
   "rat": "The problem is feeding intolerance with aspiration risk. Safe enteral care from the guide means keeping the client in semi-Fowler's during and after feeding and verifying placement before instilling anything, while monitoring gastric residual (to prevent over-inflation of the stomach) and the GI tolerance signs of nausea, vomiting, and distention. A central-line site and head circumference belong to other situations, and raising the rate or flushing with parenteral solution are unsafe distractors.",
-  "strat": "In the bowtie, the actions fix the problem and the parameters watch the same problem — keep both columns tied to aspiration and tolerance."
+  "strat": "In a bowtie, actions treat the named problem and parameters monitor it — keep every column tied together.",
+  "why": "The central problem is feeding intolerance with aspiration risk. Safe enteral practice means verifying tube placement before giving anything and keeping the client in semi-Fowler's position during and after the feeding. The nurse should then monitor gastric residual, which flags stomach over-inflation, along with nausea, vomiting, and distention, which flag GI intolerance.",
+  "whyNot": [
+   "Deficient fluid volume from diuresis describes a different clinical picture, one driven by fluid loss rather than by feeding intolerance and aspiration risk.",
+   "Catheter-related bloodstream infection applies to central-line care for parenteral nutrition, not to this client's tube-feeding complications."
+  ]
  },
  {
   "n": 80,
@@ -1923,7 +2269,12 @@ const Q = [
    4
   ],
   "rat": "Semi-Fowler's positioning during and after feeding, verifying placement before instilling anything, and checking gastric residual to prevent over-inflation are the safe-care steps the guide specifies for enteral feeding. Laying the client flat increases aspiration risk, and continuing unchanged ignores the intolerance — both are realistic but unsafe errors.",
-  "strat": "For tube-feeding safety, sit them up, prove the tube is in the right place, and check residual — the three steps the guide repeats."
+  "strat": "Tube-feeding safety: sit upright, confirm placement, and check residual before continuing.",
+  "why": "Keeping the head of the bed elevated in semi-Fowler's during and after the feeding protects the airway. Verifying tube placement before resuming feeding or giving medication confirms it is safe to proceed. Checking gastric residual before continuing confirms the stomach is not over-distended.",
+  "whyNot": [
+   "Laying the client flat removes the upright positioning that protects the airway, raising rather than lowering aspiration risk.",
+   "Continuing the rate unchanged ignores signs of intolerance instead of reassessing before more formula is given."
+  ]
  },
  {
   "n": 81,
@@ -1940,7 +2291,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "Resolution of the GI complications (no nausea, vomiting, or distention) with the client kept upright shows the feeding intolerance and aspiration risk are resolving — a monitoring-and-evaluation outcome from the guide. Persistent nausea is only a partial improvement, a faster rate does not show tolerance, and a rising residual signals worsening rather than improvement.",
-  "strat": "Judge the outcome against the original problem — the goal was tolerating the feeding safely, so look for the cues to have cleared, not just partly eased."
+  "strat": "Judge the outcome against the original problem — look for the cues to have fully cleared, not just eased.",
+  "why": "The client now tolerates the feeding with no nausea, vomiting, or distention. This shows the feeding intolerance and aspiration risk have resolved while the client stays upright and monitored. Complete resolution, not partial improvement, is the outcome the plan was designed to achieve.",
+  "whyNot": [
+   "A gastric residual that has increased signals worsening intolerance, not the improvement the plan was aiming for.",
+   "Persistent nausea even without distention shows only partial improvement, not full resolution of the feeding problem.",
+   "A faster infusion rate describes the mechanics of delivery and says nothing about whether the client is tolerating the feeding."
+  ]
  },
  {
   "n": 82,
@@ -1970,7 +2327,8 @@ const Q = [
    }
   ],
   "rat": "A clear liquid diet allows liquids you can see through — broth, bouillon, gelatin, clear juice — to maintain fluid balance after surgery or vomiting. A full liquid diet is the next step and adds smooth dairy items such as ice cream, custards, and strained cream soups. Cream soup and pudding are full-liquid, not clear; eggs and toast are solids that belong to a soft or regular diet, several steps later.",
-  "strat": "If you can see through it, it's a clear liquid. Full liquid adds smooth dairy, still nothing you chew."
+  "strat": "If you can see through it, it's a clear liquid. Full liquid adds smooth dairy, still nothing you chew.",
+  "why": "A clear liquid diet allows only liquids you can see through, such as broth, bouillon, gelatin, and clear juice. This maintains fluid balance with minimal digestive work after surgery. The full liquid diet is the next progression step and adds smooth dairy items such as ice cream and custard, still requiring no chewing."
  },
  {
   "n": 83,
@@ -1987,7 +2345,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "Diets are advanced from least to most digestive workload: clear liquid (see-through) to full liquid (smooth dairy added) to pureed/mechanical soft (food that needs little or no chewing) to regular. The other sequences place a thicker or harder-to-digest texture before an easier one, which is not how tolerance is built.",
-  "strat": "Advance thin-to-thick, easy-to-hard: clear, full, soft/pureed, regular."
+  "strat": "Advance thin-to-thick, easy-to-hard: clear, full, soft/pureed, regular.",
+  "why": "Diet advancement moves from least to most digestive workload. It goes from clear liquid, which is see-through, to full liquid, which adds smooth dairy. Next is pureed or mechanical soft food needing little or no chewing, then regular. Each step asks the healing gut to handle slightly more texture than the last.",
+  "whyNot": [
+   "Placing regular food before full liquid and pureed textures skips straight to the heaviest digestive workload too soon.",
+   "Starting with full liquid then moving back to pureed or mechanical soft reverses the intended thin-to-thick progression.",
+   "Beginning with full liquid before clear liquid ignores the need to confirm fluid tolerance first."
+  ]
  },
  {
   "n": 84,
@@ -2004,7 +2368,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "Coughing, throat-clearing, and a wet/gurgly voice are signs the thickened liquid is being aspirated; the priority is to stop intake and protect the airway (ABCs) before reassessing. Thinning the liquid or moving to thin liquids increases aspiration risk in dysphagia, and urging faster drinking worsens it.",
-  "strat": "Wet voice + coughing on liquids = aspiration. Stop feeding, protect the airway first; thin liquids are riskier, not safer."
+  "strat": "Wet voice + coughing on liquids = aspiration. Stop feeding, protect the airway first; thin liquids are riskier, not safer.",
+  "why": "Coughing, throat-clearing, and a wet or gurgly voice after sipping thickened juice are signs the liquid is being aspirated. The nurse's priority is to stop oral intake and keep the client upright to protect the airway. This follows the airway-first approach used whenever aspiration is suspected, before reassessing further.",
+  "whyNot": [
+   "Encouraging faster drinking gives the client less time to control the swallow and worsens the aspiration risk.",
+   "Thinning the juice with water removes the very thickening that was ordered to slow the liquid down.",
+   "Switching to thin liquids moves toward the consistency that is hardest for a dysphagia client to control safely."
+  ]
  },
  {
   "n": 85,
@@ -2044,7 +2414,8 @@ const Q = [
    }
   ],
   "rat": "Apples, berries, grapes, broccoli, carrots, and green beans are the lower-potassium choices the National Kidney Foundation lists to encourage. Bananas and orange juice are high-potassium fruit; dairy is high in phosphorus; potatoes and tomatoes are high-potassium vegetables; and salt substitutes are avoided because they contain potassium. All four are limited on a renal diet.",
-  "strat": "Renal diet limits potassium and phosphorus: dairy = phosphorus; banana, OJ, potato, tomato, salt substitute = potassium. Apples/berries/grapes and broccoli/carrots/green beans are the safe swaps."
+  "strat": "Renal diet limits potassium and phosphorus: dairy = phosphorus; banana, OJ, potato, tomato, salt substitute = potassium. Apples/berries/grapes and broccoli/carrots/green beans are the safe swaps.",
+  "why": "Apples, berries, grapes, broccoli, carrots, and green beans are the lower-potassium choices a renal diet encourages. Bananas and orange juice are high in potassium, and dairy is high in phosphorus. Potatoes and tomatoes are high-potassium vegetables, and salt substitutes are avoided because they contain potassium rather than sodium."
  },
  {
   "n": 86,
@@ -2066,7 +2437,12 @@ const Q = [
    4
   ],
   "rat": "Using herbs/spices, reading labels (about 77% of sodium is from processed/prepared foods), and centering meals on fruits, vegetables, and low-fat dairy are all consistent with a low-sodium DASH pattern. Canned entrees and frozen dinners are named high-sodium foods, and soy sauce is explicitly high in sodium — both are common errors, not improvements.",
-  "strat": "Low sodium = fresh, label-read, herbs not salt. Canned/frozen/soy sauce are the hidden-salt traps."
+  "strat": "Low sodium = fresh, label-read, herbs not salt. Canned/frozen/soy sauce are the hidden-salt traps.",
+  "why": "Building meals around fruits, vegetables, and low-fat dairy fits a low-sodium DASH pattern. So does seasoning with herbs and spices instead of salt, and reading nutrition labels. This matters because roughly three-quarters of the average person's daily sodium intake comes from processed and prepared foods.",
+  "whyNot": [
+   "Switching to canned ravioli and frozen dinners trades fresh food for two of the highest-sodium convenience categories.",
+   "Soy sauce is itself a concentrated sodium source, so using it as a salt substitute defeats the purpose."
+  ]
  },
  {
   "n": 87,
@@ -2088,7 +2464,12 @@ const Q = [
    4
   ],
   "rat": "Soy sauce, beer, and canned soups/gravies are listed as common sources of hidden gluten because they contain or are processed with wheat, barley, or malt. Plain chicken and fresh fruit are naturally gluten-free whole foods and do not require label-checking for gluten, so flagging them reflects over-restriction rather than the actual hidden-gluten risk.",
-  "strat": "Hidden gluten hides in processed liquids and sauces — soy sauce, beer, soups, gravy. Naturally single-ingredient whole foods are safe."
+  "strat": "Hidden gluten hides in processed liquids and sauces — soy sauce, beer, soups, gravy. Naturally single-ingredient whole foods are safe.",
+  "why": "Soy sauce, beer, and canned soups or gravies are common hidden sources of gluten, since they contain or are processed with wheat, barley, or malt. A client with celiac disease should check labels on these items or avoid them to prevent an inflammatory reaction in the small intestine.",
+  "whyNot": [
+   "Plain grilled chicken breast is a naturally gluten-free whole food that does not need label-checking for gluten.",
+   "Fresh apples and grapes are naturally gluten-free produce, so flagging them reflects over-restriction rather than an actual hidden-gluten risk."
+  ]
  },
  {
   "n": 88,
@@ -2105,7 +2486,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "The Diabetes Plate Method fills half the plate with non-starchy vegetables, one quarter with lean protein, one quarter with carbohydrate, and pairs it with water or a low-calorie drink. This meal has no non-starchy vegetables and a sugary soda, so adding vegetables and switching to water is the correct fix. Removing protein, doubling carbohydrate, or adding juice all worsen the carbohydrate-to-vegetable balance and raise blood glucose.",
-  "strat": "Plate method: half non-starchy veggies, quarter lean protein, quarter carbs, water to drink."
+  "strat": "Plate method: half non-starchy veggies, quarter lean protein, quarter carbs, water to drink.",
+  "why": "The Diabetes Plate Method fills half the plate with non-starchy vegetables, one quarter with lean protein, and one quarter with carbohydrate. It pairs this with water or a low-calorie drink. This dinner has no non-starchy vegetables and a sugary soda, so adding vegetables and swapping to water is the correct fix.",
+  "whyNot": [
+   "Removing the protein entirely and adding more rice increases the carbohydrate share instead of restoring the vegetable half.",
+   "Doubling the rice and corn makes the plate mostly carbohydrate, which raises blood glucose rather than balancing it.",
+   "Adding fruit juice on the side stacks another sugary drink onto a meal that already lacks vegetables."
+  ]
  },
  {
   "n": 89,
@@ -2122,7 +2509,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "A low-fiber/low-residue diet reduces stool bulk to rest an inflamed or post-surgical bowel, so it fits Client A; a high-fiber diet with at least eight glasses of fluid daily prevents constipation and hemorrhoids, so it fits Client B. Reversing them, or giving everyone high fiber, irritates the healing bowel; high fiber is also contraindicated with a fluid restriction.",
-  "strat": "Irritated/post-op bowel = rest it with low residue. Constipation/hemorrhoids = high fiber plus fluids. Never pair high fiber with a fluid restriction."
+  "strat": "Irritated bowel: rest with low residue. Constipation: high fiber plus fluids. Never pair high fiber with a fluid restriction.",
+  "why": "A low-fiber, low-residue diet reduces stool bulk to rest an inflamed or post-surgical bowel, which fits Client A. A high-fiber diet with at least eight glasses of fluid daily prevents constipation and hemorrhoids, which fits Client B. Matching the diet to the client depends on whether the bowel needs rest or stimulation.",
+  "whyNot": [
+   "Putting Client A on high fiber with more fluids irritates a bowel that needs rest, and reverses the pairing.",
+   "Giving both clients a high-fiber diet ignores that Client A's healing bowel needs less bulk, not more.",
+   "Pairing high fiber with a fluid restriction for Client A is contraindicated, since high fiber requires extra fluids to work safely."
+  ]
  },
  {
   "n": 90,
@@ -2139,7 +2532,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "Vitamin K is the antidote that opposes warfarin, so it is the day-to-day consistency of vitamin K intake — not avoidance — that keeps the INR stable; suddenly eliminating greens raises the warfarin effect just as suddenly bingeing lowers it. Cutting greens out or doubling them both swing the INR, and greens clearly do affect warfarin.",
-  "strat": "Warfarin + vitamin K = keep intake STEADY, not zero — big swings either way move the INR."
+  "strat": "Warfarin + vitamin K = keep intake STEADY, not zero — big swings either way move the INR.",
+  "why": "Vitamin K opposes warfarin's effect, so keeping day-to-day intake of leafy greens about the same is what stabilizes the INR, not avoiding them altogether. Suddenly eliminating a food the client normally eats raises the warfarin effect just as suddenly bingeing on it would lower the effect.",
+  "whyNot": [
+   "Saying leafy greens have no real effect on warfarin is inaccurate, since vitamin K directly opposes the drug.",
+   "Cutting greens out completely removes a source of vitamin K the client's dose has been stabilized around, which can swing the INR.",
+   "Eating extra greens to intensify the warfarin effect misunderstands the relationship, since more vitamin K opposes warfarin rather than strengthening it."
+  ]
  },
  {
   "n": 91,
@@ -2162,7 +2561,13 @@ const Q = [
    2
   ],
   "rat": "Tyramine accumulates in aged, cured, smoked, and fermented foods; with an MAOI blocking its breakdown, tyramine drives vasoconstriction and a hypertensive crisis. Freshly cooked meats, plain grains, and water are low in tyramine and are safe.",
-  "strat": "Tyramine = AGED / cured / fermented. \"If it's been sitting and ripening, skip it on an MAOI.\""
+  "strat": "Tyramine = AGED / cured / fermented. \"If it's been sitting and ripening, skip it on an MAOI.\"",
+  "why": "Tyramine accumulates in aged, cured, smoked, and fermented foods such as sauerkraut, soy sauce, salami, pepperoni, and aged or blue cheese. With an MAOI blocking tyramine's breakdown, eating these foods can trigger vasoconstriction and a hypertensive crisis, so the client should avoid all of them.",
+  "whyNot": [
+   "Tap water and decaffeinated herbal tea contain essentially no tyramine and remain safe for this client to drink.",
+   "White rice and plain pasta are low-tyramine grains that do not require any restriction on an MAOI.",
+   "Fresh chicken breast cooked the same day has not had time to accumulate tyramine through aging or curing."
+  ]
  },
  {
   "n": 92,
@@ -2179,7 +2584,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "Grapefruit inhibits the cytochrome P450 enzymes that metabolize many drugs, so the drug is broken down more slowly, accumulates, and can reach toxic levels — with statins this raises the risk of muscle injury. It does not induce (speed up) metabolism, chelate the drug, or chemically inactivate it.",
-  "strat": "Grapefruit jams CYP450 → drug piles up → toxicity. Think \"blocked enzyme = higher drug level.\""
+  "strat": "Grapefruit jams CYP450 → drug piles up → toxicity. Think \"blocked enzyme = higher drug level.\"",
+  "why": "Grapefruit inhibits the cytochrome P450 enzymes that metabolize many drugs. As a result, the statin is broken down more slowly, accumulates in the blood, and can reach toxic levels. With statins, this buildup raises the risk of muscle injury rather than simply changing how the drug is absorbed or shaped.",
+  "whyNot": [
+   "Grapefruit does not speed up these liver enzymes, so it does not clear the drug faster than normal.",
+   "Grapefruit does not bind the drug in the stomach and carry it out before absorption occurs.",
+   "Grapefruit does not alter the drug's chemical structure or cause it to gradually lose its effect."
+  ]
  },
  {
   "n": 93,
@@ -2196,7 +2607,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "Tetracyclines (and fluoroquinolones) bind calcium in a chelation reaction that blocks the antibiotic's absorption, so the client should space the antibiotic and any calcium/dairy by a couple of hours rather than taking them together. Taking them together reduces absorption; stopping calcium entirely is unnecessary when timing alone solves the problem.",
-  "strat": "Calcium grabs the -cycline/-floxacin → separate the doses; you space them, you don't stop the calcium."
+  "strat": "Calcium grabs the -cycline/-floxacin → separate the doses; you space them, you don't stop the calcium.",
+  "why": "Tetracyclines and fluoroquinolones bind calcium through a chelation reaction that blocks the antibiotic from being absorbed. Because of this, the client should separate the antibiotic from milk or a calcium supplement by a couple of hours. Timing alone solves the problem without requiring the client to give up calcium altogether.",
+  "whyNot": [
+   "Taking the antibiotic together with milk and calcium lets the chelation reaction block absorption right away.",
+   "Stopping the calcium supplement and all dairy for the whole course is more restrictive than necessary when timing alone fixes the interaction.",
+   "Taking the calcium at the exact same time guarantees the two will bind together instead of absorbing separately."
+  ]
  },
  {
   "n": 94,
@@ -2213,7 +2630,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "Levothyroxine absorption is unpredictable with food, so it is taken on an empty stomach 30–60 minutes before eating; calcium and iron bind it and must be separated by several hours. Taking it with food or alongside calcium/iron reduces absorption, and the timing very much matters.",
-  "strat": "Levothyroxine = empty stomach, before breakfast, away from calcium/iron."
+  "strat": "Levothyroxine = empty stomach, before breakfast, away from calcium/iron.",
+  "why": "Levothyroxine's absorption is unpredictable when taken with food, so it should be taken on an empty stomach 30 to 60 minutes before breakfast. Calcium and iron bind the hormone and must be separated from it by several hours. Taking them together or alongside food reduces how much of the dose is absorbed.",
+  "whyNot": [
+   "Taking it whenever is convenient ignores that meal timing changes how much of the dose is absorbed.",
+   "Taking it at bedtime right after calcium and iron pairs it with the very supplements that bind it.",
+   "Taking it with breakfast alongside calcium and iron lets food and the supplements both blunt absorption."
+  ]
  },
  {
   "n": 95,
@@ -2247,7 +2670,8 @@ const Q = [
    }
   ],
   "rat": "Aspirin and NSAIDs irritate the gastric lining, so food or milk buffers them; levothyroxine needs an empty stomach for predictable absorption; warfarin's effect is opposed by vitamin K, so leafy-green intake should stay steady; grapefruit inhibits the enzymes that clear many statins, raising drug levels.",
-  "strat": "Sort by the mechanism: irritant→food, absorption-sensitive→empty stomach, antidote-food→keep steady, enzyme-blocker→avoid."
+  "strat": "Sort by the mechanism: irritant→food, absorption-sensitive→empty stomach, antidote-food→keep steady, enzyme-blocker→avoid.",
+  "why": "Aspirin and NSAIDs irritate the gastric lining, so taking them with food or milk buffers that effect. Levothyroxine needs an empty stomach for predictable absorption. Warfarin's effect is opposed by vitamin K, so leafy-green intake should stay consistent day to day. Grapefruit inhibits the enzymes that clear many statins, raising drug levels toward toxicity."
  },
  {
   "n": 96,
@@ -2264,7 +2688,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "The client shows classic digoxin toxicity (nausea, visual changes, bradydysrhythmia); calcium was added without a medication review that would have flagged its interaction with digoxin, so the missed interaction contributed to toxicity. The presentation is excess effect, not an under-dose, is clearly medication-related rather than normal aging, and these are not expected effects of a normal calcium level.",
-  "strat": "New drug + old drug + a sick patient = suspect the interaction; a skipped med review is the setup for toxicity."
+  "strat": "New drug + old drug + a sick patient = suspect the interaction. A skipped med review sets up toxicity.",
+  "why": "The nausea, visual changes, and slow, irregular pulse are classic signs of digoxin toxicity. The calcium supplement was added without a full medication review. Because that review was skipped, the interaction between calcium and digoxin was missed, contributing to toxicity rather than an under-dose.",
+  "whyNot": [
+   "The findings are not normal aging, since this specific symptom pattern points to a medication effect, not an age-related change.",
+   "Calcium does not block digoxin absorption here, so the presentation reflects excess drug effect rather than an under-dose.",
+   "These symptoms are not the expected effects of a normal calcium level, since they signal toxicity from the interaction instead."
+  ]
  },
  {
   "topic": "High-Risk Populations",
@@ -2281,6 +2711,12 @@ const Q = [
   "ans": 1,
   "rat": "Pregnant clients are a high-risk group; unpasteurized (raw-milk) soft cheese can carry Listeria, which crosses the placenta and threatens the fetus, so it should be avoided. Washed produce, pasteurized yogurt, and a fully cooked egg are safe and encouraged — they are distractors because clients may overgeneralize 'avoid dairy, fruit, and eggs.'",
   "strat": "In pregnancy, the unpasteurized or raw item is the one to cut, not the cooked or pasteurized food.",
+  "why": "Pregnant clients are a high-risk group for serious foodborne illness, and unpasteurized soft cheese can carry Listeria, which crosses the placenta and threatens the fetus. This sandwich should be avoided, while a well-washed apple, pasteurized yogurt, and a fully cooked egg remain safe, recommended choices during pregnancy.",
+  "whyNot": [
+   "A firm hard-boiled egg is fully cooked and peeled, so it carries no meaningful Listeria risk.",
+   "A fresh apple rinsed well under running water is a washed whole food that is safe to eat.",
+   "Pasteurized yogurt topped with rinsed fresh berries pairs two low-risk, properly handled foods and remains safe."
+  ],
   "n": 97
  },
  {
@@ -2315,6 +2751,7 @@ const Q = [
   ],
   "rat": "Salmonella is classically tied to eggs, Campylobacter to raw poultry, norovirus and Vibrio to raw shellfish, and Listeria to unpasteurized milk and soft cheeses. The foods are similar 'raw/animal-source' choices, so the match rests on knowing each organism's signature high-risk food rather than guessing.",
   "strat": "Anchor each bug to its signature food: Salmonella-eggs, Campylobacter-poultry, norovirus-shellfish, Listeria-raw dairy.",
+  "why": "Salmonella is classically linked to eggs, and Campylobacter to raw poultry. Norovirus and Vibrio are linked to raw oysters and shellfish, and Listeria to unpasteurized milk and soft cheeses. Because the food choices are similar raw, animal-source options, matching each organism correctly depends on knowing its signature high-risk food rather than guessing by category.",
   "n": 98
  },
  {
@@ -2332,6 +2769,12 @@ const Q = [
   "ans": 0,
   "rat": "Bacteria multiply rapidly between 40 °F and 140 °F (the danger zone); perishable food held there longer than 2 hours should be discarded. Thorough earlier cooking does not protect food that later sits warm, reheating does not undo toxin buildup, and many pathogens produce no change in smell, color, or taste — these are common reasoning errors.",
   "strat": "Time + temperature, not appearance: over 2 hours in the 40-140 °F danger zone means discard it.",
+  "why": "Bacteria multiply rapidly between 40°F and 140°F, the temperature danger zone. Perishable food held there longer than two hours should be discarded regardless of how it looks or smells. Three hours in the sun at roughly 85°F falls well past that safe window for the chicken.",
+  "whyNot": [
+   "Being thoroughly cooked earlier in the day does not protect food that later sits warm for hours.",
+   "The absence of an off smell or color change is not reassuring, since many pathogens cause neither.",
+   "Reheating in the microwave does not undo bacterial toxins that may have already built up while sitting out."
+  ],
   "n": 99
  },
  {
@@ -2355,7 +2798,12 @@ const Q = [
    5
   ],
   "rat": "Refrigerating within 2 hours, using separate boards, storing raw meat below ready-to-eat food, and keeping the fridge at or below 40 °F all follow clean-separate-cook-chill. Rinsing raw poultry actually splashes bacteria around the sink and is not recommended, and reusing raw-meat marinade without boiling it transfers live pathogens onto cooked food — both are frequent, plausible mistakes.",
-  "strat": "Judge each statement on its own; the wrong ones spread germs (washing poultry, reusing raw marinade) rather than containing them.",
+  "strat": "Food-safety wrong answers usually spread contamination rather than prevent it — check whether each action adds or removes risk.",
+  "why": "Keeping the refrigerator at or below 40°F and storing raw chicken on the bottom shelf below ready-to-eat food both prevent cross-contamination. Using separate cutting boards for meat and produce, and refrigerating leftovers within two hours, complete the clean-separate-cook-chill framework for preventing foodborne illness.",
+  "whyNot": [
+   "Rinsing raw chicken under the faucet splashes bacteria around the sink instead of removing it safely.",
+   "Reusing raw beef marinade as a sauce without boiling it first transfers live pathogens onto cooked food."
+  ],
   "n": 100
  },
  {
@@ -2373,6 +2821,12 @@ const Q = [
   "ans": 3,
   "rat": "Bloody stools and a fever above 102 °F (38.9 °C) are warning signs of severe foodborne illness needing provider evaluation, as bloody diarrhea can signal infections such as E. coli that risk hemolytic uremic syndrome. Improving loose stools, nausea relieved by fluids, and a single early vomiting episode are mild, resolving symptoms — realistic distractors that mimic the concerning option in tone.",
   "strat": "Among GI complaints, the bleeding-plus-high-fever combination is the red flag; resolving or mild symptoms are reassuring.",
+  "why": "Bloody stools with a fever above 102°F are warning signs of severe foodborne illness that warrant provider evaluation. Bloody diarrhea can signal infections such as E. coli, which carry a risk of hemolytic uremic syndrome. The other reports describe mild or already-resolving symptoms.",
+  "whyNot": [
+   "Loose stools that have already slowed down describe an improving, self-limited course rather than a red flag.",
+   "One episode of vomiting on the first evening with none since is a single, resolved event.",
+   "Mild nausea relieved by sipping clear fluids shows the client is tolerating oral intake without complication."
+  ],
   "n": 101
  },
  {
@@ -2390,7 +2844,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "A 7-pound gain over one month with new bilateral pitting edema in a client with right-sided heart failure is fluid retention, not nutritional improvement, so sodium and fluid management drive the plan. Reading it as adequate calorie intake or as muscle gain misattributes edema weight to nutrition, and undernutrition is unsupported since his appetite and intake are unchanged.",
-  "strat": "Rapid weight gain plus dependent edema equals fluid, not food - weigh the trend against the clinical picture before crediting it to intake."
+  "strat": "Rapid weight gain plus dependent edema equals fluid, not food — weigh the clinical picture before crediting intake.",
+  "why": "A seven-pound gain in one month with new bilateral pitting edema in a client with right-sided heart failure reflects fluid retention, not nutritional change. This means sodium and fluid management should drive the plan. His unchanged appetite and intake argue against undernutrition as the explanation.",
+  "whyNot": [
+   "Reading the weight gain as adequate calorie intake wrongly credits fluid retention to improved nutritional intake.",
+   "Fatigue and weight gain pointing to undernutrition is unsupported, since his appetite and intake have stayed unchanged.",
+   "Clear lungs do not confirm the added weight is muscle, since this presentation is fluid overload, not exercise-built tissue."
+  ]
  },
  {
   "n": 103,
@@ -2407,7 +2867,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "Diarrhea plus muscle cramps and lightheadedness in a client on a loop diuretic signals possible volume depletion and hypokalemia, an unstable physiologic problem that outranks the others. The lactose, low-sodium, and DASH questions are routine teaching needs that are important but stable and can wait.",
-  "strat": "Unstable physiologic findings (diuretic + cramps + dizziness = electrolyte/volume loss) beat routine teaching questions every time."
+  "strat": "Unstable physiologic findings (diuretic + cramps + dizziness = electrolyte/volume loss) beat routine teaching questions every time.",
+  "why": "Diarrhea plus muscle cramps and lightheadedness in a client on a loop diuretic signals possible volume depletion and hypokalemia. This unstable physiologic problem outranks routine questions. The other three clients are asking stable, non-urgent teaching questions that can wait until the unstable client is addressed.",
+  "whyNot": [
+   "The lactose intolerance question about calcium-rich milk substitutes is a routine teaching need, not an urgent concern.",
+   "The request for a printed low-sodium food list is stable education that does not need to be first.",
+   "Asking whether nuts and seeds fit the DASH plan is a routine, non-urgent nutrition question that can wait."
+  ]
  },
  {
   "n": 104,
@@ -2424,7 +2890,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "Diarrhea and fever in a client already taking a loop diuretic compound fluid and electrolyte loss, and orthostatic dizziness suggests he is becoming volume depleted, so prompt evaluation is the priority. Holding fluids worsens dehydration, an extra diuretic dose deepens the fluid and potassium loss, and waiting a week with only a sports drink delays care for a client who is already symptomatic.",
-  "strat": "When a diuretic and an acute GI illness stack fluid losses, escalate for evaluation - never withhold fluids or add diuretic."
+  "strat": "Diuretic plus acute GI illness stacks fluid loss — escalate for evaluation, never withhold fluids or add diuretic.",
+  "why": "Diarrhea and fever in a client already on a loop diuretic compound fluid and electrolyte loss. Dizziness on standing suggests he is becoming volume depleted, so prompt evaluation is the priority. Waiting or self-treating at home risks letting the dehydration worsen before he is seen.",
+  "whyNot": [
+   "Holding all oral fluids to rest the stomach removes intake he needs while he is already losing fluid through diarrhea.",
+   "Taking an extra furosemide dose adds another diuretic effect on top of fluid already being lost.",
+   "Adding a sports drink and waiting about a week delays care for a client already showing symptoms of depletion."
+  ]
  },
  {
   "n": 105,
@@ -2448,7 +2920,12 @@ const Q = [
    4
   ],
   "rat": "Elevating the head of the bed reduces aspiration, verifying placement and residuals confirms safe delivery, tracking I and O, weights, and electrolytes detects fluid and electrolyte shifts, and flushing keeps the tube patent. Hanging formula for a prolonged period at room temperature invites bacterial growth, and rapidly bolusing a continuous feeding causes cramping, diarrhea, and aspiration risk.",
-  "strat": "Enteral safety = head up, placement and residual checked, flush to keep patent, and watch fluid/electrolytes - never rush the rate or let formula sit out."
+  "strat": "Enteral safety = head up, placement/residual checked, flush to keep patent, watch fluid/electrolytes — never rush the rate.",
+  "why": "Elevating the head of the bed at least 30 degrees reduces aspiration, and verifying placement and checking residual confirm safe delivery. Tracking intake, output, weights, and electrolytes detects fluid and electrolyte shifts, and flushing the tube keeps it patent. These four actions together support safe continuous feeding.",
+  "whyNot": [
+   "Giving the formula as a single rapid bolus instead of the ordered continuous rate causes cramping, diarrhea, and aspiration risk.",
+   "Hanging each formula bag for 24 hours at room temperature invites bacterial growth instead of reducing waste safely."
+  ]
  },
  {
   "n": 106,
@@ -2465,7 +2942,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "Abruptly stopping TPN can cause rebound hypoglycemia, so hanging a dextrose solution at the same rate maintains the glucose load until the next bag is available. Stopping and flushing risks hypoglycemia, diluting or slowing the prescribed TPN alters the ordered nutrition, and doubling a later rate to catch up can cause hyperglycemia and fluid overload.",
-  "strat": "Never let TPN run dry or stop cold - bridge with dextrose at the same rate to prevent rebound hypoglycemia."
+  "strat": "Never let TPN run dry or stop cold - bridge with dextrose at the same rate to prevent rebound hypoglycemia.",
+  "why": "Abruptly stopping total parenteral nutrition can cause rebound hypoglycemia. Hanging a dextrose solution at the same rate maintains the client's glucose load until the next bag arrives from pharmacy. This bridges the gap safely without altering the ordered nutrition once the new bag is ready.",
+  "whyNot": [
+   "Stopping the infusion and flushing the line removes the glucose source and risks rebound hypoglycemia while waiting.",
+   "Increasing the next bag's rate later to make up the volume risks hyperglycemia and fluid overload.",
+   "Slowing the remaining TPN to a keep-open rate dilutes the ordered nutrition instead of maintaining the glucose load."
+  ]
  },
  {
   "n": 107,
@@ -2482,7 +2965,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "Dysphagia carries a high risk of aspiration; the guide directs the nurse to have the client eat fully upright (aids swallowing), follow the SLP's texture orders, and monitor while eating in case of choking or aspiration. Reclining and rushing increase aspiration risk, and thin liquids are often the hardest consistency to control in dysphagia.",
-  "strat": "Dysphagia = airway first: upright, supervised, and only the texture the SLP approved."
+  "strat": "Dysphagia = airway first: upright, supervised, and only the texture the SLP approved.",
+  "why": "Dysphagia carries a high risk of aspiration. The nurse should seat the client fully upright, follow the speech-language pathologist's texture order, and stay to monitor for choking throughout the meal. Upright positioning and direct supervision are the protections this modified-texture diet is built around.",
+  "whyNot": [
+   "Offering thin liquids between bites introduces the consistency that is often hardest for this client to control safely.",
+   "Encouraging the client to eat quickly rushes the swallow instead of allowing time to manage each bite.",
+   "Letting the client recline at 30 degrees increases aspiration risk instead of supporting an upright, protected swallow."
+  ]
  },
  {
   "n": 108,
@@ -2505,7 +2994,11 @@ const Q = [
    4
   ],
   "rat": "Neurologic conditions such as Parkinson's disease and stroke, and a narrowing or weakening of the swallowing structures with age, are risk factors the guide names for dysphagia, so each warrants further assessment. The belief that swallowing trouble is a normal part of aging is itself a teaching opportunity, because the guide states dysphagia is NOT a normal part of aging. A client eating full meals with no coughing or choking shows no current swallowing difficulty.",
-  "strat": "Risk factors and a 'normal aging' myth both flag for follow-up; an asymptomatic eater does not."
+  "strat": "Risk factors and a 'normal aging' myth both flag for follow-up; an asymptomatic eater does not.",
+  "why": "Neurologic conditions such as Parkinson's disease and stroke, and a gradual worsening of swallowing, are recognized risk factors for dysphagia that warrant further assessment. The belief that swallowing trouble simply comes with getting old is itself a teaching opportunity, since dysphagia is not a normal part of aging.",
+  "whyNot": [
+   "A client eating three balanced meals daily without coughing or choking shows no current sign of swallowing difficulty."
+  ]
  },
  {
   "n": 109,
@@ -2545,7 +3038,8 @@ const Q = [
    }
   ],
   "rat": "The guide's 'Foods That Contribute to Gas Production' list includes legumes (beans, peas), cruciferous and certain other vegetables (cabbage, broccoli, cauliflower), milk and milk products, carbonated beverages, and fatty/fried foods. Lean grilled chicken and plain white rice are not on the gas-producing list, so they are reasonable choices on a gas-reduction plan.",
-  "strat": "Beans, brassicas, dairy, and carbonation drive gas; plain lean protein and white rice are gentler."
+  "strat": "Beans, brassicas, dairy, and carbonation drive gas; plain lean protein and white rice are gentler.",
+  "why": "The gas-producing foods list includes legumes such as beans and lentils, cruciferous vegetables such as broccoli and cabbage, carbonated beverages, and milk products. These items should be limited on a gas-reduction plan. Lean grilled chicken and plain white rice do not appear on that list, making them reasonable choices to keep."
  },
  {
   "n": 110,
@@ -2562,7 +3056,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "The guide attributes stomach gas to habits that let air enter and become trapped: carbonated drinks, eating too fast, smoking, chewing gum, and sucking on hard candy. Whole-grain bread is on the intestinal gas list rather than the swallowed-air list, and walking after a meal and plain oatmeal are not identified as causes of stomach gas.",
-  "strat": "Swallowed-air gas = carbonation, gum, fast eating, candy, smoking."
+  "strat": "Swallowed-air gas = carbonation, gum, fast eating, candy, smoking.",
+  "why": "Stomach gas from swallowed air is attributed to habits such as drinking carbonated beverages, chewing gum, eating too fast, smoking, and sucking on hard candy. Each of these habits lets extra air enter and become trapped. These habits, not the client's meals themselves, should be addressed first.",
+  "whyNot": [
+   "Whole-grain wheat bread is linked to intestinal gas from fermentation, not to the swallowed-air habits causing this belching.",
+   "A small bowl of plain oatmeal at breakfast is not identified as a cause of stomach gas from swallowed air.",
+   "A relaxed walk after the evening meal is not a habit that introduces or traps swallowed air."
+  ]
  },
  {
   "n": 111,
@@ -2601,7 +3101,8 @@ const Q = [
    }
   ],
   "rat": "The guide identifies the Mediterranean diet (olive oil as primary fat, abundant produce and grains) and the DASH diet as the two anti-inflammatory patterns recommended for GI health. DASH emphasizes minerals such as potassium, calcium, and magnesium and works by decreasing sodium, not fiber or potassium.",
-  "strat": "Mediterranean = olive oil + produce; DASH = up the minerals, down the sodium."
+  "strat": "Mediterranean = olive oil + produce; DASH = up the minerals, down the sodium.",
+  "why": "The Mediterranean diet uses olive oil as its primary fat along with plenty of fruits, vegetables, and grains. The DASH diet emphasizes minerals such as potassium, calcium, and magnesium and works by limiting sodium rather than fiber or potassium. Both are the anti-inflammatory eating patterns recommended for general GI health."
  },
  {
   "n": 112,
@@ -2618,7 +3119,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "The guide cautions that DASH is not appropriate for every GI disorder, specifically those requiring a low-residue (low-fiber) diet, because the DASH plan is built around a high fiber intake (about 30 g daily). Low sodium does not lower fiber, the two plans are not interchangeable, and a fiber-rich plan should not override a low-residue order.",
-  "strat": "DASH is high-fiber, so it clashes with any low-residue order."
+  "strat": "DASH is high-fiber, so it clashes with any low-residue order.",
+  "why": "DASH is built around a high daily fiber intake of about 30 grams. This conflicts with a low-residue order meant to reduce fiber and rest an inflamed or healing bowel. The two plans serve opposite purposes for this client rather than working together.",
+  "whyNot": [
+   "DASH should not replace the low-residue order, since a fiber-rich plan can worsen the GI condition the order is treating.",
+   "The two plans are not interchangeable, since DASH increases fiber while low-residue is meant to decrease it.",
+   "DASH's lower sodium content has no effect on its fiber content, so it does not keep fiber intake low."
+  ]
  },
  {
   "n": 113,
@@ -2641,7 +3148,11 @@ const Q = [
    4
   ],
   "rat": "The guide lists these drawbacks of the 24-hour recall: the person may not recall the type or amount eaten, a single day may be atypical, snacks/gravies/sauces/condiments are commonly underreported, and liquids are omitted unless the client is prompted. The recall covers only the prior day and does not require a multi-day stay, so that option is not a limitation.",
-  "strat": "24-hour recall is quick but leaky: memory, an atypical day, forgotten extras, and missed drinks."
+  "strat": "24-hour recall is quick but leaky: memory, an atypical day, forgotten extras, and missed drinks.",
+  "why": "A 24-hour recall depends on the client accurately remembering what and how much was eaten. It may not reflect their usual intake if the day was atypical. It also commonly underreports snacks, sauces, and condiments, and can omit beverages unless the client is specifically prompted to include them.",
+  "whyNot": [
+   "The recall covers only the prior day and does not require a multi-day inpatient stay to complete."
+  ]
  },
  {
   "n": 114,
@@ -2681,7 +3192,8 @@ const Q = [
    }
   ],
   "rat": "Level 4 foods are pureed/extremely thick — they hold their shape and cannot be poured (instant pudding, pureed meat), so they match the order. Level 2 mildly thick liquids flow off a spoon and are sippable through a straw with effort (the nectar-thick milkshake), so that liquid is correct. Thin liquids that flow like water (plain water, vegetable broth) are Level 0 and are unsafe for a client needing Level 2 thickening, and a hamburger on a bun is regular/Level 7 texture far beyond a Level 4 pureed order.",
-  "strat": "Match the tray to the ordered IDDSI level: pureed holds its shape, mildly thick liquids flow off a spoon — anything that flows like water is too thin."
+  "strat": "Match the tray to the ordered IDDSI level: pureed holds its shape, mildly thick liquids flow off a spoon — anything that flows like water is too thin.",
+  "why": "Level 4 pureed foods hold their shape and cannot be poured, so instant pudding and pureed meat match the order. Level 2 mildly thick liquids flow off a spoon and are sippable through a straw with effort, matching the milkshake. A whole hamburger is regular, unmodified texture, well beyond this order. Water or broth that flows like water is a thin liquid, also outside the prescribed levels."
  },
  {
   "n": 115,
@@ -2704,7 +3216,13 @@ const Q = [
    5
   ],
   "rat": "Upright positioning with a chin tuck closes the airway and directs the bolus safely, small bites with unhurried time reduce the volume that can be aspirated, and staying upright after eating limits reflux and aspiration. Talking while eating opens the airway and invites aspiration; using liquids to wash down food moves it past an unprepared swallow (liquids only after the mouth is cleared); and tilting the head back opens the airway, the opposite of the protective chin-tuck.",
-  "strat": "Aspiration precautions: sit up, chin DOWN, small slow bites, stay up afterward — never talk through a bite, wash food down, or tip the head back."
+  "strat": "Aspiration precautions: sit up, chin down, small slow bites — never talk, wash food down, or tip the head back.",
+  "why": "Positioning the client upright with the chin tucked toward the chest directs the swallow safely. Offering small bites of about a teaspoon, with 20 to 30 minutes for the meal, reduces the volume that could be aspirated at once. Staying upright afterward limits reflux and aspiration.",
+  "whyNot": [
+   "Holding the chin up with the head tilted back opens the airway, the opposite of the protective chin-tuck position.",
+   "Encouraging the client to talk and socialize during each bite opens the airway mid-swallow and invites aspiration.",
+   "Using liquids to wash down solid food moves it past an unprepared swallow before the mouth has cleared."
+  ]
  },
  {
   "n": 116,
@@ -2728,7 +3246,12 @@ const Q = [
    4
   ],
   "rat": "Coughing or choking with thin liquids, a wet or gurgly voice (food resting on the vocal cords), pocketing food in the cheek, and unintended weight loss are classic manifestations of impaired swallowing and reduced intake after a stroke. The normal blood pressure and temperature are not cues of a swallowing disorder.",
-  "strat": "Recognize cues: pull the swallowing red flags — cough with liquids, wet voice, pocketing, weight loss — and leave the normal vitals."
+  "strat": "Recognize cues: pull the swallowing red flags — cough, wet voice, pocketing, weight loss — leave the normal vitals.",
+  "why": "Coughing or throat-clearing with thin liquids is a classic manifestation of impaired swallowing. A wet or gurgly voice, caused by food resting on the vocal cords, is another. Food pocketed in the cheek on the affected side and unintended weight loss point to the same reduced intake after a stroke.",
+  "whyNot": [
+   "A blood pressure of 132/78 mm Hg is within a normal range and is not a swallowing-related cue.",
+   "A temperature of 37.0 degrees Celsius is normal and gives no indication of a swallowing problem."
+  ]
  },
  {
   "n": 117,
@@ -2745,7 +3268,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "Coughing on liquids, a wet voice, and pocketing together point to neuromuscular dysphagia from the stroke (impaired oral and pharyngeal control), which lets food and liquid enter the airway and creates aspiration risk. These are not normal aging, simple poor appetite, or a medication effect — the cluster of swallowing-specific findings names the problem.",
-  "strat": "Cluster the cues: cough on liquids + wet voice + pocketing after a stroke = impaired swallow with aspiration risk."
+  "strat": "Cluster the cues: cough on liquids + wet voice + pocketing after a stroke = impaired swallow with aspiration risk.",
+  "why": "Coughing on liquids, a wet voice, and food pocketing together point to impaired swallowing from the stroke's effect on the muscles involved in swallowing. This cluster of findings creates aspiration risk, since food or liquid can enter the airway instead of the esophagus.",
+  "whyNot": [
+   "Blaming stroke medications ignores the classic swallowing-impairment symptom cluster and offers no mechanism linking a drug effect to coughing, pocketing, and weight loss.",
+   "Calling this normal aging dismisses a stroke-caused neuromuscular deficit and wrongly claims no dietary change is needed despite clear aspiration risk.",
+   "Framing this as simple fatigue-related appetite loss ignores the coughing, wet voice, and pocketing that point to a physical swallowing impairment instead."
+  ]
  },
  {
   "n": 118,
@@ -2762,7 +3291,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "Aspiration is the priority because food or liquid entering the airway threatens breathing and can cause aspiration pneumonia — an airway/breathing problem outranks the others by the ABC framework. Constipation, pressure injury, and social isolation are real concerns with dysphagia but none is immediately life-threatening.",
-  "strat": "Airway beats everything: aspiration is the danger that can kill, so it is the priority hypothesis."
+  "strat": "Airway beats everything: aspiration is the danger that can kill, so it is the priority hypothesis.",
+  "why": "Aspiration is the priority because food or liquid entering the airway can compromise breathing and cause pneumonia. Under the ABC framework, an airway-and-breathing threat outranks the other risks, which the nurse still monitors but which are not immediately life-threatening for this client.",
+  "whyNot": [
+   "Constipation from reduced fiber on a texture-modified diet is a real concern but develops over time and does not threaten breathing right now.",
+   "Boredom and social isolation from the restricted diet matter to quality of life but pose no immediate physical danger to this client.",
+   "Pressure injury from prolonged upright sitting is a slower-developing skin risk, not the acute airway threat aspiration poses during meals."
+  ]
  },
  {
   "n": 119,
@@ -2804,7 +3339,8 @@ const Q = [
    ]
   },
   "rat": "The central problem is risk for aspiration from impaired swallowing. The correct actions are to modify textures and thicken liquids as the swallow evaluation directs and to keep the client upright with supervised feeding — both reduce aspiration. Resuming thin liquids or rushing the meal would increase aspiration. The parameters that track this problem are respiratory status (lung sounds, SpO2, coughing/choking) and nutritional adequacy (weight and intake); pupils and bowel sounds do not monitor aspiration.",
-  "strat": "Aspiration plan: thicken and modify, sit up and supervise, then watch the lungs/SpO2 and the weight/intake."
+  "strat": "Aspiration plan: thicken and modify, sit up and supervise, then watch the lungs/SpO2 and the weight/intake.",
+  "why": "The central problem is risk for aspiration from impaired swallowing. The correct actions are thickening liquids and modifying food texture per the swallow evaluation, plus upright positioning with supervised feeding, since both directly reduce aspiration. The tracking parameters are respiratory status (lung sounds, oxygen saturation, coughing or choking) and nutritional adequacy (weight and intake)."
  },
  {
   "n": 120,
@@ -2829,7 +3365,11 @@ const Q = [
    5
   ],
   "rat": "The first five are aspiration precautions grounded in dysphagia care: high-Fowler's positioning protects the airway, a swallow evaluation/SLP referral individualizes the diet and liquid consistency, oral care reduces oral bacteria and aspiration-pneumonia risk and improves taste, staying upright after meals limits reflux and aspiration, and small bites with dry swallows clear residue before the next bite. Reclining after a meal promotes reflux and aspiration and is the one action to avoid.",
-  "strat": "Take action = the upright aspiration bundle; the only trap is letting the client lie back after eating."
+  "strat": "Take action = the upright aspiration bundle; the only trap is letting the client lie back after eating.",
+  "why": "These five actions form an aspiration-precaution bundle for dysphagia care. High-Fowler's positioning protects the airway, and a swallow evaluation with speech-language referral individualizes diet and liquid consistency. Oral care lowers bacterial and pneumonia risk, staying upright after meals limits reflux, and small bites with dry swallows clear residue before the next bite.",
+  "whyNot": [
+   "Reclining right after a meal promotes reflux and raises aspiration risk, which is the opposite of the upright positioning dysphagia care requires."
+  ]
  },
  {
   "n": 121,
@@ -2846,7 +3386,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "Success is the absence of coughing or choking with meals, clear lung sounds, and maintained food and fluid intake — the airway is protected and nutrition is preserved. Adding thin liquids back is not an improvement and reintroduces aspiration risk; occasional coughing with continued weight loss shows ongoing aspiration and inadequate intake; and clear lungs with only half the meal eaten means nutrition is not being maintained.",
-  "strat": "It worked when there is no coughing, the lungs stay clear, and intake holds — partial wins that lose weight or add thin liquids are not success."
+  "strat": "It worked when there is no coughing, the lungs stay clear, and intake holds — partial wins that lose weight or add thin liquids are not success.",
+  "why": "Success looks like eating without coughing, clear lung sounds, and maintained food and fluid intake. Together these findings show the airway is protected and nutrition is adequate, confirming the aspiration-precaution plan achieved its goal for this client. Partial improvements, such as fewer symptoms with continued weight loss, do not meet this standard.",
+  "whyNot": [
+   "Occasional coughing with another kilogram lost shows aspiration is still happening and nutrition is not yet being maintained.",
+   "Returning thin liquids to the tray reverses the swallow precautions and reintroduces the aspiration risk they were meant to prevent.",
+   "Clear lungs mean little if the client is only eating half of each meal, since nutrition is not actually being maintained."
+  ]
  },
  {
   "topic": "Diarrhea Nutrition",
@@ -2863,6 +3409,12 @@ const Q = [
   "ans": 0,
   "rat": "During the acute phase, low-fiber foods such as bananas, rice, applesauce, and dry toast are recommended because they are easily tolerated. Bran, raw fruits/vegetables, beans, popcorn, and milk products are all to be limited: high fiber and gas-forming foods worsen diarrhea, milk's lactose may not be digested, and apple juice can aggravate diarrhea.",
   "strat": "Acute diarrhea = low-fiber, bland (BRAT-style); cut milk, raw produce, and high-fiber foods.",
+  "why": "During acute diarrhea, low-fiber, easily tolerated foods such as bananas, rice, and dry toast are recommended because they are gentle on the irritated gut. This BRAT-style meal avoids the high-fiber, gas-forming, and lactose-containing foods that can worsen loose stools during this phase.",
+  "whyNot": [
+   "Raw vegetables and beans are high in fiber and gas-forming, both of which worsen diarrhea instead of settling the gut.",
+   "Bran is high-fiber and milk's lactose may not digest well during diarrhea, so both aggravate rather than settle the symptoms.",
+   "Popcorn is high in fiber and apple juice can aggravate diarrhea, making this combination poorly tolerated during the acute phase."
+  ],
   "n": 122
  },
  {
@@ -2880,6 +3432,12 @@ const Q = [
   "ans": 3,
   "rat": "Dark concentrated urine, confusion, and tachycardia are reported manifestations of dehydration, a dangerous complication of diarrhea that is especially likely in older adults. Cramping, urgency, bloating, and nausea are common manifestations of diarrhea itself, not signs of a complication requiring a report.",
   "strat": "Sort routine diarrhea symptoms from dehydration red flags (urine, mental status, heart rate) — older adults decompensate fast.",
+  "why": "Dark, concentrated urine, new confusion, and a rapid heart rate are reportable signs of dehydration, a dangerous complication of diarrhea that older adults develop quickly. These findings signal a systemic fluid problem beyond ordinary diarrhea symptoms and require provider notification.",
+  "whyNot": [
+   "Bloating and nausea that ease after a stool are typical diarrhea symptoms, not evidence of a dangerous complication.",
+   "A sudden urge to reach the bathroom is an expected diarrhea symptom rather than a sign of a complication.",
+   "Mild cramping that returns with each loose stool is a routine feature of diarrhea, not a red flag needing a report."
+  ],
   "n": 123
  },
  {
@@ -2917,6 +3475,7 @@ const Q = [
   ],
   "rat": "Water-soluble fiber dissolves and absorbs water during digestion, increases stool bulk, may lower cholesterol, and is the basis of bulk-forming laxatives (oats, oat bran, beans, citrus). Water-insoluble fiber stays unchanged and promotes normal movement of intestinal contents; it is found in whole-grain products such as whole-wheat bread and brown rice. Oats/oat bran and apples/oranges are soluble-fiber sources, making them wrong for the insoluble blank.",
   "strat": "Soluble = dissolves + bulks (laxative base); insoluble = unchanged + moves things along (whole grains/bran).",
+  "why": "Water-soluble fiber dissolves and absorbs water during digestion, increases stool bulk, and is the basis of bulk-forming laxatives such as oat bran and citrus fruit. Water-insoluble fiber stays chemically unchanged and instead promotes normal movement of intestinal contents. It is the type found in whole-grain products such as whole-wheat bread and brown rice, not oats or citrus fruit, which are soluble-fiber sources.",
   "n": 124
  },
  {
@@ -2941,6 +3500,11 @@ const Q = [
   ],
   "rat": "Care for constipation centers on increasing fiber, increasing water (8-10 glasses/day), increasing activity, keeping a regular eating routine, and listening to the body's cues for bowel movements. Ignoring or delaying the urge works against those cues, and skipping meals is specifically discouraged because a regular eating routine should be maintained.",
   "strat": "Constipation triad = more fiber + more fluid + more movement; honor the urge, don't suppress it or skip meals.",
+  "why": "Constipation self-management centers on four habits: gradually increase fiber from fruits, vegetables, and whole grains, and drink about 8 to 10 glasses of water daily. Add more physical activity and keep a regular eating routine that respects the body's natural urge to defecate.",
+  "whyNot": [
+   "Skipping meals works against the goal of keeping a regular eating routine and can actually worsen constipation instead of relieving it.",
+   "Holding bowel movements until a scheduled time ignores the body's natural urge, which teaching specifically tells clients to honor."
+  ],
   "n": 125
  },
  {
@@ -2958,6 +3522,12 @@ const Q = [
   "ans": 0,
   "rat": "Electrolyte solutions such as Pedialyte or Gatorade may be prescribed to replenish lost sodium and potassium, the priority during recovery from diarrhea. Milk products are avoided because lactose may not be digested, apple juice can aggravate diarrhea, and liquids should be taken 30 minutes before or after meals rather than during them.",
   "strat": "Replace what diarrhea drains (sodium/potassium) with a prescribed electrolyte solution; separate fluids from meals and skip milk and apple juice.",
+  "why": "A prescribed electrolyte solution such as Pedialyte or Gatorade replenishes the sodium and potassium lost during diarrhea, which is the treatment priority during recovery. This statement correctly names both the product type and the specific electrolytes it is meant to restore, unlike the other choices offered.",
+  "whyNot": [
+   "Milk products are avoided during recovery because their lactose may not be digested well and can worsen symptoms.",
+   "Fluids should be taken 30 minutes before or after meals, not in large amounts during the meal itself.",
+   "Apple juice can aggravate diarrhea rather than help, so it is a poor choice for hydration during recovery."
+  ],
   "n": 126
  },
  {
@@ -2975,7 +3545,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "Two days of vomiting and diarrhea with dizziness on standing point to fluid volume deficit, an unstable physiologic problem that outranks the others. The constipation, colostomy, and heartburn clients have real but stable teaching and coping needs that can wait.",
-  "strat": "Fluid losses plus orthostatic dizziness signal volume deficit - the unstable physiologic client is seen before routine teaching needs."
+  "strat": "Fluid losses plus orthostatic dizziness signal volume deficit - the unstable physiologic client is seen before routine teaching needs.",
+  "why": "Two days of vomiting and watery diarrhea with dizziness on standing suggest fluid volume deficit, an unstable physiologic problem in an older adult. This client needs assessment first because active fluid loss with orthostatic symptoms can deteriorate quickly if untreated.",
+  "whyNot": [
+   "Chronic constipation with a question about daily water intake is a stable teaching need that can safely wait.",
+   "Occasional heartburn with a question about trigger foods is a stable, non-urgent concern rather than a physiologic emergency.",
+   "A new colostomy client asking about meal planning has an important coping and teaching need, but nothing acutely unstable."
+  ]
  },
  {
   "n": 128,
@@ -2992,7 +3568,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "The BRAT diet is bananas, rice, applesauce, and toast - low-fiber, bland foods that are gentle on irritated GI mucosa. High-fiber choices like bran, raw vegetables, beans, and broccoli, or rich fried and high-fat foods, can further irritate the gut and worsen symptoms.",
-  "strat": "BRAT spells the menu - bananas, rice, applesauce, toast - low-fiber and bland, not high-fiber or greasy."
+  "strat": "BRAT spells the menu - bananas, rice, applesauce, toast - low-fiber and bland, not high-fiber or greasy.",
+  "why": "The BRAT diet is banana, rice, applesauce, and toast, a low-fiber and bland combination that is gentle on GI mucosa still recovering from diarrhea. Choosing exactly these foods shows the client understood the purpose of the diet during this recovery phase.",
+  "whyNot": [
+   "Fried chicken, buttered corn, and whole milk are high-fat and dairy-based choices that can further irritate a recovering gut.",
+   "Black bean chili, brown rice, and broccoli bring beans and vegetables that are too high in fiber for this phase.",
+   "Bran cereal, raw spinach, and orange slices are high-fiber, raw choices that can worsen rather than settle GI symptoms."
+  ]
  },
  {
   "n": 129,
@@ -3015,7 +3597,11 @@ const Q = [
    3
   ],
   "rat": "A focused GI assessment identifies trigger and relieving foods, evaluates abdominal pain with PQRST, establishes the baseline bowel pattern to detect changes, and explores cultural and religious dietary influences. Starting a high-fiber diet is a planned intervention, not an assessment, and prescribing it before the cause is known could worsen an irritated gut.",
-  "strat": "Recognizing cues means gathering data first - trigger foods, PQRST pain, bowel baseline, culture - not jumping to an intervention."
+  "strat": "Recognizing cues means gathering data first - trigger foods, PQRST pain, bowel baseline, culture - not jumping to an intervention.",
+  "why": "A focused GI assessment gathers data before any intervention begins. It identifies trigger and relieving foods, evaluates abdominal pain with the PQRST mnemonic, and establishes the client's baseline bowel pattern to detect changes. It also explores cultural and religious influences on the client's diet.",
+  "whyNot": [
+   "Starting a high-fiber diet is a planned intervention, not an assessment action, and prescribing it before the cause is known could worsen an irritated gut."
+  ]
  },
  {
   "n": 130,
@@ -3032,7 +3618,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "Dry mucous membranes, low urine output, and orthostatic blood pressure changes indicate fluid volume deficit, a physiologic threat that takes priority over the nutrition, coping, and fatigue diagnoses. The other diagnoses are valid but less urgent once hydration is stabilized.",
-  "strat": "Rank hypotheses by risk - active fluid loss with orthostatic changes is the most urgent, so volume deficit comes before nutrition or coping."
+  "strat": "Rank hypotheses by risk - active fluid loss with orthostatic changes is the most urgent, so volume deficit comes before nutrition or coping.",
+  "why": "Dry mucous membranes, decreased urine output, and orthostatic blood pressure changes point to fluid volume deficit, a physiologic threat that outranks the others. Once hydration is stabilized, the nutrition, coping, and fatigue diagnoses can be addressed as valid but less urgent concerns.",
+  "whyNot": [
+   "Fatigue tied to nutritional deficits is a real but lower-acuity concern next to an active fluid volume threat.",
+   "Ineffective coping with the illness matters but does not carry the physiologic urgency of ongoing fluid loss.",
+   "Imbalanced nutrition is an important goal but is secondary once hydration and vital signs are stabilized first."
+  ]
  },
  {
   "topic": "Biliary Colic",
@@ -3049,6 +3641,12 @@ const Q = [
   "ans": 0,
   "rat": "Biliary colic is triggered by meals high in calories, fat, and carbohydrates; a low-fat, low-carbohydrate meal such as grilled fish with vegetables is best. The fried, creamy, and high-fat/high-carb choices each provoke gallbladder contraction and pain.",
   "strat": "Gallbladder pain follows fat and big carb loads — pick the leanest plate.",
+  "why": "Biliary colic attacks are triggered by meals high in calories, fat, and carbohydrate. A low-fat, low-carbohydrate meal such as grilled fish with vegetables and rice avoids the fat load that provokes gallbladder contraction and pain. This makes it the safest choice for someone recovering from a recent attack.",
+  "whyNot": [
+   "Pasta with cream sauce and cheesecake is high in fat and carbohydrate, the combination most likely to trigger another attack.",
+   "A fried chicken sandwich with a buttered roll and milkshake is heavy in fat, which provokes gallbladder contraction and pain.",
+   "A cheeseburger with french fries and soda combines high fat and high carbohydrate, exactly the pattern that provokes biliary colic."
+  ],
   "n": 131
  },
  {
@@ -3066,6 +3664,12 @@ const Q = [
   "ans": 3,
   "rat": "In gallstone pancreatitis the client avoids food and fluids until the inflammation subsides while IV fluids are given; IV nutrients are added only if pancreatitis is severe and inflammation continues. Oral diets of any kind during the acute phase stimulate the inflamed pancreas.",
   "strat": "Acute pancreatitis = rest the pancreas: NPO with IV fluids first.",
+  "why": "In gallstone pancreatitis, the client avoids all food and fluids until the inflammation subsides, while intravenous fluids maintain hydration during this phase. Oral nutrients are added by IV only if the pancreatitis is severe and inflammation continues. Any oral diet during the acute phase would stimulate the inflamed pancreas.",
+  "whyNot": [
+   "A high-protein, high-calorie oral diet right away would stimulate the inflamed pancreas instead of letting it rest.",
+   "A clear-liquid diet still introduces oral intake, which is avoided entirely during the initial inflammatory phase of pancreatitis.",
+   "Small low-fat oral meals are still oral intake, which the acute phase requires withholding rather than offering."
+  ],
   "n": 132
  },
  {
@@ -3089,6 +3693,10 @@ const Q = [
   ],
   "rat": "Diets high in fat and low in fiber increase gallstone risk, so the protective teaching is a diet high in fruits, vegetables, whole grains, and fiber while limiting fat. Recommending a high-fat, low-fiber diet does the opposite and would raise the risk.",
   "strat": "Lower gallstone risk = more fiber and produce, less fat — flag the option that says the reverse.",
+  "why": "Protective teaching for gallstone risk centers on a diet high in fruits, vegetables, whole grains, and fiber while limiting fat. Diets that are high in fat and low in fiber are known to increase gallstone risk instead. The four correct statements each teach part of this protective, low-fat, high-fiber pattern.",
+  "whyNot": [
+   "Recommending a diet high in fat and low in fiber does the opposite of protective teaching and would raise, not lower, gallstone risk."
+  ],
   "n": 133
  },
  {
@@ -3106,6 +3714,12 @@ const Q = [
   "ans": 2,
   "rat": "Clients with hepatitis usually do not require a special diet; recommendations are regular balanced meals, adequate protein, limiting fatty/salty/sugary foods, and avoiding alcohol. Strict protein restriction, gluten-free, and high-fat instructions are not indicated by this material.",
   "strat": "Hepatitis without complications = no special diet; the constants are balanced eating and no alcohol.",
+  "why": "Clients with hepatitis usually do not need a special diet. Recommendations are regular balanced meals, adequate protein, and limiting fatty, salty, and sugary foods, along with avoiding alcohol to protect the healing liver. This response matches the actual guidance rather than describing an unnecessarily restrictive plan.",
+  "whyNot": [
+   "A high-fat diet is not the guidance for hepatitis and could add strain rather than give the liver extra energy.",
+   "Strict protein restriction is not indicated for uncomplicated hepatitis, since adequate protein is actually part of the recommended diet.",
+   "A gluten-free diet is not required for hepatitis, since gluten is unrelated to liver inflammation in this condition."
+  ],
   "n": 134
  },
  {
@@ -3123,6 +3737,12 @@ const Q = [
   "ans": 1,
   "rat": "NAFLD is managed with a calorie-controlled, well-balanced diet that limits fats, fructose, and alcohol, along with tracking glucose and lipids, to reverse fatty infiltration. Unrestricted calories, a liberal-fat plan, or restricting alcohol alone do not address the excess fat deposits driving the disease.",
   "strat": "NAFLD targets the fat in the liver — control calories, cut fat, fructose, and alcohol together.",
+  "why": "NAFLD is managed with a calorie-controlled, well-balanced diet that limits fat, fructose, and alcohol, along with tracking glucose and lipid levels. This approach targets the excess fatty deposits driving the disease and supports reversing the fatty infiltration of the liver.",
+  "whyNot": [
+   "A high-protein diet with no calorie limit does not address the excess calories driving fat deposits in the liver.",
+   "Restricting only alcohol while leaving everything else unchanged ignores the excess calories, fat, and fructose also driving NAFLD.",
+   "A liberal-fat plan simply swaps one excess macronutrient for another and does not correct the underlying fatty infiltration."
+  ],
   "n": 135
  },
  {
@@ -3140,6 +3760,12 @@ const Q = [
   "ans": 2,
   "rat": "In celiac disease the damaged small-intestine lining limits cholecystokinin production, which delays gallbladder emptying and increases gallbladder problems, especially after a fatty meal. The other options reverse the hormone effect or describe mechanisms not supported by the material.",
   "strat": "Damaged gut = less CCK = sluggish gallbladder emptying after fatty food.",
+  "why": "Celiac disease damages the small intestine lining, which limits cholecystokinin (CCK) production. Since CCK normally signals the gallbladder to contract and empty, reduced CCK delays gallbladder emptying and raises gallbladder risk, especially after a fatty meal. This mechanism, not autoimmune attack or excess bile, explains her right upper quadrant discomfort.",
+  "whyNot": [
+   "Celiac disease damages the small intestine, not the gallbladder wall directly, so autoimmune destruction of the gallbladder is not the mechanism.",
+   "This reverses the actual hormone effect, since celiac disease lowers cholecystokinin rather than increasing it.",
+   "Increased bile production is not the mechanism described for celiac disease, which instead involves reduced hormone signaling to the gallbladder."
+  ],
   "n": 136
  },
  {
@@ -3157,7 +3783,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "When a client has both severe pain and enough vomiting to threaten fluid and electrolyte balance, both are high priority and the nurse needs more data on the volume status to rank them, since an actual physiologic imbalance can outrank even severe pain. Knowledge deficit, risk for infection, and anxiety are valid but lower-acuity diagnoses that do not address an immediate physiologic threat.",
-  "strat": "When two physiologic problems compete, gather data on the one that can destabilize the client - active fluid loss - before settling the priority."
+  "strat": "When two physiologic problems compete, gather data on the one that can destabilize the client - active fluid loss - before settling the priority.",
+  "why": "This client has both severe pain and vomiting significant enough to threaten fluid balance, so both problems are high priority. An actual physiologic imbalance can outrank even severe pain, so the nurse gathers more data on fluid and electrolyte status to settle the ranking.",
+  "whyNot": [
+   "Anxiety about the upcoming surgery is a valid but lower-acuity concern than an unresolved physiologic threat like fluid imbalance.",
+   "Risk for infection applies only after surgery occurs, so it does not compete with this client's current physiologic threats.",
+   "Knowledge deficit about post-surgical diet is a teaching need that can wait until the client's acute status is settled."
+  ]
  },
  {
   "n": 138,
@@ -3193,7 +3825,8 @@ const Q = [
    }
   ],
   "rat": "Obstruction of the bile ducts backs bile up, producing pale or chalky stools, dark urine, jaundice, and right upper quadrant pain that worsens after fatty or fried meals. Bright red blood coating the stool reflects lower GI or rectal bleeding, not biliary obstruction.",
-  "strat": "Biliary obstruction blocks bile flow - stool loses color, urine darkens, skin yellows; frank red rectal bleeding points elsewhere."
+  "strat": "Biliary obstruction blocks bile flow - stool loses color, urine darkens, skin yellows; frank red rectal bleeding points elsewhere.",
+  "why": "Obstruction of the bile ducts backs up bile, producing pale or chalky stools, dark urine, and jaundice. It also causes right upper quadrant pain that worsens after fatty or fried meals. Bright red blood coating a formed stool instead points to lower GI or rectal bleeding, an unrelated finding."
  },
  {
   "n": 139,
@@ -3218,7 +3851,11 @@ const Q = [
    5
   ],
   "rat": "Low-fat choices (no more than 3 g fat per serving), smaller frequent meals that mix better with the now continuous bile, a gradual increase in soluble fiber, avoiding fried and greasy foods for at least a week, and meals built on lean protein, produce, and whole grains all reduce post-surgical diarrhea, gas, and bloating. Adding a large amount of fiber all at once worsens gas and cramping, so fiber must be increased slowly.",
-  "strat": "After gallbladder removal, less fat per meal and slow fiber buildup - the body can no longer store concentrated bile for a big fatty load."
+  "strat": "After gallbladder removal, less fat per meal and slow fiber buildup - the body can no longer store concentrated bile for a big fatty load.",
+  "why": "After cholecystectomy, bile drains continuously instead of being stored, so meals should stay low-fat and modest in size. The correct teaching favors low-fat foods (3 grams or less per serving), smaller frequent meals, and lean protein with produce and whole grains. Fried, greasy foods are avoided for the first week, and soluble fiber like oats and barley is added gradually over several weeks.",
+  "whyNot": [
+   "Adding a large amount of fiber right away worsens gas and cramping, since fiber needs to be increased slowly after this surgery."
+  ]
  },
  {
   "n": 140,
@@ -3235,7 +3872,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "After cholecystectomy, bile is less concentrated and drains continuously into the intestine, so a large fat load in one meal is not fully digested and produces gas, bloating, and a laxative effect - which fits her continued high-fat fast-food intake. Retained stones and wound infection do not explain diet-triggered symptoms with resolved pain, and soluble fiber such as oats and barley helps normalize bowel movements rather than causing the problem.",
-  "strat": "Match the symptom to the new physiology - continuous, dilute bile cannot handle a big fat load, so the fatty meals, not retained stones, drive the diarrhea."
+  "strat": "Match the symptom to the new physiology - continuous, dilute bile cannot handle a big fat load, so the fatty meals, not retained stones, drive the diarrhea.",
+  "why": "After cholecystectomy, bile is less concentrated and drains continuously into the intestine instead of being stored. A large fat load in one meal is not fully digested, producing gas, bloating, and a laxative effect. This fits her continued high-fat fast-food intake despite cutting back on visits.",
+  "whyNot": [
+   "Retained gallstones do not explain symptoms tied directly to her continued high-fat diet, especially with her surgical pain resolved.",
+   "Soluble fiber such as oats and barley helps normalize bowel movements rather than causing her gas, bloating, and diarrhea.",
+   "Wound infection does not explain diet-triggered symptoms occurring ten days out with her incisional pain already resolved."
+  ]
  },
  {
   "n": 141,
@@ -3252,7 +3895,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "Carbohydrate counting establishes a balance between the amount of carbohydrate eaten and the insulin needed to regulate blood glucose, and it is a flexible strategy that helps the client see how food choices affect glucose. It does not eliminate carbohydrate (carbs from fruits, vegetables, whole grains, legumes, and low-fat milk are encouraged), is flexible rather than a fixed gram count, and the registered dietitian remains an essential part of the team.",
-  "strat": "Counting carbs matches carb intake to insulin — it is a flexible balancing tool, not carb elimination."
+  "strat": "Counting carbs matches carb intake to insulin — it is a flexible balancing tool, not carb elimination.",
+  "why": "Carbohydrate counting establishes a balance between the carbohydrate eaten and the insulin needed to regulate blood glucose. It is a flexible strategy, not a fixed gram target, that helps the client see how food choices affect glucose. The registered dietitian still remains an essential part of the team.",
+  "whyNot": [
+   "Carbohydrate counting does not remove carbohydrate from meals, since carbs from fruits, vegetables, whole grains, and milk are still encouraged.",
+   "The method is flexible rather than locking the client into the same fixed gram amount at every meal.",
+   "Carbohydrate counting works alongside the registered dietitian's guidance rather than replacing that essential team member entirely."
+  ]
  },
  {
   "n": 142,
@@ -3269,7 +3918,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "Oatmeal, beans, and apples fall in the low (30–50) glycemic-index range, so oatmeal with an apple raises glucose the slowest. Cornflakes and watermelon sit at 70–100, white wheat bread and boiled potatoes are also 70–100, and a banana is a mid-range (50–70) food — all raise glucose higher and faster than the oatmeal-and-apple option.",
-  "strat": "Whole grains and most whole fruits (oats, apples) run low-GI; refined grains, potatoes, cornflakes, and watermelon run high-GI."
+  "strat": "Whole grains and most whole fruits (oats, apples) run low-GI; refined grains, potatoes, cornflakes, and watermelon run high-GI.",
+  "why": "Oatmeal and apples both fall in the low glycemic-index range of about 30 to 50. Oatmeal with an apple therefore raises blood glucose the slowest of the four options. The other three choices pair foods rated 50 to 100 on the index, which raise glucose higher and faster.",
+  "whyNot": [
+   "Cornflakes sit at 70 to 100 on the index and a banana is mid-range, so this pairing raises glucose faster.",
+   "White wheat bread and watermelon juice both fall in the 70 to 100 range, raising glucose quickly rather than slowly.",
+   "A baguette and boiled potatoes are both high-glycemic choices in the 70 to 100 range, not a low-glycemic option."
+  ]
  },
  {
   "n": 143,
@@ -3291,7 +3946,8 @@ const Q = [
    3
   ],
   "rat": "The two incorrect statements are stopping all food (the client should stick to the normal meal plan, not stop eating) and drinking only regular soda and juice (sick-day fluids should be sugar-free, such as water and tea). The other statements are correct sick-day and alcohol guidance: take alcohol with food to prevent hypoglycemia, check glucose more often, continue usual medications, and call the provider for moderate ketones or glucose over 250 mg/dL.",
-  "strat": "Sick-day rules: keep meds + normal meals, more frequent checks, sugar-free fluids, call for ketones / glucose >250."
+  "strat": "Sick-day rules: keep meds + normal meals, more frequent checks, sugar-free fluids, call for ketones / glucose >250.",
+  "why": "The two statements needing correction are stopping all food while sick and drinking only regular soda and juice. The sick client should keep the normal meal plan and choose sugar-free fluids such as water and tea instead. The other four statements are correct sick-day guidance about alcohol, glucose checks, medications, and calling the provider."
  },
  {
   "n": 144,
@@ -3316,7 +3972,11 @@ const Q = [
    5
   ],
   "rat": "Shakiness, nervousness, and sweating relieved by carbohydrate are classic hypoglycemia signs; irregular meals and a skipped snack set the client up for lows; and an unexplained A1C rise, excessive exercise to control weight, and omitted insulin are recognized warning signs of disordered eating in type 1 diabetes. A daily multivitamin is an expected, non-concerning finding and is not a relevant cue.",
-  "strat": "Cluster the abnormal/at-risk findings; a routine multivitamin is normal and is not a cue to chase."
+  "strat": "Cluster the abnormal/at-risk findings; a routine multivitamin is normal and is not a cue to chase.",
+  "why": "Shakiness, nervousness, and sweating relieved by carbohydrate are classic hypoglycemia signs. Irregular meals with a skipped bedtime snack set the client up for these lows. An unexplained A1C rise, excessive exercise to control weight, and omitted insulin doses are recognized warning signs of disordered eating in type 1 diabetes.",
+  "whyNot": [
+   "A daily multivitamin is an expected, non-concerning finding and is not a cue the nurse needs to follow up on."
+  ]
  },
  {
   "n": 145,
@@ -3333,7 +3993,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "Hunger, nervousness, shakiness, and sweating that resolve with carbohydrate point to hypoglycemia (blood glucose under 70 mg/dL), which fits insulin use paired with irregular, skipped meals. Hyperglycemia produces thirst, fatigue, frequent urination, and blurred vision rather than relief from juice; DKA is a life-threatening crisis with Kussmaul respirations, not transient symptoms relieved by a drink; and these symptoms are not a normal, expected response to exercise.",
-  "strat": "Symptoms relieved by sugar = the body was low; match the symptom set to hypo- vs. hyperglycemia."
+  "strat": "Symptoms relieved by sugar = the body was low; match the symptom set to hypo- vs. hyperglycemia.",
+  "why": "Hunger, nervousness, shakiness, and sweating that resolve with carbohydrate point to hypoglycemia, which fits insulin use paired with irregular, skipped meals in this client. This symptom-and-relief pattern is the key link between the cues and the underlying cause, distinguishing it from a hyperglycemic or exercise-related process.",
+  "whyNot": [
+   "Hypoglycemia symptoms are not a harmless, expected response to exercise, since they signal blood glucose that has dropped too low.",
+   "Hyperglycemia produces thirst, fatigue, frequent urination, and blurred vision, not symptoms that resolve quickly after drinking juice.",
+   "DKA is a life-threatening crisis marked by Kussmaul respirations, not transient symptoms that resolve after a carbohydrate drink."
+  ]
  },
  {
   "n": 146,
@@ -3350,7 +4016,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "An active hypoglycemic episode is the acute, physiologic priority — untreated hypoglycemia can progress to unconsciousness — so the nurse treats the low first (Maslow/airway-circulation, acute over chronic). The mental health referral, meal-timing teaching, and insulin review are all appropriate but address ongoing/chronic issues that follow once the client is stabilized.",
-  "strat": "Treat the acute physiologic emergency now; teaching and referrals come after the client is safe."
+  "strat": "Treat the acute physiologic emergency now; teaching and referrals come after the client is safe.",
+  "why": "An active hypoglycemic episode is the acute physiologic priority, since untreated hypoglycemia can progress to unconsciousness. The nurse treats the low first, addressing the acute threat before any chronic or ongoing issue. The mental health referral, meal-timing teaching, and insulin review remain appropriate but can follow once the client is stabilized.",
+  "whyNot": [
+   "A mental health referral addresses an important but chronic concern that can wait until this acute low is resolved.",
+   "Reviewing insulin-dosing technique is useful teaching, but it does not treat the hypoglycemic episode happening right now.",
+   "Reinforcing consistent meal timing is important prevention, but it does not address the current low blood glucose."
+  ]
  },
  {
   "n": 147,
@@ -3392,7 +4064,8 @@ const Q = [
    ]
   },
   "rat": "For a conscious client who can swallow, hypoglycemia is treated by consuming a carbohydrate-rich food (glucose tablet, juice, or honey); glucagon is reserved for the client who is unconscious or unable to swallow, so it is not the action here, and withholding food would worsen the low. Monitoring blood glucose and the hypoglycemia symptom set (shakiness, sweating, confusion) tells the nurse whether treatment worked; urine ketones belong to sick-day/DKA monitoring and multivitamin intake is irrelevant to this episode.",
-  "strat": "Conscious + can swallow = oral carbs and recheck; glucagon is only for the can't-swallow client."
+  "strat": "Conscious + can swallow = oral carbs and recheck; glucagon is only for the can't-swallow client.",
+  "why": "For a conscious client who can swallow, hypoglycemia is treated with a carbohydrate-rich food such as a glucose tablet, juice, or honey. The nurse stays with the client and reassesses symptoms while monitoring blood glucose. Glucagon is reserved for a client who cannot swallow, so withholding food or giving an injection here would be wrong and would worsen the low."
  },
  {
   "n": 148,
@@ -3415,7 +4088,13 @@ const Q = [
    5
   ],
   "rat": "Consistent meal timing prevents hypoglycemia, a registered dietitian referral is essential for an individualized meal plan, and the warning signs of disordered eating (omitting insulin, excessive exercise, unexplained A1C rise) warrant a mental health referral. Cutting out the bedtime snack and drinking alcohol on an empty stomach both promote hypoglycemia (alcohol should be taken with food), and stopping insulin would precipitate hyperglycemia and DKA — all three are unsafe.",
-  "strat": "Prevent lows with steady meals, the bedtime snack, and food-with-alcohol; refer to the RD and mental health — never stop the insulin."
+  "strat": "Prevent lows with steady meals, the bedtime snack, and food-with-alcohol; refer to the RD and mental health — never stop the insulin.",
+  "why": "Consistent meal timing prevents hypoglycemia, and a registered dietitian referral supports an individualized meal plan. The warning signs of disordered eating, such as omitted insulin, excessive exercise, and an unexplained A1C rise, warrant a mental health referral. Together these three actions build sustainable self-management rather than only treating the acute episode.",
+  "whyNot": [
+   "Cutting out the bedtime snack removes a safeguard against overnight lows and would promote hypoglycemia instead of preventing it.",
+   "Drinking alcohol on an empty stomach removes the food buffer alcohol needs and would promote hypoglycemia rather than limit calories safely.",
+   "Stopping insulin to avoid lows would instead precipitate hyperglycemia and diabetic ketoacidosis, an unsafe and dangerous instruction."
+  ]
  },
  {
   "n": 149,
@@ -3432,7 +4111,13 @@ const Q = [
   ],
   "ans": 2,
   "rat": "Regular meal timing with resolution of the between-meal hypoglycemia symptoms shows the underlying cause was corrected — the desired outcome. Still skipping lunch leaves the client at risk, completing only part of the referral plan is incomplete follow-through, and needing to rescue-treat lows three times in a week shows hypoglycemia is still occurring rather than being prevented.",
-  "strat": "\"Working\" means the root cause is fixed and symptoms stopped — not that rescue treatment is being used more."
+  "strat": "\"Working\" means the root cause is fixed and symptoms stopped — not that rescue treatment is being used more.",
+  "why": "Regular meal timing with resolution of the between-meal hypoglycemia symptoms shows the underlying cause of the lows was corrected. This is the desired outcome of the plan. The other options each describe an incomplete or ongoing problem rather than a resolved one.",
+  "whyNot": [
+   "Needing rescue glucose tablets three times in a week shows hypoglycemia is still occurring, not being prevented.",
+   "Still skipping lunch on busy days leaves the client at ongoing risk for the same hypoglycemic episodes.",
+   "Completing only part of the referral plan, with the mental health visit still pending, is incomplete follow-through."
+  ]
  },
  {
   "n": 150,
@@ -3449,7 +4134,13 @@ const Q = [
   ],
   "ans": 0,
   "rat": "Exercise should be avoided when the blood glucose is greater than 250 mg/dL with ketones present, because activity can worsen hyperglycemia and ketosis. The snack answer fits hypoglycemia (glucose under 100), not this value; calling it a good level is incorrect; the timing-after-meals rule does not override the ketone red flag.",
-  "strat": "Glucose over 250 plus ketones = do not exercise; ketones change the whole answer."
+  "strat": "Glucose over 250 plus ketones = do not exercise; ketones change the whole answer.",
+  "why": "Exercise should be avoided when blood glucose is above 250 mg/dL with ketones present, since activity can worsen hyperglycemia and ketosis in this state. At 268 mg/dL with positive ketones, the client should hold off on the jog until the glucose comes down and ketones clear.",
+  "whyNot": [
+   "Waiting 30 to 60 minutes after eating is timing advice for a normal glucose level and does not override the ketone red flag here.",
+   "A 15-gram carbohydrate snack before exercise is the response to a low glucose reading, not this client's elevated one.",
+   "Calling 268 mg/dL with ketones a good level to exercise on ignores the specific glucose-and-ketone threshold that requires holding off."
+  ]
  },
  {
   "n": 151,
@@ -3485,7 +4176,8 @@ const Q = [
    }
   ],
   "rat": "Premeal target is 70-130 mg/dL (118 within, 154 out), two-hour postprandial is under 180 mg/dL (168 within, 205 out), and bedtime is 90-150 mg/dL (132 within). Students often misjudge by applying the same cutoff to every timing instead of matching the value to when it was drawn.",
-  "strat": "Match each glucose value to its timing target: premeal 70-130, 2-hr postmeal under 180, bedtime 90-150."
+  "strat": "Match each glucose value to its timing target: premeal 70-130, 2-hr postmeal under 180, bedtime 90-150.",
+  "why": "Premeal target is 70 to 130 mg/dL, so 118 falls within range while 154 is out of range. Two-hour postprandial target is under 180 mg/dL, so 168 is within range while 205 is out. Bedtime target is 90 to 150 mg/dL, so 132 falls within that range."
  },
  {
   "n": 152,
@@ -3509,7 +4201,12 @@ const Q = [
    5
   ],
   "rat": "Daily foot inspection, carrying carbohydrate during activity, routine eye exams for retinopathy, and demonstrating glucose monitoring all reflect effective self-management teaching. Exercising harder when glucose is over 250 is unsafe, and dismissing numbness or tingling misses a reportable neuropathy cue that raises injury risk.",
-  "strat": "On 'teaching effective' items, reject any statement that ignores a warning sign or adds risk."
+  "strat": "On 'teaching effective' items, reject any statement that ignores a warning sign or adds risk.",
+  "why": "Effective teaching is reflected in daily foot inspection for cuts, redness, or sores, and in carrying carbohydrate during exercise. It also includes returning demonstration of home glucose monitoring and keeping routine eye exams for retinopathy. These four statements show the client is applying the full self-management plan rather than only part of it.",
+  "whyNot": [
+   "Dismissing numbness or tingling as normal misses a reportable neuropathy warning sign that raises the risk of unnoticed injury.",
+   "Exercising harder when glucose is above 250 is unsafe, since activity at that level can worsen hyperglycemia and ketosis."
+  ]
  },
  {
   "n": 153,
@@ -3526,7 +4223,13 @@ const Q = [
   ],
   "ans": 1,
   "rat": "New numbness and tingling signals peripheral neuropathy with loss of protective sensation, which raises the risk of unnoticed foot injury and infection and should be addressed first. The weight-loss progress is a positive outcome, family history is background data, and mild skin dryness is a lower-acuity cue that can be managed after the safety risk.",
-  "strat": "Prioritize the cue that creates the most immediate injury or safety risk, not background or positive findings."
+  "strat": "Prioritize the cue that creates the most immediate injury or safety risk, not background or positive findings.",
+  "why": "New numbness and tingling signal peripheral neuropathy with loss of protective sensation, which raises the risk of an unnoticed foot injury and infection. This safety risk should be addressed first, ahead of background history, a positive outcome, and a lower-acuity skin finding.",
+  "whyNot": [
+   "Family history of hypertension and heart disease is background risk information, not an active or urgent physical finding today.",
+   "Occasional dryness of the lower-leg skin is a mild, lower-acuity cue that can be managed after the safety risk.",
+   "Weight loss from exercise is a positive outcome to acknowledge, not a finding that needs to be addressed as a risk."
+  ]
  },
  {
   "n": 154,
@@ -3543,7 +4246,13 @@ const Q = [
   ],
   "ans": 3,
   "rat": "The plan notes that a combination of a vegan (plant-based) diet and exercise may help treat neuropathy, so encouraging exercise and proper nutrition is appropriate. Loading meals with red meat and dairy is not the recommended approach, eliminating nearly all carbohydrate is not advised and risks hypoglycemia, and avoiding activity contradicts the recommendation to encourage exercise.",
-  "strat": "For diabetic neuropathy, the guide pairs a plant-based diet with exercise, not rest or extreme diets."
+  "strat": "For diabetic neuropathy, the guide pairs a plant-based diet with exercise, not rest or extreme diets.",
+  "why": "The plan of care notes that combining a plant-based diet with exercise may help treat diabetic neuropathy. The nurse therefore encourages both proper nutrition and activity. This response matches the specific guidance for managing neuropathy symptoms rather than an unsupported dietary claim.",
+  "whyNot": [
+   "Adding more red meat and full-fat dairy is not the recommended approach and is not supported as helping nerve symptoms.",
+   "Eliminating nearly all carbohydrate is not advised and risks causing hypoglycemia in a client managing diabetes.",
+   "Avoiding most physical activity contradicts the recommendation to encourage exercise as part of managing neuropathy."
+  ]
  }
 ];
 

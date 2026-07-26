@@ -2567,7 +2567,7 @@
     ]
    },
    "rat": "Warm packs (never ice, which worsens vasoconstriction and sickling) plus around-the-clock analgesia and continued IV hydration are the guide's priority interventions for vaso-occlusive crisis; his hemoglobin is near baseline, so a transfusion is not indicated for this episode. Monitor pain control and hydration status/I&O — the two targets of the interventions chosen.",
-   "strat": "Bowtie actions must match the keyed problem: pick the two interventions that directly treat vaso-occlusion (analgesia + hydration), not a fix for a different crisis (transfusion is for severe anemia).",
+   "strat": "Bowtie actions must match the keyed problem. Treat vaso-occlusion with analgesia and hydration. Transfusion answers severe anemia, a different crisis.",
    "why": "Warm packs, never ice, which worsens vasoconstriction and sickling, plus around-the-clock analgesia and continued IV hydration are the priority interventions for this vaso-occlusive crisis. His hemoglobin is close to baseline, so a transfusion is not indicated for this episode. The nurse should monitor pain control and hydration status, the two targets these interventions address."
   },
   {
