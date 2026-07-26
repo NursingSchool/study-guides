@@ -42,7 +42,13 @@
    ],
    "ans": 2,
    "rat": "Progressive cervical change (dilation AND effacement) on serial exam is the ONLY definitive sign of true labor. Duration of contracting, a stable mild pain rating, and passage of the mucus plug (bloody show) can all accompany false labor and do not confirm it; this client's cervix is unchanged at 2 cm, consistent with false labor.",
-   "strat": "Only the cervix votes - contractions, pain, and bloody show don't diagnose true labor; cervical change does."
+   "strat": "Only the cervix votes: contractions, pain, and bloody show don't diagnose true labor. Cervical change does.",
+   "why": "Progressive cervical change on serial exam is the only definitive sign of true labor. Dilation and effacement together confirm the cervix is truly responding to contractions, not just tightening without progress. This client's cervix stayed at 2 cm and 50% effacement unchanged, which instead fits false labor.",
+   "whyNot": [
+    "Passage of the mucus plug (bloody show) can occur before true labor begins and doesn't confirm active cervical change.",
+    "Contractions lasting over six hours without cervical change can still be false labor, since duration alone doesn't prove progress.",
+    "A steady, mild pain rating that doesn't intensify is typical of false labor and doesn't indicate true cervical progress."
+   ]
   },
   {
    "n": 2,
@@ -59,7 +65,13 @@
    ],
    "ans": 3,
    "rat": "Transition is 8-10 cm with frequent (every 2-3 min), long (60-90 sec) contractions and the classic behavior shift: irritability, withdrawal, and nausea. Latent (0-3 cm) clients are still talkative; active (4-7 cm) clients are focusing but not yet 9 cm; the second stage begins only at complete (10 cm) dilation, and an urge to push before full dilation is not the defining cue here.",
-   "strat": "Irritable + nauseated + nearly complete dilation = transition; let the cm and the behavior agree."
+   "strat": "Irritable + nauseated + nearly complete dilation = transition. Let the cm and the behavior agree.",
+   "why": "Transition is the 8 to 10 cm phase of stage one, with contractions every 2 to 3 minutes lasting 60 to 90 seconds. The classic behavior shift is irritability, withdrawal, and nausea, which is exactly what this client shows. Cervical dilation at 9 cm confirms transition rather than an earlier phase.",
+   "whyNot": [
+    "Active phase is 4 to 7 cm with the client focusing on breathing, but this client is at 9 cm, past that phase already.",
+    "Latent phase clients are 0 to 3 cm and still talkative, the opposite of this withdrawn, nauseated client at 9 cm.",
+    "Second stage begins only at complete 10 cm dilation, and this client is still at 9 cm in stage one."
+   ]
   },
   {
    "n": 3,
@@ -76,7 +88,13 @@
    ],
    "ans": 1,
    "rat": "By the ABC framework, establishing the airway is the first priority after delivery: the nares and mouth are suctioned so the newborn can breathe. Banding, the 1-minute Apgar, and eye prophylaxis all follow once the airway and breathing are secured; eye ointment and other meds can be delayed up to an hour for bonding.",
-   "strat": "ABCs win at birth - airway before assessment, ID, or meds."
+   "strat": "ABCs win at birth - airway before assessment, ID, or meds.",
+   "why": "By the ABC framework, the airway comes first after delivery, so the nurse suctions the newborn's nares and mouth before anything else. Banding, the 1-minute Apgar, and eye prophylaxis all wait until the airway and breathing are secured. Eye medication can even be delayed up to an hour to protect bonding time.",
+   "whyNot": [
+    "Prophylactic eye ointment is routine newborn care but can wait up to an hour, so it is never the first action.",
+    "The Apgar score, including heart rate, is assessed at exactly one minute of life, not before the airway is cleared.",
+    "Identification banding is important but happens after airway, breathing, and initial stabilization are addressed, not as the first step."
+   ]
   },
   {
    "n": 4,
@@ -93,7 +111,13 @@
    ],
    "ans": 0,
    "rat": "A placenta not delivered within 30 minutes of birth is retained and needs manual or surgical removal. Separation signs (cord lengthening, a change in uterine shape, a gush of blood) are ABSENT, so it is not separating normally. Oxytocic therapy for atony is given AFTER the placenta delivers to keep the uterus firm - giving it now, with the placenta still attached, is premature; a laceration is possible but the defining issue at 35 minutes is the undelivered placenta.",
-   "strat": "30-minute clock: placenta not out = retained; save oxytocin for after it delivers."
+   "strat": "30-minute clock: placenta not out = retained. Save oxytocin for after it delivers.",
+   "why": "A placenta not delivered within 30 minutes of birth is classified as retained and needs manual or surgical removal. Separation signs such as cord lengthening, a uterine shape change, or a gush of blood are absent here, so it is not simply delayed.",
+   "whyNot": [
+    "A laceration is possible with ongoing bleeding, but the defining problem at 35 minutes is the undelivered placenta itself.",
+    "None of the separation signs, cord lengthening, a shape change, or a blood gush, are present, so this is not normal separation.",
+    "Oxytocin for atony is given after the placenta delivers, so starting it now, before removal, is premature."
+   ]
   },
   {
    "n": 5,
@@ -117,7 +141,12 @@
     5
    ],
    "rat": "Acrocyanosis (blue extremities with a pink trunk) scores 1 for color, not 0; Apgar is scored at 1 AND 5 minutes (and possibly 10) regardless of the 1-minute value, so a 5-minute score IS still required; 7-10 means minimal/no difficulty, while 4-6 means moderate difficulty requiring intervention. The score is taken at 1 minute of life - after the whole newborn is delivered and stabilized - not as the head emerges.",
-   "strat": "Apgar = always at 1 and 5 min; acrocyanosis still earns a point; 4-6 is the 'intervene' zone."
+   "strat": "Apgar = always at 1 and 5 min. Acrocyanosis still earns a point. 4-6 is the 'intervene' zone.",
+   "why": "Apgar is scored at 1 and 5 minutes of life, and possibly 10, regardless of the 1-minute result. So this 8 still requires a 5-minute score. Acrocyanosis, blue hands and feet with a pink trunk, scores 1 point for color rather than 0. A 7 to 10 score means minimal difficulty, while 4 to 6 means moderate difficulty needing intervention.",
+   "whyNot": [
+    "A 5-minute Apgar is always obtained regardless of the 1-minute value, so an 8 at 1 minute does not skip it.",
+    "The 1-minute score is taken after the whole newborn is delivered and stabilized, not as soon as the head emerges."
+   ]
   },
   {
    "n": 1,
@@ -134,7 +163,13 @@
    ],
    "ans": 2,
    "rat": "Fetal heart tones are heard best over the upper fetal back, identified by the smooth, convex surface (here, the right side); the small, nodular parts are arms and legs, not where tones transmit clearly. The suprapubic and midline sites do not overlie the back in this position.",
-   "strat": "Smooth and convex = fetal back = where you place the transducer."
+   "strat": "Smooth and convex = fetal back = where you place the transducer.",
+   "why": "Fetal heart tones are heard most clearly over the upper fetal back, which Leopold's identified as the smooth, convex surface on this client's right side. The small, nodular parts on the left are the fetal arms and legs, where heart tones do not transmit well.",
+   "whyNot": [
+    "The suprapubic area is used to assess engagement, not to obtain the clearest fetal heart tracing.",
+    "The midline umbilicus does not overlie the fetal back in this position, so it will not give a clear tracing.",
+    "The small parts on the left are arms and legs, nodular structures that do not transmit fetal heart tones clearly."
+   ]
   },
   {
    "n": 2,
@@ -164,7 +199,8 @@
     }
    ],
    "rat": "A baseline of 168 bpm exceeds the 110-160 bpm normal range, so it is tachycardia (>160 bpm for <10 minutes). Bradycardia is <110 bpm; a rate of 168 is not within the 110-160 normal band.",
-   "strat": "Anchor on 110-160: under = brady, over = tachy."
+   "strat": "Anchor on 110-160: under = brady, over = tachy.",
+   "why": "A mean fetal heart rate of 168 bpm exceeds the normal 110 to 160 bpm range, so the baseline is classified as tachycardia. Tachycardia is defined as a sustained rate above 160 bpm lasting less than 10 minutes, while bradycardia is under 110 bpm."
   },
   {
    "n": 3,
@@ -200,7 +236,8 @@
     }
    ],
    "rat": "Opioids/CNS depressants (butorphanol, nalbuphine) and the fetal sleep cycle blunt the FHR toward minimal variability (less than or equal to 5 bpm). Maternal cocaine and other stimulants drive the rate toward marked variability (greater than 25 bpm). Moderate variability would be the normal in-between, but it is not the expected effect of these specific causes.",
-   "strat": "Downers (opioids/sleep) damp it down; uppers (stimulants) crank it up."
+   "strat": "Downers (opioids/sleep) damp it down. Uppers (stimulants) crank it up.",
+   "why": "Opioids and CNS depressants such as butorphanol and nalbuphine blunt variability toward minimal, 5 bpm or less, as does a fetal sleep cycle. Maternal cocaine or other stimulants push variability toward marked, above 25 bpm, the opposite direction. Moderate variability is the normal in-between range that these specific causes are not expected to produce."
   },
   {
    "n": 4,
@@ -234,7 +271,8 @@
     }
    ],
    "rat": "VEAL CHOP pairs Variable-Cord compression, Early-Head compression, Acceleration-OK (well-being), and Late-Placenta (uteroplacental insufficiency). Early decels mirror the contraction (vagal head compression) while late decels are delayed and signal poor placental perfusion.",
-   "strat": "VEAL lines up with CHOP letter-for-letter, top to bottom."
+   "strat": "VEAL lines up with CHOP letter-for-letter, top to bottom.",
+   "why": "VEAL CHOP pairs each fetal heart rate pattern with its cause in matching order. Variable decelerations come from cord compression, early decelerations from head compression, accelerations reflect fetal well-being, and late decelerations signal uteroplacental insufficiency. Early decelerations mirror the contraction from vagal head compression, while late decelerations lag behind it and point to poor placental perfusion."
   },
   {
    "n": 5,
@@ -251,7 +289,13 @@
    ],
    "ans": 0,
    "rat": "Abrupt drops with variable timing and rapid return are variable decelerations from cord compression; when repositioning fails, the provider may order amnioinfusion to cushion the cord. Raising oxytocin worsens cord/perfusion stress, a scalp electrode measures FHR (it does not diagnose demise), and IV fluids are increased, not withheld, to support perfusion.",
-   "strat": "Variable = Cord squeeze; if turning the client fails, add fluid (amnioinfusion)."
+   "strat": "Variable = Cord squeeze. If turning the client fails, add fluid (amnioinfusion).",
+   "why": "Abrupt drops in fetal heart rate that vary in timing relative to contractions, with a rapid return to baseline, describe variable decelerations from cord compression. When repositioning fails to resolve them, the provider may order amnioinfusion to add fluid that cushions the compressed cord.",
+   "whyNot": [
+    "IV fluids are increased, not withheld, to support perfusion when the fetus shows a non-reassuring pattern.",
+    "A scalp electrode measures fetal heart rate more accurately but does not diagnose fetal demise.",
+    "Raising the oxytocin rate would worsen cord compression and fetal perfusion stress rather than relieve this pattern."
+   ]
   },
   {
    "n": 6,
@@ -268,7 +312,13 @@
    ],
    "ans": 1,
    "rat": "A gradual deceleration that begins after the contraction peak and recovers after the contraction ends, now recurrent with loss of moderate variability, is a worsening late-deceleration pattern from uteroplacental insufficiency, intensified by oxytocin. Management is to stop the oxytocin, reposition left lateral, give IV fluids and oxygen, and notify the provider. Early decels mirror the contraction (head compression) and variable decels are abrupt, not gradual.",
-   "strat": "Late = after the peak = Placenta; declining variability + recurrence means escalate, don't watch."
+   "strat": "Late = after the peak = Placenta. Declining variability + recurrence means escalate, don't watch.",
+   "why": "A gradual deceleration beginning after the contraction peak and recovering after the contraction ends is a late deceleration from uteroplacental insufficiency. Recurrence plus loss of moderate variability over these three readings shows a worsening pattern intensified by the oxytocin. The priority is to stop the oxytocin, reposition the client left lateral, give fluids and oxygen, and notify the provider.",
+   "whyNot": [
+    "These decelerations are gradual and tied to the contraction peak, not the abrupt, variable-timing pattern of cord compression.",
+    "Early decelerations from head compression mirror the contraction itself, and this pattern is worsening rather than stable.",
+    "Raising the oxytocin here would intensify uteroplacental insufficiency instead of reflecting fetal descent or improvement."
+   ]
   },
   {
    "n": 7,
@@ -293,7 +343,11 @@
     5
    ],
    "rat": "Category III (bradycardia, absent variability, recurrent late or variable decelerations, or a sinusoidal pattern) is abnormal and demands intrauterine resuscitation: reposition, oxygen, stop oxytocin, increase IV fluids, and notify the provider. Merely documenting and resuming routine checks fails to intervene on an abnormal acid-base status and is unsafe.",
-   "strat": "Category III = act now: turn, O2, stop the pit, fluids, call. Documenting alone is never the resuscitation."
+   "strat": "Category III = act now: turn, O2, stop the pit, fluids, call. Documenting alone is never the resuscitation.",
+   "why": "Category III includes bradycardia, absent variability, and recurrent late or variable decelerations, which is abnormal and demands an intrauterine resuscitation bundle. That bundle means repositioning the client, giving oxygen, stopping the oxytocin, increasing IV fluids, and notifying the provider immediately. Continuing routine hourly checks fails to act on an abnormal fetal acid-base status and is unsafe.",
+   "whyNot": [
+    "Documenting the pattern and continuing routine hourly checks does not intervene on an abnormal, oxygen-compromised fetal status."
+   ]
   },
   {
    "topic": "Opioid Analgesics",
@@ -309,7 +363,13 @@
    ],
    "ans": 3,
    "rat": "Opioid analgesics cross the placenta; given close to delivery they cause neonatal CNS and respiratory depression, and the antidote is naloxone, an opioid antagonist. Giving more nalbuphine would deepen the depression; vitamin K (a routine clotting prophylaxis) and dextrose treat unrelated problems and do not reverse opioid-induced respiratory depression.",
-   "strat": "Opioid on board + depressed newborn breathing = reverse it with the opioid antagonist, naloxone."
+   "strat": "Opioid on board + depressed newborn breathing = reverse it with the opioid antagonist, naloxone.",
+   "why": "Opioid analgesics cross the placenta, and given close to delivery they cause neonatal CNS and respiratory depression. This newborn's slow, shallow respirations and heart rate of 96 fit that picture exactly. The antidote is naloxone, an opioid antagonist that reverses the depression without adding more opioid.",
+   "whyNot": [
+    "Vitamin K is a routine clotting prophylaxis for newborns and does not treat opioid-induced respiratory depression.",
+    "Dextrose treats neonatal hypoglycemia, an unrelated problem, and does not reverse opioid-caused respiratory or heart rate depression.",
+    "Giving more nalbuphine would deepen the newborn's CNS and respiratory depression instead of reversing it."
+   ]
   },
   {
    "topic": "Epidural Anesthesia",
@@ -325,7 +385,13 @@
    ],
    "ans": 0,
    "rat": "Epidural-induced vasodilation causes hypotension within about 15 minutes, reducing placental perfusion and producing the prolonged deceleration; turning the client off her back (side-lying) relieves vena cava compression and a fluid bolus restores perfusion, with a vasopressor such as ephedrine or phenylephrine if ordered. Bearing down is premature and worsens venous return; waiting an hour ignores acute fetal compromise; leaving her supine with raised legs keeps the uterus compressing the vena cava.",
-   "strat": "Epidural + sudden hypotension = get her off her back and bolus fluids before anything else."
+   "strat": "Epidural + sudden hypotension = get her off her back and bolus fluids before anything else.",
+   "why": "Epidural-induced vasodilation causes hypotension within about 15 minutes of the bolus, reducing placental perfusion and producing the prolonged deceleration seen here. Turning the client side-lying relieves vena cava compression, and opening the IV fluids restores volume and perfusion, with a vasopressor added if ordered.",
+   "whyNot": [
+    "Leaving her flat with legs raised keeps the gravid uterus compressing the vena cava instead of relieving it.",
+    "Bearing down here is premature and worsens venous return during this acute hypotensive episode right now.",
+    "Waiting an hour to recheck ignores an acute drop in fetal perfusion that needs action now."
+   ]
   },
   {
    "topic": "Labor Pain Mechanisms",
@@ -341,7 +407,13 @@
    ],
    "ans": 3,
    "rat": "First-stage pain from uterine contraction and cervical dilation is visceral: slow, deep, poorly localized and dull or aching, whereas sharp, well-localized somatic pain comes later with perineal stretch in the second stage. Nonpharmacologic methods such as breathing have no maternal or fetal depressant effect, so they do not slow labor, signal imminent delivery, or hide complications.",
-   "strat": "Dull and diffuse early = visceral (cervix); sharp and localized late = somatic (perineum); nonpharmacologic methods are depressant-free."
+   "strat": "Early dull, diffuse pain is visceral (cervix). Later sharp, localized pain is somatic (perineum).",
+   "why": "First-stage pain from uterine contractions and cervical dilation is visceral: slow, deep, poorly localized, and often described as dull or aching. Nonpharmacologic methods such as breathing techniques have no maternal or fetal depressant effect, so they carry no risk to either one.",
+   "whyNot": [
+    "Somatic pain is sharp and well-localized from perineal stretch, but that develops later, in the second stage.",
+    "This pain at 4 cm does not signal imminent delivery, and breathing techniques do not slow contractions.",
+    "This is not referred pain from fetal head pressure, and breathing techniques do not hide warning signs of complications."
+   ]
   },
   {
    "n": 1,
@@ -358,7 +430,13 @@
    ],
    "ans": 2,
    "rat": "Frequency and duration establish whether a labor pattern exists and whether it is progressing; without them labor cannot be characterized, so this is the priority admission assessment (assess-before-intervene applied to the data that defines the problem). Gravida/para and last meal inform the plan but do not establish the labor pattern, and identifying the support person is psychosocial rather than the priority.",
-   "strat": "Admission priority = the data that names the active problem. In labor, that is the contraction pattern."
+   "strat": "Admission priority = the data that names the active problem. In labor, that is the contraction pattern.",
+   "why": "Frequency and duration establish whether a labor pattern exists and whether it is progressing, so this is the priority assessment on admission. Without this data, the nurse cannot characterize the client's labor or judge whether it needs intervention. Assess-before-intervene means collecting the data that defines the active problem, and here that data is the contraction pattern.",
+   "whyNot": [
+    "Gravida and para history informs the plan of care but does not establish whether labor is actually progressing.",
+    "Identifying the support person is a psychosocial detail, not the priority data for characterizing labor.",
+    "Time of the last meal matters if cesarean birth becomes necessary, but it does not define this client's labor pattern."
+   ]
   },
   {
    "n": 2,
@@ -398,7 +476,8 @@
     }
    ],
    "rat": "Amniotic fluid should be clear and odorless; a gush or trickle at rupture is simply the amount and is not abnormal. Greenish staining signals meconium passage (possible fetal compromise), while a cloudy/yellow appearance or a foul odor suggests chorioamnionitis (infection) — each requires provider notification.",
-   "strat": "TACO color/odor: clear + odorless = go; green, cloudy/yellow, or foul = report."
+   "strat": "TACO color/odor: clear + odorless = go. Green, cloudy/yellow, or foul = report.",
+   "why": "Amniotic fluid should be clear and odorless, and the amount of a gush or trickle at rupture is not itself abnormal. Greenish staining signals meconium passage and possible fetal compromise, while a cloudy or yellow appearance or a foul odor suggests chorioamnionitis. Each of those three findings requires provider notification."
   },
   {
    "n": 3,
@@ -415,7 +494,13 @@
    ],
    "ans": 1,
    "rat": "A distended bladder competes with the contracting uterus for room in the pelvis and mechanically blocks fetal descent, in addition to risking bladder injury — exactly the picture of stalled station here, and epidurals commonly cause retention. A full bladder does not cause volume deficit, does not change contraction frequency, and is not what alters the dilation measurement.",
-   "strat": "Stalled descent + distended bladder + epidural → empty the bladder; it is blocking the fetus, not the contractions."
+   "strat": "Stalled descent + distended bladder + epidural: empty the bladder. It is blocking the fetus, not the contractions.",
+   "why": "A distended bladder competes with the contracting uterus for room in the pelvis, mechanically blocking fetal descent and risking bladder injury. That is exactly the picture here: stalled station, a firm distended bladder, and an epidural, which commonly causes urinary retention.",
+   "whyNot": [
+    "A full bladder does not change or mask the actual cervical dilation measurement obtained on exam.",
+    "A full bladder does not directly slow how often uterine contractions occur during active labor either.",
+    "A full bladder does not cause a fluid-volume deficit in this laboring client at all."
+   ]
   },
   {
    "n": 4,
@@ -454,7 +539,8 @@
     }
    ],
    "rat": "A low Bishop score means the cervix is unfavorable and must be ripened first (dinoprostone or misoprostol) rather than started on oxytocin, which works only when the cervix is favorable. Oxytocin is the correct choice for Client B's favorable cervix; misoprostol is contraindicated after a previous cesarean or major uterine surgery because of the rupture risk from tachysystole.",
-   "strat": "Low Bishop = ripen first; oxytocin only when favorable; misoprostol + prior uterine scar = never pair them."
+   "strat": "Low Bishop = ripen first. Oxytocin only when favorable. Misoprostol + prior uterine scar = never pair them.",
+   "why": "A low Bishop score means the cervix is unfavorable and must be ripened first, with an agent like dinoprostone, before oxytocin is started. Oxytocin only works once the cervix is favorable, which is why it is correct for Client B. Misoprostol is contraindicated after her prior cesarean because of the added rupture risk from tachysystole."
   },
   {
    "n": 5,
@@ -477,7 +563,11 @@
     4
    ],
    "rat": "Oxytocin can cause tachysystole (contractions more often than every 2 minutes or a rising resting tone — both reasons to stop the infusion), water intoxication with decreased urine output, and elevated blood pressure. Maternal bradycardia is not an oxytocin effect; the drug is more associated with hypertension and dysrhythmias than with a slow maternal pulse.",
-   "strat": "Oxytocin pushes things UP and too-frequent — HTN, tachysystole, retained water; a slow maternal pulse does not fit the pattern."
+   "strat": "Oxytocin pushes things UP and too-frequent: HTN, tachysystole, retained water. A slow maternal pulse does not fit the pattern.",
+   "why": "Oxytocin can cause tachysystole, shown by contractions more often than every 2 minutes or a rising resting tone. Both findings are reasons to stop the infusion right away. Oxytocin can also cause water intoxication with decreasing urine output and can raise blood pressure above the client's baseline.",
+   "whyNot": [
+    "Maternal bradycardia is not an oxytocin effect, since the drug is more linked to hypertension and dysrhythmias than a slow pulse."
+   ]
   },
   {
    "n": 1,
@@ -494,7 +584,13 @@
    ],
    "ans": 2,
    "rat": "A classical uterine scar plus oxytocin are the classic risk combination for rupture; the sudden tearing pain, abrupt cessation of contractions, and fetal bradycardia are hallmark cues. A normal blood pressure does NOT reassure here because hypotension is a late sign of hemorrhage. Abruption usually keeps a firm contracting uterus rather than stopping contractions, and reading this as normal transition misses an emergency.",
-   "strat": "Scar + oxytocin + sudden tearing pain + contractions that quit = think rupture; a normal BP doesn't clear it."
+   "strat": "Scar + oxytocin + sudden tearing pain + contractions that quit = think rupture. A normal BP doesn't clear it.",
+   "why": "A classical uterine scar plus oxytocin augmentation is the classic risk combination for uterine rupture. The sudden tearing pain, abrupt loss of contractions, and new fetal bradycardia are its hallmark cues. A normal blood pressure does not reassure here, since hypotension is a late sign of hemorrhage, not an early one.",
+   "whyNot": [
+    "Contractions abruptly stopping altogether is not normal transition behavior, and reading it that way misses an emergency.",
+    "Abruption usually keeps a firm, contracting uterus rather than stopping contractions, and a normal blood pressure does not rule out a uterine injury.",
+    "Amniotic fluid embolism typically causes sudden cardiovascular collapse, not the scar-plus-oxytocin pattern described in this scenario."
+   ]
   },
   {
    "n": 2,
@@ -511,7 +607,13 @@
    ],
    "ans": 3,
    "rat": "The turtle sign signals shoulder dystocia; the first nursing maneuver is McRobert's (sharp thigh flexion onto the abdomen), often paired with provider-applied suprapubic pressure, to free the anterior shoulder. Fundal pressure is contraindicated because it drives the shoulder harder against the symphysis and risks injury. Maternal pushing alone and repositioning the bed do not relieve the impaction.",
-   "strat": "Turtle sign -> McRobert's + suprapubic pressure; fundal pressure is the trap, not the fix."
+   "strat": "Turtle sign -> McRobert's + suprapubic pressure. Fundal pressure is the trap, not the fix.",
+   "why": "The turtle sign, the fetal head retracting tightly against the perineum, signals shoulder dystocia. The first nursing maneuver is McRobert's, sharply flexing the client's thighs onto her abdomen. This is often paired with provider-applied suprapubic pressure to free the impacted anterior shoulder.",
+   "whyNot": [
+    "Maternal pushing alone does not relieve an already impacted shoulder caught behind the maternal symphysis pubis.",
+    "Fundal pressure is contraindicated here because it drives the shoulder harder against the symphysis and risks injury.",
+    "Simply repositioning the bed like this does not relieve the impacted shoulder or resolve the dystocia at all."
+   ]
   },
   {
    "n": 3,
@@ -528,7 +630,13 @@
    ],
    "ans": 0,
    "rat": "Tachysystole is more than 5 contractions per 10 minutes or a rising resting tone, and with late decelerations it reflects reduced placental perfusion driven by the oxytocin. The first step is to stop the oxytocin, then add intrauterine resuscitation (reposition, fluids, oxygen) and a tocolytic such as terbutaline if the pattern persists. Increasing the oxytocin worsens it, giving terbutaline before stopping the cause treats around the problem, and waiting 30 minutes delays correcting an abnormal pattern.",
-   "strat": "When oxytocin is the cause, turn it off first; tocolytics and repositioning come after the pump is stopped."
+   "strat": "When oxytocin is the cause, turn it off first. Tocolytics and repositioning come after the pump is stopped.",
+   "why": "Tachysystole is more than 5 contractions in 10 minutes or a rising resting tone. Combined with late decelerations here, it reflects reduced placental perfusion that the oxytocin is driving. The first step is to stop the oxytocin, then add repositioning, fluids, and oxygen if the pattern persists.",
+   "whyNot": [
+    "Repositioning helps but waiting 30 minutes to reassess delays correcting an already abnormal fetal heart rate pattern.",
+    "Increasing the oxytocin rate would only worsen the excessive uterine activity rather than relieve it here.",
+    "Giving terbutaline before stopping the oxytocin treats around the cause instead of removing it first."
+   ]
   },
   {
    "n": 4,
@@ -564,7 +672,8 @@
     }
    ],
    "rat": "Magnesium relaxes uterine smooth muscle, so fewer, weaker contractions and a transient flushed/warm feeling are expected. Loss of deep tendon reflexes, a respiratory rate under 12, and a depressed level of consciousness are early-to-advancing magnesium toxicity; the antidote is calcium gluconate. Betamethasone is given for fetal lung maturity, not tocolysis, so improved contractions come from the magnesium, not the steroid.",
-   "strat": "Magnesium toxicity climbs in order: reflexes gone -> RR under 12 -> obtunded; keep calcium gluconate ready."
+   "strat": "Magnesium toxicity climbs in order: reflexes gone -> RR under 12 -> obtunded. Keep calcium gluconate ready.",
+   "why": "Magnesium sulfate relaxes uterine smooth muscle, so fewer and weaker contractions plus a transient warm, flushed feeling after the bolus are expected effects. Loss of deep tendon reflexes, a respiratory rate under 12, and a depressed level of consciousness are advancing signs of magnesium toxicity. The antidote is calcium gluconate, kept ready at the bedside. Betamethasone accelerates fetal lung maturity rather than causing this tocolytic effect."
   },
   {
    "n": 5,
@@ -586,7 +695,12 @@
     4
    ],
    "rat": "The concerning cluster is a high, unengaged presenting part at the time membranes rupture, the rupture event itself releasing a fluid gush, and the new abrupt bradycardia with deep variable decelerations, all pointing toward cord prolapse. A pre-rupture baseline of 140 bpm with moderate variability and a 6 cm dilation in active labor are normal expected findings, not red flags.",
-   "strat": "Unengaged part + ruptured membranes + sudden variables/brady = the cord-prolapse triad to flag."
+   "strat": "Unengaged part + ruptured membranes + sudden variables/brady = the cord-prolapse triad to flag.",
+   "why": "The concerning cluster is the high, unengaged presenting part at -1 station when membranes rupture. It also includes the amniotomy and fluid gush itself, plus the new abrupt bradycardia with deep variable decelerations. Together these point toward cord prolapse, since an unengaged part gives the cord room to slip past it.",
+   "whyNot": [
+    "Being 6 cm in active labor is a normal, expected finding here, not a red flag on its own.",
+    "A pre-rupture baseline of 140 bpm with moderate variability is reassuring and unrelated to the later cord event."
+   ]
   },
   {
    "n": 6,
@@ -603,7 +717,13 @@
    ],
    "ans": 1,
    "rat": "A pulsating, cord-like structure felt ahead of the presenting part, occurring right after rupture with an unengaged head and new bradycardia, is a prolapsed umbilical cord compressed by the fetal part. A nuchal cord is around the neck and not palpable at the cervix, a torn velamentous vessel (vasa previa) causes bleeding rather than a palpable pulsating cord, and partial rupture does not produce a palpable cord.",
-   "strat": "Palpable pulsating cord below the presenting part names the diagnosis: cord prolapse."
+   "strat": "Palpable pulsating cord below the presenting part names the diagnosis: cord prolapse.",
+   "why": "A pulsating, cord-like structure palpated ahead of the presenting part is a prolapsed umbilical cord. This occurs right after rupture, with an unengaged head and new bradycardia in the 80s, and the cord is now compressed by the fetal part. The pulsation itself confirms it is the cord and not another structure.",
+   "whyNot": [
+    "Partial rupture of membranes does not produce a palpable, pulsating structure felt at the cervix.",
+    "A nuchal cord is wrapped around the fetal neck and is not palpable at the cervix.",
+    "A torn velamentous vessel, or vasa previa, causes bleeding rather than a palpable pulsating cord."
+   ]
   },
   {
    "n": 7,
@@ -620,7 +740,13 @@
    ],
    "ans": 0,
    "rat": "A compressed prolapsed cord halts oxygenated blood flow to the fetus, so fetal hypoxia is the most urgent threat and central nervous system injury or death can follow within minutes. Maternal anxiety is real but psychosocial, infection risk develops over hours after rupture, and amniotomy does not cause significant maternal hemorrhage; none competes with the immediate oxygenation crisis.",
-   "strat": "Compressed cord = no fetal oxygen = the clock is in minutes; oxygenation outranks anxiety, infection, and slow risks."
+   "strat": "Compressed cord = no fetal oxygen = the clock is in minutes. Oxygenation outranks anxiety, infection, and slow risks.",
+   "why": "A compressed prolapsed cord halts oxygenated blood flow to the fetus, making fetal hypoxia the most urgent threat in this scenario. Central nervous system injury or fetal death can follow within minutes if pressure on the cord is not relieved quickly.",
+   "whyNot": [
+    "Amniotomy itself does not cause significant maternal hemorrhage, so this is not the primary threat here.",
+    "Infection risk develops over hours after rupture, far too slowly to compete with this minutes-long emergency.",
+    "Maternal anxiety is a real, valid concern, but it is psychosocial and does not outrank the oxygenation crisis."
+   ]
   },
   {
    "n": 8,
@@ -662,7 +788,8 @@
     ]
    },
    "rat": "The central problem is cord prolapse with compression; the two immediate actions are manually lifting the presenting part off the cord and placing the client knee-chest or in Trendelenburg to shift fetal weight off the cord. Continuous fetal heart rate and ongoing maternal/fetal status guide care while the team mobilizes for an emergent cesarean. Replacing the cord is not attempted, and oxytocin worsens compression rather than helping.",
-   "strat": "Lift the part off the cord and drop the maternal pelvis (knee-chest/Trendelenburg) while watching the FHR; never reinsert the cord."
+   "strat": "Lift the part off the cord and drop the maternal pelvis (knee-chest/Trendelenburg) while watching the FHR. Never reinsert the cord.",
+   "why": "The central problem is umbilical cord prolapse with compression. The two immediate actions are lifting the presenting part off the cord with a gloved hand and positioning her knee-chest or in Trendelenburg. Both positions shift fetal weight off the compressed cord while the team mobilizes for an emergent cesarean. Continuous fetal heart rate and ongoing maternal-fetal status are the parameters to monitor throughout."
   },
   {
    "n": 9,
@@ -685,7 +812,11 @@
     3
    ],
    "rat": "The bundle is to summon help and notify the provider, maintain manual upward pressure to keep the presenting part off the cord, give oxygen to maximize fetal oxygenation, and ready the client for an emergent cesarean. The nurse does not try to reinsert or handle the exposed cord, which can cause vasospasm and worsen compression.",
-   "strat": "Call, lift, oxygenate, and prep for surgery, all at once; the one thing you never do is push the cord back in."
+   "strat": "Call, lift, oxygenate, and prep for surgery, all at once. Never push the cord back in.",
+   "why": "The bundle for a prolapsed cord is to call for help, notify the provider, and keep a gloved hand holding the part off the cord. Oxygen is applied to maximize fetal oxygenation, and the client is prepared for an emergent cesarean. All of these actions happen together rather than one after another.",
+   "whyNot": [
+    "Reinserting the exposed cord is never attempted, since handling it that way can cause vasospasm and worsen compression."
+   ]
   },
   {
    "n": 10,
@@ -702,7 +833,13 @@
    ],
    "ans": 2,
    "rat": "Relief of cord compression is shown by the fetal heart rate recovering toward a normal 140 bpm with moderate variability, the sign that oxygenated flow has been restored. A steady 90 bpm with minimal variability is still bradycardia and reassures falsely; lighter-feeling contractions and less leaking fluid are unrelated to whether the cord is decompressed.",
-   "strat": "On an evaluate item, the cord is relieved only when the FHR truly recovers; a still-low rate or unrelated comfort changes are distractors."
+   "strat": "On an evaluate item, the cord is relieved only when the FHR truly recovers. A still-low rate is a distractor.",
+   "why": "Relief of cord compression is shown by the fetal heart rate recovering toward a normal baseline near 140 bpm with moderate variability. That recovery confirms oxygenated blood flow has truly been restored to the fetus. Anything short of a genuine return to a normal rate and variability still reflects ongoing compromise.",
+   "whyNot": [
+    "The client's contractions feeling less intense is unrelated to whether the cord compression has actually resolved.",
+    "A steady rate of 90 bpm with minimal variability is still bradycardia and falsely reassuring, not true recovery.",
+    "The amount of amniotic fluid leaking is unrelated to whether the cord is actually decompressed."
+   ]
   },
   {
    "topic": "Amniotomy",
@@ -718,7 +855,13 @@
    ],
    "ans": 3,
    "rat": "The gush of fluid can sweep the umbilical cord ahead of the presenting part (cord prolapse), compressing it and causing fetal hypoxia, so the FHR is checked first to detect a sudden bradycardia or variable decelerations. Noting fluid color and starting the infection/temperature clock matter, but they assess the mother or the fetus over time rather than the immediate, life-threatening cord risk; quantifying volume is not a priority.",
-   "strat": "Membranes just ruptured = picture the cord washing down; check the fetal heart rate before anything else."
+   "strat": "Membranes just ruptured = picture the cord washing down. Check the fetal heart rate before anything else.",
+   "why": "The gush of fluid released at amniotomy can sweep the umbilical cord ahead of the presenting part, causing cord prolapse and compression. Checking the fetal heart rate immediately after the procedure detects a sudden bradycardia or variable decelerations before any other assessment.",
+   "whyNot": [
+    "Starting the infection or temperature clock matters over time, but it is not the immediate, life-threatening risk here.",
+    "Noting the fluid's color matters for the mother or fetus over time, not for this immediate cord risk.",
+    "Quantifying the total fluid volume is not a priority compared to detecting an acute cord compression."
+   ]
   },
   {
    "topic": "Vacuum-Assisted Birth",
@@ -741,7 +884,12 @@
     5
    ],
    "rat": "A vacuum extractor requires a vertex presentation, ruptured membranes, full cervical dilation, and an engaged head so traction is applied safely to the fetal skull during a contraction. General anesthesia is not a prerequisite (the procedure assists a vaginal birth, often with regional or local anesthesia), and absent FHR variability is a non-reassuring sign that would not be a green light to proceed.",
-   "strat": "Operative vaginal birth needs the head down, water broken, fully dilated, and engaged — four boxes, all about readiness for safe traction."
+   "strat": "Operative vaginal birth needs the head down, water broken, fully dilated, and engaged - four readiness boxes.",
+   "why": "A vacuum extractor requires the fetal head engaged in the pelvis, ruptured membranes, a fully dilated cervix, and a vertex presentation. These four conditions let traction be applied safely to the fetal skull during a contraction. They describe readiness for safe traction, not the type of anesthesia used or the fetal heart rate status.",
+   "whyNot": [
+    "General anesthesia is not a prerequisite, since the procedure usually assists a vaginal birth under regional or local anesthesia.",
+    "Absent fetal heart rate variability is a non-reassuring sign, not a green light to proceed with the vacuum."
+   ]
   },
   {
    "topic": "Uterine Incision & VBAC",
@@ -757,7 +905,13 @@
    ],
    "ans": 1,
    "rat": "A low transverse (\"bikini\") uterine incision is the least likely to rupture in a later labor, and breech presentation is an isolated, nonrecurring indication, so both factors support offering a trial of labor (TOLAC). Not every prior cesarean precludes VBAC; a breech delivery uses a low transverse, not a classic, incision; and breech is a one-time event, unlike dystocia, which is the recurring reason that lowers VBAC success.",
-   "strat": "VBAC odds rise when the scar is low transverse AND the original reason was a one-off (breech) rather than a repeater (dystocia)."
+   "strat": "VBAC odds rise when the scar is low transverse and the cesarean reason was a one-off, not a repeater.",
+   "why": "A low transverse incision is the least likely uterine scar to rupture in a later labor. Breech presentation was also an isolated, nonrecurring reason for the original cesarean, unlike a repeating problem such as dystocia. Because both factors favor success, a trial of labor after cesarean can reasonably be offered.",
+   "whyNot": [
+    "A breech delivery uses a low transverse incision, not a classic vertical one, so this option misstates the scar type.",
+    "A low transverse scar actually carries the lowest rupture rate of the uterine incisions, not a high one.",
+    "Breech presentation is a one-time event and does not tend to recur, unlike a recurring cause such as dystocia."
+   ]
   },
   {
    "topic": "Cesarean Post-op Nursing",
@@ -779,7 +933,11 @@
     3
    ],
    "rat": "After a cesarean the nurse promotes uterine involution (fundal/lochia checks plus oxytocin to control bleeding), prevents the markedly increased thromboembolism risk with compression devices and early ambulation, gives prophylactic antibiotics for the surgical and labor-related infection risk, and watches the incision and I&O. The indwelling catheter stays in until the client can safely ambulate to the bathroom, so removing it immediately is incorrect.",
-   "strat": "Cesarean recovery = vaginal-birth fundal care PLUS surgical care: bleeding, clots, infection, incision — and the catheter waits until she can walk."
+   "strat": "Cesarean recovery = vaginal-birth fundal care PLUS surgical care, and the catheter waits until she can walk.",
+   "why": "After a cesarean the nurse promotes uterine involution with fundal and lochia checks plus IV oxytocin. The nurse also prevents the markedly increased thromboembolism risk with compression devices and early ambulation. Prophylactic antibiotics address surgical and labor-related infection risk, and the dressing and urinary output are monitored closely.",
+   "whyNot": [
+    "The indwelling catheter stays in until the client can safely ambulate to the bathroom, so removing it at once is incorrect."
+   ]
   },
   {
    "n": 1,
@@ -796,7 +954,13 @@
    ],
    "ans": 1,
    "rat": "A fundus that is boggy, elevated above the umbilicus, and pushed off midline is the classic picture of a full bladder displacing the uterus and preventing it from contracting; the priority is to have her empty her bladder, then reassess, because the bladder is the postpartum \"new vital sign.\" Massage alone will not work while the bladder keeps lifting and shifting the uterus, catheterization is reserved for when she cannot void on her own rather than the first step, and titrating oxytocin treats around the actual cause.",
-   "strat": "Boggy + high + off-midline fundus = full bladder pushing the uterus over; empty the bladder first, then reassess."
+   "strat": "Boggy + high + off-midline fundus = full bladder pushing the uterus over. Empty the bladder first, then reassess.",
+   "why": "A fundus that is boggy, above the umbilicus, and pushed off midline is the classic picture of a full bladder. That full bladder displaces and prevents the uterus from contracting properly. The priority is to have her empty her bladder and then reassess, since bladder status is the postpartum unit's 'new vital sign.'",
+   "whyNot": [
+    "Massage alone will not work while a full bladder keeps lifting and shifting the uterus off midline.",
+    "Increasing oxytocin treats around the actual cause instead of addressing the full bladder causing it.",
+    "Catheterization is reserved for when she cannot void on her own, not as the very first step."
+   ]
   },
   {
    "n": 2,
@@ -836,7 +1000,8 @@
     }
    ],
    "rat": "A temperature up to 38°C in the first 24 hours (from dehydration and fluid shifts), a relative bradycardia from increased stroke volume, and dark red lochia rubra with a non-foul fleshy odor are all expected. Saturating a pad in 30 minutes or less signals possible hemorrhage; unilateral calf tenderness with warmth and a diminished pedal pulse suggests a DVT; and foul-smelling lochia with a fever after the first 24 hours suggests infection. All three of the latter must be reported.",
-   "strat": "First-24-hour temp up to 38°C and a low pulse are normal; a pad soaked in 30 min, a hot tender calf, or foul lochia with fever are red flags."
+   "strat": "First-day temp to 38°C and a low pulse are normal. Soaked pads, hot calves, feverish odor are red flags.",
+   "why": "A temperature up to 38°C in the first 24 hours and a low resting pulse are both expected findings. Dark red lochia rubra with a non-foul odor is normal too. A pad saturating within about 30 minutes signals possible hemorrhage. Unilateral calf tenderness with warmth and a weak pulse suggests a DVT. Foul lochia with a fever after the first day suggests infection, and all three must be reported."
   },
   {
    "n": 3,
@@ -853,7 +1018,13 @@
    ],
    "ans": 0,
    "rat": "RhoGAM is given IM within 72 hours of birth to a non-sensitized Rh-negative mother of an Rh-positive newborn to prevent isoimmunization, while the rubella vaccine is a live virus given subcutaneously, after which she should avoid pregnancy for 1 month. Reversing the route or the pregnancy-avoidance teaching mixes up the two agents, withholding rubella for breastfeeding is not indicated, and RhoGAM is given when the newborn is Rh-positive and the mother is not yet sensitized rather than being held for a Coombs result.",
-   "strat": "RhoGAM: IM, 72 hours, Rh-negative mom of Rh-positive baby. Rubella: live, subQ, no pregnancy for 1 month."
+   "strat": "RhoGAM: IM, 72 hours, Rh-negative mom of Rh-positive baby. Rubella: live, subQ, no pregnancy for 1 month.",
+   "why": "RhoGAM is given intramuscularly within 72 hours of birth to a non-sensitized Rh-negative mother of an Rh-positive newborn to prevent isoimmunization. The rubella vaccine is a live virus given subcutaneously, after which the client should avoid pregnancy for 1 month. Matching the correct route and timing to each agent is what this question tests.",
+   "whyNot": [
+    "RhoGAM is given because the newborn is Rh-positive and the mother is not yet sensitized, not held for a Coombs result.",
+    "Reversing the route and the pregnancy-avoidance teaching mixes up which agent is live and which is not.",
+    "RhoGAM is given IM, not subcutaneously, and withholding rubella for breastfeeding is not an actual indication."
+   ]
   },
   {
    "n": 4,
@@ -878,7 +1049,11 @@
     5
    ],
    "rat": "Early hypovolemic shock from hemorrhage shows as a pad saturated every 15-30 minutes, falling blood pressure with compensatory tachycardia, cool clammy skin and anxiety, a boggy uterus that will not stay contracted, and dizziness on standing - all reportable. Afterpains that come with breastfeeding and ease between feedings reflect normal oxytocin-driven contractions and are not a sign of shock.",
-   "strat": "Shock cluster = heavy bleeding + boggy uterus + low BP/high HR + cool clammy anxious + dizzy; breastfeeding afterpains are the normal one."
+   "strat": "Shock cluster: heavy bleeding, boggy uterus, falling BP with rising HR, and clammy, dizzy skin; breastfeeding afterpains are normal.",
+   "why": "Early hypovolemic shock from hemorrhage shows as heavy bleeding, falling blood pressure with a rising heart rate, and cool, clammy, anxious skin. A uterus that stays boggy despite massage and dizziness on standing are also reportable signs of early shock.",
+   "whyNot": [
+    "Cramping during breastfeeding that eases between feedings is a normal oxytocin-driven afterpain, not a sign of shock."
+   ]
   },
   {
    "n": 5,
@@ -895,7 +1070,13 @@
    ],
    "ans": 2,
    "rat": "Wanting to actively practice infant care, seeking feedback, and voicing anxiety about competence are hallmarks of the taking-hold phase, where the nurse should encourage her to give as much care as possible and praise her efforts. The taking-in phase is the earlier, dependent, self-focused period when she relives the birth and welcomes others making decisions, and the letting-go phase involves relinquishing former roles - neither matches a client who is reaching to do the care herself.",
-   "strat": "Eager to do care and learn = taking-hold (coach and praise); self-focused and reliving the birth = taking-in; releasing old roles = letting-go."
+   "strat": "Eager to do care and learn = taking-hold (coach and praise); self-focused and reliving the birth = taking-in; releasing old roles = letting-go.",
+   "why": "Wanting to actively practice infant care, seeking feedback on her technique, and voicing anxiety about her competence are hallmarks of the taking-hold phase. The nurse should respond by encouraging her to give as much care as she can and praising her efforts.",
+   "whyNot": [
+    "Handing daily care to a family caretaker reflects the letting-go phase, not a mother reaching to do the care herself.",
+    "Reviewing the birth story before introducing care tasks fits the earlier taking-in phase, not this eager, hands-on client.",
+    "Taking over her infant's care to free her for rest also misreads taking-in, since she is asking to do the care herself."
+   ]
   },
   {
    "n": 6,
@@ -912,7 +1093,13 @@
    ],
    "ans": 3,
    "rat": "Reflexes graded 3+ to 4+ with sustained beats of clonus indicate hyperreflexia and central nervous system irritability, which in a postpartum client with a headache point toward preeclampsia and must be reported. Brisk reflexes are not a normal effect of resolving epidural anesthesia (which dampens reflexes), 4+ with clonus is hyperactive rather than the normal 1+ to 2+ arc, and clonus reflects CNS excitability, not a calf-localized clot.",
-   "strat": "3+/4+ reflexes plus clonus (especially with a headache) = CNS irritability and a preeclampsia warning, not a normal finding."
+   "strat": "3+/4+ reflexes plus clonus (especially with a headache) = CNS irritability and a preeclampsia warning, not a normal finding.",
+   "why": "Reflexes graded 3+ to 4+ that show sustained beats of clonus indicate hyperreflexia and central nervous system irritability, a hallmark of worsening preeclampsia. In a postpartum client with a pounding headache, this combination must be reported to the provider promptly.",
+   "whyNot": [
+    "A 1+ to 2+ reflex reflects an intact spinal arc, but 4+ with clonus is hyperactive, not the normal protective response described here.",
+    "Resolving epidural anesthesia dampens reflexes as it wears off, so brisk hyperreflexia is not an expected effect of the block fading.",
+    "Clonus reflects central nervous system excitability, not a localized muscular finding, so it does not point to a calf deep vein thrombosis."
+   ]
   },
   {
    "n": 1,
@@ -929,7 +1116,13 @@
    ],
    "ans": 3,
    "rat": "A boggy fundus with heavy bleeding signals uterine atony, the leading cause of early postpartum hemorrhage; massaging the fundus firm directly stops the bleeding by constricting the open vessels and is the first action. Voiding and emptying the bladder help, but the boggy uterus must be addressed first. Titrating oxytocin is provider-driven and slower, and gathering data delays the intervention the boggy fundus already calls for.",
-   "strat": "Boggy + bleeding = massage first; act on the uterus before assessing or escalating."
+   "strat": "Boggy + bleeding = massage first; act on the uterus before assessing or escalating.",
+   "why": "A boggy fundus with heavy bleeding signals uterine atony, the leading cause of early postpartum hemorrhage after a long oxytocin-augmented labor. Massaging the fundus firm directly compresses the open vessels and stops the bleeding, making it the nurse's first action.",
+   "whyNot": [
+    "Gathering vital signs and a hemoglobin level provides useful data but delays the intervention this boggy, actively bleeding fundus already demands.",
+    "Emptying the bladder can help the uterus contract, but the boggy fundus must be addressed with massage first.",
+    "Titrating the oxytocin infusion rate is a provider-driven order and acts more slowly than immediate fundal massage."
+   ]
   },
   {
    "n": 2,
@@ -946,7 +1139,13 @@
    ],
    "ans": 2,
    "rat": "Methylergonovine is an ergot agent that causes generalized vasoconstriction and is contraindicated when blood pressure is elevated, because it can precipitate a hypertensive crisis or stroke; with a BP of 168/104 the nurse questions it. Oxytocin and misoprostol are appropriate uterotonics for atony, and carboprost is acceptable here (its caution is asthma, not this BP), so they are not the ones to hold.",
-   "strat": "Methylergonovine + hypertension = hold; ergot agents constrict vessels everywhere, not just the uterus."
+   "strat": "Methylergonovine + hypertension = hold; ergot agents constrict vessels everywhere, not just the uterus.",
+   "why": "Methylergonovine is an ergot agent that causes generalized vasoconstriction and is contraindicated when blood pressure is elevated. With a blood pressure of 168/104 mm Hg, giving it risks precipitating a hypertensive crisis or stroke, so the nurse should question this order.",
+   "whyNot": [
+    "Oxytocin is a standard first-line uterotonic for atony and carries no blood pressure contraindication, so it is appropriate to give.",
+    "Misoprostol is an appropriate uterotonic for atony and is not contraindicated by this client's elevated blood pressure.",
+    "Carboprost's main caution is asthma, not hypertension, so it remains an acceptable choice for this client's blood pressure."
+   ]
   },
   {
    "n": 3,
@@ -963,7 +1162,13 @@
    ],
    "ans": 0,
    "rat": "When the fundus is firm and midline yet bright-red bleeding continues, the uterus is contracting effectively, so the blood is coming from elsewhere — a genital tract laceration, which is more likely after an instrument-assisted birth. Atony and retained fragments both produce a boggy, poorly contracted uterus, which this client does not have, and a steady trickle of bright-red blood with a firm fundus exceeds expected lochia.",
-   "strat": "Firm fundus but still bleeding = look outside the uterus; think laceration, not atony."
+   "strat": "Firm fundus but still bleeding = look outside the uterus; think laceration, not atony.",
+   "why": "When the fundus is firm and midline yet bright-red bleeding continues, the uterus is contracting effectively, so the bleeding must be coming from elsewhere. A genital tract laceration is the most likely source, especially after an instrument-assisted forceps birth that can tear the vaginal wall.",
+   "whyNot": [
+    "A steady trickle of bright-red blood with a firm fundus exceeds what normal lochia rubra pooling and expulsion would produce.",
+    "Retained placental fragments typically cause a boggy uterus and delayed involution, not the firm fundus seen in this client.",
+    "Uterine atony from an overdistended uterus produces a boggy, poorly contracted fundus, which this client's firm fundus rules out."
+   ]
   },
   {
    "n": 4,
@@ -1003,7 +1208,8 @@
     }
    ],
    "rat": "Fever after the first 24 hours with uterine tenderness and foul lochia indicates endometritis; unilateral calf warmth, redness, and tenderness suggests DVT; and sudden pleuritic chest pain with dyspnea and tachycardia signals possible pulmonary embolism — all reportable. Dysuria with suprapubic pain points to a UTI and is reportable. Moderate lochia rubra with small clots and feeding-related afterpains that resolve are expected involutional findings.",
-   "strat": "Sort by the trio fever+tender+foul (infection), one swollen warm leg (DVT), and sudden chest pain+dyspnea (PE) — each is a report."
+   "strat": "Sort by the trio fever+tender+foul (infection), one swollen warm leg (DVT), and sudden chest pain+dyspnea (PE) — each is a report.",
+   "why": "Fever after 24 hours with uterine tenderness and foul lochia indicates endometritis. Unilateral calf warmth, redness, and tenderness suggests deep vein thrombosis, while sudden pleuritic chest pain with dyspnea and tachycardia signals a possible pulmonary embolism. Dysuria with suprapubic pain points to a urinary tract infection — all four are reportable. Moderate lochia with small clots and afterpains that ease after feeding are expected, self-limiting findings."
   },
   {
    "n": 5,
@@ -1027,7 +1233,8 @@
     3
    ],
    "rat": "A boggy, elevated, right-deviated fundus, a pad saturated in 15 minutes, lightheadedness, and a distended unvoided bladder are all cues of evolving uterine atony and hemorrhage with a contributing full bladder. The temperature is normal and the blood pressure and heart rate are within normal limits at this point, so they are non-concerning baseline cues.",
-   "strat": "Recognize cues = flag only the abnormal; normal vitals early in PPH are reassuring, not relevant."
+   "strat": "Recognize cues = flag only the abnormal; normal vitals early in PPH are reassuring, not relevant.",
+   "why": "A boggy, elevated, right-deviated fundus signals uterine atony, and a pad saturating within 15 minutes plus lightheadedness point to significant blood loss. A distended, unvoided bladder is also a cue, since a full bladder pushes the uterus up and prevents it from contracting well. The blood pressure, heart rate, and temperature remain within normal limits at this point, so they are reassuring, not concerning, findings."
   },
   {
    "n": 6,
@@ -1044,7 +1251,13 @@
    ],
    "ans": 1,
    "rat": "Overdistension from macrosomia and prolonged oxytocin exposure predispose the uterus to atony, and a full bladder displaces and pushes the uterus up and laterally, further impairing contraction — together explaining the boggy, deviated fundus and heavy bleeding. A laceration would bleed around a firm fundus; retained fragments cause late (after 24 hours) hemorrhage; and the heavy bright-red loss is not normal involution.",
-   "strat": "Link the cues to the cause: overdistension + full bladder = atony, not laceration or normal lochia."
+   "strat": "Link the cues to the cause: overdistension + full bladder = atony, not laceration or normal lochia.",
+   "why": "Overdistension of the uterus from a large newborn and prolonged oxytocin-augmented labor predisposes to atony. A full bladder also displaces and pushes the uterus up and to the side, further impairing contraction. Together these explain this client's boggy, deviated fundus and heavy bleeding.",
+   "whyNot": [
+    "A laceration would cause bleeding around a firm, well-contracted uterus, which does not match this client's boggy fundus.",
+    "Normal involution does not produce heavy bright-red bleeding or a boggy, deviated fundus like this client's.",
+    "Retained placental fragments cause late hemorrhage after 24 hours, not this early, 45-minute postpartum presentation."
+   ]
   },
   {
    "n": 7,
@@ -1061,7 +1274,13 @@
    ],
    "ans": 1,
    "rat": "Uncontrolled atony can rapidly progress to hypovolemia and hypovolemic shock, which is the most immediately life-threatening problem and therefore the priority hypothesis. Endometritis and DVT are real postpartum risks but develop over hours to days, and postpartum depression, while important, is not an acute physiologic emergency in this moment.",
-   "strat": "Prioritize by immediacy and ABC/circulation: active hemorrhage threatens perfusion now — shock outranks slower-onset risks."
+   "strat": "Prioritize by immediacy and ABC/circulation: active hemorrhage threatens perfusion now — shock outranks slower-onset risks.",
+   "why": "Uncontrolled uterine atony with ongoing bleeding can rapidly progress to hypovolemia and hypovolemic shock. Because active hemorrhage threatens perfusion right now, shock is the most immediately life-threatening problem for this client. It should drive the nurse's priorities over slower-developing complications.",
+   "whyNot": [
+    "Deep vein thrombosis from venous stasis is a real postpartum risk, but it develops over hours to days, not this fast.",
+    "Postpartum depression is an important concern, but it is not an acute physiologic emergency in this moment.",
+    "Endometritis from prolonged labor and interventions is a genuine risk, but it develops over hours to days, not minutes."
+   ]
   },
   {
    "n": 8,
@@ -1103,7 +1322,14 @@
     ]
    },
    "rat": "The central problem is uterine atony with hemorrhage; the two priority actions are massaging the fundus firm and emptying the bladder, both of which directly restore the uterus's ability to contract. Effectiveness is judged by fundal tone/position and lochia amount and character. High-Fowler's is for endometritis drainage, fluids should be supported rather than restricted in hemorrhage, and reflexes and bowel sounds do not track this problem.",
-   "strat": "Bowtie for atony: fix the uterus (massage) and clear what crowds it (bladder); watch the fundus and the flow."
+   "strat": "Bowtie for atony: fix the uterus (massage) and clear what crowds it (bladder); watch the fundus and the flow.",
+   "why": "The central problem is uterine atony with hemorrhage. The two priority actions are massaging the fundus firm and helping the client empty her bladder, both of which restore the uterus's ability to contract. Effectiveness is then judged by fundal tone and position along with the amount and character of the lochia.",
+   "whyNot": [
+    "Restricting fluids removes needed volume support during hemorrhage and would worsen, not treat, this client's blood loss.",
+    "High-Fowler's positioning promotes lochia drainage in endometritis care, not the active bleeding caused by uterine atony.",
+    "Deep tendon reflexes track neurologic status such as preeclampsia, not the uterus's response to atony treatment.",
+    "Bowel sounds reflect gastrointestinal function and have no bearing on whether uterine atony is resolving."
+   ]
   },
   {
    "n": 9,
@@ -1127,7 +1353,12 @@
     5
    ],
    "rat": "Massaging the fundus and emptying the bladder treat the atony, confirming IV patency readies fluid and oxytocic administration, trending vital signs detects early compensation for blood loss, and CBC studies quantify the loss — all appropriate. High-Fowler's is an endometritis drainage measure, not a hemorrhage intervention, and fluids are needed to support volume in hemorrhage, so restricting them is unsafe.",
-   "strat": "Take action = treat the cause + ready the rescue + watch the trend; reject the look-alike (high-Fowler's) and the harmful (fluid restriction)."
+   "strat": "Take action = treat the cause + ready the rescue + watch the trend; reject the look-alike (high-Fowler's) and the harmful (fluid restriction).",
+   "why": "Massaging the fundus and helping the client empty her bladder directly treat the underlying atony. Confirming IV patency readies the nurse to give fluids and a prescribed oxytocic quickly. Trending the blood pressure and heart rate detects early compensation for blood loss, and drawing labs quantifies how much has been lost.",
+   "whyNot": [
+    "High-Fowler's position promotes drainage in endometritis, not hemorrhage from atony, so it is not indicated here.",
+    "Restricting fluids would worsen hypovolemia, since fluids need to be supported, not limited, during active hemorrhage."
+   ]
   },
   {
    "n": 10,
@@ -1144,7 +1375,13 @@
    ],
    "ans": 0,
    "rat": "Success is a firm, midline fundus at the expected level with lochia reduced to a moderate amount — the uterus is now contracting and controlling the bleeding. A firm fundus that still saturates a pad hourly suggests another source such as a laceration; a fundus that re-boggies when massage stops shows the atony is not yet resolved; and scant lochia with a soft, elevated fundus is misleading, because blood may be pooling in an uncontracted uterus.",
-   "strat": "Judge the whole picture: firm fundus AND controlled lochia together = resolved; one without the other is not."
+   "strat": "Judge the whole picture: firm fundus AND controlled lochia together = resolved; one without the other is not.",
+   "why": "Success is shown by a fundus that is firm and midline at the expected level, with lochia reduced to a moderate amount. This combination means the uterus is now contracting on its own and controlling the bleeding, resolving this client's atony and hemorrhage.",
+   "whyNot": [
+    "A fundus that firms only with massage and boggies again once it stops shows the atony has not yet resolved.",
+    "Scant lochia with a soft, elevated fundus is misleading, since blood may be pooling silently in an uncontracted uterus.",
+    "A firm fundus that still saturates a pad within the hour suggests bleeding from another source, such as a laceration."
+   ]
   },
   {
    "n": 1,
@@ -1192,7 +1429,8 @@
     }
    ],
    "rat": "AWHONN's POST-BIRTH list reserves 911 for life-threatening emergencies — chest pain, trouble breathing (possible pulmonary embolism), seizure, and thoughts of self-harm or harming the baby. Incision infection signs (redness, drainage, fever ≥100.4°F) and a possibly clotted calf are reported to the provider, not 911. Massaging a suspected calf clot is unsafe (it can dislodge an embolus), and a fever with incision drainage should never wait until the 2-week visit.",
-   "strat": "Sort POST-BIRTH by 'could this kill her in minutes?' — chest/breathing/seizure/self-harm = 911; infection, clot signs, and bleeding short of hemorrhage = call the provider."
+   "strat": "Sort POST-BIRTH by 'could this kill her in minutes?' — chest, breathing, seizure, self-harm = 911; everything else = call the provider.",
+   "why": "AWHONN's POST-BIRTH list reserves calling 911 for life-threatening emergencies: sudden chest pain or trouble breathing, seizure, and thoughts of self-harm or harming the baby. Incision redness and drainage with a fever, and a possibly clotted, swollen calf, are reported to the provider instead. Massaging a suspected clot is unsafe, since it can dislodge an embolus, and infection signs should never wait for a later visit."
   },
   {
    "n": 2,
@@ -1209,7 +1447,13 @@
    ],
    "ans": 3,
    "rat": "Avoiding lifting more than the baby and increasing activity gradually protects the incision from separating — the correct teaching. The client checks the fundus and lochia but must NOT press down on the incision. The incision is kept clean by letting shower water run over it and patting dry (no tub soaking, no occlusive dressing). Redness, drainage, separation, or fever ≥100.4°F are reportable infection signs, not findings to simply watch.",
-   "strat": "On 'teaching effective' items, the key is the action that prevents the complication — here, not stressing the incision."
+   "strat": "On 'teaching effective' items, the key is the action that prevents the complication — here, not stressing the incision.",
+   "why": "Avoiding lifting anything heavier than the baby, and increasing activity gradually, protects a fresh cesarean incision from the strain that can cause it to separate. This restriction is the correct discharge teaching for a client just 3 days past a cesarean birth, when the incision is still healing.",
+   "whyNot": [
+    "Checking the fundus and lochia is appropriate, but the client should never press directly on the healing incision itself.",
+    "Redness, drainage, separation, or a fever of 100.4°F or higher are reportable infection signs, not findings to simply watch.",
+    "The incision should stay clean under running shower water and be patted dry, never soaked in a tub or kept covered."
+   ]
   },
   {
    "n": 3,
@@ -1226,7 +1470,13 @@
    ],
    "ans": 2,
    "rat": "Baby blues are self-limiting and resolve by about 2 weeks postpartum; symptoms that persist beyond 2 weeks — prolonged tearfulness, sleep disturbance, loss of appetite, loss of interest — point to postpartum depression, which is treatable but requires therapeutic management. Attributing them to normal blues or sleep deprivation alone would miss a treatable condition. Nothing here (no hallucinations, delusions, or thoughts of harm) indicates postpartum psychosis.",
-   "strat": "The 2-week line is the discriminator: resolves by 2 weeks = blues; persists past 2 weeks with functional impairment = depression, needs treatment."
+   "strat": "The 2-week line is the discriminator: resolves by 2 weeks = blues; persists past 2 weeks with functional impairment = depression, needs treatment.",
+   "why": "Baby blues are self-limiting and typically resolve by about 2 weeks postpartum. This client's tearfulness, sleep disturbance, and loss of appetite have persisted for 2.5 weeks, past that window. This points to postpartum depression, a treatable condition needing prompt follow-up care.",
+   "whyNot": [
+    "Attributing these symptoms to sleep deprivation alone would overlook a treatable mood disorder that needs its own management.",
+    "Nothing here, such as hallucinations, delusions, or thoughts of harm, indicates the emergency of postpartum psychosis.",
+    "Baby blues resolve by about 2 weeks, so symptoms already present for 2.5 weeks are not normal blues."
+   ]
   },
   {
    "n": 4,
@@ -1249,7 +1499,11 @@
     4
    ],
    "rat": "Breastfeeding does not reliably prevent pregnancy, and ovulation can occur before menses return — so the client may conceive before her first postpartum period and should use contraception once cleared. Nothing should be placed in the vagina (no intercourse, tampons, or douching) until the provider clears her at the postpartum visit so the perineum and uterus can heal. Relying on absent periods while nursing is the classic misconception and is unsafe.",
-   "strat": "Treat lactational amenorrhea as unreliable on the NCLEX — fertility can return before the first period, so contraception is taught at discharge."
+   "strat": "Treat lactational amenorrhea as unreliable on the NCLEX — fertility can return before the first period, so contraception is taught at discharge.",
+   "why": "Breastfeeding does not reliably prevent pregnancy, because ovulation can occur before menses return. This means the client may conceive before her first postpartum period and should start contraception once her provider clears her. Nothing should be placed in the vagina, including intercourse, tampons, or douching, until that postpartum visit, so the perineum and uterus have time to heal.",
+   "whyNot": [
+    "Relying on absent periods while breastfeeding is a classic but unsafe misconception, since fertility can return before menses do."
+   ]
   },
   {
    "n": 1,
@@ -1266,7 +1520,13 @@
    ],
    "ans": 0,
    "rat": "Six or more wet diapers per day plus audible/frequent swallowing during feeds are the most reliable objective signs of adequate intake; frequent stooling and breasts softening after feeds support this. Frequent nursing and fussing reflect normal cluster feeding/growth, not intake; firm full breasts indicate milk present but not transferred; pacifier soothing says nothing about milk volume and can mask hunger.",
-   "strat": "Count what comes OUT (wet diapers) and listen for swallowing — output and transfer prove intake, not the baby's mood."
+   "strat": "Count what comes OUT (wet diapers) and listen for swallowing — output and transfer prove intake, not the baby's mood.",
+   "why": "Six or more wet diapers, along with audible swallowing during feeds, are the most reliable objective signs of adequate newborn intake. This client's 7 wet diapers, frequent stooling, and breasts that soften after feeding all support that milk transfer is going well.",
+   "whyNot": [
+    "Settling quickly with a pacifier says nothing about milk volume and can even mask ongoing hunger.",
+    "Breasts feeling full and firm before feeding shows milk is present but does not confirm the infant actually transferred it.",
+    "Frequent nursing and fussing between feeds reflect normal cluster feeding and growth, not a measure of intake itself."
+   ]
   },
   {
    "n": 2,
@@ -1302,7 +1562,8 @@
     }
    ],
    "rat": "Engorgement is bilateral transitional fullness peaking around 72-96 hours as milk comes in, relieved by emptying the breasts. Mastitis is an infection — usually unilateral, a wedge-shaped warm red area, with flu-like systemic symptoms, seldom before the fourth week and often entering through a cracked nipple. The key discriminators are bilateral/no fever (engorgement) vs. unilateral/localized + systemic illness (mastitis).",
-   "strat": "Both breasts + no fever = engorgement; one wedge + flu-like fever = mastitis."
+   "strat": "Both breasts + no fever = engorgement; one wedge + flu-like fever = mastitis.",
+   "why": "Engorgement is bilateral, transitional breast fullness that peaks around 72 to 96 hours as milk comes in, and it is relieved by emptying the breasts. Mastitis is an infection that is usually unilateral, presenting as a warm, wedge-shaped red area with flu-like systemic symptoms. It seldom appears before the fourth postpartum week and often enters through a cracked nipple."
   },
   {
    "n": 3,
@@ -1319,7 +1580,13 @@
    ],
    "ans": 3,
    "rat": "Breaking suction by slipping a clean finger between the lips and the breast prevents nipple trauma; a LATCH score under 7 flags the need for breastfeeding assistance and the lips should be flared outward over the areola. Pulling the breast out tears the sore nipple, pressing the chin can injure the infant and does not reliably break the seal, and simply waiting prolongs poor positioning and continued soreness.",
-   "strat": "Never pull off a latched baby — break the seal with a finger first."
+   "strat": "Never pull off a latched baby — break the seal with a finger first.",
+   "why": "Breaking suction by slipping a clean finger between the infant's lips and the breast releases the latch without pulling on the nipple. This LATCH score of 5, under the cutoff of 7, flags a need for breastfeeding assistance. The infant's lips are tucked in rather than flared outward over the areola.",
+   "whyNot": [
+    "Pulling the breast straight out of the mouth would tear the already sore nipple instead of protecting it.",
+    "Pressing down on the infant's chin can injure the infant and does not reliably break the suction seal.",
+    "Waiting for the infant to release on its own prolongs the poor latch and continued nipple soreness."
+   ]
   },
   {
    "n": 4,
@@ -1343,7 +1610,12 @@
     5
    ],
    "rat": "Room temperature is safe ~4 hours, refrigeration ~72 hours (optimal), and freezing up to 6 months; thawing in the refrigerator and warming under warm water protects the milk's components. Microwaving is unsafe because it heats unevenly and can scald the infant and destroy immune factors, and thawed milk must never be refrozen — both reflect common but incorrect handling.",
-   "strat": "4 hours out, 72 hours cold, 6 months frozen — never microwave, never refreeze thawed."
+   "strat": "4 hours out, 72 hours cold, 6 months frozen — never microwave, never refreeze thawed.",
+   "why": "Freshly pumped milk stays safe at room temperature for about 4 hours and in the refrigerator for about 72 hours. It can also be frozen for up to 6 months. Thawing it in the refrigerator and warming it under warm running water protects its nutrients and immune components.",
+   "whyNot": [
+    "Thawed milk should never be refrozen, since repeated freeze-thaw cycles break down its protective components.",
+    "Microwaving heats milk unevenly and creates hot spots, which can scald the infant and destroy its immune-protective factors."
+   ]
   },
   {
    "n": 5,
@@ -1365,7 +1637,12 @@
     3
    ],
    "rat": "HIV and active illicit-substance use are contraindications to breastfeeding, and a medication confirmed harmful to the infant requires pumping and discarding the milk while the drug is taken (or timing it after feeds if safe). Prenatal vitamins are encouraged during lactation, and engorgement is a normal, treatable finding — not a reason to stop direct breastfeeding; in fact continued emptying treats it.",
-   "strat": "HIV, active drug misuse, and an infant-harmful drug = don't feed/pump-and-discard; vitamins and engorgement are not contraindications."
+   "strat": "HIV, active drug misuse, and an infant-harmful drug = don't feed/pump-and-discard; vitamins and engorgement are not contraindications.",
+   "why": "HIV infection and active illicit drug use are both contraindications to direct breastfeeding. A medication documented to be harmful to the infant requires the client to pump and discard her milk while taking it. These situations override the usual encouragement of breastfeeding because of documented risk to the newborn.",
+   "whyNot": [
+    "A daily prenatal vitamin is encouraged during lactation and is not a reason to avoid breastfeeding.",
+    "Mild, transient engorgement is a normal, treatable finding, and continued breastfeeding actually helps resolve it."
+   ]
   },
   {
    "n": 1,
@@ -1388,7 +1665,13 @@
     5
    ],
    "rat": "ACHES flags thromboembolic complications: Abdominal pain, Chest pain, Headaches, Eye problems (blurred vision/loss), and Severe leg pain or Swelling — sudden chest pain, an unrelenting headache with visual changes, and a swollen painful calf all qualify. Breakthrough spotting in early cycles, mild premenstrual breast tenderness, and slight weight gain/appetite change are common expected side effects, not ACHES signs.",
-   "strat": "ACHES = Abdomen, Chest, Headache, Eye, Severe leg pain/Swelling — each maps to a clot."
+   "strat": "ACHES = Abdomen, Chest, Headache, Eye, Severe leg pain/Swelling — each maps to a clot.",
+   "why": "ACHES flags thromboembolic complications of combined hormonal contraceptives: Abdominal pain, Chest pain, severe Headaches, Eye problems, and Severe leg pain or Swelling. Sudden chest pain, an unrelenting headache with blurred vision, and a swollen, painful calf all fit this pattern and need prompt evaluation.",
+   "whyNot": [
+    "Light spotting between periods in the first month is a common, expected side effect, not an ACHES warning sign.",
+    "Breast tenderness the week before a period is a typical hormonal side effect, not a thromboembolic warning.",
+    "A modest increase in appetite and weight is a common side effect, not one of the ACHES danger signs."
+   ]
   },
   {
    "n": 2,
@@ -1411,7 +1694,11 @@
     4
    ],
    "rat": "Estrogen-containing contraceptives are contraindicated with a history of thromboembolic disease, migraine with aura, uncontrolled hypertension, and breast or endometrial cancer because estrogen raises thrombosis, stroke, and hormone-sensitive cancer risk. Being multigravida or having had a prior fetal demise does not prohibit future use of combined oral contraceptives.",
-   "strat": "Estrogen + a clot/stroke, hormone-sensitive cancer, or aura/uncontrolled HTN = stop and consult."
+   "strat": "Estrogen + a clot/stroke, hormone-sensitive cancer, or aura/uncontrolled HTN = stop and consult.",
+   "why": "Estrogen-containing contraceptives are contraindicated in clients with a history of thromboembolic disease, migraine with aura, uncontrolled hypertension, or breast or endometrial cancer. Estrogen raises the risk of thrombosis, stroke, and hormone-sensitive cancer growth, so each history should prompt the nurse to consult the provider.",
+   "whyNot": [
+    "Being multigravida with a prior fetal demise does not by itself prohibit future use of combined oral contraceptives."
+   ]
   },
   {
    "n": 3,
@@ -1428,7 +1715,13 @@
    ],
    "ans": 1,
    "rat": "Smoking combined with age over 35 markedly increases thromboembolic, stroke, and myocardial infarction risk with estrogen — this pairing carries a black box warning, so a progestin-only or non-estrogen method is safer. The pill remains effective in smokers (the risk is vascular, not efficacy), and the patch actually carries a higher clot risk than the pill, so neither minimizing response is correct.",
-   "strat": "Smoking + age >35 + estrogen = the black-box clot triad; switch to a no-estrogen method."
+   "strat": "Smoking + age >35 + estrogen = the black-box clot triad; switch to a no-estrogen method.",
+   "why": "Smoking combined with being over age 35 markedly increases the risk of thromboembolism, stroke, and myocardial infarction when estrogen is added. This pairing carries a black box warning, so the nurse should steer this client toward a progestin-only or other non-estrogen method instead.",
+   "whyNot": [
+    "Smoking is not just a patch concern, since the patch actually carries an even higher clot risk than the pill.",
+    "Briefly pausing smoking before each refill does not address the ongoing vascular risk of smoking with estrogen.",
+    "Smoking does not reduce how well the pill prevents pregnancy, since the danger it adds is vascular, not contraceptive failure."
+   ]
   },
   {
    "n": 4,
@@ -1445,7 +1738,13 @@
    ],
    "ans": 2,
    "rat": "Estrogen should be avoided in the first month postpartum and while breastfeeding is being established because it adds to thrombosis risk and can reduce milk supply; the progestin-only pill (and IUDs/implant) is appropriate for lactating clients. The combined pill, patch, and vaginal ring all contain estrogen and are therefore not recommended now.",
-   "strat": "Early postpartum + breastfeeding = no estrogen yet; progestin-only is the safe bridge."
+   "strat": "Early postpartum + breastfeeding = no estrogen yet; progestin-only is the safe bridge.",
+   "why": "Estrogen should be avoided in the first month postpartum and while breastfeeding is being established, since it raises thrombosis risk and can reduce milk supply. The progestin-only pill is the appropriate choice for this exclusively breastfeeding client at 2 weeks postpartum.",
+   "whyNot": [
+    "The transdermal patch contains estrogen and is therefore not recommended this early for a breastfeeding client.",
+    "The vaginal ring also contains estrogen, making it inappropriate to start this soon after birth while nursing.",
+    "A combined estrogen-progestin pill carries the same early-postpartum thrombosis and milk-supply concerns as the other estrogen methods."
+   ]
   },
   {
    "n": 5,
@@ -1466,7 +1765,13 @@
     3
    ],
    "rat": "A history of pelvic infection or ectopic pregnancy is a contraindication to the IUD, so for this client it is not recommended; IUDs are estrogen-free and otherwise safe during lactation. The duration facts (copper ~10 years, levonorgestrel ~3-5 years) are true in general but are not appropriate teaching for a client the IUD is contraindicated in, and no IUD protects against STIs.",
-   "strat": "Read the stem: prior pelvic infection/ectopic contraindicates the IUD — true general facts still aren't right teaching here."
+   "strat": "Read the stem: prior pelvic infection/ectopic contraindicates the IUD — true general facts still aren't right teaching here.",
+   "why": "A history of pelvic infection or ectopic pregnancy is a contraindication to the IUD, so it is not a recommended choice for this client. IUDs are otherwise estrogen-free and safe during breastfeeding, which is worth noting even though this client should be steered elsewhere.",
+   "whyNot": [
+    "No IUD protects against sexually transmitted infections, regardless of whether it would otherwise be appropriate for this client.",
+    "The copper IUD's roughly 10-year duration is accurate, but it is not appropriate teaching for a client the IUD is contraindicated in.",
+    "The levonorgestrel IUD's 3-to-5-year duration is likewise true in general but not the right teaching point for this client."
+   ]
   },
   {
    "n": 6,
@@ -1483,7 +1788,13 @@
    ],
    "ans": 2,
    "rat": "Depo-Provera is given every 13 weeks, and return to fertility can be delayed 6-12 months or longer after the last dose — important for a client planning pregnancy soon. The interval is not 6 months, conception is not immediate after stopping, and a known adverse effect is decreased bone density, so the other options are inaccurate.",
-   "strat": "Depo = every 13 weeks, lowers bone density, and fertility is slow to return — counsel before planning pregnancy."
+   "strat": "Depo = every 13 weeks, lowers bone density, and fertility is slow to return — counsel before planning pregnancy.",
+   "why": "Depo-Provera injections are scheduled every 13 weeks, and return to fertility can be delayed 6 to 12 months or longer after the last dose. This delay is important information for a client who plans to start trying to conceive in about 4 months.",
+   "whyNot": [
+    "Injections are given every 13 weeks, not 6 months, and menstrual cycles do not return to normal right away.",
+    "Depo-Provera is linked to decreased bone density, so it is not free of that effect on long-term use.",
+    "Fertility does not return within 2 weeks of a skipped dose, since the delay after stopping is much longer."
+   ]
   },
   {
    "n": 7,
@@ -1500,7 +1811,13 @@
    ],
    "ans": 0,
    "rat": "Emergency contraception (levonorgestrel) can be taken up to about 120 hours after unprotected intercourse and is not intended as a primary method — this client understands correctly. A vasectomy is not immediately effective (it takes up to ~3 months with a confirming semen analysis), lactational amenorrhea is unreliable, and tubal ligation should be considered permanent despite possible reversal — those statements need correction.",
-   "strat": "EC = backup within 120h; vasectomy needs ~3mo + semen check; tubal = permanent; lactation alone = unreliable."
+   "strat": "EC = backup within 120h; vasectomy needs ~3mo + semen check; tubal = permanent; lactation alone = unreliable.",
+   "why": "Emergency contraception with levonorgestrel can be taken up to about 120 hours after unprotected intercourse to prevent pregnancy. It is meant as a backup option, not a regular method, so this client's statement reflects correct understanding of how it should be used.",
+   "whyNot": [
+    "Lactational amenorrhea is not a fully reliable method, so relying on breastfeeding alone needs correction.",
+    "Tubal ligation should be considered permanent, despite the rare possibility of surgical reversal, not a temporary method.",
+    "A vasectomy is not immediately effective, since it takes up to about 3 months and a confirming semen analysis first."
+   ]
   },
   {
    "n": 1,
@@ -1517,7 +1834,13 @@
    ],
    "ans": 1,
    "rat": "Heart rate <100 (1), slow/irregular respirations (1), some flexion (1), grimace (1), acrocyanosis (1) = 5. A score ≤7 calls for stimulation (rubbing the back) and supplemental oxygen, with the Apgar repeated every 5 minutes until >7. Waiting until 5 minutes wastes the intervention window; compressions are reserved for an absent/very low heart rate with no response, not a perfusing rate of 88.",
-   "strat": "Add the five Apgar parameters first, then match the number to the action: ≤7 means stimulate and oxygenate, not wait."
+   "strat": "Add the five Apgar parameters first, then match the number to the action: ≤7 means stimulate and oxygenate, not wait.",
+   "why": "Adding the five Apgar components — heart rate under 100, slow irregular respirations, some flexion, a grimace, and acrocyanosis — gives a total of 5. A score of 7 or less calls for stimulation, such as rubbing the back, plus supplemental oxygen. The Apgar is then repeated every 5 minutes until it rises above 7.",
+   "whyNot": [
+    "Withholding stimulation and oxygen until the 5-minute score wastes the critical window when intervention could help this infant most.",
+    "This infant's score is 5, not 3, and chest compressions are reserved for an absent or very low heart rate unresponsive to stimulation.",
+    "The score here is 5, not 7, so standard ongoing support alone is not enough."
+   ]
   },
   {
    "n": 2,
@@ -1541,7 +1864,12 @@
     5
    ],
    "rat": "A newborn heart rate of 120–160 (140 is mid-range), a respiratory rate of 30–60 (48 fits), brief periodic apnea of a few seconds, and an axillary temperature of 36.5–37.5°C are all expected. A rate of 72 is tachypnea (>60) suggesting retained fluid or distress, and 104 falls below the 120 floor and should be rechecked.",
-   "strat": "Anchor the four numbers — HR 120–160, RR 30–60, axillary temp 36.5–37.5°C — then judge each finding on its own against the range."
+   "strat": "Anchor the four numbers — HR 120–160, RR 30–60, axillary temp 36.5–37.5°C — then judge each finding on its own against the range.",
+   "why": "A newborn's expected apical heart rate is 120 to 160 beats per minute, so 140 falls comfortably in range. The expected respiratory rate is 30 to 60 breaths per minute, so 48 fits, and brief pauses of a few seconds are normal. An axillary temperature of 36.8°C also falls within the expected 36.5 to 37.5°C range.",
+   "whyNot": [
+    "A sustained respiratory rate of 72 is tachypnea, above the 60 upper limit, and can suggest retained lung fluid or distress.",
+    "A heart rate of 104 falls below the expected 120 floor and should be rechecked rather than accepted as normal."
+   ]
   },
   {
    "n": 3,
@@ -1558,7 +1886,13 @@
    ],
    "ans": 3,
    "rat": "Blue coloring of the trunk and mucous membranes (lips, tongue) is central cyanosis, a sign of inadequate oxygenation that is reported and treated. Acrocyanosis is limited to the hands and feet and is normal early. Ruddiness is a red/florid color of polycythemia, and pallor is abnormal paleness — neither describes a blue tongue.",
-   "strat": "Location decides color: hands and feet alone = benign acrocyanosis; trunk and mucous membranes blue = central cyanosis = act."
+   "strat": "Location decides color: hands and feet alone = benign acrocyanosis; trunk and mucous membranes blue = central cyanosis = act.",
+   "why": "Blue coloring of the trunk along with the lips and tongue is central cyanosis, a sign of inadequate oxygenation. Because it involves the mucous membranes and core of the body rather than just the extremities, it must be reported and treated promptly.",
+   "whyNot": [
+    "Pallor is abnormal paleness from anemia or hypoxia, which does not describe this infant's dusky blue color.",
+    "Ruddiness is a red, florid color from polycythemia, the opposite of the blue tint seen in this newborn.",
+    "Acrocyanosis is limited to the hands and feet and is expected for up to 7 to 10 days, unlike this trunk and mucous membrane involvement."
+   ]
   },
   {
    "n": 4,
@@ -1575,7 +1909,13 @@
    ],
    "ans": 1,
    "rat": "A wet newborn loses heat fast, so the nurse dries the infant, swaps cooling blankets for dry warmed ones, and covers the head while skin-to-skin contact supplies maternal warmth. The first bath is delayed up to 12 hours to support thermoregulation and bonding, a stable infant need not leave the mother's chest for the warmer, and a fan promotes convective heat loss.",
-   "strat": "Keep the newborn dry, covered, and skin-to-skin; anything that wets or moves air away from the infant drives heat loss."
+   "strat": "Keep the newborn dry, covered, and skin-to-skin; anything that wets or moves air away from the infant drives heat loss.",
+   "why": "A wet newborn loses heat fast, so the nurse dries the infant, swaps damp blankets for dry warmed ones, and keeps the head covered. Skin-to-skin contact on the mother's chest supplies additional warmth during this vulnerable first hour after birth.",
+   "whyNot": [
+    "This stable infant does not need to leave the mother's chest for the warmer, since skin-to-skin already supports warmth.",
+    "The first bath is delayed up to 12 hours to protect thermoregulation, breastfeeding, and bonding, not given right away.",
+    "Circulating air from a fan would increase convective heat loss instead of protecting this newborn from cooling."
+   ]
   },
   {
    "n": 5,
@@ -1598,7 +1938,11 @@
     4
    ],
    "rat": "Matching bands between mother and newborn at every handoff, verifying the transporter's identity, confirming the security/tracking device, and re-matching bands on return are the layered safeguards taught to families and staff. Scrubs and a lanyard are easily faked and are not proof of identity, so releasing the infant on appearance alone is exactly the lapse abduction-prevention guards against.",
-   "strat": "Identity is verified, never assumed — match bands and confirm the person at every handoff, both out and back."
+   "strat": "Identity is verified, never assumed — match bands and confirm the person at every handoff, both out and back.",
+   "why": "Matching identification bands between mother and newborn before the infant leaves the room is a key safeguard. Confirming the staff member's hospital identification and verifying the security or tracking device add further layers against abduction. Re-scanning and matching the bands again when the newborn returns closes the loop on this handoff.",
+   "whyNot": [
+    "Scrubs and a badge lanyard are easy to fake and are not proof of identity, so releasing the infant on appearance alone is unsafe."
+   ]
   },
   {
    "topic": "Prophylactic Medications",
@@ -1614,7 +1958,13 @@
    ],
    "ans": 0,
    "rat": "Newborn vitamin K is given IM into the vastus lateralis (the largest accessible muscle) at a 90-degree angle to prevent vitamin K deficiency bleeding. The oral route is not the standard hospital prophylaxis; the deltoid is too small in a newborn; and the route is intramuscular, not subcutaneous.",
-   "strat": "Newborn IM injections go in the vastus lateralis - the deltoid has no muscle mass yet."
+   "strat": "Newborn IM injections go in the vastus lateralis - the deltoid has no muscle mass yet.",
+   "why": "Newborn vitamin K (phytonadione) is given intramuscularly into the vastus lateralis, the largest muscle accessible in a newborn's thigh, at a 90-degree angle. This technique delivers the dose that prevents vitamin K deficiency bleeding, since the newborn gut cannot yet synthesize its own vitamin K.",
+   "whyNot": [
+    "Vitamin K is given intramuscularly, not subcutaneously, so injecting it under the skin of the thigh is incorrect technique.",
+    "Oral administration is not the standard route for hospital vitamin K prophylaxis in the newborn.",
+    "The deltoid does not yet have enough muscle mass in a newborn to safely receive an intramuscular injection."
+   ]
   },
   {
    "topic": "Prophylactic Medications",
@@ -1630,7 +1980,13 @@
    ],
    "ans": 3,
    "rat": "Erythromycin ointment is antibiotic prophylaxis against gonococcal and chlamydial conjunctivitis acquired during birth; the excess is left in place and not wiped away, and the dose may be briefly delayed for bonding. It is not a vaccine, not treatment of an existing infection, and not a lubricant.",
-   "strat": "Eye ointment = prophylaxis, not treatment; never wipe it off, but it can wait for bonding."
+   "strat": "Eye ointment = prophylaxis, not treatment; never wipe it off, but it can wait for bonding.",
+   "why": "Erythromycin ointment is antibiotic prophylaxis against gonococcal and chlamydial conjunctivitis that the newborn could acquire during a vaginal birth. The excess ointment is left in place rather than wiped away, and the dose may be briefly delayed for an hour to allow early bonding.",
+   "whyNot": [
+    "The ointment is not a lubricant for the eye exam, and it should not be removed once the exam ends.",
+    "Erythromycin ointment is not a vaccine, and blotting it away would defeat its purpose as a topical prophylactic.",
+    "The ointment is prophylaxis given before any infection develops, not treatment of an infection the baby already has."
+   ]
   },
   {
    "topic": "Newborn Screening",
@@ -1646,7 +2002,13 @@
    ],
    "ans": 2,
    "rat": "The PKU/metabolic heel-stick is collected after the newborn is at least 24 hours old AND has had protein (milk) feedings, so phenylalanine can rise enough to detect a defect - drawing at 18 hours risks a false negative. Withholding feedings would lower phenylalanine and defeat the test, and newborn capillary samples are taken from the heel, not the fingertip.",
-   "strat": "PKU needs time + protein: at least 24 hours old and fed before the heel-stick."
+   "strat": "PKU needs time + protein: at least 24 hours old and fed before the heel-stick.",
+   "why": "The PKU metabolic screen requires the newborn to be at least 24 hours old and to have had protein feedings. This allows phenylalanine to accumulate enough for accurate detection of a metabolic defect. Drawing the sample earlier, even after two feedings, risks a false-negative result.",
+   "whyNot": [
+    "Feeding twice does not replace the required minimum age of 24 hours before the heel-stick is drawn.",
+    "Withholding feedings lowers phenylalanine intake and produces a falsely reassuring result, defeating the purpose of the test.",
+    "Newborn capillary blood samples are collected from the heel, not the fingertip, regardless of comfort concerns."
+   ]
   },
   {
    "topic": "Circumcision Care",
@@ -1668,7 +2030,11 @@
     4
    ],
    "rat": "After a Gomco circumcision, petroleum jelly is applied with each diaper change to keep the site from sticking; failure to void after the procedure can signal edema obstructing urine flow and must be reported; light blood on the diaper is normal while excessive bleeding and purulent/foul drainage are reported. The yellow crust is normal granulation tissue and must be left alone, not scrubbed off. (Petroleum jelly is omitted only when a Plastibell ring is used.)",
-   "strat": "Gomco = petroleum jelly; confirm the first void; the yellow crust is healing - leave it alone."
+   "strat": "Gomco = petroleum jelly; confirm the first void; the yellow crust is healing - leave it alone.",
+   "why": "After a Gomco circumcision, petroleum jelly is applied with each diaper change to prevent the site from sticking to the diaper. The first void after the procedure must be confirmed, since a delay can signal swelling that is obstructing urine flow. A little blood on the diaper is normal, but heavy bleeding or foul, purulent drainage should be reported immediately.",
+   "whyNot": [
+    "The yellow coating covering the glans after circumcision is normal granulation tissue, not exudate, and scrubbing it off disrupts healing rather than promoting cleanliness."
+   ]
   },
   {
    "topic": "Cord Care & Safe Sleep",
@@ -1691,7 +2057,12 @@
     5
    ],
    "rat": "Keeping the cord clean and dry - folding the diaper below the stump - and reporting redness, drainage, or odor (signs of infection) are correct; the newborn sleeps supine on a firm surface to reduce SIDS, and tub baths may begin once the stump falls off. Soft blankets, pillows, and stuffed toys are removed from the sleep space because they can cover the face, and the stump is left open to air to dry rather than covered with a dressing.",
-   "strat": "Cord stays clean, dry, and uncovered; sleep is Back to sleep on a Bare, firm surface."
+   "strat": "Cord stays clean, dry, and uncovered; sleep is Back to sleep on a Bare, firm surface.",
+   "why": "The umbilical cord stump is kept clean, dry, and exposed to air. Parents fold the diaper below the stump and watch for redness, drainage, or odor that would signal infection. Tub baths can resume once the stump separates, and safe sleep means placing the newborn supine on a firm, bare surface.",
+   "whyNot": [
+    "The cord stump should stay open to air rather than covered with a dressing, since trapped moisture slows drying and separation.",
+    "Soft blankets, pillows, and other loose bedding are removed from the sleep space entirely, because they can shift and cover the infant's face."
+   ]
   },
   {
    "n": 1,
@@ -1708,7 +2079,13 @@
    ],
    "ans": 0,
    "rat": "A bulging or tense fontanelle in a quiet newborn suggests increased intracranial pressure and must be reported. A sunken fontanelle (not raised) points to dehydration, so that option reverses the cue. Molding and overriding sutures involve the bones and suture ridges, not the fullness of the fontanelle itself.",
-   "strat": "Read the direction of the cue: sunken = volume down (dehydration); bulging/tense = pressure up (ICP)."
+   "strat": "Read the direction of the cue: sunken = volume down (dehydration); bulging/tense = pressure up (ICP).",
+   "why": "A firm, tense, bulging anterior fontanelle in a quiet, supine newborn suggests increased intracranial pressure and requires provider notification. This finding is abnormal regardless of birth history, since a healthy transitional fontanelle should feel soft and flat, not raised above the skull.",
+   "whyNot": [
+    "Cranial molding from a vaginal birth affects head shape, not fontanelle tension, so it does not explain a bulging, tense fontanelle.",
+    "Overriding sutures involve the bone edges at suture lines and resolve as the skull settles, but they do not cause a raised fontanelle.",
+    "Dehydration causes a sunken, not bulging, fontanelle, so this option describes the opposite physical finding."
+   ]
   },
   {
    "n": 2,
@@ -1752,7 +2129,8 @@
     }
    ],
    "rat": "Rooting is elicited by stroking the cheek; Moro by a sudden noise or movement; Babinski by stroking the sole upward toward the outer toes (toes fan, big toe dorsiflexes); palmar grasp by a finger on the palm; plantar grasp by touching the ball/toes of the sole (toes curl down); stepping by holding the newborn upright with feet on a surface. The palmar-versus-plantar and Babinski stimuli are commonly confused because all three involve the hand or foot.",
-   "strat": "Babinski strokes UP the sole toward toes (fan out); plantar grasp touches the toes (curl down) — direction and location separate them."
+   "strat": "Babinski strokes UP the sole toward toes (fan out); plantar grasp touches the toes (curl down) — direction and location separate them.",
+   "why": "Rooting is elicited by stroking the cheek or corner of the mouth, and Moro by a sudden noise or loss of support. Babinski is tested by stroking the sole upward toward the outer toes, causing the toes to fan and the big toe to dorsiflex. Palmar grasp responds to a finger pressed into the palm. Plantar grasp responds to touching the ball or toes of the foot, causing the toes to curl down. Stepping appears when the newborn is held upright with the feet touching a surface."
   },
   {
    "n": 3,
@@ -1796,7 +2174,8 @@
     }
    ],
    "rat": "Acrocyanosis, brick-dust uric acid crystals, jaundice appearing after 24 hours, and milia are all expected. A murmur is common but every newborn murmur must be reported. Jaundice appearing before 24 hours is pathologic, and a two-vessel cord (one vein, one artery rather than two arteries) is associated with congenital anomalies — both are reportable.",
-   "strat": "Jaundice is timed, not just seen: <24 h = report; cord vessels are counted — normal is 2 arteries + 1 vein."
+   "strat": "Jaundice is timed, not just seen: <24 h = report; cord vessels are counted — normal is 2 arteries + 1 vein.",
+   "why": "Acrocyanosis with a pink trunk, brick-dust urate crystals in the diaper, and milia are all expected transitional findings in a term newborn. Jaundice first appearing after 24 hours is also expected. A heart murmur is common but must always be reported for follow-up, and jaundice noticed before 24 hours of age is pathologic rather than physiologic. A cord with only one artery and one vein, a two-vessel cord, is also reported, since it is associated with congenital anomalies."
   },
   {
    "n": 5,
@@ -1813,7 +2192,13 @@
    ],
    "ans": 2,
    "rat": "Infants of diabetic mothers, preterm and post-term infants, and those who are SGA or LGA are at highest risk because of limited glycogen stores or hyperinsulinism; a late-preterm infant of a poorly controlled diabetic mother carries two of those risks. The other three are term, appropriately grown, feeding, or have a glucose within the expected 50–90 mg/dL range after day one.",
-   "strat": "Risk stacks: IDM + preterm/post-term + SGA/LGA — count the risk factors, don't just read the glucose."
+   "strat": "Risk stacks: IDM + preterm/post-term + SGA/LGA — count the risk factors, don't just read the glucose.",
+   "why": "Newborns at highest risk for hypoglycemia are infants of diabetic mothers, preterm or post-term infants, and those who are small or large for gestational age. These infants have limited glycogen stores or excess insulin production. A late-preterm infant of a mother with poorly controlled gestational diabetes stacks two of these risk factors at once.",
+   "whyNot": [
+    "A term newborn from a low-risk, uncomplicated pregnancy has none of the major risk factors for hypoglycemia.",
+    "An average-weight term newborn born to a mother with no medical history is not in a recognized higher-risk category.",
+    "A glucose of 55 mg/dL with eager feeding is within the expected range and reflects normal adaptation, not a newborn needing closer monitoring."
+   ]
   },
   {
    "n": 6,
@@ -1837,7 +2222,12 @@
     3
    ],
    "rat": "A bulging fontanelle (possible increased ICP), hypoglycemia with neuroglycopenic signs and a glucose of 32 mg/dL, a two-vessel cord, and any newborn murmur all require provider notification. Acrocyanosis is an expected transitional finding, and meconium passed within 12–48 hours is the expected first stool — neither is reported.",
-   "strat": "Sort each cue on its own: emergencies and 'all murmurs/two-vessel cord' get reported; normal transition findings do not."
+   "strat": "Sort each cue on its own: emergencies and 'all murmurs/two-vessel cord' get reported; normal transition findings do not.",
+   "why": "A bulging, tense fontanelle raises concern for increased intracranial pressure. A glucose of 32 mg/dL with jitteriness, lethargy, and poor feeding reflects symptomatic hypoglycemia requiring prompt action. Any newborn heart murmur and a two-vessel umbilical cord, with one artery and one vein, are also reported for further evaluation.",
+   "whyNot": [
+    "Acrocyanosis of the hands and feet with a warm, pink trunk is an expected transitional finding in the first day of life, not a concern.",
+    "Black, tarry meconium passed between 12 and 48 hours of life is the expected first stool, not a sign of bleeding."
+   ]
   },
   {
    "n": 7,
@@ -1867,7 +2257,8 @@
     }
    ],
    "rat": "Measurements below the 10th percentile classify the newborn as SGA; the 8th percentile is below that cutoff. SGA newborns have limited glycogen and fat stores and are at risk for hypoglycemia. Macrosomia and shoulder dystocia belong to the LGA newborn, and 'no increased risk' ignores that both SGA and post-term status raise the risk profile.",
-   "strat": "Below the 10th = SGA, above the 90th = LGA, in between = AGA — then map the classification to its typical risk."
+   "strat": "Below the 10th = SGA, above the 90th = LGA, in between = AGA — then map the classification to its typical risk.",
+   "why": "Growth measurements plotting below the 10th percentile classify a newborn as small for gestational age. The 8th percentile falls under that cutoff regardless of the 41-week gestational age. SGA newborns carry limited glycogen and fat stores, which puts them at risk for hypoglycemia after birth. Macrosomia and shoulder dystocia are risks tied to large-for-gestational-age infants instead."
   },
   {
    "n": 8,
@@ -1884,7 +2275,13 @@
    ],
    "ans": 3,
    "rat": "Molding and palpable overriding sutures are benign and transient, voiding only once or twice in the first two days is normal before output climbs to more than six wet diapers by day 4, and black tarry meconium is the expected first stool. The distractors each mislabel one of these normal transitional findings as a problem requiring escalation or imaging.",
-   "strat": "Early newborn course has low voids and tarry meconium by design; molding/sutures are benign — don't escalate normal transition."
+   "strat": "Early newborn course has low voids and tarry meconium by design; molding/sutures are benign — don't escalate normal transition.",
+   "why": "Molding with palpable overriding sutures is a benign, temporary result of the birth process that reshapes over the following days. Voiding only once or twice in the first two days is expected before output increases. Black, tarry meconium is the normal first stool a newborn passes.",
+   "whyNot": [
+    "The misshapen head from molding is a normal variant that resolves on its own and does not require imaging.",
+    "Black, tarry meconium at this age is the expected first stool, not a sign of intestinal bleeding requiring feeding to be held.",
+    "Two wet diapers by day two is within the expected early voiding pattern and does not need to be reported."
+   ]
   },
   {
    "topic": "Newborn Weight Loss",
@@ -1896,7 +2293,8 @@
    "acceptHi": 6.9,
    "answer": "6.7% (240 g lost)",
    "rat": "(3,600 - 3,360) = 240 g lost; 240 ÷ 3,600 × 100 = 6.7%. Up to ~7-10% loss in the first week is expected from extracellular fluid and meconium excretion, with birth weight regained by about 2 weeks. At 6.7% on day 3 this newborn is still within the acceptable range, but a loss exceeding 7% in the first 3 days would warrant evaluation.",
-   "strat": "Weight lost ÷ birth weight × 100; the divisor is always the BIRTH weight, and >7% early is the flag."
+   "strat": "Weight lost ÷ birth weight × 100; the divisor is always the BIRTH weight, and >7% early is the flag.",
+   "why": "Subtracting the day-3 weight from the birth weight gives 240 g lost, and dividing that by the birth weight and multiplying by 100 yields 6.7%. Newborns are expected to lose up to about 7 to 10% of birth weight in the first week from extracellular fluid and meconium loss. Birth weight is typically regained by roughly 2 weeks. At 6.7% on day 3, this newborn remains within the acceptable range, though a loss over 7% this early would prompt further evaluation."
   },
   {
    "topic": "Formula Safety",
@@ -1917,7 +2315,12 @@
     4
    ],
    "rat": "Warming under warm tap water avoids microwave hot spots that scald the mouth; unopened prepared formula keeps in the refrigerator up to 48 hours; formula left after a feeding is discarded because saliva contaminates it. Unmodified cow's milk is not recommended before 1 year (not 6 months), and powdered formula is not sterile, so it is avoided for preterm or immunocompromised infants.",
-   "strat": "Cow's milk waits until 1 year; powder is not sterile, so skip it for fragile infants."
+   "strat": "Cow's milk waits until 1 year; powder is not sterile, so skip it for fragile infants.",
+   "why": "Warming a bottle under warm tap water avoids the scalding hot spots a microwave can create. An unopened, prepared bottle can be refrigerated for up to 48 hours. Any formula left in the bottle after a feeding is discarded, because the infant's saliva has contaminated it.",
+   "whyNot": [
+    "Unmodified cow's milk is not recommended until 12 months, not 6 months, since it is hard to digest and lacks adequate iron.",
+    "Powdered formula is not sterile and can carry bacteria, so it is avoided for preterm or immunocompromised infants like one in the NICU."
+   ]
   },
   {
    "topic": "Bottle-Feeding Technique",
@@ -1933,7 +2336,13 @@
    ],
    "ans": 1,
    "rat": "Propping the bottle removes the caregiver's control of flow and is an aspiration risk, so it requires intervention. A semi-upright hold, keeping the nipple full to prevent swallowed air, and burping every ½ to 1 oz are all correct techniques the nurse would reinforce, not correct.",
-   "strat": "On 'requires intervention' items, hunt for the unsafe action — propping a bottle is a classic aspiration hazard."
+   "strat": "On 'requires intervention' items, hunt for the unsafe action — propping a bottle is a classic aspiration hazard.",
+   "why": "Propping a bottle removes the caregiver's control over the flow of formula and leaves the newborn unsupervised while feeding. This creates a real risk of choking or aspiration. This unsafe practice is the one action here that requires the nurse to intervene.",
+   "whyNot": [
+    "Angling the bottle to keep the nipple filled with formula prevents the newborn from swallowing excess air and is a technique to reinforce, not correct.",
+    "Pausing to burp after about every half ounce is appropriate feeding technique that helps release swallowed air.",
+    "Holding the newborn semi-upright at about 45 degrees is the correct feeding position and needs no correction."
+   ]
   },
   {
    "topic": "AAP Feeding Recommendations",
@@ -1949,7 +2358,13 @@
    ],
    "ans": 3,
    "rat": "The AAP recommends an iron-fortified commercial formula for any infant who is not breastfed; iron supports growth and prevents deficiency anemia. Low-iron formula is not preferred, over-diluting formula risks water intoxication and inadequate calories, and unmodified cow's milk is unsuitable before 1 year.",
-   "strat": "If not breastfeeding, the default is iron-fortified formula — 'low-iron' and 'cow's milk' are the planted traps."
+   "strat": "If not breastfeeding, the default is iron-fortified formula — 'low-iron' and 'cow's milk' are the planted traps.",
+   "why": "The American Academy of Pediatrics recommends an iron-fortified commercial formula for any infant who is not breastfed. Adequate iron supports growth and helps prevent iron-deficiency anemia during the first year of life, when the newborn's iron stores from birth are being depleted.",
+   "whyNot": [
+    "Low-iron formula is not preferred and offers no advantage over standard iron-fortified formula for a healthy newborn.",
+    "Unmodified cow's milk is unsuitable for an infant before 12 months regardless of how well feeding and growth are going.",
+    "Diluting formula with extra water risks water intoxication and inadequate calorie intake rather than safely preventing constipation."
+   ]
   },
   {
    "n": 1,
@@ -1985,7 +2400,8 @@
     }
    ],
    "rat": "Physiologic jaundice appears AFTER 24 hours, peaks at 5-6 mg/dL on days 2-4, and resolves within about a week. Jaundice seen in the first 24 hours, a rapid rise, or jaundice persisting for weeks signals a pathologic process (e.g., hemolysis) and must be reported. The timing and rate of rise — not the presence of jaundice alone — distinguish the two.",
-   "strat": "First 24 hours, fast rise, or won't quit = pathologic; after 24 hours and self-limited = physiologic."
+   "strat": "First 24 hours, fast rise, or won't quit = pathologic; after 24 hours and self-limited = physiologic.",
+   "why": "Physiologic jaundice appears after the first 24 hours of life. It peaks around 5 to 6 mg/dL on days 2 through 4 and resolves within about a week. Jaundice visible within the first 12 to 24 hours points to a pathologic process, such as hemolysis, that must be reported. The same is true for a rapidly rising bilirubin level or jaundice still present at 3 weeks of age."
   },
   {
    "n": 2,
@@ -2002,7 +2418,13 @@
    ],
    "ans": 0,
    "rat": "Unconjugated (indirect) bilirubin is fat-soluble; before it can be excreted the liver must conjugate it into a water-soluble (direct) form. Because the fat-soluble unconjugated form can cross into lipid-rich brain tissue, it is the neurotoxic species. The distractors swap the conjugated/unconjugated and water-/fat-soluble pairings — the conjugated form is water-soluble, non-toxic, and excreted.",
-   "strat": "Unconjugated = indirect = fat-soluble = the form that reaches the brain."
+   "strat": "Unconjugated = indirect = fat-soluble = the form that reaches the brain.",
+   "why": "Unconjugated (indirect) bilirubin is fat-soluble, and the liver must convert it to a water-soluble conjugated form before it can be excreted. Because the fat-soluble unconjugated form can cross into lipid-rich brain tissue, it is the form responsible for neurologic injury when levels rise too high.",
+   "whyNot": [
+    "Unconjugated bilirubin is fat-soluble, not water-soluble, and cannot be freely excreted in urine until the liver conjugates it.",
+    "Conjugated bilirubin is the water-soluble form that is excreted, not the form that accumulates in brain tissue.",
+    "Conjugated bilirubin is water-soluble, not fat-soluble, so it does not cross into fatty brain tissue at all."
+   ]
   },
   {
    "n": 3,
@@ -2019,7 +2441,13 @@
    ],
    "ans": 2,
    "rat": "A bilirubin must be interpreted against the newborn's hours of age, not a single fixed cutoff. About 9 mg/dL at only 14 hours plots in the high-risk zone and needs prompt evaluation and treatment, whereas the same number on day 3 might be low-risk. Calling it low-risk, waiting a day for it to fall, or holding the report until an arbitrary 12 mg/dL all ignore the steep early rise and risk neurotoxicity.",
-   "strat": "Plot the level against hours of age — a 'normal-sounding' number can be high-risk if the baby is young."
+   "strat": "Plot the level against hours of age — a 'normal-sounding' number can be high-risk if the baby is young.",
+   "why": "A bilirubin level must be interpreted against the newborn's age in hours rather than a single fixed number. A level near 9.2 mg/dL at only 14 hours of age plots in the high-risk zone on the bilirubin nomogram. This needs prompt provider notification and evaluation.",
+   "whyNot": [
+    "Comparing this level to a day-3 peak ignores that the same number appearing at just 14 hours reflects a much steeper, higher-risk rise.",
+    "Waiting for an arbitrary threshold like 12 mg/dL ignores how early and fast this level has already risen.",
+    "Waiting 24 hours to recheck delays treatment while the level is likely to keep climbing rather than drift down on its own."
+   ]
   },
   {
    "n": 4,
@@ -2036,7 +2464,13 @@
    ],
    "ans": 1,
    "rat": "Exchange transfusion replaces the infant's blood in equal volume and is used when phototherapy fails to bring dangerously high levels down fast enough; the lethargy, high-pitched cry, and arching are signs of acute bilirubin encephalopathy — an emergency. Afterward the newborn must be watched for fluid, electrolyte, and acid-base instability, and bilirubin testing CONTINUES because levels can rebound and the transfusion may need repeating. Lotion can burn during phototherapy, and sunlight is never a prescribed treatment for a critically ill newborn.",
-   "strat": "After exchange transfusion, the post-procedure watch is fluids/electrolytes/acid-base — and keep drawing bilirubins."
+   "strat": "After exchange transfusion, the post-procedure watch is fluids/electrolytes/acid-base — and keep drawing bilirubins.",
+   "why": "Exchange transfusion is used when phototherapy cannot lower a dangerously high bilirubin fast enough. The lethargy, high-pitched cry, and arching described are signs of acute bilirubin encephalopathy. After the procedure, the priority is monitoring fluid, electrolyte, and acid-base balance, since exchanging blood volume can destabilize all three.",
+   "whyNot": [
+    "Sunlight is never a substitute for prescribed treatment in a critically ill newborn recovering from exchange transfusion.",
+    "Bilirubin testing must continue after the transfusion, since levels can rebound and a repeat transfusion may be needed.",
+    "Lotion can trap heat and cause burns under phototherapy lights and is not the priority action after transfusion."
+   ]
   },
   {
    "n": 5,
@@ -2060,7 +2494,12 @@
     5
    ],
    "rat": "Spreading jaundice (face moving downward as levels rise), yellow sclerae, poor feeding, and a low diaper count are all cues pointing to rising bilirubin and inadequate intake. The temperature and heart rate are within normal newborn ranges and are non-concerning, so they are not selected — including them would be over-reading normal data.",
-   "strat": "On 'recognize cues,' keep normal vitals OFF the list — only flag what actually deviates."
+   "strat": "On 'recognize cues,' keep normal vitals OFF the list — only flag what actually deviates.",
+   "why": "Jaundice spreading downward from the face to the chest and abdomen, yellow sclerae, poor and reluctant feeding, and a low diaper count signal rising bilirubin. These findings also point to inadequate intake in this ABO-incompatible newborn. These cues need follow-up because spreading jaundice tracks with rising bilirubin levels and poor intake limits the infant's ability to excrete it.",
+   "whyNot": [
+    "A heart rate of 140 beats/min is within the normal newborn range and is not a concerning cue here.",
+    "An axillary temperature of 36.8°C is within the expected newborn range and does not need follow-up."
+   ]
   },
   {
    "n": 6,
@@ -2077,7 +2516,13 @@
    ],
    "ans": 3,
    "rat": "A type O mother carrying a type A infant sets up ABO incompatibility: maternal antibodies hemolyze fetal red cells, producing extra unconjugated bilirubin. Poor feeding compounds this by slowing gut motility and stooling, so less bilirubin is excreted. Liver immaturity is a contributor but doesn't explain the hemolytic setup, biliary obstruction raises the DIRECT fraction (not the picture here), and polycythemia is not indicated by the cues.",
-   "strat": "O mom + A/B baby = hemolysis; pair the mechanism (extra bilirubin made) with the excretion problem (too little out)."
+   "strat": "O mom + A/B baby = hemolysis; pair the mechanism (extra bilirubin made) with the excretion problem (too little out).",
+   "why": "A type O mother carrying a type A infant sets up ABO incompatibility, in which maternal antibodies hemolyze fetal red cells and generate unconjugated bilirubin. Poor feeding compounds this process by slowing gut motility and stooling, so less bilirubin is excreted from the body.",
+   "whyNot": [
+    "Biliary obstruction would raise the conjugated, direct bilirubin fraction, which does not match this hemolytic picture.",
+    "Polycythemia is not indicated by these cues and cannot alone account for the spreading jaundice and poor feeding described.",
+    "Liver immaturity contributes to newborn jaundice generally but does not explain the hemolytic setup created by the blood type mismatch."
+   ]
   },
   {
    "n": 7,
@@ -2094,7 +2539,13 @@
    ],
    "ans": 0,
    "rat": "All four are real concerns, but the unconjugated bilirubin crossing into brain tissue can cause acute encephalopathy and permanent kernicterus — irreversible neurologic damage. By acute-over-chronic and safety prioritization, preventing neurotoxicity outranks skin care, psychosocial support, and expected early weight loss, which are managed but are lower-acuity.",
-   "strat": "When ranking hypotheses, the irreversible/neurologic threat wins over skin, emotion, and expected findings."
+   "strat": "When ranking hypotheses, the irreversible/neurologic threat wins over skin, emotion, and expected findings.",
+   "why": "Unconjugated bilirubin crossing into brain tissue can cause acute encephalopathy and permanent kernicterus, an irreversible neurologic injury. Because this threat is both acute and irreversible, preventing neurotoxicity takes priority over lower-acuity concerns such as skin care, psychosocial support, or expected early findings.",
+   "whyNot": [
+    "Parental anxiety is a real concern to address, but it is a psychosocial issue rather than the physiologic threat driving priorities here.",
+    "Mild weight loss in the first few days is an expected finding, not the greatest risk facing this newborn.",
+    "Skin breakdown from phototherapy stools is manageable and lower-acuity compared with the risk of permanent brain injury."
+   ]
   },
   {
    "n": 8,
@@ -2136,7 +2587,8 @@
     ]
    },
    "rat": "The central problem is hyperbilirubinemia. Phototherapy (with the eyes protected) breaks down bilirubin in the skin, and more frequent feeding adds the hydration and gut motility needed to excrete it — so both are correct actions. Restricting intake and applying lotion are harmful (lotion can burn under lights). The right parameters are the total serum bilirubin (is the level falling?) and temperature plus intake/output (phototherapy and being undressed threaten thermoregulation and fluid balance). Reflexes and bowel sounds are not the targeted monitors here.",
-   "strat": "Bowtie = name the problem, pick the two treatments that fit it, then monitor the number you're chasing (bilirubin) plus the side effects you can cause (temp, I&O)."
+   "strat": "Bowtie = name the problem, pick the two treatments that fit it, then monitor the number you're chasing (bilirubin) plus the side effects you can cause (temp, I&O).",
+   "why": "The central problem is hyperbilirubinemia. Phototherapy with the eyes protected breaks down bilirubin in the skin. More frequent feeding adds the hydration and gut motility needed to excrete it, so both are correct actions. The right parameters to monitor are the total serum bilirubin, to confirm the level is falling, and temperature plus intake and output. Phototherapy and being undressed threaten thermoregulation and fluid balance."
   },
   {
    "n": 9,
@@ -2160,7 +2612,12 @@
     4
    ],
    "rat": "Effective phototherapy needs maximal skin exposure with the eyes shielded, frequent turning, frequent feeding with strict I&O, and temperature monitoring (the undressed infant can cool, the lights can overheat). Lotion can cause burns under the lights, and water or dextrose supplementation is not recommended — it displaces milk intake without improving bilirubin excretion; breast milk or formula is used if supplementation is needed.",
-   "strat": "Phototherapy bundle = eyes covered, skin bare, turn, feed, watch temp and I&O — never lotion, never water/dextrose."
+   "strat": "Phototherapy bundle = eyes covered, skin bare, turn, feed, watch temp and I&O — never lotion, never water/dextrose.",
+   "why": "Effective phototherapy requires shielding the eyes while exposing as much skin as possible, turning the newborn frequently, and feeding often with strict intake and output. Temperature is also monitored, since an undressed infant can cool while the lights can overheat. These actions together protect the newborn while maximizing bilirubin breakdown in the skin.",
+   "whyNot": [
+    "Supplemental water or dextrose displaces milk intake without improving bilirubin excretion, so breast milk or formula is used instead if more intake is needed.",
+    "Lotion applied to skin exposed under phototherapy lights can cause burns rather than prevent dryness."
+   ]
   },
   {
    "n": 10,
@@ -2177,7 +2634,13 @@
    ],
    "ans": 1,
    "rat": "Success is judged on the target outcome plus supporting signs: a falling total serum bilirubin, improving neurologic status (more alert, feeding better), and rising urine output that reflects better hydration and excretion. The other options are realistic partial or mixed pictures — an unchanged level, jaundice still present, or a falling level paired with continued lethargy and poor feeding all show the goal has not yet been met, so they do not confirm success.",
-   "strat": "Evaluate against the goal you set: the bilirubin number is down AND the baby looks and behaves better."
+   "strat": "Evaluate against the goal you set: the bilirubin number is down AND the baby looks and behaves better.",
+   "why": "Success is judged against the treatment goal. A falling total serum bilirubin, improving neurologic status such as increased alertness, and rising urine output all reflect better hydration and excretion. All three signs moving in the right direction together confirm the plan is working.",
+   "whyNot": [
+    "Jaundice still covering the chest shows the goal has not yet been met, even though the loose stools reflect an expected phototherapy side effect.",
+    "An unchanged bilirubin level means the core treatment goal has not been reached, even with slightly better feeding.",
+    "A slight decline in bilirubin alongside continued lethargy and poor feeding is a mixed picture that does not yet confirm success."
+   ]
   },
   {
    "topic": "Opioid Use Disorder in Pregnancy",
@@ -2193,7 +2656,13 @@
    ],
    "ans": 2,
    "rat": "Abrupt opioid cessation in pregnancy is not recommended because of withdrawal-related risks; methadone maintenance has been the gold standard since 1995 and improves prenatal care, stability, nutrition, and birth weight. Endorsing sudden cessation, unsupervised self-tapering, and as-needed dosing all leave the pregnancy unsupported and the client at risk of relapse.",
-   "strat": "In pregnancy, you stabilize on methadone — you do not stop opioids abruptly."
+   "strat": "In pregnancy, you stabilize on methadone — you do not stop opioids abruptly.",
+   "why": "Abrupt opioid cessation during pregnancy is not recommended because of the risks associated with maternal withdrawal, including fetal distress. Methadone maintenance has been the standard of care since 1995. It improves prenatal care engagement, stability, nutrition, and birth weight compared with continued illicit use or unsupervised cessation.",
+   "whyNot": [
+    "Giving opioids only once withdrawal starts is unsupervised, as-needed dosing that leaves the pregnancy unstable rather than safely managed.",
+    "Unsupervised self-tapering at home lacks the monitoring and support a formal treatment program provides and risks relapse.",
+    "Quitting suddenly today, despite good intentions, carries withdrawal-related risks to the pregnancy rather than being the healthiest choice."
+   ]
   },
   {
    "topic": "Methadone vs Heroin Withdrawal",
@@ -2209,7 +2678,13 @@
    ],
    "ans": 2,
    "rat": "Neonatal withdrawal from methadone is typically more severe and more prolonged than from heroin, so a methadone-exposed newborn often needs longer observation. Methadone does cross the placenta, methadone-exposed infants commonly do show withdrawal, and the claim that heroin withdrawal lasts longest reverses the actual pattern.",
-   "strat": "Methadone = longer, more severe neonatal withdrawal than heroin — counterintuitive but tested."
+   "strat": "Methadone = longer, more severe neonatal withdrawal than heroin — counterintuitive but tested.",
+   "why": "Neonatal withdrawal from methadone is typically more severe and more prolonged than withdrawal from heroin. As a result, a methadone-exposed newborn often needs a longer period of observation after birth. This pattern can seem counterintuitive, since methadone is the prescribed, supervised medication used to stabilize the pregnancy.",
+   "whyNot": [
+    "Methadone does cross the placenta, so it cannot be ruled out as the cause of a newborn's withdrawal symptoms.",
+    "This reverses the actual pattern, since methadone-exposed newborns are typically the ones requiring the longest observation, not heroin-exposed ones.",
+    "Methadone-exposed infants commonly do show withdrawal signs, so the added monitoring reflects real risk, not just precaution."
+   ]
   },
   {
    "topic": "Recognizing NAS Signs",
@@ -2232,7 +2707,12 @@
     5
    ],
    "rat": "NAS clusters into CNS irritability (high-pitched cry, tremors, hypertonia, overactive reflexes), GI signs (vomiting, diarrhea, poor feeding), and autonomic signs (sweating, sneezing, yawning, fever, tachypnea). Persistent hypotonia is the opposite of the expected hypertonia, and slow, shallow respirations of 28/min reflect respiratory depression rather than the tachypnea seen in withdrawal.",
-   "strat": "Withdrawal = a wound-up, irritable baby: CNS jittery, GI loose, autonomic revved-up — not a floppy, slow one."
+   "strat": "Withdrawal = a wound-up, irritable baby: CNS jittery, GI loose, autonomic revved-up — not a floppy, slow one.",
+   "why": "Neonatal abstinence syndrome clusters into central nervous system irritability, such as a high-pitched cry, tremors, and overactive reflexes with increased tone. Autonomic signs include sweating, sneezing, and yawning, and gastrointestinal signs include loose stools and frequent regurgitation.",
+   "whyNot": [
+    "Persistent hypotonia and a weak cry are the opposite of the hypertonia and vigorous, high-pitched cry expected with withdrawal.",
+    "Slow, shallow respirations reflect respiratory depression, not the tachypnea typically seen with active neonatal withdrawal symptoms."
+   ]
   },
   {
    "topic": "Non-Pharmacologic Care",
@@ -2254,7 +2734,11 @@
     4
    ],
    "rat": "First-line care modifies the environment and supports self-regulation: a quiet, dim room with slow handling, swaddling and nonnutritive sucking, small frequent feeds, and rubbing rather than patting when burping (patting can trigger the Moro reflex). Direct eye contact overstimulates an infant in active withdrawal and is avoided until the infant is recovering.",
-   "strat": "Turn everything down and contain the baby; avoid eye contact during active withdrawal — it overstimulates."
+   "strat": "Turn everything down and contain the baby; avoid eye contact during active withdrawal — it overstimulates.",
+   "why": "Non-pharmacologic care for an infant in active withdrawal centers on reducing stimulation and supporting self-regulation. This includes a quiet, dimly lit room with slow, minimal handling, swaddling with a pacifier for nonnutritive sucking, and small, frequent feedings. Burping uses rubbing rather than patting, since patting can trigger the Moro reflex.",
+   "whyNot": [
+    "Steady eye contact overstimulates an infant during active withdrawal and is avoided until the infant is calmer and recovering."
+   ]
   },
   {
    "topic": "Breastfeeding Eligibility",
@@ -2270,7 +2754,13 @@
    ],
    "ans": 0,
    "rat": "Breastfeeding is contraindicated with active street-drug or polydrug use (and with HIV infection) because of the substances passed to the infant. Stable methadone maintenance is compatible with breastfeeding, a prescribed SSRI does not by itself prohibit it, and a low Finnegan score with mild withdrawal signs is a reason to support — not stop — breastfeeding.",
-   "strat": "Breastfeeding is blocked by active street/polydrug use or HIV — not by stable methadone."
+   "strat": "Breastfeeding is blocked by active street/polydrug use or HIV — not by stable methadone.",
+   "why": "Breastfeeding is contraindicated with active street or polydrug use, along with HIV infection, because these expose the infant to harmful substances or the virus. Both can pass directly to the infant through breast milk. None of the other three situations described here carry that same contraindication.",
+   "whyNot": [
+    "A low Finnegan score with mild, intermittent tremors is a reason to support continued breastfeeding, not to stop it.",
+    "A prescribed SSRI taken throughout pregnancy does not, by itself, prohibit breastfeeding after the baby is born.",
+    "Stable methadone maintenance is compatible with breastfeeding and is not a contraindication on its own."
+   ]
   },
   {
    "topic": "Finnegan Scoring",
@@ -2307,7 +2797,8 @@
     }
    ],
    "rat": "The Finnegan score grades withdrawal severity and guides treatment decisions; a lower score means fewer, milder withdrawal signs. The newborn is described as drug-exposed, not addicted, because infants are not considered to have a substance use disorder. The tool does not diagnose maternal overdose or predict long-term intelligence.",
-   "strat": "Lower Finnegan = milder; the infant is drug-exposed, never \"addicted.\""
+   "strat": "Lower Finnegan = milder; the infant is drug-exposed, never \"addicted.\"",
+   "why": "The Finnegan Neonatal Abstinence Score grades withdrawal severity and guides treatment decisions, and a lower score reflects fewer and milder signs of withdrawal. The newborn is correctly described as drug-exposed rather than addicted, since infants are not considered to have a substance use disorder. The tool does not diagnose a maternal overdose or predict a child's future intelligence."
   },
   {
    "topic": "NAS Complications",
@@ -2346,7 +2837,8 @@
     }
    ],
    "rat": "NAS is associated with low birth weight, seizures, jaundice, and an increased risk of SIDS. Macrosomia is not linked to NAS (these infants trend toward low birth weight), and an absent Moro reflex is not an NAS complication — withdrawal actually produces an exaggerated, easily triggered Moro response.",
-   "strat": "NAS babies run small and irritable: low weight, seizures, jaundice, ↑SIDS — not big and not areflexic."
+   "strat": "NAS babies run small and irritable: low weight, seizures, jaundice, ↑SIDS — not big and not areflexic.",
+   "why": "Neonatal abstinence syndrome is associated with low birth weight, seizures, jaundice, and an increased risk of sudden infant death syndrome. Macrosomia is not linked to NAS, since these infants trend toward being small rather than large. An absent Moro reflex is not a feature of withdrawal either. Withdrawal typically produces an exaggerated, easily triggered Moro response instead."
   },
   {
    "topic": "Gestational Age Classification",
@@ -2384,7 +2876,8 @@
     }
    ],
    "rat": "Preterm is before 37 weeks (late preterm 34 0/7-36 6/7); term is 37 0/7-41 6/7; postterm is 42 0/7 weeks and beyond. So 35 2/7 is late preterm, 39 4/7 is term (full term), and 42 3/7 is postterm. 'Late term' (41 weeks) is still within the term range, not postterm.",
-   "strat": "Anchor on 37 and 42: under 37 preterm, 37 up to 42 term, 42 and over postterm."
+   "strat": "Anchor on 37 and 42: under 37 preterm, 37 up to 42 term, 42 and over postterm.",
+   "why": "Preterm is defined as birth before 37 weeks, with late preterm spanning 34 0/7 to 36 6/7 weeks. An infant born at 35 2/7 weeks is therefore late preterm. Term spans 37 0/7 through 41 6/7 weeks, making 39 4/7 weeks full term. Postterm begins at 42 0/7 weeks, making 42 3/7 weeks postterm."
   },
   {
    "topic": "Late Preterm Infant",
@@ -2407,7 +2900,12 @@
     5
    ],
    "rat": "Late preterm infants are physiologically and metabolically immature, so despite looking well they are at risk for hypoglycemia, temperature instability, feeding difficulty, jaundice, and a higher readmission rate than term infants. Polydactyly is a structural anomaly unrelated to prematurity, and elevated hematocrit/polycythemia is characteristic of the SGA infant, not late prematurity.",
-   "strat": "Late preterm = 'great pretender' - looks term but watch sugar, temp, feeding, and bounce-back visits."
+   "strat": "Late preterm = 'great pretender' - looks term but watch sugar, temp, feeding, and bounce-back visits.",
+   "why": "Late preterm infants are physiologically and metabolically immature even when they look well. Because of this, they are watched closely for hypoglycemia from limited glycogen stores and for temperature instability. Poor or uncoordinated feeding and a higher rate of readmission than term infants are also expected risks.",
+   "whyNot": [
+    "Polydactyly is a structural anomaly unrelated to gestational age or prematurity, not a complication of being born late preterm.",
+    "A persistently elevated hematocrit with facial flushing describes polycythemia, which is characteristic of the small-for-gestational-age infant, not late prematurity."
+   ]
   },
   {
    "topic": "Preterm Complications",
@@ -2442,7 +2940,8 @@
     }
    ],
    "rat": "Preterm infants predictably struggle with thermoregulation, have respiratory distress (tachypnea, grunting, apnea), develop jaundice from an immature liver, and have lowered resistance to infection. Bounding pulses with a wide pulse pressure are not expected and suggest a patent ductus arteriosus or other cardiac issue requiring evaluation - the nurse assesses for murmurs and perfusion changes.",
-   "strat": "Group the expected preterm cluster - temp, breathing, bilirubin, infection - then anything cardiac/circulatory that stands out gets investigated."
+   "strat": "Group the expected preterm cluster - temp, breathing, bilirubin, infection - then anything cardiac/circulatory that stands out gets investigated.",
+   "why": "Preterm infants predictably struggle with maintaining body temperature and show respiratory distress such as tachypnea and grunting. They also develop jaundice from an immature liver and have lowered resistance to infection. Bounding peripheral pulses with a wide pulse pressure are not an expected finding. This instead suggests a patent ductus arteriosus or other cardiac problem needing further evaluation."
   },
   {
    "topic": "Small for Gestational Age",
@@ -2458,7 +2957,13 @@
    ],
    "ans": 1,
    "rat": "The SGA infant has poor glycogen and fat stores, so hypoglycemia is the priority - it develops early, is common, and untreated can cause irreversible neurologic injury. Polycythemia, impaired thermoregulation, and poor weight gain are all real SGA risks, but blood glucose is checked and corrected first because the brain depends on glucose and the deficit appears in the first hours.",
-   "strat": "Small baby = small fuel tank: glucose is the first thing to fail and the first thing to fix."
+   "strat": "Small baby = small fuel tank: glucose is the first thing to fail and the first thing to fix.",
+   "why": "The small-for-gestational-age newborn has limited glycogen and fat stores. This makes hypoglycemia the priority problem, since it develops early, is common, and can cause irreversible neurologic injury if untreated. Blood glucose is checked and corrected first because the newborn brain depends on glucose and the deficit appears within the first hours of life.",
+   "whyNot": [
+    "Polycythemia is a real risk from chronic intrauterine hypoxia, but it is not the earliest or most urgent problem to address.",
+    "Poor weight gain develops over a longer timeframe and is not the priority in the first hour of life.",
+    "Impaired thermoregulation from decreased subcutaneous fat is a genuine risk, but glucose stability takes priority in the first hour."
+   ]
   },
   {
    "topic": "Small for Gestational Age",
@@ -2480,7 +2985,13 @@
     4
    ],
    "rat": "Chronic placental insufficiency leaves the SGA infant prone to perinatal asphyxia, polycythemia (a compensatory response to intrauterine hypoxia), impaired thermoregulation from scant subcutaneous fat, and poor feeding and weight gain. Macrosomia and shoulder dystocia are problems of the large-for-gestational-age infant, the opposite growth pattern.",
-   "strat": "SGA is the under-grown, under-oxygenated baby - asphyxia, thick blood, and cold are its cluster, not the big-baby injuries."
+   "strat": "SGA is the under-grown, under-oxygenated baby - asphyxia, thick blood, and cold are its cluster, not the big-baby injuries.",
+   "why": "Chronic placental insufficiency from maternal hypertension leaves the SGA infant prone to perinatal asphyxia and polycythemia, a compensatory response to intrauterine hypoxia. Impaired thermoregulation from scant subcutaneous fat stores is also expected.",
+   "whyNot": [
+    "Macrosomia and shoulder dystocia are risks of the large-for-gestational-age infant, the opposite growth pattern from this SGA newborn.",
+    "Growth restriction in this infant reflects inadequate placental support, not an overproduction of growth hormone by the newborn.",
+    "This SGA infant has scant, not excess, subcutaneous fat, which is why thermoregulation is impaired rather than protected."
+   ]
   },
   {
    "topic": "Large for Gestational Age",
@@ -2496,7 +3007,13 @@
    ],
    "ans": 3,
    "rat": "A limp, adducted arm with an absent Moro on the affected side plus clavicular crepitus points to a brachial plexus (Erb's) injury, a classic macrosomia/birth-trauma complication in the infant of a diabetic mother. Phrenic nerve palsy shows asymmetric abdominal movement and respiratory distress; facial nerve injury shows asymmetry of the mouth with crying; and the tonic neck reflex is a symmetric, expected posture, not a flaccid arm.",
-   "strat": "Big baby + limp arm + no Moro on that side = brachial plexus (Erb's); match the nerve to its sign."
+   "strat": "Big baby + limp arm + no Moro on that side = brachial plexus (Erb's); match the nerve to its sign.",
+   "why": "A limp, adducted arm with an absent Moro reflex on the affected side, plus clavicular crepitus, points to a brachial plexus injury. This is Erb's palsy, a classic birth-trauma complication in macrosomic infants of mothers with poorly controlled diabetes. Shoulder dystocia during a difficult vaginal delivery stretches the upper brachial plexus and paralyzes the arm.",
+   "whyNot": [
+    "Phrenic nerve palsy causes asymmetric abdominal movement with respiratory distress, not a limp arm with an absent Moro reflex.",
+    "Facial nerve injury produces mouth asymmetry that worsens with crying, not arm paralysis or an absent reflex.",
+    "The tonic neck reflex is a symmetric, expected newborn posture, not a flaccid, immobile arm."
+   ]
   },
   {
    "topic": "Clavicle Fracture Care",
@@ -2512,7 +3029,13 @@
    ],
    "ans": 2,
    "rat": "A newborn clavicle fracture is managed conservatively with gentle handling and limiting motion - pinning the sleeve to the shirt keeps the arm still and comfortable - and the prognosis is excellent. Newborns are not casted for clavicle fractures, range-of-motion exercises would move and aggravate the painful site, and forced abduction does not stabilize the clavicle.",
-   "strat": "Newborn clavicle fracture: limit motion, don't immobilize with hardware - gentle handling, pin the sleeve, good prognosis."
+   "strat": "Newborn clavicle fracture: limit motion, don't immobilize with hardware - gentle handling, pin the sleeve, good prognosis.",
+   "why": "A newborn clavicle fracture is managed conservatively because the bone heals rapidly on its own. Gentle handling and pinning the sleeve to the shirt limits arm motion and keeps the newborn comfortable while it heals. The prognosis for this common birth injury is excellent.",
+   "whyNot": [
+    "Newborns are not casted for a fractured clavicle, since the bone is too small and heals well without hardware.",
+    "Passive range-of-motion exercises would move and aggravate the painful fracture site instead of protecting it.",
+    "Forced abduction and elevation on a pillow do not stabilize the clavicle and may cause more pain."
+   ]
   },
   {
    "topic": "Postterm Infant",
@@ -2536,7 +3059,11 @@
     5
    ],
    "rat": "As the postterm placenta ages it can no longer protect or nourish the fetus, producing dry/peeling skin, long nails and hair, meconium staining, loss of vernix and lanugo, and deep creases covering the whole sole. A thick coating of vernix over the entire body is a preterm sign - the postterm infant has lost most of its vernix.",
-   "strat": "Postterm = 'overdone' baby: dry peeling skin, long nails, meconium-stained, little vernix - the opposite of the cheesy preterm look."
+   "strat": "Postterm = 'overdone' baby: dry peeling skin, long nails, meconium-stained, little vernix - the opposite of the cheesy preterm look.",
+   "why": "As the postterm placenta ages, it can no longer adequately protect or nourish the fetus. This produces dry, peeling skin, long fingernails and abundant hair, meconium staining, sole creases covering the entire foot, and loss of vernix and lanugo. These are the classic signs of an 'overdue,' aged-placenta newborn.",
+   "whyNot": [
+    "A thick coating of vernix over the entire body is a preterm sign, since the postterm infant has lost most of its vernix."
+   ]
   },
   {
    "topic": "Postterm Infant",
@@ -2552,7 +3079,13 @@
    ],
    "ans": 0,
    "rat": "Placental insufficiency in the postterm infant causes hypoxia that can trigger in-utero meconium passage and gasping, so airway and respiratory status take priority by the ABCs - the infant is at high risk for meconium aspiration and may need suctioning and respiratory support. Skin, nail, hair, and measurement findings are real postterm features but are not airway-threatening and are assessed after breathing is secured.",
-   "strat": "Postterm + meconium + late decels = airway first; ABCs outrank the cosmetic 'overdue' findings."
+   "strat": "Postterm + meconium + late decels = airway first; ABCs outrank the cosmetic 'overdue' findings.",
+   "why": "Placental insufficiency in the postterm infant causes hypoxia that can trigger in-utero meconium passage and gasping. This newborn is at high risk for meconium aspiration and may need suctioning and respiratory support. By the ABCs, airway and respiratory status take priority over every other assessment finding.",
+   "whyNot": [
+    "Dry, peeling skin and hydration needs are real postterm findings but are not airway-threatening and can wait.",
+    "Comparing head and chest circumference is a routine measurement, not an immediate threat to breathing.",
+    "Nail and hair length confirm postterm status but carry no urgency compared with airway assessment."
+   ]
   },
   {
    "n": 1,
@@ -2569,7 +3102,13 @@
    ],
    "ans": 3,
    "rat": "In the newborn, sepsis often presents only as subtle, nonspecific changes — temperature instability, poor feeding, lethargy, and decreased activity — and a parent's report that the baby \"isn't acting right\" is a meaningful cue that should prompt the nurse to notify the provider. Dismissing the cluster as normal recovery, expected temperature swings, or parental anxiety risks missing early sepsis, which can deteriorate quickly.",
-   "strat": "In neonates, vague multisystem changes plus a parent's \"not acting right\" = think sepsis and escalate, don't normalize."
+   "strat": "In neonates, vague multisystem changes plus a parent's \"not acting right\" = think sepsis and escalate, don't normalize.",
+   "why": "In the newborn, sepsis often presents only as subtle, nonspecific changes such as temperature instability, poor feeding, and decreased activity or lethargy. A parent's report that the baby 'isn't acting right' is a meaningful clinical cue. The nurse should notify the provider promptly rather than waiting to see if it resolves.",
+   "whyNot": [
+    "Temperature instability plus poor feeding and lethargy is not routine newborn variation that will simply correct itself.",
+    "Dismissing the mother's report as first-time-parent anxiety risks missing a real, early warning sign of illness.",
+    "Poor feeding with lethargy on day two is not an expected part of normal newborn recovery from birth."
+   ]
   },
   {
    "n": 2,
@@ -2586,7 +3125,13 @@
    ],
    "ans": 1,
    "rat": "Early-onset sepsis appears within the first 3 days and is commonly caused by organisms acquired perinatally such as Group B Streptococcus and E. coli, fitting an 18-hour-old newborn of an untreated GBS-positive mother. Late-onset sepsis presents after the first week and is more often healthcare-associated; congenital viral and fungal causes do not match this timing and risk profile, and fungal sepsis is chiefly a concern in preterm infants.",
-   "strat": "Under 3 days + perinatal exposure (GBS/E. coli) = early onset; after a week = late onset."
+   "strat": "Under 3 days + perinatal exposure (GBS/E. coli) = early onset; after a week = late onset.",
+   "why": "Early-onset sepsis appears within the first 3 days of life. It is commonly caused by organisms acquired around birth, such as Group B Streptococcus and E. coli. This fits an 18-hour-old newborn whose mother was GBS-positive and received no intrapartum antibiotics. The timing and risk profile both point to early-onset disease.",
+   "whyNot": [
+    "A congenital viral infection crossing the placenta would not explain signs appearing only after birth.",
+    "Fungal bloodstream infection is chiefly a concern in preterm infants, not a term newborn like this one.",
+    "Late-onset sepsis presents after the first week of life and is more often healthcare-associated, not perinatal."
+   ]
   },
   {
    "n": 3,
@@ -2610,7 +3155,12 @@
     5
    ],
    "rat": "Neonatal sepsis affects multiple systems: respiratory signs (flaring, grunting, apnea), neurologic signs (lethargy, irritability, high-pitched cry), gastrointestinal signs (poor feeding, abdominal distention), and temperature instability with poor perfusion are all consistent. A strong coordinated suck with steady weight gain and pink, well-perfused skin with a vigorous cry are reassuring normal findings, not signs of sepsis.",
-   "strat": "Sepsis is multisystem — flag respiratory, neuro, GI, and temp cues; healthy feeding and color argue against it."
+   "strat": "Sepsis is multisystem — flag respiratory, neuro, GI, and temp cues; healthy feeding and color argue against it.",
+   "why": "Neonatal sepsis is a multisystem disease. Lethargy, irritability, and a high-pitched cry are neurologic signs of sepsis. Poor feeding with abdominal distention is a gastrointestinal sign, and nasal flaring, grunting, and apnea are respiratory signs. Temperature instability with cool, mottled skin reflects poor perfusion, another sepsis cue.",
+   "whyNot": [
+    "A strong, coordinated suck with steady weight gain is a reassuring, normal finding, not a sign of sepsis.",
+    "Pink, well-perfused skin with a vigorous cry shows good perfusion and tone, the opposite of sepsis."
+   ]
   },
   {
    "n": 4,
@@ -2627,7 +3177,13 @@
    ],
    "ans": 2,
    "rat": "If a torn vessel accompanies a skull fracture, intracranial pressure rises — a bulging fontanel, irritability, high-pitched cry, and decreasing level of consciousness are emergency signs that must be reported. Although an uncomplicated linear fracture often heals on its own, this newborn shows signs of intracranial hemorrhage, so delaying reassessment or simply soothing the cry is unsafe, and a bulging fontanel with these neurologic changes is never an expected finding.",
-   "strat": "Bulging fontanel + high-pitched cry + dropping LOC = rising ICP = report; \"heals on its own\" applies only to the uncomplicated linear fracture."
+   "strat": "Bulging fontanel + high-pitched cry + dropping LOC = rising ICP = report; \"heals on its own\" applies only to the uncomplicated linear fracture.",
+   "why": "If a torn vessel accompanies a skull fracture, intracranial pressure rises. A bulging fontanel, irritability, a high-pitched cry, and a decreasing level of consciousness are emergency signs of intracranial hemorrhage. These findings must be reported to the provider immediately rather than reassessed later.",
+   "whyNot": [
+    "An uncomplicated linear skull fracture often heals on its own, but this infant shows signs of active bleeding, so delaying reassessment is unsafe.",
+    "A bulging fontanel with these neurologic changes is never an expected finding after a forceps birth.",
+    "Simply soothing the cry with swaddling and dim lights ignores signs of a possible neurologic emergency."
+   ]
   },
   {
    "n": 5,
@@ -2644,7 +3200,13 @@
    ],
    "ans": 0,
    "rat": "A depressed, 'ping-pong ball' fracture is an indentation of the soft skull without laceration of the skin or dura, occurring from the pressure of the head against the bony pelvis or careless forceps use. A linear fracture is a crack rather than an indentation; caput succedaneum and cephalhematoma are soft-tissue and bleeding collections of the scalp, not indentations of the bone itself.",
-   "strat": "Indented but intact skin = depressed 'ping-pong' fracture; a crack with no indentation = linear."
+   "strat": "Indented but intact skin = depressed 'ping-pong' fracture; a crack with no indentation = linear.",
+   "why": "A depressed, 'ping-pong ball' fracture is an indentation of the soft newborn skull without any laceration of the skin or dura. It occurs from pressure of the head against the bony pelvis or careless forceps use during a difficult birth. The skin remains intact and there are no neurologic abnormalities.",
+   "whyNot": [
+    "A cephalhematoma is a collection of blood beneath the cranial periosteum that does not cross suture lines, not a skull indentation.",
+    "Caput succedaneum is soft-tissue scalp swelling that crosses suture lines and resolves within days, not a bony indentation.",
+    "A linear fracture is a crack in the skull rather than an indentation, and is the type most likely to tear an artery."
+   ]
   },
   {
    "n": 6,
@@ -2661,7 +3223,13 @@
    ],
    "ans": 3,
    "rat": "Birth asphyxia occurs when blood flow and oxygen to the brain are interrupted during or just after birth — signaled before delivery by an abnormal heart rate and acidic pH and at birth by abnormal color, low heart rate, abnormal tone and reflexes, a weak cry, and breathing problems — and this newborn's history and presentation fit. Transient tachypnea and respiratory distress syndrome present chiefly with isolated respiratory distress rather than depressed tone, color, and heart rate, and sepsis is not suggested by this acute intrapartum hypoxic picture.",
-   "strat": "Hypoxic intrapartum event + depressed color, tone, cry, and heart rate at birth = birth asphyxia."
+   "strat": "Hypoxic intrapartum event + depressed color, tone, cry, and heart rate at birth = birth asphyxia.",
+   "why": "Birth asphyxia occurs when blood flow and oxygen to the brain are interrupted during or just after birth. Before delivery it is signaled by an abnormal heart rate and acidic blood pH. At birth it shows as abnormal color, low heart rate, abnormal tone and reflexes, a weak cry, and breathing problems. This newborn's prolonged second stage, late decelerations, and nuchal cord fit that picture.",
+   "whyNot": [
+    "Early-onset sepsis from an ascending intrauterine infection does not explain this newborn's acute intrapartum hypoxic picture.",
+    "Respiratory distress syndrome comes from surfactant deficiency in immature lungs and presents mainly with breathing difficulty, not depressed color and tone.",
+    "Transient tachypnea involves retained fetal lung fluid and presents chiefly with isolated fast breathing, not a depressed heart rate."
+   ]
   },
   {
    "n": 7,
@@ -2678,7 +3246,13 @@
    ],
    "ans": 1,
    "rat": "Transient tachypnea of the newborn results from inadequate absorption of fetal lung fluid and is more common after cesarean birth, because the chest is not squeezed as it is during vaginal delivery; the mild distress typically resolves within 24 to 48 hours. Respiratory distress syndrome is driven by surfactant deficiency in preterm infants and worsens rather than resolves, meconium aspiration follows meconium-stained fluid, and pneumonia would be expected to show other signs of infection.",
-   "strat": "Cesarean birth + early mild tachypnea that resolves in a day or two = retained lung fluid (TTN)."
+   "strat": "Cesarean birth + early mild tachypnea that resolves in a day or two = retained lung fluid (TTN).",
+   "why": "Transient tachypnea of the newborn results from inadequate absorption of fetal lung fluid after birth. It is more common after cesarean birth because the chest is not squeezed the way it is during vaginal delivery. This newborn's mild distress with clear breath sounds typically resolves within 24 to 48 hours.",
+   "whyNot": [
+    "Respiratory distress syndrome is driven by surfactant deficiency in preterm infants and worsens over time rather than resolving.",
+    "Meconium aspiration follows meconium-stained fluid and would require prolonged ventilation, not this mild, clearing distress.",
+    "Pneumonia from an intrauterine infection would be expected to show other signs of infection besides tachypnea."
+   ]
   },
   {
    "n": 8,
@@ -2695,7 +3269,13 @@
    ],
    "ans": 1,
    "rat": "When a newborn is too tachypneic to feed safely by mouth, gavage feedings maintain nutrition while preventing aspiration and feeding fatigue. Continuing oral feeding at a rate over 80/min risks aspiration; TTN is self-limiting and does not require parenteral nutrition; and thickening feeds is not the indicated measure for tachypnea-related feeding intolerance in TTN.",
-   "strat": "Too tachypneic to feed safely (RR well over 60) = gavage; protect the airway before pushing oral feeds."
+   "strat": "Too tachypneic to feed safely (RR well over 60) = gavage; protect the airway before pushing oral feeds.",
+   "why": "When a newborn is too tachypneic to feed safely by mouth, gavage feedings maintain nutrition while preventing aspiration and feeding-related fatigue. This infant's respiratory rate of 82/min with poor suck-breathe coordination is unsafe for oral feeding attempts. TTN is self-limiting, so gavage is a temporary bridge until breathing settles.",
+   "whyNot": [
+    "Thickening oral feeds with cereal is not the indicated measure for tachypnea-related feeding intolerance in TTN.",
+    "Continuing oral feeding at a respiratory rate this high risks aspiration even with frequent rest breaks.",
+    "TTN does not require withholding all feedings or starting total parenteral nutrition, since it typically resolves quickly."
+   ]
   },
   {
    "n": 9,
@@ -2712,7 +3292,13 @@
    ],
    "ans": 3,
    "rat": "Respiratory distress syndrome results from lung immaturity and a lack of surfactant, which is why prematurity is the greatest risk factor and why this 30-week newborn shows progressive distress. Retained lung fluid causes transient tachypnea, meconium aspiration follows meconium-stained fluid, and infection would point toward sepsis or pneumonia — none of which is the underlying mechanism of RDS.",
-   "strat": "Preterm + worsening distress = surfactant deficiency (RDS); prematurity is the biggest risk factor."
+   "strat": "Preterm + worsening distress = surfactant deficiency (RDS); prematurity is the biggest risk factor.",
+   "why": "Respiratory distress syndrome results from lung immaturity and a lack of surfactant needed to keep the alveoli open. Prematurity is the greatest risk factor, which is why this 30-week newborn shows progressive tachypnea, flaring, retractions, grunting, and rising oxygen needs within hours. The distress worsens as surfactant reserves are used up.",
+   "whyNot": [
+    "Meconium aspiration follows meconium-stained fluid at birth, which is not part of this preterm infant's history.",
+    "Bacterial colonization from an intrauterine infection would point toward sepsis or pneumonia, not toward surfactant deficiency.",
+    "Retained fetal lung fluid causes transient tachypnea, a milder condition than the progressive distress described here."
+   ]
   },
   {
    "n": 10,
@@ -2734,7 +3320,12 @@
     2
    ],
    "rat": "Antenatal corticosteroids given to the pregnant client accelerate fetal lung maturity and surfactant production, exogenous surfactant is administered after birth, and PEEP ventilation supports oxygenation — all support or treat RDS. Antibiotics are not the treatment, because RDS is caused by surfactant deficiency rather than infection, and withholding corticosteroids is wrong because antenatal steroids are specifically indicated to reduce RDS in anticipated preterm birth.",
-   "strat": "Before birth: steroids to the mother for lung maturity; after birth: surfactant + PEEP. RDS is a surfactant problem, not an infection."
+   "strat": "Before birth: steroids to the mother for lung maturity; after birth: surfactant + PEEP. RDS is a surfactant problem, not an infection.",
+   "why": "Antenatal corticosteroids given to the pregnant client accelerate fetal lung maturity and surfactant production before birth. After birth, exogenous surfactant is administered and positive end-expiratory pressure ventilation supports oxygenation. Together these interventions prevent and treat respiratory distress syndrome in the newborn.",
+   "whyNot": [
+    "Antibiotics are not the treatment for RDS, because surfactant deficiency, not infection, causes the condition.",
+    "Withholding corticosteroids is wrong because antenatal steroids are specifically indicated to reduce RDS in anticipated preterm birth."
+   ]
   },
   {
    "n": 11,
@@ -2751,7 +3342,13 @@
    ],
    "ans": 2,
    "rat": "Meconium most often passes in utero because fetal hypoxia increases peristalsis and relaxes the anal sphincter; with hypoxia and thick meconium, the team should notify the provider, arrange added help, and ensure oxygen and suction equipment are ready for delivery in case the newborn aspirates. Treating the finding as a sign of maturity or relying on amnioinfusion to remove the need for preparation underestimates the risk, and briskly stimulating a meconium-exposed newborn to cry could draw meconium deeper into the airway.",
-   "strat": "Meconium = fetal hypoxia relaxed the sphincter; the intrapartum priority is having suction and oxygen ready."
+   "strat": "Meconium = fetal hypoxia relaxed the sphincter; the intrapartum priority is having suction and oxygen ready.",
+   "why": "Meconium most often passes in utero because fetal hypoxia increases peristalsis and relaxes the fetal anal sphincter. With hypoxia and thick meconium-stained fluid, the nurse should notify the provider, arrange additional help, and ensure oxygen and suction equipment are ready before delivery. This anticipates possible meconium aspiration at birth.",
+   "whyNot": [
+    "Amnioinfusion may thin thick meconium but does not remove the need for extra personnel at delivery.",
+    "Meconium passage is not a sign of fetal maturity and underestimates the real risk to the newborn's airway.",
+    "Briskly stimulating a meconium-exposed newborn to cry could draw meconium deeper into the airway instead of clearing it."
+   ]
   },
   {
    "n": 12,
@@ -2773,7 +3370,12 @@
     3
    ],
    "rat": "Necrotizing enterocolitis affects preterm infants, typically between days 3 and 12, and presents with abdominal distention, feeding intolerance, and bloody stools; management includes stopping oral feedings (NPO), giving IV fluids and parenteral nutrition, and antibiotics. Increasing oral formula or advancing enteral feedings is contraindicated, because resting the gut is essential while the bowel is inflamed.",
-   "strat": "Preterm + distention + bloody stool around days 3–12 = NEC: rest the gut (NPO), feed the vein (TPN), and treat with antibiotics — never push feeds."
+   "strat": "Preterm + distention + bloody stool around days 3–12 = NEC: rest the gut (NPO), feed the vein (TPN), and treat with antibiotics — never push feeds.",
+   "why": "Necrotizing enterocolitis affects preterm infants, typically between days 3 and 12 of life, and presents with abdominal distention, feeding intolerance, and bloody stools. Management includes stopping oral feedings to rest the bowel, giving IV fluids and parenteral nutrition, and administering antibiotics. Resting the gut is essential while the bowel wall is inflamed.",
+   "whyNot": [
+    "Advancing feedings on the usual schedule is contraindicated because resting the gut is essential during active NEC.",
+    "Switching to a high-volume oral formula schedule pushes feedings past intolerance instead of protecting the inflamed bowel."
+   ]
   },
   {
    "n": 13,
@@ -2813,7 +3415,8 @@
     }
    ],
    "rat": "Toxoplasmosis prevention includes avoiding cat litter, cooking meat thoroughly, washing produce and hands (especially after handling raw meat or gardening), and covering outdoor sandboxes so cats cannot contaminate them — all correct. Eating rare or undercooked meat and drinking untreated water or unpasteurized milk are routes of transmission and need correction.",
-   "strat": "Toxoplasmosis: avoid the litter box, cook meat through, wash produce/hands, skip raw meat and unpasteurized/untreated drinks."
+   "strat": "Toxoplasmosis: avoid the litter box, cook meat through, wash produce/hands, skip raw meat and unpasteurized/untreated drinks.",
+   "why": "Toxoplasmosis prevention includes avoiding cat litter box duties, cooking meat thoroughly, and washing hands and produce, especially after handling raw meat or gardening. Covering outdoor sandboxes keeps stray cats from contaminating them, which is also correct practice. Eating rare or undercooked meat and drinking untreated water or unpasteurized milk are actual transmission routes and need correction."
   },
   {
    "n": 1,
@@ -2830,7 +3433,13 @@
    ],
    "ans": 0,
    "rat": "A prior child with a neural tube defect places her in the high-risk group, who need 4,000 mcg (4 mg) daily started before conception, not the 400-800 mcg used for general prevention. Folate must be on board before the neural tube closes (~28 days), so waiting until pregnancy is confirmed or the second trimester is too late; 500 mcg is the breastfeeding target, not preconception prevention.",
-   "strat": "Prior NTD or family history bumps folic acid from micrograms to 4 mg - and the clock starts before conception."
+   "strat": "Prior NTD or family history bumps folic acid from micrograms to 4 mg - and the clock starts before conception.",
+   "why": "A prior child with a neural tube defect places this client in the high-risk group. High-risk women need 4,000 mcg (4 mg) of folic acid daily, not the 400-800 mcg used for general prevention. Folate must be on board before the neural tube closes around 28 days of gestation. Supplementation should therefore start before conception, not after a pregnancy test is positive.",
+   "whyNot": [
+    "500 mcg daily is the target for breastfeeding, not for preconception neural tube defect prevention.",
+    "Waiting until the second trimester is far too late, since the neural tube closes in the first month.",
+    "Waiting until the pregnancy test is positive also misses the closure window and uses the wrong general-prevention dose."
+   ]
   },
   {
    "n": 2,
@@ -2853,7 +3462,13 @@
     5
    ],
    "rat": "Upright positioning keeps milk from entering the nasal passages through the open palate, lowering aspiration risk; compressible bottles and special/enlarged-hole nipples deliver milk the infant cannot generate suction for; and frequent burping clears the excess air these infants swallow. Lying flat increases aspiration. Routine thickening is not part of cleft feeding teaching, and cutting feeds to a fixed five minutes risks underfeeding - feed slowly with stops instead.",
-   "strat": "Cleft feeding = up, easy-flow nipple, burp often; flat + suck-dependent nipple are the traps."
+   "strat": "Cleft feeding = up, easy-flow nipple, burp often; flat + suck-dependent nipple are the traps.",
+   "why": "Upright positioning keeps milk from entering the nasal passages through the open palate, lowering aspiration risk. Compressible bottles and special, longer nipples deliver milk the infant cannot generate suction for on their own. Frequent burping clears the excess air these infants tend to swallow during feeding.",
+   "whyNot": [
+    "Thickening every feeding with rice cereal is not standard cleft-feeding teaching and is not routinely recommended.",
+    "Limiting every session to five minutes risks underfeeding, since the goal is feeding slowly with frequent stops instead.",
+    "Lying the infant flat and supine increases the tendency for milk to enter the nasal passages and airway."
+   ]
   },
   {
    "n": 3,
@@ -2870,7 +3485,13 @@
    ],
    "ans": 2,
    "rat": "Choking, gagging, and cyanosis with the first feeding signal that milk is reaching the airway - an airway emergency. The priority by ABCs is to stop the feeding, clear the airway by suctioning, and notify the provider. Continuing or merely slowing the feed, changing the nipple, or pursuing a glucose check all delay airway protection and let aspiration continue.",
-   "strat": "Cyanosis with the first feed = airway, not feeding technique: stop, suction, call."
+   "strat": "Cyanosis with the first feed = airway, not feeding technique: stop, suction, call.",
+   "why": "Choking, gagging, and cyanosis with the first feeding signal that milk is reaching the airway, an airway emergency in a suspected tracheoesophageal fistula. By the ABCs, the priority is to stop the feeding, suction the airway, and notify the provider immediately. Protecting the airway comes before any other action.",
+   "whyNot": [
+    "Checking blood glucose and rechecking in 30 minutes delays airway protection and lets aspiration continue.",
+    "Switching to a wide compressible nipple only changes feeding technique and does not address the airway emergency.",
+    "Repositioning and continuing the feeding more slowly still lets milk keep entering the airway during aspiration."
+   ]
   },
   {
    "n": 4,
@@ -2887,7 +3508,13 @@
    ],
    "ans": 3,
    "rat": "Newborns are obligate nose breathers in the first month, so a blocked nasal passage causes cyanosis at rest and relief with crying, when air enters through the open mouth - the classic choanal atresia pattern. Esophageal atresia presents with choking on feeding, a cleft palate does not produce cyanosis that resolves with crying, and an umbilical hernia is an abdominal-wall finding with no respiratory component.",
-   "strat": "Pink when crying, blue when quiet = the nose is the problem (obligate nose breather)."
+   "strat": "Pink when crying, blue when quiet = the nose is the problem (obligate nose breather).",
+   "why": "Newborns are obligate nose breathers for the first month of life, so a blocked nasal passage causes cyanosis at rest. Crying relieves the cyanosis because air then enters through the open mouth instead of the nose. This pink-when-crying, blue-when-quiet pattern is the classic sign of choanal atresia.",
+   "whyNot": [
+    "Esophageal atresia typically presents with choking during feeding, not cyanosis that resolves specifically with crying.",
+    "A cleft palate affects feeding and speech but does not produce cyanosis that clears with crying.",
+    "An umbilical hernia is an abdominal-wall finding involving the intestines, with no respiratory component at all."
+   ]
   },
   {
    "n": 5,
@@ -2915,7 +3542,8 @@
     }
    ],
    "rat": "Myelomeningocele's sac contains the meninges, nerve roots, and the spinal cord, so paralysis (and often hydrocephalus) is expected. A meningocele sac holds only meninges and spinal fluid - the cord is spared, so paralysis usually does not occur. Spina bifida occulta is a failure of the vertebral arch to close with no protrusion, marked only by a dimple or hair tuft, and is usually without deficit.",
-   "strat": "If 'myelo' (cord) is in the name, the cord is in the sac - expect paralysis."
+   "strat": "If 'myelo' (cord) is in the name, the cord is in the sac - expect paralysis.",
+   "why": "Myelomeningocele's sac contains the meninges, nerve roots, and the spinal cord itself, so paralysis and often hydrocephalus are expected. A meningocele sac holds only meninges and spinal fluid, sparing the cord, so paralysis usually does not occur. Spina bifida occulta is simply a failure of the vertebral arch to close, marked only by a dimple or hair tuft, usually without deficit."
   },
   {
    "n": 6,
@@ -2932,7 +3560,13 @@
    ],
    "ans": 1,
    "rat": "The intact sac must be protected from rupture and drying: a prone position keeps weight off it, and a sterile moist (saline) covering prevents the membrane from drying and cracking, which would expose the cord to infection. Lying supine puts pressure on the sac, leaving it open to air dries and damages it, and pressure from a snug diaper or seat can rupture it.",
-   "strat": "Protect the sac: prone, sterile, moist - never pressure, never dry."
+   "strat": "Protect the sac: prone, sterile, moist - never pressure, never dry.",
+   "why": "An intact myelomeningocele sac must be protected from rupture and drying before surgical repair. A prone position keeps weight off the sac, and a sterile, moist saline covering prevents the membrane from drying and cracking. Drying or cracking would expose the spinal cord to infection.",
+   "whyNot": [
+    "Firm pressure from a snug diaper risks rupturing the fragile sac rather than protecting it.",
+    "An upright infant seat does not relieve pressure on the sac and offers no protection from drying.",
+    "Lying supine puts direct pressure on the sac, and leaving it open to air dries and damages it."
+   ]
   },
   {
    "n": 7,
@@ -2949,7 +3583,13 @@
    ],
    "ans": 0,
    "rat": "Advanced maternal age is the factor specifically linked to chromosomal abnormalities such as trisomy 21 (Down syndrome). Low folic acid raises the risk of neural tube defects, rubella is associated with structural defects, and alcohol is a teratogen causing fetal alcohol effects - all real risks, but none are the chromosomal driver the question asks about.",
-   "strat": "Match the cause to the category: age -> chromosomes, folate -> neural tube, infection/alcohol -> structural."
+   "strat": "Match the cause to the category: age -> chromosomes, folate -> neural tube, infection/alcohol -> structural.",
+   "why": "Advanced maternal age is the risk factor specifically linked to chromosomal abnormalities such as trisomy 21, or Down syndrome. At 42 years old, this client's age is the strongest chromosomal risk factor in her history. The other listed exposures raise different categories of anomaly risk, not the chromosomal one asked about.",
+   "whyNot": [
+    "Low folic acid intake mainly raises the risk of neural tube defects, not chromosomal abnormalities.",
+    "Rubella infection during pregnancy is associated with structural defects, not with chromosomal disorders like Down syndrome.",
+    "Alcohol exposure is a teratogen causing fetal alcohol effects, a structural and developmental risk, not a chromosomal one."
+   ]
   },
   {
    "n": 8,
@@ -2966,7 +3606,13 @@
    ],
    "ans": 3,
    "rat": "Parents must mourn the idealized infant they envisioned before they can attach to their actual newborn; naming that grief and inviting the mother to express her feelings uses therapeutic communication and supports bonding. Minimizing the anomaly, offering blanket reassurance, and withdrawing all cut off the very expression of feelings the parents need, and leaving her alone works against the goal of keeping the nurse present to support attachment.",
-   "strat": "When a parent voices the lost imagined baby, name the grief and stay - don't reassure it away or leave."
+   "strat": "When a parent voices the lost imagined baby, name the grief and stay - don't reassure it away or leave.",
+   "why": "Parents must mourn the idealized infant they had envisioned before they can fully attach to their actual newborn. Naming that grief and inviting the mother to express her feelings uses therapeutic communication and supports this attachment process. Staying present with her, rather than leaving, keeps the nurse available to support her.",
+   "whyNot": [
+    "Offering blanket reassurance that most families adjust well minimizes her feelings instead of acknowledging them.",
+    "Telling her not to dwell on the baby's appearance shuts down expression before surgery can even happen.",
+    "Leaving her alone works against the goal of keeping the nurse present to support attachment."
+   ]
   },
   {
    "n": 9,
@@ -2990,7 +3636,12 @@
     4
    ],
    "rat": "Preconception folic acid, confirmed rubella immunity, avoiding teratogens such as alcohol and tobacco, and checking infection risk before travel are all evidence-based prevention measures. The two false statements address umbilical hernia, which has a soft abdomen, usually resolves as the child grows without urgent surgery, and is not treated by taping coins or objects over it.",
-   "strat": "Prevention is preconception folate, immunity, and avoiding teratogens; the umbilical-hernia 'fixes' are the distractors."
+   "strat": "Prevention is preconception folate, immunity, and avoiding teratogens; the umbilical-hernia 'fixes' are the distractors.",
+   "why": "Preconception folic acid supplementation, confirmed rubella immunity, avoiding teratogens such as alcohol and tobacco, and checking infection risk before travel are all evidence-based prevention measures. These points address genetic, infectious, and environmental contributors to congenital anomalies. Together they represent accurate preconception and prenatal counseling.",
+   "whyNot": [
+    "Taping a coin over an umbilical hernia does not speed its closure and is a myth, not treatment.",
+    "An umbilical hernia found at birth usually resolves as the child grows and rarely needs urgent surgery."
+   ]
   },
   {
    "n": 1,
@@ -3007,7 +3658,13 @@
    ],
    "ans": 2,
    "rat": "A boggy, displaced fundus with a saturated pad signals uterine atony and active hemorrhage (circulation) - an unstable client who outranks the others by ABCs and unstable-over-stable. Afterpains and a first ambulation are expected and stable; the newborn's jaundice is a real concern but not an immediate threat to airway, breathing, or circulation, so it follows the hemorrhaging mother.",
-   "strat": "Boggy + displaced + saturated pad = hemorrhage; circulation instability is assessed first."
+   "strat": "Boggy + displaced + saturated pad = hemorrhage; circulation instability is assessed first.",
+   "why": "A boggy, displaced fundus with a saturated peri pad signals uterine atony and active postpartum hemorrhage. This is a circulation problem, and by the ABCs and unstable-over-stable prioritization, this client outranks the other three. She must be assessed and intervened upon first.",
+   "whyNot": [
+    "The newborn's jaundice with a pending bilirubin is a real concern but not an immediate airway, breathing, or circulation threat.",
+    "A first postoperative ambulation request is an expected, stable activity that can wait behind the hemorrhaging client.",
+    "Afterpains that worsen with breastfeeding are an expected, stable finding, not a sign of instability."
+   ]
   },
   {
    "n": 2,
@@ -3030,7 +3687,13 @@
     3
    ],
    "rat": "Vital signs on a stable client, sitz-bath/hygiene assistance, and assisted ambulation with intake-output recording are routine, predictable tasks within UAP scope. The first fundal assessment is an initial nursing assessment, and teaching the signs of hemorrhage is client education - both require the RN's judgment and cannot be delegated. 'Reinforcing previously taught technique' sounds delegable but is still teaching that the RN must own.",
-   "strat": "Delegate the stable and routine; assessment and teaching stay with the RN."
+   "strat": "Delegate the stable and routine; assessment and teaching stay with the RN.",
+   "why": "Measuring vital signs, assisting with a sitz bath, and helping a stable client ambulate with intake and output recording are routine UAP tasks. The first fundal assessment on a newly transferred client is an initial nursing assessment requiring RN judgment. Teaching hemorrhage warning signs is client education that also stays with the RN.",
+   "whyNot": [
+    "Reinforcing previously taught peri-care technique sounds delegable but is still teaching, which the RN must own.",
+    "Teaching a new mother the signs of hemorrhage to report at home is client education requiring RN judgment.",
+    "The first fundal assessment right after a client transfers from recovery is an initial assessment, not a delegable task."
+   ]
   },
   {
    "n": 3,
@@ -3047,7 +3710,13 @@
    ],
    "ans": 0,
    "rat": "Housing instability and post-discharge support are psychosocial and resource needs that fall squarely within social work's role; a substance-use disorder also warrants social-work coordination. Lactation, chaplaincy, and PT are legitimate services but none addresses the housing and discharge-management concern the mother actually raised.",
-   "strat": "Match the referral to the concern the client voiced, not to the diagnosis."
+   "strat": "Match the referral to the concern the client voiced, not to the diagnosis.",
+   "why": "Housing instability and how she will manage after discharge are psychosocial and resource needs that fall squarely within social work's role. A mother in a methadone treatment program with an infant in the NICU also benefits from social-work coordination of community resources. This referral directly addresses the concern she voiced.",
+   "whyNot": [
+    "The hospital chaplain offers legitimate spiritual support but does not address her housing and discharge concerns.",
+    "Physical therapy targets the infant's developmental positioning and tone, not the mother's stated housing situation.",
+    "A lactation consultant supports feeding and pumping plans, but not housing or post-discharge management needs."
+   ]
   },
   {
    "n": 4,
@@ -3064,7 +3733,13 @@
    ],
    "ans": 1,
    "rat": "Parents have the right to make informed decisions for their newborn; the nurse's role is to ensure they understand the purpose and risks of declining, involve the provider, and record the informed refusal - respecting autonomy while advocating. Administering it over their objection violates consent, withholding discharge is coercive, and passing the parents to another nurse avoids the nurse's own advocacy and teaching duty.",
-   "strat": "Informed refusal = teach, involve the provider, document - never coerce or override."
+   "strat": "Informed refusal = teach, involve the provider, document - never coerce or override.",
+   "why": "Parents have the right to make informed decisions for their newborn, including declining a recommended vitamin K injection given to prevent vitamin K deficiency bleeding. The nurse's role is to ensure they understand the purpose and risks of declining, involve the provider, and document the informed refusal. This respects parental autonomy while still advocating for the newborn.",
+   "whyNot": [
+    "Having a different nurse simply repeat the request assumes the parents didn't understand, rather than respecting their decision.",
+    "Telling parents the newborn cannot be discharged until vitamin K is given is coercive, not informed consent.",
+    "Giving the injection over the parents' objection violates their right to refuse care for their child."
+   ]
   },
   {
    "n": 5,
@@ -3086,7 +3761,12 @@
     3
    ],
    "rat": "Recommendation states what the oncoming nurse should do next: keep up frequent fundal/lochia checks, maintain IV access and recheck labs, and specify the parameters that should trigger a provider call. The client's age and delivery type are Background, and the blood loss with oxytocin given is the Situation/Assessment - not recommendations.",
-   "strat": "Recommendation = the next actions and the 'call me if' triggers, not the backstory."
+   "strat": "Recommendation = the next actions and the 'call me if' triggers, not the backstory.",
+   "why": "The Recommendation portion of SBAR states what the oncoming nurse should do next. It includes keeping up frequent fundal and lochia checks, and maintaining IV access with lab rechecks. It also names the specific parameters that should trigger a call to the provider. These are forward-looking action items, not background facts.",
+   "whyNot": [
+    "The estimated blood loss and oxytocin administration belong in the Situation or Assessment portion, not Recommendation.",
+    "The client's age and vaginal delivery three hours ago are Background information, not a recommendation."
+   ]
   },
   {
    "n": 6,
@@ -3103,7 +3783,13 @@
    ],
    "ans": 1,
    "rat": "Acknowledging the feeling and inviting the client to say more keeps the door open, conveys acceptance, and gathers the detail needed to assess risk - the therapeutic response to an intrusive-thought disclosure. Minimizing ('it will pass'), implying she shouldn't feel that way (a value judgment that shuts her down), and immediately redirecting to the partner are all blocking, nontherapeutic moves that cut off her disclosure.",
-   "strat": "When a client discloses a frightening thought, acknowledge it and invite more - don't reassure or redirect."
+   "strat": "When a client discloses a frightening thought, acknowledge it and invite more - don't reassure or redirect.",
+   "why": "Acknowledging the feeling and inviting the client to say more keeps the door open and conveys acceptance rather than judgment. It also gathers the detail the nurse needs to assess her risk after this intrusive-thought disclosure. This is the therapeutic response to a frightening admission like this one.",
+   "whyNot": [
+    "Telling her she shouldn't feel that way is a value judgment that shuts down her disclosure.",
+    "Immediately redirecting her to tell her partner or family is a blocking move that cuts off the conversation.",
+    "Saying this usually passes minimizes her fear instead of exploring what she is actually experiencing."
+   ]
   },
   {
    "n": 7,
@@ -3120,7 +3806,13 @@
    ],
    "ans": 0,
    "rat": "Hearing the baby 'speak' is an auditory hallucination suggesting postpartum psychosis - a psychiatric emergency with high risk of harm to mother and infant that demands the most urgent response and immediate safety planning. The tearful-but-bonded mother describes baby blues; persistent sadness, guilt, and anhedonia at 3 weeks indicate postpartum depression needing follow-up but not emergent intervention; feeling overwhelmed and seeking help is an expected, healthy coping request.",
-   "strat": "Hallucinations or thoughts of harm = psychosis = emergency; depression is serious but not immediately emergent."
+   "strat": "Hallucinations or thoughts of harm = psychosis = emergency; depression is serious but not immediately emergent.",
+   "why": "Hearing the baby 'speak' is an auditory hallucination suggesting postpartum psychosis, a psychiatric emergency with a high risk of harm to both mother and infant. This client demands the most urgent response and immediate safety planning of the four calls. The other reports describe expected or less acutely dangerous presentations.",
+   "whyNot": [
+    "Feeling overwhelmed by night feedings and asking for help is an expected, healthy coping request, not an emergency.",
+    "Persistent sadness, guilt, and loss of interest at three weeks suggest postpartum depression needing follow-up, not emergent care.",
+    "Tearfulness alongside enjoying and bonding with the baby describes the expected, self-limited baby blues pattern."
+   ]
   },
   {
    "n": 8,
@@ -3137,7 +3829,13 @@
    ],
    "ans": 3,
    "rat": "Therapeutic presence plus an unhurried invitation to hold and name the infant supports attachment and lets the mother grieve the 'imagined' baby while bonding with her real one - the evidence-based approach to a congenital anomaly. Hiding the baby reinforces avoidance and shame, promising a flawless surgical outcome dismisses her present grief, and leaving her alone withdraws the support she needs at this moment.",
-   "strat": "Bonding after an anomaly: stay present and invite holding/naming - don't hide the baby or leave."
+   "strat": "Bonding after an anomaly: stay present and invite holding/naming - don't hide the baby or leave.",
+   "why": "Therapeutic presence combined with an unhurried invitation to hold and name the infant supports attachment. It also lets the mother begin grieving the 'imagined' baby while bonding with the real one she has. This is the evidence-based nursing approach to a newborn's congenital anomaly.",
+   "whyNot": [
+    "Wrapping the infant to hide the anomaly reinforces avoidance and shame rather than supporting the mother.",
+    "Stepping out and leaving her alone withdraws the support she needs most in this moment.",
+    "Promising that surgery will make the baby look just like other infants dismisses her present grief."
+   ]
   },
   {
    "n": 9,
@@ -3160,7 +3858,11 @@
     4
    ],
    "rat": "Affirming her treatment choice, using person-first language, involving her in kangaroo care and feedings, and checking one's own biases all reduce stigma and strengthen the nurse-mother bond, which in turn improves her ability to read and respond to infant cues. Reminding her the withdrawal was preventable is shaming and judgmental - it damages trust and is the option to reject.",
-   "strat": "Build trust by affirming and involving the parent; any shaming statement is the wrong answer."
+   "strat": "Build trust by affirming and involving the parent; any shaming statement is the wrong answer.",
+   "why": "Affirming that she chose treatment and is participating in her infant's care builds trust and reduces stigma. Using nonjudgmental, person-first language and checking one's own biases before interacting with her support the same goal. Encouraging kangaroo care and presence at feedings involves her directly and strengthens the mother-infant bond.",
+   "whyNot": [
+    "Reminding her the withdrawal was preventable is shaming and judgmental, and damages the trust the nurse is trying to build."
+   ]
   },
   {
    "n": 10,
@@ -3177,7 +3879,13 @@
    ],
    "ans": 2,
    "rat": "Focusing on her own needs, reliving the birth, and deferring decisions are hallmarks of Rubin's taking-in phase; the nurse supports it by letting her process the experience and meeting her physical needs before pushing teaching. Taking-hold (readiness to learn care) and letting-go (role reorganization) come later, and this expected day-1 behavior is not impaired attachment - labeling it so and reporting it pathologizes a normal adaptation stage.",
-   "strat": "Day 1 self-focus and birth retelling = taking-in; meet her needs first, teach in taking-hold."
+   "strat": "Day 1 self-focus and birth retelling = taking-in; meet her needs first, teach in taking-hold.",
+   "why": "Focusing on her own needs, reliving the birth story, and deferring decisions to others are hallmarks of Rubin's taking-in phase. The nurse supports this phase by letting her process the birth experience and meeting her comfort and rest needs first. Detailed newborn-care teaching should wait until she moves into taking-hold.",
+   "whyNot": [
+    "Labeling this expected day-one behavior as impaired attachment pathologizes a normal adaptation stage, not a real problem.",
+    "The letting-go phase, involving role reorganization as a couple, comes later in the postpartum adjustment.",
+    "The taking-hold phase, when she is ready to learn infant care, also comes after taking-in."
+   ]
   }
  ]
 }
