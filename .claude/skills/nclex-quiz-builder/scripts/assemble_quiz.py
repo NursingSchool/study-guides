@@ -77,6 +77,35 @@ def _idx_ok(v, n):
 OPTION_LETTER_RE = re.compile(r"\((?:[A-D](?:\s*(?:,|and|&)\s*[A-D])*)\)|\boption [A-D]\b|\bchoice [A-D]\b")
 
 
+_QTY = re.compile(r"^\s*(?:level|stage|grade|step|phase|type|class)?\s*(\d+(?:\.\d+)?)", re.I)
+
+
+def _check_natural_order(qn, where, opts):
+    """Quantity series must be listed in ascending order.
+
+    NBME's Item-Writing Guide, under "Flaws Related to Irrelevant Difficulty":
+    numeric options should be listed in numeric order; an illogical order causes
+    confusion. Applies only when the option IS a quantity ("6 months", "Level 2"),
+    not when a vignette merely contains a number.
+    """
+    if not isinstance(opts, list) or len(opts) < 3:
+        return
+    vals = []
+    for o in opts:
+        s = str(o or "").strip()
+        if len(s) > 28 or len(s.split()) > 4:
+            return
+        m = _QTY.match(s)
+        if not m:
+            return
+        vals.append(float(m.group(1)))
+    if len(set(vals)) != len(vals):
+        return
+    if vals != sorted(vals):
+        warn(qn, f"{where}: numeric/ranked options are out of order {vals} - NBME lists this "
+                 "under irrelevant-difficulty flaws. Sort ascending (balance_answers.py does this).")
+
+
 def _check_letter_refs(qn, q):
     """Rationales must never cite an option by letter.
 
@@ -151,6 +180,11 @@ def validate_item(q):
     if q.get("lvl") not in VALID_LVLS:
         warn(qn, f'lvl "{q.get("lvl")}" not in {sorted(VALID_LVLS)} (items should be Application+)')
     _check_letter_refs(qn, q)
+    if isinstance(q.get("opts"), list):
+        _check_natural_order(qn, "opts", q["opts"])
+    for bi, b in enumerate(q.get("blanks") or []):
+        if isinstance(b, dict):
+            _check_natural_order(qn, f"cloze blank {bi}", b.get("opts"))
 
     if t in ("radio", "multi"):
         opts = q.get("opts", [])

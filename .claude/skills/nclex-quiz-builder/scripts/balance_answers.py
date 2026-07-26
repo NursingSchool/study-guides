@@ -27,6 +27,7 @@ import argparse
 import hashlib
 import json
 import random
+import re
 import sys
 from collections import defaultdict
 
@@ -49,6 +50,51 @@ def keyed_text(q):
     except (KeyError, IndexError, TypeError):
         return None
     return []
+
+
+_LEAD_NUM = re.compile(r"^\s*(?:level|stage|grade|step|phase|type|class)?\s*(\d+(?:\.\d+)?)", re.I)
+
+
+def natural_order(opts):
+    """Return the sorted order if these options are an intrinsic quantity series.
+
+    NBME's Item-Writing Guide lists out-of-order numeric options under "Flaws
+    Related to Irrelevant Difficulty" -- shuffling "4 months / 6 months / 9 months"
+    into "6 / 4 / 9" is a defect, not added unpredictability. Same for ranked
+    labels (Level 1-4, Stage I-IV).
+
+    The distinction that matters: an option that IS a quantity must stay ordered;
+    a clinical vignette that merely CONTAINS a number ("The 6-month-old with RSV
+    whose breathing has become labored...") is prose and shuffles freely. Ordering
+    vignettes by an incidental age would itself become a cue.
+    """
+    if len(opts) < 3:
+        return None
+    vals = []
+    for o in opts:
+        s = (o or "").strip()
+        if len(s) > 28 or len(s.split()) > 4:   # prose, not a bare quantity
+            return None
+        m = _LEAD_NUM.match(s)
+        if not m:
+            return None
+        vals.append(float(m.group(1)))
+    if len(set(vals)) != len(vals):
+        return None
+    return sorted(range(len(opts)), key=lambda i: vals[i])
+
+
+def _apply_natural(obj, field, key="ans"):
+    """Sort an intrinsic quantity series into ascending order and remap its key."""
+    opts = obj[field]
+    order = natural_order(opts)
+    if not order or order == list(range(len(opts))):
+        return False
+    remap = {old: new for new, old in enumerate(order)}
+    obj[field] = [opts[i] for i in order]
+    a = obj.get(key)
+    obj[key] = sorted(remap[i] for i in a) if isinstance(a, list) else remap[a]
+    return True
 
 
 def _permute(rng, opts):
@@ -111,6 +157,8 @@ def shuffle_non_radio(q, rng):
     """multi / cloze / bowtie: no single 'position', so plain randomization."""
     t = q.get("type")
     if t == "multi" and len(q.get("opts", [])) >= 2:
+        if natural_order(q["opts"]):
+            return _apply_natural(q, "opts")
         q["opts"], m = _permute(rng, q["opts"])
         q["ans"] = sorted(m[i] for i in q["ans"])
         return True
@@ -118,6 +166,9 @@ def shuffle_non_radio(q, rng):
         did = False
         for b in q.get("blanks", []):
             if len(b.get("opts", [])) >= 2:
+                if natural_order(b["opts"]):
+                    did |= _apply_natural(b, "opts", key="a")
+                    continue
                 b["opts"], m = _permute(rng, b["opts"])
                 b["a"] = m[b["a"]]
                 did = True
@@ -162,6 +213,19 @@ def balance(path, seed=None, quiet=False):
     for q in qs:
         if q.get("type") == "radio" and isinstance(q.get("ans"), int) and len(q.get("opts", [])) >= 2:
             groups[len(q["opts"])].append(q)
+    # Quantity series (4/6/9 months, Level 1-4) must stay in natural order --
+    # NBME names out-of-order numeric options as an irrelevant-difficulty flaw.
+    # Pull them out of position balancing entirely.
+    for k in list(groups):
+        keep = []
+        for q in groups[k]:
+            if natural_order(q["opts"]):
+                if _apply_natural(q, "opts"):
+                    touched += 1
+            else:
+                keep.append(q)
+        groups[k] = keep
+
     for k, items in groups.items():
         # Balanced counts alone still let runs form -- a uniform 25/25/25/25 quiz
         # had four consecutive A's, which is what a student actually notices.

@@ -29,12 +29,12 @@
    "lvl": "Application",
    "stem": "A staff nurse joins a research team studying whether hourly rounding lowers call-light use on a medical unit. At today's meeting the team is working out how participants will be recruited, how they will be assigned to the two groups, and how many participants are needed.\nWhich phase is the team in, and what comes next?",
    "opts": [
-    "Determine design; the sampling strategy is settled after the data are collected",
     "Sampling strategy; the team will move next to collecting the study data",
+    "Determine design; the sampling strategy is settled after the data are collected",
     "Sampling strategy; the design of the study is chosen after recruitment ends",
     "Collect data; the design and the sample were settled in the literature scan"
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "Recruitment, group assignment, and the number of subjects needed define the Sampling Strategy phase, which follows Determine Design and precedes Collect Data. Design decisions address philosophical assumptions, the nature of the question, the intent of the researcher, and the time dimension — not how many people to enroll. The literature scan supplies background and a theoretical framework, not the sample.",
    "strat": "Hold the order: define problem → scan literature → determine design → sampling strategy → collect → analyze → communicate → support practice."
   },
@@ -45,12 +45,12 @@
    "lvl": "Application",
    "stem": "A palliative care team wants to learn how clients living with advanced heart failure describe the meaning of their illness and how much they are willing to endure medication side effects in order to stay at home. The team plans to interview clients and identify themes from what they say.\nWhich approach fits this question, and how would the merit of the finished study be judged?",
    "opts": [
-    "Qualitative research, with merit judged by trustworthiness",
     "Quantitative research, with merit judged by trustworthiness",
+    "Qualitative research, with merit judged by trustworthiness",
     "Quantitative research, with merit judged by reliability and validity",
     "Qualitative research, with merit judged by reliability and validity"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Understanding the meaning of an experience from the individual's perspective, gathered by interview and analyzed into themes, is qualitative: its purpose is discovery, its view of reality is subjective, and its criterion for merit is trustworthiness. Reliability and validity are the merit criteria for quantitative work, which assumes an objective reality and measures variables statistically.",
    "strat": "Meaning and themes → qualitative → trustworthiness; measured variables and cause-effect → quantitative → reliability and validity."
   },
@@ -97,12 +97,12 @@
    "lvl": "Analysis",
    "stem": "A nurse critiques a 10-year study that enrolled 250 children of caregivers who smoke and measured pulmonary function at prescribed intervals to detect emerging lung disease. Of those enrolled, 148 children completed the final measurement.\nHow should the nurse interpret this for the report?",
    "opts": [
-    "Attrition this large belongs in the limitations and narrows who the findings apply to",
     "Attrition weakens a study only when the data are secondary and gathered by other people",
     "Attrition is inherent to cross-sectional work and has little bearing on these results",
-    "Attrition is offset here because data were gathered at prescribed intervals for years"
+    "Attrition is offset here because data were gathered at prescribed intervals for years",
+    "Attrition this large belongs in the limitations and narrows who the findings apply to"
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "Subject attrition is the significant disadvantage of longitudinal designs, and a high attrition rate is a classic limitation the researcher must state, since limitations explain why results may generalize only to specific situations or may be less robust than anticipated. Repeated measures do not replace lost participants; the data here are primary and prospective, collected by the researchers, and the design follows subjects over time rather than at a single point.",
    "strat": "Long follow-up = attrition. Anything that weakens generalizability belongs in the limitations section."
   },
@@ -113,11 +113,11 @@
    "lvl": "Application",
    "stem": "A nurse is critiquing a published quantitative study before bringing it to the unit practice council.\nWhich information should the nurse expect to find in the methods section? Select all that apply.",
    "opts": [
-    "Recommendations for changing practice at the reader's own institution",
+    "What is already known about the problem and where the gaps remain",
     "The data collection instruments and how reliability and validity were addressed",
     "How participants were recruited and selected for the study",
     "Enough procedural detail for another team to replicate the study",
-    "What is already known about the problem and where the gaps remain",
+    "Recommendations for changing practice at the reader's own institution",
     "Which variables served as the independent and the dependent variables"
    ],
    "ans": [
@@ -194,12 +194,12 @@
    "lvl": "Application",
    "stem": "A surgical unit's shared governance council reviews the quarter's data: unit-acquired pressure injuries rose from 2 to 9, restraint days rose, three nurses reported back strain during boosts, and the surgeons switched to a new suture material.\nThe council wants an evidence-based practice project that will measure nursing's impact on client outcomes. Which question should the council pursue?",
    "opts": [
+    "Whether a two-hour turning schedule lowers unit-acquired pressure injuries",
     "Whether the new suture material lowers wound dehiscence after abdominal surgery",
     "Whether the anesthetic agent selected affects postoperative length of stay",
-    "Whether prophylactic antibiotic timing changes surgical site infection rates",
-    "Whether a two-hour turning schedule lowers unit-acquired pressure injuries"
+    "Whether prophylactic antibiotic timing changes surgical site infection rates"
    ],
-   "ans": 3,
+   "ans": 0,
    "rat": "Nursing research targets concepts inside nursing's span of control so the study can measure nursing's contribution; pressure injury prevention, restraint prevalence, falls, and staff back injury are nurse-sensitive indicators, and a turning schedule is nurse-driven. Suture material, antibiotic timing, and anesthetic selection are medically-sensitive decisions the nurse does not control, so outcomes from those studies would not reflect nursing care.",
    "strat": "Ask \"can a nurse change this at the bedside?\" If not, it is medically-sensitive, not nurse-sensitive."
   },
@@ -307,11 +307,11 @@
    "stem": "An oncology nurse starts with a general topic of interest: pain management. A literature review turns up little evidence directing nonpharmacologic pain relief during implanted port access in adults, and the nurse writes a problem statement around that gap.\nWhich question best carries that problem forward into a design that can be studied?",
    "opts": [
     "How can oncology nurses improve the way pain is managed for clients across the unit?",
-    "During port access in adults, does topical anesthetic versus vapocoolant lower pain scores?",
     "Do adults receiving chemotherapy believe their reports of pain are taken seriously by staff?",
+    "During port access in adults, does topical anesthetic versus vapocoolant lower pain scores?",
     "Which analgesic order set do the oncology physicians prefer before port access procedures?"
    ],
-   "ans": 1,
+   "ans": 2,
    "rat": "The research question is the last step before design and must name the primary variables, so it has to be narrowed from the general topic to a comparison with a measurable outcome. The first option is still the general topic and generates too many concepts to test, the third abandons the identified gap for an unrelated qualitative question, and the fourth measures physician preference rather than a nurse-sensitive client outcome.",
    "strat": "Trace topic to problem to purpose to question; the question that names both variables and an outcome is the researchable one."
   },
@@ -419,11 +419,11 @@
    "stem": "A nurse on a practice council drafts this question for an evidence-based practice project:\n\n\"In adults with type 2 diabetes seen in a primary care clinic, does a pharmacist-led teaching session compared with the standard printed handout improve hemoglobin A1C, medication adherence, and clinic satisfaction in 6 months?\"\n\nWhich critique of this draft is accurate?",
    "opts": [
     "It states a comparison group, which belongs in the hypothesis rather than in the question.",
-    "It sets a time period, which is reserved for qualitative research questions instead.",
     "It packs three outcomes into one question; each concept belongs in a question of its own.",
+    "It sets a time period, which is reserved for qualitative research questions instead.",
     "It names a specific clinic setting, which narrows the population more than PICOT permits."
    ],
-   "ans": 2,
+   "ans": 1,
    "rat": "A research question should carry no more than one major concept or outcome; three outcomes should be split into separate questions rather than bolted onto one. The comparison and the time period are legitimate PICOT elements of a quantitative question, and specifying age, condition, and setting is exactly how the population should be described.",
    "strat": "One question, one outcome — if you need an 'and' in the outcome, you need a second question."
   },
@@ -434,12 +434,12 @@
    "lvl": "Analysis",
    "stem": "A nurse researcher proposes: \"In adults admitted to a 24-bed medical unit, does a nurse-led mobility protocol compared with usual care reduce hospital-acquired pressure injuries in 60 days?\"\n\nA power analysis indicates 400 participants are needed. Unit records show about 15 eligible adults are admitted per month, and funding covers a 6-month enrollment window. Using the FINER criteria, which concern is best supported by these data?",
    "opts": [
-    "Relevant, because pressure injury rates carry little weight for bedside clinical practice.",
     "Feasibility, because roughly 90 eligible adults can be enrolled in the funded window.",
+    "Relevant, because pressure injury rates carry little weight for bedside clinical practice.",
     "Ethical, because the comparison group receives usual care rather than the new protocol.",
     "Novel, because a mobility protocol has been tested at other hospitals and adds little here."
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "Feasibility asks whether enough participants are available and whether the scope fits the study; 15 per month over 6 months yields about 90 of the 400 needed, so the study cannot be powered as designed. Replication of prior work is expected rather than a flaw, usual care is an accepted comparison, and pressure injury rates are highly relevant to clinical practice.",
    "strat": "Do the arithmetic on the sample before judging the idea — Feasibility fails on numbers, not opinions."
   },
@@ -472,12 +472,12 @@
    "lvl": "Analysis",
    "stem": "A nurse is converting this question into a testable hypothesis:\n\n\"In adults on a medical unit, does a nurse-led mobility protocol compared with usual care reduce hospital-acquired pressure injuries in 60 days?\"\n\nWhich statement is the null hypothesis for this question?",
    "opts": [
-    "In adults on a medical unit, there is no difference in pressure injury rates with the mobility protocol compared with usual care.",
     "In adults on a medical unit, pressure injury rates are lower with the mobility protocol than with usual care over 60 days.",
     "In adults on a medical unit, the mobility protocol is the intervention being tested against usual care for pressure injuries.",
+    "In adults on a medical unit, there is no difference in pressure injury rates with the mobility protocol compared with usual care.",
     "In adults on a medical unit, pressure injury rates differ in some direction with the mobility protocol compared with usual care within 60 days."
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "A null hypothesis states that no difference exists between groups as a result of receiving or not receiving the treatment, which is what makes statistical significance measurable. A statement that rates are lower is a directional alternative hypothesis, a statement that rates differ in some direction is a nondirectional alternative, and simply naming the intervention restates a PICOT element instead of predicting a result.",
    "strat": "Null = 'no difference'; alternative with a direction word (lower, higher) = directional."
   },
@@ -547,11 +547,11 @@
    "stem": "A nurse appraises a well designed randomized controlled trial of 260 postoperative clients. The trial stands alone: it has not been included in any systematic review, meta-analysis, or practice guideline. Using the rating system presented in this module, which level of evidence fits this study?",
    "opts": [
     "Level 1",
-    "Level 4",
     "Level 2",
-    "Level 3"
+    "Level 3",
+    "Level 4"
    ],
-   "ans": 2,
+   "ans": 1,
    "rat": "The module reserves Level 1 for multiple randomized controlled trials that are part of a systematic review, meta-analysis, or practice guideline, so a single trial standing on its own does not meet that wording. It fits Level 2, well designed controlled studies that may or may not be randomized. Level 3 is case-controlled, cohort, and observational work, and Level 4 is descriptive or low-response survey work, so neither fits a randomized trial. The module's narrative grading list ranks randomized clinical trials fourth overall, behind guidelines, meta-analyses, and systematic reviews — that ordinal rank and this level number are two different scales, so do not read 'fourth on the list' as Level 4.",
    "strat": "Level 1 requires both words: multiple trials, inside an aggregate. One trial alone falls to Level 2."
   },
@@ -636,12 +636,12 @@
    "lvl": "Application",
    "stem": "A nurse on a medical unit writes the PICOT question: \"In hospitalized adults over 65, does hourly rounding compared with call-light response alone reduce the incidence of falls during the first 72 hours of admission?\"\nThe nurse has already entered the Concepts row of the search strategy template as: older adults | hourly rounding | falls.\nWhich entry should the nurse place in the Terms row?",
    "opts": [
-    "hospitalized adults; call-light response alone; falls in the first 72 hours of stay",
-    "fall prevention; patient safety; nurse staffing; quality improvement",
+    "does hourly rounding reduce the incidence of falls in adults over 65",
     "older adults / elderly; hourly rounding / intentional rounding; falls / fall rate",
-    "does hourly rounding reduce the incidence of falls in adults over 65"
+    "hospitalized adults; call-light response alone; falls in the first 72 hours of stay",
+    "fall prevention; patient safety; nurse staffing; quality improvement"
    ],
-   "ans": 2,
+   "ans": 1,
    "rat": "Search terms are the exact words and synonyms used for each concept, so searching similar terms keeps studies that used slightly different wording from being missed. Rebuilding the comparison and time elements as terms narrows the search prematurely, typing the question as a sentence is not a term list, and substituting broad themes abandons the concepts already identified.",
    "strat": "Concepts come straight out of the PICOT; Terms are the concept plus its synonyms."
   },
@@ -652,12 +652,12 @@
    "lvl": "Analysis",
    "stem": "The nurse enters this string into the database: older adults or hourly rounding and falls.\nThe search returns thousands of records, most about older adults with no mention of rounding.\nWhich revision corrects the search strategy?",
    "opts": [
-    "\"older adults\" OR \"hourly rounding\" OR falls, with each connector capitalized",
     "older adults and hourly rounding and falls, entered as a single quoted phrase",
-    "\"older adults\" NOT \"hourly rounding\" NOT falls, with peer review checked",
-    "\"older adults\" AND (\"hourly rounding\" OR \"intentional rounding\") AND falls"
+    "\"older adults\" OR \"hourly rounding\" OR falls, with each connector capitalized",
+    "\"older adults\" AND (\"hourly rounding\" OR \"intentional rounding\") AND falls",
+    "\"older adults\" NOT \"hourly rounding\" NOT falls, with peer review checked"
    ],
-   "ans": 3,
+   "ans": 2,
    "rat": "AND narrows the search to records containing every concept, parentheses group synonyms so the database treats them as one topic, quotation marks hold multi-word phrases together, and connectors must be capitalized to be read as operators. Using OR between all three concepts is what flooded the results; quoting the whole string searches for one literal phrase; NOT strips out the intervention the nurse is studying.",
    "strat": "OR widens inside a concept, AND narrows between concepts."
   },
@@ -730,9 +730,9 @@
    "stem": "The nurse searched CINAHL only, applied both the peer-reviewed and full-text-only limiters, and retrieved nine articles. All nine report that hourly rounding lowered fall rates.\nA colleague questions whether the retrieved evidence represents the literature.\nWhich statement best explains the colleague's concern?",
    "opts": [
     "One database plus a full-text limiter can omit studies reporting negative results",
+    "Nine articles is too small a set for any of the findings to reach significance",
     "The peer-review limiter removes the systematic reviews housed in the Cochrane Library",
-    "CINAHL indexes allied health journals, so its articles are not peer reviewed",
-    "Nine articles is too small a set for any of the findings to reach significance"
+    "CINAHL indexes allied health journals, so its articles are not peer reviewed"
    ],
    "ans": 0,
    "rat": "Limiting the number of databases searched produces publication bias, and a full-text-only limiter further narrows the return, so studies with negative or null findings can disappear and leave a uniformly positive picture. CINAHL does index peer-reviewed journals, the concern is representativeness rather than statistical power, and Cochrane holds systematic reviews that the peer-review limiter does not delete.",
@@ -745,12 +745,12 @@
    "lvl": "Evaluation",
    "stem": "The final section of the nurse's literature review reads as three paragraphs: one describing what Study A found, one describing what Study B found, and one describing what Study C found, in the order the articles were retrieved.\nFaculty comment that the last step of the literature review is not yet complete.\nWhich revision best meets the intent of that step?",
    "opts": [
+    "Rewrite each paragraph with the sample size and design of that study included",
     "Add a full APA citation to the end of each study paragraph for the reference list",
-    "Group studies by agreement and difference, then link them to the PICOT question",
     "Order the paragraphs from oldest to newest so the reader can follow a timeline",
-    "Rewrite each paragraph with the sample size and design of that study included"
+    "Group studies by agreement and difference, then link them to the PICOT question"
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "The last step is to organize findings so relationships and differences among the studies are visible and tied back to the research question, which is synthesis rather than a study-by-study recap. Adding design details, resequencing by date, or attaching citations improves the summaries but leaves the writing as a list of separate studies.",
    "strat": "Article-by-article paragraphs are a summary; organizing across articles toward the question is synthesis."
   }
