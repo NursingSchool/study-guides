@@ -129,10 +129,19 @@ and a defect report back to the material's authors, so be specific.
   absolute / SATA-variation; if Management of Care or Psychosocial are under band, swap in
   prioritization/psychosocial items; re-run until the linter is quiet (or each remaining warning
   has a logged reason). This central pass is where even coverage and difficulty are enforced.
-- **Fix the guessability tells here — they are invisible to per-module agents.** Each agent lints only its own handful of items, so distribution defects only become visible once merged. Three to check, all reported by the linter:
-  - **Correct-answer position.** Authors overwhelmingly write the key first: measured across the eight earlier quizzes it sat at option A for 55–100% of radio items, so "always pick A" beat most of them. Permute options and deal target positions round-robin per option-count so the spread is uniform *by construction* — random shuffling still clumps at small n (one 14-item quiz landed 57% on B, 0% on C). Remap `ans` and verify the keyed **text** is unchanged.
-  - **match/matrix row order.** Identity maps (`[0,1,2,3]`) are answerable top-to-bottom; clustered answers (`[0,0,0,1,1,1]`) expose the grouping. Fix by reordering **rows**, never keys.
-  - **Length tells.** The keyed option being longest — per-module agents usually catch this, but re-check after merge.
+- **Run `balance_answers.py` — a required step, not an optional one.** Guessability tells are structurally invisible to per-module agents: each lints only its own handful of items, so a whole-quiz skew toward option A never shows up until merge.
+  ```
+  python <skill>/scripts/balance_answers.py <name>.quiz.json
+  ```
+  It rewrites the `.quiz.json` in place — run it **after** `merge_modules.py` and **before** `assemble_quiz.py`. What it does:
+  - **Balances correct-answer position** for `radio`. Authors overwhelmingly write the key first: across the eight quizzes built before this tool existed, the key sat at option A for 55–100% of items (one was 100%, another 86%) and option D was correct 0–6% of the time. Targets are *dealt round-robin* per option-count, so the spread is uniform **by construction** — genuinely random shuffling still clumps at these sizes (a 14-item quiz landed 57% on B, 0% on C).
+  - **Randomizes option order** for `multi`, `cloze`, and `bowtie`, where there's no single "position" to balance.
+  - **Reorders match/matrix ROWS** out of identity (`[0,1,2,3]`, answerable top-to-bottom) and clustered (`[0,0,0,1,1,1]`, grouping visible without reading) orders. Rows carry their own answers, so keys are never touched.
+  - **Asserts the keyed answer TEXT is unchanged** and refuses to write if it isn't.
+  - **Idempotent and deterministic** — it canonicalizes before permuting and seeds from quiz content, so re-running is a no-op and rebuilds produce no spurious diff. `--seed N` gives a differently-ordered copy (e.g. a separate version for a study group).
+
+  `assemble_quiz.py` then reports the position distribution and warns if any option exceeds 40%, and hard-ERRORs on an identity-mapped match. Those are the safety net; this tool is the fix.
+- **Length tells.** The keyed option being longest — per-module agents usually catch this, but re-check the merged set.
 - **Fix the format mix here.** Read the linter's `Item format mix` block. If multi-select is over
   the 40% ceiling or `radio` is under 55%, convert the weakest multi-select items to single-best
   — the usual candidates are SATA items whose options aren't truly independent, and `match`/`cloze`

@@ -81,10 +81,10 @@
    "lvl": "Application",
    "stem": "A 6-month-old with tetralogy of Fallot begins crying hard during a diaper change. The lips and nail beds turn deep blue, respirations become rapid and deep, and the oxygen saturation drops from 88% to 71% on room air.\nWhich action should the nurse take first?",
    "opts": [
-    "Sit the infant upright in an infant seat at 45 degrees",
+    "Lay the infant flat and turn the head to one side",
     "Bring the infant's knees up flexed onto the chest",
-    "Suction the nose and mouth with a bulb syringe",
-    "Lay the infant flat and turn the head to one side"
+    "Sit the infant upright in an infant seat at 45 degrees",
+    "Suction the nose and mouth with a bulb syringe"
    ],
    "ans": 1,
    "rat": "This is a hypercyanotic (\"tet\") spell, and the knee-chest position is the first step in the guide's tet-spell sequence: it increases systemic vascular resistance so less blood shunts right-to-left across the VSD, followed by 100% oxygen by mask, a calm approach, morphine, and IV volume. Lying flat and the 45-degree seated position do nothing for the shunt (the 45-degree position is for reducing cardiac workload in heart failure), and bulb suctioning treats an airway obstruction the infant does not have.",
@@ -98,17 +98,17 @@
    "lvl": "Analysis",
    "stem": "A 5-month-old with a large unrepaired ventricular septal defect is seen for a follow-up visit.\nWhich findings should the nurse recognize as signs of heart failure from increased pulmonary blood flow? Select all that apply.",
    "opts": [
-    "Bounding femoral pulses with a widened pulse pressure",
-    "Blood pressure 22 mm Hg higher in the arms than the legs",
-    "Diaphoresis over the forehead during bottle feeds",
-    "Respiratory rate of 68 with subcostal retractions",
     "Clubbed fingertips with a resting saturation of 82%",
-    "Liver edge palpable 3 cm below the right costal margin"
+    "Liver edge palpable 3 cm below the right costal margin",
+    "Respiratory rate of 68 with subcostal retractions",
+    "Bounding femoral pulses with a widened pulse pressure",
+    "Diaphoresis over the forehead during bottle feeds",
+    "Blood pressure 22 mm Hg higher in the arms than the legs"
    ],
    "ans": [
+    1,
     2,
-    3,
-    5
+    4
    ],
    "rat": "Sweating with feeds reflects impaired myocardial function, tachypnea with retractions reflects pulmonary congestion, and hepatomegaly reflects systemic venous congestion, the three groupings the guide uses for heart failure. Pulses in heart failure are diminished and weak rather than bounding, an arm-to-leg pressure gradient points to coarctation, and clubbing with chronic desaturation belongs to a decreased-pulmonary-flow (cyanotic) defect, not a left-to-right shunt.",
    "strat": "Sort heart failure cues into three buckets: pump (sweating, weak pulses), lungs (tachypnea, retractions), and backup (big liver, puffy eyes)."
@@ -121,12 +121,12 @@
    "lvl": "Analysis",
    "stem": "A 4-month-old with heart failure is scheduled for a 0800 dose of digoxin. The nurse counts an apical rate of 84 beats/minute for one full minute. The infant vomited twice overnight and refused the last two feedings.\nWhat should the nurse do?",
    "opts": [
-    "Withhold the dose until the apical rate reaches 70",
-    "Give the dose and recount the apical rate in 30 minutes",
     "Withhold the dose and notify the provider",
+    "Give the dose and recount the apical rate in 30 minutes",
+    "Withhold the dose until the apical rate reaches 70",
     "Give half the dose and hold the next scheduled dose"
    ],
-   "ans": 2,
+   "ans": 0,
    "rat": "Digoxin is held in an infant when the apical rate is below 90/minute, and this infant is at 84 with vomiting and anorexia, the early signs of digoxin toxicity, so the dose is held and reported. The 70/minute threshold applies to older children, not infants, and splitting a cardiac glycoside dose or giving it and rechecking later delivers the drug to a bradycardic, possibly toxic infant.",
    "strat": "Infants hold below 90, children hold below 70, and bradycardia plus vomiting and anorexia spells toxicity (antidote: digoxin immune Fab)."
   },
@@ -138,12 +138,12 @@
    "lvl": "Application",
    "stem": "A 3-month-old with a large ventricular septal defect takes 45 to 50 minutes to finish a 3-ounce bottle. During feeds the infant sweats, breathes 70 times a minute, and stops repeatedly to rest. Weight has dropped from the 50th to the 10th percentile.\nWhich change should the nurse make to the feeding plan?",
    "opts": [
-    "Offer a larger bottle every 5 hours so the infant can rest",
-    "Dilute the formula so that feeding takes less effort",
     "Wake the infant every 2 hours for a full-volume feeding",
-    "Cap feeds at 30 minutes and use a slit nipple"
+    "Dilute the formula so that feeding takes less effort",
+    "Cap feeds at 30 minutes and use a slit nipple",
+    "Offer a larger bottle every 5 hours so the infant can rest"
    ],
-   "ans": 3,
+   "ans": 2,
    "rat": "Feeding should take about 30 minutes and a slit nipple enlarges the opening so the infant gets more volume for less work, with small frequent higher-calorie feeds about every 3 hours or soon after waking. Waking every 2 hours removes the rest these infants need, stretching to 5-hour larger feeds makes each feed longer and more exhausting, and diluting the formula lowers caloric density when the guide calls for increasing it.",
    "strat": "For a tiring cardiac infant, shorten the work and raise the calories: 30 minutes, slit nipple, semi-upright, rest breaks."
   },
@@ -155,12 +155,12 @@
    "lvl": "Analysis",
    "stem": "A 12-day-old is brought to the clinic for poor feeding and irritability. Blood pressure is 94/58 in the right arm and 60/38 in the right thigh. Brachial pulses are strong, but femoral pulses are weak and difficult to palpate.\nThese findings are most consistent with which defect?",
    "opts": [
-    "Coarctation of the aorta obstructing systemic flow",
-    "Tetralogy of Fallot restricting flow to the lungs",
     "Patent ductus arteriosus shunting blood to the lungs",
-    "Transposition of the great arteries mixing blood"
+    "Coarctation of the aorta obstructing systemic flow",
+    "Transposition of the great arteries mixing blood",
+    "Tetralogy of Fallot restricting flow to the lungs"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Coarctation narrows the aorta, so pressure is high before the narrowing and low after it, which shows up as a blood pressure and pulse difference between the upper and lower extremities, and severe coarctation surfaces in the first few weeks of life. A PDA produces a machinery murmur with signs of increased pulmonary flow, tetralogy produces cyanosis and tet spells, and transposition produces cyanosis from birth; none of them create an arm-to-leg gradient.",
    "strat": "Upper-body pressure higher than lower-body pressure means something is pinching the aorta in between."
   },
@@ -173,15 +173,15 @@
    "stem": "A 9-month-old with heart failure from a large patent ductus arteriosus is prescribed furosemide and an angiotensin converting enzyme (ACE) inhibitor.\nWhich actions should the nurse include in the plan of care? Select all that apply.",
    "opts": [
     "Give a prescribed potassium supplement with the ACE inhibitor",
-    "Weigh the infant daily on the same scale before a feeding",
-    "Hold the ACE inhibitor when the serum potassium is 3.2 mEq/L",
     "Offer potassium-rich foods such as mashed banana",
     "Record intake and output every shift",
-    "Check the blood pressure before each dose of the ACE inhibitor"
+    "Hold the ACE inhibitor when the serum potassium is 3.2 mEq/L",
+    "Check the blood pressure before each dose of the ACE inhibitor",
+    "Weigh the infant daily on the same scale before a feeding"
    ],
    "ans": [
     1,
-    3,
+    2,
     4,
     5
    ],
@@ -196,17 +196,17 @@
    "lvl": "Analysis",
    "stem": "A 4-month-old is seen in the clinic because feedings have become harder over the past month.\nWhich findings should the nurse recognize as indicators of cardiac dysfunction? Select all that apply.",
    "opts": [
-    "Apical rate of 152 taken right after the nurse undressed and woke him",
+    "Heart rate speeds up as he breathes in and slows as he breathes out",
+    "Soft systolic murmur that gets quieter when the infant is laid back down",
     "Weight has fallen from the 45th to the 10th percentile on the growth curve",
     "Stops after 15 mL of formula, becomes diaphoretic, and falls asleep",
     "Sleeping respiratory rate of 68 counted by watching abdominal movement",
-    "Heart rate speeds up as he breathes in and slows as he breathes out",
-    "Soft systolic murmur that gets quieter when the infant is laid back down"
+    "Apical rate of 152 taken right after the nurse undressed and woke him"
    ],
    "ans": [
-    1,
     2,
-    3
+    3,
+    4
    ],
    "rat": "Poor feeding, tachypnea, and poor weight gain or failure to thrive are the history and physical indicators of cardiac dysfunction, along with activity intolerance, developmental delay, prenatal risk factors (substance misuse, diabetes, maternal infection), and family history. A soft murmur that shifts with position is functional, caused by normal physiologic flow turbulence, and a sinus arrhythmia that varies with respiration is common in children. The 152 was obtained on a startled, undressed infant, which is why the guide says to listen for a few minutes before counting the rate.",
    "strat": "Feeding, breathing, growing: an infant's cardiac history lives in those three. Position-changing murmurs and respiration-linked rate swings are the normal look-alikes."
@@ -222,17 +222,17 @@
     {
      "label": "[1] Counting respirations",
      "opts": [
-      "observing abdominal movement for a full minute",
+      "watching the chest wall rise and fall for 30 seconds",
       "counting them after the apical rate has been obtained",
-      "watching the chest wall rise and fall for 30 seconds"
+      "observing abdominal movement for a full minute"
      ],
-     "a": 0
+     "a": 2
     },
     {
      "label": "[2] Apical pulse site",
      "opts": [
-      "2nd intercostal space at the right sternal border",
       "5th intercostal space at the left anterior axillary line",
+      "2nd intercostal space at the right sternal border",
       "4th intercostal space at the left midclavicular line"
      ],
      "a": 2
@@ -240,9 +240,9 @@
     {
      "label": "[3] Blood pressure and rectal temperature",
      "opts": [
-      "before the infant is undressed, to capture a resting value",
+      "right after the heart has been auscultated",
       "at the end of the examination",
-      "right after the heart has been auscultated"
+      "before the infant is undressed, to capture a resting value"
      ],
      "a": 1
     }
@@ -298,12 +298,12 @@
    "lvl": "Analysis",
    "stem": "The nurse receives report on four children in a pediatric cardiology clinic.\nWhich child should the nurse assess first?",
    "opts": [
-    "A 4-month-old with a respiratory rate of 72 who tires after 15 mL of formula",
-    "A 3-year-old with clubbed fingertips whose parent reports he plays in short bursts",
     "A 6-month-old whose weight has dropped from the 50th to the 15th percentile since birth",
-    "A 2-year-old with a soft systolic murmur that changes when he is sat upright"
+    "A 3-year-old with clubbed fingertips whose parent reports he plays in short bursts",
+    "A 2-year-old with a soft systolic murmur that changes when he is sat upright",
+    "A 4-month-old with a respiratory rate of 72 who tires after 15 mL of formula"
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "By ABCs and acute-over-chronic, the tachypneic infant who cannot finish a feeding comes first: tachypnea with feeding intolerance signals decreased cardiac output and pulmonary congestion right now. Clubbing develops only after long-term hypoxia and reflects a chronic state, a position-dependent soft murmur is functional flow turbulence, and a falling growth curve is a serious but chronic finding in a child with a cardiac alteration.",
    "strat": "Sort cardiac findings by clock speed: breathing trouble is happening now, clubbing and growth curves took months."
   },
@@ -315,12 +315,12 @@
    "lvl": "Analysis",
    "stem": "A 3-year-old is admitted with a temperature of 39.4°C that has persisted for 6 days despite acetaminophen and 2 days of oral antibiotics. The nurse notes red, cracked lips, redness of both eyes without drainage, and swollen red palms.\nLaboratory results: WBC 18,400/mm³, platelets 615,000/mm³, hemoglobin 9.4 g/dL, ESR 68 mm/hr, CRP 14 mg/dL, albumin 2.6 g/dL.\nHow should the nurse interpret these results?",
    "opts": [
-    "The low hemoglobin and albumin reflect poor oral intake rather than inflammation",
     "Raised inflammatory markers with anemia and thrombocytosis fit Kawasaki disease",
+    "The platelet and hemoglobin values suggest active bleeding that must be located",
     "The high white count and C-reactive protein point to a bacterial infection that needs antibiotic coverage",
-    "The platelet and hemoglobin values suggest active bleeding that must be located"
+    "The low hemoglobin and albumin reflect poor oral intake rather than inflammation"
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "The guide's Kawasaki lab picture is a CBC with elevated WBCs and platelets and low RBCs (anemia), plus elevated ESR, CRP, and liver enzymes with a decreased albumin — exactly this set. Kawasaki fever is unresponsive to antipyretics and antibiotics, so the WBC and CRP elevation is vasculitis, not bacterial infection; the anemia is part of the inflammatory process, not blood loss or poor intake.",
    "strat": "Fever past 5 days that ignores both antipyretics and antibiotics, with high ESR, CRP, and platelets — think Kawasaki."
   },
@@ -332,12 +332,12 @@
    "lvl": "Analysis",
    "stem": "A 4-year-old in the acute stage of Kawasaki disease is receiving a single IVIG infusion of 2 g/kg over 10 hours. Four hours into the infusion the nurse reassesses the child.\nWhich finding should the nurse report to the provider first?",
    "opts": [
-    "Urine output of 0.4 mL/kg/hr with a new S3 gallop on auscultation",
-    "Facial flushing across both cheeks that began 20 minutes into the infusion",
     "Temperature of 38.8°C that has not come down after acetaminophen",
-    "Blood pressure that has risen from 94/56 to 108/68 since the infusion started"
+    "Urine output of 0.4 mL/kg/hr with a new S3 gallop on auscultation",
+    "Blood pressure that has risen from 94/56 to 108/68 since the infusion started",
+    "Facial flushing across both cheeks that began 20 minutes into the infusion"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "By circulation (ABCs), the falling urine output with a gallop rhythm is heart failure — the guide specifically directs the nurse to watch for heart failure during IVIG because 2 g/kg is a large fluid load on an already inflamed myocardium. Facial flushing and elevated blood pressure are listed IVIG side effects, and fever that resists antipyretics is characteristic of the acute stage itself.",
    "strat": "IVIG is 2 g/kg of volume — assess the heart, not just for allergy."
   },
@@ -349,17 +349,17 @@
    "lvl": "Evaluation",
    "stem": "A 3-year-old is being discharged after IVIG and is going home on aspirin 4 mg/kg/day.\nWhich statements by the caregiver indicate the discharge teaching was effective? Select all that apply.",
    "opts": [
-    "I will take his temperature every day before I give him his aspirin dose.",
-    "I can stop the aspirin as soon as his fever is gone and he is eating again.",
-    "We will hold his MMR and varicella vaccines for about 11 months.",
+    "We will keep the follow-up echocardiogram appointments even once he seems well.",
     "If his ears start ringing, I will give the next dose with food and milk.",
+    "I can stop the aspirin as soon as his fever is gone and he is eating again.",
     "If he refuses to walk, I will carry him until the joint soreness passes.",
+    "I will take his temperature every day before I give him his aspirin dose.",
     "I will wash the peeling skin with a deodorant soap so it does not get infected.",
-    "We will keep the follow-up echocardiogram appointments even once he seems well."
+    "We will hold his MMR and varicella vaccines for about 11 months."
    ],
    "ans": [
     0,
-    2,
+    4,
     6
    ],
    "rat": "The guide teaches daily temperature checks before each salicylate dose with any fever reported, deferral of live vaccines (MMR, varicella) for 11 months after IVIG, and continued follow-up because cardiac changes are monitored for months. Low-dose aspirin continues until the platelet count normalizes, roughly 6-8 weeks; tinnitus is a sign of salicylate toxicity that is reported rather than re-dosed; refusal to walk is reported to the provider; and soap is avoided because it dries the skin and worsens breakdown.",
@@ -376,26 +376,26 @@
     {
      "label": "[1] IVIG regimen",
      "opts": [
-      "80-100 mg/kg/day divided every 6 hours",
       "2 g/kg as a single infusion over 8-12 hours",
+      "80-100 mg/kg/day divided every 6 hours",
       "3-5 mg/kg/day as one daily dose"
      ],
-     "a": 1
+     "a": 0
     },
     {
      "label": "[2] Timing of IVIG",
      "opts": [
       "after the fever has lasted at least 14 days",
-      "once peeling of the fingers and toes begins",
-      "within the first 7-10 days of the illness"
+      "within the first 7-10 days of the illness",
+      "once peeling of the fingers and toes begins"
      ],
-     "a": 2
+     "a": 1
     },
     {
      "label": "[3] Aspirin after the fever resolves",
      "opts": [
-      "discontinued, since the fever has broken",
       "kept at 80-100 mg/kg/day for a full 8 weeks",
+      "discontinued, since the fever has broken",
       "reduced to 3-5 mg/kg/day until platelets normalize"
      ],
      "a": 2
@@ -456,12 +456,12 @@
    "lvl": "Analysis",
    "stem": "A 4-year-old is brought to the emergency department with fever for 2 days, vomiting, diarrhea, and abdominal pain the parent describes as severe. The child also has red eyes without drainage, a rash on the trunk, and swollen red lips and hands. The parent reports the child had COVID-19 about a month ago.\nWhich part of this presentation most supports MIS-C rather than Kawasaki disease?",
    "opts": [
-    "Vomiting, diarrhea, and abdominal pain after a COVID-19 illness",
     "A non-blistering rash spread across the trunk and the back",
     "Conjunctivitis of both eyes with no discharge or drainage present",
-    "Redness and swelling of the lips, tongue, hands, and feet"
+    "Redness and swelling of the lips, tongue, hands, and feet",
+    "Vomiting, diarrhea, and abdominal pain after a COVID-19 illness"
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "The guide describes MIS-C as an excessive immune response linked to COVID-19 that inflames multiple systems, with gastrointestinal symptoms of vomiting, diarrhea, and abdominal pain listed alongside the fever. Conjunctivitis, rash, and mucocutaneous redness and edema are named as Kawasaki-disease-like features that the two conditions share, so they cannot separate them; the recent COVID-19 infection plus the gut symptoms can.",
    "strat": "Shared features cannot discriminate — look for the COVID link and the gastrointestinal picture."
   },
@@ -473,12 +473,12 @@
    "lvl": "Analysis",
    "stem": "An 8-year-old with severe hemophilia A is brought in 2 hours after falling from a bicycle. The nurse's assessment finds a right knee that is swollen, warm, and painful with reduced range of motion; scattered bruises over both forearms; slow oozing from a scraped elbow; and, in the last few minutes, a complaint of headache with speech that has become slurred.\nWhich finding should the nurse act on first?",
    "opts": [
-    "Swelling, warmth, and pain in the right knee",
-    "Slow oozing from the abraded elbow",
     "Headache with newly slurred speech",
+    "Slow oozing from the abraded elbow",
+    "Swelling, warmth, and pain in the right knee",
     "Scattered bruising over both forearms"
    ],
-   "ans": 2,
+   "ans": 0,
    "rat": "Headache, slurred speech, and a falling level of consciousness are the guide's warning signs of cerebral bleeding, a neurologic emergency that outranks the other findings by acute-over-stable priority. Hemarthrosis of the knee, easy bruising, and oozing from a superficial scrape are all expected in severe hemophilia and are treated after the intracranial bleed is addressed.",
    "strat": "In hemophilia, any new neuro change means bleeding in the head until proven otherwise; joints and bruises can wait."
   },
@@ -530,17 +530,17 @@
    "lvl": "Application",
    "stem": "An 11-month-old is seen in clinic with a hemoglobin of 9.2 g/dL. The caregiver reports the infant takes about 44 oz of formula each day, eats only a few spoonfuls of solid food, and tires quickly during play. An oral iron supplement is prescribed.\nWhich instructions should the nurse include in the teaching? Select all that apply.",
    "opts": [
-    "Give the iron supplement with a bottle of formula to prevent stomach upset",
-    "Change to a low-iron formula if the stools become hard",
+    "Limit the formula to no more than 32 oz each day",
+    "Hold iron-fortified cereals until after the first birthday",
     "Offer iron-rich foods along with a source of vitamin C",
     "Plan frequent rest periods between play activities",
-    "Hold iron-fortified cereals until after the first birthday",
-    "Limit the formula to no more than 32 oz each day"
+    "Change to a low-iron formula if the stools become hard",
+    "Give the iron supplement with a bottle of formula to prevent stomach upset"
    ],
    "ans": [
+    0,
     2,
-    3,
-    5
+    3
    ],
    "rat": "The guide caps formula at 32 oz per day, pairs iron-rich foods with vitamin C to improve absorption, and builds in frequent rest periods because the anemic child tires easily. Giving iron with formula and switching to a low-iron formula both work against the correction of the deficiency, and delaying solids, including iron-fortified cereal, is itself listed as a cause of iron deficiency anemia rather than a remedy.",
    "strat": "Too much formula crowds out iron: cap the bottle at 32 oz and push iron plus vitamin C onto the plate."
@@ -593,12 +593,12 @@
    "lvl": "Evaluation",
    "stem": "A 9-year-old with hemophilia B is finishing a corticosteroid course prescribed for chronic synovitis of the ankle. The nurse has reviewed home management with the parent.\nWhich statement by the parent indicates that the teaching has been effective?",
    "opts": [
-    "He can return to soccer practice once the swelling goes down",
-    "We will add ibuprofen to the steroid to ease his joint pain",
     "We can give DDAVP at home instead of his factor if he bleeds",
-    "We will keep him home when his cousin has a cold or fever"
+    "He can return to soccer practice once the swelling goes down",
+    "We will keep him home when his cousin has a cold or fever",
+    "We will add ibuprofen to the steroid to ease his joint pain"
    ],
-   "ans": 3,
+   "ans": 2,
    "rat": "Corticosteroid therapy calls for monitoring for infection and bleeding, good hygiene, and avoiding people with colds, viruses, or infections, so keeping the child away from a sick contact shows the teaching worked. DDAVP raises factor VIII and is not effective in hemophilia B, which is a factor IX deficiency; ibuprofen and other NSAIDs inhibit platelet function and are used only under close provider supervision; and soccer is a contact sport, while the guide steers these children toward low-contact activities such as swimming, bowling, or golf.",
    "strat": "DDAVP boosts factor VIII only, so it does nothing for hemophilia B."
   },
@@ -610,12 +610,12 @@
    "lvl": "Analysis",
    "stem": "A 6-year-old is admitted with a hemoglobin of 6.8 g/dL from chronic blood loss. The child is pale and listless, with a heart rate of 138/min, a soft systolic murmur, cool skin, and an oxygen saturation of 99% on room air. No cyanosis is present. The parent asks why the child looks so washed out when the oxygen number on the monitor is fine.\nWhich response by the nurse is most accurate?",
    "opts": [
-    "The oximeter gives a falsely high reading when hemoglobin is low",
     "His red cells carry oxygen well, but too few are in circulation",
-    "He has plenty of red cells, but they are not picking up oxygen",
-    "The pallor is an early form of cyanosis that precedes blue lips"
+    "The oximeter gives a falsely high reading when hemoglobin is low",
+    "The pallor is an early form of cyanosis that precedes blue lips",
+    "He has plenty of red cells, but they are not picking up oxygen"
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "In anemia the hemoglobin that is present is fully saturated, so the pulse oximetry reading stays high; the problem is that there are not enough red cells in circulation to deliver oxygen, which produces the pallor, tachycardia, flow murmur, and cool skin from tissue hypoxia. The second option reverses the mechanism, and cyanosis is absent because cyanosis requires an increased quantity of deoxygenated hemoglobin in arterial blood, not a shortage of red cells.",
    "strat": "Anemia is a delivery problem, not a saturation problem, so the pulse ox looks fine while the child looks terrible."
   },
@@ -630,11 +630,11 @@
     {
      "label": "[1] Chance per pregnancy",
      "opts": [
+      "a 25% chance",
       "a 50% chance",
-      "a 75% chance",
-      "a 25% chance"
+      "a 75% chance"
      ],
-     "a": 2
+     "a": 0
     },
     {
      "label": "[2] Effect on circulation",
@@ -648,8 +648,8 @@
     {
      "label": "[3] Common trigger",
      "opts": [
-      "a diet that is low in iron",
       "receiving the pneumococcal vaccine",
+      "a diet that is low in iron",
       "dehydration from inadequate fluid intake"
      ],
      "a": 2
@@ -699,17 +699,17 @@
    "lvl": "Evaluation",
    "stem": "A nurse has finished home-care teaching with the caregivers of a 3-year-old newly diagnosed with sickle cell anemia. Which statements indicate that the teaching was effective? Select all that apply.",
    "opts": [
-    "\"We will keep water with her and offer more when she is playing outside in the heat.\"",
-    "\"She will stay current on her shots, including the one for pneumonia.\"",
-    "\"We will give the penicillin every day, even on days when she feels fine.\"",
     "\"We should keep her out of preschool and away from other children until she outgrows this.\"",
+    "\"We will give the penicillin every day, even on days when she feels fine.\"",
+    "\"She will stay current on her shots, including the one for pneumonia.\"",
+    "\"We will keep water with her and offer more when she is playing outside in the heat.\"",
     "\"If she catches a cold, we will cut back her drinks so the coughing does not get worse.\"",
     "\"If she runs a fever, we call the clinic that day instead of waiting it out.\""
    ],
    "ans": [
-    0,
     1,
     2,
+    3,
     5
    ],
    "rat": "Daily oral prophylactic penicillin, up-to-date immunizations including pneumococcal vaccine, prompt evaluation of fever, and generous fluids are the guide's core prevention measures — fever signals infection that can trigger a crisis, and dehydration thickens the blood. Sickle cell anemia is not outgrown, and the teaching is to avoid people who are ill and practice hand hygiene, not to withdraw the child from all contact and activity. Cutting back fluids during any illness is the opposite of what prevents a crisis.",
@@ -725,16 +725,16 @@
    "opts": [
     "Temperature 38.3°C (100.9°F)",
     "Oxygen saturation 91% on room air",
-    "Capillary refill of 4 seconds with cool hands and feet",
-    "Active bowel sounds with a soft stool this morning",
     "Pain rated 9 out of 10 in both thighs and the lower back",
-    "Blood pressure 100/62 mm Hg"
+    "Capillary refill of 4 seconds with cool hands and feet",
+    "Blood pressure 100/62 mm Hg",
+    "Active bowel sounds with a soft stool this morning"
    ],
    "ans": [
     0,
     1,
     2,
-    4
+    3
    ],
    "rat": "A saturation of 91% signals hypoxia, which both results from and worsens sickling; fever points to infection, itself a crisis trigger; severe bone and joint pain is the hallmark of vaso-occlusion; and cool extremities with a 4-second capillary refill show impaired peripheral perfusion. A blood pressure of 100/62 and a respiratory rate of 22 are within range for a 6-year-old, and active bowel sounds with a recent stool are reassuring — the guide notes that constipation must be ruled out as a separate cause of abdominal pain, and there is no evidence of it here.",
    "strat": "Sort each number against the age norm first, then ask whether it fits the sickling story."
@@ -747,12 +747,12 @@
    "lvl": "Analysis",
    "stem": "CASE (2/6) Analyze cues. Marcus's spleen is not palpable and his abdomen is soft. His hemoglobin is close to his stated baseline, and the reticulocyte count is elevated.\n\nWhich interpretation best explains his presentation?",
    "opts": [
-    "Aplastic crisis — a recent viral illness has suppressed the bone marrow, and the falling red cell count is causing the pain",
     "Iron-deficiency anemia — months of low dietary iron have left too little hemoglobin to carry oxygen",
-    "Splenic sequestration — blood is pooling in the spleen, and the enlarging organ is the source of the pain",
-    "Vaso-occlusive crisis — sickled cells are blocking small vessels after a day of heavy exertion and low fluid intake"
+    "Vaso-occlusive crisis — sickled cells are blocking small vessels after a day of heavy exertion and low fluid intake",
+    "Aplastic crisis — a recent viral illness has suppressed the bone marrow, and the falling red cell count is causing the pain",
+    "Splenic sequestration — blood is pooling in the spleen, and the enlarging organ is the source of the pain"
    ],
-   "ans": 3,
+   "ans": 1,
    "rat": "Severe bone, joint, and low back pain with hematuria, cool extremities, and hypoxia after exertion in the heat with poor intake is the guide's picture of an acute vaso-occlusive crisis, which it links to dehydration and decreased oxygen. Sequestration would show an enlarging spleen with pallor and falling blood pressure, and aplastic crisis follows a viral infection with a sharp drop in red cells and reticulocytes rather than pain. The anemia here is hemolytic and congenital, not from dietary iron.",
    "strat": "Name the trigger and the crisis names itself — heat, exertion, and no fluids point straight at vaso-occlusion."
   },
@@ -764,10 +764,10 @@
    "lvl": "Analysis",
    "stem": "CASE (3/6) Prioritize hypotheses. Marcus remains on room air with a saturation of 91%, his hands and feet are cool, and he is crying with pain.\n\nWhich problem should the nurse address as the priority?",
    "opts": [
+    "Risk for infection related to the fever and an atrophied spleen",
     "Deficient fluid volume from a day of heat, exertion, and poor intake",
-    "Acute pain in the thighs, lower back, and abdomen from ischemia",
     "Inadequate tissue oxygenation and perfusion from occluded vessels",
-    "Risk for infection related to the fever and an atrophied spleen"
+    "Acute pain in the thighs, lower back, and abdomen from ischemia"
    ],
    "ans": 2,
    "rat": "By the ABCs, oxygenation and perfusion outrank the other problems, and the guide adds a disease-specific reason: any condition that lowers oxygen delivery drives more sickling, so hypoxia feeds the crisis it caused. Pain control, hydration, and infection prevention are all essential and are started alongside oxygen, but they do not displace a saturation of 91% with cool, poorly perfused extremities as the first concern.",
@@ -782,9 +782,9 @@
    "stem": "CASE (4/6) Generate solutions (bowtie). Oxygen at 2 L/min by nasal cannula has been started and Marcus's saturation is now 97%. Orders are in place for IV fluids and for a scheduled opioid analgesic.\n\nChoose the central problem, two actions to take next, and two parameters to monitor.",
    "problem": {
     "opts": [
-     "Hypovolemia from splenic sequestration",
-     "Bone marrow failure from an aplastic crisis",
      "Sepsis from an untreated bacterial infection",
+     "Bone marrow failure from an aplastic crisis",
+     "Hypovolemia from splenic sequestration",
      "Impaired tissue perfusion and pain from vaso-occlusion"
     ],
     "a": 3
@@ -792,27 +792,27 @@
    "actions": {
     "opts": [
      "Give the prescribed opioid analgesic on an around-the-clock schedule",
-     "Begin the prescribed IV fluids to reduce blood viscosity",
-     "Have him walk the hallway each hour to keep the blood moving",
      "Wait until his pain reaches 7 out of 10 before the next analgesic dose",
-     "Place ice packs on the painful thighs and lower back"
+     "Place ice packs on the painful thighs and lower back",
+     "Have him walk the hallway each hour to keep the blood moving",
+     "Begin the prescribed IV fluids to reduce blood viscosity"
     ],
     "ans": [
      0,
-     1
+     4
     ]
    },
    "params": {
     "opts": [
-     "Blood pressure and pulse lying and standing",
-     "Serum sodium level drawn every 8 hours",
-     "Intake, output, and daily weight",
      "Pain rating and sedation level after each analgesic dose",
-     "Deep tendon reflexes and clonus each shift"
+     "Blood pressure and pulse lying and standing",
+     "Intake, output, and daily weight",
+     "Deep tendon reflexes and clonus each shift",
+     "Serum sodium level drawn every 8 hours"
     ],
     "ans": [
-     2,
-     3
+     0,
+     2
     ]
    },
    "rat": "The guide's management of vaso-occlusive crisis is hydration to lower viscosity and open flow plus analgesia given around the clock, with oxygen when hypoxia is present. Ice is specifically contraindicated because cold causes vasoconstriction and worsens the occlusion, ambulating a child in crisis raises oxygen demand when rest is what he needs, and PRN-only dosing lets pain re-escalate. Intake, output, and weight track both fluid overload and kidney function during intense hydration, while serial pain ratings with sedation level judge the analgesic; reflexes, orthostatics, and serial sodium levels are not the parameters this therapy calls for.",
@@ -826,15 +826,15 @@
    "lvl": "Application",
    "stem": "CASE (5/6) Take action. Marcus is admitted with IV fluids infusing and scheduled IV morphine. He is guarding both legs and asks to be left alone.\n\nWhich nursing actions are appropriate? Select all that apply.",
    "opts": [
-    "Hold his oral fluids while the IV fluids are infusing",
-    "Skip the scheduled analgesic dose whenever he has fallen asleep",
     "Apply warm packs to the painful joints",
+    "Skip the scheduled analgesic dose whenever he has fallen asleep",
+    "Hold his oral fluids while the IV fluids are infusing",
     "Apply cold packs to the painful joints for 20 minutes each hour",
     "Start a bowel regimen and track his stools while the opioid is running",
     "Position him so his weight is off the painful joints and cluster care so he can rest"
    ],
    "ans": [
-    2,
+    0,
     4,
     5
    ],
@@ -849,12 +849,12 @@
    "lvl": "Evaluation",
    "stem": "CASE (6/6) Evaluate outcomes. Twelve hours after admission Marcus has received IV fluids, scheduled morphine, and oxygen.\n\nWhich finding best indicates that the vaso-occlusive crisis is resolving?",
    "opts": [
+    "Oxygen saturation 97% on 2 L/min by cannula, respiratory rate 34 breaths/min",
     "Pain rated 2 of 10, with the hands and feet still cool and mottled",
-    "Pain rated 2 of 10, hands and feet warm, capillary refill under 2 seconds",
     "Urine output of 0.4 mL/kg/hr, with the urine still tea colored",
-    "Oxygen saturation 97% on 2 L/min by cannula, respiratory rate 34 breaths/min"
+    "Pain rated 2 of 10, hands and feet warm, capillary refill under 2 seconds"
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "Resolution means the occlusion has opened, so perfusion measures have to improve along with the pain: warm extremities and brisk capillary refill with a low pain score show restored flow. Pain relief with extremities that stay cool and mottled shows the analgesic is working but the vaso-occlusion is not resolved, urine output of 0.4 mL/kg/hr with tea-colored urine suggests hydration is still inadequate and kidney involvement persists, and a saturation that holds only with supplemental oxygen while the respiratory rate climbs points toward chest involvement rather than recovery.",
    "strat": "On evaluate items, make the perfusion data agree with the pain score before you call it resolved."
   }

@@ -41,7 +41,11 @@ script keeps it correct.
 
 - `assets/quiz-template.html` — the engine (don't edit per-quiz).
 - `scripts/assemble_quiz.py` — builds the final HTML from your JSON **and lints it**
-  (structural rules + 2026 blueprint coverage). Non-zero exit = there are errors to fix.
+  (structural rules + 2026 blueprint coverage + guessability tells). Non-zero exit = errors to fix.
+- `scripts/balance_answers.py` — **run this on every quiz before assembling.** Randomizes option
+  order and balances where the correct answer lands. Without it, keys pile up on option A (measured
+  55–100% across the quizzes built before it existed) and match rows come out in identity order —
+  both let a student score well without reading. Idempotent and deterministic; safe to re-run.
 - `references/blueprint-2026.md` — Client Needs categories + exact `cat` strings,
   NCJMM steps, terminology, prioritization frameworks. **Read this before classifying.**
 - `references/ngn-item-writing.md` — quality rules, **distractor discipline & difficulty**,
@@ -130,10 +134,13 @@ build/lint, hub) that the comprehensive build reuses in its Reduce phase.
    assume a full-length exam). Either way, **don't pad the item count just to land in
    a band** — size to the material and Chris's request.
 
-4. **Build + lint (and register in the hub):**
+4. **Balance, then build + lint (and register in the hub):**
    ```
+   python .claude/skills/nclex-quiz-builder/scripts/balance_answers.py <name>.quiz.json
    python .claude/skills/nclex-quiz-builder/scripts/assemble_quiz.py <name>.quiz.json -o <name>.html --hub index.html
    ```
+   The balance step is **not optional** — skip it and the quiz is partly answerable without
+   reading, because item authors reliably write the correct option first.
    Read the coverage report. **Fix every ERROR** and re-run. Address WARNINGS unless
    there's a good reason not to (e.g., a deliberately small option set). Output is the
    standalone `<name>.html`; `--hub index.html` then registers it on its **class page**

@@ -34,12 +34,12 @@
    "lvl": "Analysis",
    "stem": "A client comes to the clinic reporting difficulty seeing while driving at dusk and at night, though daytime vision is unchanged. The client follows a very low-fat diet and rarely eats orange or dark-green vegetables. Which deficiency is the nurse most likely to suspect?",
    "opts": [
-    "Vitamin D deficiency",
-    "Vitamin A deficiency",
+    "Vitamin E deficiency",
     "Vitamin K deficiency",
-    "Vitamin E deficiency"
+    "Vitamin D deficiency",
+    "Vitamin A deficiency"
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "Vitamin A forms rhodopsin in the retina; night blindness is the first sign of deficiency, and a low-fat diet impairs absorption of all fat-soluble vitamins. Vitamin D deficiency causes bone disease (rickets/osteomalacia), vitamin E causes neuromuscular/hemolytic problems, and vitamin K causes bleeding — none present first as night blindness.",
    "strat": "Match the earliest symptom to the vitamin's job: vision at night points straight to vitamin A."
   },
@@ -51,11 +51,11 @@
    "stem": "A 24-year-old woman is starting isotretinoin (Accutane) for severe acne. Which statement by the nurse is most important to include in teaching?",
    "opts": [
     "\"Add servings of liver and carrots daily to support your skin while on this drug.\"",
-    "\"Take this medication on an empty stomach each morning to improve absorption.\"",
+    "\"Use a reliable method of birth control during the entire course of this drug.\"",
     "\"Limit green leafy vegetables to prevent a serious drug-nutrient interaction.\"",
-    "\"Use a reliable method of birth control during the entire course of this drug.\""
+    "\"Take this medication on an empty stomach each morning to improve absorption.\""
    ],
-   "ans": 3,
+   "ans": 1,
    "rat": "Isotretinoin contains vitamin A, and excess vitamin A is teratogenic; women of childbearing age must use reliable contraception because use in pregnancy causes birth defects. Adding liver and carrots would raise vitamin A intake further and worsen the risk, and the green-vegetable caution applies to vitamin K and anticoagulants, not this drug.",
    "strat": "Vitamin A in excess = birth defects; any vitamin-A-based drug in a fertile woman means contraception teaching first."
   },
@@ -134,12 +134,12 @@
    "lvl": "Application",
    "stem": "A client newly prescribed warfarin asks the nurse about diet. The client typically eats large daily servings of kale, spinach, and broccoli. Which response by the nurse is correct?",
    "opts": [
-    "\"Drop the green vegetables from your diet while taking this medication.\"",
-    "\"Green vegetables do not affect warfarin, so vary the amount as you wish.\"",
     "\"Eat extra green vegetables daily, since they boost the action of warfarin.\"",
-    "\"Keep your daily intake of those green vegetables fairly steady.\""
+    "\"Drop the green vegetables from your diet while taking this medication.\"",
+    "\"Keep your daily intake of those green vegetables fairly steady.\"",
+    "\"Green vegetables do not affect warfarin, so vary the amount as you wish.\""
    ],
-   "ans": 3,
+   "ans": 2,
    "rat": "Green leafy vegetables are high in vitamin K, which decreases the effectiveness of warfarin; the goal is consistent, not zero, intake so the dose can be balanced against it. Eliminating them entirely is unnecessary and unrealistic, eating extra would reduce the drug's effect, and saying there is no effect is false.",
    "strat": "Vitamin K opposes warfarin — teach consistency, not elimination; 'all' or 'never' options are usually wrong."
   },
@@ -150,12 +150,12 @@
    "lvl": "Application",
    "stem": "Parents of a healthy newborn ask why their baby is receiving a vitamin K injection shortly after birth. Which explanation by the nurse is most accurate?",
    "opts": [
-    "\"The shot replaces the vitamin D your baby needs for bone growth in the first weeks.\"",
     "\"A newborn's sterile gut cannot make vitamin K yet, so the shot helps prevent bleeding.\"",
-    "\"The shot strengthens your baby's immune system until breastfeeding is well established.\"",
-    "\"The shot supplies the iron your baby lost during the stress of the birth process.\""
+    "\"The shot supplies the iron your baby lost during the stress of the birth process.\"",
+    "\"The shot replaces the vitamin D your baby needs for bone growth in the first weeks.\"",
+    "\"The shot strengthens your baby's immune system until breastfeeding is well established.\""
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "Newborns are born with a sterile gut and lack the intestinal bacteria that synthesize vitamin K, so they cannot make enough to support clotting and are at risk for bleeding; the injection provides it until gut flora develop. The other options confuse vitamin K with vitamin D, immune support, or iron, none of which is the reason for this injection.",
    "strat": "Sterile newborn gut = no vitamin K = bleeding risk = the after-birth injection."
   },
@@ -166,18 +166,18 @@
    "lvl": "Analysis",
    "stem": "A client is taking high-dose over-the-counter supplements of vitamins A, D, E, and K. Which findings should the nurse recognize as possible signs of fat-soluble vitamin excess and report? Select all that apply.",
    "opts": [
+    "Rickets caused by too much vitamin D",
     "Increased bleeding when vitamin E supplements are combined with an anticoagulant",
-    "Night blindness caused by too much vitamin A",
-    "Hypercalcemia from excessive vitamin D",
     "Cessation of menstrual periods from excessive vitamin A",
+    "Night blindness caused by too much vitamin A",
     "Vomiting and anorexia from excessive vitamin A",
-    "Rickets caused by too much vitamin D"
+    "Hypercalcemia from excessive vitamin D"
    ],
    "ans": [
-    0,
+    1,
     2,
-    3,
-    4
+    4,
+    5
    ],
    "rat": "Because fat-soluble vitamins are stored, excess is harmful: vitamin A toxicity causes vomiting, anorexia, and menstrual cessation; vitamin D toxicity causes hypercalcemia; and high-dose vitamin E with an anticoagulant raises bleeding risk. Night blindness and rickets are signs of DEFICIENCY, not excess, so they are not reported as toxicity findings.",
    "strat": "On a 'toxicity' SATA, screen out the deficiency look-alikes (night blindness, rickets) — those belong to the opposite list."
@@ -193,8 +193,8 @@
      "label": "[1] Timing for best absorption",
      "opts": [
       "with a meal that contains some dietary fat",
-      "on an empty stomach first thing in the morning",
-      "with a large glass of water between meals"
+      "with a large glass of water between meals",
+      "on an empty stomach first thing in the morning"
      ],
      "a": 0
     },
@@ -202,10 +202,10 @@
      "label": "[2] Why excess is harmful",
      "opts": [
       "destroyed quickly by stomach acid",
-      "stored in body fat rather than readily excreted",
-      "flushed out in urine within a few hours"
+      "flushed out in urine within a few hours",
+      "stored in body fat rather than readily excreted"
      ],
-     "a": 1
+     "a": 2
     }
    ],
    "rat": "Fat-soluble vitamins (A, D, E, K) depend on dietary fat for absorption, so taking them with a fat-containing meal improves uptake; because they are stored in fatty tissue rather than readily excreted, intake above the upper limit accumulates and can cause toxicity. The empty-stomach and water-flush options describe water-soluble vitamins.",
@@ -256,12 +256,12 @@
    "lvl": "Analysis",
    "stem": "A client admitted for alcohol withdrawal presents with confusion, an unsteady gait, and abnormal eye movements. The provider orders IV vitamins before any dextrose-containing fluids are started. Which vitamin deficiency do these findings most likely reflect?",
    "opts": [
-    "Riboflavin (B2)",
-    "Pyridoxine (B6)",
     "Cobalamin (B12)",
-    "Thiamine (B1)"
+    "Pyridoxine (B6)",
+    "Thiamine (B1)",
+    "Riboflavin (B2)"
    ],
-   "ans": 3,
+   "ans": 2,
    "rat": "Confusion, ataxia, and ocular changes in a client with chronic alcohol use point to thiamine deficiency (Wernicke-Korsakoff, the cerebral form of beriberi); thiamine is given before dextrose to avoid worsening the neurologic injury. Riboflavin deficiency causes cheilosis and glossitis, B6 deficiency causes dermatitis and neuropathy, and B12 deficiency is more typically a slowly progressive neurologic and hematologic problem.",
    "strat": "Alcohol + confusion + ataxia = thiamine; give it before glucose."
   },
@@ -272,12 +272,12 @@
    "lvl": "Application",
    "stem": "A 26-year-old who is not pregnant tells the clinic nurse she hopes to conceive within the next year. Which teaching about folic acid is most appropriate?",
    "opts": [
+    "Wait until her pregnancy test is positive, then begin folic acid for fetal growth",
     "Start a folic acid supplement now, before she conceives, to lower defect risk",
     "Folic acid matters once she develops anemia in the second or third trimester",
-    "Wait until her pregnancy test is positive, then begin folic acid for fetal growth",
     "A prenatal vitamin started in the third trimester will supply enough folic acid"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Neural tube closure happens in the first weeks of pregnancy, often before pregnancy is recognized, so folic acid must be in place beforehand; supplementation is recommended for all women of childbearing age planning conception. Starting after a positive test, waiting for anemia, or relying on a third-trimester vitamin all miss the early window when the neural tube forms.",
    "strat": "Neural tube closes before she knows she's pregnant; folate has to be on board first."
   },
@@ -288,16 +288,16 @@
    "lvl": "Analysis",
    "stem": "A nurse is identifying clients at increased risk for vitamin B12 (cobalamin) deficiency. Select all clients who are at higher risk.",
    "opts": [
-    "A client recovering from a partial gastrectomy",
-    "An adult who eats several servings of citrus fruit each day",
-    "An adult who follows a strict vegan diet with no supplementation",
     "An 80-year-old with reduced intrinsic factor from gastric mucosal changes",
-    "A young adult who eats meat, eggs, and dairy daily"
+    "An adult who eats several servings of citrus fruit each day",
+    "A young adult who eats meat, eggs, and dairy daily",
+    "An adult who follows a strict vegan diet with no supplementation",
+    "A client recovering from a partial gastrectomy"
    ],
    "ans": [
     0,
-    2,
-    3
+    3,
+    4
    ],
    "rat": "B12 absorption depends on intrinsic factor and on intake from animal foods, so older adults with declining intrinsic factor, vegans (B12 is absent from plant foods), and clients with gastric surgery affecting intrinsic factor are all at risk. The client eating meat, eggs, and dairy has ample B12 intake, and citrus intake addresses vitamin C, not B12.",
    "strat": "B12 needs intrinsic factor AND animal foods; lose either pathway and risk climbs."
@@ -321,18 +321,18 @@
     {
      "label": "[2] excess handling",
      "opts": [
-      "retained in adipose tissue",
       "stored for months of reserve",
-      "excreted in the urine"
+      "excreted in the urine",
+      "retained in adipose tissue"
      ],
-     "a": 2
+     "a": 1
     },
     {
      "label": "[3] intake pattern",
      "opts": [
       "regularly through diet or supplements",
-      "only during illness",
-      "in a single large weekly dose"
+      "in a single large weekly dose",
+      "only during illness"
      ],
      "a": 0
     }
@@ -349,10 +349,10 @@
    "opts": [
     "Take the iron right after your high-fiber bran cereal",
     "Take the iron with a tall glass of milk to settle the stomach",
-    "Take the iron with a glass of orange juice",
-    "Take the iron together with your calcium supplement"
+    "Take the iron together with your calcium supplement",
+    "Take the iron with a glass of orange juice"
    ],
-   "ans": 2,
+   "ans": 3,
    "rat": "Vitamin C enhances the absorption of non-heme (plant and supplement) iron, so pairing the iron with a vitamin C source such as orange juice increases uptake. Milk and calcium reduce iron absorption, and the phytates in high-fiber bran cereal also inhibit it.",
    "strat": "Vitamin C boosts non-heme iron; pair iron with a citrus source, not dairy."
   },
@@ -363,12 +363,12 @@
    "lvl": "Analysis",
    "stem": "A nurse is reviewing the diet of an older adult with a slow-healing pressure injury, bleeding gums, and a history of eating mostly canned and shelf-stable foods with few fresh fruits and vegetables. Which nutrient deficiency best explains this picture?",
    "opts": [
-    "Niacin (B3)",
     "Vitamin C",
+    "Riboflavin (B2)",
     "Biotin (B7)",
-    "Riboflavin (B2)"
+    "Niacin (B3)"
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "Vitamin C is required for collagen formation and wound healing; its deficiency (scurvy) causes impaired healing and bleeding gums, and a diet lacking fresh fruits and vegetables is a classic risk. Niacin deficiency causes pellagra (dermatitis, diarrhea, dementia), riboflavin deficiency causes cheilosis and glossitis, and biotin deficiency causes a scaly rash and hair loss rather than this bleeding-gum, poor-healing pattern.",
    "strat": "Collagen + bleeding gums + no fresh produce = vitamin C (scurvy)."
   },
@@ -414,12 +414,12 @@
    "lvl": "Application",
    "stem": "A client says, \"I leave the milk in a clear glass pitcher on the counter so the kids can reach it.\" Knowing milk is a major source of riboflavin, which response by the nurse is most accurate?",
    "opts": [
-    "Riboflavin breaks down in light, so milk keeps best in an opaque jug",
-    "Leaving milk out actually raises its riboflavin as it warms on the counter",
     "Riboflavin is not affected by light, so the clear glass pitcher changes nothing",
-    "Boiling the milk before you serve it will restore the riboflavin it has lost"
+    "Leaving milk out actually raises its riboflavin as it warms on the counter",
+    "Boiling the milk before you serve it will restore the riboflavin it has lost",
+    "Riboflavin breaks down in light, so milk keeps best in an opaque jug"
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "Riboflavin is sensitive to light, which is why milk is sold in opaque containers; storing it in clear glass in the light causes riboflavin loss. Warmth does not add the vitamin, light does affect it, and heating cannot restore a vitamin already destroyed.",
    "strat": "Riboflavin is light-sensitive; opaque container protects it."
   },
@@ -433,8 +433,8 @@
    "opts": [
     "Take a calcium supplement together with the fortified cereal",
     "Pair the lentils and spinach with citrus fruit or peppers",
-    "Drink black tea or coffee with each of the iron-rich meals",
-    "Eat the spinach raw rather than lightly steaming it first"
+    "Eat the spinach raw rather than lightly steaming it first",
+    "Drink black tea or coffee with each of the iron-rich meals"
    ],
    "ans": 1,
    "rat": "Non-heme iron from plants is absorbed far less efficiently than heme iron; vitamin C (citrus, peppers) converts iron to a more absorbable form and enhances uptake. Tea (tannins) and calcium both inhibit non-heme iron absorption, and cooking does not destroy the mineral, so eating it raw confers no absorption benefit.",
@@ -448,12 +448,12 @@
    "lvl": "Analysis",
    "stem": "A nurse is identifying clients in a community clinic who are at highest risk for iron-deficiency anemia. Which client should the nurse prioritize for iron-status screening and dietary teaching?",
    "opts": [
-    "An adult who takes a daily vitamin C supplement",
-    "A man who eats red meat several times a week",
+    "A pregnant woman in a low-income household",
     "A teenager who drinks fortified milk daily",
-    "A pregnant woman in a low-income household"
+    "A man who eats red meat several times a week",
+    "An adult who takes a daily vitamin C supplement"
    ],
-   "ans": 3,
+   "ans": 0,
    "rat": "Per the WHO/CDC data in the source, iron deficiency is the most common micronutrient malnutrition worldwide, and pregnant women in low-income households are a top at-risk group; pregnancy raises iron demand and 1 in 6 women is iron-deficient in pregnancy. Frequent red-meat intake and vitamin C both support iron status, and fortified milk is not a key iron source.",
    "strat": "Match the at-risk group to increased demand plus limited intake."
   },
@@ -465,10 +465,10 @@
    "lvl": "Analysis",
    "stem": "A nurse reviews the diet of a client who avoids all dairy and reports muscle twitching and occasional spasms in the hands. Which dietary pattern most likely explains these findings?",
    "opts": [
-    "Inadequate potassium intake from fruits and vegetables",
     "Excessive sodium intake from heavily processed foods",
+    "Excessive phosphorus intake from dark cola beverages",
     "Inadequate calcium intake from dairy alternatives",
-    "Excessive phosphorus intake from dark cola beverages"
+    "Inadequate potassium intake from fruits and vegetables"
    ],
    "ans": 2,
    "rat": "Calcium supports nerve function and muscle relaxation/contraction; low intake can produce neuromuscular irritability such as twitching and tetany. A dairy-avoidant client who replaces nothing with fortified soy, canned fish with bones, tofu, or greens is at risk. Sodium and phosphorus excess and potassium deficiency cause different problems and do not best fit the dairy-avoidance picture.",
@@ -485,11 +485,11 @@
     {
      "label": "[1] Needed for calcium use",
      "opts": [
-      "vitamin D",
       "vitamin C",
-      "vitamin K"
+      "vitamin K",
+      "vitamin D"
      ],
-     "a": 0
+     "a": 2
     },
     {
      "label": "[2] Non-dairy calcium source",
@@ -512,12 +512,12 @@
    "lvl": "Application",
    "stem": "A nurse works in a region where some households use only non-iodized specialty salt and eat little seafood. A client asks how to prevent the goiter that affected an older relative. Which response by the nurse is most accurate?",
    "opts": [
-    "Iodine carries oxygen through the blood; eat more red meat and dried fruit",
+    "Iodine is needed to make thyroid hormone; use iodized salt or eat seafood",
     "Iodine builds strong bones and teeth; increase the leafy greens in your diet",
-    "Iodine helps regulate blood glucose; choose whole grains and brewer's yeast",
-    "Iodine is needed to make thyroid hormone; use iodized salt or eat seafood"
+    "Iodine carries oxygen through the blood; eat more red meat and dried fruit",
+    "Iodine helps regulate blood glucose; choose whole grains and brewer's yeast"
    ],
-   "ans": 3,
+   "ans": 0,
    "rat": "Iodine is a component of thyroid hormone, which regulates growth, development, and metabolism; deficiency causes goiter. Iodized salt, seafood, and dairy supply iodine. The other options misattribute the roles of calcium/fluoride (bones), iron (oxygen transport), and chromium (glucose regulation).",
    "strat": "Iodine to thyroid to goiter; iodized salt prevents it."
   },
@@ -564,17 +564,17 @@
    "stem": "A nurse teaches a client about the electrolyte minerals sodium and potassium and how to obtain them from food. Which statements should the nurse include? Select all that apply.",
    "opts": [
     "Sodium is the major extracellular electrolyte and helps regulate fluid balance",
-    "Potassium is found in fresh fruits, vegetables, meats, and whole grains",
-    "Potassium is the major extracellular electrolyte for fluid regulation",
+    "Most dietary sodium comes from processed foods and table salt",
     "Both sodium and potassium support nerve transmission and muscle contraction",
+    "Potassium is found in fresh fruits, vegetables, meats, and whole grains",
     "Sodium provides the body with a direct source of energy",
-    "Most dietary sodium comes from processed foods and table salt"
+    "Potassium is the major extracellular electrolyte for fluid regulation"
    ],
    "ans": [
     0,
     1,
-    3,
-    5
+    2,
+    3
    ],
    "rat": "Sodium is the major extracellular electrolyte for fluid and acid-base balance, supplied largely by processed foods and table salt; potassium is the major intracellular electrolyte found in fruits, vegetables, meats, and whole grains; both support nerve transmission and muscle contraction. Potassium is intracellular (not extracellular), and minerals do not provide energy once absorbed.",
    "strat": "Sodium = extracellular, potassium = intracellular; minerals are catalysts, not fuel."
@@ -587,8 +587,8 @@
    "lvl": "Analysis",
    "stem": "A public health nurse explains why staple foods like flour, rice, and cereal are fortified in a community where many families can afford only cheap, filling foods. Which statement best describes the goal of this fortification?",
    "opts": [
-    "To raise the calorie content of inexpensive staple foods",
     "To extend the shelf life of grains during long-term storage",
+    "To raise the calorie content of inexpensive staple foods",
     "To replace the need for fresh fruits and vegetables in the diet",
     "To add vitamins and minerals that low-micronutrient diets lack"
    ],
@@ -604,12 +604,12 @@
    "lvl": "Analysis",
    "stem": "A client recovering from a major burn injury asks the nurse why the dietitian keeps emphasizing fruits and vegetables. The nurse explains that tissue trauma and inflammation increase the client's exposure to free radicals. How should the nurse describe what antioxidants do in this situation?",
    "opts": [
-    "They neutralize free radicals and limit the cell damage of oxidative stress",
     "They bind dietary fat so that fewer free radicals are absorbed from the food eaten",
+    "They neutralize free radicals and limit the cell damage of oxidative stress",
     "They raise the number of free radicals the cells produce during the healing process",
     "They replace the calories the body burns through while fighting off the infection"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Antioxidants counteract free radicals and protect cells from the damage (oxidative stress) that leads to apoptosis or necrosis; tissue trauma and inflammation are listed sources of free-radical production. They do not bind fat for absorption, do not increase free-radical output, and are not a calorie source.",
    "strat": "Map the term to its mechanism: antioxidant = anti-(free radical) = less oxidative stress."
   },
@@ -621,17 +621,17 @@
    "lvl": "Application",
    "stem": "A nurse is teaching a community group about eating a diet rich in antioxidant vitamins and minerals. Which foods should the nurse include as good sources of antioxidants? Select all that apply.",
    "opts": [
-    "Carrots and sweet potatoes",
-    "Fish, eggs, and mushrooms",
-    "Nuts and plant-based vegetable oils",
     "Citrus fruits and strawberries",
-    "White bread and refined pasta"
+    "Nuts and plant-based vegetable oils",
+    "Carrots and sweet potatoes",
+    "White bread and refined pasta",
+    "Fish, eggs, and mushrooms"
    ],
    "ans": [
     0,
     1,
     2,
-    3
+    4
    ],
    "rat": "Citrus and strawberries supply vitamin C; carrots and sweet potatoes supply vitamin A; nuts and vegetable oils supply vitamin E; fish, eggs, and mushrooms supply selenium. Refined, processed foods are listed as a source of oxidative stress, not a source of antioxidants.",
    "strat": "Color and whole-food variety signal antioxidants; refined/processed signals the opposite."
@@ -644,12 +644,12 @@
    "lvl": "Application",
    "stem": "A healthy adult with a varied diet tells the nurse, \"I just buy antioxidant pills instead of bothering with produce.\" Which response by the nurse best reflects current evidence on antioxidant intake?",
    "opts": [
-    "\"Supplements actually work better than food because the dose packed into each pill is far higher.\"",
-    "\"Getting your antioxidants from a varied diet of fruits and vegetables is the preferred choice.\"",
+    "\"You can safely cut back on antioxidant-rich produce once you begin taking a daily supplement.\"",
     "\"Supplements are equivalent to food, so either choice gives you the same protection from disease.\"",
-    "\"You can safely cut back on antioxidant-rich produce once you begin taking a daily supplement.\""
+    "\"Getting your antioxidants from a varied diet of fruits and vegetables is the preferred choice.\"",
+    "\"Supplements actually work better than food because the dose packed into each pill is far higher.\""
    ],
-   "ans": 1,
+   "ans": 2,
    "rat": "The preference is meeting nutrient recommendations through a healthy, nutrient-rich diet; research has not shown that supplementation supports disease prevention. Supplements are not proven equivalent or superior, and produce should not be reduced. Supplementation is reserved for malabsorption or disease states that impair absorption.",
    "strat": "Default to food first; supplements are the exception (malabsorption), not the rule."
   },
@@ -698,11 +698,11 @@
    "stem": "During a medication reconciliation, a client taking warfarin reports starting a high-dose vitamin E supplement \"for its antioxidant benefits.\" Which concern should the nurse prioritize?",
    "opts": [
     "Vitamin E will raise the client's blood pressure while on the anticoagulant",
-    "Vitamin E taken with an anticoagulant raises the client's risk for bleeding",
     "Vitamin E commonly causes toxicity even at the supplement's usual dose",
-    "Vitamin E will block the absorption of warfarin and weaken its effect"
+    "Vitamin E will block the absorption of warfarin and weaken its effect",
+    "Vitamin E taken with an anticoagulant raises the client's risk for bleeding"
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "Vitamin E supplement use is contraindicated with anticoagulant drugs because of bleeding risk, so that is the priority concern. Vitamin E toxicity is otherwise rare, and the source does not describe it blocking warfarin absorption or raising blood pressure.",
    "strat": "Antioxidant supplement + anticoagulant in one picture = think additive bleeding risk."
   },
@@ -714,12 +714,12 @@
    "lvl": "Analysis",
    "stem": "During a wellness visit, a 78-year-old reports new tingling in both feet and trouble remembering recent conversations. The diet recall shows adequate meat and dairy intake. Which question best helps the nurse explore a likely nutritional cause?",
    "opts": [
-    "\"How much time do you spend outdoors in the midday sun each week of the year?\"",
-    "\"Do you add iodized table salt to most of the meals that you prepare?\"",
+    "\"Have you been told you have low stomach acid or take a medicine for reflux?\"",
     "\"How many servings of citrus fruit and juice do you usually eat each day?\"",
-    "\"Have you been told you have low stomach acid or take a medicine for reflux?\""
+    "\"How much time do you spend outdoors in the midday sun each week of the year?\"",
+    "\"Do you add iodized table salt to most of the meals that you prepare?\""
    ],
-   "ans": 3,
+   "ans": 0,
    "rat": "Older adults lose intrinsic factor and stomach acid, so B12 is poorly absorbed even when dietary intake is adequate; the neurologic (tingling) and cognitive symptoms fit B12 deficiency. Sun exposure points to vitamin D, citrus to vitamin C, and iodized salt to iodine — none of which match this picture.",
    "strat": "Adequate intake + absorption symptom = think absorption, not the plate. Older adult + neuro/cognitive = B12."
   },
@@ -767,15 +767,15 @@
    "lvl": "Application",
    "stem": "A client is starting a ferrous sulfate supplement for iron-deficiency anemia. Which statements by the client indicate correct understanding of how to take it? Select all that apply.",
    "opts": [
-    "\"I'll drink a large glass of milk with each dose.\"",
-    "\"I'll skip my morning coffee right around the time I take it.\"",
     "\"I'll take it together with my calcium supplement so I only swallow one pill at a time.\"",
+    "\"I'll wait at least 2 hours after my calcium pill or milk before taking it.\"",
     "\"I'll take it with a glass of orange juice.\"",
-    "\"I'll wait at least 2 hours after my calcium pill or milk before taking it.\""
+    "\"I'll drink a large glass of milk with each dose.\"",
+    "\"I'll skip my morning coffee right around the time I take it.\""
    ],
    "ans": [
     1,
-    3,
+    2,
     4
    ],
    "rat": "Vitamin C (orange juice) increases iron absorption; calcium, milk, and antacids should be separated from iron by at least 2 hours; and caffeine blocks iron absorption. Taking iron together with calcium, or washing it down with milk, reduces absorption and reflects the common error this teaching is meant to prevent.",
@@ -807,11 +807,11 @@
    "stem": "The nurse reviews four clients in a community clinic. Which client needs the most immediate follow-up?",
    "opts": [
     "A vegan client asking how to get more iron from the plant foods that she eats",
+    "An adult with a critically abnormal potassium level and an irregular pulse",
     "A pregnant client who wants to confirm she is taking enough folate each day",
-    "An older adult asking which everyday foods are the highest in vitamin D",
-    "An adult with a critically abnormal potassium level and an irregular pulse"
+    "An older adult asking which everyday foods are the highest in vitamin D"
    ],
-   "ans": 3,
+   "ans": 1,
    "rat": "Potassium controls cardiac excitability, and a critical level with an irregular pulse can cause lethal dysrhythmias — an unstable, life-threatening finding that outranks the three teaching needs. The other three are important health-promotion conversations but are stable and not urgent.",
    "strat": "Unstable/life-threat beats teaching. Potassium swings = heart = act first."
   },
@@ -826,11 +826,11 @@
     {
      "label": "[1] When to take calcium carbonate",
      "opts": [
-      "with an antacid",
       "on an empty stomach",
-      "with food"
+      "with food",
+      "with an antacid"
      ],
-     "a": 2
+     "a": 1
     },
     {
      "label": "[2] Nutrient needed for absorption",
@@ -888,11 +888,11 @@
    "stem": "A client takes daily high-dose supplements of several vitamins, well above the recommended allowances. The nurse explains that some of these vitamins are far more likely than others to build up to toxic levels. Which property best explains why one group carries the greater toxicity risk?",
    "opts": [
     "Water-soluble vitamins are stored in the liver, so the excess slowly collects there over time",
+    "Water-soluble vitamins bind tightly to plasma proteins, so they linger for weeks in the bloodstream",
     "Fat-soluble vitamins are absorbed faster, so their blood levels spike higher after each daily dose",
-    "Fat-soluble vitamins are stored in tissue, so excess accumulates rather than being cleared",
-    "Water-soluble vitamins bind tightly to plasma proteins, so they linger for weeks in the bloodstream"
+    "Fat-soluble vitamins are stored in tissue, so excess accumulates rather than being cleared"
    ],
-   "ans": 2,
+   "ans": 3,
    "rat": "Fat-soluble vitamins (A, D, E, K) are stored in fat and the liver, so intake above the upper limit accumulates and can cause toxicity, much like a drug's pharmacologic effect. Water-soluble vitamins are not stored and are cleared in the urine, so they rarely reach toxic levels. The absorption-speed and protein-binding options are not the mechanism, and it is the fat-soluble group — not water-soluble — that is stored.",
    "strat": "Toxicity follows storage: the vitamins the body holds onto (fat-soluble) are the ones that can build up."
   },
@@ -904,16 +904,16 @@
    "stem": "A nurse counsels a client who wants to preserve the water-soluble vitamins (B-complex and C) in the foods they prepare and eat. Which teaching points are appropriate? Select all that apply.",
    "opts": [
     "Steam or microwave vegetables rather than boiling them in a large pot of water",
-    "Avoid overcooking, since prolonged heat in water destroys and leaches out these vitamins",
+    "Eat foods rich in these vitamins regularly because the body does not store them",
     "Use the leftover cooking water in soups or sauces instead of discarding it",
-    "Plan to skip these foods for a few days at a time since reserves last for weeks",
-    "Eat foods rich in these vitamins regularly because the body does not store them"
+    "Avoid overcooking, since prolonged heat in water destroys and leaches out these vitamins",
+    "Plan to skip these foods for a few days at a time since reserves last for weeks"
    ],
    "ans": [
     0,
     1,
     2,
-    4
+    3
    ],
    "rat": "Because water-soluble vitamins are not stored, regular intake is needed, and because they dissolve in water and are heat-sensitive, gentler methods (steaming, microwaving), reusing cooking water, and avoiding overcooking all reduce losses. The option claiming reserves last for weeks describes fat-soluble storage and is false for this group, so skipping these foods for days risks deficiency.",
    "strat": "Water-soluble = dissolves and isn't stored, so the false choice is any that treats them like a stored reserve."
@@ -925,12 +925,12 @@
    "lvl": "Application",
    "stem": "A client on a strict very-low-fat diet asks the nurse how to take a supplement that contains vitamins A, D, E, and K. Which instruction is most appropriate?",
    "opts": [
+    "Dissolve the supplement in a tall glass of water and drink it slowly between your meals",
     "Take the supplement alone at bedtime, several hours after the last meal of the day",
     "Take the supplement with a meal that includes some dietary fat to aid absorption",
-    "Take the supplement on an empty stomach with a full glass of water early each morning",
-    "Dissolve the supplement in a tall glass of water and drink it slowly between your meals"
+    "Take the supplement on an empty stomach with a full glass of water early each morning"
    ],
-   "ans": 1,
+   "ans": 2,
    "rat": "Fat-soluble vitamins require dietary fat to be absorbed, so pairing the supplement with a meal containing some fat improves uptake — especially important when the habitual diet is very low in fat. Taking it on an empty stomach, dissolved in water, or hours away from any fat all limit absorption of this group; those approaches fit water-soluble vitamins instead.",
    "strat": "Fat-soluble vitamins need a ride on fat — pair the dose with a meal that has some."
   },
@@ -941,12 +941,12 @@
    "lvl": "Application",
    "stem": "A client says, \"My online supplement says it prevents heart disease and lowers cholesterol, and I figure more vitamins can only help.\" Which response by the nurse is most accurate?",
    "opts": [
-    "\"Supplements are regulated just as strictly as prescription drugs, so the labeled health claims are reliable\"",
-    "\"Vitamins do not cause harm even in large amounts, so taking extra is a safe way to protect your heart\"",
+    "\"That printed claim shows the product was well tested, so raising your daily dose is a reasonable goal\"",
     "\"Supplements are not permitted to claim they prevent disease, and a varied diet is the preferred source\"",
-    "\"That printed claim shows the product was well tested, so raising your daily dose is a reasonable goal\""
+    "\"Supplements are regulated just as strictly as prescription drugs, so the labeled health claims are reliable\"",
+    "\"Vitamins do not cause harm even in large amounts, so taking extra is a safe way to protect your heart\""
    ],
-   "ans": 2,
+   "ans": 1,
    "rat": "Dietary supplements are not intended to diagnose, treat, prevent, or cure disease and cannot legitimately make claims such as preventing heart disease, and the preferred source of vitamins is a variety of whole foods. The other responses are wrong because disease claims do not signal testing, fat-soluble vitamins can reach toxic levels in excess, and supplements are not regulated as strictly as drugs.",
    "strat": "Food first, and any supplement promising to 'prevent' or 'cure' disease is overstepping what supplements may claim."
   },
@@ -957,12 +957,12 @@
    "lvl": "Application",
    "stem": "A client who is planning to conceive within the next few months asks the nurse which nutrient is most important to begin before becoming pregnant. Which response by the nurse is most appropriate?",
    "opts": [
+    "\"Begin folic acid now to lower the risk of neural tube defects.\"",
     "\"Add extra vitamin C now to help your body absorb the iron you eat each day.\"",
     "\"Take vitamin D now so your body can absorb and use the calcium in your diet.\"",
-    "\"Begin folic acid now to lower the risk of neural tube defects.\"",
     "\"Increase calcium now so the baby's bones and teeth develop strong and healthy.\""
    ],
-   "ans": 2,
+   "ans": 0,
    "rat": "Neural tube closure occurs in the first 3-4 weeks, often before pregnancy is confirmed, so folic acid must be adequate at conception. Calcium, vitamin C, and vitamin D are all needed in pregnancy but do not prevent neural tube defects, and timing them preconception is not the priority.",
    "strat": "Folic acid = neural tube = start BEFORE conception; the early-timing nutrient is the answer."
   },
@@ -973,17 +973,17 @@
    "lvl": "Application",
    "stem": "A nurse is teaching a pregnant client about foods to avoid to prevent foodborne illness and infection. Which foods should the nurse instruct the client to avoid? Select all that apply.",
    "opts": [
-    "Hard-boiled eggs and pasteurized yogurt",
-    "Roast beef cooked to a safe internal temperature",
-    "Cheese made with unpasteurized milk",
     "Sushi and ceviche made with raw fish",
+    "Cheese made with unpasteurized milk",
+    "Hard-boiled eggs and pasteurized yogurt",
     "Pasteurized fortified orange juice",
-    "Raw sprouts and raw cookie dough"
+    "Raw sprouts and raw cookie dough",
+    "Roast beef cooked to a safe internal temperature"
    ],
    "ans": [
-    2,
-    3,
-    5
+    0,
+    1,
+    4
    ],
    "rat": "Unpasteurized cheese, raw fish, and raw sprouts/dough carry Listeria, Salmonella, or other pathogens that endanger the fetus. Thoroughly cooked roast beef, pasteurized juice, and cooked eggs/pasteurized yogurt are safe and encouraged sources of protein, iron, calcium, and vitamin D — they are distractors because the client may overgeneralize 'avoid meat, juice, eggs, and dairy.'",
    "strat": "Raw or unpasteurized = avoid; fully cooked and pasteurized = safe."
@@ -1030,17 +1030,17 @@
    "lvl": "Analysis",
    "stem": "CASE (1/6) Recognize cues. A 26-year-old client at 10 weeks gestation comes to the prenatal clinic. The nurse reviews the chart and interview. Which findings should the nurse identify as concerning and requiring follow-up? Select all that apply.\n\nVital signs: BP 116/72, HR 92, afebrile.\nLabs: hemoglobin 9.8 g/dL, hematocrit 30%.\nHistory: reports fatigue and feeling 'worn out' climbing stairs.\nDiet recall: skips breakfast most days, rarely eats leafy greens or citrus, drinks 3 cups of coffee daily.\nReports she has not yet started a prenatal vitamin.",
    "opts": [
-    "Blood pressure 116/72 mm Hg",
     "Fatigue and shortness of breath on exertion",
+    "Diet low in folate sources (leafy greens, citrus)",
     "Hemoglobin 9.8 g/dL with hematocrit 30%",
+    "Blood pressure 116/72 mm Hg",
     "Afebrile temperature",
-    "Has not started a prenatal vitamin",
-    "Diet low in folate sources (leafy greens, citrus)"
+    "Has not started a prenatal vitamin"
    ],
    "ans": [
+    0,
     1,
     2,
-    4,
     5
    ],
    "rat": "Low hemoglobin/hematocrit, exertional fatigue, a folate-poor diet, and no prenatal vitamin are all concerning cues pointing to anemia and inadequate folate intake. The BP and temperature are within normal limits and serve as normal-finding distractors.",
@@ -1053,8 +1053,8 @@
    "lvl": "Analysis",
    "stem": "CASE (2/6) Analyze cues. Considering the client's hemoglobin of 9.8 g/dL, exertional fatigue, folate-poor diet, and lack of a prenatal vitamin, which interpretation best explains her clinical picture?",
    "opts": [
-    "Early hyperemesis gravidarum from poor appetite",
     "Expected hemodilution of pregnancy with no nutritional concern",
+    "Early hyperemesis gravidarum from poor appetite",
     "Gestational diabetes causing fatigue and low energy",
     "Iron-deficiency anemia with inadequate folate intake"
    ],
@@ -1069,12 +1069,12 @@
    "lvl": "Analysis",
    "stem": "CASE (3/6) Prioritize hypotheses. The client is now 10 weeks pregnant with confirmed inadequate folate intake and iron-deficiency anemia. Which concern should the nurse prioritize when planning teaching and follow-up?",
    "opts": [
-    "Caffeine intake interfering with the client's nighttime sleep",
     "Inadequate folate intake during ongoing fetal development",
     "Long-term risk of postpartum weight retention after delivery",
-    "Reduced calcium intake gradually affecting maternal bone density"
+    "Reduced calcium intake gradually affecting maternal bone density",
+    "Caffeine intake interfering with the client's nighttime sleep"
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "Although neural tube closure peaks earlier, organogenesis continues and the client is still early in pregnancy with a folate-poor diet and untreated anemia, making inadequate folate the highest-priority, time-sensitive fetal risk. Postpartum weight, bone density, and sleep are real but lower-acuity and not the immediate fetal threat.",
    "strat": "Prioritize the time-sensitive fetal risk over maternal comfort or long-term concerns."
   },
@@ -1086,30 +1086,30 @@
    "stem": "CASE (4/6) Generate solutions (bowtie). For this client with iron-deficiency anemia and inadequate folate intake, choose the central problem, two nursing actions, and two parameters to monitor.",
    "problem": {
     "opts": [
+     "Gestational diabetes with poor glucose control",
      "Iron-deficiency anemia with inadequate folate intake",
-     "Hyperemesis gravidarum with dehydration",
-     "Gestational diabetes with poor glucose control"
+     "Hyperemesis gravidarum with dehydration"
     ],
-    "a": 0
+    "a": 1
    },
    "actions": {
     "opts": [
-     "Teach iron-rich foods paired with a vitamin C source",
-     "Restrict dietary protein to reduce metabolic demand",
+     "Encourage an extra glass of milk with the iron dose",
      "Start a prenatal vitamin containing folic acid and iron",
-     "Encourage an extra glass of milk with the iron dose"
+     "Teach iron-rich foods paired with a vitamin C source",
+     "Restrict dietary protein to reduce metabolic demand"
     ],
     "ans": [
-     0,
+     1,
      2
     ]
    },
    "params": {
     "opts": [
-     "Hemoglobin and hematocrit trend",
      "Dietary recall and reported intake",
-     "Daily urine ketone strips",
-     "Deep tendon reflexes each visit"
+     "Hemoglobin and hematocrit trend",
+     "Deep tendon reflexes each visit",
+     "Daily urine ketone strips"
     ],
     "ans": [
      0,
@@ -1126,17 +1126,17 @@
    "lvl": "Application",
    "stem": "CASE (5/6) Take action. The nurse provides teaching for the client's iron-deficiency anemia and low folate intake. Which instructions are appropriate? Select all that apply.",
    "opts": [
+    "Take the iron with orange juice rather than with milk",
+    "Take the prenatal vitamin daily, as it supplies folic acid and iron",
     "Increase your daily coffee to four or more cups to help with the fatigue",
     "Eat folate sources such as leafy greens and citrus fruits",
-    "Take the prenatal vitamin daily, as it supplies folic acid and iron",
-    "Take the iron together with a calcium supplement at each meal",
     "Replace meals with extra coffee on days you feel too tired to cook",
-    "Take the iron with orange juice rather than with milk"
+    "Take the iron together with a calcium supplement at each meal"
    ],
    "ans": [
+    0,
     1,
-    2,
-    5
+    3
    ],
    "rat": "A prenatal vitamin, folate-rich foods, and iron taken with vitamin C directly address the deficiencies. Taking iron with calcium reduces absorption; substituting coffee for meals worsens intake; and increasing caffeine further impairs iron absorption — all realistic but wrong choices a fatigued client might make.",
    "strat": "Keep actions that raise iron/folate and aid absorption; drop anything that competes with iron or skips meals."
@@ -1149,11 +1149,11 @@
    "stem": "CASE (6/6) Evaluate outcomes. The client returns 6 weeks after starting a prenatal vitamin and dietary changes. Which finding best indicates that the plan has been effective?",
    "opts": [
     "She stopped the iron because it caused constipation and now feels far less bloated overall",
+    "Hemoglobin is 10.0 g/dL and she takes the prenatal vitamin only a few days each week",
     "Hemoglobin has risen to 11.4 g/dL and she now eats greens, citrus, and lean meats daily",
-    "Hemoglobin is unchanged, but she reports less fatigue after raising her daily coffee intake",
-    "Hemoglobin is 10.0 g/dL and she takes the prenatal vitamin only a few days each week"
+    "Hemoglobin is unchanged, but she reports less fatigue after raising her daily coffee intake"
    ],
-   "ans": 1,
+   "ans": 2,
    "rat": "A hemoglobin rise toward normal plus a consistently iron- and folate-rich diet shows the plan worked. The other options are realistic partial or false improvements: inconsistent dosing barely moved the value, stopping iron for a side effect undermines treatment, and feeling better from more caffeine masks an unchanged lab while worsening iron absorption.",
    "strat": "Success = the lab improved AND the behavior that fixed it is sustained; feeling better alone isn't proof."
   },
@@ -1165,12 +1165,12 @@
    "lvl": "Application",
    "stem": "A mother of a 3-year-old tells the nurse, \"He used to eat everything, but now he only wants crackers and refuses dinner. I'm worried he isn't getting enough.\" The child's growth is tracking steadily along the 50th percentile. Which response by the nurse is most appropriate?",
    "opts": [
-    "\"Give him a daily children's multivitamin so the missed meals don't matter.\"",
-    "\"Offer his favorite crackers between meals so he takes in enough calories.\"",
+    "\"Have him stay at the table until he finishes everything on his plate.\"",
     "\"Keep offering a variety of foods and let him decide how much to eat.\"",
-    "\"Have him stay at the table until he finishes everything on his plate.\""
+    "\"Give him a daily children's multivitamin so the missed meals don't matter.\"",
+    "\"Offer his favorite crackers between meals so he takes in enough calories.\""
    ],
-   "ans": 2,
+   "ans": 1,
    "rat": "Food jags and reduced intake are normal as growth slows after toddlerhood; the parent should offer variety and let the child self-regulate amount, since steady growth shows needs are met. Forcing a child to clean the plate undermines self-regulation, a vitamin does not fix an eating pattern, and grazing on a preferred snack between meals reinforces the jag and spoils appetite for balanced meals.",
    "strat": "Steady growth + normal toddler pickiness = reassure and offer variety; don't force, bribe, or graze."
   },
@@ -1183,11 +1183,11 @@
    "stem": "A nurse is teaching the parents of a 2-year-old about preventing choking. Which foods should the nurse identify as choking hazards that need to be modified or avoided for this child? Select all that apply.",
    "opts": [
     "Whole nuts",
-    "Plain whole-milk yogurt",
     "Mashed sweet potato",
+    "Plain whole-milk yogurt",
     "Whole grapes",
-    "Popcorn",
-    "Hot dog slices cut into rounds"
+    "Hot dog slices cut into rounds",
+    "Popcorn"
    ],
    "ans": [
     0,
@@ -1206,12 +1206,12 @@
    "lvl": "Analysis",
    "stem": "The nurse reviews a typical school day for an 8-year-old: skips breakfast, drinks two 12-oz sodas, eats a school lunch, and has chips after school. The parent says the child is often tired and inattentive at school. Which dietary change should the nurse recommend addressing first?",
    "opts": [
+    "Add a fiber supplement to the diet to improve bowel regularity",
     "Begin a children's chewable calcium tablet every morning",
-    "Start a daily breakfast and swap the sodas for water or milk",
     "Switch the salted after-school chips to baked vegetable chips",
-    "Add a fiber supplement to the diet to improve bowel regularity"
+    "Start a daily breakfast and swap the sodas for water or milk"
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "Eating breakfast daily is linked to better academic performance and behavior, and sugar-sweetened beverages are a leading source of empty calories in children, so adding breakfast and cutting the sodas targets the two highest-yield problems explaining the fatigue and inattention. A fiber supplement, a chip swap, and a calcium tablet address lower-priority or unrelated concerns and do not fix the missed morning meal or the sugar load.",
    "strat": "School-age red flags: skipped breakfast + sugary drinks — fix those before fine-tuning snacks."
   },
@@ -1226,20 +1226,20 @@
     {
      "label": "[1] Bone-building partner nutrient",
      "opts": [
-      "vitamin D",
       "vitamin C",
-      "vitamin K"
+      "vitamin K",
+      "vitamin D"
      ],
-     "a": 0
+     "a": 2
     },
     {
      "label": "[2] Nutrient especially needed by menstruating females",
      "opts": [
-      "iron",
+      "folate",
       "zinc",
-      "folate"
+      "iron"
      ],
-     "a": 0
+     "a": 2
     }
    ],
    "rat": "Calcium and vitamin D together are critical during adolescence because nearly all bone mass is laid down by age 18; vitamin D drives calcium absorption. Menstruating adolescent females are at elevated risk for iron deficiency, and iron supports growth, blood volume, immunity, and cognitive development. Vitamin C, K, zinc, and folate matter generally but are not the targeted answers here.",
@@ -1289,12 +1289,12 @@
    "lvl": "Application",
    "stem": "A 10-year-old has a BMI in the 95th percentile for age and sex. The parents ask the nurse how to help. Which approach best reflects evidence-based, family-centered teaching for childhood overweight?",
    "opts": [
-    "Put the child on a calorie-restricted diet separate from the rest of the family",
-    "Limit the child to one meal a day until the weight comes down",
     "Have the whole family adopt healthier meals and active routines together",
-    "Tell the child to weigh daily and record everything that is eaten"
+    "Limit the child to one meal a day until the weight comes down",
+    "Tell the child to weigh daily and record everything that is eaten",
+    "Put the child on a calorie-restricted diet separate from the rest of the family"
    ],
-   "ans": 2,
+   "ans": 0,
    "rat": "Family-based interventions are the evidence-based approach: the family environment shapes a child's eating attitudes and behaviors, so changing meals and activity for the whole household supports the child without shaming or singling them out. Isolating the child on a restrictive diet, mandating daily self-weighing and food logging, and skipping meals are stigmatizing or unsafe and can promote disordered eating in a growing child.",
    "strat": "Childhood obesity teaching is family-wide and non-shaming — never isolate or starve the child."
   },
@@ -1306,12 +1306,12 @@
    "lvl": "Application",
    "stem": "A 52-year-old client with a sedentary lifestyle and a BMI in the overweight range says, \"I want to eat better to lower my risk of heart disease and diabetes.\" Using the Dietary Guidelines for Americans, which change should the nurse recommend the client focus on first?",
    "opts": [
-    "Eat more produce while cutting back on refined grains, added sugar, and sodium",
-    "Cut nearly all dietary fat and replace those calories with extra grains and bread",
     "Add a daily multivitamin and otherwise keep the current eating pattern unchanged",
-    "Switch to a very high-protein plan and skip one meal each day to force a deficit"
+    "Switch to a very high-protein plan and skip one meal each day to force a deficit",
+    "Eat more produce while cutting back on refined grains, added sugar, and sodium",
+    "Cut nearly all dietary fat and replace those calories with extra grains and bread"
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "The Guidelines emphasize small shifts toward nutrient-dense foods, more produce, and less refined grains, added sugar, and sodium to lower diet-related chronic disease risk. Eliminating all fat and piling on grains misapplies the guidance; skipping meals on a high-protein plan is a fad approach, not a balanced pattern; a supplement does not fix an unbalanced base diet.",
    "strat": "Chronic-disease prevention = shift the whole eating pattern toward nutrient density, not one magic fix."
   },
@@ -1326,29 +1326,29 @@
     {
      "label": "[1] Calorie needs",
      "opts": [
-      "increase",
       "decrease",
-      "stay the highest of any life stage"
+      "stay the highest of any life stage",
+      "increase"
      ],
-     "a": 1
+     "a": 0
     },
     {
      "label": "[2] Nutrient needs",
      "opts": [
-      "no longer apply",
+      "fall sharply as well",
       "stay the same or increase",
-      "fall sharply as well"
+      "no longer apply"
      ],
      "a": 1
     },
     {
      "label": "[3] Counseling focus",
      "opts": [
-      "nutrient-dense foods over empty calories",
       "larger total portion sizes",
+      "nutrient-dense foods over empty calories",
       "extra refined grains for energy"
      ],
-     "a": 0
+     "a": 1
     }
    ],
    "rat": "With aging, metabolism and energy needs decline while requirements for most nutrients stay the same or rise, so each calorie must carry more nutrition; nutrient-dense foods meet needs without excess calories. Larger portions or refined grains add calories without proportional nutrients, widening the mismatch.",
@@ -1362,12 +1362,12 @@
    "lvl": "Analysis",
    "stem": "An 80-year-old client living alone is admitted with new confusion, dry mucous membranes, and dark concentrated urine. The client says, \"I just don't feel thirsty anymore, so I forget to drink.\" Which age-related change best explains this client's risk?",
    "opts": [
+    "A rising filtration rate that steadily flushes out body water and salt",
     "A blunted thirst sensation that lets fluid deficits build unnoticed",
     "An elevated metabolic rate that raises the client's baseline fluid needs",
-    "A heightened thirst drive that pushes the client toward overhydration",
-    "A rising filtration rate that steadily flushes out body water and salt"
+    "A heightened thirst drive that pushes the client toward overhydration"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Older adults have a blunted thirst sensation, so they under-drink and slip into dehydration before noticing, which matches this client's findings. Glomerular filtration falls with age rather than rising, thirst is decreased rather than heightened, and metabolic rate declines rather than climbing.",
    "strat": "Old + confused + dry membranes = think dehydration; the missing thirst cue is the trap."
   },
@@ -1379,16 +1379,16 @@
    "lvl": "Analysis",
    "stem": "A community-health nurse screens older adults living independently for malnutrition risk. Which findings should the nurse identify as increasing an older adult's risk for malnutrition? Select all that apply.",
    "opts": [
+    "Has several missing teeth and difficulty chewing many foods",
+    "Takes multiple medications that cause dry mouth and low appetite",
+    "Walks daily with neighbors and shares cooked meals on weekends",
     "Lives alone and reports eating most meals in isolation",
     "Keeps the home stocked with a variety of fresh and frozen foods",
-    "Relies on a fixed income and skips food to afford other bills",
-    "Has several missing teeth and difficulty chewing many foods",
-    "Walks daily with neighbors and shares cooked meals on weekends",
-    "Takes multiple medications that cause dry mouth and low appetite"
+    "Relies on a fixed income and skips food to afford other bills"
    ],
    "ans": [
     0,
-    2,
+    1,
     3,
     5
    ],
@@ -1403,12 +1403,12 @@
    "lvl": "Application",
    "stem": "A 75-year-old client asks which nutrients older adults most often fall short on, given the age-related decline in nutrient absorption and synthesis. The nurse's teaching should highlight which pair as commonly inadequate in this age group?",
    "opts": [
-    "The minerals sodium and chloride",
     "Vitamin C and vitamin K",
     "Vitamin B12 and vitamin D",
+    "The minerals sodium and chloride",
     "The B vitamins niacin and biotin"
    ],
-   "ans": 2,
+   "ans": 1,
    "rat": "Aging reduces the ability to absorb and synthesize nutrients, leaving older adults at particular risk for inadequate vitamin B12 and vitamin D. Vitamins C and K, niacin/biotin, and sodium/chloride are not the classic at-risk nutrients of aging, and sodium is more often consumed in excess.",
    "strat": "Older-adult deficiency pair to memorize: B12 and D."
   },
@@ -1420,12 +1420,12 @@
    "lvl": "Analysis",
    "stem": "A nurse cares for an older client with Parkinson's disease who coughs and has a wet, gurgly voice after sips of thin tea. The client lives alone and prefers soft foods. Which action should the nurse prioritize?",
    "opts": [
-    "Request a professional swallowing evaluation before more oral intake",
-    "Add hard raw vegetables to meals to help strengthen the chewing muscles",
     "Have the client recline at a 30-degree angle while eating to ease swallowing",
-    "Encourage extra thin liquids between meals so the client stays hydrated"
+    "Encourage extra thin liquids between meals so the client stays hydrated",
+    "Request a professional swallowing evaluation before more oral intake",
+    "Add hard raw vegetables to meals to help strengthen the chewing muscles"
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "Coughing and a wet, gurgly voice after thin liquids are warning signs of dysphagia and aspiration risk; a swallowing evaluation guides safe texture modification and must come before more oral intake (safety, assess-before-intervene). Pushing thin liquids, reclining while eating, and hard raw foods each increase aspiration or choking risk.",
    "strat": "Wet voice + cough after liquids = dysphagia red flag; stop and get a swallow eval before feeding more."
   },
@@ -1437,9 +1437,9 @@
    "lvl": "Analysis",
    "stem": "A home care nurse assesses a three-generation household at one visit. Which family member needs the nurse's follow-up FIRST for a current nutrition-related problem?\n\n- A 33-year-old who is 9 weeks pregnant and continues eating sushi and sashimi made with raw fish\n- An 8-year-old who avoids all dairy products but is offered other foods at meals\n- An 11-year-old who eats fruit and carrots but refuses most other vegetables\n- A 34-year-old in good health who eats a varied, balanced diet",
    "opts": [
+    "The 34-year-old healthy parent who eats a balanced, varied diet",
     "The 8-year-old who avoids all dairy but is offered other foods",
     "The 11-year-old who refuses most vegetables but does eat fruit",
-    "The 34-year-old healthy parent who eats a balanced, varied diet",
     "The 33-year-old who is 9 weeks pregnant and eating raw fish"
    ],
    "ans": 3,
@@ -1454,12 +1454,12 @@
    "lvl": "Application",
    "stem": "A client who is 9 weeks pregnant tells the nurse that sushi, poke, and sashimi are her favorite foods and part of her family's culture. Which response by the nurse is most appropriate?",
    "opts": [
-    "\"You will need to give up those favorite dishes entirely until well after the baby is born.\"",
     "\"Let's find cooked versions of those dishes so you can keep your traditions safely.\"",
+    "\"Eating raw fish is a personal choice, so keep enjoying the dishes if they matter to you.\"",
     "\"Those raw dishes are fine in small amounts as long as you eat them only about once a week.\"",
-    "\"Eating raw fish is a personal choice, so keep enjoying the dishes if they matter to you.\""
+    "\"You will need to give up those favorite dishes entirely until well after the baby is born.\""
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "Effective teaching pairs the safety rule (avoid raw fish in pregnancy) with the client's culture by adapting dishes to cooked versions, supporting both adherence and cultural identity. Telling her to give up the dishes entirely is unnecessary since cooked versions are safe; permitting small or weekly amounts of raw fish is still unsafe; and endorsing continued raw fish ignores the fetal risk.",
    "strat": "Best teaching keeps the client's culture while changing only the unsafe part - adapt, don't forbid."
   },
@@ -1507,18 +1507,18 @@
    "lvl": "Application",
    "stem": "An 88-year-old client with hypertension wears full dentures and is starting the DASH eating plan. Which actions should the nurse include to support his nutrition and adherence? Select all that apply.",
    "opts": [
+    "Teach that red meats and sweets are allowed in small amounts",
     "Arrange a dental evaluation to refit his dentures for chewing",
     "Adapt the low-sodium plan to his cultural food preferences",
-    "Teach that red meats and sweets are allowed in small amounts",
-    "Tell him to add table salt to improve the taste of bland foods",
+    "Emphasize fruits, vegetables, whole grains, and low-fat dairy",
     "Have him eliminate all dairy products to lower sodium intake",
-    "Emphasize fruits, vegetables, whole grains, and low-fat dairy"
+    "Tell him to add table salt to improve the taste of bland foods"
    ],
    "ans": [
     0,
     1,
     2,
-    5
+    3
    ],
    "rat": "DASH emphasizes fruits, vegetables, whole grains, and low-fat dairy while allowing red meat and sweets in small amounts, and adapting it to culture improves adherence. Refitting dentures supports chewing and intake in an older adult. Eliminating all dairy is wrong - low-fat dairy is a DASH component - and adding table salt undermines the low-sodium goal.",
    "strat": "DASH limits sodium, not dairy; fix the dentures so the older adult can actually eat the plan."
@@ -1531,12 +1531,12 @@
    "lvl": "Evaluation",
    "stem": "Six months after nutrition teaching, the nurse evaluates a pregnant client's progress. She gained 4 pounds in the first trimester, then about 1 pound per week, for a total of 33 pounds from her pre-pregnancy weight, and she avoids raw fish. Which conclusion is best supported?",
    "opts": [
-    "Gestational weight gain and food safety are within expected limits; reinforce current habits",
-    "The first-trimester gain was inadequate and indicates poor fetal growth that needs urgent referral",
+    "Weight gain is acceptable but raw-fish avoidance shows the teaching about safe foods failed",
     "The total weight gain is excessive and the client should restrict calories for the rest of the pregnancy",
-    "Weight gain is acceptable but raw-fish avoidance shows the teaching about safe foods failed"
+    "Gestational weight gain and food safety are within expected limits; reinforce current habits",
+    "The first-trimester gain was inadequate and indicates poor fetal growth that needs urgent referral"
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "A modest first-trimester gain followed by roughly 1 pound per week, totaling about 33 pounds, falls within the normal range for a single pregnancy, and avoiding raw fish shows the safety teaching worked - so the plan is effective and should be reinforced. The total is not excessive, the early gain is normal rather than a growth emergency, and avoiding raw fish is the desired outcome, not a failure.",
    "strat": "On an outcome question, compare the data to the expected pattern before calling it a problem - normal weight gain plus a safe diet equals success."
   },
@@ -1547,12 +1547,12 @@
    "lvl": "Analysis",
    "stem": "A community nurse reviews recommended daily iron intake across several clients: a 2-year-old toddler (7 mg), a 16-year-old female (15 mg), a 30-year-old pregnant client (27 mg), and a 70-year-old man (8 mg).\n\nWhich client has the highest recommended iron intake, and what best explains it?",
    "opts": [
-    "The 16-year-old female, because the pubertal growth spurt is the period of greatest iron demand",
     "The pregnant client, because iron must support expanded maternal blood volume and fetal needs",
+    "The 16-year-old female, because the pubertal growth spurt is the period of greatest iron demand",
     "The 70-year-old man, because slowed peristalsis reduces iron absorption with age",
     "The toddler, because rapid early growth makes iron the limiting nutrient for development"
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "Pregnancy carries the highest recommended iron intake (27 mg) because iron supports the expanded maternal blood volume and the developing fetus. The adolescent female (15 mg) is high but second; the toddler (7 mg) is comparatively low; and reduced absorption in older adults raises intake needs in theory but the recommendation actually drops to 8 mg.",
    "strat": "When a need peaks, ask what physiologic demand is being added — pregnancy adds a whole second circulation."
   },
@@ -1566,29 +1566,29 @@
     {
      "label": "[1] Toddler → adolescence",
      "opts": [
-      "is cut in half",
       "roughly doubles",
-      "stays the same"
-     ],
-     "a": 1
-    },
-    {
-     "label": "[2] After menopause",
-     "opts": [
-      "falls back toward childhood levels",
-      "is unchanged",
-      "rises sharply"
+      "stays the same",
+      "is cut in half"
      ],
      "a": 0
     },
     {
-     "label": "[3] Main driver in reproductive years",
+     "label": "[2] After menopause",
      "opts": [
-      "lower physical activity",
-      "menstrual iron losses",
-      "declining stomach acid"
+      "is unchanged",
+      "falls back toward childhood levels",
+      "rises sharply"
      ],
      "a": 1
+    },
+    {
+     "label": "[3] Main driver in reproductive years",
+     "opts": [
+      "menstrual iron losses",
+      "lower physical activity",
+      "declining stomach acid"
+     ],
+     "a": 0
     }
    ],
    "rat": "Female iron need rises from 7 mg (toddler) to 15 mg (14–18 yr), roughly doubling, then drops to 8 mg at age 51+ as menstrual losses end. The elevated requirement through the reproductive years is driven chiefly by recurring menstrual blood loss, not by acid changes or activity level.",
@@ -1601,15 +1601,15 @@
    "lvl": "Application",
    "stem": "A nurse plans foodborne-illness teaching for a community center serving people of all ages. Which individuals should be identified as being at HIGHER risk for serious foodborne illness and prioritized for teaching?\n\nSelect all that apply.",
    "opts": [
-    "A client who is pregnant",
-    "A healthy, active 25-year-old",
-    "A child under 5 years of age",
+    "A client receiving chemotherapy",
     "An adult aged 65 and older",
-    "A client receiving chemotherapy"
+    "A healthy, active 25-year-old",
+    "A client who is pregnant",
+    "A child under 5 years of age"
    ],
    "ans": [
     0,
-    2,
+    1,
     3,
     4
    ],
@@ -1623,12 +1623,12 @@
    "lvl": "Analysis",
    "stem": "A nurse is developing food-asphyxiation prevention materials and explains that choking risk is not evenly distributed across the lifespan.\n\nWhich statement best reflects how this risk is distributed?",
    "opts": [
+    "Risk climbs steadily with advancing age and peaks in middle adulthood",
     "Only toddlers are at real risk, since adults chew and swallow maturely",
     "School-age children carry the highest risk, which then declines with age",
-    "Both toddlers and older adults face elevated risk, from different causes",
-    "Risk climbs steadily with advancing age and peaks in middle adulthood"
+    "Both toddlers and older adults face elevated risk, from different causes"
    ],
-   "ans": 2,
+   "ans": 3,
    "rat": "Choking can occur at any age, but risk concentrates at two ends of the lifespan: toddlers, whose chewing and swallowing skills are still developing, and older adults, in whom advanced age and coexisting conditions raise both the likelihood and the lethality of an event. It is not limited to toddlers, nor does it peak in school-age children or middle adulthood.",
    "strat": "When risk is 'U-shaped' across age, name the distinct mechanism at each end rather than picking one group."
   },
@@ -1639,12 +1639,12 @@
    "lvl": "Application",
    "stem": "A nurse refers clients to federal nutrition assistance programs. A low-income client who is pregnant asks which program is designed specifically for her life stage and that of her future infant.\n\nWhich program is the most appropriate referral?",
    "opts": [
+    "The Emergency Food Assistance Program (TEFAP), distributed through state food banks",
     "Women, Infants, and Children (WIC), which targets pregnancy and early childhood",
-    "The National School Lunch Program (NSLP), which serves enrolled school-age children",
     "Supplemental Nutrition Assistance Program (SNAP) benefits for grocery purchases",
-    "The Emergency Food Assistance Program (TEFAP), distributed through state food banks"
+    "The National School Lunch Program (NSLP), which serves enrolled school-age children"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "WIC is the program targeted to a specific lifespan window — low-income pregnant, breastfeeding, and postpartum women, plus infants and children up to age 5 at nutritional risk — providing supplemental foods, referrals, and nutrition education. NSLP serves school-age children, while SNAP and TEFAP address food insecurity broadly without targeting this stage.",
    "strat": "Match the program to the life stage in its name — WIC literally names Women, Infants, and Children."
   },
@@ -1670,11 +1670,11 @@
    "stem": "The nurse is monitoring the protein status of a client receiving a nutrition intervention. Serial biochemical (laboratory) values are recorded:\n\n• Admission: albumin 2.6 g/dL, prealbumin 9 mg/dL\n• Week 2: albumin 3.0 g/dL, prealbumin 14 mg/dL\n• Week 4: albumin 3.4 g/dL, prealbumin 19 mg/dL\n\nWhich interpretation of this trend is most accurate?",
    "opts": [
     "The protein markers are falling over time, so the client's protein status is steadily worsening",
+    "The values are all within normal limits, so no nutritional concern was present on admission",
     "The values mainly reflect kidney function rather than protein status and therefore should not be trended",
-    "The protein markers are rising over time, so the nutrition intervention is improving protein status",
-    "The values are all within normal limits, so no nutritional concern was present on admission"
+    "The protein markers are rising over time, so the nutrition intervention is improving protein status"
    ],
-   "ans": 2,
+   "ans": 3,
    "rat": "Albumin and prealbumin are the protein markers the guide places in the biochemical ('B') category, used to determine nutritional deficiencies; tracking them over time is an anthropometric/biochemical evaluation outcome. Both values rise steadily across the three timepoints, indicating improving protein status and a working intervention. They are not falling, were clearly low on admission, and are protein — not renal — markers.",
    "strat": "On a trend item, read the direction across ALL timepoints before judging — a steady rise in protein markers means the intervention is working."
   },
@@ -1687,8 +1687,8 @@
    "stem": "A client is receiving parenteral nutrition through a peripherally-inserted central catheter (PICC) line. Which complication should the nurse recognize as the most common and serious risk of this therapy?",
    "opts": [
     "Catheter-related infection at the central line",
-    "Clogging of the feeding tube lumen",
     "Aspiration of the nutrition solution into the lungs",
+    "Clogging of the feeding tube lumen",
     "Abdominal distention and cramping"
    ],
    "ans": 0,
@@ -1705,15 +1705,15 @@
    "opts": [
     "The tube was placed because the client's upper GI tract is only partially functioning",
     "The client has vomited a small amount of tube-feeding formula",
-    "The feedings are being counted as intake on the intake and output (I&O) record",
+    "A variety of enteral formulas are commercially available for tube feeding",
     "The head of the bed has been lowered flat for linen changes and not raised again",
-    "The client is reporting nausea and the abdomen appears distended",
-    "A variety of enteral formulas are commercially available for tube feeding"
+    "The feedings are being counted as intake on the intake and output (I&O) record",
+    "The client is reporting nausea and the abdomen appears distended"
    ],
    "ans": [
     1,
     3,
-    4
+    5
    ],
    "rat": "Nausea, abdominal distention, and vomiting are GI complications of enteral feeding the guide lists, and a flat head of bed is a setup for aspiration during feeding — all are relevant cues. Counting feedings as I&O, the availability of many formulas, and the indication for tube placement are true background facts from the guide but are not abnormal cues that change the picture for this client.",
    "strat": "A 'cue' is data that is abnormal or changes the plan — separate it from true-but-routine background information."
@@ -1726,10 +1726,10 @@
    "lvl": "Analysis",
    "stem": "CASE (2/6) Analyze cues. The nurse links the cues together: the client has nausea, abdominal distention, vomited formula, and the head of the bed is flat. Which explanation best accounts for this cluster of findings?",
    "opts": [
+    "An expected response to continuous enteral feeding that needs no change",
     "A catheter-related bloodstream infection from the central feeding access",
-    "Dehydration caused by inadequate free-water intake through the tube",
     "Feeding intolerance with GI complications and aspiration risk",
-    "An expected response to continuous enteral feeding that needs no change"
+    "Dehydration caused by inadequate free-water intake through the tube"
    ],
    "ans": 2,
    "rat": "Nausea, distention, and vomiting are the GI complications of tube feeding the guide names, and with the head of the bed flat the vomited formula puts the client at risk for aspiration — together this is feeding intolerance. The access is an NG tube, not a central catheter, so bloodstream infection does not fit; vomiting formula is not an expected finding; and dehydration would not explain the nausea and distention.",
@@ -1743,12 +1743,12 @@
    "lvl": "Analysis",
    "stem": "CASE (3/6) Prioritize hypotheses. Considering the client's vomiting of formula with the head of the bed flat, which concern should the nurse rank as the highest priority?",
    "opts": [
-    "Diarrhea from the enteral formula",
-    "Slowed progress toward the client's weight goal",
     "Clogging of the nasogastric tube",
-    "Aspiration of formula into the airway"
+    "Aspiration of formula into the airway",
+    "Slowed progress toward the client's weight goal",
+    "Diarrhea from the enteral formula"
    ],
-   "ans": 3,
+   "ans": 1,
    "rat": "The guide repeatedly stresses positioning to prevent aspiration, and aspiration is the mechanical complication that threatens the airway — by an airway/safety framework it outranks the others. Diarrhea, a clogged tube, and slow weight gain are real enteral concerns from the guide but none is an immediate threat to airway or breathing.",
    "strat": "When one hypothesis threatens the airway, it wins the priority — aspiration outranks GI tolerance and equipment issues."
   },
@@ -1761,8 +1761,8 @@
    "stem": "CASE (4/6) Generate solutions (bowtie). Choose the central problem, two actions, and two parameters to monitor for this client — all drawn from safe enteral feeding practice.",
    "problem": {
     "opts": [
-     "Catheter-related bloodstream infection",
      "Deficient fluid volume from diuresis",
+     "Catheter-related bloodstream infection",
      "Feeding intolerance with aspiration risk"
     ],
     "a": 2
@@ -1770,25 +1770,25 @@
    "actions": {
     "opts": [
      "Increase the feeding rate to meet the daily calorie goal sooner",
+     "Verify tube placement before giving any feeding or medication",
      "Flush the tube with the parenteral solution to clear it",
-     "Place the client in a semi-Fowler's position during and after the feeding",
-     "Verify tube placement before giving any feeding or medication"
+     "Place the client in a semi-Fowler's position during and after the feeding"
     ],
     "ans": [
-     2,
+     1,
      3
     ]
    },
    "params": {
     "opts": [
-     "Nausea, vomiting, and abdominal distention",
+     "Central line insertion site for redness",
      "Head circumference",
      "Gastric residual amount",
-     "Central line insertion site for redness"
+     "Nausea, vomiting, and abdominal distention"
     ],
     "ans": [
-     0,
-     2
+     2,
+     3
     ]
    },
    "rat": "The problem is feeding intolerance with aspiration risk. Safe enteral care from the guide means keeping the client in semi-Fowler's during and after feeding and verifying placement before instilling anything, while monitoring gastric residual (to prevent over-inflation of the stomach) and the GI tolerance signs of nausea, vomiting, and distention. A central-line site and head circumference belong to other situations, and raising the rate or flushing with parenteral solution are unsafe distractors.",
@@ -1802,15 +1802,15 @@
    "lvl": "Application",
    "stem": "CASE (5/6) Take action. The nurse intervenes to manage the feeding intolerance and aspiration risk. Which actions are appropriate? Select all that apply.",
    "opts": [
-    "Verify correct tube placement before resuming the feeding or giving medications",
-    "Keep the head of the bed elevated in semi-Fowler's during and after the feeding",
     "Lay the client flat to make them more comfortable during the feeding",
+    "Keep the head of the bed elevated in semi-Fowler's during and after the feeding",
     "Continue the current rate without reassessing because feedings count as intake",
+    "Verify correct tube placement before resuming the feeding or giving medications",
     "Check the gastric residual to prevent over-inflation of the stomach"
    ],
    "ans": [
-    0,
     1,
+    3,
     4
    ],
    "rat": "Semi-Fowler's positioning during and after feeding, verifying placement before instilling anything, and checking gastric residual to prevent over-inflation are the safe-care steps the guide specifies for enteral feeding. Laying the client flat increases aspiration risk, and continuing unchanged ignores the intolerance — both are realistic but unsafe errors.",
@@ -1824,12 +1824,12 @@
    "lvl": "Evaluation",
    "stem": "CASE (6/6) Evaluate outcomes. After the nurse's interventions, which reassessment finding best indicates that the plan for this client is working?",
    "opts": [
-    "The feeding is now infusing at a noticeably faster rate than it was before",
-    "The client now tolerates the feeding with no nausea, vomiting, or distention",
+    "The gastric residual has increased compared with the value at the previous check",
     "The client still reports mild nausea, although the abdomen is no longer distended",
-    "The gastric residual has increased compared with the value at the previous check"
+    "The client now tolerates the feeding with no nausea, vomiting, or distention",
+    "The feeding is now infusing at a noticeably faster rate than it was before"
    ],
-   "ans": 1,
+   "ans": 2,
    "rat": "Resolution of the GI complications (no nausea, vomiting, or distention) with the client kept upright shows the feeding intolerance and aspiration risk are resolving — a monitoring-and-evaluation outcome from the guide. Persistent nausea is only a partial improvement, a faster rate does not show tolerance, and a rising residual signals worsening rather than improvement.",
    "strat": "Judge the outcome against the original problem — the goal was tolerating the feeding safely, so look for the cues to have cleared, not just partly eased."
   },
@@ -1844,20 +1844,20 @@
     {
      "label": "[1] Clear liquid allowed item",
      "opts": [
+      "vanilla pudding",
       "strained cream of mushroom soup",
-      "beef bouillon and gelatin",
-      "vanilla pudding"
+      "beef bouillon and gelatin"
      ],
-     "a": 1
+     "a": 2
     },
     {
      "label": "[2] First item added on full liquid",
      "opts": [
-      "scrambled eggs",
       "smooth ice cream and custard",
+      "scrambled eggs",
       "buttered white toast"
      ],
-     "a": 1
+     "a": 0
     }
    ],
    "rat": "A clear liquid diet allows liquids you can see through — broth, bouillon, gelatin, clear juice — to maintain fluid balance after surgery or vomiting. A full liquid diet is the next step and adds smooth dairy items such as ice cream, custards, and strained cream soups. Cream soup and pudding are full-liquid, not clear; eggs and toast are solids that belong to a soft or regular diet, several steps later.",
@@ -1871,12 +1871,12 @@
    "lvl": "Application",
    "stem": "A client is being advanced from a clear liquid diet back toward a regular diet after an episode of acute gastroenteritis. Which sequence reflects the correct order of diet advancement?",
    "opts": [
+    "Clear liquid, then full liquid, then pureed/mechanical soft, then regular",
     "Clear liquid, then regular, then full liquid, then pureed/mechanical soft",
     "Clear liquid, then pureed/mechanical soft, then full liquid, then regular",
-    "Full liquid, then clear liquid, then regular, then pureed/mechanical soft",
-    "Clear liquid, then full liquid, then pureed/mechanical soft, then regular"
+    "Full liquid, then clear liquid, then regular, then pureed/mechanical soft"
    ],
-   "ans": 3,
+   "ans": 0,
    "rat": "Diets are advanced from least to most digestive workload: clear liquid (see-through) to full liquid (smooth dairy added) to pureed/mechanical soft (food that needs little or no chewing) to regular. The other sequences place a thicker or harder-to-digest texture before an easier one, which is not how tolerance is built.",
    "strat": "Advance thin-to-thick, easy-to-hard: clear, full, soft/pureed, regular."
   },
@@ -1888,12 +1888,12 @@
    "lvl": "Analysis",
    "stem": "A client who had a stroke was evaluated by speech therapy and placed on a mildly thick (IDDSI Level 2) liquid and minced-and-moist (Level 5) food diet for dysphagia. At lunch the nurse observes the client coughing and clearing the throat after each sip of the thickened juice and notices a wet, gurgly voice. Which action should the nurse take first?",
    "opts": [
-    "Thin the juice with extra water so it slides down more easily for the client",
     "Encourage the client to drink faster to clear the liquid through quickly",
-    "Stop the oral intake and keep the client upright to protect the airway",
-    "Switch the client to thin liquids since the thick juice causes coughing"
+    "Thin the juice with extra water so it slides down more easily for the client",
+    "Switch the client to thin liquids since the thick juice causes coughing",
+    "Stop the oral intake and keep the client upright to protect the airway"
    ],
-   "ans": 2,
+   "ans": 3,
    "rat": "Coughing, throat-clearing, and a wet/gurgly voice are signs the thickened liquid is being aspirated; the priority is to stop intake and protect the airway (ABCs) before reassessing. Thinning the liquid or moving to thin liquids increases aspiration risk in dysphagia, and urging faster drinking worsens it.",
    "strat": "Wet voice + coughing on liquids = aspiration. Stop feeding, protect the airway first; thin liquids are riskier, not safer."
   },
@@ -1946,14 +1946,14 @@
    "stem": "A client with heart failure and hypertension is being taught a low-sodium diet that pairs with the DASH approach. Which client statements indicate correct understanding? Select all that apply.",
    "opts": [
     "\"I'll switch from fresh chicken to canned ravioli and frozen dinners for convenience.\"",
-    "\"Adding soy sauce instead of salt is a good low-sodium swap.\"",
+    "\"I'll build meals around fruits, vegetables, and low-fat dairy.\"",
     "\"I'll season my food with herbs and spices instead of salt.\"",
-    "\"I'll read the nutrition label, since most of my sodium comes from processed and prepared foods.\"",
-    "\"I'll build meals around fruits, vegetables, and low-fat dairy.\""
+    "\"Adding soy sauce instead of salt is a good low-sodium swap.\"",
+    "\"I'll read the nutrition label, since most of my sodium comes from processed and prepared foods.\""
    ],
    "ans": [
+    1,
     2,
-    3,
     4
    ],
    "rat": "Using herbs/spices, reading labels (about 77% of sodium is from processed/prepared foods), and centering meals on fruits, vegetables, and low-fat dairy are all consistent with a low-sodium DASH pattern. Canned entrees and frozen dinners are named high-sodium foods, and soy sauce is explicitly high in sodium — both are common errors, not improvements.",
@@ -1967,16 +1967,16 @@
    "lvl": "Application",
    "stem": "A client newly diagnosed with celiac disease asks the nurse which foods may contain hidden gluten. Which items should the nurse tell the client to check labels on or avoid? Select all that apply.",
    "opts": [
-    "Beer",
-    "Canned soups and gravies",
     "Plain grilled chicken breast",
+    "Fresh apples and grapes",
+    "Canned soups and gravies",
     "Soy sauce",
-    "Fresh apples and grapes"
+    "Beer"
    ],
    "ans": [
-    0,
-    1,
-    3
+    2,
+    3,
+    4
    ],
    "rat": "Soy sauce, beer, and canned soups/gravies are listed as common sources of hidden gluten because they contain or are processed with wheat, barley, or malt. Plain chicken and fresh fruit are naturally gluten-free whole foods and do not require label-checking for gluten, so flagging them reflects over-restriction rather than the actual hidden-gluten risk.",
    "strat": "Hidden gluten hides in processed liquids and sauces — soy sauce, beer, soups, gravy. Naturally single-ingredient whole foods are safe."
@@ -1989,10 +1989,10 @@
    "lvl": "Application",
    "stem": "A client with type 2 diabetes is using the Diabetes Plate Method and shows the nurse a photo of dinner: half the 9-inch plate is fried chicken, one quarter is white rice, and one quarter is buttered corn, with a regular soda. Which adjustment best aligns the meal with the plate method?",
    "opts": [
-    "Keep the plate as is but add a large glass of fruit juice on the side",
+    "Remove the protein entirely and replace that quarter with a second serving of rice",
     "Fill half the plate with non-starchy vegetables and swap the soda for water",
     "Double the rice and corn so the plate is mostly carbohydrate for energy",
-    "Remove the protein entirely and replace that quarter with a second serving of rice"
+    "Keep the plate as is but add a large glass of fruit juice on the side"
    ],
    "ans": 1,
    "rat": "The Diabetes Plate Method fills half the plate with non-starchy vegetables, one quarter with lean protein, one quarter with carbohydrate, and pairs it with water or a low-calorie drink. This meal has no non-starchy vegetables and a sugary soda, so adding vegetables and switching to water is the correct fix. Removing protein, doubling carbohydrate, or adding juice all worsen the carbohydrate-to-vegetable balance and raise blood glucose.",
@@ -2006,9 +2006,9 @@
    "lvl": "Analysis",
    "stem": "Two clients have new diet orders. Client A has an inflamed, irritated bowel after recent surgery; Client B is managing chronic constipation and hemorrhoids. Which plan correctly matches each diet to the client?",
    "opts": [
-    "Client A on a high-fiber diet with a fluid restriction; Client B on a low-residue diet",
-    "Both clients on a high-fiber diet to keep the bowel moving",
     "Client A on a high-fiber diet with more fluids; Client B on a low-fiber (low-residue) diet",
+    "Both clients on a high-fiber diet to keep the bowel moving",
+    "Client A on a high-fiber diet with a fluid restriction; Client B on a low-residue diet",
     "Client A on a low-fiber (low-residue) diet; Client B on a high-fiber diet with more fluids"
    ],
    "ans": 3,
@@ -2023,12 +2023,12 @@
    "lvl": "Application",
    "stem": "A client newly started on warfarin tells the nurse, \"I eat a big spinach-and-kale salad most days, but I'll just cut all leafy greens out completely now.\" Which response by the nurse is most appropriate?",
    "opts": [
-    "\"Eat extra leafy greens so the added vitamin K makes the warfarin work harder.\"",
     "\"Leafy greens have no real effect on warfarin, so eat whatever amount you like.\"",
+    "\"Try to keep your leafy-green intake about the same amount from day to day.\"",
     "\"Cutting greens out of your diet is the safest plan now that you take warfarin.\"",
-    "\"Try to keep your leafy-green intake about the same amount from day to day.\""
+    "\"Eat extra leafy greens so the added vitamin K makes the warfarin work harder.\""
    ],
-   "ans": 3,
+   "ans": 1,
    "rat": "Vitamin K is the antidote that opposes warfarin, so it is the day-to-day consistency of vitamin K intake — not avoidance — that keeps the INR stable; suddenly eliminating greens raises the warfarin effect just as suddenly bingeing lowers it. Cutting greens out or doubling them both swing the INR, and greens clearly do affect warfarin.",
    "strat": "Warfarin + vitamin K = keep intake STEADY, not zero — big swings either way move the INR."
   },
@@ -2040,17 +2040,17 @@
    "lvl": "Analysis",
    "stem": "A client is being discharged on phenelzine, a monoamine oxidase inhibitor (MAOI), for depression. The nurse teaches the client to avoid tyramine-containing foods to prevent a hypertensive crisis. Which foods should the nurse instruct the client to avoid? Select all that apply.",
    "opts": [
-    "Cured and smoked meats such as salami and pepperoni",
-    "Tap water and decaffeinated herbal tea",
-    "Aged cheddar and blue cheese",
-    "Fresh chicken breast cooked the same day",
     "Fermented foods such as sauerkraut and soy sauce",
-    "White rice and plain pasta"
+    "Cured and smoked meats such as salami and pepperoni",
+    "Aged cheddar and blue cheese",
+    "Tap water and decaffeinated herbal tea",
+    "White rice and plain pasta",
+    "Fresh chicken breast cooked the same day"
    ],
    "ans": [
     0,
-    2,
-    4
+    1,
+    2
    ],
    "rat": "Tyramine accumulates in aged, cured, smoked, and fermented foods; with an MAOI blocking its breakdown, tyramine drives vasoconstriction and a hypertensive crisis. Freshly cooked meats, plain grains, and water are low in tyramine and are safe.",
    "strat": "Tyramine = AGED / cured / fermented. \"If it's been sitting and ripening, skip it on an MAOI.\""
@@ -2063,12 +2063,12 @@
    "lvl": "Analysis",
    "stem": "A client taking a statin reports drinking a large glass of grapefruit juice every morning with the medication. The nurse explains the interaction. Which statement best describes why this combination is a concern?",
    "opts": [
-    "Grapefruit speeds up the liver enzymes that break the drug down, so it is cleared too fast",
     "Grapefruit blocks liver enzymes that break the drug down, so more drug stays active",
+    "Grapefruit speeds up the liver enzymes that break the drug down, so it is cleared too fast",
     "Grapefruit binds the drug in the stomach and carries it out before much is absorbed",
     "Grapefruit changes the drug's chemical structure so it gradually loses its effect"
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "Grapefruit inhibits the cytochrome P450 enzymes that metabolize many drugs, so the drug is broken down more slowly, accumulates, and can reach toxic levels — with statins this raises the risk of muscle injury. It does not induce (speed up) metabolism, chelate the drug, or chemically inactivate it.",
    "strat": "Grapefruit jams CYP450 → drug piles up → toxicity. Think \"blocked enzyme = higher drug level.\""
   },
@@ -2080,8 +2080,8 @@
    "lvl": "Application",
    "stem": "A client is prescribed an oral tetracycline antibiotic and asks the nurse how to take it. The client routinely drinks a glass of milk and takes a calcium supplement at breakfast. Which instruction should the nurse give?",
    "opts": [
-    "Stop the calcium supplement and avoid all dairy for the entire course of antibiotics",
     "Take the antibiotic together with the milk and calcium to protect the stomach lining",
+    "Stop the calcium supplement and avoid all dairy for the entire course of antibiotics",
     "Separate the antibiotic from milk and the calcium supplement by a couple of hours",
     "Take the calcium supplement at the exact same time so both are absorbed together"
    ],
@@ -2097,8 +2097,8 @@
    "lvl": "Application",
    "stem": "A nurse teaches a client newly prescribed levothyroxine how to take it. The client also takes a calcium and iron supplement. Which instruction reflects correct administration?",
    "opts": [
-    "Take it at bedtime right after the calcium and iron, with a light snack to settle it",
     "Take it whenever it is convenient, since meal timing has no effect on how it is absorbed",
+    "Take it at bedtime right after the calcium and iron, with a light snack to settle it",
     "Take it with breakfast alongside the calcium and iron so the food prevents stomach upset",
     "Take it on an empty stomach before breakfast, apart from the calcium and iron"
    ],
@@ -2148,10 +2148,10 @@
    "lvl": "Analysis",
    "stem": "A 77-year-old client has taken digoxin with water for several months with good results. At a clinic visit a low calcium level is found, and a calcium supplement is added without a full medication review. Two weeks later the client returns to the emergency department with nausea, visual changes, and a slow, irregular pulse. Which conclusion best explains this client's presentation?",
    "opts": [
-    "The calcium corrected the deficiency, and these are the expected effects of a normal calcium level",
     "The findings are unrelated to medications and reflect normal aging of the heart",
+    "The calcium supplement blocked digoxin absorption, so the client is showing signs of an under-dose",
     "Adding calcium without reviewing the interaction with digoxin contributed to digoxin toxicity",
-    "The calcium supplement blocked digoxin absorption, so the client is showing signs of an under-dose"
+    "The calcium corrected the deficiency, and these are the expected effects of a normal calcium level"
    ],
    "ans": 2,
    "rat": "The client shows classic digoxin toxicity (nausea, visual changes, bradydysrhythmia); calcium was added without a medication review that would have flagged its interaction with digoxin, so the missed interaction contributed to toxicity. The presentation is excess effect, not an under-dose, is clearly medication-related rather than normal aging, and these are not expected effects of a normal calcium level.",
@@ -2165,11 +2165,11 @@
    "stem": "A nurse is teaching a 30-year-old client who is 24 weeks pregnant about foods to avoid because of her higher risk for serious foodborne illness. The client lists several lunch options she enjoys. Which choice should the nurse advise her to avoid?",
    "opts": [
     "A firm hard-boiled egg she peels and eats with whole-grain crackers",
-    "A cup of pasteurized plain yogurt topped with rinsed fresh berries",
     "A turkey sandwich layered with unpasteurized soft cheese",
-    "A fresh apple she rinses well under cool running water before eating"
+    "A fresh apple she rinses well under cool running water before eating",
+    "A cup of pasteurized plain yogurt topped with rinsed fresh berries"
    ],
-   "ans": 2,
+   "ans": 1,
    "rat": "Pregnant clients are a high-risk group; unpasteurized (raw-milk) soft cheese can carry Listeria, which crosses the placenta and threatens the fetus, so it should be avoided. Washed produce, pasteurized yogurt, and a fully cooked egg are safe and encouraged — they are distractors because clients may overgeneralize 'avoid dairy, fruit, and eggs.'",
    "strat": "In pregnancy, the unpasteurized or raw item is the one to cut, not the cooked or pasteurized food."
   },
@@ -2213,12 +2213,12 @@
    "lvl": "Analysis",
    "stem": "At a family picnic, a nurse notices a tray of cooked chicken has been sitting on a buffet table in the sun for about 3 hours at roughly 85 °F (29 °C). The host asks whether the chicken is still safe to eat. Which response by the nurse is best?",
    "opts": [
-    "\"It is fine to keep serving as long as no one has noticed an off smell or any change in its color yet.\"",
-    "\"It is perfectly safe to eat, since it was thoroughly cooked all the way through earlier this same afternoon.\"",
     "\"Throw it out — food left over 2 hours in the danger zone grows bacteria.\"",
+    "\"It is perfectly safe to eat, since it was thoroughly cooked all the way through earlier this same afternoon.\"",
+    "\"It is fine to keep serving as long as no one has noticed an off smell or any change in its color yet.\"",
     "\"Just reheat it in the microwave for a minute or two and it will be perfectly safe to serve again.\""
    ],
-   "ans": 2,
+   "ans": 0,
    "rat": "Bacteria multiply rapidly between 40 °F and 140 °F (the danger zone); perishable food held there longer than 2 hours should be discarded. Thorough earlier cooking does not protect food that later sits warm, reheating does not undo toxin buildup, and many pathogens produce no change in smell, color, or taste — these are common reasoning errors.",
    "strat": "Time + temperature, not appearance: over 2 hours in the 40-140 °F danger zone means discard it."
   },
@@ -2229,18 +2229,18 @@
    "lvl": "Application",
    "stem": "A nurse is teaching a client the four steps to prevent foodborne illness — clean, separate, cook, and chill. Which client statements indicate correct understanding? Select all that apply.",
    "opts": [
-    "\"I will refrigerate leftovers within 2 hours of cooking.\"",
     "\"I will keep my refrigerator at or below 40 °F (4 °C).\"",
-    "\"I will use separate cutting boards for raw meat and for fresh produce.\"",
     "\"I will rinse the raw chicken under the faucet before I cook it.\"",
+    "\"I will reuse the marinade from the raw beef as a sauce without boiling it.\"",
     "\"I will store raw chicken on the bottom shelf, below ready-to-eat foods.\"",
-    "\"I will reuse the marinade from the raw beef as a sauce without boiling it.\""
+    "\"I will use separate cutting boards for raw meat and for fresh produce.\"",
+    "\"I will refrigerate leftovers within 2 hours of cooking.\""
    ],
    "ans": [
     0,
-    1,
-    2,
-    4
+    3,
+    4,
+    5
    ],
    "rat": "Refrigerating within 2 hours, using separate boards, storing raw meat below ready-to-eat food, and keeping the fridge at or below 40 °F all follow clean-separate-cook-chill. Rinsing raw poultry actually splashes bacteria around the sink and is not recommended, and reusing raw-meat marinade without boiling it transfers live pathogens onto cooked food — both are frequent, plausible mistakes.",
    "strat": "Judge each statement on its own; the wrong ones spread germs (washing poultry, reusing raw marinade) rather than containing them."
@@ -2252,12 +2252,12 @@
    "lvl": "Analysis",
    "stem": "A client phones the clinic 2 days after a suspected foodborne illness. Which report should the nurse identify as most concerning and warranting evaluation by a healthcare provider?",
    "opts": [
-    "Bloody stools with a fever of 102.4 °F (39.1 °C)",
-    "Mild nausea relieved after sipping clear fluids",
+    "Loose stools twice yesterday that have now slowed down",
     "One episode of vomiting the first evening, none since",
-    "Loose stools twice yesterday that have now slowed down"
+    "Mild nausea relieved after sipping clear fluids",
+    "Bloody stools with a fever of 102.4 °F (39.1 °C)"
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "Bloody stools and a fever above 102 °F (38.9 °C) are warning signs of severe foodborne illness needing provider evaluation, as bloody diarrhea can signal infections such as E. coli that risk hemolytic uremic syndrome. Improving loose stools, nausea relieved by fluids, and a single early vomiting episode are mild, resolving symptoms — realistic distractors that mimic the concerning option in tone.",
    "strat": "Among GI complaints, the bleeding-plus-high-fever combination is the red flag; resolving or mild symptoms are reassuring."
   },
@@ -2269,10 +2269,10 @@
    "lvl": "Analysis",
    "stem": "A 67-year-old man with coronary artery disease and newly diagnosed mild right-sided heart failure returns to clinic. Over the past month his weight is up 7 pounds, he has +2 pitting edema in both legs and ankles, and he reports fatigue. His lungs are clear and his appetite is unchanged. Which interpretation of these findings should most guide the nurse's plan of care?",
    "opts": [
-    "The clear lungs confirm the added weight is lean muscle gain from rest",
+    "The weight gain shows his calorie intake finally meets his energy needs",
     "The fatigue and weight gain point to early protein-calorie undernutrition",
     "The weight gain reflects fluid retention from his heart failure",
-    "The weight gain shows his calorie intake finally meets his energy needs"
+    "The clear lungs confirm the added weight is lean muscle gain from rest"
    ],
    "ans": 2,
    "rat": "A 7-pound gain over one month with new bilateral pitting edema in a client with right-sided heart failure is fluid retention, not nutritional improvement, so sodium and fluid management drive the plan. Reading it as adequate calorie intake or as muscle gain misattributes edema weight to nutrition, and undernutrition is unsupported since his appetite and intake are unchanged.",
@@ -2287,9 +2287,9 @@
    "stem": "A clinic nurse reviews four clients seen this morning. Which client should the nurse contact FIRST?",
    "opts": [
     "A client on furosemide with new watery diarrhea, muscle cramps, and lightheadedness",
+    "A client with lactose intolerance asking which milk substitutes have the most calcium",
     "A client newly started on a low-sodium diet who wants a printed list of foods to avoid",
-    "A client on the DASH plan asking whether nuts and seeds are allowed with each lunch",
-    "A client with lactose intolerance asking which milk substitutes have the most calcium"
+    "A client on the DASH plan asking whether nuts and seeds are allowed with each lunch"
    ],
    "ans": 0,
    "rat": "Diarrhea plus muscle cramps and lightheadedness in a client on a loop diuretic signals possible volume depletion and hypokalemia, an unstable physiologic problem that outranks the others. The lactose, low-sodium, and DASH questions are routine teaching needs that are important but stable and can wait.",
@@ -2303,12 +2303,12 @@
    "lvl": "Analysis",
    "stem": "Two days after a family picnic, the 67-year-old client on furosemide calls the clinic. He has had worsening diarrhea since yesterday, a temperature of 100.8 degrees F (38 degrees C), and stomach cramps, and he says he feels weak and dizzy when he stands. Which action by the nurse is the priority?",
    "opts": [
-    "Have him add a daily sports drink at home and recheck with the clinic in about one week",
     "Tell him to hold all oral fluids until the diarrhea resolves so his stomach can rest",
+    "Advise him to be evaluated promptly for dehydration given the diarrhea and diuretic",
     "Tell him to take one extra dose of his furosemide to clear the leftover excess fluid",
-    "Advise him to be evaluated promptly for dehydration given the diarrhea and diuretic"
+    "Have him add a daily sports drink at home and recheck with the clinic in about one week"
    ],
-   "ans": 3,
+   "ans": 1,
    "rat": "Diarrhea and fever in a client already taking a loop diuretic compound fluid and electrolyte loss, and orthostatic dizziness suggests he is becoming volume depleted, so prompt evaluation is the priority. Holding fluids worsens dehydration, an extra diuretic dose deepens the fluid and potassium loss, and waiting a week with only a sports drink delays care for a client who is already symptomatic.",
    "strat": "When a diuretic and an acute GI illness stack fluid losses, escalate for evaluation - never withhold fluids or add diuretic."
   },
@@ -2320,18 +2320,18 @@
    "lvl": "Application",
    "stem": "An older adult who cannot meet needs orally is started on continuous enteral tube feedings. Which nursing actions support safe administration and monitoring? Select all that apply.",
    "opts": [
-    "Hang each formula bag for 24 hours at room temperature to reduce waste",
-    "Check gastric residual volume and tube placement per facility protocol",
-    "Flush the tube with water before and after medications and per protocol",
     "Monitor intake, output, daily weights, and electrolyte levels",
     "Give the ordered formula as a single rapid bolus to finish the feeding sooner",
-    "Keep the head of the bed elevated at least 30 degrees during the feeding"
+    "Keep the head of the bed elevated at least 30 degrees during the feeding",
+    "Flush the tube with water before and after medications and per protocol",
+    "Check gastric residual volume and tube placement per facility protocol",
+    "Hang each formula bag for 24 hours at room temperature to reduce waste"
    ],
    "ans": [
-    1,
+    0,
     2,
     3,
-    5
+    4
    ],
    "rat": "Elevating the head of the bed reduces aspiration, verifying placement and residuals confirms safe delivery, tracking I and O, weights, and electrolytes detects fluid and electrolyte shifts, and flushing keeps the tube patent. Hanging formula for a prolonged period at room temperature invites bacterial growth, and rapidly bolusing a continuous feeding causes cramping, diarrhea, and aspiration risk.",
    "strat": "Enteral safety = head up, placement and residual checked, flush to keep patent, and watch fluid/electrolytes - never rush the rate or let formula sit out."
@@ -2344,12 +2344,12 @@
    "lvl": "Application",
    "stem": "A client is receiving total parenteral nutrition through a central line. When the new bag is delayed and the current bag finishes early, which action by the nurse is most appropriate while waiting for pharmacy?",
    "opts": [
-    "Increase the next bag's rate later to make up the missed volume",
-    "Hang 10% dextrose at the same rate until the new TPN bag arrives",
     "Stop the infusion and flush the line, then restart when the bag is ready",
-    "Slow the remaining TPN to a keep-open rate to make the bag last longer"
+    "Increase the next bag's rate later to make up the missed volume",
+    "Slow the remaining TPN to a keep-open rate to make the bag last longer",
+    "Hang 10% dextrose at the same rate until the new TPN bag arrives"
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "Abruptly stopping TPN can cause rebound hypoglycemia, so hanging a dextrose solution at the same rate maintains the glucose load until the next bag is available. Stopping and flushing risks hypoglycemia, diluting or slowing the prescribed TPN alters the ordered nutrition, and doubling a later rate to catch up can cause hyperglycemia and fluid overload.",
    "strat": "Never let TPN run dry or stop cold - bridge with dextrose at the same rate to prevent rebound hypoglycemia."
   },
@@ -2361,12 +2361,12 @@
    "lvl": "Application",
    "stem": "A nurse is helping a client who has dysphagia after a stroke begin a meal. The speech-language pathologist has set a modified-texture diet. Which nursing action best protects this client during eating?",
    "opts": [
-    "Seat the client fully upright and stay to monitor for choking",
     "Offer thin liquids between bites to help wash food down",
-    "Let the client recline at 30 degrees to ease the workload of chewing",
-    "Encourage the client to eat quickly while assistance is available"
+    "Seat the client fully upright and stay to monitor for choking",
+    "Encourage the client to eat quickly while assistance is available",
+    "Let the client recline at 30 degrees to ease the workload of chewing"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Dysphagia carries a high risk of aspiration; the guide directs the nurse to have the client eat fully upright (aids swallowing), follow the SLP's texture orders, and monitor while eating in case of choking or aspiration. Reclining and rushing increase aspiration risk, and thin liquids are often the hardest consistency to control in dysphagia.",
    "strat": "Dysphagia = airway first: upright, supervised, and only the texture the SLP approved."
   },
@@ -2378,17 +2378,17 @@
    "lvl": "Analysis",
    "stem": "A nurse is screening older adults in a clinic. Which findings or statements should prompt the nurse to evaluate further for dysphagia? Select all that apply.",
    "opts": [
-    "The client states, \"I just figured trouble swallowing comes with getting old\"",
-    "The client reports a recent stroke with residual weakness",
     "The client says swallowing has gradually become harder over the past year",
+    "The client eats three balanced meals a day without coughing or choking",
     "The client has Parkinson's disease",
-    "The client eats three balanced meals a day without coughing or choking"
+    "The client reports a recent stroke with residual weakness",
+    "The client states, \"I just figured trouble swallowing comes with getting old\""
    ],
    "ans": [
     0,
-    1,
     2,
-    3
+    3,
+    4
    ],
    "rat": "Neurologic conditions such as Parkinson's disease and stroke, and a narrowing or weakening of the swallowing structures with age, are risk factors the guide names for dysphagia, so each warrants further assessment. The belief that swallowing trouble is a normal part of aging is itself a teaching opportunity, because the guide states dysphagia is NOT a normal part of aging. A client eating full meals with no coughing or choking shows no current swallowing difficulty.",
    "strat": "Risk factors and a 'normal aging' myth both flag for follow-up; an asymptomatic eater does not."
@@ -2442,11 +2442,11 @@
    "stem": "A client reports frequent belching and a sensation of trapped stomach gas. Which client habit should the nurse address first as a contributor to swallowed air?",
    "opts": [
     "Eating a serving of whole-grain wheat bread with every lunch",
-    "Drinking carbonated soft drinks and chewing gum often",
     "Having a small bowl of plain oatmeal at breakfast most mornings",
+    "Drinking carbonated soft drinks and chewing gum often",
     "Taking a relaxed 20-minute walk after the evening meal each night"
    ],
-   "ans": 1,
+   "ans": 2,
    "rat": "The guide attributes stomach gas to habits that let air enter and become trapped: carbonated drinks, eating too fast, smoking, chewing gum, and sucking on hard candy. Whole-grain bread is on the intestinal gas list rather than the swallowed-air list, and walking after a meal and plain oatmeal are not identified as causes of stomach gas.",
    "strat": "Swallowed-air gas = carbonation, gum, fast eating, candy, smoking."
   },
@@ -2461,29 +2461,29 @@
     {
      "label": "[1] Diet described",
      "opts": [
-      "Mediterranean diet",
       "low-residue diet",
-      "ketogenic diet"
-     ],
-     "a": 0
-    },
-    {
-     "label": "[2] Second diet",
-     "opts": [
-      "high-protein diet",
-      "clear liquid diet",
-      "DASH diet"
+      "ketogenic diet",
+      "Mediterranean diet"
      ],
      "a": 2
     },
     {
+     "label": "[2] Second diet",
+     "opts": [
+      "DASH diet",
+      "high-protein diet",
+      "clear liquid diet"
+     ],
+     "a": 0
+    },
+    {
      "label": "[3] DASH limits",
      "opts": [
-      "potassium",
       "sodium",
+      "potassium",
       "dietary fiber"
      ],
-     "a": 1
+     "a": 0
     }
    ],
    "rat": "The guide identifies the Mediterranean diet (olive oil as primary fat, abundant produce and grains) and the DASH diet as the two anti-inflammatory patterns recommended for GI health. DASH emphasizes minerals such as potassium, calcium, and magnesium and works by decreasing sodium, not fiber or potassium.",
@@ -2497,12 +2497,12 @@
    "lvl": "Analysis",
    "stem": "A nurse reviews orders for a client who needs a low-residue (low-fiber) diet for a GI disorder and notices a prior recommendation to follow the DASH eating plan. What does the nurse recognize about combining these?",
    "opts": [
-    "The DASH plan is ideal here, because its lower sodium content also keeps the fiber intake low",
     "The DASH plan conflicts here, because it is high in fiber while a low-residue diet is needed",
+    "The DASH plan should replace the low-residue order to give better control of GI inflammation",
     "The two plans are essentially interchangeable, since both are meant to reduce GI inflammation",
-    "The DASH plan should replace the low-residue order to give better control of GI inflammation"
+    "The DASH plan is ideal here, because its lower sodium content also keeps the fiber intake low"
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "The guide cautions that DASH is not appropriate for every GI disorder, specifically those requiring a low-residue (low-fiber) diet, because the DASH plan is built around a high fiber intake (about 30 g daily). Low sodium does not lower fiber, the two plans are not interchangeable, and a fiber-rich plan should not override a low-residue order.",
    "strat": "DASH is high-fiber, so it clashes with any low-residue order."
   },
@@ -2514,16 +2514,16 @@
    "lvl": "Analysis",
    "stem": "A nurse uses a 24-hour dietary recall to screen a newly admitted client's intake. Which limitations of this method should the nurse keep in mind when interpreting the results? Select all that apply.",
    "opts": [
-    "Snacks, sauces, and condiments are often underreported",
-    "Beverages may be left out unless the client is specifically prompted",
-    "The client may not recall the type or amount of food eaten",
     "The tool requires a multi-day inpatient stay before it can be completed",
-    "The last 24 hours may not reflect the client's usual intake"
+    "The client may not recall the type or amount of food eaten",
+    "Beverages may be left out unless the client is specifically prompted",
+    "The last 24 hours may not reflect the client's usual intake",
+    "Snacks, sauces, and condiments are often underreported"
    ],
    "ans": [
-    0,
     1,
     2,
+    3,
     4
    ],
    "rat": "The guide lists these drawbacks of the 24-hour recall: the person may not recall the type or amount eaten, a single day may be atypical, snacks/gravies/sauces/condiments are commonly underreported, and liquids are omitted unless the client is prompted. The recall covers only the prior day and does not require a multi-day stay, so that option is not a limitation.",
@@ -2577,17 +2577,17 @@
    "lvl": "Application",
    "stem": "A nurse is assisting a client with dysphagia at mealtime and is reinforcing measures to prevent aspiration. Which actions should the nurse take? Select all that apply.",
    "opts": [
-    "Keep the client sitting upright for a period of time after the meal is finished",
-    "Have the client sip liquids to wash down each mouthful of solid food",
-    "Position the client upright with the chin tucked toward the chest while eating",
-    "Offer small bites of about 1 teaspoon and allow 20 to 30 minutes for the meal",
     "Hold the chin up and the head tilted back to help the food slide down",
-    "Encourage the client to talk and socialize during each bite to stay relaxed"
+    "Offer small bites of about 1 teaspoon and allow 20 to 30 minutes for the meal",
+    "Keep the client sitting upright for a period of time after the meal is finished",
+    "Encourage the client to talk and socialize during each bite to stay relaxed",
+    "Have the client sip liquids to wash down each mouthful of solid food",
+    "Position the client upright with the chin tucked toward the chest while eating"
    ],
    "ans": [
-    0,
+    1,
     2,
-    3
+    5
    ],
    "rat": "Upright positioning with a chin tuck closes the airway and directs the bolus safely, small bites with unhurried time reduce the volume that can be aspirated, and staying upright after eating limits reflux and aspiration. Talking while eating opens the airway and invites aspiration; using liquids to wash down food moves it past an unprepared swallow (liquids only after the mouth is cleared); and tilting the head back opens the airway, the opposite of the protective chin-tuck.",
    "strat": "Aspiration precautions: sit up, chin DOWN, small slow bites, stay up afterward — never talk through a bite, wash food down, or tip the head back."
@@ -2600,18 +2600,18 @@
    "lvl": "Analysis",
    "stem": "CASE (1/6) Recognize cues. A 71-year-old client is three days post ischemic stroke and is eating a regular diet with thin liquids. The nurse observes the client during lunch and reviews the record.\n\nWhich findings are relevant cues of a swallowing problem? Select all that apply.",
    "opts": [
-    "Coughing and throat clearing each time the client sips thin liquids",
-    "Temperature 37.0 degrees C",
     "A wet, gurgly voice quality after swallowing",
+    "Coughing and throat clearing each time the client sips thin liquids",
     "Chewed food pocketed in the cheek on the affected side",
     "Blood pressure 132/78 mm Hg",
-    "Unintentional loss of 3 kg over the past two weeks"
+    "Unintentional loss of 3 kg over the past two weeks",
+    "Temperature 37.0 degrees C"
    ],
    "ans": [
     0,
+    1,
     2,
-    3,
-    5
+    4
    ],
    "rat": "Coughing or choking with thin liquids, a wet or gurgly voice (food resting on the vocal cords), pocketing food in the cheek, and unintended weight loss are classic manifestations of impaired swallowing and reduced intake after a stroke. The normal blood pressure and temperature are not cues of a swallowing disorder.",
    "strat": "Recognize cues: pull the swallowing red flags — cough with liquids, wet voice, pocketing, weight loss — and leave the normal vitals."
@@ -2624,12 +2624,12 @@
    "lvl": "Analysis",
    "stem": "CASE (2/6) Analyze cues. The same client coughs on thin liquids, has a wet voice after swallowing, pockets food, and has lost weight. The stroke has weakened the muscles involved in swallowing.\n\nHow should the nurse interpret these findings?",
    "opts": [
-    "Normal age-related slowing of swallowing that requires no dietary change",
-    "Impaired swallowing from the stroke, placing the client at aspiration risk",
     "An adverse effect of the stroke medications rather than a swallowing problem",
-    "Simple loss of appetite that should resolve once the client is less fatigued"
+    "Normal age-related slowing of swallowing that requires no dietary change",
+    "Simple loss of appetite that should resolve once the client is less fatigued",
+    "Impaired swallowing from the stroke, placing the client at aspiration risk"
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "Coughing on liquids, a wet voice, and pocketing together point to neuromuscular dysphagia from the stroke (impaired oral and pharyngeal control), which lets food and liquid enter the airway and creates aspiration risk. These are not normal aging, simple poor appetite, or a medication effect — the cluster of swallowing-specific findings names the problem.",
    "strat": "Cluster the cues: cough on liquids + wet voice + pocketing after a stroke = impaired swallow with aspiration risk."
   },
@@ -2641,12 +2641,12 @@
    "lvl": "Analysis",
    "stem": "CASE (3/6) Prioritize hypotheses. The nurse confirms the client has stroke-related dysphagia and is aspirating thin liquids.\n\nWhich risk is the priority concern for this client?",
    "opts": [
-    "Aspiration of food or liquid causing airway compromise and pneumonia",
     "Constipation from reduced dietary fiber while on a texture-modified diet",
-    "Pressure injury from sitting upright in a chair throughout each meal",
-    "Boredom and social isolation related to the newly restricted diet"
+    "Aspiration of food or liquid causing airway compromise and pneumonia",
+    "Boredom and social isolation related to the newly restricted diet",
+    "Pressure injury from sitting upright in a chair throughout each meal"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Aspiration is the priority because food or liquid entering the airway threatens breathing and can cause aspiration pneumonia — an airway/breathing problem outranks the others by the ABC framework. Constipation, pressure injury, and social isolation are real concerns with dysphagia but none is immediately life-threatening.",
    "strat": "Airway beats everything: aspiration is the danger that can kill, so it is the priority hypothesis."
   },
@@ -2667,22 +2667,22 @@
    },
    "actions": {
     "opts": [
-     "Resume thin liquids to keep the client well hydrated",
      "Feed the client quickly so the tray does not get cold",
+     "Provide thickened liquids and a texture-modified diet per the swallow evaluation",
      "Position the client upright and supervise feeding at every meal",
-     "Provide thickened liquids and a texture-modified diet per the swallow evaluation"
+     "Resume thin liquids to keep the client well hydrated"
     ],
     "ans": [
-     2,
-     3
+     1,
+     2
     ]
    },
    "params": {
     "opts": [
-     "Bowel sounds in all four quadrants",
-     "Daily weight and amount of food and fluid taken",
+     "Pupil size and reaction to light",
      "Lung sounds, oxygen saturation, and signs of coughing or choking",
-     "Pupil size and reaction to light"
+     "Daily weight and amount of food and fluid taken",
+     "Bowel sounds in all four quadrants"
     ],
     "ans": [
      1,
@@ -2700,16 +2700,16 @@
    "lvl": "Application",
    "stem": "CASE (5/6) Take action. The plan of care for aspiration risk is started. Which nursing actions are appropriate to implement for this client? Select all that apply.",
    "opts": [
-    "Encourage the client to recline after meals to ease digestive effort",
-    "Obtain a swallow evaluation and speech-language pathology referral",
-    "Cue the client to take small bites and dry-swallow between mouthfuls",
     "Keep the client sitting upright for at least 30 minutes after eating",
+    "Obtain a swallow evaluation and speech-language pathology referral",
+    "Encourage the client to recline after meals to ease digestive effort",
+    "Provide oral care before and after each of the client's meals",
     "Place the client in a high-Fowler's position before beginning the meal",
-    "Provide oral care before and after each of the client's meals"
+    "Cue the client to take small bites and dry-swallow between mouthfuls"
    ],
    "ans": [
+    0,
     1,
-    2,
     3,
     4,
     5
@@ -2727,10 +2727,10 @@
    "opts": [
     "The client coughs only occasionally on liquids but has lost another kilogram of weight",
     "The client finishes meals faster now that thin liquids have been returned to the tray",
-    "The lung sounds are clear, although the client is now eating only half of each meal",
-    "The client eats without coughing, the lungs are clear, and intake is maintained"
+    "The client eats without coughing, the lungs are clear, and intake is maintained",
+    "The lung sounds are clear, although the client is now eating only half of each meal"
    ],
-   "ans": 3,
+   "ans": 2,
    "rat": "Success is the absence of coughing or choking with meals, clear lung sounds, and maintained food and fluid intake — the airway is protected and nutrition is preserved. Adding thin liquids back is not an improvement and reintroduces aspiration risk; occasional coughing with continued weight loss shows ongoing aspiration and inadequate intake; and clear lungs with only half the meal eaten means nutrition is not being maintained.",
    "strat": "It worked when there is no coughing, the lungs stay clear, and intake holds — partial wins that lose weight or add thin liquids are not success."
   },
@@ -2743,8 +2743,8 @@
    "opts": [
     "Banana slices with white rice and dry toast",
     "A green salad with raw vegetables and beans",
-    "Popcorn with an apple and a glass of apple juice",
-    "A bran muffin with a glass of cold milk"
+    "A bran muffin with a glass of cold milk",
+    "Popcorn with an apple and a glass of apple juice"
    ],
    "ans": 0,
    "rat": "During the acute phase, low-fiber foods such as bananas, rice, applesauce, and dry toast are recommended because they are easily tolerated. Bran, raw fruits/vegetables, beans, popcorn, and milk products are all to be limited: high fiber and gas-forming foods worsen diarrhea, milk's lactose may not be digested, and apple juice can aggravate diarrhea.",
@@ -2776,10 +2776,10 @@
     {
      "label": "[1] Dissolves and absorbs water",
      "opts": [
-      "water-insoluble",
-      "water-soluble"
+      "water-soluble",
+      "water-insoluble"
      ],
-     "a": 1
+     "a": 0
     },
     {
      "label": "[2] Promotes movement of contents",
@@ -2792,11 +2792,11 @@
     {
      "label": "[3] Source of that fiber",
      "opts": [
-      "oats and oat bran",
+      "whole-wheat bread and brown rice",
       "apples and oranges",
-      "whole-wheat bread and brown rice"
+      "oats and oat bran"
      ],
-     "a": 2
+     "a": 0
     }
    ],
    "rat": "Water-soluble fiber dissolves and absorbs water during digestion, increases stool bulk, may lower cholesterol, and is the basis of bulk-forming laxatives (oats, oat bran, beans, citrus). Water-insoluble fiber stays unchanged and promotes normal movement of intestinal contents; it is found in whole-grain products such as whole-wheat bread and brown rice. Oats/oat bran and apples/oranges are soluble-fiber sources, making them wrong for the insoluble blank.",
@@ -2809,15 +2809,15 @@
    "lvl": "Application",
    "stem": "A client with chronic constipation who eats a low-fiber diet asks how to manage it without relying on medication. Which instructions should the nurse include? Select all that apply.",
    "opts": [
-    "Skip meals to give the bowel a rest between movements",
-    "Gradually increase fiber from fruits, vegetables, and whole grains",
     "Establish a regular eating routine and respond to the body's cues",
-    "Hold bowel movements until a scheduled time each day",
+    "Skip meals to give the bowel a rest between movements",
     "Walk and become more physically active",
+    "Hold bowel movements until a scheduled time each day",
+    "Gradually increase fiber from fruits, vegetables, and whole grains",
     "Drink about 8 to 10 glasses of water each day"
    ],
    "ans": [
-    1,
+    0,
     2,
     4,
     5
@@ -2832,12 +2832,12 @@
    "lvl": "Analysis",
    "stem": "A client recovering from several days of diarrhea is rebuilding fluid and electrolyte intake. Which statement indicates the client correctly understood the nurse's teaching?",
    "opts": [
-    "\"I should drink large amounts of fluid during meals to help dilute the food.\"",
     "\"A prescribed electrolyte drink replaces the sodium and potassium I lost.\"",
     "\"Warm milk taken between my meals is a gentle way to rebuild my strength.\"",
+    "\"I should drink large amounts of fluid during meals to help dilute the food.\"",
     "\"Drinking apple juice with each meal keeps me hydrated and adds potassium.\""
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "Electrolyte solutions such as Pedialyte or Gatorade may be prescribed to replenish lost sodium and potassium, the priority during recovery from diarrhea. Milk products are avoided because lactose may not be digested, apple juice can aggravate diarrhea, and liquids should be taken 30 minutes before or after meals rather than during them.",
    "strat": "Replace what diarrhea drains (sodium/potassium) with a prescribed electrolyte solution; separate fluids from meals and skip milk and apple juice."
   },
@@ -2849,10 +2849,10 @@
    "lvl": "Analysis",
    "stem": "A clinic nurse is following up four clients with gastrointestinal complaints. Which client should the nurse assess FIRST?",
    "opts": [
-    "A client with a new colostomy who wants help planning meals before going out in public",
+    "A client with chronic constipation asking how much water to drink each day to stay regular",
     "A client with occasional heartburn asking which foods seem to trigger the discomfort",
     "An older adult with two days of vomiting and watery diarrhea who is dizzy on standing",
-    "A client with chronic constipation asking how much water to drink each day to stay regular"
+    "A client with a new colostomy who wants help planning meals before going out in public"
    ],
    "ans": 2,
    "rat": "Two days of vomiting and diarrhea with dizziness on standing point to fluid volume deficit, an unstable physiologic problem that outranks the others. The constipation, colostomy, and heartburn clients have real but stable teaching and coping needs that can wait.",
@@ -2866,12 +2866,12 @@
    "lvl": "Application",
    "stem": "A client recovering from an acute episode of diarrhea is started on a BRAT diet as symptoms settle. Which meal selection by the client tells the nurse the teaching about this diet was understood?",
    "opts": [
-    "Black bean chili with brown rice and a side of broccoli",
     "Fried chicken, buttered corn, and a glass of whole milk",
     "Banana, white rice, applesauce, and plain toast",
+    "Black bean chili with brown rice and a side of broccoli",
     "Bran cereal, raw spinach salad, and fresh orange slices"
    ],
-   "ans": 2,
+   "ans": 1,
    "rat": "The BRAT diet is bananas, rice, applesauce, and toast - low-fiber, bland foods that are gentle on irritated GI mucosa. High-fiber choices like bran, raw vegetables, beans, and broccoli, or rich fried and high-fat foods, can further irritate the gut and worsen symptoms.",
    "strat": "BRAT spells the menu - bananas, rice, applesauce, toast - low-fiber and bland, not high-fiber or greasy."
   },
@@ -2883,17 +2883,17 @@
    "lvl": "Application",
    "stem": "A nurse is completing a focused nutritional assessment for a client reporting new gastrointestinal symptoms. Which assessment actions are appropriate for recognizing cues in this client? Select all that apply.",
    "opts": [
-    "Advise the client to begin a high-fiber diet before the cause is identified",
-    "Ask about cultural and religious influences on the client's dietary intake",
     "Ask which foods seem to trigger or relieve the reported symptoms",
+    "Establish the client's usual bowel pattern and ask about recent changes",
+    "Ask about cultural and religious influences on the client's dietary intake",
     "Use the PQRST mnemonic to evaluate any reported abdominal pain",
-    "Establish the client's usual bowel pattern and ask about recent changes"
+    "Advise the client to begin a high-fiber diet before the cause is identified"
    ],
    "ans": [
+    0,
     1,
     2,
-    3,
-    4
+    3
    ],
    "rat": "A focused GI assessment identifies trigger and relieving foods, evaluates abdominal pain with PQRST, establishes the baseline bowel pattern to detect changes, and explores cultural and religious dietary influences. Starting a high-fiber diet is a planned intervention, not an assessment, and prescribing it before the cause is known could worsen an irritated gut.",
    "strat": "Recognizing cues means gathering data first - trigger foods, PQRST pain, bowel baseline, culture - not jumping to an intervention."
@@ -2906,12 +2906,12 @@
    "lvl": "Analysis",
    "stem": "A client with several days of nausea, vomiting, and diarrhea has dry mucous membranes, decreased urine output, and a blood pressure that drops when standing. Several nursing diagnoses apply. Which one should the nurse address as the highest priority?",
    "opts": [
-    "Fluid volume deficit related to vomiting and diarrhea",
-    "Imbalanced nutrition: less than body requirements",
     "Fatigue related to the current nutritional deficits",
-    "Ineffective individual coping related to the recent illness"
+    "Fluid volume deficit related to vomiting and diarrhea",
+    "Ineffective individual coping related to the recent illness",
+    "Imbalanced nutrition: less than body requirements"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Dry mucous membranes, low urine output, and orthostatic blood pressure changes indicate fluid volume deficit, a physiologic threat that takes priority over the nutrition, coping, and fatigue diagnoses. The other diagnoses are valid but less urgent once hydration is stabilized.",
    "strat": "Rank hypotheses by risk - active fluid loss with orthostatic changes is the most urgent, so volume deficit comes before nutrition or coping."
   },
@@ -2922,12 +2922,12 @@
    "lvl": "Application",
    "stem": "A client recovering from an episode of biliary colic asks the nurse which meals are least likely to trigger another attack. Which menu choice should the nurse recommend?",
    "opts": [
-    "Cheeseburger with french fries and a soda",
-    "Fried chicken sandwich with a buttered roll and a milkshake",
+    "Grilled white fish with steamed vegetables and brown rice",
     "Pasta with cream sauce and a slice of cheesecake",
-    "Grilled white fish with steamed vegetables and brown rice"
+    "Fried chicken sandwich with a buttered roll and a milkshake",
+    "Cheeseburger with french fries and a soda"
    ],
-   "ans": 3,
+   "ans": 0,
    "rat": "Biliary colic is triggered by meals high in calories, fat, and carbohydrates; a low-fat, low-carbohydrate meal such as grilled fish with vegetables is best. The fried, creamy, and high-fat/high-carb choices each provoke gallbladder contraction and pain.",
    "strat": "Gallbladder pain follows fat and big carb loads — pick the leanest plate."
   },
@@ -2938,12 +2938,12 @@
    "lvl": "Application",
    "stem": "A client is admitted with gallstone pancreatitis and reports upper abdominal pain radiating to the back that worsens after eating. Which dietary order does the nurse anticipate during the initial inflammatory phase?",
    "opts": [
-    "Withhold all food and fluids and infuse intravenous fluids",
     "Start a high-protein, high-calorie oral diet right away",
     "Provide a full clear-liquid diet and advance as tolerated",
-    "Offer small, frequent low-fat oral meals as the client tolerates them"
+    "Offer small, frequent low-fat oral meals as the client tolerates them",
+    "Withhold all food and fluids and infuse intravenous fluids"
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "In gallstone pancreatitis the client avoids food and fluids until the inflammation subsides while IV fluids are given; IV nutrients are added only if pancreatitis is severe and inflammation continues. Oral diets of any kind during the acute phase stimulate the inflamed pancreas.",
    "strat": "Acute pancreatitis = rest the pancreas: NPO with IV fluids first."
   },
@@ -2954,16 +2954,16 @@
    "lvl": "Application",
    "stem": "The nurse is teaching a client with several risk factors for gallstones about diet choices that may lower the risk of stone formation. Which statements by the nurse are appropriate? Select all that apply.",
    "opts": [
+    "\"Limiting fatty foods can help reduce your risk.\"",
     "\"Build your meals around plenty of fruits and vegetables.\"",
     "\"Increasing fiber in your diet is helpful.\"",
     "\"Choose a diet that is high in fat and low in fiber.\"",
-    "\"Include whole-grain foods in your diet.\"",
-    "\"Limiting fatty foods can help reduce your risk.\""
+    "\"Include whole-grain foods in your diet.\""
    ],
    "ans": [
     0,
     1,
-    3,
+    2,
     4
    ],
    "rat": "Diets high in fat and low in fiber increase gallstone risk, so the protective teaching is a diet high in fruits, vegetables, whole grains, and fiber while limiting fat. Recommending a high-fat, low-fiber diet does the opposite and would raise the risk.",
@@ -2976,12 +2976,12 @@
    "lvl": "Application",
    "stem": "A client newly diagnosed with viral hepatitis asks the nurse what dietary changes are needed. The client has no other GI complications. Which response is most accurate?",
    "opts": [
-    "\"Usually no special diet is needed; eat balanced meals and avoid alcohol.\"",
-    "\"You will need a strict low-protein diet to protect and rest your liver.\"",
     "\"Follow a high-fat diet so your liver has extra energy to repair itself.\"",
+    "\"You will need a strict low-protein diet to protect and rest your liver.\"",
+    "\"Usually no special diet is needed; eat balanced meals and avoid alcohol.\"",
     "\"A gluten-free diet is required to reduce the inflammation in your liver.\""
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "Clients with hepatitis usually do not require a special diet; recommendations are regular balanced meals, adequate protein, limiting fatty/salty/sugary foods, and avoiding alcohol. Strict protein restriction, gluten-free, and high-fat instructions are not indicated by this material.",
    "strat": "Hepatitis without complications = no special diet; the constants are balanced eating and no alcohol."
   },
@@ -2993,11 +2993,11 @@
    "stem": "A client with obesity and metabolic syndrome is diagnosed with nonalcoholic fatty liver disease (NAFLD). Which dietary plan best supports reversing the fatty infiltration of the liver?",
    "opts": [
     "A high-protein diet with no limit placed on total daily calories",
-    "A liberal-fat diet that avoids all carbohydrates and fructose",
+    "A calorie-controlled diet limiting fats, fructose, and alcohol",
     "An alcohol-only restriction while keeping all other intake the same",
-    "A calorie-controlled diet limiting fats, fructose, and alcohol"
+    "A liberal-fat diet that avoids all carbohydrates and fructose"
    ],
-   "ans": 3,
+   "ans": 1,
    "rat": "NAFLD is managed with a calorie-controlled, well-balanced diet that limits fats, fructose, and alcohol, along with tracking glucose and lipids, to reverse fatty infiltration. Unrestricted calories, a liberal-fat plan, or restricting alcohol alone do not address the excess fat deposits driving the disease.",
    "strat": "NAFLD targets the fat in the liver — control calories, cut fat, fructose, and alcohol together."
   },
@@ -3008,12 +3008,12 @@
    "lvl": "Analysis",
    "stem": "A client with celiac disease who has not been following the prescribed diet reports right upper quadrant discomfort after fatty meals. The nurse understands that intestinal damage in celiac disease raises gallbladder risk through which mechanism?",
    "opts": [
+    "Direct autoimmune destruction of the gallbladder wall",
     "Excess cholecystokinin causes the gallbladder to empty too quickly",
     "Reduced cholecystokinin production delays gallbladder emptying",
-    "Direct autoimmune destruction of the gallbladder wall",
     "Increased bile production overwhelms the gallbladder"
    ],
-   "ans": 1,
+   "ans": 2,
    "rat": "In celiac disease the damaged small-intestine lining limits cholecystokinin production, which delays gallbladder emptying and increases gallbladder problems, especially after a fatty meal. The other options reverse the hormone effect or describe mechanisms not supported by the material.",
    "strat": "Damaged gut = less CCK = sluggish gallbladder emptying after fatty food."
   },
@@ -3026,9 +3026,9 @@
    "stem": "A 62-year-old woman is admitted with cholecystitis and confirmed gallstones while awaiting cholecystectomy. She rates her right upper quadrant pain 10 out of 10 and has been vomiting repeatedly for the past day. The nurse reviews the nursing diagnoses that apply. Which problem should the nurse gather more data on to settle as the highest priority?",
    "opts": [
     "Whether vomiting has produced a fluid and electrolyte imbalance",
-    "Knowledge deficit about the dietary changes she will need after surgery",
+    "Anxiety related to the upcoming gallbladder removal",
     "Risk for infection related to the planned surgical incision",
-    "Anxiety related to the upcoming gallbladder removal"
+    "Knowledge deficit about the dietary changes she will need after surgery"
    ],
    "ans": 0,
    "rat": "When a client has both severe pain and enough vomiting to threaten fluid and electrolyte balance, both are high priority and the nurse needs more data on the volume status to rank them, since an actual physiologic imbalance can outrank even severe pain. Knowledge deficit, risk for infection, and anxiety are valid but lower-acuity diagnoses that do not address an immediate physiologic threat.",
@@ -3078,19 +3078,19 @@
    "lvl": "Application",
    "stem": "A nurse is teaching a client about eating habits in the first weeks after a cholecystectomy to limit diarrhea, gas, and bloating. Which instructions should the nurse include? Select all that apply.",
    "opts": [
-    "Eat smaller, more frequent meals rather than a few large ones",
     "Choose foods labeled with no more than 3 grams of fat per serving",
-    "Avoid fried, greasy foods and fatty sauces for at least the first week",
     "Increase soluble fiber such as oats and barley gradually over several weeks",
+    "Avoid fried, greasy foods and fatty sauces for at least the first week",
     "Plan meals around lean protein, vegetables, fruits, and whole grains",
-    "Add a large amount of fiber right away to firm up the stools quickly"
+    "Add a large amount of fiber right away to firm up the stools quickly",
+    "Eat smaller, more frequent meals rather than a few large ones"
    ],
    "ans": [
     0,
     1,
     2,
     3,
-    4
+    5
    ],
    "rat": "Low-fat choices (no more than 3 g fat per serving), smaller frequent meals that mix better with the now continuous bile, a gradual increase in soluble fiber, avoiding fried and greasy foods for at least a week, and meals built on lean protein, produce, and whole grains all reduce post-surgical diarrhea, gas, and bloating. Adding a large amount of fiber all at once worsens gas and cramping, so fiber must be increased slowly.",
    "strat": "After gallbladder removal, less fat per meal and slow fiber buildup - the body can no longer store concentrated bile for a big fatty load."
@@ -3103,12 +3103,12 @@
    "lvl": "Evaluation",
    "stem": "Ten days after a cholecystectomy, a client returns reporting gas, bloating, and diarrhea. Her surgical pain is gone, but she says she still loves hamburgers and french fries and has only cut back on fast-food visits. Which explanation should the nurse use to help her connect her symptoms to her diet?",
    "opts": [
-    "Bile now drains continuously and is less concentrated, so a large fat load in one meal stays undigested and causes diarrhea",
     "The diarrhea most likely means surgery did not fully clear the stones, so she should be re-evaluated for retained gallstones",
+    "The oats and barley she added for fiber are irritating her gut, so she should stop eating high-fiber foods entirely",
     "These symptoms are an expected wound infection after surgery, so she should watch closely for incision redness and fever",
-    "The oats and barley she added for fiber are irritating her gut, so she should stop eating high-fiber foods entirely"
+    "Bile now drains continuously and is less concentrated, so a large fat load in one meal stays undigested and causes diarrhea"
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "After cholecystectomy, bile is less concentrated and drains continuously into the intestine, so a large fat load in one meal is not fully digested and produces gas, bloating, and a laxative effect - which fits her continued high-fat fast-food intake. Retained stones and wound infection do not explain diet-triggered symptoms with resolved pain, and soluble fiber such as oats and barley helps normalize bowel movements rather than causing the problem.",
    "strat": "Match the symptom to the new physiology - continuous, dilute bile cannot handle a big fat load, so the fatty meals, not retained stones, drive the diarrhea."
   },
@@ -3120,12 +3120,12 @@
    "lvl": "Application",
    "stem": "A nurse is reinforcing teaching about carbohydrate counting for a client with diabetes who uses mealtime insulin. The client asks, \"Why does my dietitian keep talking about counting carbs?\"\n\nWhich response by the nurse best reflects the purpose of carbohydrate counting?",
    "opts": [
-    "\"It locks you into the very same fixed gram amount of carbohydrate at every meal and every snack.\"",
-    "\"It removes carbohydrate from your meals so that your blood glucose will stay low through the day.\"",
     "\"It balances the carbohydrate you eat with the insulin you need for glucose control.\"",
+    "\"It removes carbohydrate from your meals so that your blood glucose will stay low through the day.\"",
+    "\"It locks you into the very same fixed gram amount of carbohydrate at every meal and every snack.\"",
     "\"It takes the place of seeing the dietitian once you have learned how to read the food labels.\""
    ],
-   "ans": 2,
+   "ans": 0,
    "rat": "Carbohydrate counting establishes a balance between the amount of carbohydrate eaten and the insulin needed to regulate blood glucose, and it is a flexible strategy that helps the client see how food choices affect glucose. It does not eliminate carbohydrate (carbs from fruits, vegetables, whole grains, legumes, and low-fat milk are encouraged), is flexible rather than a fixed gram count, and the registered dietitian remains an essential part of the team.",
    "strat": "Counting carbs matches carb intake to insulin — it is a flexible balancing tool, not carb elimination."
   },
@@ -3138,8 +3138,8 @@
    "stem": "A client with diabetes is learning to choose lower–glycemic-index foods to blunt post-meal glucose spikes, because high–glycemic-index foods raise blood sugar higher and faster. The client is deciding between four breakfast options.\n\nWhich choice has the LOWEST glycemic index?",
    "opts": [
     "Cornflakes with a sliced banana",
-    "A baguette with boiled potatoes",
     "White wheat toast with a glass of watermelon juice",
+    "A baguette with boiled potatoes",
     "Oatmeal with an apple"
    ],
    "ans": 3,
@@ -3154,16 +3154,16 @@
    "lvl": "Application",
    "stem": "A nurse is reinforcing teaching for a client with type 2 diabetes about alcohol use and managing a minor illness at home. Which statements by the client require further teaching because they are incorrect? Select all that apply.",
    "opts": [
+    "\"When I am sick I should keep on taking my usual diabetes medications.\"",
     "\"If I drink alcohol, I should have it together with food so that I don't go too low.\"",
+    "\"While I'm sick I should stop eating completely until I start to feel better again.\"",
     "\"If I'm sick I should drink only regular soda and juice to keep my strength up.\"",
     "\"When I am sick I should check my blood glucose more often than I usually do.\"",
-    "\"When I am sick I should keep on taking my usual diabetes medications.\"",
-    "\"I should call my provider for moderate ketones or a glucose reading over 250.\"",
-    "\"While I'm sick I should stop eating completely until I start to feel better again.\""
+    "\"I should call my provider for moderate ketones or a glucose reading over 250.\""
    ],
    "ans": [
-    1,
-    5
+    2,
+    3
    ],
    "rat": "The two incorrect statements are stopping all food (the client should stick to the normal meal plan, not stop eating) and drinking only regular soda and juice (sick-day fluids should be sugar-free, such as water and tea). The other statements are correct sick-day and alcohol guidance: take alcohol with food to prevent hypoglycemia, check glucose more often, continue usual medications, and call the provider for moderate ketones or glucose over 250 mg/dL.",
    "strat": "Sick-day rules: keep meds + normal meals, more frequent checks, sugar-free fluids, call for ketones / glucose >250."
@@ -3177,18 +3177,18 @@
    "stem": "CASE (1/6) Recognize cues. A 24-year-old client with type 1 diabetes comes to clinic. The client reports feeling \"shaky and sweaty\" before lunch most days and has been skipping the bedtime snack and eating irregularly. Vital signs are within normal limits. Findings on review:\n\n- States meals are eaten \"whenever there's time,\" often hours apart\n- Reports recent shakiness, nervousness, and sweating relieved by drinking juice\n- A1C has risen since the last visit with no clear explanation\n- Has been exercising more than usual to \"keep weight off\"\n- Reports occasional missed mealtime insulin doses\n- Takes a daily multivitamin\n\nWhich findings are relevant cues the nurse should follow up on? Select all that apply.",
    "opts": [
     "Irregular meals eaten hours apart with a skipped bedtime snack",
-    "Episodes of shakiness, nervousness, and sweating relieved by juice",
     "Unexplained rise in A1C",
     "Occasional missed mealtime insulin doses",
-    "Increased exercise to keep weight off",
-    "Taking a daily multivitamin"
+    "Taking a daily multivitamin",
+    "Episodes of shakiness, nervousness, and sweating relieved by juice",
+    "Increased exercise to keep weight off"
    ],
    "ans": [
     0,
     1,
     2,
-    3,
-    4
+    4,
+    5
    ],
    "rat": "Shakiness, nervousness, and sweating relieved by carbohydrate are classic hypoglycemia signs; irregular meals and a skipped snack set the client up for lows; and an unexplained A1C rise, excessive exercise to control weight, and omitted insulin are recognized warning signs of disordered eating in type 1 diabetes. A daily multivitamin is an expected, non-concerning finding and is not a relevant cue.",
    "strat": "Cluster the abnormal/at-risk findings; a routine multivitamin is normal and is not a cue to chase."
@@ -3201,12 +3201,12 @@
    "lvl": "Analysis",
    "stem": "CASE (2/6) Analyze cues. The nurse considers the cluster of cues: pre-lunch shakiness, nervousness, and sweating relieved by juice, occurring with irregular meals and a skipped bedtime snack in a client on insulin.\n\nWhich explanation best accounts for these findings?",
    "opts": [
-    "Recurrent hypoglycemia from insulin paired with inconsistent food intake",
-    "Hyperglycemia caused by eating far too much carbohydrate at each of the meals",
     "An expected and harmless response to the recent increase in physical activity",
+    "Hyperglycemia caused by eating far too much carbohydrate at each of the meals",
+    "Recurrent hypoglycemia from insulin paired with inconsistent food intake",
     "Early diabetic ketoacidosis brought on by the recently missed mealtime insulin doses"
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "Hunger, nervousness, shakiness, and sweating that resolve with carbohydrate point to hypoglycemia (blood glucose under 70 mg/dL), which fits insulin use paired with irregular, skipped meals. Hyperglycemia produces thirst, fatigue, frequent urination, and blurred vision rather than relief from juice; DKA is a life-threatening crisis with Kussmaul respirations, not transient symptoms relieved by a drink; and these symptoms are not a normal, expected response to exercise.",
    "strat": "Symptoms relieved by sugar = the body was low; match the symptom set to hypo- vs. hyperglycemia."
   },
@@ -3218,12 +3218,12 @@
    "lvl": "Analysis",
    "stem": "CASE (3/6) Prioritize hypotheses. The client is alert and able to swallow but reports another wave of shakiness and sweating right now in the clinic. The nurse identifies several issues to address: recurrent hypoglycemia, irregular meal timing, missed insulin doses, and possible disordered eating.\n\nWhich problem should the nurse address FIRST?",
    "opts": [
-    "Treat the current hypoglycemic episode",
-    "Reinforce teaching about consistent meal timing",
     "Arrange a mental health referral for disordered eating",
-    "Review the client's insulin-dosing technique"
+    "Treat the current hypoglycemic episode",
+    "Review the client's insulin-dosing technique",
+    "Reinforce teaching about consistent meal timing"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "An active hypoglycemic episode is the acute, physiologic priority — untreated hypoglycemia can progress to unconsciousness — so the nurse treats the low first (Maslow/airway-circulation, acute over chronic). The mental health referral, meal-timing teaching, and insulin review are all appropriate but address ongoing/chronic issues that follow once the client is stabilized.",
    "strat": "Treat the acute physiologic emergency now; teaching and referrals come after the client is safe."
   },
@@ -3236,16 +3236,16 @@
    "stem": "CASE (4/6) Generate solutions (bowtie). The alert, awake client is currently hypoglycemic with shakiness and sweating and is able to swallow. Choose the central problem, two immediate actions, and two parameters to monitor — all grounded in the guide.",
    "problem": {
     "opts": [
+     "Hypoglycemia in a client able to swallow",
      "Diabetic ketoacidosis",
-     "Hyperglycemic hyperosmolar nonketotic syndrome",
-     "Hypoglycemia in a client able to swallow"
+     "Hyperglycemic hyperosmolar nonketotic syndrome"
     ],
-    "a": 2
+    "a": 0
    },
    "actions": {
     "opts": [
-     "Give a carbohydrate-rich food such as a glucose tablet or juice",
      "Stay with the client and reassess symptoms",
+     "Give a carbohydrate-rich food such as a glucose tablet or juice",
      "Administer an injection of glucagon now",
      "Withhold all food until symptoms resolve"
     ],
@@ -3256,14 +3256,14 @@
    },
    "params": {
     "opts": [
-     "Blood glucose level",
      "Daily multivitamin intake",
-     "Urine ketones",
-     "Symptoms such as shakiness, sweating, and confusion"
+     "Blood glucose level",
+     "Symptoms such as shakiness, sweating, and confusion",
+     "Urine ketones"
     ],
     "ans": [
-     0,
-     3
+     1,
+     2
     ]
    },
    "rat": "For a conscious client who can swallow, hypoglycemia is treated by consuming a carbohydrate-rich food (glucose tablet, juice, or honey); glucagon is reserved for the client who is unconscious or unable to swallow, so it is not the action here, and withholding food would worsen the low. Monitoring blood glucose and the hypoglycemia symptom set (shakiness, sweating, confusion) tells the nurse whether treatment worked; urine ketones belong to sick-day/DKA monitoring and multivitamin intake is irrelevant to this episode.",
@@ -3277,17 +3277,17 @@
    "lvl": "Application",
    "stem": "CASE (5/6) Take action. The client's episode is resolving and the nurse develops a plan to prevent future lows and support overall self-management. Which actions should the nurse include? Select all that apply.",
    "opts": [
+    "Advise the client to cut out the bedtime snack to keep the overnight glucose lower",
     "Initiate a mental health referral for the warning signs of disordered eating",
-    "Reinforce eating meals on a consistent schedule rather than hours apart",
+    "Teach the client to have alcoholic drinks on an empty stomach to limit the calories",
     "Initiate a referral to a registered dietitian for an individualized meal plan",
     "Advise the client to stop taking insulin to avoid further low blood sugars",
-    "Advise the client to cut out the bedtime snack to keep the overnight glucose lower",
-    "Teach the client to have alcoholic drinks on an empty stomach to limit the calories"
+    "Reinforce eating meals on a consistent schedule rather than hours apart"
    ],
    "ans": [
-    0,
     1,
-    2
+    3,
+    5
    ],
    "rat": "Consistent meal timing prevents hypoglycemia, a registered dietitian referral is essential for an individualized meal plan, and the warning signs of disordered eating (omitting insulin, excessive exercise, unexplained A1C rise) warrant a mental health referral. Cutting out the bedtime snack and drinking alcohol on an empty stomach both promote hypoglycemia (alcohol should be taken with food), and stopping insulin would precipitate hyperglycemia and DKA — all three are unsafe.",
    "strat": "Prevent lows with steady meals, the bedtime snack, and food-with-alcohol; refer to the RD and mental health — never stop the insulin."
@@ -3301,11 +3301,11 @@
    "stem": "CASE (6/6) Evaluate outcomes. The client returns for follow-up after the plan was put in place several weeks ago.\n\nWhich finding best indicates the plan to manage the client's hypoglycemia and self-management is working?",
    "opts": [
     "The client now carries glucose tablets and has needed them three separate times this past week",
-    "The client eats on a regular schedule with no further between-meal shakiness or sweating",
     "The client reports eating the bedtime snack but is still skipping lunch on the busy workdays",
+    "The client eats on a regular schedule with no further between-meal shakiness or sweating",
     "The client has met with the dietitian one time and plans to schedule the mental health referral later"
    ],
-   "ans": 1,
+   "ans": 2,
    "rat": "Regular meal timing with resolution of the between-meal hypoglycemia symptoms shows the underlying cause was corrected — the desired outcome. Still skipping lunch leaves the client at risk, completing only part of the referral plan is incomplete follow-through, and needing to rescue-treat lows three times in a week shows hypoglycemia is still occurring rather than being prevented.",
    "strat": "\"Working\" means the root cause is fixed and symptoms stopped — not that rescue treatment is being used more."
   },
@@ -3317,12 +3317,12 @@
    "lvl": "Analysis",
    "stem": "An adult with type 1 diabetes plans to go for a 30-minute jog. Before starting, the capillary blood glucose is 268 mg/dL and the urine is positive for ketones. Which response by the nurse is most appropriate?",
    "opts": [
+    "\"Hold off on the jog until the glucose drops and ketones clear.\"",
     "\"Wait about 30 to 60 minutes after eating, then go ahead and jog.\"",
     "\"Have a 15-gram carbohydrate snack right now and then begin your jog.\"",
-    "\"Hold off on the jog until the glucose drops and ketones clear.\"",
     "\"This is a good glucose level for exercise, so you may start right now.\""
    ],
-   "ans": 2,
+   "ans": 0,
    "rat": "Exercise should be avoided when the blood glucose is greater than 250 mg/dL with ketones present, because activity can worsen hyperglycemia and ketosis. The snack answer fits hypoglycemia (glucose under 100), not this value; calling it a good level is incorrect; the timing-after-meals rule does not override the ketone red flag.",
    "strat": "Glucose over 250 plus ketones = do not exercise; ketones change the whole answer."
   },
@@ -3370,17 +3370,17 @@
    "lvl": "Application",
    "stem": "The nurse is teaching foot care and injury prevention to a client newly diagnosed with diabetes. Which client statements indicate that teaching has been effective? Select all that apply.",
    "opts": [
-    "\"I will look over my feet every day for cuts, redness, or sores.\"",
-    "\"If my glucose runs above 250 I will exercise harder to bring it down.\"",
+    "\"Numbness or tingling in my feet is normal and I can ignore it.\"",
     "\"I should keep carbohydrate snacks with me when I exercise.\"",
     "\"I will return-demonstrate checking my blood sugar at home.\"",
-    "\"Numbness or tingling in my feet is normal and I can ignore it.\"",
+    "\"If my glucose runs above 250 I will exercise harder to bring it down.\"",
+    "\"I will look over my feet every day for cuts, redness, or sores.\"",
     "\"I will keep eye exam appointments to protect my vision.\""
    ],
    "ans": [
-    0,
+    1,
     2,
-    3,
+    4,
     5
    ],
    "rat": "Daily foot inspection, carrying carbohydrate during activity, routine eye exams for retinopathy, and demonstrating glucose monitoring all reflect effective self-management teaching. Exercising harder when glucose is over 250 is unsafe, and dismissing numbness or tingling misses a reportable neuropathy cue that raises injury risk.",
@@ -3395,11 +3395,11 @@
    "stem": "A client with long-standing diabetes returns for a follow-up visit. While taking the history, the nurse gathers several findings. Which finding should the nurse address first?",
    "opts": [
     "Mentions a family history of high blood pressure and heart disease",
+    "Reports new numbness and tingling in both feet",
     "Describes occasional dryness of the skin on both of the lower legs",
-    "States that exercise has helped with weight loss this past month",
-    "Reports new numbness and tingling in both feet"
+    "States that exercise has helped with weight loss this past month"
    ],
-   "ans": 3,
+   "ans": 1,
    "rat": "New numbness and tingling signals peripheral neuropathy with loss of protective sensation, which raises the risk of unnoticed foot injury and infection and should be addressed first. The weight-loss progress is a positive outcome, family history is background data, and mild skin dryness is a lower-acuity cue that can be managed after the safety risk.",
    "strat": "Prioritize the cue that creates the most immediate injury or safety risk, not background or positive findings."
   },
@@ -3411,12 +3411,12 @@
    "lvl": "Application",
    "stem": "A client with diabetes asks the nurse what nutrition and lifestyle changes might help with the neuropathy that has developed in the feet. Which response by the nurse best reflects the teaching in the plan of care?",
    "opts": [
-    "\"Combining a plant-based diet with exercise may help your symptoms.\"",
-    "\"Resting your feet and avoiding most physical activity is the best way to manage it.\"",
+    "\"Adding more red meat and full-fat dairy to your meals tends to help the nerves.\"",
     "\"Cutting nearly all carbohydrate out of your daily diet usually relieves it.\"",
-    "\"Adding more red meat and full-fat dairy to your meals tends to help the nerves.\""
+    "\"Resting your feet and avoiding most physical activity is the best way to manage it.\"",
+    "\"Combining a plant-based diet with exercise may help your symptoms.\""
    ],
-   "ans": 0,
+   "ans": 3,
    "rat": "The plan notes that a combination of a vegan (plant-based) diet and exercise may help treat neuropathy, so encouraging exercise and proper nutrition is appropriate. Loading meals with red meat and dairy is not the recommended approach, eliminating nearly all carbohydrate is not advised and risks hypoglycemia, and avoiding activity contradicts the recommendation to encourage exercise.",
    "strat": "For diabetic neuropathy, the guide pairs a plant-based diet with exercise, not rest or extreme diets."
   }

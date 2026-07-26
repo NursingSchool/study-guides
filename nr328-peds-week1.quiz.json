@@ -69,12 +69,12 @@
    "lvl": "Application",
    "stem": "A 4-year-old admitted with dehydration has an order for an IV catheter. The child is quiet, watches the nurse gather supplies, and asks whether the needle is because they spilled juice on the floor at home. How should the nurse prepare this child?",
    "opts": [
-    "Explain that the bleeding will stop as soon as the catheter is taped in place",
     "Limit the explanation to the caregiver, since the child cannot yet grasp cause and effect",
     "Say in simple words that the IV is not a punishment and will help them feel better",
+    "Explain that the bleeding will stop as soon as the catheter is taped in place",
     "Use a labeled body outline of the vein so the child can follow each step of the insertion"
    ],
-   "ans": 2,
+   "ans": 1,
    "rat": "This module uses the preschool IV as its own worked example: because preschoolers are egocentric and think magically, the nurse explains in simple terms that the IV is not a form of punishment but something to help them feel better. Detailed body diagrams are the module's school-age strategy. Talking about bleeding stopping is the toddler concern the module says does not calm fear, and it names the band-aid rather than the explanation as what reassures. The module credits preschoolers with an understanding of cause and effect, so bypassing the child is both wrong and skips the fear the child just voiced.",
    "strat": "Preschooler plus a procedure equals one sentence: this is not punishment, it helps you get better."
   },
@@ -85,12 +85,12 @@
    "lvl": "Application",
    "stem": "A 2-year-old who was toilet trained before admission has had three wetting accidents in two days and has started sucking a thumb. The caregiver is embarrassed and asks whether the child should lose television time until the accidents stop. What should the nurse teach?",
    "opts": [
-    "Regression to earlier behaviors is common under stress, and punishment should be avoided",
-    "The wetting shows that the child views the hospital stay as punishment for bad behavior",
     "Toilet training is usually not finished until the preschool years, so this child is on schedule",
-    "Withholding a favored activity until the accidents stop will restore the earlier training"
+    "Withholding a favored activity until the accidents stop will restore the earlier training",
+    "Regression to earlier behaviors is common under stress, and punishment should be avoided",
+    "The wetting shows that the child views the hospital stay as punishment for bad behavior"
    ],
-   "ans": 0,
+   "ans": 2,
    "rat": "The module states that toddlers are most likely to demonstrate regression behaviors such as thumb sucking, bottle feeding, or elimination accidents in an already toilet-trained child, that these behaviors are a way of coping with stress or anxiety, and that caregivers should be educated about the change while punishment is avoided. Illness perceived as punishment is the preschool interpretation, not the toddler one. Withdrawing privileges is the punishment the module rules out. Toilet training completed in the preschool years is a real statement in the module, but it does not explain the loss of a skill this child already had.",
    "strat": "A skill the child already had and then lost equals regression — teach the caregiver, do not discipline the child."
   },
@@ -101,15 +101,15 @@
    "lvl": "Application",
    "stem": "A nurse plans play activities for several children on a pediatric unit, including a 3-year-old on contact precautions and a 16-year-old admitted for a femur fracture. Which actions follow this module's nursing considerations for therapeutic play? Select all that apply.",
    "opts": [
-    "Ask the caregivers to bring one favorite toy from home to ease the child's fears",
-    "Keep the 16-year-old's friends away from the room so that rest is not interrupted",
-    "Use a stuffed animal to show the 3-year-old what the dressing change will involve",
     "Have the child watch the equipment be assembled rather than handle any of it",
     "Choose toys that suit the child's age, are safe for that child, and enhance development",
-    "Return the toys used in the room on contact precautions to the shared playroom after wiping them"
+    "Use a stuffed animal to show the 3-year-old what the dressing change will involve",
+    "Return the toys used in the room on contact precautions to the shared playroom after wiping them",
+    "Ask the caregivers to bring one favorite toy from home to ease the child's fears",
+    "Keep the 16-year-old's friends away from the room so that rest is not interrupted"
    ],
    "ans": [
-    0,
+    1,
     2,
     4
    ],
@@ -123,12 +123,12 @@
    "lvl": "Analysis",
    "stem": "An 11-month-old has been hospitalized for six days. On day 1 the infant screamed and watched the door whenever the parents left. By day 3 the infant was quiet, withdrawn, and turned away when the parents returned. Today the infant smiles at the nurses, reaches for staff, and does not look up when the parents come in. How should the nurse interpret today's behavior?",
    "opts": [
+    "Detachment, the third phase of the infant's separation anxiety response",
     "Resolution of stranger anxiety, which is expected by the end of the first year",
     "Despair, the second phase of the infant's separation anxiety response",
-    "Protest, the first phase of the infant's separation anxiety response",
-    "Detachment, the third phase of the infant's separation anxiety response"
+    "Protest, the first phase of the infant's separation anxiety response"
    ],
-   "ans": 3,
+   "ans": 0,
    "rat": "The module describes the infant sequence as protest (sad, agitated, inconsolable, watching desperately for caregivers to return), despair (sad, hopeless, withdrawn, ambivalent when caregivers return), and detachment (appears happy, interested in the environment, becomes attached to healthcare members, may ignore caregivers). Days 1 and 3 match protest and despair, so the apparent contentment plus ignoring the parents is detachment, not improvement. Stranger anxiety is the 8-month development of telling strangers from familiar people; an infant attaching to staff and ignoring the parents is the opposite pattern, not its resolution.",
    "strat": "Detachment is the one that looks like the child is doing better — read who they ignore, not how happy they seem."
   },
@@ -142,27 +142,27 @@
     {
      "label": "[1] Piaget stage",
      "opts": [
-      "the preoperational period",
       "the sensorimotor period",
+      "the preoperational period",
       "the concrete-operational period"
      ],
-     "a": 0
+     "a": 1
     },
     {
      "label": "[2] Erikson task",
      "opts": [
-      "autonomy versus shame and doubt",
       "industry versus inferiority",
-      "initiative versus guilt"
+      "initiative versus guilt",
+      "autonomy versus shame and doubt"
      ],
-     "a": 2
+     "a": 1
     },
     {
      "label": "[3] Play pattern",
      "opts": [
       "associative play",
-      "parallel play",
-      "solitary play"
+      "solitary play",
+      "parallel play"
      ],
      "a": 0
     }
@@ -177,12 +177,12 @@
    "lvl": "Application",
    "stem": "A 9-year-old is admitted for a fractured forearm and will have a cast applied. The child keeps asking how long the cast will be, whether the bone will show, and what will happen if it hurts, and tells the nurse that the last nurse was hiding something. Which nursing action best fits this child's developmental level?",
    "opts": [
-    "Explain that the cast is not a punishment for climbing on the bunk bed",
-    "Answer honestly and use a body diagram to show where the cast will sit",
     "Direct the questions to the caregiver and describe the cast once it is applied",
-    "Offer a doll to wrap and keep the details of the procedure general"
+    "Offer a doll to wrap and keep the details of the procedure general",
+    "Explain that the cast is not a punishment for climbing on the bunk bed",
+    "Answer honestly and use a body diagram to show where the cast will sit"
    ],
-   "ans": 1,
+   "ans": 3,
    "rat": "The module says the school-age child fears loss of control, pain, and bodily injury, seeks out information as a way to keep a sense of control, and can sense when they are not being told the truth. Its listed interventions are to communicate openly and honestly, clarify misconceptions, and give explanations using visual aids such as diagrams, models, and body outlines. Routing questions to the caregiver strips away the control this child is trying to hold. Demonstrating on a doll is the module's technique for younger, fearful children. Naming the cast as not-a-punishment answers preschool magical thinking, which this child has outgrown.",
    "strat": "School age asks questions to feel in control — answer them straight and draw the picture."
   },
@@ -193,17 +193,17 @@
    "lvl": "Application",
    "stem": "A 15-year-old comes to a clinic for a routine health visit. Based on the health risks and assessments this module identifies for the adolescent, which should the nurse include in the visit? Select all that apply.",
    "opts": [
+    "Screen for suicidal thinking",
+    "Screen for strabismus, since visual acuity is still working toward 20/20 at this age",
     "Screen for substance use, including tobacco and e-cigarettes",
     "Center injury teaching on bicycle helmets, the most common source of fatal injury at this age",
-    "Teach crash prevention, since motor vehicle accidents are the most common fatal accident at this age",
     "Screen for exposure to violence",
-    "Screen for strabismus, since visual acuity is still working toward 20/20 at this age",
-    "Screen for suicidal thinking"
+    "Teach crash prevention, since motor vehicle accidents are the most common fatal accident at this age"
    ],
    "ans": [
     0,
     2,
-    3,
+    4,
     5
    ],
    "rat": "The module lists the adolescent's assessment priorities as screening for violence and suicidality and for substance use, and its adolescent health risks include violence and homicide, suicide, substance use, and tobacco use including e-cigarettes. It also states that accidents are the leading cause of death among adolescents, with motor vehicle accidents the most common, which is what makes crash prevention the injury teaching for this age. Strabismus screening belongs to the preschooler, whose visual acuity is approaching 20/20; bicycle and motor vehicle accidents are named as the most common injuries of the school-age child, and picking helmets over driving is the off-by-one error.",
@@ -218,8 +218,8 @@
    "opts": [
     "Ask the family which preferences matter most to them and build the plan around those",
     "Allow the charm but explain that staff assignments cannot follow the family's tradition",
-    "Look up the family's stated religion and follow the practices listed for that faith",
-    "Keep the charm at the bedside and revisit the touch request if the child objects"
+    "Keep the charm at the bedside and revisit the touch request if the child objects",
+    "Look up the family's stated religion and follow the practices listed for that faith"
    ],
    "ans": 0,
    "rat": "The module states that the most effective way to determine appropriate care is to ask the client or family about their preferences and taboos, that the nurse should never make assumptions because some families do not follow the traditional norms of their culture, and that communication, physical touch, diet, and ritual preferences are the areas to inquire about. It also notes that many cultural preferences and rituals neither affect medical care nor pose harm, and that supporting them increases comfort and decreases anxiety, so a charm that touches nothing clinical and a same-gender bathing request are both accommodatable rather than negotiable down. Consulting a reference about the family's religion instead of the family is the assumption the module warns against.",
@@ -233,11 +233,11 @@
    "stem": "A 14-month-old is admitted after a scald burn to the forearm and is due for a dressing change. He says a few single words, cries when the arm is touched, and draws his legs up when he is repositioned.\n\nWhich pain assessment tool should the nurse use for this child?",
    "opts": [
     "Wong-Baker FACES scale, asking the child to point to the face that fits the hurt",
+    "Numerical scale, asking the child to rate the hurt on a scale of 0 to 10",
     "FLACC scale, scoring the child's face, legs, activity, cry, and consolability",
-    "Oucher scale, asking the child to pick the photograph that matches the hurt",
-    "Numerical scale, asking the child to rate the hurt on a scale of 0 to 10"
+    "Oucher scale, asking the child to pick the photograph that matches the hurt"
    ],
-   "ans": 1,
+   "ans": 2,
    "rat": "FLACC covers 2 months through 7 years and is scored by the nurse from observed behavior, so it is the only listed tool that fits a 14-month-old who cannot self-report. FACES is used at 3 years and older, Oucher from 3 to 13 years, and a numerical scale not until about 8 years, when the child can count and grasp the relative value of numbers.",
    "strat": "Self-report scales need a child who can report; below age 3, the nurse scores behavior."
   },
@@ -248,12 +248,12 @@
    "lvl": "Analysis",
    "stem": "A 4-year-old is one day post appendectomy. He is restless, kicks at the covers, and cries when he is turned. Before the nurse enters the room he asks his mother twice whether the nurse is going to give him a shot. When the nurse asks where it hurts, he says, \"Nothing hurts.\"\n\nHow should the nurse interpret this child's response?",
    "opts": [
+    "At his age he cannot localize pain, so his denial is not reliable",
     "He is denying the pain because he is afraid of getting an injection",
     "His family's stoic view of pain has taught him not to report discomfort",
-    "At his age he cannot localize pain, so his denial is not reliable",
     "Stalling behavior is typical at his age and points to mild pain"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Denying pain to avoid an injection is a hallmark preschool behavior, and the repeated question about a shot is the cue that names it. Preschoolers can describe both the location and the intensity of pain, so his denial is a choice rather than an inability; stalling behavior belongs to the school-age child, and nothing in the data points to a family or cultural pattern.",
    "strat": "A preschooler who can talk but says \"nothing hurts\" is usually bargaining against the needle."
   },
@@ -264,18 +264,18 @@
    "lvl": "Application",
    "stem": "A 5-year-old admitted for dehydration needs an intravenous line started. His mother is at the bedside and asks to stay.\n\nWhich actions by the nurse reflect atraumatic care? Select all that apply.",
    "opts": [
-    "Let him practice the steps on a doll before the IV is started",
-    "Describe the procedure using the same wording used with his parents",
-    "Offer him a choice between a pink bandage and a blue bandage",
     "Perform the IV insertion in the treatment room rather than at his bedside",
+    "Offer him a choice between a pink bandage and a blue bandage",
+    "Describe the procedure using the same wording used with his parents",
+    "Have the caregiver wait in the hallway until the IV is in place",
     "Offer a trinket from the toy box after he cooperates with the procedure",
-    "Have the caregiver wait in the hallway until the IV is in place"
+    "Let him practice the steps on a doll before the IV is started"
    ],
    "ans": [
     0,
-    2,
-    3,
-    4
+    1,
+    4,
+    5
    ],
    "rat": "Atraumatic care keeps painful procedures out of the child's bed and playroom so those stay safe spaces, gives the child control through small choices, uses play therapy on a doll to explain what will happen, and rewards cooperation with a trinket. Caregivers should be allowed to stay during painful procedures, and explanations must use developmentally appropriate language rather than the wording used with adults.",
    "strat": "Atraumatic care = protect the safe space, give a choice, keep the caregiver."
@@ -287,16 +287,16 @@
    "lvl": "Application",
    "stem": "A 2-month-old is scheduled for a heel stick for a metabolic panel. The nurse plans nonpharmacologic comfort measures.\n\nWhich measures are appropriate for an infant of this age? Select all that apply.",
    "opts": [
-    "Coach the infant to take slow, deep breaths through the procedure",
-    "Give a pacifier dipped in sucrose before, during, and after the stick",
-    "Give a sticker each time the infant holds still for the procedure",
-    "Have the infant picture a pleasant place while the heel is lanced",
     "Hold and rock the infant while the specimen is being collected",
+    "Have the infant picture a pleasant place while the heel is lanced",
+    "Give a pacifier dipped in sucrose before, during, and after the stick",
+    "Coach the infant to take slow, deep breaths through the procedure",
+    "Give a sticker each time the infant holds still for the procedure",
     "Swaddle the infant and place rolled blankets around him for containment"
    ],
    "ans": [
-    1,
-    4,
+    0,
+    2,
     5
    ],
    "rat": "The infant-appropriate measures are containment (swaddling and rolled blankets), nonnutritive sucking with a sucrose pacifier before, during, and after the painful procedure, and relaxation by holding and rocking. Breathing techniques, guided imagery, and behavioral contracting with rewards all require language and cognition the infant does not have; those belong to the older child.",
@@ -309,12 +309,12 @@
    "lvl": "Application",
    "stem": "A 9-year-old is one day post open reduction of a femur fracture and rates his pain 8 out of 10 on the numerical scale. He is receiving intravenous morphine, and the provider adds scheduled oral ibuprofen. His father asks why his son needs two pain medicines.\n\nWhich explanation by the nurse is correct?",
    "opts": [
+    "Two drugs let each one be ordered below the highest dose that is safe",
     "The ibuprofen treats the pain peripherally while the morphine works centrally",
     "The ibuprofen prevents the constipation and nausea that morphine can cause",
-    "Two drugs let each one be ordered below the highest dose that is safe",
     "Scheduling the ibuprofen will shorten the number of days he needs the morphine"
    ],
-   "ans": 0,
+   "ans": 1,
    "rat": "Combining a non-opioid with an opioid treats pain peripherally and centrally at the same time, which gives greater pain control with fewer adverse effects such as nausea, respiratory depression, and constipation. The combination reduces those effects rather than preventing them, and the stated purpose is better relief at two sites of action, not a shorter course or a dose ceiling.",
    "strat": "Non-opioid plus opioid = two sites of action, better relief, fewer opioid side effects."
   },
@@ -328,11 +328,11 @@
     {
      "label": "[1] Pain classification",
      "opts": [
-      "chronic pain",
       "psychogenic pain",
-      "acute pain"
+      "acute pain",
+      "chronic pain"
      ],
-     "a": 0
+     "a": 2
     },
     {
      "label": "[2] Meaning of the vital signs",
@@ -346,18 +346,18 @@
     {
      "label": "[3] Nervous system response",
      "opts": [
+      "stop transmitting the pain signal",
       "react more strongly to each stimulus",
-      "adjust and adapt to the pain",
-      "stop transmitting the pain signal"
+      "adjust and adapt to the pain"
      ],
-     "a": 1
+     "a": 2
     },
     {
      "label": "[4] PQRST element described",
      "opts": [
-      "severity",
+      "quality",
       "radiation",
-      "quality"
+      "severity"
      ],
      "a": 1
     }
@@ -407,9 +407,9 @@
    "stem": "A 7-year-old with end-stage cancer is admitted for symptom management. His grandparents and four family friends arrive together, and the caregivers welcome all of them into the room. Over the next 20 minutes the child turns toward the wall, stops answering questions, and his heart rate rises from 96 to 128 beats per minute.\n\nWhich action should the nurse take?",
    "opts": [
     "Let the visit go on, since the caregivers decided who could come and see him",
-    "Ask the visitors to step out and keep the room closed for the rest of the day",
+    "Move the child to the playroom so the whole group can visit him there",
     "Talk with the caregivers about limiting how many visitors come in at once",
-    "Move the child to the playroom so the whole group can visit him there"
+    "Ask the visitors to step out and keep the room closed for the rest of the day"
    ],
    "ans": 2,
    "rat": "Visitation is decided case by case at the caregivers' discretion, but the child is the priority, and when the number of visitors causes undue stress, visitation is limited. Withdrawal, silence, and a climbing heart rate are distress cues in a school-age child, so the nurse works with the caregivers to trim the group rather than deferring to them entirely or closing visiting without them; moving the child to the playroom takes away a safe play space and leaves the oversized visit intact.",
@@ -498,16 +498,16 @@
    "lvl": "Application",
    "stem": "A nurse makes a home visit to a family with a 6-week-old infant. Which findings from the history does the nurse identify as risk factors for child maltreatment? Select all that apply.",
    "opts": [
-    "The family lives 40 minutes from the nearest hospital in a rural county",
-    "The mother's live-in partner is not biologically related to the infant",
     "The infant was born at 33 weeks and spent 3 weeks in the neonatal intensive care unit",
+    "The family lives 40 minutes from the nearest hospital in a rural county",
     "The mother attends a weekly new-parent support group at the community center",
     "The mother is 34 years old and completed a two-year college degree",
+    "The mother's live-in partner is not biologically related to the infant",
     "Both caregivers lost their jobs last month and moved the family in with four relatives"
    ],
    "ans": [
-    1,
-    2,
+    0,
+    4,
     5
    ],
    "rat": "The module names prematurity as a child risk factor because of potential lack of parent-child bonding at birth, a partner unrelated to the child as a caregiver risk factor, and unemployment plus crowded living conditions as environmental risk factors. Young caregiver age and lack of education are the listed risks, so a 34-year-old with a completed degree does not qualify; distance from a hospital is not on the module's list; and an active support group is protective, since the absence of a support system is what raises risk.",
@@ -524,10 +524,10 @@
      "label": "[1] What must be reported",
      "opts": [
       "maltreatment that a staff member personally witnessed",
-      "suspected as well as confirmed maltreatment",
-      "only injuries a physician has confirmed as inflicted"
+      "only injuries a physician has confirmed as inflicted",
+      "suspected as well as confirmed maltreatment"
      ],
-     "a": 1
+     "a": 2
     },
     {
      "label": "[2] Consequence of not reporting",
@@ -541,11 +541,11 @@
     {
      "label": "[3] Charting the injuries",
      "opts": [
-      "an estimate in days of how old each bruise appears",
+      "size, shape, and color, with a diagram of each location",
       "the caregiver's explanation of how each one occurred",
-      "size, shape, and color, with a diagram of each location"
+      "an estimate in days of how old each bruise appears"
      ],
-     "a": 2
+     "a": 0
     }
    ],
    "rat": "The module states that all 50 states require health care providers to report maltreatment and suspected cases, and that civil and criminal penalties follow a failure to report, so the nurse does not wait for medical confirmation or a witnessed event. Charting must be clear and objective: size, shape, and color with diagrams of location, and photographs when possible. Estimating a bruise's age is an interpretation the nurse cannot support, and recording only the caregiver's explanation substitutes hearsay for the nurse's own objective findings.",
@@ -558,17 +558,17 @@
    "lvl": "Analysis",
    "stem": "CASE (1/6) Recognize cues. A 5-month-old boy is brought to the emergency department by his mother's partner, who says the infant \"has not been acting right.\" The partner reports the infant rolled off the couch onto the carpet that morning.\n\nWhich findings should the nurse identify as concerning? Select all that apply.",
    "opts": [
-    "The mother and her partner give different accounts of where the infant was when he was hurt",
-    "Length and weight have tracked at the 50th percentile at every well-child visit",
     "Bruising over the left cheek and both upper arms",
-    "The partner states he waited through the day to see whether the infant would sleep it off",
     "Immunizations are current and the infant has an established primary care provider",
-    "Head CT showing bilateral parietal skull fractures after a reported roll onto carpet"
+    "The partner states he waited through the day to see whether the infant would sleep it off",
+    "Length and weight have tracked at the 50th percentile at every well-child visit",
+    "Head CT showing bilateral parietal skull fractures after a reported roll onto carpet",
+    "The mother and her partner give different accounts of where the infant was when he was hurt"
    ],
    "ans": [
     0,
     2,
-    3,
+    4,
     5
    ],
    "rat": "Four of the module's warning signs are present: bruising in an infant under 6 months, a history incompatible with the pattern and degree of injury (bilateral skull fractures attributed to a low fall onto carpet), a delay in seeking care, and contradictory histories from different caregivers. Growth tracking on the same percentile and current immunizations with an established provider argue against neglect and are not concerning findings.",
@@ -581,8 +581,8 @@
    "lvl": "Analysis",
    "stem": "CASE (2/6) Analyze cues. The infant is lethargic, has vomited twice, and has a full anterior fontanel. The ophthalmology consult documents bilateral retinal hemorrhages, and no bleeding history is reported in the family.\n\nWhich explanation is most consistent with this cluster of findings?",
    "opts": [
-    "Osteogenesis imperfecta causing fractures and skull deformity with minimal force",
     "A short household fall producing an isolated linear skull fracture and scalp swelling",
+    "Osteogenesis imperfecta causing fractures and skull deformity with minimal force",
     "An inherited bleeding disorder producing spontaneous bruising and intracranial bleeding",
     "Abusive head trauma from shaking, with intracranial and retinal hemorrhage"
    ],
@@ -597,12 +597,12 @@
    "lvl": "Analysis",
    "stem": "CASE (3/6) Prioritize hypotheses. The infant is admitted to the pediatric unit with a patent airway, stable vital signs, and a neurosurgery consult pending.\n\nWhich concern does the nurse prioritize in the plan of care?",
    "opts": [
-    "Delayed language and social development related to the infant's head injury",
-    "The family's need for financial support and stable housing after discharge",
     "Further injury to the infant if he returns to the same caregiving situation",
-    "The partner's limited knowledge of how to soothe a persistently crying infant"
+    "Delayed language and social development related to the infant's head injury",
+    "The partner's limited knowledge of how to soothe a persistently crying infant",
+    "The family's need for financial support and stable housing after discharge"
    ],
-   "ans": 2,
+   "ans": 0,
    "rat": "With the airway and circulation already stable, the safety framework governs: the module states that the priority in caring for a maltreated child is to remove the child from the abusive situation to prevent further injury and to assess safety and reduce danger for the victim. Caregiver teaching about soothing, developmental follow-up, and referrals for financial and housing needs are all part of the plan, but each addresses a later or lower-acuity need than preventing the next injury.",
    "strat": "Once ABCs are stable in a suspected maltreatment case, physical safety from the caregiver outranks teaching and referrals."
   },
@@ -614,36 +614,36 @@
    "stem": "CASE (4/6) Generate solutions (bowtie). The child abuse consult team has been called and the infant remains on the pediatric unit.\n\nChoose the central problem, two actions the nurse takes, and two parameters the nurse monitors.",
    "problem": {
     "opts": [
-     "Risk for infection related to an open skull fracture",
+     "Impaired parent-infant attachment related to preterm birth",
      "Ineffective infant feeding pattern related to a poor latch",
      "Risk for further inflicted injury from suspected maltreatment",
-     "Impaired parent-infant attachment related to preterm birth"
+     "Risk for infection related to an open skull fracture"
     ],
     "a": 2
    },
    "actions": {
     "opts": [
-     "Photograph and diagram the size, shape, and color of each injury",
      "Interview the mother and her partner together so the accounts can be compared",
      "Hold off on contacting protective services until the skeletal survey results return",
+     "Photograph and diagram the size, shape, and color of each injury",
      "Report the suspected maltreatment to the state child protective agency",
      "Ask the mother's partner to account for the gaps in his version of events"
     ],
     "ans": [
-     0,
+     2,
      3
     ]
    },
    "params": {
     "opts": [
-     "Episodes of vomiting and tolerance of feedings",
-     "Skin turgor and moisture of the mucous membranes",
      "Bowel sounds and time of the last stool",
+     "Skin turgor and moisture of the mucous membranes",
+     "Episodes of vomiting and tolerance of feedings",
      "Level of consciousness with pupil size and reactivity",
      "Serum electrolyte and blood glucose trends"
     ],
     "ans": [
-     0,
+     2,
      3
     ]
    },
@@ -657,17 +657,17 @@
    "lvl": "Application",
    "stem": "CASE (5/6) Take action. The nurse is preparing to complete the history, the record, and the required notifications for the 5-month-old.\n\nWhich actions are appropriate? Select all that apply.",
    "opts": [
-    "Interview the mother and her partner separately using open-ended questions",
-    "Hold the report until the child abuse specialist confirms the injuries were inflicted",
-    "Question the infant's 4-year-old sibling in detail about what happens at home",
+    "Tell the partner the injuries could not have come from a fall and ask him to be truthful",
     "Notify child protective services as required by the state's mandatory reporting law",
-    "Record caregiver statements in quotation marks with objective descriptions of each injury",
-    "Tell the partner the injuries could not have come from a fall and ask him to be truthful"
+    "Question the infant's 4-year-old sibling in detail about what happens at home",
+    "Hold the report until the child abuse specialist confirms the injuries were inflicted",
+    "Interview the mother and her partner separately using open-ended questions",
+    "Record caregiver statements in quotation marks with objective descriptions of each injury"
    ],
    "ans": [
-    0,
-    3,
-    4
+    1,
+    4,
+    5
    ],
    "rat": "The module requires reporting of suspected maltreatment under state law, clear and objective charting of everything obtained during the caregiver interview and physical assessment, and separate interviews with each caregiver using open-ended questions that are less threatening and elicit more relevant information. Confronting the partner destroys the nurse's objectivity and the child's safety margin, waiting for specialist confirmation delays a report that suspicion alone already requires, and the module directs the nurse to avoid probing questions of the child.",
    "strat": "Report on suspicion, chart what you observed, and interview caregivers one at a time — never interrogate."
@@ -679,12 +679,12 @@
    "lvl": "Evaluation",
    "stem": "CASE (6/6) Evaluate outcomes. Four days later the infant is neurologically stable and discharge planning is underway.\n\nWhich finding best indicates that the nurse's plan of care has been effective?",
    "opts": [
-    "The infant is taking full bottle feedings and has regained his admission weight",
     "Discharge is planned to an approved kinship caregiver under a safety plan",
-    "The mother's partner has completed two parenting classes on soothing a crying infant",
-    "Photographs and body diagrams of each injury are filed in the medical record"
+    "Photographs and body diagrams of each injury are filed in the medical record",
+    "The infant is taking full bottle feedings and has regained his admission weight",
+    "The mother's partner has completed two parenting classes on soothing a crying infant"
    ],
-   "ans": 1,
+   "ans": 0,
    "rat": "The goal the module sets for this plan of care is removing the child from the abusive situation and reducing danger to the victim, so an approved placement with a safety plan in place is the outcome that shows the plan worked. Parenting classes address a risk factor but do not establish that the home is safe, weight and feeding show physiologic recovery from the injury rather than protection from the next one, and completed photographs and diagrams document that an intervention was performed rather than that the child is safe.",
    "strat": "Match the evaluation to the priority problem — if the goal was safety, only evidence of safety counts as effective."
   },
@@ -696,9 +696,9 @@
    "lvl": "Application",
    "stem": "A 4-year-old with cerebral palsy is admitted for a scheduled procedure. The caregiver tells the nurse that the child gags on thin liquids at home so she thickens them, and that the child rubs his ears when he hurts instead of crying.\nThe nurse is building the plan of care. Which response best reflects family-centered care?",
    "opts": [
+    "Tell the caregiver the speech therapist will decide how the child should be fed here.",
     "Ask the caregiver to write her concerns down so they can be reviewed at discharge.",
     "Explain that the unit feeding protocol is what guides intake for every child here.",
-    "Tell the caregiver the speech therapist will decide how the child should be fed here.",
     "Write both details into the plan of care and ask the caregiver to stay for feedings."
    ],
    "ans": 3,
@@ -730,10 +730,10 @@
    "lvl": "Application",
    "stem": "At a 9-month well-child visit, the caregiver of an infant who has just begun pulling to stand asks the nurse what she should be working on at home.\nWhich nurse response is an example of anticipatory guidance?",
    "opts": [
-    "Ask which injuries have happened at home and correct the hazards that caused each of them.",
-    "Review outlet covers, stair gates, and lowering the crib mattress before the infant climbs.",
     "Advise the caregiver to call the clinic once the infant walks so the risks can be reviewed.",
-    "Review the milestones the infant has already met and praise the caregiver for reaching them."
+    "Review outlet covers, stair gates, and lowering the crib mattress before the infant climbs.",
+    "Review the milestones the infant has already met and praise the caregiver for reaching them.",
+    "Ask which injuries have happened at home and correct the hazards that caused each of them."
    ],
    "ans": 1,
    "rat": "Anticipatory guidance is defined in the guide as understanding upcoming developmental needs and then teaching caregivers to meet those needs, with injury and illness prevention named as content — so teaching for the mobility that is coming fits. Reviewing milestones already met, waiting until the infant walks, and reacting to injuries that already occurred are all retrospective or delayed, which is the opposite of guidance given proactively.",
