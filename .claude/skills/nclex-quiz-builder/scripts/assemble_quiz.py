@@ -74,6 +74,27 @@ def _idx_ok(v, n):
     return isinstance(v, int) and 0 <= v < n
 
 
+OPTION_LETTER_RE = re.compile(r"\((?:[A-D](?:\s*(?:,|and|&)\s*[A-D])*)\)|\boption [A-D]\b|\bchoice [A-D]\b")
+
+
+def _check_letter_refs(qn, q):
+    """Rationales must never cite an option by letter.
+
+    Option order is not stable: balance_answers.py permutes it, and the engine
+    reshuffles on retake. A rationale saying "detailed explanations (B) suit an
+    older child" silently starts pointing at the wrong option. Describe the
+    option instead - "detailed medical explanations suit an older child" needs
+    no letter and survives any ordering.
+    """
+    for f in ("rat", "strat"):
+        v = q.get(f)
+        if isinstance(v, str):
+            m = OPTION_LETTER_RE.search(v)
+            if m:
+                err(qn, f'{f} cites an option by letter ("{m.group(0)}"). Option order is '
+                        "shuffled, so letter references go stale - describe the option instead.")
+
+
 def _check_row_order(qn, t, rows):
     """match/matrix answers must not be guessable from their order alone.
 
@@ -129,6 +150,7 @@ def validate_item(q):
         err(qn, f'cat "{q.get("cat")}" is not a 2026 Client Needs category')
     if q.get("lvl") not in VALID_LVLS:
         warn(qn, f'lvl "{q.get("lvl")}" not in {sorted(VALID_LVLS)} (items should be Application+)')
+    _check_letter_refs(qn, q)
 
     if t in ("radio", "multi"):
         opts = q.get("opts", [])

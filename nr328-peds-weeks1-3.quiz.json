@@ -43,7 +43,7 @@
     "Explain to the child that hospital rules require staff to complete all care tasks during the admission."
    ],
    "ans": 1,
-   "rat": "Toddlers are in Erikson's autonomy versus shame and doubt stage and need opportunities to make choices and attempt self-care to build independence; completing tasks for the child (A) or removing choice (D) risks shame and doubt, and solitary play (C) is the infant stage, not a toddler intervention.",
+   "rat": "Toddlers are in Erikson's autonomy versus shame and doubt stage and need opportunities to make choices and attempt self-care to build independence; completing tasks for the child or removing choice risks shame and doubt, and solitary play is the infant stage, not a toddler intervention.",
    "strat": "Toddler plus tantrums and independence-seeking equals autonomy vs. shame and doubt: let them choose and try."
   },
   {
@@ -59,7 +59,7 @@
     "Rely mainly on the parent to make treatment decisions until the adolescent demonstrates concrete operational thinking."
    ],
    "ans": 0,
-   "rat": "Adolescents are in Piaget's formal operations stage and can reason abstractly, form hypotheses, and weigh different options, so teaching should engage that reasoning about how variables interact; concrete, one-step, or hypothesis-avoidant approaches (A, D) underestimate the adolescent's cognitive ability, and deferring to the parent (C) ignores the adolescent's own capacity to participate in decisions.",
+   "rat": "Adolescents are in Piaget's formal operations stage and can reason abstractly, form hypotheses, and weigh different options, so teaching should engage that reasoning about how variables interact; concrete, one-step, or hypothesis-avoidant approaches underestimate the adolescent's cognitive ability, and deferring to the parent ignores the adolescent's own capacity to participate in decisions.",
    "strat": "Adolescent equals formal operations: teach with 'what if' reasoning, not concrete props."
   },
   {
@@ -75,7 +75,7 @@
     "This indicates the child needs to be redirected toward solitary play until ready to interact with any peers."
    ],
    "ans": 2,
-   "rat": "Toddlers engage in parallel play, playing alongside rather than with other children, which is expected and needs no intervention; associative play (B) is the preschooler's stage, cooperative rule-governed play (C) is school-age, and solitary play (D) is the infant stage, so none of those labels or 'corrections' fit a toddler.",
+   "rat": "Toddlers engage in parallel play, playing alongside rather than with other children, which is expected and needs no intervention; associative play is the preschooler's stage, cooperative rule-governed play is school-age, and solitary play is the infant stage, so none of those labels or 'corrections' fit a toddler.",
    "strat": "Toddler side by side, no sharing, equals parallel play; do not confuse it with the preschooler's associative play."
   },
   {
@@ -91,7 +91,7 @@
     "Postconventional social contract orientation, in which the child follows rules that serve the common good."
    ],
    "ans": 1,
-   "rat": "A young child who avoids an action mainly to escape punishment demonstrates Kohlberg's preconventional, punishment-obedience stage, typical of toddlers and preschoolers; seeking approval (B), following rules from duty (C), and reasoning about the common good (D) all reflect more advanced conventional or postconventional reasoning than a preschooler typically shows.",
+   "rat": "A young child who avoids an action mainly to escape punishment demonstrates Kohlberg's preconventional, punishment-obedience stage, typical of toddlers and preschoolers; seeking approval, following rules from duty, and reasoning about the common good all reflect more advanced conventional or postconventional reasoning than a preschooler typically shows.",
    "strat": "'I'll get in trouble' equals punishment-obedience, the earliest preconventional stage."
   },
   {
@@ -218,7 +218,7 @@
     "Ask a different nurse to take over the family's care so the personal disagreement does not need to be addressed."
    ],
    "ans": 2,
-   "rat": "Recognizing personal bias and continuing to support the family's autonomous, values-based decision reflects culturally-appropriate, family-centered care; imposing the nurse's own beliefs (B), avoiding the family instead of managing personal bias (C), and repeatedly pressuring the family (D) all fail to respect the family's right to make care decisions consistent with their values.",
+   "rat": "Recognizing personal bias and continuing to support the family's autonomous, values-based decision reflects culturally-appropriate, family-centered care; imposing the nurse's own beliefs, avoiding the family instead of managing personal bias, and repeatedly pressuring the family all fail to respect the family's right to make care decisions consistent with their values.",
    "strat": "Your discomfort with a family's choice is yours to manage; support the decision, do not relitigate it."
   },
   {
@@ -234,7 +234,7 @@
     "Health practices can vary widely within the same cultural background, so the nurse should ask each family individually."
    ],
    "ans": 3,
-   "rat": "Cultural preferences vary even within a shared background, and many practices do not conflict with medical care, so the nurse should ask each family about their own preferences rather than assuming uniformity (B), assuming conflict with care (C), or skipping further questions once a culture is identified (D).",
+   "rat": "Cultural preferences vary even within a shared background, and many practices do not conflict with medical care, so the nurse should ask each family about their own preferences rather than assuming uniformity, assuming conflict with care, or skipping further questions once a culture is identified.",
    "strat": "Same culture does not mean same preferences; ask every family, every time."
   },
   {
@@ -250,7 +250,7 @@
     "Wait to individualize the plan of care until the child asks specific questions about the planned treatment."
    ],
    "ans": 0,
-   "rat": "Professional responsibility for developmentally appropriate, family-centered care means the nurse actively assesses the child's developmental level and individualizes the plan in partnership with the family; using generic adult materials (B), stepping back from planning altogether (C), or waiting passively for the child to ask (D) all abdicate the nurse's active assessment and planning role.",
+   "rat": "Professional responsibility for developmentally appropriate, family-centered care means the nurse actively assesses the child's developmental level and individualizes the plan in partnership with the family; using generic adult materials, stepping back from planning altogether, or waiting passively for the child to ask all abdicate the nurse's active assessment and planning role.",
    "strat": "Family-centered does not mean nurse-absent: assess, then plan together."
   },
   {
@@ -266,7 +266,7 @@
     "Explain in detailed medical terms exactly how the lungs function so the child understands the procedure fully."
    ],
    "ans": 2,
-   "rat": "Demonstrating procedures on a doll or stuffed animal first, then letting the child handle the equipment, is a therapeutic-play technique that gains cooperation and reduces fear in young children; detailed medical explanations (B) suit an older child, blanket reassurance (C) risks sounding untrue, and skipping preparation (D) ignores the preschooler's fear of bodily harm.",
+   "rat": "Demonstrating procedures on a doll or stuffed animal first, then letting the child handle the equipment, is a therapeutic-play technique that gains cooperation and reduces fear in young children; detailed medical explanations suit an older child, blanket reassurance risks sounding untrue, and skipping preparation ignores the preschooler's fear of bodily harm.",
    "strat": "When a preschooler is scared, show it on the stuffed animal first."
   },
   {
@@ -305,7 +305,7 @@
     "The helmet sits level on the head, with the front edge about two finger-widths above the eyebrows."
    ],
    "ans": 3,
-   "rat": "A correctly fitted helmet sits level on the head with the front edge about two finger-widths above the eyebrows; tilting it back (B), a chin strap loose enough for more than one or two fingers (C), and sizing it up to 'grow into' (D) are all documented fit errors that reduce protection.",
+   "rat": "A correctly fitted helmet sits level on the head with the front edge about two finger-widths above the eyebrows; tilting it back, a chin strap loose enough for more than one or two fingers, and sizing it up to 'grow into' are all documented fit errors that reduce protection.",
    "strat": "Level, low on the forehead, snug strap, fits now, not tilted, loose, or oversized."
   },
   {
@@ -327,7 +327,7 @@
     3,
     4
    ],
-   "rat": "Locking away poisons, using an age-appropriate car seat every trip, and staying within reach of a toddler near water directly address the toddler's leading injury risks of poisoning, motor vehicle injury, and drowning; skipping the car seat once walking (D), leaving the child briefly in the bathtub (E), and waiting for unresponsiveness before calling poison control (F) are all dangerous misconceptions that need further teaching.",
+   "rat": "Locking away poisons, using an age-appropriate car seat every trip, and staying within reach of a toddler near water directly address the toddler's leading injury risks of poisoning, motor vehicle injury, and drowning; skipping the car seat once walking, leaving the child briefly in the bathtub (E), and waiting for unresponsiveness before calling poison control (F) are all dangerous misconceptions that need further teaching.",
    "strat": "Toddler's big three: poisoning, drowning, and motor vehicle injury; every 'except this once' statement is wrong."
   },
   {
@@ -1451,7 +1451,7 @@
     "Position the child supine with the legs fully extended to promote venous return"
    ],
    "ans": 1,
-   "rat": "This presentation is a hypercyanotic ('tet') spell. The guide's documented intervention sequence begins with the knee-chest position (increases systemic vascular resistance, reducing the right-to-left shunt) paired with a calm approach to lower oxygen demand, followed by 100% oxygen, morphine, and IV fluids only if still needed. Extending the legs (B) does the opposite of the knee-chest position and worsens the shunt. Digoxin (C) is a maintenance heart-failure medication, not an emergency tet-spell response. A fluid bolus (D) comes later in the sequence, only if needed, not before positioning.",
+   "rat": "This presentation is a hypercyanotic ('tet') spell. The guide's documented intervention sequence begins with the knee-chest position (increases systemic vascular resistance, reducing the right-to-left shunt) paired with a calm approach to lower oxygen demand, followed by 100% oxygen, morphine, and IV fluids only if still needed. Extending the legs does the opposite of the knee-chest position and worsens the shunt. Digoxin is a maintenance heart-failure medication, not an emergency tet-spell response. A fluid bolus comes later in the sequence, only if needed, not before positioning.",
    "strat": "Tet spell = knees to chest first; extending the legs is the opposite of what helps."
   },
   {
@@ -1565,7 +1565,7 @@
     "Switch to a standard nipple and encourage the infant to finish the full prescribed volume before resting"
    ],
    "ans": 0,
-   "rat": "Infants with CHD tire quickly, so the guide directs small, frequent (every 3 hours), high-calorie feedings using an enlarged nipple opening, a semi-upright position, and paced rest during a feeding lasting about 30 minutes, with gavage supplementation if intake remains inadequate. A standard nipple with pressure to finish the full volume (B) increases fatigue and oxygen demand. Spacing feeds further apart (C) or increasing the volume per feeding (D) both contradict the small-frequent-feeding principle meant to conserve the infant's energy.",
+   "rat": "Infants with CHD tire quickly, so the guide directs small, frequent (every 3 hours), high-calorie feedings using an enlarged nipple opening, a semi-upright position, and paced rest during a feeding lasting about 30 minutes, with gavage supplementation if intake remains inadequate. A standard nipple with pressure to finish the full volume increases fatigue and oxygen demand. Spacing feeds further apart or increasing the volume per feeding both contradict the small-frequent-feeding principle meant to conserve the infant's energy.",
    "strat": "Tired heart, tired baby: small and frequent beats big and rare for CHD feeding."
   },
   {
@@ -1582,7 +1582,7 @@
     "Wait until moments before the procedure begins to give the child any explanation, in order to minimize worry time"
    ],
    "ans": 2,
-   "rat": "Family-centered nursing care for children with CHD includes providing age-appropriate preparation for diagnostic tests and procedures, monitoring and supporting family coping, and practicing atraumatic care. Withholding information (B) and deferring the explanation entirely (C) both abandon this nursing role. Delaying preparation until the last possible moment (D) does not meet the intent of developmentally appropriate, supportive preparation.",
+   "rat": "Family-centered nursing care for children with CHD includes providing age-appropriate preparation for diagnostic tests and procedures, monitoring and supporting family coping, and practicing atraumatic care. Withholding information and deferring the explanation entirely both abandon this nursing role. Delaying preparation until the last possible moment does not meet the intent of developmentally appropriate, supportive preparation.",
    "strat": "Age-appropriate prep plus family coping support is the nurse's role before any diagnostic test — not a job to hand off or delay."
   },
   {
