@@ -77,6 +77,50 @@ def _idx_ok(v, n):
 OPTION_LETTER_RE = re.compile(r"\((?:[A-D](?:\s*(?:,|and|&)\s*[A-D])*)\)|\boption [A-D]\b|\bchoice [A-D]\b")
 
 
+MAX_SENTENCE_WORDS = 30
+
+
+def _sentences(text):
+    return [s for s in re.split(r"(?<=[.!?])\s+", (text or "").strip()) if s]
+
+
+def _check_rationale_shape(qn, q):
+    """Rationales must be readable: one idea per sentence, not a semicolon chain.
+
+    Measured against Elsevier EAQ: theirs run 88 words over 4-6 sentences
+    (~22 words each, longest 26, zero semicolons). Ours averaged 61 words in
+    2.1 sentences - 29 words per sentence, longest 68. Not too verbose; too
+    few sentences. Mayer's segmenting principle predicts the dense version
+    gets skipped rather than read.
+
+    Preferred shape is the structured form: `why` (the key) plus `whyNot`
+    (one entry per distractor). A legacy `rat` blob is still accepted, but
+    its sentences are length-checked.
+    """
+    for w in (q.get("whyNot") or []):
+        if not isinstance(w, str) or not w.strip():
+            err(qn, "whyNot entries must be non-empty strings")
+            return
+    if q.get("why") or q.get("whyNot"):
+        n_dist = None
+        if q.get("type") == "radio" and isinstance(q.get("opts"), list):
+            n_dist = len(q["opts"]) - 1
+        if n_dist and len(q.get("whyNot") or []) not in (0, n_dist):
+            warn(qn, f"whyNot has {len(q['whyNot'])} entries but the item has {n_dist} "
+                     "distractors - one per distractor reads best")
+    # Once an item is structured, `rat` is retained only as a renderer fallback and
+    # an audit trail - it isn't displayed, so don't lint prose nobody reads.
+    structured = bool(q.get("why") or q.get("whyNot"))
+    fields = ("why", "strat") if structured else ("rat", "strat")
+    for field in fields:
+        for s in _sentences(q.get(field)):
+            n = len(s.split())
+            if n > MAX_SENTENCE_WORDS:
+                warn(qn, f"{field}: a {n}-word sentence - split it. One idea per sentence; "
+                         "semicolons chaining distractor explanations is the pattern to avoid.")
+                break
+
+
 _QTY = re.compile(r"^\s*(?:level|stage|grade|step|phase|type|class)?\s*(\d+(?:\.\d+)?)", re.I)
 
 
@@ -180,6 +224,7 @@ def validate_item(q):
     if q.get("lvl") not in VALID_LVLS:
         warn(qn, f'lvl "{q.get("lvl")}" not in {sorted(VALID_LVLS)} (items should be Application+)')
     _check_letter_refs(qn, q)
+    _check_rationale_shape(qn, q)
     if isinstance(q.get("opts"), list):
         _check_natural_order(qn, "opts", q["opts"])
     for bi, b in enumerate(q.get("blanks") or []):

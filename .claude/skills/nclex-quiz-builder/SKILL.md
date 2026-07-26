@@ -187,6 +187,20 @@ The questions are grounded in material Chris has already captured — you are
   **key the guide's version** even where it lags current practice — that's what he'll be asked.
   Deviate only for blatantly wrong/unsafe content or an obviously bad capture, and flag those.
   Never silently swap in current practice; see the Accuracy rule in `references/blueprint-2026.md`.
+
+- **Grounding applies to the stem and the KEY — not to distractor explanations.** This distinction
+  matters and is easy to over-apply:
+  - **Must trace to the source:** the clinical situation in the stem, the keyed answer, and the
+    `why` rationale explaining it. These are what the exam will test and key, so they have to match
+    what Chris was taught.
+  - **May draw on any accurate nursing knowledge:** the `whyNot` entries. A distractor is wrong
+    regardless of where the explanation comes from, so requiring it to trace to Edapt buys nothing
+    and produces contorted writing. Real example of the failure: a "peanut butter" distractor in an
+    infant-feeding item got an elimination-shaped rationale ("not the food linked to botulism —
+    honey is") purely because no guide mentions peanut butter, when "peanut butter is a choking
+    hazard for infants" is true, clearer, and perfectly acceptable.
+
+  So: never invent what the *answer* is, but explain freely why the wrong ones are wrong.
 - A folder may already hold a markdown quiz (`NCLEX_Quiz_*.md`) and/or a built `.html`.
   Reuse good items, but avoid producing a near-duplicate of an existing quiz unless asked.
 - **The other ~10%, and how to find it.** Some tested content comes from the textbook or

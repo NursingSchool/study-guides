@@ -44,7 +44,13 @@
    ],
    "ans": 1,
    "rat": "Toddlers are in Erikson's autonomy versus shame and doubt stage and need opportunities to make choices and attempt self-care to build independence; completing tasks for the child or removing choice risks shame and doubt, and solitary play is the infant stage, not a toddler intervention.",
-   "strat": "Toddler plus tantrums and independence-seeking equals autonomy vs. shame and doubt: let them choose and try."
+   "strat": "Toddler plus tantrums and independence-seeking equals autonomy vs. shame and doubt: let them choose and try.",
+   "why": "Toddlers are working through Erikson's autonomy versus shame and doubt stage. They need chances to make choices and attempt self-care tasks themselves. Offering simple choices, like which cup to use, and allowing self-care attempts supports this developmental task and builds independence.",
+   "whyNot": [
+    "Redirecting to quiet solitary play removes the chance to practice self-care, and solitary play describes infant behavior, not a toddler's developmental need.",
+    "Completing tasks quickly for the child takes away the chance to choose and try, which fosters shame and doubt instead of autonomy.",
+    "Telling the child staff must complete all care removes choice entirely, which undermines the toddler's push toward independence and self-care."
+   ]
   },
   {
    "topic": "Piaget: Adolescent Teaching",
@@ -60,7 +66,13 @@
    ],
    "ans": 0,
    "rat": "Adolescents are in Piaget's formal operations stage and can reason abstractly, form hypotheses, and weigh different options, so teaching should engage that reasoning about how variables interact; concrete, one-step, or hypothesis-avoidant approaches underestimate the adolescent's cognitive ability, and deferring to the parent ignores the adolescent's own capacity to participate in decisions.",
-   "strat": "Adolescent equals formal operations: teach with 'what if' reasoning, not concrete props."
+   "strat": "Adolescent equals formal operations: teach with 'what if' reasoning, not concrete props.",
+   "why": "Adolescents are in Piaget's formal operations stage. They can reason abstractly, form hypotheses, and weigh different options against each other. Teaching should engage that reasoning by guiding the adolescent through how food, activity, and insulin interact, rather than simplifying the material.",
+   "whyNot": [
+    "Using concrete props like a pancreas diagram without explaining underlying mechanisms underestimates an adolescent's ability to reason about cause and effect.",
+    "Simple one-step directions that avoid hypothetical situations, such as sick days, underestimate the adolescent's capacity for abstract, formal operational reasoning.",
+    "Deferring treatment decisions mainly to the parent ignores that this adolescent has already reached formal operations and can participate in decisions."
+   ]
   },
   {
    "topic": "Play Types: Toddler Parallel Play",
@@ -76,7 +88,13 @@
    ],
    "ans": 2,
    "rat": "Toddlers engage in parallel play, playing alongside rather than with other children, which is expected and needs no intervention; associative play is the preschooler's stage, cooperative rule-governed play is school-age, and solitary play is the infant stage, so none of those labels or 'corrections' fit a toddler.",
-   "strat": "Toddler side by side, no sharing, equals parallel play; do not confuse it with the preschooler's associative play."
+   "strat": "Toddler side by side, no sharing, equals parallel play; do not confuse it with the preschooler's associative play.",
+   "why": "Toddlers engage in parallel play, playing alongside rather than with other children. This behavior is expected for a 2-year-old and requires no intervention from the nurse. The child is not delayed, ready for a different stage, or in need of redirection.",
+   "whyNot": [
+    "Cooperative, rule-governed play with shared goals is the school-age stage, so expecting it from a 2-year-old overstates typical toddler development.",
+    "Associative play, where children share an activity without formal roles, belongs to the preschool stage, not this toddler's current developmental level.",
+    "Solitary play describes infant behavior, so redirecting a toddler toward it moves the child backward rather than matching the current stage."
+   ]
   },
   {
    "topic": "Kohlberg: Preconventional Stage",
@@ -92,7 +110,13 @@
    ],
    "ans": 1,
    "rat": "A young child who avoids an action mainly to escape punishment demonstrates Kohlberg's preconventional, punishment-obedience stage, typical of toddlers and preschoolers; seeking approval, following rules from duty, and reasoning about the common good all reflect more advanced conventional or postconventional reasoning than a preschooler typically shows.",
-   "strat": "'I'll get in trouble' equals punishment-obedience, the earliest preconventional stage."
+   "strat": "'I'll get in trouble' equals punishment-obedience, the earliest preconventional stage.",
+   "why": "A young child who avoids an action mainly to escape punishment demonstrates Kohlberg's preconventional, punishment-obedience stage, the earliest level of moral reasoning. This pattern is typical of toddlers and preschoolers. They act to avoid consequences, not out of duty, fairness, or a wish for approval.",
+   "whyNot": [
+    "Following fixed rules from a sense of duty describes the conventional law-and-order stage, more advanced than a preschooler's typical reasoning.",
+    "Acting to gain approval from others describes the conventional good boy-nice girl stage, which develops later than preconventional reasoning.",
+    "Reasoning about rules that serve the common good reflects postconventional thinking, a level of moral development well beyond a preschooler."
+   ]
   },
   {
    "topic": "Newborn Reflexes",
@@ -135,7 +159,8 @@
     }
    ],
    "rat": "Each reflex is elicited by a specific maneuver: rooting by stroking the cheek, Moro by a sudden stimulus or head drop, Babinski by stroking the sole heel-to-toe, palmar grasp by pressing the palm, tonic neck by turning the head to one side, and stepping by holding the infant upright with feet on a surface; confusing the maneuvers is a common assessment error.",
-   "strat": "Pair the reflex name with the exact motion that triggers it, not just its response."
+   "strat": "Pair the reflex name with the exact motion that triggers it, not just its response.",
+   "why": "Each reflex has a distinct eliciting maneuver. Rooting follows a stroke to the cheek near the mouth. Moro follows a sudden noise or head drop. Babinski follows stroking the sole from heel to toe. Palmar grasp follows pressure against the palm. Tonic neck follows turning the head to one side. Stepping follows holding the infant upright with feet on a surface."
   },
   {
    "topic": "Growth & Development Findings",
@@ -174,7 +199,12 @@
     }
    ],
    "rat": "Pincer grasp by 9 months, tricycle riding by 3 years, a positive Babinski (toe fanning and great toe dorsiflexion) up to about 12 months, and toddler parallel play are all expected findings; failing to pull to stand by 12 months (a skill expected by 9 months) and a persistent positive Babinski beyond about 12 months both warrant further evaluation for a possible developmental or neurologic delay.",
-   "strat": "Babinski's normal window closes around 12 months, the same age pincer grasp and pull-to-stand milestones should already be met."
+   "strat": "Babinski's normal window closes around 12 months, the same age pincer grasp and pull-to-stand milestones should already be met.",
+   "why": "Pincer grasp is expected by 9 months, and tricycle riding is expected by 3 years. Toddler parallel play, playing alongside rather than with peers, is normal at 2 years. A positive Babinski, toes fanning with great toe dorsiflexion, is also a normal finding up to about 12 months of age.",
+   "whyNot": [
+    "Not yet pulling to stand by 12 months falls behind the expected 9-month milestone and warrants evaluation for possible developmental delay.",
+    "A positive Babinski persisting at 14 months exceeds the normal window of about 12 months and suggests a possible neurologic problem."
+   ]
   },
   {
    "topic": "Infant Feeding Safety",
@@ -203,7 +233,14 @@
     }
    ],
    "rat": "Solid foods are introduced around 6 months, when the extrusion reflex fades and head control is adequate; honey is avoided before 12 months specifically because of infant botulism risk, while cow's milk is avoided before 12 months for a different reason, poor iron content and risk of GI blood loss or iron-deficiency anemia, not botulism.",
-   "strat": "Honey before 12 months means botulism risk; cow's milk before 12 months means an iron problem. Different reasons, same 'not yet.'"
+   "strat": "Honey before 12 months means botulism risk; cow's milk before 12 months means an iron problem. Different reasons, same 'not yet.'",
+   "why": "Solid foods, such as iron-fortified cereal, are introduced around 6 months, once the extrusion reflex fades and head control is adequate. Honey is avoided before 12 months specifically because of infant botulism risk, a danger distinct from other feeding restrictions at this age.",
+   "whyNot": [
+    "Introducing solids at 4 months is too early, since the extrusion reflex has not yet faded and head control is often not fully adequate.",
+    "Waiting until 9 months to introduce solids is later than needed, since most infants are ready around 6 months of age.",
+    "Cow's milk is restricted before 12 months for a different reason: poor iron content and risk of GI blood loss, not botulism.",
+    "Peanut butter is not the food linked to infant botulism risk. Honey is the one specifically flagged for that danger before 12 months."
+   ]
   },
   {
    "topic": "Cultural Care: Personal Bias",
@@ -219,7 +256,13 @@
    ],
    "ans": 2,
    "rat": "Recognizing personal bias and continuing to support the family's autonomous, values-based decision reflects culturally-appropriate, family-centered care; imposing the nurse's own beliefs, avoiding the family instead of managing personal bias, and repeatedly pressuring the family all fail to respect the family's right to make care decisions consistent with their values.",
-   "strat": "Your discomfort with a family's choice is yours to manage; support the decision, do not relitigate it."
+   "strat": "Your discomfort with a family's choice is yours to manage; support the decision, do not relitigate it.",
+   "why": "Recognizing personal bias and continuing to support the family's autonomous, values-based decision reflects culturally-appropriate, family-centered care. The nurse documents the decision and continues supporting the family. The team then helps explore options that still fit within their stated religious beliefs.",
+   "whyNot": [
+    "Explaining that the nurse's personal beliefs are medically correct imposes the nurse's values instead of respecting the family's own decision.",
+    "Repeatedly encouraging the family to reconsider at every visit pressures them instead of respecting their autonomous, values-based decision.",
+    "Handing the family to a different nurse avoids managing personal bias instead of addressing it professionally while continuing to support the family."
+   ]
   },
   {
    "topic": "Cultural Care: Individualized Assessment",
@@ -235,7 +278,13 @@
    ],
    "ans": 3,
    "rat": "Cultural preferences vary even within a shared background, and many practices do not conflict with medical care, so the nurse should ask each family about their own preferences rather than assuming uniformity, assuming conflict with care, or skipping further questions once a culture is identified.",
-   "strat": "Same culture does not mean same preferences; ask every family, every time."
+   "strat": "Same culture does not mean same preferences; ask every family, every time.",
+   "why": "Cultural preferences vary even within a shared cultural or ethnic background. Many practices also do not conflict with standard medical care. Because of this variation, the nurse should ask each family individually about their specific preferences rather than assuming what they believe.",
+   "whyNot": [
+    "Discouraging cultural rituals overlooks that most preferences do not conflict with medical care and do not need to be suppressed.",
+    "Assuming families from the same culture share identical health practices ignores how much preferences vary between individual families.",
+    "Skipping further questions once a culture is identified assumes uniformity instead of confirming each family's own specific preferences."
+   ]
   },
   {
    "topic": "Professional Role: Care Planning",
@@ -251,7 +300,13 @@
    ],
    "ans": 0,
    "rat": "Professional responsibility for developmentally appropriate, family-centered care means the nurse actively assesses the child's developmental level and individualizes the plan in partnership with the family; using generic adult materials, stepping back from planning altogether, or waiting passively for the child to ask all abdicate the nurse's active assessment and planning role.",
-   "strat": "Family-centered does not mean nurse-absent: assess, then plan together."
+   "strat": "Family-centered does not mean nurse-absent: assess, then plan together.",
+   "why": "Professional responsibility for developmentally appropriate, family-centered care means the nurse actively assesses the child's developmental level. The nurse then individualizes the plan of care in true partnership with the family. This active assessment and planning role cannot be delegated away or delayed.",
+   "whyNot": [
+    "Applying the same standardized adult teaching materials ignores the child's developmental stage and fails to individualize care appropriately.",
+    "Letting the family create the plan alone without further nursing assessment abandons the nurse's professional planning responsibility entirely.",
+    "Waiting to individualize care until the child asks specific questions delays the proactive assessment the nurse's role requires."
+   ]
   },
   {
    "topic": "Therapeutic Play: Preschool Assessment",
@@ -267,7 +322,13 @@
    ],
    "ans": 2,
    "rat": "Demonstrating procedures on a doll or stuffed animal first, then letting the child handle the equipment, is a therapeutic-play technique that gains cooperation and reduces fear in young children; detailed medical explanations suit an older child, blanket reassurance risks sounding untrue, and skipping preparation ignores the preschooler's fear of bodily harm.",
-   "strat": "When a preschooler is scared, show it on the stuffed animal first."
+   "strat": "Preschoolers need concrete, hands-on rehearsal before a procedure.",
+   "why": "Demonstrating a procedure on a doll or stuffed animal first, then letting the child hold and handle the equipment, is a therapeutic-play technique. It builds familiarity and trust before the real assessment, which gains cooperation and reduces a young child's fear.",
+   "whyNot": [
+    "Proceeding quickly without any explanation skips the preparation preschoolers need and can heighten fear instead of gaining cooperation.",
+    "Promising the assessment will not be uncomfortable at all risks sounding untrue if the child feels any discomfort.",
+    "Detailed medical explanations of lung function suit an older, more cognitively advanced child, not this anxious 4-year-old."
+   ]
   },
   {
    "topic": "Influences on Health Promotion",
@@ -290,7 +351,12 @@
     5
    ],
    "rat": "Economic stability, neighborhood environment, cultural and spiritual beliefs, and access to care are recognized social determinants and family influences on a child's health promotion; a lab result and equipment brand are clinical or administrative details, not social or cultural determinants of health.",
-   "strat": "Ask: does this shape the family's daily life and beliefs? If yes, it's a determinant."
+   "strat": "Ask: does this shape the family's daily life and beliefs? If yes, it's a determinant.",
+   "why": "Economic stability, neighborhood environment, and cultural and spiritual beliefs are all recognized social determinants of a child's health. Consistent access to a primary care provider is another key factor. Together these reflect the family's daily living conditions and values, shaping how they approach care.",
+   "whyNot": [
+    "The child's most recent lab result is a clinical finding, not a social or cultural determinant of health promotion.",
+    "The exact brand of the family's home thermometer is an administrative detail with no bearing on social determinants of health."
+   ]
   },
   {
    "topic": "Injury Prevention: Helmet Fit",
@@ -306,7 +372,13 @@
    ],
    "ans": 3,
    "rat": "A correctly fitted helmet sits level on the head with the front edge about two finger-widths above the eyebrows; tilting it back, a chin strap loose enough for more than one or two fingers, and sizing it up to 'grow into' are all documented fit errors that reduce protection.",
-   "strat": "Level, low on the forehead, snug strap, fits now, not tilted, loose, or oversized."
+   "strat": "Level, low on the forehead, snug strap, fits now, not tilted, loose, or oversized.",
+   "why": "A correctly fitted bicycle helmet sits level on the head, not tilted back, with the front edge resting about two finger-widths above the eyebrows. This snug, level position, paired with a properly sized helmet, gives the head full protection during a fall.",
+   "whyNot": [
+    "Buying a helmet a size larger to grow into leaves it loose now, which reduces protection during an actual fall.",
+    "Tilting the helmet back off the forehead exposes the forehead to impact and is a documented, unsafe fit error.",
+    "A chin strap loose enough to fit four fingers underneath will not hold the helmet in place during a crash."
+   ]
   },
   {
    "topic": "Injury Prevention: Toddler",
@@ -328,7 +400,13 @@
     4
    ],
    "rat": "Locking away poisons, using an age-appropriate car seat every trip, and staying within reach of a toddler near water directly address the toddler's leading injury risks of poisoning, motor vehicle injury, and drowning; skipping the car seat once walking, leaving the child briefly in the bathtub (E), and waiting for unresponsiveness before calling poison control (F) are all dangerous misconceptions that need further teaching.",
-   "strat": "Toddler's big three: poisoning, drowning, and motor vehicle injury; every 'except this once' statement is wrong."
+   "strat": "Toddler's big three: poisoning, drowning, and motor vehicle injury; every 'except this once' statement is wrong.",
+   "why": "Locking away medications and chemicals directly addresses the toddler's poisoning risk. Using an age-appropriate car seat on every trip, even short ones, addresses motor vehicle injury. Staying within arm's reach near water, including the bathtub, addresses drowning risk. Together these three habits match the toddler's leading causes of unintentional injury.",
+   "whyNot": [
+    "Believing a car seat is unnecessary for short trips once a toddler walks ignores that motor vehicle injury remains a leading risk at this age.",
+    "Waiting for unresponsiveness before calling poison control delays help that should be sought immediately after any suspected ingestion.",
+    "Leaving a toddler alone in the bathtub, even briefly in shallow water, contradicts the constant supervision drowning prevention requires."
+   ]
   },
   {
    "n": 1,
@@ -362,7 +440,8 @@
     }
    ],
    "rat": "FLACC is a behavioral/observational scale for children 2 months-7 years who cannot self-report. FACES (Wong-Baker) uses a 6-face diagram for children 3 years and older. OUCHER uses a 6-face photograph for ages 3-13. The Numerical scale requires the child to understand and use numbers, so it is reserved for children 8 years and older.",
-   "strat": "FLACC = watch behavior in the nonverbal child; faces tools = point to a picture; numbers = must be old enough to count."
+   "strat": "FLACC = watch behavior in the nonverbal child; faces tools = point to a picture; numbers = must be old enough to count.",
+   "why": "FLACC is a behavioral, observational scale for children 2 months to 7 years who cannot self-report pain. FACES (Wong-Baker) uses a 6-face diagram for children 3 years and older. OUCHER uses a 6-face photograph for ages 3 to 13. The Numerical scale requires the child to understand and use numbers, so it is reserved for children 8 years and older."
   },
   {
    "n": 2,
@@ -379,7 +458,13 @@
    ],
    "ans": 0,
    "rat": "Toddlers exhibit anticipatory pain behaviors - tensing, pulling away, crying - before the stimulus occurs, and this anticipatory phase is often more intense than the child's response to the actual procedure. Nothing in the scenario supports a lowered pain threshold, undertreated prior pain, or attention-seeking; each distractor substitutes an assumption for the developmental pattern described in the stem.",
-   "strat": "For toddlers, the buildup can hurt worse than the needle - anticipation is a normal, not exaggerated, response."
+   "strat": "For toddlers, the buildup can hurt worse than the needle - anticipation is a normal, not exaggerated, response.",
+   "why": "Toddlers commonly show anticipatory pain behaviors, tensing, pulling away, and crying, before a painful stimulus even occurs. This anticipatory phase is often more intense than the child's reaction to the actual procedure itself. It is a normal developmental pattern, not a red flag.",
+   "whyNot": [
+    "Nothing in the scenario suggests a prior procedure was undertreated. This reaction happens before any stimulus, not after inadequate pain relief.",
+    "Labeling this as learned attention-seeking ignores that anticipatory tensing and crying are a typical, expected toddler pain response.",
+    "Nothing supports an unusually low pain threshold. The behavior described is a normal anticipatory response typical of this age group."
+   ]
   },
   {
    "n": 3,
@@ -396,7 +481,13 @@
    ],
    "ans": 1,
    "rat": "Infants respond to pain with sympathetic activation: increased heart rate and blood pressure and decreased arterial oxygen saturation, along with a harsh cry, rigid or thrashing extremities, and facial grimacing (eyes tightly closed, mouth square, brows drawn together). Pain produces measurable physiologic changes even though the infant cannot verbalize it, which rules out the 'stable vital signs' option; the remaining choices reverse or truncate the expected pattern.",
-   "strat": "Infant pain triggers a sympathetic surge: HR and BP up, SpO2 down - preverbal doesn't mean the body stays quiet."
+   "strat": "Infant pain triggers a sympathetic surge: HR and BP up, SpO2 down - preverbal doesn't mean the body stays quiet.",
+   "why": "Infants respond to pain with sympathetic activation. Heart rate and blood pressure increase while arterial oxygen saturation decreases, alongside a harsh cry, rigid extremities, and facial grimacing. These are measurable physiologic changes, proving pain affects the body even before a child can verbalize it.",
+   "whyNot": [
+    "Decreased blood pressure and heart rate with increased oxygen saturation reverses the sympathetic pain response infants actually show.",
+    "Expecting stable vital signs is incorrect, since pain produces measurable physiologic changes even in an infant who cannot speak.",
+    "Increased oxygen saturation with an unchanged heart rate does not match the expected drop in saturation and rise in heart rate."
+   ]
   },
   {
    "n": 4,
@@ -420,7 +511,12 @@
     5
    ],
    "rat": "Adolescents typically verbalize pain with less protest, tense their muscles while maintaining body control, may withdraw or reject others, and often connect pain or illness to feeling different from peers. A harsh cry with thrashing describes an infant's response, and regressing to an earlier developmental behavior (wanting to be rocked or held) is a toddler or preschooler pattern, not an adolescent's.",
-   "strat": "Adolescent pain reads as controlled and social (peer comparison, withdrawal), not the loud physical protest of infancy."
+   "strat": "Adolescent pain reads as controlled and social (peer comparison, withdrawal), not the loud physical protest of infancy.",
+   "why": "Adolescents typically verbalize pain with less protest and tense their muscles while still maintaining control of their body movements. They may withdraw or reject comfort from others, and often connect their pain or illness to feeling different from their peers.",
+   "whyNot": [
+    "Wanting to be rocked or held is a regression to toddler or preschooler behavior, not the typical adolescent pain response.",
+    "A harsh, loud cry with thrashing extremities describes an infant's pain response, not how an adolescent typically expresses pain."
+   ]
   },
   {
    "n": 5,
@@ -437,7 +533,13 @@
    ],
    "ans": 0,
    "rat": "Combining a non-opioid (ibuprofen) with an opioid (morphine) treats pain both peripherally and centrally, improving relief while allowing fewer adverse effects such as respiratory depression and constipation. Morphine alone or ibuprofen alone does not achieve this combined effect for pain this severe, and withholding both medications ignores the child's own pain report, which is the most reliable indicator of pain.",
-   "strat": "Moderate-to-severe pediatric pain = non-opioid plus opioid together, not one instead of the other."
+   "strat": "Moderate-to-severe pediatric pain = non-opioid plus opioid together, not one instead of the other.",
+   "why": "Combining a non-opioid, ibuprofen, with an opioid, morphine, treats pain both peripherally and centrally. This combination improves relief for pain this severe. It also allows fewer adverse effects, such as respiratory depression and constipation, than a higher opioid dose alone.",
+   "whyNot": [
+    "Giving only morphine skips the peripheral pain relief ibuprofen provides and may require a higher opioid dose for equal relief.",
+    "Withholding both medications to try nonpharmacologic measures first ignores the child's own pain report of 8 out of 10.",
+    "Giving only ibuprofen first and waiting for the child to ask again delays the combined relief this level of pain needs."
+   ]
   },
   {
    "n": 6,
@@ -454,7 +556,13 @@
    ],
    "ans": 1,
    "rat": "Atraumatic care preserves the child's hospital room and playroom as 'safe spaces,' so painful procedures should be done in a treatment room, and caregivers should be allowed to remain for support. Using the child's room or the playroom for a painful procedure contaminates that safe space, and excluding the caregiver removes a key source of comfort.",
-   "strat": "Keep the bed and playroom as pain-free zones - procedures happen in the treatment room, with the caregiver present."
+   "strat": "Keep the bed and playroom as pain-free zones - procedures happen in the treatment room, with the caregiver present.",
+   "why": "Atraumatic care preserves the child's hospital room and the playroom as safe spaces the child can trust. Painful procedures should instead happen in a designated treatment room, with the caregiver allowed to remain at the bedside for support and comfort.",
+   "whyNot": [
+    "Asking the caregiver to wait outside during the procedure removes a key source of comfort atraumatic care tries to preserve.",
+    "Performing the procedure in the child's hospital room contaminates that room's role as a safe space free from pain.",
+    "Using the playroom for a painful procedure contaminates the one space meant to stay a safe, comforting environment."
+   ]
   },
   {
    "n": 7,
@@ -496,7 +604,12 @@
     ]
    },
    "rat": "The findings (guarding, reluctance to move, grimacing, an 8/10 self-report) point to acute pain related to the surgical incision as the priority problem over anxiety or infection risk, neither of which is supported by the data given. Combining the non-opioid and opioid treats pain peripherally and centrally with fewer side effects than either alone, and a nonpharmacologic measure supports overall comfort; withholding medication until directly asked ignores the child's own pain rating, and excluding the caregiver removes a key comfort measure. Reassess pain using an age-appropriate scale and monitor respiratory rate and sedation level, since opioids carry a risk of respiratory depression and oversedation.",
-   "strat": "Bowtie for pain: problem = what the cues point to; actions = combo therapy plus comfort; params = pain score plus opioid safety."
+   "strat": "Bowtie for pain: problem = what the cues point to; actions = combo therapy plus comfort; params = pain score plus opioid safety.",
+   "why": "Guarding, reluctance to move, grimacing, and an 8 out of 10 self-report point to acute pain related to the surgical incision as the priority problem. Combining the non-opioid and opioid treats pain both peripherally and centrally with fewer side effects than either alone, and a nonpharmacologic measure adds further comfort. The nurse reassesses pain with an age-appropriate scale and monitors respiratory rate and sedation level for opioid safety.",
+   "whyNot": [
+    "Risk for infection is not supported here. The cues describe pain behaviors, not signs of wound infection such as redness or fever.",
+    "Anxiety related to hospitalization does not fit either, since guarding, grimacing, and an 8 out of 10 rating point specifically to physical pain."
+   ]
   },
   {
    "n": 8,
@@ -513,7 +626,13 @@
    ],
    "ans": 3,
    "rat": "Preschoolers use magical and egocentric thinking and view death as temporary and reversible, so the nurse should stay present, answer honestly in simple direct language, and let the child express feelings safely. A detailed adult-level explanation is developmentally inappropriate, distraction avoids rather than supports processing the loss, and telling the child the sibling will return reinforces the child's magical thinking with a false promise instead of gently addressing it.",
-   "strat": "For grieving children of any age: presence and honest simple answers, not distraction or false reassurance."
+   "strat": "For grieving children of any age: presence and honest simple answers, not distraction or false reassurance.",
+   "why": "Preschoolers use magical and egocentric thinking and often view death as temporary and reversible. The nurse should stay present and answer questions honestly in simple, direct language. This lets the child express feelings in a safe space without reinforcing false hope.",
+   "whyNot": [
+    "Telling the child the sibling will return reinforces the preschooler's magical thinking with a false promise instead of addressing it.",
+    "Redirecting with games and toys avoids the loss rather than supporting the child in processing feelings about it.",
+    "A detailed, adult-level explanation of death is developmentally inappropriate for a preschooler's magical and egocentric way of thinking."
+   ]
   },
   {
    "topic": "Recognizing Abuse vs. Accidental Injury",
@@ -529,7 +648,13 @@
    ],
    "ans": 2,
    "rat": "A spiral fracture results from a twisting force; an infant who cannot yet pull to stand or cruise could not generate this mechanism independently, so the reported fall is incompatible with the injury — a classic warning sign of abuse. A caregiver's initial account, isolated abdominal tenderness, and a steady growth curve are not, by themselves, diagnostic of abuse.",
-   "strat": "Ask whether the child's own developmental ability could produce the injury; if not, the history doesn't hold up."
+   "strat": "Ask whether the child's own developmental ability could produce the injury; if not, the history doesn't hold up.",
+   "why": "A spiral fracture results from a twisting force. An infant who cannot yet pull to stand or cruise could not generate this twisting motion, so the reported fall does not explain the injury. This mismatch between developmental ability and injury mechanism is a classic warning sign of abuse.",
+   "whyNot": [
+    "A steady growth curve across prior visits does not, by itself, rule out abuse occurring at a single point in time.",
+    "The caregiver's account of a fall is only an initial history and is not, by itself, proof of what actually happened.",
+    "Isolated abdominal tenderness without other abnormal findings is a nonspecific finding, not a strong indicator of abuse on its own."
+   ]
   },
   {
    "topic": "Types of Child Maltreatment",
@@ -545,7 +670,13 @@
    ],
    "ans": 0,
    "rat": "Thin extremities, abdominal distention, poor hygiene, and a dull/passive affect reflect malnutrition and failure to thrive — manifestations of physical neglect (failure to provide basic physical care). Emotional neglect can also produce withdrawal, but the growth-failure and hygiene findings point to unmet physical needs rather than unmet emotional needs; there is no inflicted injury (physical abuse) or genital/behavioral finding (sexual abuse).",
-   "strat": "Match the finding cluster to what's missing: body uncared-for = physical neglect; feelings uncared-for = emotional; body injured = physical abuse; genital/sexualized = sexual abuse."
+   "strat": "Match the finding cluster to what's missing: body uncared-for = physical neglect; feelings uncared-for = emotional; body injured = physical abuse; genital/sexualized = sexual abuse.",
+   "why": "Thin extremities, abdominal distention, poor hygiene, and a dull, passive affect reflect malnutrition and failure to thrive. These findings are classic manifestations of physical neglect, meaning a failure to provide basic physical care like food, hygiene, and supervision. No inflicted injury or genital finding is present to suggest a different category.",
+   "whyNot": [
+    "Physical abuse involves an inflicted injury, but there is no bruising or other trauma described in these findings.",
+    "Emotional neglect can also cause withdrawal, but the growth failure and poor hygiene here point to unmet physical, not emotional, needs.",
+    "Sexual abuse presents with genital or behavioral findings, neither of which appears anywhere in this child's assessment."
+   ]
   },
   {
    "topic": "Shaken Baby Syndrome / Abusive Head Trauma",
@@ -561,7 +692,13 @@
    ],
    "ans": 2,
    "rat": "Apnea and a decreasing level of consciousness signal actual or impending respiratory failure, so airway and breathing take priority over any other action under the ABC framework, even with strong suspicion of abuse. Reporting, obtaining a history, and ordering diagnostic imaging are all necessary but come after the infant is stabilized — imaging cannot proceed safely in an infant with an unprotected airway.",
-   "strat": "ABCs outrank the report — stabilize the infant first, notify second."
+   "strat": "ABCs outrank the report — stabilize the infant first, notify second.",
+   "why": "Apnea and a decreasing level of consciousness signal actual or impending respiratory failure. Under the ABC framework, airway and breathing take priority over every other action, even with strong suspicion of abuse. The infant must be stabilized before anything else proceeds.",
+   "whyNot": [
+    "Notifying child protective services is required, but it comes after the infant's airway and breathing are stabilized.",
+    "A head CT cannot proceed safely until the infant's airway is secured, so imaging must wait until after stabilization.",
+    "Obtaining a detailed social history is a necessary step, but it does not take priority over stabilizing airway and breathing first."
+   ]
   },
   {
    "topic": "Preventing Adverse Childhood Experiences",
@@ -577,7 +714,13 @@
    ],
    "ans": 3,
    "rat": "CDC ACE-prevention strategies specifically identify early childhood home visits targeted to families with known risk factors (young, unmarried mothers with low socioeconomic status/support) as a direct intervention for this population. Passive pamphlet distribution, a blanket substance-misuse referral with no identified substance concern, and a one-time lecture are less targeted, lower-yield approaches.",
-   "strat": "Match the prevention strategy to the stated risk factor — targeted home visiting reaches the at-risk families directly."
+   "strat": "Match the prevention strategy to the stated risk factor — targeted home visiting reaches the at-risk families directly.",
+   "why": "CDC ACE-prevention strategies specifically identify early childhood home visits as a direct intervention. These visits are targeted to families with known risk factors, such as young, unmarried mothers with limited social support. This matches the population described in the scenario precisely.",
+   "whyNot": [
+    "Distributing pamphlets at the library is a passive strategy that does not directly reach the specific at-risk families.",
+    "Referring every family for substance misuse treatment is not targeted, since no substance concern was identified in this population.",
+    "A single public lecture on dating skills is a one-time, lower-yield approach compared with ongoing targeted home visiting."
+   ]
   },
   {
    "topic": "Mandatory Reporting and Nursing Actions",
@@ -600,7 +743,12 @@
     5
    ],
    "rat": "All 50 states require reporting suspected — not confirmed — abuse, so the nurse reports per mandatory reporting law, interviews caregivers separately, thoroughly documents and photographs findings, and explains the CPS process if a referral occurs. Telling caregivers a report requires confirmation is false and undermines mandatory reporting, and directive yes/no questioning of the child is probing and should be avoided in favor of open-ended, age-appropriate language.",
-   "strat": "Report suspicion, not proof; question caregivers separately and the child gently, never with pointed yes/no questions."
+   "strat": "Report suspicion, not proof; question caregivers separately and the child gently, never with pointed yes/no questions.",
+   "why": "All 50 states require reporting suspected abuse, not confirmed abuse. The nurse reports as mandatory law requires and interviews the child and each caregiver separately using open-ended questions. The nurse also photographs and documents findings thoroughly, and explains the CPS process if a referral follows.",
+   "whyNot": [
+    "Telling caregivers a report will not be filed unless abuse is confirmed is false and undermines mandatory reporting law.",
+    "Asking the child direct yes or no questions is a probing approach that should give way to open-ended, age-appropriate language."
+   ]
   },
   {
    "topic": "Sorting Findings: Abuse vs. Expected/Accidental",
@@ -639,7 +787,13 @@
     }
    ],
    "rat": "Bruising in a nonmobile infant, glove-like immersion burns, and multiple fractures at different healing stages are explicit warning signs of abuse. A history that matches the injury, prompt care-seeking, and typical bony-prominence bruising in an ambulatory toddler are the expected, reassuring counterparts to those warning signs.",
-   "strat": "If the story fits the injury and the child's mobility explains the bruise location, it's expected; if either doesn't fit, raise your index of suspicion."
+   "strat": "If the story fits the injury and the child's mobility explains the bruise location, it's expected; if either doesn't fit, raise your index of suspicion.",
+   "why": "A caregiver history that matches the type and severity of the injury is a reassuring, expected finding. So is prompt care-seeking right after the injury occurs. Scattered bruising over the shins and forehead of a toddler who already walks is also expected, since those are typical bumps of an ambulatory child.",
+   "whyNot": [
+    "Symmetrical, glove-like burns on both hands suggest forced immersion in scalding water, a documented pattern of inflicted injury.",
+    "Multiple fractures at different stages of healing suggest repeated injury over time, a well-recognized warning sign of abuse.",
+    "Bruising on a 2-month-old who cannot yet roll or sit is suspicious, since a nonmobile infant cannot generate accidental bruising."
+   ]
   },
   {
    "topic": "Family-Centered Care: Caregiver Partnership",
@@ -655,7 +809,13 @@
    ],
    "ans": 1,
    "rat": "Family-centered care defines the caregiver by legal responsibility for the child, not by biology, and treats that caregiver as the expert on the child's usual needs and behaviors. The grandmother holds legal custody and firsthand knowledge, so the nurse continues partnering with her. Deferring to the biological mother assumes biology outranks legal responsibility, acting alone abandons the partnership component, and escalating to ethics is unnecessary once the legal caregiver is already established.",
-   "strat": "Caregiver = whoever is legally responsible for the child, not necessarily who gave birth to them."
+   "strat": "Caregiver = whoever is legally responsible for the child, not necessarily who gave birth to them.",
+   "why": "Family-centered care defines the caregiver by legal responsibility for the child, not by biology. It treats that caregiver as the expert on the child's usual needs and behaviors. The grandmother holds legal custody and firsthand knowledge, so the nurse continues partnering with her.",
+   "whyNot": [
+    "Following the biological mother's requests assumes biology outranks legal responsibility, when the grandmother is the legally recognized caregiver here.",
+    "Making all care decisions alone, without involving either family member, abandons the partnership that family-centered care requires.",
+    "Consulting the ethics committee is unnecessary here, since the grandmother's legal custody is already clearly established."
+   ]
   },
   {
    "topic": "Family-Centered Care: Personal Bias",
@@ -671,7 +831,13 @@
    ],
    "ans": 1,
    "rat": "Family-centered care requires the nurse to set aside personal beliefs and partner with the family the child actually has - here, the foster parents who are legally responsible for the child. Seeking the biological parents assumes they must approve care, withholding information breaches the partnership and information-sharing components, and recording personal objections introduces bias into the record instead of respecting the family's diversity.",
-   "strat": "The family is whoever the child and caregivers say it is - partner with it, don't judge it."
+   "strat": "The family is whoever the child and caregivers say it is - partner with it, don't judge it.",
+   "why": "Family-centered care requires the nurse to set aside personal beliefs and partner with the family the child actually has. Here, that means the foster parents, who are legally responsible for the child's care and daily needs. This partnership does not depend on matching the nurse's own beliefs.",
+   "whyNot": [
+    "Seeking the biological parents for consent wrongly assumes they, not the foster parents, must approve this child's care.",
+    "Limiting information sharing until the nurse feels comfortable breaches the partnership and open communication family-centered care requires.",
+    "Recording personal concerns about the family structure in the chart introduces the nurse's bias into the official record."
+   ]
   },
   {
    "topic": "Anticipatory Guidance",
@@ -687,7 +853,13 @@
    ],
    "ans": 3,
    "rat": "Anticipatory guidance is proactive teaching that prepares caregivers for the child's next developmental stage before it arrives, such as injury-prevention steps ahead of new mobility. Reporting growth-curve results, giving today's scheduled immunizations, and following up on a resolved rash all address the child's current or past status rather than preparing the caregiver for what's ahead.",
-   "strat": "Anticipatory guidance looks forward to the next stage - not at today's numbers or last week's problem."
+   "strat": "Anticipatory guidance looks forward to the next stage - not at today's numbers or last week's problem.",
+   "why": "Anticipatory guidance is proactive teaching that prepares caregivers for the child's next developmental stage before it arrives. Warning a caregiver that a 4-month-old will soon reach, roll, and need a childproofed environment is injury prevention offered ahead of new mobility.",
+   "whyNot": [
+    "Giving today's scheduled immunizations addresses the child's current visit, not guidance about a future developmental stage.",
+    "Reporting that growth measurements have tracked well since the last visit describes past status, not upcoming needs.",
+    "Following up on a diaper rash that already resolved addresses a past problem, not a future developmental need."
+   ]
   },
   {
    "n": 1,
@@ -704,7 +876,13 @@
    ],
    "ans": 2,
    "rat": "Koplik's spots (pinpoint red spots with white specks on the buccal mucosa) appearing during the fever/cough/conjunctivitis prodrome are the classic identifying sign of measles, preceding the rash by 3-4 days. Mumps presents with parotid swelling, rubella with a mild prodrome and rash, and chickenpox with a vesicular rash - none produce Koplik's spots.",
-   "strat": "Koplik's spots inside the cheek = pathognomonic for measles; no other childhood rash disease produces them."
+   "strat": "Koplik's spots inside the cheek = pathognomonic for measles; no other childhood rash disease produces them.",
+   "why": "Koplik's spots — pinpoint red spots with white centers on the buccal mucosa — are the classic identifying sign of measles. They appear during the fever, cough, and conjunctivitis prodrome, typically 3-4 days before the measles rash develops. This combination of prodromal symptoms plus Koplik's spots points specifically to measles and not another childhood rash illness.",
+   "whyNot": [
+    "Mumps causes parotid gland swelling and earache, not Koplik's spots or a facial rash, so this presentation doesn't fit.",
+    "Rubella produces a milder prodrome and rash without Koplik's spots, and its complications center on pregnancy, not this picture.",
+    "Chickenpox produces a vesicular, blistering rash rather than oral Koplik's spots, so the buccal finding here points elsewhere."
+   ]
   },
   {
    "n": 2,
@@ -721,7 +899,13 @@
    ],
    "ans": 0,
    "rat": "Acetaminophen is the recommended antipyretic/analgesic for chickenpox. Aspirin - whether given alone, alternated with another antipyretic, or hidden inside a combination product - must be avoided in children with varicella because of the risk of Reye's syndrome, a rare but life-threatening hepatic and cerebral condition.",
-   "strat": "Chickenpox plus a fever-reducer question: eliminate anything containing aspirin first, every time."
+   "strat": "Chickenpox plus a fever-reducer question: eliminate anything containing aspirin first, every time.",
+   "why": "Acetaminophen is the recommended antipyretic and analgesic for a child with chickenpox, per standard fever and discomfort management. It controls fever and pain without introducing the aspirin risk that complicates the other options. This makes it the safe first-choice medication for a feverish, uncomfortable child with varicella.",
+   "whyNot": [
+    "This product hides aspirin inside a combination formula, so it still carries the Reye's syndrome risk in a child with varicella.",
+    "Aspirin directly raises the risk of Reye's syndrome, a rare but life-threatening liver and brain condition, in children with varicella.",
+    "Alternating in aspirin still exposes the child to Reye's syndrome risk, even though ibuprofen alone would be acceptable."
+   ]
   },
   {
    "n": 3,
@@ -738,7 +922,13 @@
    ],
    "ans": 0,
    "rat": "The presentation - unilateral parotid swelling and tenderness with pain on chewing after a fever/malaise prodrome - is consistent with mumps. Comfort measures include warm or cool compresses and soft, bland foods that require less chewing. Sour foods and gum both stimulate salivary flow and jaw movement, worsening parotid pain, and massaging the gland offers no therapeutic benefit.",
-   "strat": "Mumps hurts more with chewing and saliva flow: go soft, bland, and compressed, and avoid anything that stimulates the jaw or the glands."
+   "strat": "Mumps hurts more with chewing and saliva flow — go soft, bland, and cool, and skip anything that stimulates the jaw.",
+   "why": "This presentation — unilateral parotid swelling and tenderness with pain on chewing, following a fever and malaise prodrome — is consistent with mumps. Appropriate comfort measures include warm or cool compresses for the swollen gland and soft, bland foods that require minimal chewing. Both measures reduce mechanical strain on an already tender, inflamed gland.",
+   "whyNot": [
+    "Massaging an inflamed parotid gland offers no therapeutic benefit and can increase pain in already tender tissue.",
+    "Sour or tart foods stimulate saliva flow, which increases pressure and pain in an already swollen parotid gland.",
+    "Chewing gum keeps the jaw moving repeatedly, which worsens the pain mumps already causes with chewing."
+   ]
   },
   {
    "n": 4,
@@ -755,7 +945,13 @@
    ],
    "ans": 1,
    "rat": "In infants, pertussis paroxysms with thick mucus carry a real risk of airway obstruction and apnea, so the priority - airway first, per the ABCs - is close observation with suction readily available. Hydration, humidification, and antibiotic therapy are all appropriate parts of the plan but do not outrank securing the infant's airway during a coughing episode.",
-   "strat": "Infant plus pertussis plus thick mucus equals airway risk first; ABCs beats every other correct-but-not-first option."
+   "strat": "Infant plus pertussis plus thick mucus equals airway risk first — ABCs beats every other correct-but-not-first option.",
+   "why": "In infants, pertussis paroxysms with thick, stringy mucus carry a real risk of airway obstruction and apnea during a coughing episode. Following the ABCs, the priority is close observation for obstruction with suction equipment kept readily available at the bedside. This airway-focused monitoring outranks other correct interventions during an active paroxysm.",
+   "whyNot": [
+    "Humidification helps loosen secretions and is appropriate supportive care, but it doesn't address the immediate risk of airway obstruction.",
+    "Antibiotic therapy is appropriate for pertussis but works over time and doesn't prevent obstruction during a coughing paroxysm right now.",
+    "Encouraging fluids supports hydration but does nothing to protect the airway during an active coughing and mucus-clearing episode."
+   ]
   },
   {
    "n": 5,
@@ -772,7 +968,13 @@
    ],
    "ans": 2,
    "rat": "A minor illness - mild upper respiratory symptoms without fever - is not a contraindication to vaccination; only a severe febrile illness, immunocompromise (for live vaccines), or a known allergy to a prior dose or component should delay or avoid immunization. Postponing for a week, treating any respiratory symptom as disqualifying, or requiring lab-confirmed immune status all needlessly delay protection.",
-   "strat": "Minor illness is not a contraindication - only severe febrile illness, immunocompromise plus a live vaccine, or a known allergy hold the dose."
+   "strat": "Minor illness isn't a contraindication — only severe fever, immunocompromise plus live vaccine, or known allergy hold the dose.",
+   "why": "A minor illness — mild upper respiratory symptoms without fever — is not a contraindication to vaccination. Only a severe febrile illness, immunocompromise with a live vaccine, or a known allergy to a prior dose should delay immunization. Because this child is afebrile, playful, and feeding well, the scheduled vaccines can proceed today.",
+   "whyNot": [
+    "Requiring lab-confirmed immune status before vaccinating isn't part of the real contraindication list and needlessly delays protection.",
+    "Waiting a full week for symptoms to resolve overtreats a mild illness that was never a contraindication to begin with.",
+    "Treating any respiratory symptom as disqualifying is too broad — only severe febrile illness is a true contraindication here."
+   ]
   },
   {
    "n": 6,
@@ -789,7 +991,13 @@
    ],
    "ans": 3,
    "rat": "MMR and varicella are both live attenuated vaccines, which are contraindicated in severely immunocompromised children because the weakened virus can still cause disease when the immune system cannot mount a normal response. DTaP and IPV are inactivated/toxoid vaccines and can be given safely.",
-   "strat": "Immunocompromised plus vaccine question: ask \"is it live?\" - MMR, varicella, oral rotavirus, and intranasal flu are the ones to hold."
+   "strat": "Immunocompromised plus vaccine question: ask \"is it live?\" — MMR, varicella, oral rotavirus, and intranasal flu are the ones to hold.",
+   "why": "MMR and varicella are both live attenuated vaccines, meaning they contain a weakened but still-living form of the virus. In a severely immunocompromised child, such as one undergoing chemotherapy, the weakened virus can still cause actual disease. Both vaccines should be withheld until immune function recovers, unlike inactivated vaccines such as DTaP and IPV.",
+   "whyNot": [
+    "DTaP and IPV are inactivated and toxoid vaccines, not live virus, so they're safe to give during chemotherapy.",
+    "This pairs a live vaccine, MMR, with an inactivated one, DTaP, so only half of this combination actually needs withholding.",
+    "This pairs an inactivated vaccine, IPV, with a live one, varicella, so again only half of this pair needs withholding."
+   ]
   },
   {
    "n": 7,
@@ -806,7 +1014,13 @@
    ],
    "ans": 2,
    "rat": "Rubella infection during pregnancy carries a serious risk of miscarriage or birth defects, so avoiding exposure to pregnant contacts is the priority teaching point. Acetaminophen and antipyretics are appropriate for rubella, dimming lights is a measles-specific measure for photophobia, and general school-return timing is far less critical than protecting a pregnant contact.",
-   "strat": "Rubella's number-one danger is to pregnant contacts - teaching always leads with that, not the child's own comfort measures."
+   "strat": "Rubella's number-one danger is to pregnant contacts — teaching always leads with that, not the child's own comfort measures.",
+   "why": "Rubella infection during pregnancy carries a serious risk of miscarriage or birth defects in the developing fetus. Because of this danger, avoiding exposure to pregnant or possibly pregnant contacts is the most important teaching point for this family. Protecting vulnerable third parties outweighs routine comfort measures or school-return timing for this particular illness.",
+   "whyNot": [
+    "School-return timing is a reasonable general precaution, but it doesn't address rubella's specific danger to pregnant contacts.",
+    "Acetaminophen and other antipyretics are appropriate comfort measures for rubella, not something to withhold from the child.",
+    "Dimming the room addresses photophobia, a measles-specific symptom, and isn't part of standard rubella home care."
+   ]
   },
   {
    "n": 8,
@@ -823,7 +1037,13 @@
    ],
    "ans": 0,
    "rat": "Toddlers lack the abstract reasoning and impulse control to comply with verbal explanations or reminders, so a concrete, hands-on measure - mittens and short, smooth nails - most effectively prevents scratching and skin breakdown. Explaining rationale or relying on verbal correction assumes cognitive skills toddlers do not yet have, and a constant full-body suit is impractical for a mildly pruritic illness.",
-   "strat": "Toddler behavior control calls for concrete, physical measures, not verbal reasoning - match the strategy to the developmental stage."
+   "strat": "Toddler behavior control calls for concrete, physical measures, not verbal reasoning — match the strategy to the developmental stage.",
+   "why": "Toddlers lack the abstract reasoning and impulse control needed to comply with verbal explanations or reminders about not scratching. A concrete, hands-on measure — mittens paired with short, smooth fingernails — physically prevents scratching regardless of the child's understanding or cooperation. This matches the intervention to the toddler's actual developmental stage rather than an older child's reasoning ability.",
+   "whyNot": [
+    "A full-body suit worn all day is impractical for a mildly itchy illness and doesn't match the mild severity here.",
+    "Explaining the rationale assumes a level of abstract reasoning that a toddler hasn't developed yet.",
+    "A verbal reminder relies on impulse control a toddler doesn't yet have, so it won't reliably stop the scratching."
+   ]
   },
   {
    "n": 9,
@@ -847,7 +1067,12 @@
     5
    ],
    "rat": "Localized tenderness, redness, and swelling at the injection site; a low-grade fever; irritability; and mild drowsiness are expected, self-limited reactions after childhood vaccination. A high fever paired with a high-pitched cry, and lip swelling with difficulty breathing (signs of a serious neurologic or anaphylactic reaction), are not expected and need immediate evaluation.",
-   "strat": "Expected equals local, low-grade, and fussy or sleepy; anything high-fever-plus-neuro or airway/allergic means call now."
+   "strat": "Expected equals local, low-grade, and fussy or sleepy; anything high-fever-plus-neuro or airway/allergic means call now.",
+   "why": "Localized tenderness, redness, and swelling at the injection site are expected, self-limited reactions after childhood vaccination. A low-grade fever, increased fussiness or irritability, and sleeping somewhat more than usual are also expected within the first day. None of these findings require the infant to be seen urgently.",
+   "whyNot": [
+    "A high fever combined with a high-pitched cry is not an expected reaction and signals a possible serious neurologic complication.",
+    "Lip swelling with difficulty breathing suggests a possible anaphylactic reaction and needs immediate emergency evaluation, not reassurance."
+   ]
   },
   {
    "n": 10,
@@ -870,7 +1095,13 @@
     5
    ],
    "rat": "MMR, varicella, and oral rotavirus vaccines all contain live attenuated virus and are contraindicated in severely immunocompromised children because the weakened virus can still cause disease when the immune system cannot respond normally. DTaP, IPV, and hepatitis B are inactivated or toxoid vaccines and are safe to give.",
-   "strat": "Live-virus vaccines to remember: MMR, varicella, oral rotavirus, intranasal flu - hold these for immunocompromised kids; nearly everything else is inactivated."
+   "strat": "Live-virus vaccines to remember: MMR, varicella, oral rotavirus, intranasal flu — hold these for immunocompromised kids; nearly everything else is inactivated.",
+   "why": "MMR, varicella, and oral rotavirus vaccines all contain live attenuated virus, meaning a weakened but still-living pathogen. In a child with severe combined immunodeficiency, that weakened virus can still cause actual disease because the immune system cannot mount a normal response. All three should be withheld until immune function is restored.",
+   "whyNot": [
+    "Hepatitis B is an inactivated vaccine, not a live virus, so it's safe to give this child.",
+    "Inactivated polio vaccine contains no live virus and poses no risk to a severely immunocompromised child.",
+    "DTaP is a toxoid and inactivated-component vaccine, not live virus, so it doesn't need to be withheld."
+   ]
   },
   {
    "n": 11,
@@ -908,7 +1139,8 @@
     }
    ],
    "rat": "Measles and chickenpox both spread by airborne particles and require airborne precautions plus contact precautions (chickenpox until lesions crust; measles through the contagious period). Mumps spreads through saliva and direct contact, requiring droplet plus contact precautions. Rubella spreads by droplet only. Pertussis spreads by large-particle droplets and is managed with droplet precautions in addition to standard precautions.",
-   "strat": "Airborne pair: measles and chickenpox. Mumps adds contact to droplet. Rubella is droplet alone. Pertussis is droplet plus standard."
+   "strat": "Airborne pair: measles and chickenpox. Mumps adds contact to droplet. Rubella is droplet alone. Pertussis is droplet plus standard.",
+   "why": "Measles and chickenpox both spread by airborne particles, so both require airborne precautions plus contact precautions — chickenpox until lesions crust, measles through the contagious period. Mumps spreads through saliva and direct contact, so it requires droplet plus contact precautions instead. Rubella spreads by droplet alone, and pertussis, spread by large-particle droplets, is managed with droplet precautions added to standard precautions."
   },
   {
    "n": 12,
@@ -950,7 +1182,8 @@
     }
    ],
    "rat": "Hepatitis B is the only vaccine given at birth, before the 2-4-6 month series of DTaP, Hib, PCV, IPV, and rotavirus. MMR and varicella are both first given at 12-15 months and are live attenuated vaccines, so both must be withheld in a severely immunocompromised child, unlike the inactivated hepatitis B vaccine.",
-   "strat": "Birth means Hep B only. 12-15 months means MMR plus varicella together, a matched live-vaccine pair worth memorizing."
+   "strat": "Birth means Hep B only. 12-15 months means MMR plus varicella together, a matched live-vaccine pair worth memorizing.",
+   "why": "Hepatitis B is the only vaccine given at birth, before the two-four-six month series of DTaP, Hib, pneumococcal, polio, and rotavirus begins. MMR and varicella are both first given at twelve to fifteen months, making them a matched pair on the schedule. Both are live attenuated vaccines, so both must be withheld together in a severely immunocompromised child, unlike the inactivated hepatitis B vaccine."
   },
   {
    "n": 13,
@@ -963,7 +1196,8 @@
    "acceptHi": 170,
    "answer": "168 mg",
    "rat": "14 kg x 12 mg/kg = 168 mg per dose.",
-   "strat": "Weight (kg) times the ordered mg/kg equals the dose - always multiply, then sanity-check against a safe range."
+   "strat": "Weight (kg) times the ordered mg/kg equals the dose — always sanity-check against a safe range.",
+   "why": "The ordered dose is 12 mg/kg, and the child weighs 14 kg. Multiply weight by the ordered mg/kg to get the total dose: 14 kg times 12 mg/kg equals 168 mg for one dose. Always sanity-check the calculated dose against a safe pediatric acetaminophen range before administering."
   },
   {
    "topic": "Asthma Controller Medications",
@@ -979,7 +1213,13 @@
    ],
    "ans": 1,
    "rat": "Stopping a daily ICS controller once symptoms resolve is the statement that needs further teaching: the ICS suppresses the underlying airway inflammation, and the absence of symptoms shows the drug is working, not that it can be stopped — only the prescriber changes the regimen. PRN use of the rescue inhaler, the annual influenza vaccine, and eliminating secondhand smoke are all correct asthma-management behaviors.",
-   "strat": "\"Feels better, so we stopped it\" is almost always the wrong statement for a daily controller/maintenance medication."
+   "strat": "\"Feels better, so we stopped it\" is almost always the wrong statement for a daily controller/maintenance medication.",
+   "why": "Stopping the daily inhaled corticosteroid once symptoms resolve is the statement that needs further teaching. The medication suppresses the underlying airway inflammation, and symptom absence shows it is working, not that it can be discontinued. Only the prescriber should change a controller regimen, so this parent's plan is unsafe.",
+   "whyNot": [
+    "Getting an annual flu shot is correct asthma management, since respiratory infection is a common trigger for exacerbations.",
+    "Using the rescue inhaler only when breathing trouble starts suddenly is exactly how a short-acting bronchodilator should be used.",
+    "Eliminating secondhand smoke exposure around the child is accurate, protective teaching that needs no correction."
+   ]
   },
   {
    "topic": "Controller Medication Teaching",
@@ -1002,7 +1242,12 @@
     4
    ],
    "rat": "Correct controller teaching includes rinsing the mouth after each ICS dose to prevent oral thrush, using a spacer to improve lung deposition, keeping the rescue inhaler accessible everywhere the child goes, and getting an annual flu vaccine since respiratory infection is a major trigger. Doubling a missed dose is unsafe, and the ICS controller has a slow onset of days to weeks, so it cannot substitute for the rescue inhaler during an acute attack.",
-   "strat": "Controller = daily prevention; rescue = right now. Never swap their jobs, and never double a dose to catch up."
+   "strat": "Controller = daily prevention; rescue = right now. Never swap their jobs, and never double a dose to catch up.",
+   "why": "Correct controller teaching includes rinsing the mouth after each inhaled corticosteroid dose to prevent oral thrush. A spacer improves how much medication reaches the lungs, and the rescue inhaler should stay accessible everywhere she goes. An annual flu vaccine is also recommended, since respiratory infection is a major trigger for asthma exacerbations.",
+   "whyNot": [
+    "The inhaled corticosteroid controller has a slow onset of days to weeks, so it cannot substitute for the rescue inhaler during a sudden attack.",
+    "Doubling a missed controller dose is unsafe — a missed dose is simply skipped, not made up with a double dose."
+   ]
   },
   {
    "topic": "RSV / Bronchiolitis Precautions",
@@ -1018,7 +1263,13 @@
    ],
    "ans": 3,
    "rat": "RSV spreads through respiratory droplets and contact with contaminated surfaces, where it can survive for hours, so droplet and contact precautions with isolation are the priority to protect other patients. RSV is not spread by the airborne route, standard precautions alone under-protect the unit since RSV also spreads by droplet, and isolation should begin on clinical suspicion rather than waiting on confirmatory testing.",
-   "strat": "RSV lives on surfaces and travels in droplets — think droplet AND contact, never airborne."
+   "strat": "RSV lives on surfaces and travels in droplets — think droplet AND contact, never airborne.",
+   "why": "RSV spreads through respiratory droplets and through contact with contaminated surfaces, where the virus can survive for hours. Droplet and contact precautions with a private room are therefore the priority to protect other patients on the unit. Isolation should begin as soon as RSV is clinically suspected, not after laboratory confirmation.",
+   "whyNot": [
+    "RSV is not spread by the airborne route, so airborne precautions and a negative-pressure room aren't needed here.",
+    "Waiting for confirmatory testing delays isolation, which should start as soon as RSV is clinically suspected.",
+    "Standard precautions alone under-protect the unit, since RSV also spreads by the droplet route to other patients."
+   ]
   },
   {
    "topic": "RSV Prophylaxis",
@@ -1034,7 +1285,13 @@
    ],
    "ans": 0,
    "rat": "Palivizumab is given as a monthly injection throughout RSV season to help prevent severe RSV disease in high-risk infants, including those born prematurely and those with bronchopulmonary dysplasia or certain heart defects. It is prophylaxis, not a one-time vaccine or a treatment for active bronchospasm, and it must be repeated monthly because protection from a single dose does not last the whole season.",
-   "strat": "Palivizumab = monthly shot, all season long, for the high-risk infant — prevention, not a one-time vaccine."
+   "strat": "Palivizumab = monthly shot, all season long, for the high-risk infant — prevention, not a one-time vaccine.",
+   "why": "Palivizumab is given as a monthly injection throughout RSV season to help prevent severe disease in high-risk infants. This infant, born at 28 weeks with chronic bronchopulmonary dysplasia, fits the high-risk group the medication targets. Palivizumab is prophylaxis against infection, and protection from one dose doesn't last the whole season, so monthly dosing continues throughout.",
+   "whyNot": [
+    "There's no oral antiviral course used as routine RSV prophylaxis for high-risk infants in this population.",
+    "There is no single-dose RSV vaccine for this infant — palivizumab is prophylaxis that requires monthly redosing all season.",
+    "Albuterol treats active bronchospasm and isn't used as a scheduled preventive therapy against RSV infection itself."
+   ]
   },
   {
    "topic": "Pediatric Airway Vulnerability",
@@ -1050,7 +1307,13 @@
    ],
    "ans": 2,
    "rat": "Because infants and young children have smaller airway diameters and shorter distances between structures, the same amount of mucosal swelling and secretions that would be minor in an adult causes proportionally much greater airway narrowing in an infant. Maternal antibodies actually protect most infants younger than 3 months from many infections, and the other options describe mechanisms not supported by the source material.",
-   "strat": "Same amount of swelling, smaller pipe to begin with — narrowing matters far more in a small-diameter airway."
+   "strat": "Same amount of swelling, smaller pipe to begin with — narrowing matters far more in a small-diameter airway.",
+   "why": "Infants and young children have smaller airway diameters and shorter distances between structures than adults do. Because of this smaller starting diameter, the same mucosal swelling that would be minor in an adult causes proportionally much greater narrowing in an infant. This size difference, not a weaker immune system, explains why colds hit infants so much harder.",
+   "whyNot": [
+    "Tonsil and adenoid size isn't the mechanism described in the source material for why colds hit infants harder.",
+    "Airway branching pattern isn't the explanation given here — airway diameter and distance between structures are what matter.",
+    "Maternal antibodies actually protect most infants younger than 3 months, so a globally weaker immune system isn't the reason."
+   ]
   },
   {
    "topic": "Recognizing Respiratory Deterioration",
@@ -1066,7 +1329,13 @@
    ],
    "ans": 1,
    "rat": "Signs of respiratory deterioration cluster together: an increasing respiratory rate, increasing work of breathing (retractions), an increasing heart rate, and reduced level of consciousness together indicate the child is decompensating and require immediate provider notification. Any single vital sign in isolation is less informative than the overall trend, and decreased responsiveness in an acutely ill child is never an expected or reassuring finding on its own.",
-   "strat": "Deterioration is a pattern, not one number — rising RR + rising HR + more effort + less alertness together mean act now."
+   "strat": "Deterioration is a pattern, not one number — rising RR + rising HR + more effort + less alertness together mean act now.",
+   "why": "Signs of respiratory deterioration cluster together rather than appearing alone. Rising respiratory rate, worsening retractions, increasing heart rate, and reduced responsiveness together show the child is decompensating and need immediate provider notification. Any single vital sign in isolation is far less informative than the overall trend across all four findings.",
+   "whyNot": [
+    "Heart rate alone isn't the single most sensitive indicator — it matters most combined with the other worsening findings.",
+    "Dismissing the heart rate change ignores a real part of the deterioration pattern seen here.",
+    "Decreased responsiveness in an acutely ill child is never a reassuring finding on its own, not simple tiredness."
+   ]
   },
   {
    "topic": "Developmentally Appropriate Respiratory Care",
@@ -1082,7 +1351,13 @@
    ],
    "ans": 3,
    "rat": "Saline drops followed by suction (for the infant, who cannot blow her nose) or nose-blowing (for the preschooler) are appropriate for both ages. Topical vapor rubs are recommended only for children older than 2 years, so the 14-month-old should not receive one. Combination over-the-counter cold remedies risk unintentional acetaminophen overdose and are not appropriate for a toddler this young, and gargling requires a skill a 14-month-old does not yet have.",
-   "strat": "Match the intervention to the age: vapor rub only over age 2, gargling only once a child can reliably do it, saline plus suction or blowing works at any age."
+   "strat": "Match the method to developmental ability — vapor rub after age 2, saline plus suction or blowing works at any age.",
+   "why": "Saline drops followed by suction for the infant, or gentle nose-blowing for the preschooler, are appropriate secretion-clearing measures for both ages. Each method matches what the child is developmentally capable of doing. This flexible approach works for both the 14-month-old and the 4-year-old, unlike the other options, which fit only one age group or neither.",
+   "whyNot": [
+    "Gargling requires a skill the 14-month-old doesn't have yet, so this instruction doesn't work for both children.",
+    "Combination cold remedies risk unintentional acetaminophen overdose and aren't appropriate for a toddler this young.",
+    "Topical vapor rub is recommended only over age 2, so the 14-month-old shouldn't receive it."
+   ]
   },
   {
    "topic": "Peak Flow Zone Interpretation",
@@ -1111,7 +1386,8 @@
     }
    ],
    "rat": "A peak flow of 65% of personal best falls in the yellow zone (50-80%), which signals caution and worsening control. The family should follow the prescribed yellow-zone action plan and monitor closely, rather than continuing unchanged (the green zone, 80-100%) or treating it as an emergency (the red zone, below 50%).",
-   "strat": "Green-go, Yellow-slow down and follow the plan, Red-emergency — match the percentage to the traffic-light zone."
+   "strat": "Green-go, Yellow-slow down and follow the plan, Red-emergency — match the percentage to the traffic-light zone.",
+   "why": "A peak flow reading of 65% of personal best falls within the yellow zone, which spans 50 to 80 percent. The yellow zone signals caution and worsening asthma control, unlike the green zone above 80 percent or the red zone below 50 percent. The family should follow the prescribed yellow-zone action plan and watch closely for further worsening."
   },
   {
    "topic": "CASE: Acute Asthma Exacerbation",
@@ -1146,7 +1422,8 @@
     }
    ],
    "rat": "An increasing heart rate, worsening hypoxia (falling SpO2), and reduced responsiveness with loss of full-sentence speech are classic signs that a respiratory illness is deteriorating and must be reported immediately. An unchanged respiratory rate/wheeze/retraction pattern and an unchanged peak flow reading are not new information — they simply confirm the exacerbation already identified at triage.",
-   "strat": "Anything trending the wrong direction since the last check — especially heart rate, oxygenation, and mental status — is reportable, not just more of the same."
+   "strat": "Anything trending the wrong direction since the last check — especially HR, oxygenation, mental status — is reportable.",
+   "why": "An increasing heart rate, worsening hypoxia, and reduced responsiveness with loss of full-sentence speech are all new signs of worsening that must be reported immediately. An unchanged respiratory rate, wheeze, and retraction pattern, along with an unchanged peak flow reading, are not new information. They simply confirm the exacerbation already identified at triage."
   },
   {
    "topic": "CASE: Acute Asthma Exacerbation",
@@ -1162,7 +1439,13 @@
    ],
    "ans": 0,
    "rat": "Worsening tachypnea and wheeze already present from asthma, combined with new hypoxia, increased work of breathing (nasal flaring, grunting), rising heart rate, and reduced ability to speak, together fit progression of the asthma exacerbation toward respiratory failure rather than a new problem. Anaphylaxis typically also presents with findings such as hives or hypotension, pneumonia typically presents with fever and focal findings, and anxiety would not explain the falling SpO2 or the objective work-of-breathing findings.",
-   "strat": "When the same airway problem gets worse along the same trajectory, call it progression — don't invent a second diagnosis without new supporting cues."
+   "strat": "Same problem getting worse along the same trajectory is progression — don't invent a second diagnosis without new cues.",
+   "why": "Maya's tachypnea and wheeze were already present from her asthma. Now hypoxia, nasal flaring, grunting, rising heart rate, and reduced ability to speak have all worsened together. This full pattern fits progression of the same asthma exacerbation toward respiratory failure, not a new or separate problem.",
+   "whyNot": [
+    "Anxiety wouldn't explain the falling oxygen saturation or the objective new work-of-breathing findings like grunting and flaring.",
+    "Anaphylaxis typically presents with additional findings such as hives or a drop in blood pressure, which aren't described here.",
+    "Bacterial pneumonia typically presents with fever and focal lung findings, which don't appear in this reassessment."
+   ]
   },
   {
    "topic": "CASE: Acute Asthma Exacerbation",
@@ -1178,7 +1461,13 @@
    ],
    "ans": 1,
    "rat": "Airway and breathing outrank other needs (the ABC framework): impending respiratory failure is immediately life-threatening and must be prioritized over dehydration risk or anxiety, both of which matter but are not immediate airway or breathing threats. Treating every problem as equal priority ignores the urgency hierarchy and risks delaying the intervention Maya needs most right now.",
-   "strat": "ABCs outrank everything else on the list — an airway/breathing risk is always prioritized first."
+   "strat": "ABCs outrank everything else on the list — an airway/breathing risk is always prioritized first.",
+   "why": "Airway and breathing outrank other needs under the ABC framework used to prioritize nursing problems. Impending respiratory failure is immediately life-threatening and must be addressed before dehydration risk or anxiety, both of which matter but aren't immediate airway threats. This urgency hierarchy is what keeps Maya from decompensating further while other real but lower-priority needs wait.",
+   "whyNot": [
+    "Anxiety related to difficulty breathing is a real concern, but it isn't an immediate airway or breathing threat.",
+    "Dehydration risk from decreased intake matters, but it doesn't threaten Maya's airway the way impending respiratory failure does.",
+    "Treating all three as equal priority ignores the urgency hierarchy and risks delaying the intervention Maya needs most."
+   ]
   },
   {
    "topic": "CASE: Acute Asthma Exacerbation",
@@ -1194,7 +1483,13 @@
    ],
    "ans": 2,
    "rat": "A short-acting beta2-agonist (albuterol) is the priority medication in an acute exacerbation because it works within minutes to reverse bronchospasm — it is the rescue drug for a crisis happening right now. The ICS controller and a leukotriene receptor antagonist are daily maintenance medications with an onset of days to weeks and will not relieve this acute event, and obtaining imaging first delays the airway-focused treatment Maya needs.",
-   "strat": "Acute exacerbation = short-acting rescue drug first, always. Controllers control the future; they don't rescue the present."
+   "strat": "Acute exacerbation = short-acting rescue drug first, always. Controllers control the future; they don't rescue the present.",
+   "why": "Nebulized albuterol, a short-acting beta2-agonist, is the priority medication in an acute exacerbation because it works within minutes to reverse bronchospasm. It is the rescue drug for a breathing crisis happening right now, unlike the daily maintenance medications also being considered. Giving it first addresses the immediate airway problem before any other action.",
+   "whyNot": [
+    "A leukotriene receptor antagonist is a daily maintenance drug with a slow onset, not a rescue medication for right now.",
+    "The inhaled corticosteroid controller takes days to weeks to work and won't relieve this acute bronchospasm.",
+    "Getting imaging first only delays the airway-focused medication Maya needs immediately during this active exacerbation."
+   ]
   },
   {
    "topic": "CASE: Acute Asthma Exacerbation",
@@ -1217,7 +1512,12 @@
     3
    ],
    "rat": "Supplemental oxygen, upright positioning, nebulized albuterol, and the ordered systemic corticosteroid are all appropriate: oxygen and albuterol address the immediate hypoxia and bronchospasm, upright positioning eases the work of breathing, and the systemic corticosteroid reduces the airway inflammation driving the exacerbation. Lying flat increases the work of breathing rather than easing it, and offering a large volume of fluid abruptly during respiratory distress risks vomiting and aspiration — small, frequent amounts are the safer approach to hydration.",
-   "strat": "Distress = sit the child up, open the airway, treat the bronchospasm and inflammation — never lay a distressed child flat or push fluids fast."
+   "strat": "Distress means sit the child up and treat the bronchospasm — never lay a distressed child flat or push fluids fast.",
+   "why": "Supplemental oxygen and nebulized albuterol directly address the hypoxia and bronchospasm driving this exacerbation. Upright positioning eases Maya's work of breathing, and the ordered systemic corticosteroid reduces the airway inflammation behind the attack. All four actions target the immediate physiologic problem and should be implemented together right now.",
+   "whyNot": [
+    "Lying flat increases the work of breathing during respiratory distress rather than easing it, the opposite of what Maya needs.",
+    "A large volume of fluid given abruptly during respiratory distress risks vomiting and aspiration in a child working this hard to breathe."
+   ]
   },
   {
    "topic": "CASE: Acute Asthma Exacerbation",
@@ -1233,7 +1533,13 @@
    ],
    "ans": 3,
    "rat": "Peak flow back in the green zone (80% or greater of personal best), a normal SpO2 on room air with oxygen already weaned, a respiratory rate trending down toward normal, and a return to speaking in full sentences and normal behavior together indicate an effective response to treatment, not a worsening or inconclusive picture. A mildly elevated respiratory rate alone, in the context of this much broader improvement, does not by itself justify another immediate bronchodilator dose or an emergent workup.",
-   "strat": "Judge the whole trend, not one leftover number — when oxygenation, peak flow, effort, and behavior all move the same good direction, that is a real response."
+   "strat": "Judge the whole trend, not one leftover number — when everything moves the same good direction, that's a real response.",
+   "why": "Peak flow is back in the green zone at 84 percent, and oxygen saturation is normal on room air with supplemental oxygen already weaned. Respiratory rate is trending down toward normal, and Maya has returned to speaking in full sentences and asking for her stuffed animal. Together, these findings show an effective response to treatment, and Maya is moving out of the acute exacerbation.",
+   "whyNot": [
+    "Nothing here is worsening — oxygenation, peak flow, effort, and behavior are all trending in the improving direction.",
+    "The findings are clear and consistent, not inconclusive, so an emergent chest x-ray isn't indicated at this point.",
+    "A slightly elevated respiratory rate alone doesn't outweigh this much broader improvement or justify another immediate bronchodilator dose."
+   ]
   },
   {
    "n": 1,
@@ -1250,7 +1556,13 @@
    ],
    "ans": 1,
    "rat": "Epiglottitis can progress to complete airway obstruction within minutes, and agitation or crying from throat inspection, culture swabbing, or repositioning can precipitate that obstruction (ABCs: protect the airway before anything else). A throat culture and direct visualization of the epiglottis are contraindicated because they can trigger laryngospasm; a chest x-ray requires positioning and movement that carries the same risk (a lateral neck film, not a chest film, is the diagnostic study per the guide, and even that waits until the child is calm and the airway is secured). IV antibiotics are indicated but only after the airway is safe, not as the first action.",
-   "strat": "Suspected epiglottitis = hands off the throat, camera off the chest: don't look, don't swab, don't move the child — secure the airway first."
+   "strat": "Suspected epiglottitis: hands off the throat, camera off the chest, secure the airway first.",
+   "why": "Epiglottitis can progress to complete airway obstruction within minutes, and agitation or crying from throat inspection, swabbing, or repositioning can precipitate that obstruction. Following the ABCs, protecting the airway comes before any diagnostic or treatment step. Keeping the child calm and undisturbed in the position of comfort, while preparing for emergency airway management, is the priority action.",
+   "whyNot": [
+    "A lateral neck film, not a chest x-ray, is the diagnostic study here, and even that waits until the airway is secure.",
+    "IV antibiotics are indicated, but only after the airway is safe, not as the very first action taken.",
+    "A throat culture requires visualizing and swabbing the throat, which can trigger laryngospasm and complete obstruction."
+   ]
   },
   {
    "n": 2,
@@ -1267,7 +1579,13 @@
    ],
    "ans": 0,
    "rat": "Viral laryngotracheobronchitis (croup) has a gradual onset following an upper respiratory infection, with a barking cough and stridor that is often worse at night. Bacterial epiglottitis has a rapid onset following a sore throat, with high fever, drooling, and an absent spontaneous cough — one of its three classic signs. Reversing the findings, treating both as the same illness, or downgrading epiglottitis to home management all miscategorize a medical emergency as a benign illness.",
-   "strat": "Progressive onset + barky cough = croup; rapid onset + drooling + no cough = epiglottitis — cough presence is the tell."
+   "strat": "Progressive onset + barky cough = croup; rapid onset + drooling + no cough = epiglottitis — cough presence is the tell.",
+   "why": "Child A's gradual onset following an upper respiratory infection, with a barking cough and stridor worse at night, is consistent with viral croup. Child B's rapid onset following a sore throat, with high fever, drooling, and an absent spontaneous cough, is consistent with bacterial epiglottitis instead. Absent cough is one of epiglottitis's three classic signs, which is what separates these two presentations.",
+   "whyNot": [
+    "Child B's presentation is a medical emergency, not a milder illness manageable at home with humidified air.",
+    "These are two different illnesses with different causative organisms, not the same viral illness at different stages.",
+    "This reverses the findings — gradual onset with barking cough fits croup, not epiglottitis, and vice versa."
+   ]
   },
   {
    "n": 3,
@@ -1284,7 +1602,13 @@
    ],
    "ans": 2,
    "rat": "The guide teaches cool mist — cool night air, a cold-water vaporizer or humidifier, standing in front of an open freezer, or a cool basement or garage — to constrict edematous airway vessels, not warm steam. A hot, steamy shower reflects the common misconception that heat loosens croup secretions and needs correction. Encouraging fluids, expecting nighttime worsening, and keeping the child calm to avoid exacerbating symptoms are all accurate teaching points that need no follow-up.",
-   "strat": "Croup calls for COOL mist, not hot steam — the opposite of the classic 'steamy bathroom' myth."
+   "strat": "Croup calls for COOL mist, not hot steam — the opposite of the classic 'steamy bathroom' myth.",
+   "why": "The guide teaches cool mist — cool night air, a cold-water vaporizer, or standing near an open freezer — to constrict swollen airway vessels, not warm steam. A hot, steamy shower reflects the common misconception that heat loosens croup secretions, so this statement needs correction. The parent's other statements about fluids, nighttime worsening, and staying calm are all accurate and need no follow-up.",
+   "whyNot": [
+    "Cool night air or a cold-water humidifier is exactly the correct cool-mist approach the guide recommends for croup.",
+    "Encouraging fluids and staying calm with a frightened child are both accurate, supportive home-care teaching points.",
+    "Expecting worse symptoms at night and avoiding prolonged crying are accurate, since agitation can worsen the cough."
+   ]
   },
   {
    "n": 4,
@@ -1301,7 +1625,13 @@
    ],
    "ans": 3,
    "rat": "Family-centered, developmentally appropriate care keeps a frightened preschooler with the parent and limits handling to only what is necessary, since crying and agitation can worsen airway obstruction in epiglottitis. Separating the child from the parent increases distress; distracting the child while still attempting throat visualization combines a comfort measure with a contraindicated action; and a detailed medical explanation is beyond a 3-year-old's developmental level and delays care.",
-   "strat": "Toddler or preschooler + airway emergency: stay in the parent's lap, hands off the throat, minimal words."
+   "strat": "Toddler or preschooler + airway emergency: stay in the parent's lap, hands off the throat, minimal words.",
+   "why": "Family-centered, developmentally appropriate care keeps a frightened preschooler with the parent and limits handling to only what is necessary right now. Crying and agitation can worsen airway obstruction in epiglottitis, so unnecessary assessments should wait. Staying in the parent's lap while completing only essential assessments protects both the child's emotional security and the airway.",
+   "whyNot": [
+    "Distracting the child while still attempting throat visualization pairs a comfort measure with a contraindicated, airway-risking action.",
+    "Separating a frightened preschooler from the parent increases distress, which can worsen agitation and airway obstruction.",
+    "A detailed medical explanation is beyond a 3-year-old's developmental level and only delays the care this child needs."
+   ]
   },
   {
    "n": 5,
@@ -1343,7 +1673,8 @@
     ]
    },
    "rat": "Classic epiglottitis (rapid onset, high fever, drooling, tripod positioning, absence of cough) is an airway emergency, not croup. The priority actions are having resuscitation/suction equipment ready at the bedside and providing humidified oxygen, while avoiding throat visualization, throat culture, or forcing supine positioning for imaging, any of which can trigger complete obstruction. The nurse continuously monitors respiratory rate, effort, and oxygen saturation along with the classic epiglottitis signs (stridor, drooling, positioning) for deterioration; reflexes and bowel sounds are not relevant to this problem.",
-   "strat": "Epiglottitis bowtie: prep for the worst (suction and oxygen), don't provoke the airway, and watch breathing plus the classic signs."
+   "strat": "Epiglottitis bowtie: prep for the worst (suction and oxygen), don't provoke the airway, and watch breathing plus the classic signs.",
+   "why": "Rapid onset, high fever, drooling, tripod positioning, and absent cough describe classic epiglottitis — an airway emergency, not croup. Priority actions are keeping resuscitation and suction equipment at the bedside and providing humidified oxygen. The nurse avoids throat visualization, culture swabs, and forced supine positioning, any of which can trigger obstruction. Respiratory effort, oxygen saturation, and the classic signs of stridor, drooling, and positioning are monitored continuously for deterioration."
   },
   {
    "n": 1,
@@ -1360,7 +1691,13 @@
    ],
    "ans": 0,
    "rat": "Sweat chloride testing directly measures the elevated sweat sodium/chloride characteristic of cystic fibrosis and is used to confirm the diagnosis. Per the guide, CFTR mutation analysis increases certainty but does not guarantee the child will have the disease, repeating the screening test doesn't add diagnostic certainty, and fecal fat testing evaluates malabsorption rather than confirming cystic fibrosis itself.",
-   "strat": "Newborn screening flags risk; sweat chloride testing confirms it."
+   "strat": "Newborn screening flags risk; sweat chloride testing confirms it.",
+   "why": "Sweat chloride testing directly measures the elevated sweat sodium and chloride characteristic of cystic fibrosis. This is the test used to confirm the diagnosis after a positive newborn screen. The meconium ileus and poor stooling already suggest cystic fibrosis, so sweat chloride testing is the logical next confirmatory step.",
+   "whyNot": [
+    "A stool collection for fecal fat evaluates malabsorption, but it doesn't confirm the underlying cystic fibrosis diagnosis itself.",
+    "Detecting a CFTR mutation increases certainty but, per the guide, does not by itself guarantee the child has cystic fibrosis.",
+    "Repeating the newborn screening test doesn't add diagnostic certainty once the result is already positive."
+   ]
   },
   {
    "n": 2,
@@ -1377,7 +1714,13 @@
    ],
    "ans": 3,
    "rat": "Per the guide, pancreatic enzymes are given right before or with meals and snacks so they are mixed with food in the duodenum; waiting an hour after eating means the enzymes arrive after most digestion has already occurred, defeating their purpose. The other statements are correct: enzymes are needed with every meal and snack, and therapy continues regardless of current stool appearance since it is ongoing replacement, not a symptom-triggered dose.",
-   "strat": "Enzymes travel WITH the food, not after it's already gone."
+   "strat": "Enzymes travel WITH the food, not after it's already gone.",
+   "why": "Pancreatic enzymes are given right before or with meals and snacks so they mix with food as it reaches the duodenum. Waiting an hour after eating means the enzymes arrive after most digestion has already happened, defeating their purpose. This timing error is the statement that needs further teaching.",
+   "whyNot": [
+    "Giving the enzyme with every meal and snack, not only large meals, is accurate ongoing enzyme replacement therapy.",
+    "Giving the enzyme capsule right before eating is exactly the correct timing described in the teaching.",
+    "Continuing enzyme therapy regardless of stool appearance is correct, since it's ongoing replacement, not a symptom-triggered dose."
+   ]
   },
   {
    "n": 3,
@@ -1394,7 +1737,13 @@
    ],
    "ans": 2,
    "rat": "The guide directs the nurse to involve the child in planning care and modify care to the child's preferences, since children with cystic fibrosis commonly resist their treatment regimen; offering a small, controlled choice respects developmental autonomy while therapy continues. Excluding the parent undermines family-centered care, overriding the child's feelings without engaging them ignores developmental needs, and indefinitely rescheduling around sleep is impractical since airway clearance requires the child's participation.",
-   "strat": "Family-centered + developmentally appropriate = involve the child and family, don't exclude or override them."
+   "strat": "Family-centered + developmentally appropriate = involve the child and family, don't exclude or override them.",
+   "why": "The guide directs the nurse to involve the child in planning care and adjust it to the child's preferences. Resisting treatment is common in cystic fibrosis, so offering a small, controlled choice, like which toy to hold, respects the child's autonomy. This keeps the vest therapy on schedule while keeping the parent present and the child engaged, not overridden.",
+   "whyNot": [
+    "Telling the child the therapy isn't painful and must proceed regardless overrides the child's feelings instead of engaging them.",
+    "Asking the parent to leave undermines family-centered care, which keeps the family involved rather than excluded.",
+    "Rescheduling indefinitely around naptime is impractical, since airway clearance therapy still requires the child's participation to work."
+   ]
   },
   {
    "n": 4,
@@ -1411,7 +1760,13 @@
    ],
    "ans": 1,
    "rat": "The guide's taught sequence is: breathe in slowly through the nose and hold 2-3 seconds to move mucus into the larger airways, forcefully huff the air out to move mucus out of the lungs, then cough and spit to clear it. Reordering the steps or coughing forcefully without the slow-breath/huff sequence does not move mucus the same way and does not match the taught technique.",
-   "strat": "Huff-cough order: slow breath in and hold, huff out, then cough — sequence matters."
+   "strat": "Huff-cough order: slow breath in and hold, huff out, then cough — sequence matters.",
+   "why": "The correct sequence is to breathe in slowly through the nose and hold for 2 to 3 seconds, moving mucus into the larger airways. Next, the child forcefully huffs the air out, which moves the mucus out of the lungs. Only then does the child cough and spit to clear it, since each step depends on the one before it.",
+   "whyNot": [
+    "Huffing before the slow breath-and-hold skips the step that moves mucus into the larger airways first.",
+    "Coughing before the breath-hold-huff sequence tries to clear mucus that hasn't yet been moved into the larger airways.",
+    "Breathing in quickly through the mouth and coughing instead of huffing skips the technique's actual mechanism entirely."
+   ]
   },
   {
    "n": 5,
@@ -1435,7 +1790,12 @@
     5
    ],
    "rat": "Thick, tenacious secretions from the CFTR defect affect every system the guide addresses: chronic mucus obstruction produces a barrel-shaped chest and clubbing in advanced pulmonary disease; deficient pancreatic enzymes cause malabsorption and greasy, foul-smelling stools; abnormally high sweat sodium and chloride cause the classic salty skin; and pancreatic insufficiency produces cystic fibrosis-related diabetes with polyuria and weight loss. Puberty is delayed, not early, in cystic fibrosis, and bradycardia with hypertension is not a recognized manifestation of the disease.",
-   "strat": "Thick secretions clog every duct they touch — trace the finding back to which duct is blocked."
+   "strat": "Thick secretions clog every duct they touch — trace the finding back to which duct is blocked.",
+   "why": "Thick, tenacious secretions from the CFTR defect affect every system this disease touches. Chronic mucus obstruction produces a barrel-shaped chest and clubbing in advanced lung disease, while deficient pancreatic enzymes cause malabsorption and greasy, foul-smelling stools. Abnormally high sweat sodium and chloride cause the classic salty skin, and pancreatic insufficiency can produce diabetes with polyuria and weight loss.",
+   "whyNot": [
+    "Puberty is delayed, not early, in cystic fibrosis, so this describes the opposite of the actual finding.",
+    "Bradycardia with hypertension isn't a recognized cardiovascular manifestation of cystic fibrosis in the source material."
+   ]
   },
   {
    "n": 1,
@@ -1452,7 +1812,13 @@
    ],
    "ans": 1,
    "rat": "This presentation is a hypercyanotic ('tet') spell. The guide's documented intervention sequence begins with the knee-chest position (increases systemic vascular resistance, reducing the right-to-left shunt) paired with a calm approach to lower oxygen demand, followed by 100% oxygen, morphine, and IV fluids only if still needed. Extending the legs does the opposite of the knee-chest position and worsens the shunt. Digoxin is a maintenance heart-failure medication, not an emergency tet-spell response. A fluid bolus comes later in the sequence, only if needed, not before positioning.",
-   "strat": "Tet spell = knees to chest first; extending the legs is the opposite of what helps."
+   "strat": "Tet spell = knees to chest first; extending the legs is the opposite of what helps.",
+   "why": "This presentation is a hypercyanotic tet spell. The guide's intervention sequence starts with the knee-chest position, which increases systemic vascular resistance and reduces the right-to-left shunt. Pairing it with a calm, comforting approach lowers oxygen demand from crying and agitation. Together these are the first two steps before oxygen, morphine, or fluids are considered.",
+   "whyNot": [
+    "Digoxin is a maintenance heart-failure medication, not an emergency response, and delaying repositioning to give it worsens the hypoxia.",
+    "A fluid bolus belongs later in the sequence only if still needed, never before positioning the child knee-chest first.",
+    "Extending the legs is the opposite of knee-chest positioning and worsens the right-to-left shunt instead of reducing it."
+   ]
   },
   {
    "n": 2,
@@ -1469,7 +1835,13 @@
    ],
    "ans": 3,
    "rat": "A VSD causes a left-to-right shunt that increases pulmonary blood flow, producing congestive heart failure: impaired myocardial function (diaphoresis, tachycardia), pulmonary congestion (tachypnea, retractions), and systemic venous congestion (hepatomegaly, poor weight gain). Option B describes decreased pulmonary blood flow (e.g., Tetralogy of Fallot). Option C describes an obstructive defect such as coarctation of the aorta, where pressure differs before and after the obstruction. Option D describes a tet spell, specific to decreased-pulmonary-flow defects, not a VSD.",
-   "strat": "Increased pulmonary flow = heart-failure picture (wet, tired, big liver); decreased pulmonary flow = cyanosis/tet spells."
+   "strat": "Increased pulmonary flow = heart-failure picture (wet, tired, big liver); decreased pulmonary flow = cyanosis/tet spells.",
+   "why": "A VSD creates a left-to-right shunt that raises pulmonary blood flow and produces congestive heart failure. Diaphoresis and tachycardia reflect impaired myocardial function, tachypnea with retractions reflects pulmonary congestion, and hepatomegaly with poor weight gain reflects systemic venous congestion. These three symptom clusters are the guide's documented heart-failure picture for increased-pulmonary-flow defects.",
+   "whyNot": [
+    "This bounding-arms, weak-legs pattern points to coarctation of the aorta, an obstructive defect, not a VSD's shunt physiology.",
+    "Resting cyanosis, clubbing, and squatting describe a decreased-pulmonary-flow defect such as Tetralogy of Fallot, the opposite hemodynamic picture.",
+    "Hypercyanotic tet spells relieved by knee-chest positioning are specific to decreased-pulmonary-flow defects, not to a VSD's left-to-right shunt."
+   ]
   },
   {
    "n": 3,
@@ -1493,7 +1865,12 @@
     5
    ],
    "rat": "A PDA produces a left-to-right shunt that increases pulmonary blood flow and decreases cardiac output, generating the classic heart-failure picture: impaired myocardial function (tachycardia, weak pulses), pulmonary congestion (tachypnea, nasal flaring, grunting), and systemic venous congestion (hepatomegaly). Bradycardia and anorexia/vomiting are signs of digoxin toxicity, not untreated heart failure — a distinction the nurse must keep straight when the infant is also on digoxin therapy.",
-   "strat": "Heart failure runs fast (tachycardia, tachypnea); digoxin toxicity runs slow (bradycardia) — don't mix up the two lists."
+   "strat": "Heart failure runs fast (tachycardia, tachypnea); digoxin toxicity runs slow (bradycardia) — don't mix up the two lists.",
+   "why": "A large PDA shunts blood left to right, raising pulmonary flow and lowering cardiac output. The result is the classic heart-failure triad. Impaired myocardial function appears as tachycardia and weak pulses. Pulmonary congestion appears as tachypnea, nasal flaring, and grunting. Systemic venous congestion appears as hepatomegaly.",
+   "whyNot": [
+    "Anorexia and vomiting are signs of digoxin toxicity, not untreated heart failure, a distinction that matters when the infant is on digoxin therapy.",
+    "Bradycardia signals digoxin toxicity rather than heart failure, which instead produces a compensatory tachycardia from reduced cardiac output."
+   ]
   },
   {
    "n": 4,
@@ -1510,7 +1887,13 @@
    ],
    "ans": 2,
    "rat": "The four echocardiographic findings — VSD, pulmonary stenosis, an overriding aorta, and right ventricular hypertrophy — are the defining tetrad of Tetralogy of Fallot. Hypoplastic left heart syndrome instead shows an underdeveloped left ventricle and mitral valve. Transposition shows reversed great vessels without an intrinsically obstructed pulmonary outflow tract. Coarctation with an ASD does not produce right ventricular hypertrophy from pulmonic outflow obstruction.",
-   "strat": "Four findings, one name: VSD + pulmonic stenosis + overriding aorta + RV hypertrophy = Tetralogy of Fallot."
+   "strat": "Four findings, one name: VSD + pulmonic stenosis + overriding aorta + RV hypertrophy = Tetralogy of Fallot.",
+   "why": "The four echocardiographic findings — a VSD, pulmonary stenosis, an overriding aorta, and right ventricular hypertrophy — together define Tetralogy of Fallot. Deoxygenated blood crosses the VSD into the left ventricle. Pulmonary stenosis then restricts flow to the lungs, so the overriding aorta lets that deoxygenated blood reach systemic circulation instead. Right ventricular hypertrophy develops from the chronic outflow obstruction.",
+   "whyNot": [
+    "Transposition of the great arteries reverses the aorta and pulmonary artery but does not include an intrinsically obstructed pulmonary outflow tract.",
+    "Hypoplastic left heart syndrome instead shows an underdeveloped left ventricle and mitral valve, not the tetralogy's four right-sided findings.",
+    "Coarctation of the aorta with an atrial septal defect narrows the aorta itself and does not cause right ventricular hypertrophy from pulmonic obstruction."
+   ]
   },
   {
    "n": 5,
@@ -1549,7 +1932,8 @@
     }
    ],
    "rat": "The guide specifies holding digoxin in infants if the pulse is under 90/minute (under 70/minute in children) and monitoring for toxicity signs of bradycardia, dysrhythmias, nausea, vomiting, and anorexia. Digoxin immune Fab is the specific antidote. Vitamin K reverses warfarin, and naloxone reverses opioids (relevant to morphine used for tet spells) — neither treats digoxin toxicity.",
-   "strat": "Infant hold-parameter is 90, child hold-parameter is 70; toxicity looks like GI upset plus a slow heart, not a fast one."
+   "strat": "Infant hold-parameter is 90, child hold-parameter is 70; toxicity looks like GI upset plus a slow heart, not a fast one.",
+   "why": "The guide directs holding digoxin in infants when the apical pulse falls under 90 beats per minute, and under 70 in older children. Early toxicity signs include bradycardia along with nausea and vomiting, with dysrhythmias and anorexia possible as it progresses. Digoxin immune Fab is the specific antidote given when toxicity is confirmed."
   },
   {
    "n": 6,
@@ -1566,7 +1950,13 @@
    ],
    "ans": 0,
    "rat": "Infants with CHD tire quickly, so the guide directs small, frequent (every 3 hours), high-calorie feedings using an enlarged nipple opening, a semi-upright position, and paced rest during a feeding lasting about 30 minutes, with gavage supplementation if intake remains inadequate. A standard nipple with pressure to finish the full volume increases fatigue and oxygen demand. Spacing feeds further apart or increasing the volume per feeding both contradict the small-frequent-feeding principle meant to conserve the infant's energy.",
-   "strat": "Tired heart, tired baby: small and frequent beats big and rare for CHD feeding."
+   "strat": "Tired heart, tired baby: small and frequent beats big and rare for CHD feeding.",
+   "why": "Infants with congenital heart defects tire quickly during feeding, so the guide recommends small, frequent feedings roughly every 3 hours using an enlarged nipple opening. A semi-upright position and paced rest, with the feeding lasting about 30 minutes, conserve the infant's limited energy. Gavage supplementation is added if intake still falls short.",
+   "whyNot": [
+    "Increasing the volume per feeding works against the small-frequent-feeding principle and adds fatigue and oxygen demand the infant cannot sustain.",
+    "Spacing feedings further apart contradicts the frequent-feeding principle meant to conserve this infant's limited energy between rests.",
+    "A standard nipple with pressure to finish the full volume increases the infant's fatigue and oxygen demand during feeding."
+   ]
   },
   {
    "n": 7,
@@ -1583,7 +1973,13 @@
    ],
    "ans": 2,
    "rat": "Family-centered nursing care for children with CHD includes providing age-appropriate preparation for diagnostic tests and procedures, monitoring and supporting family coping, and practicing atraumatic care. Withholding information and deferring the explanation entirely both abandon this nursing role. Delaying preparation until the last possible moment does not meet the intent of developmentally appropriate, supportive preparation.",
-   "strat": "Age-appropriate prep plus family coping support is the nurse's role before any diagnostic test — not a job to hand off or delay."
+   "strat": "Age-appropriate prep plus family coping support is the nurse's role before any diagnostic test — not a job to hand off or delay.",
+   "why": "Family-centered nursing care for children with congenital heart defects includes giving age-appropriate preparation for diagnostic tests and monitoring the family's coping. This preparation should happen well before the procedure, not at the last possible moment, so the child and family have time to process it. Practicing atraumatic care is part of the same nursing role.",
+   "whyNot": [
+    "Withholding details from the child and only informing parents afterward abandons the nurse's role in age-appropriate preparation.",
+    "Deferring all explanation to the scheduling department hands off a teaching responsibility that belongs to the bedside nurse.",
+    "Waiting until moments before the procedure to explain it does not allow enough time for developmentally appropriate preparation."
+   ]
   },
   {
    "n": 8,
@@ -1625,7 +2021,8 @@
     }
    ],
    "rat": "PDA and VSD create a left-to-right shunt that adds volume to the pulmonary circulation (increased pulmonary blood flow). Tetralogy of Fallot and tricuspid atresia obstruct flow toward the lungs and shunt deoxygenated blood into systemic circulation (decreased pulmonary blood flow). Coarctation of the aorta narrows the vessel itself, raising pressure proximal to the narrowing (obstructed blood flow). Transposition of the great arteries creates parallel, non-communicating circulations that depend on mixing to survive (mixed blood flow).",
-   "strat": "Match the shunt's direction and destination to the category name: 'increased/decreased' describes lung flow, 'obstructed' describes a narrowed vessel, 'mixed' describes parallel circuits that must cross-connect."
+   "strat": "Match the shunt's direction and destination to the category name: 'increased/decreased' describes lung flow, 'obstructed' describes a narrowed vessel, 'mixed' describes parallel circuits that must cross-connect.",
+   "why": "PDA and VSD shunt blood left to right, adding volume to pulmonary circulation, so both are increased-pulmonary-flow defects. Tetralogy of Fallot and tricuspid atresia obstruct flow toward the lungs and shunt deoxygenated blood systemically, making them decreased-pulmonary-flow defects. Coarctation narrows the aorta itself, raising pressure before the narrowing, an obstructed-flow pattern. Transposition creates parallel circulations that depend on mixing, the mixed-flow category."
   },
   {
    "n": 9,
@@ -1648,7 +2045,13 @@
     4
    ],
    "rat": "Coarctation narrows the aorta, raising pressure proximal to the narrowing (higher upper-extremity blood pressure) while pressure and flow fall distal to it; the obstruction also lowers cardiac output and produces heart-failure findings. Severe coarctation typically presents within the first weeks of life, unlike milder narrowing, which may remain undiagnosed for years — findings do not resolve on a fixed timeline regardless of severity, and cardiac output falls rather than rises with the obstruction.",
-   "strat": "Coarctation means pressure backs up before the narrowing: BP is higher in the arms than the legs, and output falls, not rises."
+   "strat": "Coarctation means pressure backs up before the narrowing: BP is higher in the arms than the legs, and output falls, not rises.",
+   "why": "Coarctation narrows the aorta, so pressure rises proximal to the narrowing, producing higher blood pressure in the upper extremities. The obstruction also lowers cardiac output and triggers heart-failure findings such as tachypnea and poor feeding. Severe coarctation typically presents within the first weeks of life, unlike milder narrowing that can go undiagnosed for years.",
+   "whyNot": [
+    "Findings do not resolve on a fixed one-month timeline, since severity rather than a set schedule determines how soon symptoms appear or ease.",
+    "Cardiac output falls with this obstruction rather than rising, since the narrowed aorta impedes forward flow out of the heart.",
+    "Blood pressure actually runs higher above the coarctation and lower below it, the opposite of what this finding describes."
+   ]
   },
   {
    "n": 1,
@@ -1665,7 +2068,13 @@
    ],
    "ans": 0,
    "rat": "Fever lasting longer than 5 days that is unresponsive to antipyretics or antibiotics, together with conjunctivitis without drainage, strawberry tongue, oral/lip changes, extremity erythema and edema, a diffuse rash, and cervical lymphadenopathy, is the classic Kawasaki disease cluster. Streptococcal pharyngitis and scarlet fever are bacterial and would be expected to improve with antibiotics; measles presents with a preceding prodrome, Koplik spots, and a cephalocaudal rash spread, not this combination.",
-   "strat": "Fever unresponsive to antibiotics + conjunctivitis (no drainage) + strawberry tongue + extremity changes + rash + adenopathy = Kawasaki."
+   "strat": "Fever unresponsive to antibiotics + conjunctivitis (no drainage) + strawberry tongue + extremity changes + rash + adenopathy = Kawasaki.",
+   "why": "Fever lasting longer than 5 days that resists antipyretics and antibiotics is a hallmark of Kawasaki disease. Add conjunctivitis without drainage, a strawberry tongue, cracked lips, swollen and red extremities, a diffuse rash, and enlarged cervical nodes, and the cluster becomes classic. This full combination across multiple systems is what separates Kawasaki disease from other febrile rash illnesses.",
+   "whyNot": [
+    "Streptococcal pharyngitis is bacterial and would be expected to improve with antibiotic treatment, unlike this child's unresponsive fever.",
+    "Measles presents with a preceding prodrome, Koplik spots, and a rash that spreads head to toe, not this Kawasaki pattern.",
+    "Scarlet fever is also a bacterial illness and, like strep, would be expected to respond to antibiotic therapy."
+   ]
   },
   {
    "n": 2,
@@ -1682,7 +2091,13 @@
    ],
    "ans": 1,
    "rat": "Follow-up echocardiograms are recommended 1-2 weeks after diagnosis and 4-6 weeks after treatment (more often if the child's response warrants it) to track myocardial function and coronary artery dimensions, since coronary artery aneurysm is the feared complication and can develop after the acute illness resolves. A same-week repeat, a single late echo, or stopping surveillance at discharge would miss this delayed-risk window.",
-   "strat": "Echo timeline: diagnosis -> 1-2 wks -> 4-6 wks post-treatment - aneurysms show up later, not just at baseline."
+   "strat": "Echo timeline: diagnosis -> 1-2 wks -> 4-6 wks post-treatment - aneurysms show up later, not just at baseline.",
+   "why": "Follow-up echocardiograms are recommended 1-2 weeks after diagnosis and again 4-6 weeks after treatment, with more frequent imaging if the child's response warrants it. This schedule tracks myocardial function and coronary artery dimensions because coronary aneurysm is the feared complication. Aneurysms can develop after the acute illness has already resolved, which is why surveillance extends beyond the hospital stay.",
+   "whyNot": [
+    "A single echo about 6 months later misses the earlier window when acute-phase coronary changes are first assessed.",
+    "Stopping surveillance at discharge misses the delayed 4-6 week window when coronary aneurysms most often become apparent.",
+    "A same-week repeat echo is too early to catch aneurysm formation, which typically develops over several weeks."
+   ]
   },
   {
    "n": 3,
@@ -1699,7 +2114,13 @@
    ],
    "ans": 3,
    "rat": "Once the child is afebrile, the high anti-inflammatory aspirin dose (80-100 mg/kg/day) is reduced to a low antiplatelet dose (3-5 mg/kg/day) and continued until the platelet count normalizes, about 6-8 weeks, then weaned to reduce bleeding risk. Aspirin is not stopped outright at defervescence or continued at the high dose once afebrile, and IVIG does not create a need to raise the aspirin dose. Had the echocardiogram shown coronary abnormalities, the low dose would instead continue indefinitely.",
-   "strat": "Afebrile = drop the aspirin dose, high to low; coronary involvement = keep it indefinitely."
+   "strat": "Afebrile = drop the aspirin dose, high to low; coronary involvement = keep it indefinitely.",
+   "why": "Once the child becomes afebrile, the high anti-inflammatory aspirin dose is reduced to a low antiplatelet dose of 3-5 mg/kg/day. This lower dose continues until the platelet count normalizes, roughly 6-8 weeks, and is then weaned to limit bleeding risk. Had the echocardiogram shown coronary abnormalities instead, the low dose would continue indefinitely rather than being weaned.",
+   "whyNot": [
+    "Continuing the high 80-100 mg/kg/day dose ignores that defervescence is the trigger to step the dose down, not the echo itself.",
+    "Aspirin is not stopped outright at defervescence, since it is stepped down and continued for weeks to protect against clotting risk.",
+    "IVIG does not create a need to raise the aspirin dose, and defervescence calls for a decrease rather than an increase."
+   ]
   },
   {
    "n": 4,
@@ -1716,7 +2137,13 @@
    ],
    "ans": 2,
    "rat": "Passive range-of-motion exercises performed in the bathtub, where warm water eases joint stiffness from arthritis, reflects correct understanding of the guide's family education. Harsh or antibacterial soaps should be avoided because they dry the skin and increase breakdown; live vaccines such as MMR must be delayed 11 months after IVIG because the antibodies can blunt the child's vaccine response; and resuming full-contact sports right after the fever resolves ignores ongoing joint inflammation and cardiac monitoring needs.",
-   "strat": "Bathtub ROM = correct; harsh soap, an early live vaccine, or early full-contact sports = a teaching gap."
+   "strat": "Bathtub ROM = correct; harsh soap, an early live vaccine, or early full-contact sports = a teaching gap.",
+   "why": "Passive range-of-motion exercises done in a warm bathtub ease the joint stiffness that Kawasaki-related arthritis causes, which is correct home-care understanding. Warm water loosens the joints before gentle movement is attempted, protecting mobility during recovery. This reflects the guide's specific teaching point for managing arthritis symptoms at home.",
+   "whyNot": [
+    "Live vaccines such as MMR must wait 11 months after IVIG, since its antibodies can blunt the child's immune response to the vaccine.",
+    "Harsh or antibacterial soap should be avoided because it dries Kawasaki-affected skin and increases the risk of breakdown.",
+    "Resuming full-contact sports right after the fever resolves ignores ongoing joint inflammation and the need for cardiac monitoring."
+   ]
   },
   {
    "n": 5,
@@ -1740,7 +2167,12 @@
     5
    ],
    "rat": "The guide lists difficulty breathing; chest pain or pressure; new-onset confusion or decreased level of consciousness; pallor/cyanosis of the skin, lips, or nail beds; and severe abdominal pain as the emergency early-warning signs of MIS-C that need immediate intervention. Persistent fever longer than 24 hours is one of the diagnostic criteria for MIS-C but is not itself an emergency trigger, and mild diarrhea without pain is a general manifestation, not a warning sign.",
-   "strat": "Emergency = an organ failing right now (breathing, chest, brain, perfusion, severe pain) - not just 'this fits the diagnosis.'"
+   "strat": "Emergency = an organ failing right now (breathing, chest, brain, perfusion, severe pain) - not just 'this fits the diagnosis.'",
+   "why": "The guide's emergency early-warning signs for MIS-C include difficulty breathing, chest pain or pressure, pallor or cyanosis, and severe abdominal pain. Each one signals an organ system failing acutely and needing immediate intervention. Persistent fever beyond 24 hours is a diagnostic criterion for MIS-C, not itself an emergency trigger.",
+   "whyNot": [
+    "Mild diarrhea without pain is a general MIS-C manifestation, not one of the specific signs requiring emergency action.",
+    "Fever lasting more than 24 hours helps establish the MIS-C diagnosis itself but does not by itself demand emergency intervention."
+   ]
   },
   {
    "n": 6,
@@ -1780,7 +2212,8 @@
     }
    ],
    "rat": "Kawasaki disease follows a staged course (acute, subacute, convalescent), causes later desquamation of the fingers/toes, and its standard therapy is high-dose aspirin plus a single IVIG infusion. MIS-C is temporally linked to a prior COVID-19 infection, features more prominent GI symptoms alongside cardiac involvement, and its supportive management can extend to anticoagulation, steroids, and respiratory support/ventilation because more organ systems are typically affected.",
-   "strat": "COVID link + prominent GI symptoms + broader organ/ventilator support = MIS-C; staged course + later desquamation + IVIG/aspirin regimen = Kawasaki."
+   "strat": "COVID link + prominent GI symptoms + broader organ/ventilator support = MIS-C; staged course + later desquamation + IVIG/aspirin regimen = Kawasaki.",
+   "why": "Kawasaki disease follows a staged acute, subacute, and convalescent course, and it causes later desquamation of the fingers and toes. Its standard therapy is high-dose aspirin plus a single IVIG infusion. MIS-C is temporally linked to a recent COVID-19 infection and features prominent gastrointestinal symptoms alongside cardiac involvement. Its supportive management can extend to anticoagulation, steroids, and respiratory support because more organ systems are typically affected."
   },
   {
    "n": 7,
@@ -1825,7 +2258,8 @@
     ]
    },
    "rat": "The large-volume IVIG infusion (2 g/kg) places a significant fluid load on the heart, so the priority problem is fluid volume overload/heart failure risk, not dehydration, attachment, or development. The correct actions are administering IVIG per protocol with vital-sign and allergic-reaction monitoring, and maintaining continuous cardiac monitoring with strict I&O/daily weights - not prophylactic diuretics, reduced assessment frequency, or IV-bolus aspirin (aspirin is given orally, not IV). The parameters that evaluate this risk are daily weight/I&O and signs of an IVIG reaction (elevated BP, facial flushing, chest tightness) plus cardiac status - not potassium, reflexes, or stool guaiac.",
-   "strat": "Big-volume infusion + fragile heart = watch weight/I&O and IVIG-reaction signs, continuously."
+   "strat": "Big-volume infusion + fragile heart = watch weight/I&O and IVIG-reaction signs, continuously.",
+   "why": "The large-volume IVIG infusion places a significant fluid load on the heart. This makes fluid overload and heart failure the priority risk, not dehydration or a psychosocial concern. The correct actions are administering IVIG per protocol while watching for an allergic reaction, and maintaining continuous cardiac monitoring with strict I&O and daily weights. Those measures, plus signs of an IVIG reaction, are what the nurse should monitor."
   },
   {
    "topic": "Anemia Pathophysiology",
@@ -1841,7 +2275,13 @@
    ],
    "ans": 0,
    "rat": "Cyanosis results from an increased amount of deoxygenated hemoglobin in the blood; anemia reduces the total hemoglobin available, so even though the existing hemoglobin remains well saturated (98%), there is too little of it to produce visible cyanosis. Option 4 misreads the data - the child's oxygen saturation is normal, not low. Option 3 misattributes the finding to pigmentation instead of physiology, and option 1 invents a time course that does not apply.",
-   "strat": "No cyanosis with a normal SpO2 in anemia means too little hemoglobin, not poorly oxygenated hemoglobin - separate the amount of Hgb from its saturation."
+   "strat": "No cyanosis with a normal SpO2 in anemia means too little hemoglobin, not poorly oxygenated hemoglobin - separate the amount of Hgb from its saturation.",
+   "why": "Cyanosis results from an increased amount of deoxygenated hemoglobin in the blood, not from a low oxygen saturation. This child's existing hemoglobin remains well saturated at 98%, but anemia has reduced the total amount of hemoglobin circulating. There is simply too little hemoglobin present, saturated or not, to produce a visible blue color.",
+   "whyNot": [
+    "Darker skin pigmentation is not the explanation here, since the underlying physiology of low hemoglobin accounts for the absence of cyanosis.",
+    "The child's oxygen saturation is already normal at 98%, so there is no low saturation for tachycardia to be compensating for.",
+    "No such time course applies here, since cyanosis reflects the current amount of deoxygenated hemoglobin, not how long anemia has been present."
+   ]
   },
   {
    "topic": "Iron Deficiency Anemia Risk Factors",
@@ -1857,7 +2297,13 @@
    ],
    "ans": 3,
    "rat": "Excessive cow's milk intake (well above the recommended limit) displaces iron-rich foods and impairs iron absorption, the classic cause of iron deficiency anemia in toddlers, and matches this child's pallor, fatigue, and pica. A respiratory infection is not an iron deficiency risk factor described in this content; prolonged exclusive breastfeeding is a real risk factor but does not apply to this milk-fed toddler; toddlers actually have rapid, not slowing, growth, which increases iron demand.",
-   "strat": "Toddler + too much milk + too little food = iron deficiency anemia; watch for the classic 'my child drinks a lot of milk' cue."
+   "strat": "Toddler + too much milk + too little food = iron deficiency anemia; watch for the classic 'my child drinks a lot of milk' cue.",
+   "why": "Excessive cow's milk intake well above the recommended amount displaces iron-rich foods and impairs iron absorption, the classic cause of iron deficiency anemia in toddlers. This matches the child's pallor, fatigue, and pica. The guide specifically flags a caregiver reporting the child drinks a lot of milk as a cue toward this diagnosis.",
+   "whyNot": [
+    "A mild respiratory infection last month is not among the iron deficiency risk factors this guide describes.",
+    "Toddlers actually have rapid, not slowing, growth, which raises rather than lowers their iron demand.",
+    "Prolonged exclusive breastfeeding is a real risk factor, but it does not apply to this milk-fed toddler's history."
+   ]
   },
   {
    "topic": "Iron Deficiency Anemia Diagnostic Evaluation",
@@ -1873,7 +2319,13 @@
    ],
    "ans": 1,
    "rat": "In iron deficiency anemia, TIBC rises as the body's compensatory attempt to bind and transport more iron from available sources; it is elevated, not decreased. Reticulocyte count is typically decreased, not elevated, because RBC production itself is impaired. A positive Coombs test points to immune-mediated hemolysis, a different anemia mechanism not described here.",
-   "strat": "IDA means the body is 'hungry' for iron, so TIBC (iron-binding capacity) rises to grab more."
+   "strat": "IDA means the body is 'hungry' for iron, so TIBC (iron-binding capacity) rises to grab more.",
+   "why": "In iron deficiency anemia, total iron-binding capacity rises as the body's compensatory attempt to bind and transport more iron from available sources. It is elevated, not decreased, alongside the low hemoglobin, hematocrit, and RBC indices already noted. Reticulocyte count is typically decreased instead, since red blood cell production itself is impaired.",
+   "whyNot": [
+    "A positive direct Coombs test points to immune-mediated hemolysis, a different anemia mechanism not described in this case.",
+    "Reticulocyte count is typically decreased rather than elevated, because impaired RBC production is the underlying problem.",
+    "TIBC rises rather than falls in iron deficiency, since the body is compensating for too little iron, not too much."
+   ]
   },
   {
    "topic": "Iron Deficiency Anemia Therapeutic Management",
@@ -1889,7 +2341,13 @@
    ],
    "ans": 2,
    "rat": "IV ferrous sulfate administration is very painful, so close monitoring of the child's response and pain level throughout the infusion is the priority. Rapid IV push is not the recommended administration method and can worsen adverse effects; assessing only at the end fails to capture reactions during the infusion; ambulation does not address the priority concern (pain and reaction to the infusion) and can complicate IV site management.",
-   "strat": "IV iron is painful iron - the priority is watching the child during the infusion, not just before or after it."
+   "strat": "IV iron is painful iron - the priority is watching the child during the infusion, not just before or after it.",
+   "why": "IV ferrous sulfate administration is very painful, so close monitoring of the child's response and pain level throughout the infusion is the priority nursing action. This continuous assessment catches a developing reaction early rather than after it has already progressed. It reflects the guide's specific caution about this particular route of iron administration.",
+   "whyNot": [
+    "Continuous ambulation does not address the priority concern of pain and reaction, and it complicates managing the IV site.",
+    "Rapid IV push is not the recommended method for this medication and can worsen the infusion's adverse effects.",
+    "Assessing only at the end of the infusion fails to catch a painful reaction while it is actually happening."
+   ]
   },
   {
    "topic": "Hemophilia Clinical Manifestations",
@@ -1905,7 +2363,13 @@
    ],
    "ans": 0,
    "rat": "New drowsiness and slurred speech after a fall in a child with hemophilia suggest intracranial (cerebral) bleeding, a life-threatening emergency that outranks the joint bleed - an acute change in mental status takes priority over a stable musculoskeletal finding under an ABCs/neurologic-emergency framework. The swollen knee (hemarthrosis) still needs treatment but is not immediately life-threatening, and how or when the fall happened does not change the priority of the current neurologic finding.",
-   "strat": "In hemophilia, drowsiness and slurred speech after a head or body trauma signal a possible cerebral bleed - it outranks a joint bleed every time."
+   "strat": "In hemophilia, drowsiness and slurred speech after a head or body trauma signal a possible cerebral bleed - it outranks a joint bleed every time.",
+   "why": "New drowsiness and slurred speech after a fall in a child with hemophilia suggest a possible cerebral bleed, a life-threatening emergency. An acute change in mental status outranks a stable musculoskeletal finding under a neurologic-emergency framework. This new neurologic change is the priority over any other detail in the history.",
+   "whyNot": [
+    "The swollen, warm knee is hemarthrosis and still needs treatment, but it is not immediately life-threatening like a cerebral bleed.",
+    "How the fall happened does not change the priority of the current neurologic finding in front of the nurse.",
+    "The time elapsed since the fall does not outweigh the urgency of a new, active neurologic change."
+   ]
   },
   {
    "topic": "Hemophilia Client Education",
@@ -1928,7 +2392,12 @@
     4
    ],
    "rat": "Home management of hemophilia centers on avoiding bleeding triggers and controlling bleeds early: acetaminophen instead of aspirin/NSAIDs (which impair platelet function) for pain, RICE for an acute joint bleed, non- or low-contact activities with protective equipment, and a soft toothbrush to prevent oral trauma. Heat increases blood flow to a bleeding joint and should be avoided in favor of ice; injections should be given subcutaneously rather than intramuscularly to reduce the risk of deep muscle bleeding.",
-   "strat": "Home hemophilia teaching: avoid, protect, RICE - no aspirin/NSAIDs, no contact sports, no IM injections, no heat on a bleed."
+   "strat": "Home hemophilia teaching: avoid, protect, RICE - no aspirin/NSAIDs, no contact sports, no IM injections, no heat on a bleed.",
+   "why": "Home management of hemophilia centers on avoiding bleeding triggers and controlling bleeds early. Acetaminophen replaces aspirin and NSAIDs, which impair platelet function, while RICE controls an acute joint bleed. Non- or low-contact activities and a soft-bristled toothbrush both reduce the everyday risk of trauma-triggered bleeding.",
+   "whyNot": [
+    "Injections should be given subcutaneously rather than into the muscle, since intramuscular injections raise the risk of deep muscle bleeding.",
+    "Heat increases blood flow to a bleeding joint and should be avoided in favor of ice, which controls bleeding better."
+   ]
   },
   {
    "topic": "Diagnostic Evaluation: Anemia vs Hemophilia",
@@ -1967,7 +2436,8 @@
     }
    ],
    "rat": "Iron deficiency anemia shows decreased Hgb/Hct/RBC indices, an elevated TIBC (the body's compensatory attempt to bind more iron), and may be confirmed with a guaiac stool test for occult blood loss. Hemophilia is a clotting-factor disorder: aPTT is prolonged because the intrinsic clotting pathway is impaired, while platelet count and PT remain within expected ranges because platelet function and the extrinsic pathway are unaffected; DNA testing identifies the carrier trait in female relatives of an affected child.",
-   "strat": "IDA affects the red cells and iron studies; hemophilia affects clotting factors and aPTT while platelets/PT stay normal - sort by which system is broken."
+   "strat": "IDA affects the red cells and iron studies; hemophilia affects clotting factors and aPTT while platelets/PT stay normal - sort by which system is broken.",
+   "why": "Iron deficiency anemia shows decreased hemoglobin, hematocrit, and RBC indices. Its TIBC is elevated because the body tries to bind more iron, and a guaiac stool test can confirm occult blood loss. Hemophilia is a clotting-factor disorder, so aPTT is prolonged while platelet count and prothrombin time stay within expected ranges. DNA testing identifies the carrier trait in female relatives."
   },
   {
    "topic": "Hemophilia Factor VIII Dosing",
@@ -1979,7 +2449,8 @@
    "acceptHi": 420,
    "answer": "400 units (20 kg x 40% x 0.5 = 400 units)",
    "rat": "Using the standard factor VIII replacement formula (weight in kg x desired % factor increase x 0.5): 20 kg x 40 x 0.5 = 400 units. This module's guide does not provide a numeric dosing table for factor replacement, so this weight-based formula is the standard clinical calculation applied to the guide's factor VIII content.",
-   "strat": "Factor VIII dosing: units = kg x desired % rise x 0.5 - plug in the numbers and multiply straight across."
+   "strat": "Factor VIII dosing: units = kg x desired % rise x 0.5 - plug in the numbers and multiply straight across.",
+   "why": "The standard factor VIII replacement formula is weight in kilograms multiplied by the desired percent increase, multiplied by 0.5. Here that is 20 times 40 times 0.5, or 400 units. This module's guide has no numeric dosing table for factor replacement, so this weight-based formula is the standard calculation applied to its content."
   },
   {
    "n": 1,
@@ -2003,7 +2474,12 @@
     5
    ],
    "rat": "Severe bilateral limb/back pain, fever, and two days of poor intake with dry mucous membranes are the classic triggers and manifestations of vaso-occlusive crisis, since dehydration and infection both increase blood viscosity and sickling. The blood pressure is within an acceptable range for age, and the absence of shortness of breath is a reassuring negative — neither is itself a cue of concern.",
-   "strat": "In recognize-cues items, ask 'does this finding point toward the problem, or is it normal/unremarkable' — normal vitals and absent symptoms are noise, not cues."
+   "strat": "In recognize-cues items, ask 'does this finding point toward the problem, or is it normal/unremarkable' — normal vitals and absent symptoms are noise, not cues.",
+   "why": "Severe bilateral limb and back pain, fever, and two days of poor intake with dry mucous membranes are the classic vaso-occlusive crisis picture. Dehydration and infection both raise blood viscosity and promote sickling, which is why these findings are the relevant cues here. A normal blood pressure and the absence of shortness of breath are reassuring negatives, not concerning cues.",
+   "whyNot": [
+    "The absence of shortness of breath is a reassuring negative finding, not itself a cue pointing toward the problem.",
+    "A blood pressure of 102/68 is within an acceptable range for this child's age and is not a concerning cue."
+   ]
   },
   {
    "n": 2,
@@ -2020,7 +2496,13 @@
    ],
    "ans": 3,
    "rat": "Fever and poor intake raise blood viscosity, promoting sickling and vessel occlusion — the mechanism behind vaso-occlusive crisis. Sequestration presents with splenomegaly and shock, and aplastic crisis presents with pallor and lethargy from severe anemia rather than focal severe pain; the combination of fever and severe pain is not a normal reaction in a child with sickle cell disease.",
-   "strat": "Match the trigger (dehydration, fever, hypoxia, stress) to the crisis type by its classic presentation, not just the presence of a viral illness."
+   "strat": "Match the trigger (dehydration, fever, hypoxia, stress) to the crisis type by its classic presentation, not just the presence of a viral illness.",
+   "why": "Fever and poor intake raise blood viscosity, which promotes sickling and vessel occlusion, the mechanism behind vaso-occlusive crisis. This combination of fever and severe focal pain is not a normal reaction in a child with sickle cell disease. It specifically points to the vaso-occlusive mechanism rather than the other crisis types.",
+   "whyNot": [
+    "This is not a normal, expected reaction, since severe pain and fever together in sickle cell disease signal a crisis in progress.",
+    "Splenic sequestration instead presents with splenomegaly and signs of hypovolemic shock, which are not described in this presentation.",
+    "Aplastic crisis presents with pallor and lethargy from severe anemia, not the focal severe pain seen in this child."
+   ]
   },
   {
    "n": 3,
@@ -2037,7 +2519,13 @@
    ],
    "ans": 1,
    "rat": "Fever and intake are already improving with treatment, but severe pain remains unrelieved — an unmet physiologic need takes priority (Maslow) over a resolving fluid deficit, a long-term infection risk, or a psychosocial concern.",
-   "strat": "When several problems are present, prioritize the one that is severe AND unresolved despite initial treatment."
+   "strat": "When several problems are present, prioritize the one that is severe AND unresolved despite initial treatment.",
+   "why": "Fever and intake are already improving with treatment, but the child's severe pain remains unrelieved at 9 out of 10. An unmet physiologic need such as unresolved severe pain takes priority over a resolving fluid deficit, a long-term infection risk, or a psychosocial concern. This follows the basic-needs-first prioritization principle.",
+   "whyNot": [
+    "Anxiety is a real concern but ranks below an unresolved, severe physical symptom that is still actively present.",
+    "Infection risk from functional asplenia is an important long-term concern, but it is not the acute problem right now.",
+    "Fluid volume is already improving with oral intake and the earlier bolus, so it no longer outranks the unresolved pain."
+   ]
   },
   {
    "n": 4,
@@ -2079,7 +2567,8 @@
     ]
    },
    "rat": "Warm packs (never ice, which worsens vasoconstriction and sickling) plus around-the-clock analgesia and continued IV hydration are the guide's priority interventions for vaso-occlusive crisis; his hemoglobin is near baseline, so a transfusion is not indicated for this episode. Monitor pain control and hydration status/I&O — the two targets of the interventions chosen.",
-   "strat": "Bowtie actions must match the keyed problem: pick the two interventions that directly treat vaso-occlusion (analgesia + hydration), not a fix for a different crisis (transfusion is for severe anemia)."
+   "strat": "Bowtie actions must match the keyed problem: pick the two interventions that directly treat vaso-occlusion (analgesia + hydration), not a fix for a different crisis (transfusion is for severe anemia).",
+   "why": "Warm packs, never ice, which worsens vasoconstriction and sickling, plus around-the-clock analgesia and continued IV hydration are the priority interventions for this vaso-occlusive crisis. His hemoglobin is close to baseline, so a transfusion is not indicated for this episode. The nurse should monitor pain control and hydration status, the two targets these interventions address."
   },
   {
    "n": 5,
@@ -2096,7 +2585,13 @@
    ],
    "ans": 1,
    "rat": "Hypoxia increases tissue ischemia and sickling, so supplemental oxygen is given to improve perfusion and decrease ischemia. Vigorous activity raises oxygen consumption, ice increases vasoconstriction, and withholding analgesia leaves severe pain unrelieved — none address the hypoxia.",
-   "strat": "SpO2 drop plus sickle cell disease means give oxygen; ice and vigorous activity are always wrong actions during a vaso-occlusive crisis."
+   "strat": "SpO2 drop plus sickle cell disease means give oxygen; ice and vigorous activity are always wrong actions during a vaso-occlusive crisis.",
+   "why": "Hypoxia increases tissue ischemia and promotes further sickling, so supplemental oxygen is given to improve perfusion and reduce that ischemia. This directly targets the falling oxygen saturation and mild shortness of breath the child is now showing. It is the action that addresses the new problem rather than the ongoing pain.",
+   "whyNot": [
+    "Withholding analgesia leaves severe pain unrelieved and does not address this child's new drop in oxygen saturation.",
+    "Ice increases vasoconstriction and worsens sickling, and it does nothing to correct the underlying hypoxia here.",
+    "Vigorous activity raises oxygen consumption, which would worsen rather than relieve this child's hypoxia and shortness of breath."
+   ]
   },
   {
    "n": 6,
@@ -2113,7 +2608,13 @@
    ],
    "ans": 0,
    "rat": "Pain controlled at 2/10 with normalized oxygenation (98%) and tolerance of oral fluids demonstrates the plan worked across all three treated priorities: pain, oxygenation, and hydration. Persistent hypoxia with only partial pain relief is an incomplete response; a new fever with fluid refusal, and oversedation with unchanged pain, are both concerning findings, not reassuring ones.",
-   "strat": "Evaluate outcomes against every priority that was treated, not just one improving number — a partial fix (better pain, still hypoxic) is not yet 'effective.'"
+   "strat": "Evaluate outcomes against every priority that was treated, not just one improving number — a partial fix (better pain, still hypoxic) is not yet 'effective.'",
+   "why": "Pain controlled at 2 out of 10, with normalized oxygenation at 98 percent and tolerance of oral fluids, shows the plan worked. All three treated priorities, pain, oxygenation, and hydration, have improved together. The other outcomes each represent only a partial or worsening response instead. Evaluating against every priority that was treated, not just one improving number, is what confirms true effectiveness.",
+   "whyNot": [
+    "Persistent hypoxia at 89 percent with anxiety and only partial pain relief is an incomplete response, not a success.",
+    "A new fever with refusal of all fluids is a concerning finding, not evidence that the plan succeeded.",
+    "Unchanged severe pain together with new drowsiness is a worsening picture, not evidence of an effective plan."
+   ]
   },
   {
    "n": 7,
@@ -2130,7 +2631,13 @@
    ],
    "ans": 2,
    "rat": "Sickle cell anemia is autosomal recessive; when both parents are carriers, each pregnancy carries a 25% chance of sickle cell anemia (two recessive genes), a 50% chance of sickle cell trait (one gene, asymptomatic), and a 25% chance of being unaffected — the guide's exact inheritance pattern.",
-   "strat": "Two carrier parents give the classic 25/50/25 recessive split — don't round it to a coin flip or assume trait is guaranteed."
+   "strat": "Two carrier parents give the classic 25/50/25 recessive split — don't round it to a coin flip or assume trait is guaranteed.",
+   "why": "Sickle cell anemia is autosomal recessive. When both parents are carriers, each pregnancy carries a 25 percent chance of sickle cell anemia from two recessive genes. There is also a 50 percent chance of sickle cell trait from one gene, and a 25 percent chance the child is unaffected. This is the guide's exact inheritance pattern for two carrier parents.",
+   "whyNot": [
+    "This rounds the outcome to a coin flip and leaves out the 50 percent trait possibility entirely.",
+    "Trait is not guaranteed for every child, since the 25/50/25 split means some children inherit two genes or none at all.",
+    "Two carrier parents can absolutely produce a child with sickle cell anemia if each parent passes on their recessive gene."
+   ]
   },
   {
    "n": 8,
@@ -2147,7 +2654,13 @@
    ],
    "ans": 3,
    "rat": "Sudden neurologic changes such as headache and vision change in a child with sickle cell disease can signal an evolving stroke, a life-threatening vaso-occlusive complication of the brain, and warrant prompt provider notification. Treating the headache as routine, giving a scheduled medication, or offering comfort measures alone all delay recognition of a time-sensitive emergency.",
-   "strat": "Sickle cell disease plus a sudden headache or vision change means think stroke first and escalate, rather than treating it as a routine complaint."
+   "strat": "Sickle cell disease plus a sudden headache or vision change means think stroke first and escalate, rather than treating it as a routine complaint.",
+   "why": "Sudden neurologic changes such as headache and vision change in a child with sickle cell disease can signal an evolving stroke. This is a life-threatening vaso-occlusive complication of the brain that warrants prompt provider notification. Treating it as a routine complaint or offering only comfort measures delays recognizing a time-sensitive emergency.",
+   "whyNot": [
+    "A scheduled prophylactic dose does not address a new, acute neurologic symptom that needs urgent evaluation right now.",
+    "Treating this as a routine headache and simply monitoring delays recognition of a possible evolving stroke.",
+    "A warm compress offers only comfort and does nothing to address a possible neurologic emergency in progress."
+   ]
   },
   {
    "n": 9,
@@ -2164,7 +2677,13 @@
    ],
    "ans": 1,
    "rat": "Ice increases vasoconstriction and worsens sickling and should never be applied during a crisis; warm packs are used instead to promote vasodilation. Daily prophylactic penicillin, up-to-date vaccination, and infection-prevention hygiene are all correct, guide-supported teaching points.",
-   "strat": "Ice is the wrong answer any time sickle cell pain is involved — warm, not cold, is the rule."
+   "strat": "Ice is the wrong answer any time sickle cell pain is involved — warm, not cold, is the rule.",
+   "why": "Ice increases vasoconstriction and worsens sickling, so it should never be applied during a sickle cell pain crisis. Warm packs are used instead because they promote vasodilation and ease the pain from vascular occlusion. This statement is the one needing correction, since it reverses the guide's actual comfort-measure teaching.",
+   "whyNot": [
+    "Daily prophylactic penicillin is correct, guide-supported teaching for preventing infection, so this statement needs no correction.",
+    "Up-to-date pneumococcal and meningococcal vaccination is correct, guide-supported teaching for preventing infection and crisis episodes at home.",
+    "Frequent handwashing and avoiding sick contacts is correct, guide-supported infection-prevention teaching that does not need correction."
+   ]
   },
   {
    "n": 10,
@@ -2203,7 +2722,8 @@
     }
    ],
    "rat": "Sickle cell anemia requires the autosomal-recessive gene from both parents (homozygous, Hgb SS, symptomatic disease); inheriting the gene from only one parent produces sickle cell trait (heterozygous, Hgb AS), which is asymptomatic — the guide's exact distinction.",
-   "strat": "One gene equals trait/asymptomatic; two genes equal anemia/symptomatic disease — never mix up trait and disease."
+   "strat": "One gene equals trait/asymptomatic; two genes equal anemia/symptomatic disease — never mix up trait and disease.",
+   "why": "Sickle cell anemia requires the autosomal-recessive gene from both parents, producing the homozygous, symptomatic form of the disease. Inheriting the gene from only one parent instead produces sickle cell trait, the heterozygous, asymptomatic carrier state. This is the guide's exact distinction between trait and disease."
   },
   {
    "topic": "Indicators of Cardiac Dysfunction",
@@ -2219,7 +2739,13 @@
    ],
    "ans": 2,
    "rat": "Poor feeding, diaphoresis with feeds, and poor weight gain are documented early indicators of cardiac dysfunction; clubbing develops only after long-standing hypoxia. Reversing that timeline misreads the pathophysiology, calling both benign ignores the history given, and nothing in the stem supports an acute emergency.",
-   "strat": "New feeding/growth trouble = early cardiac cue; clubbing = late, chronic-hypoxia cue."
+   "strat": "New feeding/growth trouble = early cardiac cue; clubbing = late, chronic-hypoxia cue.",
+   "why": "Poor feeding, diaphoresis with feeds, and poor weight gain are documented early indicators of cardiac dysfunction in infants. Clubbing, by contrast, develops only after long-standing hypoxia in an older child with chronic cyanotic disease. Reading these two findings in their correct time order is what this question tests.",
+   "whyNot": [
+    "Nothing in either history describes an acute emergency, since both instead reflect their own distinct, non-emergent stage of cardiac dysfunction.",
+    "This reverses the actual timeline, since poor feeding is an early sign and clubbing appears only after years of hypoxia.",
+    "Calling both findings normal ignores the two-week feeding history and new clubbing, both of which need further evaluation."
+   ]
   },
   {
    "topic": "Hemodynamics & Coarctation",
@@ -2235,7 +2761,13 @@
    ],
    "ans": 3,
    "rat": "Bounding pulses in the arms with weak leg pulses is a classic finding in coarctation of the aorta; assess before intervening by comparing blood pressures in all four extremities and notifying the provider. It is not an expected finding at 4 months (circulatory transition resolves in the newborn period), a 24-hour delay risks missing a time-sensitive problem, and catheterization is a provider-ordered next step, not an independent nursing action taken without further assessment.",
-   "strat": "Bounding arms + weak legs = think coarctation; get 4-extremity BPs and notify before acting further."
+   "strat": "Bounding arms + weak legs = think coarctation; get 4-extremity BPs and notify before acting further.",
+   "why": "Bounding pulses in the arms with weak leg pulses is a classic finding in coarctation of the aorta. The correct next step is to assess further before intervening, by comparing blood pressures in all four extremities and notifying the provider. This is not an expected finding at 4 months, since normal circulatory transition resolves in the newborn period.",
+   "whyNot": [
+    "Normal circulatory transition resolves during the newborn period, so this is not an expected finding at 4 months of age.",
+    "Cardiac catheterization is a provider-ordered next step, not an independent nursing action taken before any further assessment.",
+    "Waiting 24 hours to recheck the pulses risks missing a time-sensitive problem that needs assessment right now."
+   ]
   },
   {
    "topic": "Cardiac Assessment Technique",
@@ -2251,7 +2783,13 @@
    ],
    "ans": 0,
    "rat": "Fear and crying elevate heart rate in infants and young children, so the nurse should let the child settle first, then auscultate the apical pulse (4th ICS, left midclavicular line) for a full minute for accuracy. The radial pulse is unreliable in young children because the vessels are easily obliterated, and a shortened count multiplied out amplifies error from crying-related tachycardia.",
-   "strat": "Scared child = falsely fast pulse; wait, then auscultate apical for a full 60 seconds."
+   "strat": "Scared child = falsely fast pulse; wait, then auscultate apical for a full 60 seconds.",
+   "why": "Fear and crying elevate heart rate in infants and young children, so the nurse should let the child settle first. The apical pulse should then be auscultated at the fourth intercostal space, left midclavicular line, for a full minute for accuracy. This technique avoids the errors that a frightened, crying toddler would otherwise introduce.",
+   "whyNot": [
+    "The radial pulse is unreliable in young children because the vessels lie close to the surface and are easily obliterated.",
+    "Counting the pulse immediately, before the toddler settles, captures a falsely fast rate from fear rather than a true baseline.",
+    "A shortened 15-second count multiplied out amplifies any error from crying-related tachycardia instead of correcting for it."
+   ]
   },
   {
    "topic": "Innocent Heart Murmurs",
@@ -2267,7 +2805,13 @@
    ],
    "ans": 2,
    "rat": "Children commonly have functional (innocent) murmurs from normal physiologic flow turbulence; with none of the indicators of cardiac dysfunction present (normal growth, no cyanosis, no feeding trouble or activity intolerance), the finding is consistent with a benign murmur and routine follow-up is appropriate. The other options overreact to an isolated finding with no supporting signs of dysfunction.",
-   "strat": "Innocent murmur + zero dysfunction cues (growth, feeding, activity, color) = functional, not pathologic."
+   "strat": "Innocent murmur + zero dysfunction cues (growth, feeding, activity, color) = functional, not pathologic.",
+   "why": "Children commonly have functional, or innocent, murmurs from normal physiologic flow turbulence rather than structural disease. None of the indicators of cardiac dysfunction, such as poor growth, cyanosis, feeding trouble, or activity intolerance, are present in this child. With no supporting signs of dysfunction, routine follow-up is the appropriate response to this finding.",
+   "whyNot": [
+    "Restricting activity entirely overreacts to an isolated murmur when no other sign of cardiac dysfunction supports that response.",
+    "Labeling this murmur pathologic and predicting surgery goes beyond the finding, since nothing here suggests structural heart disease.",
+    "An urgent report of suspected heart failure is not supported, since none of the expected heart-failure findings are present."
+   ]
   },
   {
    "topic": "Cardiac Risk Factors & Clinical Manifestations",
@@ -2290,7 +2834,12 @@
     5
    ],
    "rat": "Diaphoresis and fatigue with feeds, sustained tachypnea, family history of congenital heart disease, and maternal diabetes are all documented indicators or risk factors for cardiac dysfunction. Weight gain that tracks above the curve and high exercise tolerance are the opposite of the expected failure-to-thrive and activity-intolerance pattern, so they do not support the referral.",
-   "strat": "Cardiac kids struggle to feed, breathe easily, and tolerate activity; anything better than expected isn't a red flag."
+   "strat": "Cardiac kids struggle to feed, breathe easily, and tolerate activity; anything better than expected isn't a red flag.",
+   "why": "Diaphoresis and fatigue with feeds, along with sustained tachypnea, are documented indicators of cardiac dysfunction. A family history of congenital heart disease and maternal diabetes are documented risk factors as well. Together these support referring this infant to cardiology for poor growth. Weight gain that tracks above the curve and high exercise tolerance are the opposite of the expected failure-to-thrive and activity-intolerance pattern.",
+   "whyNot": [
+    "High energy and good exercise tolerance during tummy time are reassuring findings, not something that supports a cardiology referral.",
+    "Weight gain that consistently tracks above the curve is the opposite of the failure-to-thrive pattern this referral is investigating."
+   ]
   },
   {
    "topic": "Developmental Assessment Approach",
@@ -2328,7 +2877,8 @@
     }
    ],
    "rat": "Each developmental stage calls for a tailored approach: infants are assessed in the caregiver's lap with traumatic steps saved for last; toddlers respond to a play-based approach with gradual equipment introduction; preschoolers can often follow a head-to-toe sequence with simple language; school-age children are included as active participants; adolescents get mature language and a choice about caregiver presence, with genitalia examined last for both school-age and adolescent groups.",
-   "strat": "Approach scales with autonomy: lap-held infant -> play-based toddler -> head-to-toe-if-cooperative preschooler -> included school-ager -> self-care-focused adolescent."
+   "strat": "Approach scales with autonomy: lap-held infant -> play-based toddler -> head-to-toe-if-cooperative preschooler -> included school-ager -> self-care-focused adolescent.",
+   "why": "Each developmental stage calls for a tailored assessment approach. Infants are assessed in the caregiver's lap with traumatic steps saved for last, while toddlers respond best to a play-based approach with equipment introduced gradually. Preschoolers can often follow a head-to-toe sequence using simple language. School-age children are included as active participants, and adolescents receive mature language with a choice about caregiver presence, examining the genitalia last for both groups."
   },
   {
    "n": 1,
@@ -2345,7 +2895,13 @@
    ],
    "ans": 0,
    "rat": "The RSV infant shows acute respiratory deterioration: rising respiratory rate, new retractions, and decreased responsiveness. This is an unstable, unfolding ABC concern that outranks three clients who are stable or improving. Green-zone asthma, controlled sickle cell pain, and an afebrile post-IVIG Kawasaki client all reflect expected, monitored status rather than a developing emergency.",
-   "strat": "Acute-over-chronic, unstable-over-stable: new deterioration always outranks a stable or improving client, no matter the diagnosis."
+   "strat": "Acute-over-chronic, unstable-over-stable: new deterioration always outranks a stable or improving client, no matter the diagnosis.",
+   "why": "The RSV infant's respiratory rate climbed from 44 to 68 breaths per minute, with new subcostal retractions and difficulty rousing for feeds. These findings signal increasing work of breathing and a reduced level of consciousness, both markers of worsening respiratory distress. An acute, unfolding ABC problem outranks three clients who are stable or improving today.",
+   "whyNot": [
+    "The asthma child's peak flow sits in the green zone, meaning symptoms are well controlled and stable, not an emerging emergency.",
+    "This child is afebrile and tolerating a soft diet the day after IVIG, reflecting expected recovery rather than a new complication.",
+    "This child's vaso-occlusive pain is mild and well managed on a stable analgesic schedule, showing no sign of a worsening crisis."
+   ]
   },
   {
    "n": 2,
@@ -2362,7 +2918,13 @@
    ],
    "ans": 1,
    "rat": "A tet spell is an acute hypoxic event; even after initial positioning and oxygen, the nurse must promptly reassess the child's response before anything else. The other three clients are stable, scheduled, or improving and can safely wait.",
-   "strat": "An unresolved acute event in progress always comes before scheduled or stable chronic care, even when first-response measures have already begun."
+   "strat": "An unresolved acute event always outranks scheduled or stable chronic care, even after first-response measures have begun.",
+   "why": "The tetralogy of Fallot child had a hypercyanotic tet spell 15 minutes ago and was just positioned knee-chest with oxygen started. Even after these first-response measures, the nurse must promptly reassess how the child is responding. An acute hypoxic event in progress outranks scheduled or stable chronic care every time.",
+   "whyNot": [
+    "This child's sickle cell pain is already controlled on PCA and resting comfortably, a stable status that can safely wait.",
+    "The cystic fibrosis child's vest therapy is routine and scheduled, not urgent, so it can start a few minutes late.",
+    "This child is afebrile for a week and simply awaiting discharge teaching, the lowest-acuity status of the four clients."
+   ]
   },
   {
    "n": 3,
@@ -2379,7 +2941,13 @@
    ],
    "ans": 3,
    "rat": "Legal consent must come from the person who holds legal responsibility for the child, which is not always the biological parent. Because the grandmother, not the mother, holds court-ordered custody, consent cannot be obtained from the mother; the nurse must notify the team and involve the legal caregiver. A child's assent supports but does not substitute for legally required consent.",
-   "strat": "Caregiver is a legal status, not a biology test - confirm who holds legal responsibility before consent proceeds."
+   "strat": "Caregiver is a legal status, not a biology test - confirm who holds legal responsibility before consent proceeds.",
+   "why": "Legal consent must come from whoever holds legal responsibility for the child, and that is not always the biological parent. The chart names the grandmother as the court-ordered legal caregiver, so she is the one who must authorize the procedure. The nurse should notify the surgeon and contact her before proceeding.",
+   "whyNot": [
+    "Physical presence at the bedside does not grant legal authority, since the mother is not the child's court-ordered legal caregiver.",
+    "A child's assent gathered by child life supports care but cannot legally replace consent from the person with legal responsibility.",
+    "Any willing adult being present is not the same as having legal authority to consent for this specific child."
+   ]
   },
   {
    "n": 4,
@@ -2396,7 +2964,13 @@
    ],
    "ans": 2,
    "rat": "Legally defensible documentation is objective and factual: exact measurements, a body diagram, and the caregiver's own words, recorded without inserting the nurse's conclusions. This preserves an accurate record for the mandatory report and any legal proceeding. Delaying documentation, blending the caregiver's account with exam findings, or recording only a suspicion all weaken the record's legal value.",
-   "strat": "Chart what you saw and what you were told, kept separate and objective - let the data, not your conclusion, go in the record."
+   "strat": "Chart what you saw and what you were told, kept separate and objective - not your own conclusion.",
+   "why": "Legally defensible documentation records objective findings using exact measurements and a body diagram for the fracture's location. It also records the caregiver's exact words, kept separate from the nurse's own conclusions. This preserves an accurate record for the mandatory report and any later legal proceeding.",
+   "whyNot": [
+    "Blending the caregiver's story with the exam findings, instead of recording them separately, weakens the record's objectivity and legal value.",
+    "Charting only a suspicion, while leaving out the caregiver's own explanation, omits the objective detail a legal record requires.",
+    "Delaying documentation until child protective services finishes investigating risks losing details and violates the standard for timely, objective charting."
+   ]
   },
   {
    "n": 5,
@@ -2413,7 +2987,13 @@
    ],
    "ans": 0,
    "rat": "Coronary artery aneurysms can develop even after systemic symptoms resolve, so the protocol calls for echocardiograms at 1-2 weeks and again at 4-6 weeks post-treatment, with more frequent studies based on the child's response. Waiting a full year, stopping imaging once afebrile, or relying on one later visit would miss the window when aneurysms are most likely to be found.",
-   "strat": "Kawasaki's real risk is cardiac, not the fever curve - the echo schedule follows the coronary arteries, not the temperature."
+   "strat": "Kawasaki's real risk is cardiac, not the fever curve - the echo schedule follows the coronary arteries, not the temperature.",
+   "why": "Coronary artery aneurysms in Kawasaki disease can develop even after fever and other symptoms resolve. The protocol calls for follow-up echocardiograms at 1-2 weeks after diagnosis and again at 4-6 weeks after treatment. More frequent studies are added based on how the child responds.",
+   "whyNot": [
+    "One echocardiogram at a later 2-month visit skips the earlier window when a developing coronary aneurysm is most likely found.",
+    "Waiting a full year to begin imaging misses the 1-2 and 4-6 week windows when aneurysms most often appear.",
+    "Resolution of fever and completion of IVIG do not mean the coronary arteries are safe, so stopping imaging is unsafe."
+   ]
   },
   {
    "n": 6,
@@ -2430,7 +3010,13 @@
    ],
    "ans": 3,
    "rat": "Sickle cell anemia is autosomal recessive; when both parents carry the trait, each pregnancy independently carries a 25% chance of the disease and a 50% chance of the trait, regardless of the outcome of a previous pregnancy. Referral for genetic counseling supports informed family planning. The risk is not sex-linked, and it does not shrink to trait-only after one affected child.",
-   "strat": "Autosomal recessive plus two carriers means 25% affected and 50% carrier, every pregnancy, independent of what came before."
+   "strat": "Autosomal recessive plus two carriers means 25% affected and 50% carrier, every pregnancy, independent of what came before.",
+   "why": "Sickle cell anemia is autosomal recessive, so when both parents carry the trait, each pregnancy independently carries a 25% chance of the disease. There is also a 50% chance of the trait, regardless of any earlier pregnancy's outcome. Genetic counseling and testing support informed family planning for this couple.",
+   "whyNot": [
+    "The risk is not sex-linked, so male and female children face the same 25% chance of inheriting the disease.",
+    "Risk does not shrink to trait-only after one affected child, since each pregnancy carries its own independent 25% risk.",
+    "Sickle cell anemia is an inherited autosomal recessive condition, so genetic counseling is directly relevant, not unnecessary."
+   ]
   },
   {
    "n": 7,
@@ -2447,7 +3033,13 @@
    ],
    "ans": 1,
    "rat": "New onset confusion or decreased level of consciousness and pallor or cyanosis are explicit MIS-C emergency early-warning signs that require immediate provider notification, not a routine recheck. Waiting for the next scheduled assessment or trying to manage the finding with rest or fluids delays recognition of a potentially life-threatening deterioration.",
-   "strat": "For MIS-C, new confusion, trouble breathing, chest pressure, pallor or cyanosis, and severe belly pain are the call-now list - they do not wait for the next routine round."
+   "strat": "For MIS-C, new confusion, breathing trouble, chest pressure, pallor, cyanosis, or severe belly pain mean call now, not later.",
+   "why": "New confusion or a decreasing level of consciousness, together with new pallor, are explicit MIS-C emergency early-warning signs. These findings require immediate provider notification rather than a routine recheck. Waiting for the next scheduled assessment risks missing a life-threatening deterioration in this child.",
+   "whyNot": [
+    "Continuing the current plan and rechecking temperature later ignores warning signs that need action now, not at the next round.",
+    "Charting the findings and waiting four hours for the standing schedule delays recognition of a possible emergency deterioration.",
+    "Offering fluids and waiting to recheck alertness after rest does not address a change that needs provider notification now."
+   ]
   },
   {
    "n": 8,
@@ -2464,7 +3056,13 @@
    ],
    "ans": 2,
    "rat": "A pulse below 70/min in a child, together with new vomiting and anorexia, reflects the classic digoxin toxicity picture; the dose must be withheld and the provider notified before any further doses are given. Administering the dose, giving it with food, or waiting for the next scheduled time all risk worsening toxicity.",
-   "strat": "Digoxin has a hold pulse and a toxicity triad - a low pulse (under 90 in an infant, under 70 in a child) plus nausea, vomiting, or anorexia means hold and call, not give and wait."
+   "strat": "Digoxin toxicity is a low pulse for age plus nausea, vomiting, or anorexia - hold and call the provider.",
+   "why": "A pulse below 70 beats per minute in a child, combined with new vomiting and anorexia, is the classic digoxin toxicity picture. The dose must be withheld and the provider notified before any further dose is given. Giving the dose or waiting risks worsening the toxicity.",
+   "whyNot": [
+    "Giving the dose with food to settle nausea still delivers digoxin during an active toxicity picture the provider has not yet seen.",
+    "A pulse of 68 in a child falls below the hold threshold, so calling it near baseline overlooks a toxicity warning sign.",
+    "Charting the findings and giving the next scheduled dose if symptoms persist still exposes the child to another toxic dose first."
+   ]
   },
   {
    "n": 9,
@@ -2498,7 +3096,8 @@
     }
    ],
    "rat": "Match each task to the scope of practice it requires: new, high-risk medication administration with reaction monitoring stays with the RN; stable data collection can go to the UAP; procedural coping support is the child life specialist's role; and a stable, already-established oral medication can be given by the LPN under RN supervision.",
-   "strat": "New, unstable, or first-dose stays with the RN; stable and routine can go to the LPN or UAP by task type; coping and play belong to child life."
+   "strat": "New or unstable stays with the RN; stable and routine goes to LPN or UAP; coping belongs to child life.",
+   "why": "New, high-risk medications like a first IVIG dose require RN administration with infusion monitoring for reaction. Stable data collection, such as intake, output, and stool counts, can go to unlicensed assistive personnel. Coping support before a procedure belongs to a child life specialist. A previously tolerated, stable oral antibiotic dose can then go to the LPN."
   },
   {
    "n": 10,
@@ -2521,7 +3120,13 @@
     5
    ],
    "rat": "Dietitian, social work, and respiratory therapy referrals match established interprofessional roles for cystic fibrosis and suspected abuse. Passive range-of-motion for Kawasaki-related joint discomfort is taught to the caregiver by the nurse, not a required physical therapy referral; transmission-based precautions begin immediately per protocol without waiting on an infectious disease consult; and a repeat admission for a known chronic pain crisis does not, by itself, indicate a psychiatric referral.",
-   "strat": "A correct referral fills a real unmet need - if the guide already assigns the task to the nurse or caregiver, or the referral would delay standard care, it is a distractor."
+   "strat": "A correct referral fills a real unmet need, not one the nurse already covers or one that delays care.",
+   "why": "Cystic fibrosis care coordinates with a dietitian for pancreatic enzyme dosing and caloric teaching, and with respiratory therapy for airway clearance and vest-device instruction. Suspected physical abuse requires a social work and child protective services referral as part of the interdisciplinary plan. Each of these referrals fills an established, unmet interprofessional role.",
+   "whyNot": [
+    "Transmission-based precautions begin immediately per protocol, so waiting on an infectious disease consult first only delays standard, established care.",
+    "Passive range-of-motion for Kawasaki-related joint discomfort is taught to the caregiver by the nurse, not a required physical therapy referral.",
+    "A repeat admission for a known chronic pain crisis does not, by itself, indicate a need for psychiatric referral."
+   ]
   },
   {
    "n": 11,
@@ -2545,7 +3150,12 @@
     5
    ],
    "rat": "Droplet precautions call for hand hygiene, a surgical mask within close range, eye protection when a splash of secretions is likely, and a mask on the child when transported out of the room. A negative-pressure room and an N95 respirator are airborne-precaution requirements - mumps spreads by droplet and contact, not by airborne particles, so those two steps are not indicated.",
-   "strat": "Droplet means mask and distance; airborne means N95 and negative pressure. Do not upgrade the precaution past what the organism needs."
+   "strat": "Droplet means mask and distance; airborne means N95 and negative pressure. Do not upgrade past what the organism needs.",
+   "why": "Droplet precautions call for hand hygiene before and after entering the room, plus a surgical mask within about 3 feet of the child. Eye protection is added when a splash of secretions is likely, and the child wears a mask when leaving for a procedure. Mumps spreads by droplet and contact, not by airborne particles.",
+   "whyNot": [
+    "An N95 respirator is an airborne-precaution requirement, not needed for a droplet-spread organism like mumps.",
+    "A negative-pressure isolation room is reserved for airborne illness and is not required for droplet transmission."
+   ]
   },
   {
    "n": 12,
@@ -2587,7 +3197,16 @@
     ]
    },
    "rat": "The priority problem is protecting the child from further injury while abuse is suspected. Immediate protective actions are removing the child from the suspected abuser and gathering an accurate history through separate, open-ended caregiver interviews - not sending the child home or relying on caregiver self-report. The nurse then monitors the two objective signs most specific to ongoing abuse risk: new injury and concerning caregiver-child interaction.",
-   "strat": "Suspected abuse: protect first by separating and interviewing, then watch the two abuse-specific signs - new injury and caregiver-child affect."
+   "strat": "Suspected abuse: protect first by separating and interviewing, then watch the two abuse-specific signs - new injury and caregiver-child affect.",
+   "why": "The priority problem is suspected physical abuse with risk for further injury, given the spiral fracture and bruising at different healing stages. Protective actions are removing the child from the suspected abuser and interviewing caregivers separately with open-ended questions. The nurse then monitors for new injury and concerning caregiver-child interaction, the two signs most specific to ongoing abuse risk.",
+   "whyNot": [
+    "A feeding-related failure to thrive does not explain a spiral fracture and bruises at different healing stages.",
+    "Sickle cell pain does not account for an inconsistent history or bruising in various stages of healing.",
+    "A home symptom diary delays protective action and leaves the child in the suspected abuser's care.",
+    "Discharging the child with the caregiver who brought them in returns the child to a potentially unsafe situation.",
+    "Daily weight trend tracks nutritional status and is not the most specific sign of ongoing abuse risk.",
+    "A serum electrolyte panel reflects fluid and metabolic status, not a marker specific to further abuse."
+   ]
   },
   {
    "n": 13,
@@ -2623,7 +3242,8 @@
     }
    ],
    "rat": "Minor illness, such as a mild cold with a low-grade temperature, is not a contraindication to vaccination, so the first and last clients may proceed. Severe febrile illness, a known severe allergic reaction to a prior dose, and receiving a live-virus vaccine too soon after passive immunity (IVIG) are all explicit contraindications requiring the vaccine to be held.",
-   "strat": "Minor illness proceeds; severe illness, a prior severe allergic reaction, and recent IVIG before a live vaccine all mean hold."
+   "strat": "Minor illness proceeds; severe illness, a prior severe allergic reaction, and recent IVIG before a live vaccine all mean hold.",
+   "why": "Severe allergic reaction to a prior dose and severe febrile illness are explicit contraindications, so those two vaccinations should be held. Recent IVIG also holds a live vaccine like MMR because passive antibodies can blunt the response for about 11 months. Minor illness, such as a mild cold with a low-grade temperature, is not a contraindication, so vaccination proceeds."
   },
   {
    "n": 14,
@@ -2640,7 +3260,13 @@
    ],
    "ans": 3,
    "rat": "Daily penicillin prophylaxis regardless of symptoms, continued age-appropriate vaccination, and immediate provider notification for fever are the core teaching points for the asplenic child's infection risk, since fever can trigger a sickle cell crisis. Delaying a call for fever, dosing penicillin only during a crisis, or stopping vaccines all reflect a misunderstanding of the prophylactic purpose of this regimen.",
-   "strat": "Functional asplenia means daily prophylaxis plus full vaccination plus a call for any fever, not just during a crisis."
+   "strat": "Functional asplenia means daily prophylaxis plus full vaccination plus a call for any fever, not just during a crisis.",
+   "why": "Daily penicillin prophylaxis when well, continued age-appropriate vaccination, and an immediate call for any fever are the core teaching points. Functional asplenia raises infection risk, and fever can trigger a sickle cell crisis. This statement reflects correct understanding of the prophylactic purpose of the regimen.",
+   "whyNot": [
+    "Stopping pneumococcal and meningococcal vaccines misunderstands prophylaxis, since penicillin and vaccination protect against different infection risks together.",
+    "Giving penicillin only during a crisis misses the point of daily prophylaxis, which prevents infection between crisis episodes too.",
+    "Waiting two days before calling about fever ignores that fever in this child can trigger a dangerous sickle cell crisis quickly."
+   ]
   },
   {
    "n": 15,
@@ -2657,7 +3283,13 @@
    ],
    "ans": 1,
    "rat": "Clients with cystic fibrosis are frequently colonized with organisms such as Pseudomonas aeruginosa and MRSA that pose a cross-infection risk to one another, so they should be kept in separate rooms and masked in shared spaces rather than roomed together, sharing equipment, or grouped for therapy.",
-   "strat": "Two clients with cystic fibrosis together is a cross-infection risk, not a roommate convenience - keep them apart and masked in shared spaces."
+   "strat": "Two cystic fibrosis clients together is a cross-infection risk, not a roommate convenience - keep them apart and masked.",
+   "why": "Clients with cystic fibrosis are frequently colonized with organisms such as Pseudomonas aeruginosa and MRSA that pose a cross-infection risk to one another. Isolation guidance calls for keeping them in separate rooms and masking in shared spaces. Roomed together, shared equipment, or joint therapy sessions would all increase that risk.",
+   "whyNot": [
+    "Wiping down shared nebulizer equipment does not eliminate the risk of passing resistant organisms between two CF clients.",
+    "Sharing a diagnosis does not make two cystic fibrosis clients safe roommates, since each may carry different resistant organisms.",
+    "Grouping their chest physiotherapy sessions puts two colonized clients in close, prolonged contact instead of keeping them apart."
+   ]
   },
   {
    "n": 16,
@@ -2674,7 +3306,13 @@
    ],
    "ans": 0,
    "rat": "Required vaccine documentation includes the date of administration, manufacturer and lot number, site and route, who administered it, and confirmation that informed consent was obtained. Growth data, socioeconomic information, and unrelated lab values are not part of the vaccine administration record.",
-   "strat": "Vaccine charting checklist: date, manufacturer and lot, site and route, administrator, and consent - nothing else belongs in that note."
+   "strat": "Vaccine charting checklist: date, manufacturer and lot, site and route, administrator, and consent - nothing else belongs in that note.",
+   "why": "Required vaccine documentation includes the date of administration, the manufacturer and lot number, and the site and route used. It also includes who administered the vaccine and confirmation that informed consent was obtained. These specific data points create the legal record of the immunization.",
+   "whyNot": [
+    "Growth percentile, weight trend, and developmental milestones belong in a wellness note, not the required vaccine administration record.",
+    "Hemoglobin, hematocrit, and complete blood count values are unrelated lab data, not part of the vaccine documentation requirement.",
+    "A caregiver's occupation, income, and insurance details are socioeconomic information that has no place in the vaccine record."
+   ]
   }
  ]
 }
