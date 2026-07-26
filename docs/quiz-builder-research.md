@@ -37,7 +37,9 @@ The distinction that matters: an option that **is** a quantity stays ordered; a 
 
 - **Run-length limits.** The only source is Bar-Hillel & Attali (2002), retrievable at abstract level only. Suppressing runs is real, but "cap at 2" is a sensible engineering default, *not* a citable standard. Do not claim NBME or NCSBN mandate it.
 - **Retake reshuffling.** No study directly tests whether reshuffling prevents order-memorization in self-study. Adjacent literature (retrieval practice, CAT exposure control) points that way. Treat as a design default under uncertainty.
-- **Bullets vs. prose in rationales.** Follows from Mayer's segmenting principle and matches every commercial product's convention, but no controlled test of formatting-only was found.
+- **Bullets vs. prose in rationales.** Followed from Mayer's segmenting principle and every commercial product's convention, but no controlled test of formatting-only was found. **Notably we went further than the benchmark: Elsevier's rationales are prose, not bulleted.**
+
+  *Resolved in practice (2026-07-26):* after shipping, Chris's unprompted reaction was that it is "SO MUCH easier to read," and he named the bullets specifically — "before it was just a mess of text inline." A sample of one, but it is the user the artifact exists for, and it settles a decision that the literature could not. Keep the bulleted `whyNot` list.
 - **"The answer is usually C."** Folk version of a real effect. The bias is toward middle positions generally, direction varying with option count. Do not encode a single-letter rule.
 
 ---
