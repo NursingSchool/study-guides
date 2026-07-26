@@ -110,24 +110,24 @@
    ],
    "rows": [
     {
-     "t": "Rooting reflex",
-     "a": 0
-    },
-    {
-     "t": "Moro (startle) reflex",
-     "a": 1
-    },
-    {
-     "t": "Babinski reflex",
-     "a": 2
-    },
-    {
      "t": "Palmar grasp reflex",
      "a": 3
     },
     {
      "t": "Tonic neck (fencing) reflex",
      "a": 4
+    },
+    {
+     "t": "Moro (startle) reflex",
+     "a": 1
+    },
+    {
+     "t": "Rooting reflex",
+     "a": 0
+    },
+    {
+     "t": "Babinski reflex",
+     "a": 2
     },
     {
      "t": "Stepping reflex",
@@ -345,16 +345,16 @@
    ],
    "rows": [
     {
-     "t": "A behavioral scale that rates face, legs, activity, cry, and consolability; ideal for children 2 months to 7 years old who cannot self-report pain",
-     "a": 0
+     "t": "Uses a photograph of 6 faces for the child to choose from; appropriate for clients 3 to 13 years old",
+     "a": 2
     },
     {
      "t": "Uses a diagram of 6 faces for the child to choose from; appropriate for clients 3 years of age and older",
      "a": 1
     },
     {
-     "t": "Uses a photograph of 6 faces for the child to choose from; appropriate for clients 3 to 13 years old",
-     "a": 2
+     "t": "A behavioral scale that rates face, legs, activity, cry, and consolability; ideal for children 2 months to 7 years old who cannot self-report pain",
+     "a": 0
     },
     {
      "t": "Asks the child to verbally report or point to a number from 0 to 10; appropriate for children as young as 8 years old who can count and understand relative number values",
@@ -614,28 +614,28 @@
    ],
    "rows": [
     {
-     "t": "Bruising present on a 2-month-old infant who does not yet roll or sit",
-     "a": 0
+     "t": "The caregiver's reported mechanism matches the type and severity of the injury on exam",
+     "a": 1
+    },
+    {
+     "t": "A mobile toddler has scattered bruises over the shins and forehead",
+     "a": 1
     },
     {
      "t": "Burns in a symmetrical, glove-like pattern over both hands",
      "a": 0
     },
     {
-     "t": "Multiple fractures in different stages of healing",
-     "a": 0
-    },
-    {
-     "t": "The caregiver's reported mechanism matches the type and severity of the injury on exam",
-     "a": 1
-    },
-    {
      "t": "The caregiver sought care immediately after the injury occurred",
      "a": 1
     },
     {
-     "t": "A mobile toddler has scattered bruises over the shins and forehead",
-     "a": 1
+     "t": "Multiple fractures in different stages of healing",
+     "a": 0
+    },
+    {
+     "t": "Bruising present on a 2-month-old infant who does not yet roll or sit",
+     "a": 0
     }
    ],
    "rat": "Bruising in a nonmobile infant, glove-like immersion burns, and multiple fractures at different healing stages are explicit warning signs of abuse. A history that matches the injury, prompt care-seeking, and typical bony-prominence bruising in an ambulatory toddler are the expected, reassuring counterparts to those warning signs.",
@@ -1129,16 +1129,16 @@
      "a": 0
     },
     {
-     "t": "Peak flow remains 55% of personal best, unchanged from triage",
-     "a": 0
+     "t": "SpO2 has fallen from 93% to 86% on room air",
+     "a": 1
     },
     {
      "t": "HR has risen from 130/min to 168/min",
      "a": 1
     },
     {
-     "t": "SpO2 has fallen from 93% to 86% on room air",
-     "a": 1
+     "t": "Peak flow remains 55% of personal best, unchanged from triage",
+     "a": 0
     },
     {
      "t": "Maya now answers only in single words and appears drowsy",
@@ -1600,14 +1600,6 @@
    ],
    "rows": [
     {
-     "t": "Patent ductus arteriosus (PDA)",
-     "a": 0
-    },
-    {
-     "t": "Ventricular septal defect (VSD)",
-     "a": 0
-    },
-    {
      "t": "Tetralogy of Fallot",
      "a": 1
     },
@@ -1616,12 +1608,20 @@
      "a": 1
     },
     {
-     "t": "Coarctation of the aorta",
-     "a": 2
+     "t": "Patent ductus arteriosus (PDA)",
+     "a": 0
     },
     {
      "t": "Transposition of the great arteries",
      "a": 3
+    },
+    {
+     "t": "Ventricular septal defect (VSD)",
+     "a": 0
+    },
+    {
+     "t": "Coarctation of the aorta",
+     "a": 2
     }
    ],
    "rat": "PDA and VSD create a left-to-right shunt that adds volume to the pulmonary circulation (increased pulmonary blood flow). Tetralogy of Fallot and tricuspid atresia obstruct flow toward the lungs and shunt deoxygenated blood into systemic circulation (decreased pulmonary blood flow). Coarctation of the aorta narrows the vessel itself, raising pressure proximal to the narrowing (obstructed blood flow). Transposition of the great arteries creates parallel, non-communicating circulations that depend on mixing to survive (mixed blood flow).",
@@ -1942,28 +1942,28 @@
    ],
    "rows": [
     {
-     "t": "Elevated total iron-binding capacity (TIBC)",
-     "a": 0
+     "t": "Prolonged partial thromboplastin time (aPTT)",
+     "a": 1
+    },
+    {
+     "t": "DNA testing to detect the carrier trait in female relatives",
+     "a": 1
     },
     {
      "t": "Decreased hemoglobin, hematocrit, and RBC indices",
      "a": 0
     },
     {
-     "t": "Positive guaiac stool test for occult blood loss",
-     "a": 0
-    },
-    {
-     "t": "Prolonged partial thromboplastin time (aPTT)",
-     "a": 1
-    },
-    {
      "t": "Platelet count and prothrombin time within expected ranges",
      "a": 1
     },
     {
-     "t": "DNA testing to detect the carrier trait in female relatives",
-     "a": 1
+     "t": "Elevated total iron-binding capacity (TIBC)",
+     "a": 0
+    },
+    {
+     "t": "Positive guaiac stool test for occult blood loss",
+     "a": 0
     }
    ],
    "rat": "Iron deficiency anemia shows decreased Hgb/Hct/RBC indices, an elevated TIBC (the body's compensatory attempt to bind more iron), and may be confirmed with a guaiac stool test for occult blood loss. Hemophilia is a clotting-factor disorder: aPTT is prolonged because the intrinsic clotting pathway is impaired, while platelet count and PT remain within expected ranges because platelet function and the extrinsic pathway are unaffected; DNA testing identifies the carrier trait in female relatives of an affected child.",
@@ -2307,24 +2307,24 @@
    ],
    "rows": [
     {
-     "t": "Infant",
-     "a": 0
-    },
-    {
-     "t": "Toddler",
-     "a": 1
+     "t": "Adolescent",
+     "a": 4
     },
     {
      "t": "Preschooler",
      "a": 2
     },
     {
+     "t": "Infant",
+     "a": 0
+    },
+    {
      "t": "School-age child",
      "a": 3
     },
     {
-     "t": "Adolescent",
-     "a": 4
+     "t": "Toddler",
+     "a": 1
     }
    ],
    "rat": "Each developmental stage calls for a tailored approach: infants are assessed in the caregiver's lap with traumatic steps saved for last; toddlers respond to a play-based approach with gradual equipment introduction; preschoolers can often follow a head-to-toe sequence with simple language; school-age children are included as active participants; adolescents get mature language and a choice about caregiver presence, with genitalia examined last for both school-age and adolescent groups.",
@@ -2602,24 +2602,24 @@
    ],
    "rows": [
     {
-     "t": "A 4-year-old with a mild cold and a temperature of 99.2°F, due for a scheduled MMR booster",
-     "a": 0
-    },
-    {
-     "t": "A 6-year-old who received IVIG 6 weeks ago for Kawasaki disease, due for the MMR vaccine",
-     "a": 1
-    },
-    {
-     "t": "A 2-year-old with a severe febrile illness and a temperature of 104°F, due for scheduled immunizations",
-     "a": 1
-    },
-    {
      "t": "A 5-year-old with a known severe allergic reaction to a prior dose of the same vaccine",
      "a": 1
     },
     {
      "t": "A 3-year-old with no acute illness and no vaccine allergy history, due for the varicella vaccine",
      "a": 0
+    },
+    {
+     "t": "A 4-year-old with a mild cold and a temperature of 99.2°F, due for a scheduled MMR booster",
+     "a": 0
+    },
+    {
+     "t": "A 2-year-old with a severe febrile illness and a temperature of 104°F, due for scheduled immunizations",
+     "a": 1
+    },
+    {
+     "t": "A 6-year-old who received IVIG 6 weeks ago for Kawasaki disease, due for the MMR vaccine",
+     "a": 1
     }
    ],
    "rat": "Minor illness, such as a mild cold with a low-grade temperature, is not a contraindication to vaccination, so the first and last clients may proceed. Severe febrile illness, a known severe allergic reaction to a prior dose, and receiving a live-virus vaccine too soon after passive immunity (IVIG) are all explicit contraindications requiring the vaccine to be held.",

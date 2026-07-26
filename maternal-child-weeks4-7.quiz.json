@@ -217,20 +217,20 @@
    ],
    "rows": [
     {
-     "t": "Variable deceleration",
-     "a": 0
-    },
-    {
      "t": "Early deceleration",
      "a": 1
+    },
+    {
+     "t": "Late deceleration",
+     "a": 3
     },
     {
      "t": "Acceleration",
      "a": 2
     },
     {
-     "t": "Late deceleration",
-     "a": 3
+     "t": "Variable deceleration",
+     "a": 0
     }
    ],
    "rat": "VEAL CHOP pairs Variable-Cord compression, Early-Head compression, Acceleration-OK (well-being), and Late-Placenta (uteroplacental insufficiency). Early decels mirror the contraction (vagal head compression) while late decels are delayed and signal poor placental perfusion.",
@@ -373,8 +373,8 @@
    ],
    "rows": [
     {
-     "t": "Clear, watery fluid",
-     "a": 0
+     "t": "Cloudy, yellow-tinged fluid",
+     "a": 1
     },
     {
      "t": "Odorless fluid",
@@ -385,16 +385,16 @@
      "a": 1
     },
     {
-     "t": "Cloudy, yellow-tinged fluid",
-     "a": 1
+     "t": "A large gush at the onset of rupture",
+     "a": 0
+    },
+    {
+     "t": "Clear, watery fluid",
+     "a": 0
     },
     {
      "t": "Fluid with a foul, strong odor",
      "a": 1
-    },
-    {
-     "t": "A large gush at the onset of rupture",
-     "a": 0
     }
    ],
    "rat": "Amniotic fluid should be clear and odorless; a gush or trickle at rupture is simply the amount and is not abnormal. Greenish staining signals meconium passage (possible fetal compromise), while a cloudy/yellow appearance or a foul odor suggests chorioamnionitis (infection) — each requires provider notification.",
@@ -811,28 +811,28 @@
    ],
    "rows": [
     {
-     "t": "Temperature of 38°C (100.4°F) at 10 hours postpartum",
-     "a": 0
-    },
-    {
-     "t": "Heart rate of 58 beats per minute in a resting, comfortable client",
-     "a": 0
+     "t": "One perineal pad fully saturated within 25 minutes",
+     "a": 1
     },
     {
      "t": "Dark red lochia with a fleshy odor on a moderately filled pad",
      "a": 0
     },
     {
-     "t": "One perineal pad fully saturated within 25 minutes",
-     "a": 1
-    },
-    {
      "t": "Calf tenderness with localized warmth and a weak pedal pulse on one leg",
      "a": 1
     },
     {
+     "t": "Heart rate of 58 beats per minute in a resting, comfortable client",
+     "a": 0
+    },
+    {
      "t": "Foul-smelling lochia with a temperature of 38.6°C on the second day",
      "a": 1
+    },
+    {
+     "t": "Temperature of 38°C (100.4°F) at 10 hours postpartum",
+     "a": 0
     }
    ],
    "rat": "A temperature up to 38°C in the first 24 hours (from dehydration and fluid shifts), a relative bradycardia from increased stroke volume, and dark red lochia rubra with a non-foul fleshy odor are all expected. Saturating a pad in 30 minutes or less signals possible hemorrhage; unilateral calf tenderness with warmth and a diminished pedal pulse suggests a DVT; and foul-smelling lochia with a fever after the first 24 hours suggests infection. All three of the latter must be reported.",
@@ -978,7 +978,7 @@
    ],
    "rows": [
     {
-     "t": "Temperature 38.6 °C (101.5 °F) with uterine tenderness and foul-smelling lochia",
+     "t": "Dysuria, urinary urgency, and suprapubic pain",
      "a": 1
     },
     {
@@ -986,20 +986,20 @@
      "a": 1
     },
     {
-     "t": "Sudden pleuritic chest pain, dyspnea, and a heart rate of 122/min",
-     "a": 1
-    },
-    {
      "t": "Lochia rubra, moderate amount, with a few small clots",
      "a": 0
     },
     {
-     "t": "Dysuria, urinary urgency, and suprapubic pain",
+     "t": "Sudden pleuritic chest pain, dyspnea, and a heart rate of 122/min",
      "a": 1
     },
     {
      "t": "Afterpains during breastfeeding that ease with the feeding's end",
      "a": 0
+    },
+    {
+     "t": "Temperature 38.6 °C (101.5 °F) with uterine tenderness and foul-smelling lochia",
+     "a": 1
     }
    ],
    "rat": "Fever after the first 24 hours with uterine tenderness and foul lochia indicates endometritis; unilateral calf warmth, redness, and tenderness suggests DVT; and sudden pleuritic chest pain with dyspnea and tachycardia signals possible pulmonary embolism — all reportable. Dysuria with suprapubic pain points to a UTI and is reportable. Moderate lochia rubra with small clots and feeding-related afterpains that resolve are expected involutional findings.",
@@ -1727,16 +1727,16 @@
    ],
    "rows": [
     {
-     "t": "Rooting",
-     "a": 0
-    },
-    {
      "t": "Moro",
      "a": 1
     },
     {
-     "t": "Babinski",
-     "a": 2
+     "t": "Stepping",
+     "a": 5
+    },
+    {
+     "t": "Rooting",
+     "a": 0
     },
     {
      "t": "Palmar grasp",
@@ -1747,8 +1747,8 @@
      "a": 4
     },
     {
-     "t": "Stepping",
-     "a": 5
+     "t": "Babinski",
+     "a": 2
     }
    ],
    "rat": "Rooting is elicited by stroking the cheek; Moro by a sudden noise or movement; Babinski by stroking the sole upward toward the outer toes (toes fan, big toe dorsiflexes); palmar grasp by a finger on the palm; plantar grasp by touching the ball/toes of the sole (toes curl down); stepping by holding the newborn upright with feet on a surface. The palmar-versus-plantar and Babinski stimuli are commonly confused because all three involve the hand or foot.",
@@ -2321,19 +2321,7 @@
    ],
    "rows": [
     {
-     "t": "Low birth weight (under 2,500 g / 5 lb 8 oz)",
-     "a": 0
-    },
-    {
-     "t": "Seizures",
-     "a": 0
-    },
-    {
      "t": "Jaundice",
-     "a": 0
-    },
-    {
-     "t": "Sudden infant death syndrome (SIDS)",
      "a": 0
     },
     {
@@ -2341,8 +2329,20 @@
      "a": 1
     },
     {
+     "t": "Low birth weight (under 2,500 g / 5 lb 8 oz)",
+     "a": 0
+    },
+    {
+     "t": "Sudden infant death syndrome (SIDS)",
+     "a": 0
+    },
+    {
      "t": "Congenital absence of a startle (Moro) reflex",
      "a": 1
+    },
+    {
+     "t": "Seizures",
+     "a": 0
     }
    ],
    "rat": "NAS is associated with low birth weight, seizures, jaundice, and an increased risk of SIDS. Macrosomia is not linked to NAS (these infants trend toward low birth weight), and an absent Moro reflex is not an NAS complication — withdrawal actually produces an exaggerated, easily triggered Moro response.",
@@ -2425,11 +2425,7 @@
      "a": 0
     },
     {
-     "t": "Tachypnea and grunting with feeding",
-     "a": 0
-    },
-    {
-     "t": "Yellow tint to the skin from an immature liver",
+     "t": "Increased susceptibility to infection",
      "a": 0
     },
     {
@@ -2437,7 +2433,11 @@
      "a": 1
     },
     {
-     "t": "Increased susceptibility to infection",
+     "t": "Yellow tint to the skin from an immature liver",
+     "a": 0
+    },
+    {
+     "t": "Tachypnea and grunting with feeding",
      "a": 0
     }
    ],
@@ -2788,14 +2788,6 @@
    ],
    "rows": [
     {
-     "t": "\"I'll have someone else change the cat's litter box while I'm pregnant.\"",
-     "a": 0
-    },
-    {
-     "t": "\"I'll cook all my meat thoroughly before I eat it.\"",
-     "a": 0
-    },
-    {
      "t": "\"I'll wash fruits and vegetables and wash my hands after gardening.\"",
      "a": 0
     },
@@ -2804,11 +2796,19 @@
      "a": 1
     },
     {
+     "t": "\"I'll keep the outdoor sandbox covered so stray cats can't use it.\"",
+     "a": 0
+    },
+    {
+     "t": "\"I'll have someone else change the cat's litter box while I'm pregnant.\"",
+     "a": 0
+    },
+    {
      "t": "\"It's safe to drink untreated stream water and unpasteurized milk.\"",
      "a": 1
     },
     {
-     "t": "\"I'll keep the outdoor sandbox covered so stray cats can't use it.\"",
+     "t": "\"I'll cook all my meat thoroughly before I eat it.\"",
      "a": 0
     }
    ],
@@ -2902,15 +2902,15 @@
    ],
    "rows": [
     {
+     "t": "Spina bifida occulta",
+     "a": 1
+    },
+    {
      "t": "Myelomeningocele",
      "a": 0
     },
     {
      "t": "Meningocele",
-     "a": 1
-    },
-    {
-     "t": "Spina bifida occulta",
      "a": 1
     }
    ],

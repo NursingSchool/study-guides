@@ -392,20 +392,20 @@
      "a": 0
     },
     {
-     "t": "I — Intervention",
-     "a": 1
-    },
-    {
-     "t": "C — Comparison",
-     "a": 2
-    },
-    {
      "t": "O — Outcome",
      "a": 3
     },
     {
      "t": "T — Time",
      "a": 4
+    },
+    {
+     "t": "C — Comparison",
+     "a": 2
+    },
+    {
+     "t": "I — Intervention",
+     "a": 1
     }
    ],
    "rat": "P is the client group receiving care, I is the therapeutic measure being tested (CHG), and C is the existing alternative it is measured against (povidone-iodine); reversing I and C is the most common error because both name an antiseptic. O is what is measured (surgical site infections) and T is the period over which it is measured. The staff who apply the prep are providers, not the study population.",
@@ -496,24 +496,24 @@
    ],
    "rows": [
     {
-     "t": "A practice guideline recommendation built from the pooled results of eleven randomized trials of chlorhexidine bathing",
-     "a": 0
-    },
-    {
-     "t": "A well designed controlled study of two hand-hygiene reminder systems in which units were assigned by wing rather than at random",
-     "a": 1
-    },
-    {
-     "t": "A retroactive chart review of 400 records comparing infection rates before and after a care bundle was adopted",
-     "a": 2
+     "t": "A mixed-methodology descriptive study whose survey was returned by 12% of the nurses invited",
+     "a": 3
     },
     {
      "t": "An observational study comparing infection rates on two units that already used different dressing products",
      "a": 2
     },
     {
-     "t": "A mixed-methodology descriptive study whose survey was returned by 12% of the nurses invited",
-     "a": 3
+     "t": "A retroactive chart review of 400 records comparing infection rates before and after a care bundle was adopted",
+     "a": 2
+    },
+    {
+     "t": "A well designed controlled study of two hand-hygiene reminder systems in which units were assigned by wing rather than at random",
+     "a": 1
+    },
+    {
+     "t": "A practice guideline recommendation built from the pooled results of eleven randomized trials of chlorhexidine bathing",
+     "a": 0
     },
     {
      "t": "A specialty organization's consensus statement drawn from the panel members' clinical experience",

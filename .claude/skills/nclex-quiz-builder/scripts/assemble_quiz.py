@@ -74,6 +74,35 @@ def _idx_ok(v, n):
     return isinstance(v, int) and 0 <= v < n
 
 
+def _check_row_order(qn, t, rows):
+    """match/matrix answers must not be guessable from their order alone.
+
+    Two real defects found in the NR328 Exam 1 build:
+      identity  [0,1,2,3,4,5] - pick top-to-bottom, score 100% knowing nothing.
+      clustered [0,0,0,1,1,1] - the grouping is visible without reading the rows.
+    Fix by reordering ROWS (each row keeps its own answer), never by changing keys.
+    """
+    seq = [r.get("a") for r in rows if isinstance(r, dict)]
+    if len(seq) < 3 or any(not isinstance(a, int) for a in seq):
+        return
+    n = len(seq)
+    if seq == list(range(n)):
+        err(qn, f"{t}: answers are an identity map {seq} - answerable by picking "
+                "options top-to-bottom. Reorder the rows.")
+        return
+    if seq == sorted(seq) or seq == sorted(seq, reverse=True):
+        warn(qn, f"{t}: answers arrive pre-sorted {seq}; the grouping is visible "
+                 "without reading the rows. Interleave them.")
+        return
+    longest = run = 1
+    for i in range(1, n):
+        run = run + 1 if seq[i] == seq[i - 1] else 1
+        longest = max(longest, run)
+    if longest >= max(3, (n + 1) // 2):
+        warn(qn, f"{t}: {longest} consecutive rows share one answer {seq}; reads as "
+                 "a block. Interleave them.")
+
+
 def _check_options(qn, opts, where):
     """Shared distractor hygiene for any option list."""
     if not isinstance(opts, list) or len(opts) < 2:
@@ -149,6 +178,7 @@ def validate_item(q):
                     err(qn, f"{t} row {ri}: missing row text 't'")
                 if not _idx_ok(r.get("a"), len(pool) if isinstance(pool, list) else 0):
                     err(qn, f"{t} row {ri}: a must index into {pool_key}")
+            _check_row_order(qn, t, rows)
 
     elif t == "bowtie":
         prob = q.get("problem", {})

@@ -108,20 +108,20 @@
    ],
    "rows": [
     {
-     "t": "Vitamin A",
-     "a": 0
-    },
-    {
      "t": "Vitamin D",
      "a": 1
     },
     {
-     "t": "Vitamin K",
-     "a": 2
-    },
-    {
      "t": "Vitamin E",
      "a": 3
+    },
+    {
+     "t": "Vitamin A",
+     "a": 0
+    },
+    {
+     "t": "Vitamin K",
+     "a": 2
     }
    ],
    "rat": "Vitamin A deficiency first shows as night blindness (rhodopsin); vitamin D deficiency causes rickets in children; vitamin K deficiency impairs clotting factor synthesis, causing bleeding; vitamin E deficiency causes anemia and neurological/muscular deficits. Each finding ties directly to that vitamin's primary physiologic role.",
@@ -226,10 +226,6 @@
    ],
    "rows": [
     {
-     "t": "Thiamine (B1)",
-     "a": 0
-    },
-    {
      "t": "Niacin (B3)",
      "a": 1
     },
@@ -244,6 +240,10 @@
     {
      "t": "Vitamin C",
      "a": 4
+    },
+    {
+     "t": "Thiamine (B1)",
+     "a": 0
     }
    ],
    "rat": "Thiamine deficiency causes beriberi; niacin deficiency causes pellagra (the three D's: dermatitis, diarrhea, dementia); B12 deficiency from absent intrinsic factor causes pernicious anemia; inadequate folate during early pregnancy causes neural tube defects; vitamin C deficiency causes scurvy. Students often swap B12 and folate because both produce a megaloblastic anemia, but only B12 loss from intrinsic-factor failure is called pernicious anemia.",
@@ -384,24 +384,24 @@
    ],
    "rows": [
     {
-     "t": "Vitamin B12 is found in meat, fish, eggs, and dairy but not in plant foods",
-     "a": 0
-    },
-    {
-     "t": "Folate is found in leafy green vegetables, legumes, and enriched grains",
-     "a": 0
+     "t": "Vitamin C is found mainly in red meat and organ meats",
+     "a": 1
     },
     {
      "t": "Citrus fruits and other fresh fruits and vegetables are good sources of vitamin C",
      "a": 0
     },
     {
-     "t": "Vitamin C is found mainly in red meat and organ meats",
-     "a": 1
+     "t": "Vitamin B12 is found in meat, fish, eggs, and dairy but not in plant foods",
+     "a": 0
     },
     {
      "t": "Folate occurs only in animal products, so vegans cannot meet their needs",
      "a": 1
+    },
+    {
+     "t": "Folate is found in leafy green vegetables, legumes, and enriched grains",
+     "a": 0
     }
    ],
    "rat": "B12 comes from animal foods only, folate from leafy greens/legumes/enriched grains, and vitamin C from fruits and vegetables. The two inaccurate rows reverse the food groups: vitamin C is not a meat nutrient, and folate is abundant in plant foods, so a vegan can readily meet folate needs (B12, not folate, is the vegan concern).",
@@ -536,20 +536,20 @@
    ],
    "rows": [
     {
-     "t": "Iron",
-     "a": 0
-    },
-    {
-     "t": "Iodine",
-     "a": 1
-    },
-    {
      "t": "Zinc",
      "a": 2
     },
     {
      "t": "Chromium",
      "a": 3
+    },
+    {
+     "t": "Iodine",
+     "a": 1
+    },
+    {
+     "t": "Iron",
+     "a": 0
     }
    ],
    "rat": "Iron is part of hemoglobin and carries oxygen; iodine is part of thyroid hormone; zinc supports wound healing, immune health, and taste perception; chromium works closely with insulin to regulate glucose. These are the source-defined functions for each trace mineral.",
@@ -666,7 +666,7 @@
    ],
    "rows": [
     {
-     "t": "High-dose vitamin A supplements are linked to increased lung cancer risk in clients who smoke",
+     "t": "High doses of vitamin C cause gastrointestinal problems such as diarrhea",
      "a": 0
     },
     {
@@ -674,16 +674,16 @@
      "a": 0
     },
     {
+     "t": "High-dose antioxidant supplements taken above the RDA are proven to prevent chronic disease",
+     "a": 1
+    },
+    {
      "t": "High levels of selenium are toxic and can cause severe liver damage",
      "a": 0
     },
     {
-     "t": "High doses of vitamin C cause gastrointestinal problems such as diarrhea",
+     "t": "High-dose vitamin A supplements are linked to increased lung cancer risk in clients who smoke",
      "a": 0
-    },
-    {
-     "t": "High-dose antioxidant supplements taken above the RDA are proven to prevent chronic disease",
-     "a": 1
     }
    ],
    "rat": "The module ties each megadose to a specific harm: vitamin A and lung cancer in smokers, vitamin E and hemorrhagic stroke plus prostate cancer, selenium and liver toxicity, and vitamin C and GI diarrhea. Research has NOT shown that high-dose supplementation prevents disease, so the final statement is inaccurate and is itself a safety concern.",
@@ -736,15 +736,11 @@
    ],
    "rows": [
     {
+     "t": "Plain white bread, unfortified",
+     "a": 1
+    },
+    {
      "t": "Lean beef",
-     "a": 0
-    },
-    {
-     "t": "Spinach and dark leafy greens",
-     "a": 0
-    },
-    {
-     "t": "Beans and chickpeas",
      "a": 0
     },
     {
@@ -752,8 +748,12 @@
      "a": 1
     },
     {
-     "t": "Plain white bread, unfortified",
-     "a": 1
+     "t": "Beans and chickpeas",
+     "a": 0
+    },
+    {
+     "t": "Spinach and dark leafy greens",
+     "a": 0
     }
    ],
    "rat": "Red meat, dark leafy greens, and legumes are the iron sources named in the source material. Milk supplies calcium, which actually competes with iron absorption, and unfortified white bread is not an iron source; fortified grains would be, but plain unfortified bread is not.",
@@ -1258,24 +1258,24 @@
    ],
    "rows": [
     {
-     "t": "Increased appetite during a growth spurt",
-     "a": 0
-    },
-    {
      "t": "Going to the bathroom immediately after most meals",
      "a": 1
     },
     {
-     "t": "Wearing baggy layers and refusing to eat in front of others",
-     "a": 1
+     "t": "Occasionally choosing a vegetarian meal at lunch",
+     "a": 0
     },
     {
      "t": "Has stopped menstruating despite continued intense training",
      "a": 1
     },
     {
-     "t": "Occasionally choosing a vegetarian meal at lunch",
+     "t": "Increased appetite during a growth spurt",
      "a": 0
+    },
+    {
+     "t": "Wearing baggy layers and refusing to eat in front of others",
+     "a": 1
     }
    ],
    "rat": "Increased appetite during a growth spurt and an occasional vegetarian meal are normal. Self-induced behaviors and warning signs of an eating disorder include disappearing to the bathroom after eating (possible purging), concealing the body and avoiding eating around others, and amenorrhea from low energy availability, which is a recognized complication of weight-control practices in lean-sport athletes. These warrant nonjudgmental further assessment.",
@@ -1484,12 +1484,12 @@
      "a": 0
     },
     {
-     "t": "For the 88-year-old with hypertension, teach the DASH eating plan and adapt it to his cultural dishes",
-     "a": 0
-    },
-    {
      "t": "For the 11-year-old who dislikes vegetables, withhold preferred fruits until she eats her vegetables",
      "a": 1
+    },
+    {
+     "t": "For the 88-year-old with hypertension, teach the DASH eating plan and adapt it to his cultural dishes",
+     "a": 0
     },
     {
      "t": "For the 88-year-old with hypertension, advise him to salt foods to taste since intake naturally drops with age",
@@ -1910,23 +1910,23 @@
    ],
    "rows": [
     {
-     "t": "Apples, berries, and grapes",
-     "a": 0
-    },
-    {
-     "t": "Banana and orange juice",
+     "t": "Baked potato and fresh tomato",
      "a": 1
-    },
-    {
-     "t": "Broccoli, carrots, and green beans",
-     "a": 0
     },
     {
      "t": "Milk, yogurt, and cheese",
      "a": 1
     },
     {
-     "t": "Baked potato and fresh tomato",
+     "t": "Apples, berries, and grapes",
+     "a": 0
+    },
+    {
+     "t": "Broccoli, carrots, and green beans",
+     "a": 0
+    },
+    {
+     "t": "Banana and orange juice",
      "a": 1
     },
     {
@@ -2121,12 +2121,12 @@
    ],
    "rows": [
     {
-     "t": "Aspirin / NSAIDs",
-     "a": 0
-    },
-    {
      "t": "Levothyroxine",
      "a": 1
+    },
+    {
+     "t": "Aspirin / NSAIDs",
+     "a": 0
     },
     {
      "t": "Warfarin",
@@ -2187,20 +2187,20 @@
    ],
    "rows": [
     {
-     "t": "Salmonella",
-     "a": 0
-    },
-    {
      "t": "Campylobacter",
      "a": 1
     },
     {
-     "t": "Norovirus / Vibrio",
-     "a": 2
-    },
-    {
      "t": "Listeria",
      "a": 3
+    },
+    {
+     "t": "Salmonella",
+     "a": 0
+    },
+    {
+     "t": "Norovirus / Vibrio",
+     "a": 2
     }
    ],
    "rat": "Salmonella is classically tied to eggs, Campylobacter to raw poultry, norovirus and Vibrio to raw shellfish, and Listeria to unpasteurized milk and soft cheeses. The foods are similar 'raw/animal-source' choices, so the match rests on knowing each organism's signature high-risk food rather than guessing.",
@@ -2406,28 +2406,28 @@
    ],
    "rows": [
     {
-     "t": "Baked beans and lentils",
-     "a": 0
-    },
-    {
-     "t": "Broccoli, cabbage, and cauliflower",
-     "a": 0
+     "t": "Grilled skinless chicken breast",
+     "a": 1
     },
     {
      "t": "Carbonated soft drinks",
      "a": 0
     },
     {
-     "t": "Ice cream and milk",
+     "t": "Baked beans and lentils",
      "a": 0
-    },
-    {
-     "t": "Grilled skinless chicken breast",
-     "a": 1
     },
     {
      "t": "White rice",
      "a": 1
+    },
+    {
+     "t": "Broccoli, cabbage, and cauliflower",
+     "a": 0
+    },
+    {
+     "t": "Ice cream and milk",
+     "a": 0
     }
    ],
    "rat": "The guide's 'Foods That Contribute to Gas Production' list includes legumes (beans, peas), cruciferous and certain other vegetables (cabbage, broccoli, cauliflower), milk and milk products, carbonated beverages, and fatty/fried foods. Lean grilled chicken and plain white rice are not on the gas-producing list, so they are reasonable choices on a gas-reduction plan.",
@@ -2542,7 +2542,11 @@
    ],
    "rows": [
     {
-     "t": "Instant pudding (holds its shape on a spoon)",
+     "t": "A whole hamburger on a bun",
+     "a": 1
+    },
+    {
+     "t": "A nectar-thick milkshake sippable through a straw with effort",
      "a": 0
     },
     {
@@ -2550,16 +2554,12 @@
      "a": 0
     },
     {
-     "t": "A nectar-thick milkshake sippable through a straw with effort",
-     "a": 0
-    },
-    {
      "t": "A glass of plain water (thin liquid)",
      "a": 1
     },
     {
-     "t": "A whole hamburger on a bun",
-     "a": 1
+     "t": "Instant pudding (holds its shape on a spoon)",
+     "a": 0
     },
     {
      "t": "Vegetable broth that flows like water",
@@ -3051,20 +3051,20 @@
      "a": 0
     },
     {
-     "t": "Dark or orange-colored urine",
-     "a": 0
-    },
-    {
-     "t": "Right upper quadrant pain that worsens after fried food",
-     "a": 0
-    },
-    {
      "t": "Yellowing of the skin and sclera",
      "a": 0
     },
     {
      "t": "Bright red blood coating formed stool",
      "a": 1
+    },
+    {
+     "t": "Dark or orange-colored urine",
+     "a": 0
+    },
+    {
+     "t": "Right upper quadrant pain that worsens after fried food",
+     "a": 0
     }
    ],
    "rat": "Obstruction of the bile ducts backs bile up, producing pale or chalky stools, dark urine, jaundice, and right upper quadrant pain that worsens after fatty or fried meals. Bright red blood coating the stool reflects lower GI or rectal bleeding, not biliary obstruction.",

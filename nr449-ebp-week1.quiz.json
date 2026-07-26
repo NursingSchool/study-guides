@@ -99,16 +99,16 @@
      "a": 0
     },
     {
+     "t": "Conducts a study independently and seeks grant funding to finance it",
+     "a": 3
+    },
+    {
      "t": "Writes the facility's EBP guidelines and leads the team's ongoing EBP discussions",
      "a": 1
     },
     {
      "t": "Tailors analyzed data to this unit's client population and partners with research scientists",
      "a": 2
-    },
-    {
-     "t": "Conducts a study independently and seeks grant funding to finance it",
-     "a": 3
     }
    ],
    "rat": "The guide's education table assigns the baccalaureate nurse to understanding EBP basics, participating on research teams, and applying evidence; the master's nurse to creating EBP guidelines and leading teams that discuss EBP; the practice-focused doctorate to analyzing data, tailoring it to specific groups, and partnering with research scientists using advanced leadership; and the research-focused doctorate to conducting research independently and seeking grants. Students commonly credit the master's nurse with independent research or assume the bedside nurse has no role at all.",
@@ -353,20 +353,20 @@
    ],
    "rows": [
     {
-     "t": "Data pulled from existing medical records, with no contact with clients",
+     "t": "A survey of staff nurses about shift preferences that poses no risk",
      "a": 0
     },
     {
-     "t": "A survey of staff nurses about shift preferences that poses no risk",
-     "a": 0
+     "t": "A federally funded trial of an experimental drug, with publication planned",
+     "a": 2
     },
     {
      "t": "A walking protocol whose discomfort is no greater than that of daily life",
      "a": 1
     },
     {
-     "t": "A federally funded trial of an experimental drug, with publication planned",
-     "a": 2
+     "t": "Data pulled from existing medical records, with no contact with clients",
+     "a": 0
     },
     {
      "t": "A wound dressing trial carrying more than minimal risk of skin injury",
@@ -475,8 +475,12 @@
    ],
    "rows": [
     {
-     "t": "Rewording an interview guide so bereaved parents are not put through unnecessary emotional distress",
-     "a": 0
+     "t": "Enrolling women and members of minority groups rather than excluding them from a clinical trial",
+     "a": 2
+    },
+    {
+     "t": "Holding the interview recordings in strict confidence in line with the HIPAA Privacy Rule",
+     "a": 2
     },
     {
      "t": "Assuring participants that what they report about their income will not cost them public benefits",
@@ -491,12 +495,8 @@
      "a": 1
     },
     {
-     "t": "Enrolling women and members of minority groups rather than excluding them from a clinical trial",
-     "a": 2
-    },
-    {
-     "t": "Holding the interview recordings in strict confidence in line with the HIPAA Privacy Rule",
-     "a": 2
+     "t": "Rewording an interview guide so bereaved parents are not put through unnecessary emotional distress",
+     "a": 0
     }
    ],
    "rat": "Beneficence obliges the researcher to minimize harm and maximize benefit; it carries both the right to freedom from harm and discomfort (which includes emotional harm) and the right to protection from exploitation (what participants disclose must not be used against them). Respect for human dignity carries self-determination (refuse, skip questions, withdraw) and full disclosure (the study, its risks and benefits, and the right to refuse). Justice carries the right to fair treatment (equitable selection, no exclusion of women and minorities) and the right to privacy (data held in strict confidence, HIPAA).",
@@ -608,24 +608,24 @@
    ],
    "rows": [
     {
-     "t": "A retrospective chart review of hemoglobin A1c values with no client contact",
-     "a": 0
+     "t": "Participants walk on a treadmill for 10 minutes; discomfort is no greater than that of daily life",
+     "a": 1
     },
     {
      "t": "An anonymous survey of staff nurses about shift-scheduling preferences",
      "a": 0
     },
     {
-     "t": "Participants walk on a treadmill for 10 minutes; discomfort is no greater than that of daily life",
-     "a": 1
+     "t": "A federally funded trial of an investigational wound dressing that carries a risk of skin injury",
+     "a": 2
     },
     {
      "t": "One extra tube of blood is drawn during an already scheduled venipuncture",
      "a": 1
     },
     {
-     "t": "A federally funded trial of an investigational wound dressing that carries a risk of skin injury",
-     "a": 2
+     "t": "A retrospective chart review of hemoglobin A1c values with no client contact",
+     "a": 0
     },
     {
      "t": "A trial of a new sedation protocol in critically ill adults, with findings submitted for publication",

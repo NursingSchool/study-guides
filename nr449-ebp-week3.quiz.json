@@ -113,24 +113,24 @@
    ],
    "rows": [
     {
+     "t": "A small group's adherence to blood pressure medication is reviewed repeatedly over time to follow each person's own response",
+     "a": 4
+    },
+    {
      "t": "Teen clients are asked, at the moment of their cancer diagnosis, what their top information need is",
      "a": 0
-    },
-    {
-     "t": "Clients aged 5 to 50 years are asked, at the moment of their cancer diagnosis, what their top information need is",
-     "a": 1
-    },
-    {
-     "t": "Teen cancer clients are asked about their top information need at diagnosis, at first treatment, and again at six months",
-     "a": 2
     },
     {
      "t": "Detailed information is gathered by varied techniques from one campus's graduating nursing class about their priority needs after graduation",
      "a": 3
     },
     {
-     "t": "A small group's adherence to blood pressure medication is reviewed repeatedly over time to follow each person's own response",
-     "a": 4
+     "t": "Teen cancer clients are asked about their top information need at diagnosis, at first treatment, and again at six months",
+     "a": 2
+    },
+    {
+     "t": "Clients aged 5 to 50 years are asked, at the moment of their cancer diagnosis, what their top information need is",
+     "a": 1
     },
     {
      "t": "Nursing students who work 20 or more hours a week are interviewed to uncover the meaning of that experience",
@@ -256,24 +256,24 @@
    ],
    "rows": [
     {
-     "t": "Examining the relationship between maternal age and anxiety among mothers scheduled for a planned cesarean birth",
-     "a": 0
+     "t": "Determining whether a participant's age forecasts that participant's medication adherence",
+     "a": 1
     },
     {
      "t": "Comparing the level of a single variable, treatment adherence, across two separate populations",
      "a": 0
     },
     {
-     "t": "Determining whether a participant's age forecasts that participant's medication adherence",
-     "a": 1
+     "t": "Applying a preconceived model to test whether adding a support group affects the coping skills of teens with anxiety",
+     "a": 3
+    },
+    {
+     "t": "Examining the relationship between maternal age and anxiety among mothers scheduled for a planned cesarean birth",
+     "a": 0
     },
     {
      "t": "Analyzing teens' own words to build an explanation of how they come to take their medication consistently",
      "a": 2
-    },
-    {
-     "t": "Applying a preconceived model to test whether adding a support group affects the coping skills of teens with anxiety",
-     "a": 3
     }
    ],
    "rat": "This module defines a correlation as a relationship between two variables in a single population or one variable in two populations, so both of the first two studies are correlations. A predictive study relationship runs between a predictor variable and an outcome variable, which is the age-to-adherence study. Grounded theory develops a theory of process, action, or interaction based on analysis of participants' words. A test of model fit uses a preconceived model to test theories of causal relationships between variables.",
@@ -385,12 +385,12 @@
    ],
    "rows": [
     {
-     "t": "A team watches and records staff hand-hygiene behavior on a unit; the staff themselves provide no input",
-     "a": 0
-    },
-    {
      "t": "A questionnaire is e-mailed to 12,000 licensed nurses in one state to collect feedback on staffing",
      "a": 1
+    },
+    {
+     "t": "Investigators examine whether nurses' sleep hours and medication-error counts move in opposite directions, controlling neither",
+     "a": 4
     },
     {
      "t": "A one-day chart audit estimates how many residents of a nursing home currently have a pressure injury",
@@ -401,12 +401,12 @@
      "a": 3
     },
     {
-     "t": "Investigators examine whether nurses' sleep hours and medication-error counts move in opposite directions, controlling neither",
-     "a": 4
-    },
-    {
      "t": "One client with a rare metabolic disorder is studied in depth to generate a hypothesis for later work",
      "a": 5
+    },
+    {
+     "t": "A team watches and records staff hand-hygiene behavior on a unit; the staff themselves provide no input",
+     "a": 0
     }
    ],
    "rat": "Observational studies collect data from the researcher's view of behavior with no input from respondents; surveys collect respondent-reported feedback and suit very large samples; cross-sectional studies are a snapshot of frequency at one point in time; longitudinal studies gather data repeatedly over an extended period; correlation measures the relationship between two or more variables the researcher does not control; case studies are in-depth study of an individual or group that widen the scope for later work.",
