@@ -146,5 +146,16 @@ Promotion, and Nursing Process for all five stages. Sections 12–13 cover thera
 and nursing considerations — though *not* the developmental play-type taxonomy, which was in the
 video.
 
-**Recommended:** watch the five Section 4 videos in Edapt directly and reconcile them against this
-file. Where they disagree, the videos win — they are the course's own content.
+**How much does the missing video actually matter here? Not much.** This particular content is
+universal, standardized developmental theory — Kohlberg is Kohlberg, Piaget is Piaget, Parten's
+play taxonomy and the primitive-reflex windows don't vary by school. A reconstruction from nursing
+references is reliable, and the videos cannot contradict it.
+
+**The one place source genuinely matters** is milestone *cutoffs*: CDC's 2022 revision moved to
+75th-percentile thresholds while nursing texts kept the traditional norms. This file uses the
+nursing norms (pincer grasp 9 months, tricycle 3 years, Babinski to ~12 months) — the right choice
+for this exam. Watch the videos if convenient, but treat this as low-risk material.
+
+Contrast that with content where deferring to the source is essential: anything course-specific,
+anything where Edapt lags current practice, and drug/dose specifics. Those must be keyed to the
+guide's own version.
