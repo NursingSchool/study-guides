@@ -3421,23 +3421,79 @@ const Q = [
  }
 ];
 
+// ---------- persistent history ----------
+// Keyed by a hash of the stem, not array index, so history survives the
+// reordering that balance_answers.py performs between builds.
+function qid(q){
+  const s=q.stem||''; let h=0;
+  for(let k=0;k<s.length;k++){ h=(h*31+s.charCodeAt(k))|0; }
+  return 'q'+(h>>>0).toString(36);
+}
+const STORE='nclexquiz:'+location.pathname.split('/').pop();
+let HIST={};
+try{ HIST=JSON.parse(localStorage.getItem(STORE)||'{}'); }catch(e){ HIST={}; }
+function saveHist(){ try{ localStorage.setItem(STORE,JSON.stringify(HIST)); }catch(e){} }
+function record(q,correct,conf){
+  HIST[qid(q)]={c:correct,conf:conf,t:Date.now()};
+  saveHist();
+}
+function seen(q){ return HIST[qid(q)]; }
+function missedSet(){ return Q.filter(q=>{ const h=seen(q); return h && !h.c; }); }
+function unseenSet(){ return Q.filter(q=>!seen(q)); }
+
 // ---------- app logic ----------
 const app=document.getElementById('app');
 const fill=document.getElementById('fill');
 const posEl=document.getElementById('pos');
 const scEl=document.getElementById('sc');
+let ITEMS=Q.slice();               // the set being worked this session
 let i=0, score=0, answeredCount=0;
-const result=new Array(Q.length).fill(null); // true/false once answered
+let result=new Array(ITEMS.length).fill(null); // true/false once answered
+let conf=new Array(ITEMS.length).fill(null);   // 'sure' | 'unsure'
 
 function setMeta(){
-  posEl.textContent='Question '+(i+1)+' of '+Q.length;
+  posEl.textContent='Question '+(i+1)+' of '+ITEMS.length;
   scEl.textContent='Score '+score+' / '+answeredCount;
-  fill.style.width=((answeredCount)/Q.length*100)+'%';
+  fill.style.width=((answeredCount)/ITEMS.length*100)+'%';
+}
+
+function startSession(set){
+  ITEMS=set.slice();
+  i=0; score=0; answeredCount=0;
+  result=new Array(ITEMS.length).fill(null);
+  conf=new Array(ITEMS.length).fill(null);
+  render();
+}
+
+function startScreen(){
+  const missed=missedSet(), unseen=unseenSet();
+  const attempted=Q.length-unseen.length;
+  const opt=(id,label,sub,n,disabled)=>
+    '<button class="btn'+(disabled?' ghost':'')+'" id="'+id+'"'+(disabled?' disabled':'')+
+    ' style="display:block;width:100%;text-align:left;margin:8px 0;padding:12px 14px">'
+    +'<strong>'+label+'</strong> <span style="opacity:.75">— '+n+' item'+(n===1?'':'s')+'</span>'
+    +'<div style="font-size:12px;opacity:.7;font-weight:400;margin-top:3px">'+sub+'</div></button>';
+  app.innerHTML='<div class="card">'
+    +'<div class="stem" style="margin-bottom:4px">Choose how to run this quiz</div>'
+    +(attempted?'<div class="hint">You have answered '+attempted+' of '+Q.length
+        +' items before. Missed: '+missed.length+'.</div>'
+      :'<div class="hint">First run — no history yet.</div>')
+    +opt('m-full','Full quiz','Every item, in a fresh order.',Q.length,false)
+    +opt('m-missed','Missed only','Re-drill just the items you got wrong last time.',missed.length,missed.length===0)
+    +opt('m-unseen','Unseen only','Items you have not answered yet.',unseen.length,unseen.length===0)
+    +(attempted?'<div style="text-align:center;margin-top:14px">'
+        +'<button class="btn ghost" id="m-reset" style="font-size:12px">Clear history</button></div>':'')
+    +'</div>';
+  const go=(id,set)=>{ const b=document.getElementById(id); if(b&&!b.disabled) b.onclick=()=>startSession(set); };
+  go('m-full',Q); go('m-missed',missed); go('m-unseen',unseen);
+  const rb=document.getElementById('m-reset');
+  if(rb) rb.onclick=()=>{ HIST={}; saveHist(); startScreen(); };
+  posEl.textContent=Q.length+' items'; scEl.textContent=''; fill.style.width='0%';
 }
 function eqSet(a,b){ if(a.length!==b.length)return false; const s=new Set(a); return b.every(x=>s.has(x)); }
 
 function render(){
-  const q=Q[i]; setMeta();
+  const q=ITEMS[i]; setMeta();
   let body='';
   if(q.type==='radio'||q.type==='multi'){
     const inputType=q.type==='radio'?'radio':'checkbox';
@@ -3467,11 +3523,13 @@ function render(){
   } else if(q.type==='calc'){
     body='<div class="row"><input type="text" id="calc" placeholder="e.g., 9 or 8.8" inputmode="decimal"> %</div>';
   }
-  const last=i===Q.length-1;
+  const last=i===ITEMS.length-1;
   app.innerHTML='<div class="card"><span class="topic">'+q.topic+'</span>'
-    +'<div class="stem">'+q.n+'. '+q.stem+'</div>'+body
+    +'<div class="stem">'+(i+1)+'. '+q.stem+'</div>'+body
+    +'<div class="hint" id="confhint">Commit your answer — say how sure you are.</div>'
     +'<div class="actions">'
-    +'<button class="btn" id="submit">Submit answer</button>'
+    +'<button class="btn ghost" id="unsure">Not sure</button>'
+    +'<button class="btn" id="sure">Confident</button>'
     +'<button class="btn ghost" id="next" disabled>'+(last?'See results':'Next ▸')+'</button>'
     +'</div><div class="fb" id="fb"></div></div>';
 
@@ -3480,13 +3538,17 @@ function render(){
     const grpName=inp.name;
     app.querySelectorAll('.opt input[name="'+grpName+'"]').forEach(x=>x.closest('.opt').classList.toggle('sel',x.checked));
   }));
-  document.getElementById('submit').onclick=grade;
-  document.getElementById('next').onclick=()=>{ if(i<Q.length-1){i++;render();} else {results();} };
+  document.getElementById('unsure').onclick=()=>grade('unsure');
+  document.getElementById('sure').onclick=()=>grade('sure');
+  document.getElementById('next').onclick=()=>{ if(i<ITEMS.length-1){i++;render();} else {results();} };
 }
 
-function grade(){
-  const q=Q[i]; let correct=false; let answerText='';
-  const submitBtn=document.getElementById('submit'); const nextBtn=document.getElementById('next');
+function grade(confidence){
+  const q=ITEMS[i]; let correct=false; let answerText='';
+  const submitBtn=document.getElementById('sure'); const nextBtn=document.getElementById('next');
+  const unsureBtn=document.getElementById('unsure'); const hintEl=document.getElementById('confhint');
+  if(unsureBtn) unsureBtn.disabled=true;
+  if(hintEl) hintEl.remove();
   if(q.type==='radio'){
     const sel=app.querySelector('input[name="o"]:checked');
     const chosen=sel?+sel.value:-1; correct=chosen===q.ans;
@@ -3546,7 +3608,10 @@ function grade(){
   app.querySelectorAll('input').forEach(x=>x.disabled=true);
   submitBtn.disabled=true; nextBtn.disabled=false;
 
-  if(result[i]===null){ result[i]=correct; answeredCount++; if(correct)score++; }
+  if(result[i]===null){
+    result[i]=correct; conf[i]=confidence; answeredCount++; if(correct)score++;
+    record(q,correct,confidence);
+  }
   setMeta();
 
   const fb=document.getElementById('fb');
@@ -3574,30 +3639,53 @@ function grade(){
 }
 
 function results(){
-  const pct=Math.round(score/Q.length*100);
-  // category breakdown
+  const pct=Math.round(score/ITEMS.length*100);
   const cats={};
-  Q.forEach((q,idx)=>{ if(!cats[q.cat])cats[q.cat]={c:0,t:0}; cats[q.cat].t++; if(result[idx])cats[q.cat].c++; });
+  ITEMS.forEach((q,idx)=>{ if(!cats[q.cat])cats[q.cat]={c:0,t:0}; cats[q.cat].t++; if(result[idx])cats[q.cat].c++; });
   const rows=Object.entries(cats).sort((a,b)=>b[1].t-a[1].t)
     .map(([k,v])=>'<tr><td>'+k+'</td><td>'+v.c+' / '+v.t+'</td></tr>').join('');
-  const missed=Q.filter((q,idx)=>!result[idx]).map(q=>q.n);
+
+  // Confidence x correctness. A percentage hides the two cells that matter most:
+  // guessed-right (looks like mastery, isn't) and confidently-wrong (a
+  // misconception you won't revisit because you think you know it).
+  const quad={sc:0,su:0,wc:0,wu:0};
+  ITEMS.forEach((q,idx)=>{
+    if(result[idx]===null) return;
+    const k=(result[idx]?'s':'w')+(conf[idx]==='sure'?'c':'u');
+    quad[k]++;
+  });
+  const qrow=(label,n,note,flag)=>'<tr><td>'+label
+    +(note?'<div style="font-size:11px;color:var(--muted)">'+note+'</div>':'')
+    +'</td><td'+(flag&&n>0?' style="color:var(--bad);font-weight:700"':'')+'>'+n+'</td></tr>';
+  const quadTable='<table class="brk">'
+    +'<tr><td><strong>Confidence check</strong></td><td><strong>Items</strong></td></tr>'
+    +qrow('Correct &amp; confident',quad.sc,'Solid.',false)
+    +qrow('Correct but not sure',quad.su,'Guessed right — a score hides these.',true)
+    +qrow('Wrong and not sure',quad.wu,'Known gaps — easiest to close.',false)
+    +qrow('Wrong but confident',quad.wc,'Misconceptions — highest priority.',true)
+    +'</table>';
+
+  const missedNow=ITEMS.filter((q,idx)=>!result[idx]).length;
   const msg = pct>=85?'Strong — that is solid NCLEX readiness territory.'
             : pct>=70?'Passing range. Review the misses and the rationales.'
             : 'Keep grinding — focus on the missed items and re-run.';
   app.innerHTML='<div class="card end">'
     +'<div class="score">'+pct+'%</div>'
-    +'<div class="endsub">'+score+' of '+Q.length+' correct</div>'
+    +'<div class="endsub">'+score+' of '+ITEMS.length+' correct</div>'
     +'<p>'+msg+'</p>'
+    +quadTable
     +'<table class="brk"><tr><td><strong>Client Needs category</strong></td><td><strong>Correct</strong></td></tr>'+rows+'</table>'
-    +(missed.length?'<div class="miss"><h3>Missed items: '+missed.join(', ')+'</h3></div>':'<div class="miss"><h3>Perfect run — no misses.</h3></div>')
-    +'<div class="actions" style="justify-content:center"><button class="btn" id="restart">Restart quiz</button></div>'
+    +(missedNow?'<div class="miss"><h3>'+missedNow+' missed this run — saved for a "Missed only" re-run.</h3></div>'
+               :'<div class="miss"><h3>Perfect run — no misses.</h3></div>')
+    +'<div class="actions" style="justify-content:center">'
+    +'<button class="btn" id="restart">Back to start</button></div>'
     +'<div class="footnote">NR328 Exam 1 review · Weeks 1–3 · 124 NGN-style items · rationale after each answer · built from the Edapt module guides, the Canvas Prepare and Plan objectives, and three gap-fill supplements</div>'
     +'</div>';
-  document.getElementById('restart').onclick=()=>{i=0;score=0;answeredCount=0;result.fill(null);render();};
+  document.getElementById('restart').onclick=startScreen;
   fill.style.width='100%';
 }
 
-render();
+startScreen();
 </script>
 </body>
 </html>
