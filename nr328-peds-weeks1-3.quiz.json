@@ -2436,8 +2436,8 @@
     }
    ],
    "rat": "Iron deficiency anemia shows decreased Hgb/Hct/RBC indices, an elevated TIBC (the body's compensatory attempt to bind more iron), and may be confirmed with a guaiac stool test for occult blood loss. Hemophilia is a clotting-factor disorder: aPTT is prolonged because the intrinsic clotting pathway is impaired, while platelet count and PT remain within expected ranges because platelet function and the extrinsic pathway are unaffected; DNA testing identifies the carrier trait in female relatives of an affected child.",
-   "strat": "IDA affects the red cells and iron studies; hemophilia affects clotting factors and aPTT while platelets/PT stay normal - sort by which system is broken.",
-   "why": "Iron deficiency anemia shows decreased hemoglobin, hematocrit, and RBC indices. Its TIBC is elevated because the body tries to bind more iron, and a guaiac stool test can confirm occult blood loss. Hemophilia is a clotting-factor disorder, so aPTT is prolonged while platelet count and prothrombin time stay within expected ranges. DNA testing identifies the carrier trait in female relatives."
+   "strat": "Sort by which system is broken: iron studies and red cell indices for anemia, clotting factors and aPTT for hemophilia. Guaiac hunts a cause of iron loss.",
+   "why": "Iron deficiency anemia shows decreased hemoglobin, hematocrit, and RBC indices. TIBC rises because the body tries to bind more iron. Chronic blood loss is a leading cause of iron deficiency, so a guaiac stool test hunts for the source. Hemophilia is a clotting-factor disorder, so aPTT is prolonged while platelet count and prothrombin time stay within expected ranges, and DNA testing finds the carrier trait in female relatives. Hemophilia is diagnosed by coagulation studies, never by stool testing."
   },
   {
    "topic": "Hemophilia Factor VIII Dosing",
