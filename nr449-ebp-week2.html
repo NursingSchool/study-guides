@@ -8,7 +8,7 @@
   :root{
     --bg:#0f172a; --card:#1e293b; --card2:#273449; --ink:#e2e8f0; --muted:#94a3b8;
     --line:#334155; --accent:#2dd4bf; --accent2:#14b8a6; --good:#22c55e; --bad:#f87171;
-    --goodbg:#0c2a1a; --badbg:#2a1414; --chip:#0b3b3b;
+    --goodbg:#0c2a1a; --badbg:#2a1414; --chip:#0b3b3b; --part:#fbbf24;
   }
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--ink);
@@ -52,8 +52,10 @@
   .fb.show{display:block}
   .fb.ok{background:var(--goodbg);border-color:#1f5135}
   .fb.no{background:var(--badbg);border-color:#5b2626}
+  .fb.part{background:#2a2411;border-color:#5f5326}
   .fb .verdict{font-weight:700;font-size:15px;margin-bottom:6px}
   .fb .verdict.ok{color:var(--good)} .fb .verdict.no{color:var(--bad)}
+  .fb .verdict.part{color:var(--part)}
   .fb p{margin:6px 0}
   .fb .lblrow{font-size:12px;color:var(--muted);margin-top:8px}
   .fb .strat{font-style:italic;color:#cbd5e1}
@@ -1009,13 +1011,38 @@ const STORE='nclexquiz:'+location.pathname.split('/').pop();
 let HIST={};
 try{ HIST=JSON.parse(localStorage.getItem(STORE)||'{}'); }catch(e){ HIST={}; }
 function saveHist(){ try{ localStorage.setItem(STORE,JSON.stringify(HIST)); }catch(e){} }
-function record(q,correct,conf){
-  HIST[qid(q)]={c:correct,conf:conf,t:Date.now()};
+function record(q,correct,conf,earned,mx){
+  HIST[qid(q)]={c:correct,conf:conf,t:Date.now(),p:earned,m:mx};
   saveHist();
 }
 function seen(q){ return HIST[qid(q)]; }
 function missedSet(){ return Q.filter(q=>{ const h=seen(q); return h && !h.c; }); }
 function unseenSet(){ return Q.filter(q=>!seen(q)); }
+
+// ---------- scoring ----------
+// NCSBN scores NGN items more than one way, and all-or-nothing is only correct
+// for single-response items. Where the candidate picks a SUBSET (select-all, and
+// the two multi-pick groups of a bowtie) it is Plus/Minus: every correct
+// selection earns a point, every incorrect selection hands one back, and an item
+// never falls below zero. Where each row or blank takes exactly one response
+// (matrix, match, cloze) each unit is scored independently, so over-selection is
+// impossible and no deduction applies.
+//
+// Scoring a 5-part item 0 or 1 reports a 4-of-5 answer as a total miss, which
+// both understates the grade and hides which part actually broke.
+function plusMinus(chosen,ansArr){
+  let hit=0,miss=0;
+  chosen.forEach(c=>{ if(ansArr.includes(c)) hit++; else miss++; });
+  return Math.max(0,hit-miss);
+}
+function maxPoints(q){
+  if(q.type==='multi')  return q.ans.length;
+  if(q.type==='matrix'||q.type==='match') return q.rows.length;
+  if(q.type==='cloze')  return q.blanks.length;
+  if(q.type==='bowtie') return 1+q.actions.ans.length+q.params.ans.length;
+  return 1;                                    // radio, calc
+}
+function totalPoints(set){ return set.reduce((a,q)=>a+maxPoints(q),0); }
 
 // ---------- app logic ----------
 const app=document.getElementById('app');
@@ -1024,8 +1051,9 @@ const posEl=document.getElementById('pos');
 const scEl=document.getElementById('sc');
 const clockEl=document.getElementById('clock');
 let ITEMS=Q.slice();               // the set being worked this session
-let i=0, score=0, answeredCount=0;
+let i=0, score=0, possible=0, answeredCount=0;  // score/possible are POINTS
 let result=new Array(ITEMS.length).fill(null); // true/false once answered
+let pts=new Array(ITEMS.length).fill(null);    // points earned on each item
 let conf=new Array(ITEMS.length).fill(null);   // 'sure' | 'unsure'
 let spent=new Array(ITEMS.length).fill(0);     // seconds on each item
 let flags=new Array(ITEMS.length).fill(false); // flagged for review
@@ -1071,15 +1099,16 @@ function flash(msg){
 
 function setMeta(){
   posEl.textContent='Question '+(i+1)+' of '+ITEMS.length;
-  scEl.textContent='Score '+score+' / '+answeredCount;
+  scEl.textContent='Score '+score+' / '+possible+' pts';
   fill.style.width=((answeredCount)/ITEMS.length*100)+'%';
 }
 
 function startSession(set){
   if(!set.length) return;
   ITEMS=set.slice();
-  i=0; score=0; answeredCount=0;
+  i=0; score=0; possible=0; answeredCount=0;
   result=new Array(ITEMS.length).fill(null);
+  pts=new Array(ITEMS.length).fill(null);
   conf=new Array(ITEMS.length).fill(null);
   spent=new Array(ITEMS.length).fill(0);
   flags=new Array(ITEMS.length).fill(false);
@@ -1203,14 +1232,15 @@ function render(){
 }
 
 function grade(confidence){
-  const q=ITEMS[i]; let correct=false; let answerText='';
+  const q=ITEMS[i]; let correct=false; let answerText=''; let earned=0;
+  const mx=maxPoints(q);
   const submitBtn=document.getElementById('sure'); const nextBtn=document.getElementById('next');
   const unsureBtn=document.getElementById('unsure'); const hintEl=document.getElementById('confhint');
   if(unsureBtn) unsureBtn.disabled=true;
   if(hintEl) hintEl.remove();
   if(q.type==='radio'){
     const sel=app.querySelector('input[name="o"]:checked');
-    const chosen=sel?+sel.value:-1; correct=chosen===q.ans;
+    const chosen=sel?+sel.value:-1; correct=chosen===q.ans; earned=correct?1:0;
     app.querySelectorAll('.opt').forEach((el,idx)=>{
       if(idx===q.ans){el.classList.add('right'); el.insertAdjacentHTML('beforeend','<span class="tag r">correct</span>');}
       if(idx===chosen&&chosen!==q.ans){el.classList.add('wrong'); el.insertAdjacentHTML('beforeend','<span class="tag w">your pick</span>');}
@@ -1218,7 +1248,7 @@ function grade(confidence){
     answerText='Correct answer: '+q.opts[q.ans];
   } else if(q.type==='multi'){
     const chosen=[...app.querySelectorAll('input[name="o"]:checked')].map(x=>+x.value);
-    correct=eqSet(chosen,q.ans);
+    correct=eqSet(chosen,q.ans); earned=plusMinus(chosen,q.ans);
     app.querySelectorAll('.opt').forEach((el,idx)=>{
       const isAns=q.ans.includes(idx), picked=chosen.includes(idx);
       if(isAns){el.classList.add('right'); el.insertAdjacentHTML('beforeend','<span class="tag r">answer</span>');}
@@ -1230,7 +1260,9 @@ function grade(confidence){
     let allRight=true;
     app.querySelectorAll('select[data-row]').forEach(sel=>{
       const ri=+sel.dataset.row; const a=rows[ri].a; const v=sel.value===''?-1:+sel.value;
-      if(v===a){sel.classList.add('right');} else {sel.classList.add('wrong'); allRight=false;}
+      // One response per row, so each row is its own 0/1 - no deduction is
+      // possible because the reader cannot over-select.
+      if(v===a){sel.classList.add('right'); earned++;} else {sel.classList.add('wrong'); allRight=false;}
       sel.disabled=true;
     });
     correct=allRight;
@@ -1244,6 +1276,10 @@ function grade(confidence){
     const mChosen=[...app.querySelectorAll('input[name="params"]:checked')].map(x=>+x.value);
     const aOk=eqSet(aChosen,q.actions.ans), mOk=eqSet(mChosen,q.params.ans);
     correct=pOk&&aOk&&mOk;
+    // The problem is a single response (0/1); the two pick-N groups are
+    // Plus/Minus, each floored at zero on its own so a wild guess in one group
+    // cannot eat the points earned in the other.
+    earned=(pOk?1:0)+plusMinus(aChosen,q.actions.ans)+plusMinus(mChosen,q.params.ans);
     const mark=(key,ansArr,single)=>{
       app.querySelectorAll('.opt[data-key="'+key+'"]').forEach(el=>{
         const idx=+el.dataset.idx; const picked=el.querySelector('input').checked;
@@ -1258,7 +1294,7 @@ function grade(confidence){
       +' | Monitor: '+q.params.ans.map(x=>q.params.opts[x]).join(', ');
   } else if(q.type==='calc'){
     const inp=document.getElementById('calc'); const v=parseFloat((inp.value||'').replace('%','').trim());
-    correct=!isNaN(v)&&v>=q.acceptLo&&v<=q.acceptHi;
+    correct=!isNaN(v)&&v>=q.acceptLo&&v<=q.acceptHi; earned=correct?1:0;
     inp.classList.add(correct?'right':'wrong'); inp.disabled=true;
     answerText='Correct answer: '+q.answer;
   }
@@ -1268,9 +1304,10 @@ function grade(confidence){
   submitBtn.disabled=true; nextBtn.disabled=false;
 
   if(result[i]===null){
-    result[i]=correct; conf[i]=confidence; answeredCount++; if(correct)score++;
+    result[i]=correct; pts[i]=earned; conf[i]=confidence; answeredCount++;
+    score+=earned; possible+=mx;
     spent[i]=Math.round((Date.now()-itemStart)/1000);
-    record(q,correct,confidence);
+    record(q,correct,confidence,earned,mx);
   }
   setMeta();
 
@@ -1282,7 +1319,14 @@ function grade(confidence){
   }
 
   const fb=document.getElementById('fb');
-  fb.className='fb show '+(correct?'ok':'no');
+  // Three states, not two: on a multi-part item "not quite" is the wrong story
+  // when four of five parts were right. Partial credit needs its own verdict or
+  // the score and the feedback contradict each other.
+  const state = correct ? 'ok' : (earned>0 ? 'part' : 'no');
+  const verdict = correct ? '✓ Correct'
+                : earned>0 ? '◐ Partial credit — '+earned+' of '+mx+' points'
+                : '✗ Not quite';
+  fb.className='fb show '+state;
   // Structured feedback when the item provides it, else the legacy single blob.
   // Research (van der Kleij 2015; Ryan 2020) favours explaining each distractor
   // separately; Mayer's segmenting principle says the blocks must be visually
@@ -1297,7 +1341,9 @@ function grade(confidence){
   } else {
     body = '<p>'+q.rat+'</p>';
   }
-  fb.innerHTML='<div class="verdict '+(correct?'ok':'no')+'">'+(correct?'✓ Correct':'✗ Not quite')+'</div>'
+  fb.innerHTML='<div class="verdict '+state+'">'+verdict
+    +(correct&&mx>1?' <span style="opacity:.7;font-weight:400">('+mx+' of '+mx+' points)</span>':'')
+    +'</div>'
     +'<p>'+answerText+'</p>'
     + body
     + (q.strat ? '<div class="fblabel">Key concept</div><p class="strat">'+q.strat+'</p>' : '')
@@ -1307,13 +1353,20 @@ function grade(confidence){
 
 function results(ranOut){
   stopClock();
-  const pct=Math.round(score/ITEMS.length*100);
+  // Percentage is points earned over points available, so a 5-part item counts
+  // for 5. Unanswered items still count against the total - running out of time
+  // is not the same as not being asked.
+  const maxTotal=totalPoints(ITEMS);
+  const pct=Math.round(score/maxTotal*100);
+  const fullCredit=result.filter(r=>r===true).length;
+  const partial=ITEMS.filter((q,idx)=>result[idx]===false&&pts[idx]>0).length;
   const totalSecs=spent.reduce((a,b)=>a+b,0);
   const answered=spent.filter((s,idx)=>result[idx]!==null);
   const slowest=ITEMS.map((q,idx)=>({q,idx,s:spent[idx]}))
     .filter(x=>result[x.idx]!==null).sort((a,b)=>b.s-a.s).slice(0,3);
   const cats={};
-  ITEMS.forEach((q,idx)=>{ if(!cats[q.cat])cats[q.cat]={c:0,t:0}; cats[q.cat].t++; if(result[idx])cats[q.cat].c++; });
+  ITEMS.forEach((q,idx)=>{ if(!cats[q.cat])cats[q.cat]={c:0,t:0};
+    cats[q.cat].t+=maxPoints(q); cats[q.cat].c+=(pts[idx]||0); });
   const rows=Object.entries(cats).sort((a,b)=>b[1].t-a[1].t)
     .map(([k,v])=>'<tr><td>'+k+'</td><td>'+v.c+' / '+v.t+'</td></tr>').join('');
 
@@ -1351,12 +1404,14 @@ function results(ranOut){
   app.innerHTML='<div class="card end">'
     +(ranOut?'<div class="verdict no" style="margin-bottom:8px">⏱ Time expired — submitted automatically</div>':'')
     +'<div class="score">'+pct+'%</div>'
-    +'<div class="endsub">'+score+' of '+ITEMS.length+' correct</div>'
+    +'<div class="endsub">'+score+' of '+maxTotal+' points · '
+      +fullCredit+' of '+ITEMS.length+' items fully correct'
+      +(partial?' · '+partial+' earned partial credit':'')+'</div>'
     +timeLine
     +'<p>'+msg+'</p>'
     +quadTable
     +slowLine
-    +'<table class="brk"><tr><td><strong>Client Needs category</strong></td><td><strong>Correct</strong></td></tr>'+rows+'</table>'
+    +'<table class="brk"><tr><td><strong>Client Needs category</strong></td><td><strong>Points</strong></td></tr>'+rows+'</table>'
     +(missedNow?'<div class="miss"><h3>'+missedNow+' missed this run — saved for a "Missed only" re-run.</h3></div>'
                :'<div class="miss"><h3>Perfect run — no misses.</h3></div>')
     +'<div class="actions" style="justify-content:center">'
