@@ -227,6 +227,55 @@ def _check_cross_blank_cue(qn, blanks):
                          "other's distinguishing term.")
 
 
+# Only the NGN "Recognize cues" step, which asks which of the PRESENTED findings
+# matter. Deliberately NOT "select all findings" - a knowledge item ("select all
+# findings consistent with cystic fibrosis") asks what you would expect to see,
+# references no scenario, and firing on those buried the real defect 25 to 1.
+_CUE_STEM_RE = re.compile(r"recognize cues", re.I)
+
+# Only stems that PRESENT the data, not ones that promise it. Most recognize-cues
+# items say "the nurse gathers the following data" or "performs a focused
+# assessment" and then put every finding in the options - there, an option absent
+# from the stem is the design, not a bug. A stem carrying its own vital-signs
+# block has already shown its hand, so its keyed cues must come from what it
+# showed. Without this gate the check ran 5 false positives per real defect.
+_PRESENTS_DATA_RE = re.compile(
+    r"vital signs|\b(?:T|Temp|HR|RR|BP|SpO2)\s*[:=]?\s*\d.*?\b(?:T|Temp|HR|RR|BP|SpO2)\s*[:=]?\s*\d",
+    re.I | re.S)
+
+
+def _check_cue_in_stem(qn, q):
+    """A cue the student must recognize has to be present in the data.
+
+    An NGN "Recognize cues" item asks which of the PRESENTED findings matter.
+    Keying a finding the scenario never states trains the reader to invent data
+    instead of reading it, and it is unanswerable as written.
+
+    Found in the sickle cell case: "dry oral mucous membranes" was keyed in
+    part 1 and then quoted as established fact in part 2's stem, but part 1's
+    assessment never mentioned it. The finding existed in the case's head and
+    in the answer key, just not on the page.
+    """
+    if q.get("type") != "multi":
+        return
+    stem = str(q.get("stem") or "")
+    if not _CUE_STEM_RE.search(stem) or not _PRESENTS_DATA_RE.search(stem):
+        return
+    opts, ans = q.get("opts") or [], q.get("ans")
+    if not isinstance(ans, list):
+        return
+    stem_w = _cue_words(stem) | set(re.findall(r"\d+(?:\.\d+)?", stem))
+    for i in ans:
+        if not _idx_ok(i, len(opts)):
+            continue
+        ow = (_cue_words(opts[i])
+              | set(re.findall(r"\d+(?:\.\d+)?", str(opts[i]))))
+        if ow and not (ow & stem_w):
+            warn(qn, f'keyed cue "{opts[i]}" shares no content with the stem - '
+                     "a recognize-cues item can only key findings the scenario "
+                     "actually presents.")
+
+
 def _check_letter_refs(qn, q):
     """Rationales must never cite an option by letter.
 
@@ -310,6 +359,7 @@ def validate_item(q):
             _check_natural_order(qn, f"cloze blank {bi}", b.get("opts"))
             _check_self_defining_opts(qn, f"cloze blank {bi}", b.get("opts"), q.get("stem"))
     _check_cross_blank_cue(qn, q.get("blanks"))
+    _check_cue_in_stem(qn, q)
 
     if t in ("radio", "multi"):
         opts = q.get("opts", [])
